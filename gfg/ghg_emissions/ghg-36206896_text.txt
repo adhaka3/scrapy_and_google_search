@@ -1,0 +1,36 @@
+Agricultural greenhouse gas emissions of an Indian village - Who's to blame: crops or livestock?
+Agricultural greenhouse gas emissions of an Indian village - Who's to blame: crops or livestock?
+Sci Total Environ. 2023 Jan 15;856(Pt 2):159145.
+doi: 10.1016/j.scitotenv.2022.159145.
+Epub 2022 Oct 4.
+Authors
+Charlotte Hemingway
+1
+, Mathieu Vigne
+2
+, Claire Aubron
+3
+Affiliations
+1 SELMET, Université de Montpellier, CIRAD, INRAE, L'Institut Agro, 2 place Viala, 34060 Montpellier Cedex 1, France. Electronic address: charlotte.hemingway@supagro.fr.
+2 SELMET, Université de Montpellier, CIRAD, INRAE, L'Institut Agro, Campus international de Baillarguet ou Avenue Agropolis, 34398 Montpellier Cedex 5, France. Electronic address: mathieu.vigne@cirad.fr.
+3 SELMET, Université de Montpellier, CIRAD, INRAE, L'Institut Agro, 2 place Viala, 34060 Montpellier Cedex 1, France. Electronic address: claire.aubron@supagro.fr.
+PMID:
+36206896
+DOI:
+10.1016/j.scitotenv.2022.159145
+Abstract
+A carbon footprint assessment, combining various scales of analysis and including a territorial assessment, is proposed to estimate the greenhouse gas (GHG) emissions from crops and livestock in an Indian village impacted by both Green (for crops) and White (for milk) revolutions. It is based on the GHG assessment of 10 cropping systems, 8 livestock farming systems and 9 production systems using the comparative agriculture and Life Cycle Assessment (LCA) approaches. Results show that mineral fertilisation, irrigation and methane from paddy fields are the main drivers of emissions at plot level. Livestock farming systems emit from 4.7 tCO2eq/female to 8.6 tCO2eq/female, enteric fermentation being the first source of emission. Disparities at farm level are huge, ranging from 9 to 733 tCO2eq. At village level, emissions yield 37 tCO2eq/ha and livestock contributes to 60 % of GHG emissions. The high GHG emissions are a legacy of the Green and White Revolutions: the livestock population is high, fed on highly emissive fodder and concentrates and produces little milk. The results enhance our understanding of the share of carbon emissions from crops and livestock at farm and territorial level. They pinpoint the environmental and socio-economic downsides of livestock farming intensification.
+Keywords:
+Carbon footprint; Comparative agriculture; India; Livestock; Territorial Life Cycle Assessment.
+Copyright © 2022 Elsevier B.V. All rights reserved.
+MeSH terms
+Agriculture / methods
+Animals
+Crops, Agricultural
+Female
+Greenhouse Gases* / analysis
+Livestock
+Methane / analysis
+Substances
+Greenhouse Gases
+Methane

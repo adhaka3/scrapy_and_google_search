@@ -1,0 +1,1204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<!-- Always force latest IE rendering engine or request Chrome Frame -->
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3f776c1fa0","applicationID":"5523894","transactionName":"elhfQRdXWQkHFBgOUVpaQhoGV1sRBwhDPENYUFRGSktdChU=","queueTime":0,"applicationTime":614,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={xpid:"UAYDV1NVGwYFVlJaDgU=",licenseKey:"3f776c1fa0",applicationID:"5523894"};/*! For license information please see nr-loader-full-1221.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={507:function(__unused_webpack_module,__webpack_exports__,__webpack_require__){"use strict";function detectPolyfillFeatures(){var featureStatus={};return checkAndAddFeature("Promise","PROMISE"),checkAndAddFeature("Array.prototype.includes","ARRAY_INCLUDES"),checkAndAddFeature("Object.assign","OBJECT_ASSIGN"),checkAndAddFeature("Object.entries","OBJECT_ENTRIES"),featureStatus;function checkAndAddFeature(funcString,featName){try{var func=eval("self."+funcString);-1!==func.toString().indexOf("[native code]")?featureStatus[featName]=Status.NATIVE:featureStatus[featName]=Status.CHANGED}catch(e){featureStatus[featName]=Status.UNAVAIL}}}__webpack_require__.d(__webpack_exports__,{n:function(){return detectPolyfillFeatures}});var Status={UNAVAIL:"NotSupported",NATIVE:"Detected",CHANGED:"Modified"}},2687:function(e,t,r){"use strict";var n=r(2141);t.Z=(0,n.ky)(16)},1719:function(e,t,r){"use strict";r.d(t,{I:function(){return n}});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},3524:function(e,t,r){"use strict";var n,i;if(r.d(t,{H:function(){return i}}),r(8283).B){var o=document.createElement("div");o.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=o.getElementsByTagName("div").length}i=4===n?6:3===n?7:2===n?8:1===n?9:0},5970:function(e,t,r){"use strict";r.d(t,{P_:function(){return l},Mt:function(){return h},C5:function(){return u},DL:function(){return b},OP:function(){return L},Yu:function(){return m},Dg:function(){return p},CX:function(){return s},GE:function(){return g},sU:function(){return I}});var n={};r.r(n),r.d(n,{agent:function(){return O},match:function(){return P},version:function(){return x}});var i=r(4580),o=function(e,t){var r=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],n=e[1];r[t]=n}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")},a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},c={};function u(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!c[e])throw new Error("Info for "+e+" was never set");return c[e]}function s(e,t){if(!e)throw new Error("All info objects require an agent identifier!");c[e]=new o(t,a),(0,i.Qy)(e,c[e],"info")}var f={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},d={};function l(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!d[e])throw new Error("Configuration for "+e+" was never set");return d[e]}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");d[e]=new o(t,f),(0,i.Qy)(e,d[e],"config")}function h(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=l(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}var v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};function b(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!_[e])throw new Error("LoaderConfig for "+e+" was never set");return _[e]}function g(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");_[e]=new o(t,v),(0,i.Qy)(e,_[e],"loader_config")}var m=(0,i.mF)().o,y=r(3524),w=r(9206),O=null,x=null;if(navigator.userAgent){var E=navigator.userAgent,k=E.match(/Version\/(\S+)\s+Safari/);k&&-1===E.indexOf("Chrome")&&-1===E.indexOf("Chromium")&&(O="Safari",x=k[1])}function P(e,t){if(!O)return!1;if(e!==O)return!1;if(!t)return!0;if(!x)return!1;for(var r=x.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var S=r(2141),j=r(8283).B?window.sessionStorage:void 0,A="NRBA_SESSION_ID";var T=self.XMLHttpRequest,q=T&&T.prototype,C={};function L(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!C[e])throw new Error("Runtime for "+e+" was never set");return C[e]}function I(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r,a;C[e]=new o(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===y.H?2e3:3e4,offset:(0,w.yf)(),onerror:void 0,origin:""+self.location,ptid:void 0,releaseIds:{},sessionId:1==h(r,"privacy.cookies_enabled")&&j?(null===(a=j.getItem(A))&&(a=(0,S.ky)(16),j.setItem(A,a)),a):null,xhrWrappable:T&&q&&q.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,C[e],"runtime")}},8873:function(e,t,r){"use strict";r.d(t,{q:function(){return n}});var n=["1221","PROD"].filter((function(e){return e})).join(".")},1925:function(e,t,r){"use strict";r.d(t,{w:function(){return i}});var n={agentIdentifier:""},i=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,n),Object.entries(e).forEach((function(e){var r=e[0],i=e[1];Object.keys(n).includes(r)&&(t.sharedContext[r]=i)}))}},2071:function(e,t,r){"use strict";r.d(t,{ee:function(){return n}});var n,i=r(4580),o=r(9010),a=r(9599),c="nr@context",u=(0,i.fP)();function s(){}function f(){return new s}function d(){(n.backlog.api||n.backlog.feature)&&(n.aborted=!0,n.backlog={})}u.ee?n=u.ee:(n=function e(t,r){var i={},u={},l={},p={on:_,addEventListener:_,removeEventListener:b,emit:v,get:m,listeners:g,context:h,buffer:y,abort:d,aborted:!1,isBuffering:w,debugId:r,backlog:t&&t.backlog?t.backlog:{}};return p;function h(e){return e&&e instanceof s?e:e?(0,o.X)(e,c,f):f()}function v(e,r,i,o,a){if(!1!==a&&(a=!0),!n.aborted||o){t&&a&&t.emit(e,r,i);for(var c=h(i),s=g(e),f=s.length,d=0;d<f;d++)s[d].apply(c,r);var l=O()[u[e]];return l&&l.push([p,e,r,c]),c}}function _(e,t){i[e]=g(e).concat(t)}function b(e,t){var r=i[e];if(r)for(var n=0;n<r.length;n++)r[n]===t&&r.splice(n,1)}function g(e){return i[e]||[]}function m(t){return l[t]=l[t]||e(p,t)}function y(e,t){var r=O();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",u[n]=t,t in r||(r[t]=[])}))}function w(e){return!!O()[u[e]]}function O(){return p.backlog}}(void 0,"globalEE"),u.ee=n)},3195:function(e,t,r){"use strict";r.d(t,{E:function(){return n},p:function(){return i}});var n=r(2071).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4539:function(e,t,r){"use strict";r.d(t,{X:function(){return o}});var n=r(3195);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3585:function(e,t,r){"use strict";r.d(t,{m:function(){return o}});var n=!1;try{var i=Object.defineProperty({},"passive",{get:function(){n=!0}});self.addEventListener("testPassive",null,i),self.removeEventListener("testPassive",null,i)}catch(e){}function o(e){return n?{passive:!0,capture:!!e}:!!e}},2141:function(e,t,r){"use strict";function n(){var e=null,t=0,r=self.crypto||self.msCrypto;function n(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)a+="x"===(i=o[c])?n().toString(16):"y"===i?(i=3&n()|8).toString(16):i;return a}function i(){return a(16)}function o(){return a(32)}function a(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}r.d(t,{Ht:function(){return o},M:function(){return i},Rl:function(){return n},ky:function(){return a}})},9206:function(e,t,r){"use strict";r.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var n=r(1209),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function c(){return i}function u(e){o=e}function s(){return o}},1209:function(e,t,r){"use strict";var n,i;r.d(t,{G:function(){return o}});var o=void 0!==(null==(n=self.performance)||null==(i=n.timing)?void 0:i.navigationStart)},745:function(e,t,r){"use strict";r.d(t,{s:function(){return c},v:function(){return u}});var n=r(7036),i=r(1719),o=r(9206),a=r(1209),c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,self.performance.timing.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},7036:function(e,t,r){"use strict";r.d(t,{B:function(){return o},L:function(){return a}});var n=r(9206),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){var o,a,c=e.sharedContext.agentIdentifier,u=null==(o=i[c])?void 0:o[r],s=null==(a=i[c])?void 0:a[n];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},7233:function(e,t,r){"use strict";r.d(t,{e:function(){return o}});var n=r(8283),i={};function o(e){if(e in i)return i[e];if(0===(e||"").indexOf("data:"))return{protocol:"data"};var t,r=self.location,o={};if(n.B)(t=document.createElement("a")).href=e;else try{t=new URL(e,r.href)}catch(e){return o}o.port=t.port;var a=t.href.split("://");!o.port&&a[1]&&(o.port=a[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===a[0]?"443":"80"),o.hostname=t.hostname||r.hostname,o.pathname=t.pathname,o.protocol=a[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var c=!t.protocol||":"===t.protocol||t.protocol===r.protocol,u=t.hostname===r.hostname&&t.port===r.port;return o.sameOrigin=c&&(!t.hostname||u),"/"===o.pathname&&(i[e]=o),o}},8547:function(e,t,r){"use strict";r.d(t,{T:function(){return i}});var n=r(8283),i={isFileProtocol:function(){var e,t=(0,n.ek)(),r=Boolean("file:"===(null==(e=t.location)?void 0:e.protocol));r&&(i.supportabilityMetricSent=!0);return r},supportabilityMetricSent:!1}},9011:function(e,t,r){"use strict";r.d(t,{K:function(){return o}});var n=r(5970),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function o(e){var t={};return i.forEach((function(r){t[r]=function(e,t){return!0!==(0,n.OP)(t).disabled&&!1!==(0,n.Mt)(t,e+".enabled")}(r,e)})),t}},8025:function(e,t,r){"use strict";r.d(t,{W:function(){return i}});var n=r(2071),i=function(e,t,r){void 0===r&&(r=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.externalFeatures=r}},9010:function(e,t,r){"use strict";r.d(t,{X:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9599:function(e,t,r){"use strict";r.d(t,{D:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},248:function(e,t,r){"use strict";r.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var n=r(5970),i=r(1925),o=r(8547);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,r;function n(t){return e.call(this,t)||this}r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,a(t,r);var i=n.prototype;return i.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},i.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r},n}(i.w);function s(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},4580:function(e,t,r){"use strict";r.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return i},fP:function(){return o},gG:function(){return s},mF:function(){return a}});var n=r(9206),i={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return self.NREUM||(self.NREUM={}),void 0===self.newrelic&&(self.newrelic=self.NREUM),self.NREUM}function a(){var e=o();if(!e.o){var t=self,r=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:r,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,r){var i,a,c=o(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((i={})[r]=t,i)),a)),c}function u(e,t){o()[e]=t}function s(){var e,t;return e=o(),t=e.info||{},e.info=Object.assign({beacon:i.beacon,errorBeacon:i.errorBeacon},t),function(){var e=o(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=o(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),o()}},6023:function(e,t,r){"use strict";function n(){return"function"==typeof self.PerformanceObserver}r.d(t,{W:function(){return n}})},8283:function(e,t,r){"use strict";r.d(t,{B:function(){return a},ek:function(){return o},n2:function(){return c}});var n=self,i=n;function o(){return i}var a=Boolean("object"==typeof window&&self.document),c=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator)},8539:function(e){e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},__webpack_module_cache__={},inProgress,dataWebpackPrefix;function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.m=__webpack_modules__,__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,{a:t}),t},__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.f={},__webpack_require__.e=function(e){return Promise.all(Object.keys(__webpack_require__.f).reduce((function(t,r){return __webpack_require__.f[r](e,t),t}),[]))},__webpack_require__.u=function(e){return e+"."+__webpack_require__.h().slice(0,8)+"-1221.js"},__webpack_require__.h=function(){return"25fcbbf1b6e5e9bcbd37"},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},inProgress={},dataWebpackPrefix="NRBA:",__webpack_require__.l=function(e,t,r,n){if(inProgress[e])inProgress[e].push(t);else{var i,o;if(void 0!==r)for(var a=document.getElementsByTagName("script"),c=0;c<a.length;c++){var u=a[c];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==dataWebpackPrefix+r){i=u;break}}i||(o=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,__webpack_require__.nc&&i.setAttribute("nonce",__webpack_require__.nc),i.setAttribute("data-webpack",dataWebpackPrefix+r),i.src=e),inProgress[e]=[t];var s=function(t,r){i.onerror=i.onload=null,clearTimeout(f);var n=inProgress[e];if(delete inProgress[e],i.parentNode&&i.parentNode.removeChild(i),n&&n.forEach((function(e){return e(r)})),t)return t(r)},f=setTimeout(s.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=s.bind(null,i.onerror),i.onload=s.bind(null,i.onload),o&&document.head.appendChild(i)}},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.p="https://js-agent.newrelic.com/",function(){var e={57:0,309:0};__webpack_require__.f.j=function(t,r){var n=__webpack_require__.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var i=new Promise((function(r,i){n=e[t]=[r,i]}));r.push(n[2]=i);var o=__webpack_require__.p+__webpack_require__.u(t),a=new Error;__webpack_require__.l(o,(function(r){if(__webpack_require__.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var i=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed.\n("+i+": "+o+")",a.name="ChunkLoadError",a.type=i,a.request=o,n[1](a)}}),"chunk-"+t,t)}};var t=function(t,r){var n,i,o=r[0],a=r[1],c=r[2],u=0;if(o.some((function(t){return 0!==e[t]}))){for(n in a)__webpack_require__.o(a,n)&&(__webpack_require__.m[n]=a[n]);if(c)c(__webpack_require__)}for(t&&t(r);u<o.length;u++)i=o[u],__webpack_require__.o(e,i)&&e[i]&&e[i][0](),e[i]=0},r=self.webpackChunkNRBA=self.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))}();var __webpack_exports__={};!function(){"use strict";__webpack_require__.r(__webpack_exports__);var e=__webpack_require__(507),t=__webpack_require__(2687),r=__webpack_require__(3585),n=__webpack_require__(8283),i=n.B&&window,o=i&&i.document;function a(e){if(!o||"complete"===o.readyState)return e()||!0}function c(e){a(e)||i.addEventListener("load",e,(0,r.m)(!1))}function u(e){a(e)||o.addEventListener("DOMContentLoaded",e,(0,r.m)(!1))}var s=__webpack_require__(2071);function f(){f=function(){return e};var e={},t=Object.prototype,r=t.hasOwnProperty,n=Object.defineProperty||function(e,t,r){e[t]=r.value},i="function"==typeof Symbol?Symbol:{},o=i.iterator||"@@iterator",a=i.asyncIterator||"@@asyncIterator",c=i.toStringTag||"@@toStringTag";function u(e,t,r){return Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{u({},"")}catch(e){u=function(e,t,r){return e[t]=r}}function s(e,t,r,i){var o=t&&t.prototype instanceof p?t:p,a=Object.create(o.prototype),c=new P(i||[]);return n(a,"_invoke",{value:O(e,r,c)}),a}function d(e,t,r){try{return{type:"normal",arg:e.call(t,r)}}catch(e){return{type:"throw",arg:e}}}e.wrap=s;var l={};function p(){}function h(){}function v(){}var _={};u(_,o,(function(){return this}));var b=Object.getPrototypeOf,g=b&&b(b(S([])));g&&g!==t&&r.call(g,o)&&(_=g);var m=v.prototype=p.prototype=Object.create(_);function y(e){["next","throw","return"].forEach((function(t){u(e,t,(function(e){return this._invoke(t,e)}))}))}function w(e,t){function i(n,o,a,c){var u=d(e[n],e,o);if("throw"!==u.type){var s=u.arg,f=s.value;return f&&"object"==typeof f&&r.call(f,"__await")?t.resolve(f.__await).then((function(e){i("next",e,a,c)}),(function(e){i("throw",e,a,c)})):t.resolve(f).then((function(e){s.value=e,a(s)}),(function(e){return i("throw",e,a,c)}))}c(u.arg)}var o;n(this,"_invoke",{value:function(e,r){function n(){return new t((function(t,n){i(e,r,t,n)}))}return o=o?o.then(n,n):n()}})}function O(e,t,r){var n="suspendedStart";return function(i,o){if("executing"===n)throw new Error("Generator is already running");if("completed"===n){if("throw"===i)throw o;return j()}for(r.method=i,r.arg=o;;){var a=r.delegate;if(a){var c=x(a,r);if(c){if(c===l)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===n)throw n="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n="executing";var u=d(e,t,r);if("normal"===u.type){if(n=r.done?"completed":"suspendedYield",u.arg===l)continue;return{value:u.arg,done:r.done}}"throw"===u.type&&(n="completed",r.method="throw",r.arg=u.arg)}}}function x(e,t){var r=e.iterator[t.method];if(void 0===r){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,x(e,t),"throw"===t.method))return l;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return l}var n=d(r,e.iterator,t.arg);if("throw"===n.type)return t.method="throw",t.arg=n.arg,t.delegate=null,l;var i=n.arg;return i?i.done?(t[e.resultName]=i.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,l):i:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,l)}function E(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function k(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function P(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(E,this),this.reset(!0)}function S(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var n=-1,i=function t(){for(;++n<e.length;)if(r.call(e,n))return t.value=e[n],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:j}}function j(){return{value:void 0,done:!0}}return h.prototype=v,n(m,"constructor",{value:v,configurable:!0}),n(v,"constructor",{value:h,configurable:!0}),h.displayName=u(v,c,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===h||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,v):(e.__proto__=v,u(e,c,"GeneratorFunction")),e.prototype=Object.create(m),e},e.awrap=function(e){return{__await:e}},y(w.prototype),u(w.prototype,a,(function(){return this})),e.AsyncIterator=w,e.async=function(t,r,n,i,o){void 0===o&&(o=Promise);var a=new w(s(t,r,n,i),o);return e.isGeneratorFunction(r)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},y(m),u(m,c,"Generator"),u(m,o,(function(){return this})),u(m,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=Object(e),r=[];for(var n in t)r.push(n);return r.reverse(),function e(){for(;r.length;){var n=r.pop();if(n in t)return e.value=n,e.done=!1,e}return e.done=!0,e}},e.values=S,P.prototype={constructor:P,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(k),!e)for(var t in this)"t"===t.charAt(0)&&r.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function n(r,n){return a.type="throw",a.arg=e,t.next=r,n&&(t.method="next",t.arg=void 0),!!n}for(var i=this.tryEntries.length-1;i>=0;--i){var o=this.tryEntries[i],a=o.completion;if("root"===o.tryLoc)return n("end");if(o.tryLoc<=this.prev){var c=r.call(o,"catchLoc"),u=r.call(o,"finallyLoc");if(c&&u){if(this.prev<o.catchLoc)return n(o.catchLoc,!0);if(this.prev<o.finallyLoc)return n(o.finallyLoc)}else if(c){if(this.prev<o.catchLoc)return n(o.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<o.finallyLoc)return n(o.finallyLoc)}}}},abrupt:function(e,t){for(var n=this.tryEntries.length-1;n>=0;--n){var i=this.tryEntries[n];if(i.tryLoc<=this.prev&&r.call(i,"finallyLoc")&&this.prev<i.finallyLoc){var o=i;break}}o&&("break"===e||"continue"===e)&&o.tryLoc<=t&&t<=o.finallyLoc&&(o=null);var a=o?o.completion:{};return a.type=e,a.arg=t,o?(this.method="next",this.next=o.finallyLoc,l):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),l},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.finallyLoc===e)return this.complete(r.completion,r.afterLoc),k(r),l}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.tryLoc===e){var n=r.completion;if("throw"===n.type){var i=n.arg;k(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,r){return this.delegate={iterator:S(e),resultName:t,nextLoc:r},"next"===this.method&&(this.arg=void 0),l}},e}function d(e,t,r,n,i,o,a){try{var c=e[o](a),u=c.value}catch(e){return void r(e)}c.done?t(u):Promise.resolve(u).then(n,i)}var l=0;function p(e){var t;(t=f().mark((function t(){var r,n;return f().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!l++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,__webpack_require__.e(859).then(__webpack_require__.bind(__webpack_require__,7859));case 5:return r=t.sent,n=r.aggregator,t.next=9,n(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),s.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,r=arguments;return new Promise((function(n,i){var o=t.apply(e,r);function a(e){d(o,n,i,a,c,"next",e)}function c(e){d(o,n,i,a,c,"throw",e)}a(void 0)}))})()}var h=__webpack_require__(8539),v=__webpack_require__.n(h),_=__webpack_require__(4580),b=__webpack_require__(5970),g=__webpack_require__(3195),m=__webpack_require__(9599),y=__webpack_require__(9206);var w=!1;var O=__webpack_require__(7036),x=__webpack_require__(745),E=__webpack_require__(8025);function k(e,t){return k=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},k(e,t)}var P,S,j,A=function(e){var t,r;function i(t){var r;return r=e.call(this,t)||this,n.B?((0,x.v)(t),(0,O.B)(t,"firstbyte",(0,y.yf)()),c((function(){return r.measureWindowLoaded()})),u((function(){return r.measureDomContentLoaded()})),r):function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r)}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,k(t,r);var o=i.prototype;return o.measureWindowLoaded=function(){var e=(0,y.zO)();(0,O.B)(this.agentIdentifier,"onload",e+(0,y.os)()),(0,g.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,O.B)(this.agentIdentifier,"domContent",(0,y.zO)()+(0,y.os)())},i}(E.W);function T(e,t){return T=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},T(e,t)}n.B&&(void 0!==document.hidden?(P="hidden",S="visibilitychange",j="visibilityState"):void 0!==document.msHidden?(P="msHidden",S="msvisibilitychange"):void 0!==document.webkitHidden&&(P="webkitHidden",S="webkitvisibilitychange",j="webkitVisibilityState"));var q=function(e){var t,i;function o(t){var i,o;if(!(i=e.call(this,t)||this).isEnabled()||!n.B)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(i);if(i.pageHiddenTime="hidden"===document.visibilityState?-1:1/0,i.performanceObserver,i.lcpPerformanceObserver,i.clsPerformanceObserver,i.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i.performanceObserver=new PerformanceObserver((function(){var e;return(e=i).perfObserver.apply(e,arguments)}));try{i.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}i.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).lcpObserver.apply(e,arguments)}));try{i.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}i.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).clsObserver.apply(e,arguments)}));try{i.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){i.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(e){document.addEventListener(e,(function(){var e;return(e=i).captureInteraction.apply(e,arguments)}),(0,r.m)(!1))}))}return o=function(){var e;return(e=i).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&S&&document.addEventListener(S,(function(){j&&document[j]?o(document[j]):document[P]?o("hidden"):o("visible")}),(0,r.m)(!1)),i}i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,T(t,i);var a=o.prototype;return a.isEnabled=function(){return!1!==(0,b.Mt)(this.agentIdentifier,"page_view_timing.enabled")},a.perfObserver=function(e,t){var r=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,g.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,r.ee):"first-contentful-paint"===e.name&&(0,g.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,r.ee)}))},a.lcpObserver=function(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,g.p)("lcp",i,void 0,void 0,this.ee)}},a.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,g.p)("cls",[e],void 0,void 0,t.ee)}))},a.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},a.captureInteraction=function(e){if(e instanceof b.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,y.zO)()?r.fid=(0,y.zO)()-t:t>(0,y.os)()&&t<=Date.now()?(t-=(0,y.os)(),r.fid=(0,y.zO)()-t):t=(0,y.zO)(),this.fiRecorded=!0,(0,g.p)("timing",["fi",t,r],void 0,void 0,this.ee)}},a.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,y.zO)(),(0,g.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(E.W),C=__webpack_require__(4539),L="React",I="Angular",R="AngularJS",N="Backbone",H="Ember",B="Vue",z="Meteor",D="Zepto",M="Jquery";function F(){if(!n.B)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(L),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(R),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(I),window.Backbone&&e.push(N),window.Ember&&e.push(H),window.Vue&&e.push(B),window.Meteor&&e.push(z),window.Zepto&&e.push(D),window.jQuery&&e.push(M)}catch(e){}return e}var G,W=__webpack_require__(8547),U=__webpack_require__(248),V=__webpack_require__(8873);function X(e,t,r){return X=Z()?Reflect.construct.bind():function(e,t,r){var n=[null];n.push.apply(n,t);var i=new(Function.bind.apply(e,n));return r&&Y(i,r.prototype),i},X.apply(null,arguments)}function Z(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}function Y(e,t){return Y=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Y(e,t)}var J,Q,K,$=Boolean(self.Worker),ee=Boolean(self.SharedWorker),te=Boolean(null==(G=self.navigator)?void 0:G.serviceWorker);function re(e,t){return re=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},re(e,t)}var ne=function(e){var t,r;function i(t,r){var n;return void 0===r&&(r={}),(n=e.call(this,t)||this).PfFeatStatusEnum=r,n.singleChecks(),(0,C.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,C.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,re(t,r);var o=i.prototype;return o.recordSupportability=function(e,t){var r=["sm",e,{name:e},t];return(0,g.p)("storeMetric",r,null,void 0,this.ee),r},o.recordCustom=function(e,t){var r=["cm",e,{name:e},t];return(0,g.p)("storeEventMetrics",r,null,void 0,this.ee),r},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+V.q+"/Detected"),n.B&&u((function(){F().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),W.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),W.T.supportabilityMetricSent=!0);var t=(0,U.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,U.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),n.B&&this.reportPolyfillsNeeded(),function(e){if(!J){if($){J=Worker;try{self.Worker=r(J,"Dedicated")}catch(e){a(e,"Dedicated")}if(ee){Q=SharedWorker;try{self.SharedWorker=r(Q,"Shared")}catch(e){a(e,"Shared")}}else i("Shared");if(te){K=navigator.serviceWorker.register;try{self.navigator.serviceWorker.register=(t=K,function(){for(var e,r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return o("Service",null==(e=n[1])?void 0:e.type),t.apply(navigator.serviceWorker,n)})}catch(e){a(e,"Service")}}else i("Service");var t;return}i("All")}function r(e,t){return new Proxy(e,{construct:function(e,r){var n;return o(t,null==(n=r[1])?void 0:n.type),X(e,r)}})}function i(t){n.n2||e("Workers/"+t+"/Unavailable")}function o(t,r){e("module"===r?"Workers/"+t+"/Module":"Workers/"+t+"/Classic")}function a(t,r){e("Workers/"+r+"/SM/Unsupported"),console.warn("NR Agent: Unable to capture "+r+" workers.",t)}}(this.recordSupportability.bind(this))},o.reportPolyfillsNeeded=function(){this.recordSupportability("Generic/Polyfill/Promise/"+this.PfFeatStatusEnum.PROMISE),this.recordSupportability("Generic/Polyfill/ArrayIncludes/"+this.PfFeatStatusEnum.ARRAY_INCLUDES),this.recordSupportability("Generic/Polyfill/ObjectAssign/"+this.PfFeatStatusEnum.OBJECT_ASSIGN),this.recordSupportability("Generic/Polyfill/ObjectEntries/"+this.PfFeatStatusEnum.OBJECT_ENTRIES)},i}(E.W),ie=__webpack_require__(9010),oe=self,ae="fetch-",ce="fetch-body-",ue=["arrayBuffer","blob","json","text","formData"],se=oe.Request,fe=oe.Response,de="prototype",le="nr@context",pe={};function he(e){var t=function(e){return(e||s.ee).get("fetch")}(e);if(!(se&&fe&&oe.fetch))return t;if(pe[t.debugId])return t;function r(e,r,n){var i=e[r];"function"==typeof i&&(e[r]=function(){var e,r=v()(arguments),o={};t.emit(n+"before-start",[r],o),o[le]&&o[le].dt&&(e=o[le].dt);var a=i.apply(this,r);return t.emit(n+"start",[r,e],a),a.then((function(e){return t.emit(n+"end",[null,e],a),e}),(function(e){throw t.emit(n+"end",[e],a),e}))})}return pe[t.debugId]=!0,(0,m.D)(ue,(function(e,t){r(se[de],t,ce),r(fe[de],t,ce)})),r(oe,"fetch",ae),t.on("fetch-end",(function(e,r){var n=this;if(r){var i=r.headers.get("content-length");null!==i&&(n.rxSize=i),t.emit("fetch-done",[null,r],n)}else t.emit("fetch-done",[e],n)})),t}var ve="nr@original",_e=Object.prototype.hasOwnProperty,be=!1;function ge(e,t){return e||(e=s.ee),r.inPlace=function(e,t,n,i,o){n||(n="");var a,c,u,s="-"===n.charAt(0);for(u=0;u<t.length;u++)c=t[u],we(a=e[c])||(e[c]=r(a,s?c+n:n,i,c,o))},r.flag=ve,r;function r(t,r,i,o,a){return we(t)?t:(r||(r=""),c[ve]=t,ye(t,c,e),c);function c(){var c,u,s,f;try{u=this,c=v()(arguments),s="function"==typeof i?i(c,u):i||{}}catch(t){me([t,"",[c,u,o],s],e)}n(r+"start",[c,u,o],s,a);try{return f=t.apply(u,c)}catch(e){throw n(r+"err",[c,u,e],s,a),e}finally{n(r+"end",[c,u,f],s,a)}}}function n(r,n,i,o){if(!be||t){var a=be;be=!0;try{e.emit(r,n,i,t,o)}catch(t){me([t,r,n,i],e)}be=a}}}function me(e,t){t||(t=s.ee);try{t.emit("internal-error",e)}catch(e){}}function ye(e,t,r){if(Object.defineProperty&&Object.keys)try{return Object.keys(e).forEach((function(r){Object.defineProperty(t,r,{get:function(){return e[r]},set:function(t){return e[r]=t,t}})})),t}catch(e){me([e],r)}for(var n in e)_e.call(e,n)&&(t[n]=e[n]);return t}function we(e){return!(e&&e instanceof Function&&e.apply&&!e[ve])}var Oe={};function xe(e){var t=function(e){return(e||s.ee).get("timer")}(e);if(Oe[t.debugId])return t;Oe[t.debugId]=!0;var r=ge(t),n="setTimeout",i="setInterval",o="clearTimeout",a="-start";return r.inPlace(self,[n,"setImmediate"],"setTimeout-"),r.inPlace(self,[i],"setInterval-"),r.inPlace(self,[o,"clearImmediate"],"clearTimeout-"),t.on(i+a,(function(e,t,n){e[0]=r(e[0],"fn-",null,n)})),t.on(n+a,(function(e,t,n){this.method=n,this.timerDuration=isNaN(e[1])?0:+e[1],e[0]=r(e[0],"fn-",this,n)})),t}var Ee={};function ke(e){var t=function(e){return(e||s.ee).get("raf")}(e);if(Ee[t.debugId]||!n.B)return t;Ee[t.debugId]=!0;var r=ge(t);return r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),t.on("raf-start",(function(e){e[0]=r(e[0],"fn-")})),t}var Pe={};function Se(e){var t=function(e){return(e||s.ee).get("history")}(e);if(Pe[t.debugId]||!n.B)return t;Pe[t.debugId]=!0;var r=ge(t),i=window.history&&window.history.constructor&&window.history.constructor.prototype,o=window.history;return i&&i.pushState&&i.replaceState&&(o=i),r.inPlace(o,["pushState","replaceState"],"-"),t}var je={};function Ae(e){var t=function(e){return(e||s.ee).get("events")}(e);if(je[t.debugId])return t;je[t.debugId]=!0;var r=ge(t,!0),i=XMLHttpRequest,o="addEventListener",a="removeEventListener";function c(e){for(var t=e;t&&!t.hasOwnProperty(o);)t=Object.getPrototypeOf(t);t&&u(t)}function u(e){r.inPlace(e,[o,a],"-",f)}function f(e,t){return e[1]}return"getPrototypeOf"in Object?(n.B&&c(document),c(self),c(i.prototype)):i.prototype.hasOwnProperty(o)&&(u(self),u(i.prototype)),t.on("addEventListener-start",(function(e,t){var n=e[1];if(null!==n&&("function"==typeof n||"object"==typeof n)){var i=(0,ie.X)(n,"nr@wrapped",(function(){var e={object:function(){if("function"!=typeof n.handleEvent)return;return n.handleEvent.apply(n,arguments)},function:n}[typeof n];return e?r(e,"fn-",null,e.name||"anonymous"):n}));this.wrapped=e[1]=i}})),t.on("removeEventListener-start",(function(e){e[1]=this.wrapped||e[1]})),t}var Te={};function qe(e){var t=e||s.ee,n=function(e){return(e||s.ee).get("xhr")}(t);if(Te[n.debugId])return n;Te[n.debugId]=!0,Ae(t);var i=ge(n),o=b.Yu.XHR,a=b.Yu.MO,c=b.Yu.PR,u=b.Yu.SI,f="readystatechange",d=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],l=[],p=self.XMLHttpRequest.listeners,h=self.XMLHttpRequest=function(e){var t=new o(e);function i(){try{n.emit("new-xhr",[t],t),t.addEventListener(f,_,(0,r.m)(!1))}catch(e){console.error(e);try{n.emit("internal-error",[e])}catch(e){}}}return this.listeners=p?[].concat(p,[i]):[i],this.listeners.forEach((function(e){return e()})),t};function v(e,t){i.inPlace(t,["onreadystatechange"],"fn-",O)}function _(){var e=this,t=n.context(e);e.readyState>3&&!t.resolved&&(t.resolved=!0,n.emit("xhr-resolved",[],e)),i.inPlace(e,d,"fn-",O)}if(function(e,t){for(var r in e)t[r]=e[r]}(o,h),h.prototype=o.prototype,i.inPlace(h.prototype,["open","send"],"-xhr-",O),n.on("send-xhr-start",(function(e,t){v(e,t),function(e){l.push(e),a&&(g?g.then(w):u?u(w):(m=-m,y.data=m))}(t)})),n.on("open-xhr-start",v),a){var g=c&&c.resolve();if(!u&&!c){var m=1,y=document.createTextNode(m);new a(w).observe(y,{characterData:!0})}}else t.on("fn-end",(function(e){e[0]&&e[0].type===f||w()}));function w(){for(var e=0;e<l.length;e++)v(0,l[e]);l.length&&(l=[])}function O(e,t){return t}return n}function Ce(e){return Ae(e)}function Le(e){return ke(e)}function Ie(e){return xe(e)}function Re(e){return qe(e)}var Ne,He={};try{Ne=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(He.console=!0,-1!==Ne.indexOf("dev")&&(He.dev=!0),-1!==Ne.indexOf("nr_dev")&&(He.nrDev=!0))}catch(e){}function Be(e){try{He.console&&Be(e)}catch(e){}}function ze(e,t){return ze=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},ze(e,t)}He.nrDev&&s.ee.on("internal-error",(function(e){Be(e.stack)})),He.dev&&s.ee.on("fn-err",(function(e,t,r){Be(r.stack)})),He.dev&&(Be("NR AGENT IN DEVELOPMENT MODE"),Be("flags: "+(0,m.D)(He,(function(e,t){return e})).join(", ")));var De="nr@seenError",Me=function(e){var t,r;function n(t){var r;(r=e.call(this,t)||this).skipNext=0,r.handleErrors=!1,r.origOnerror=self.onerror;var n=function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r),i=(0,b.OP)(r.agentIdentifier);i.features.err=!0,n.ee.on("fn-start",(function(e,t,r){n.handleErrors&&(n.skipNext+=1)})),n.ee.on("fn-err",(function(e,t,r){n.handleErrors&&!r[De]&&((0,ie.X)(r,De,(function(){return!0})),this.thrown=!0,Ge(r,void 0,n.ee))})),n.ee.on("fn-end",(function(){n.handleErrors&&!this.thrown&&n.skipNext>0&&(n.skipNext-=1)})),n.ee.on("internal-error",(function(e){(0,g.p)("ierr",[e,(0,y.zO)(),!0],void 0,void 0,n.ee)}));var o=self.onerror;self.onerror=function(){var e;return o&&o.apply(void 0,arguments),(e=r).onerrorHandler.apply(e,arguments),!1};try{self.addEventListener("unhandledrejection",(function(e){var t=new Error(""+e.reason);(0,g.p)("err",[t,(0,y.zO)(),!1,{unhandledPromiseRejection:1}],void 0,void 0,r.ee)}))}catch(e){}try{throw new Error}catch(e){"stack"in e&&(Ie(r.ee),Le(r.ee),"addEventListener"in self&&Ce(r.ee),i.xhrWrappable&&Re(r.ee),n.handleErrors=!0)}return r}return r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,ze(t,r),n.prototype.onerrorHandler=function(e,t,r,n,i){try{this.skipNext?this.skipNext-=1:Ge(i||new Fe(e,t,r),!0,this.ee)}catch(e){try{(0,g.p)("ierr",[e,(0,y.zO)(),!0],void 0,void 0,this.ee)}catch(e){}}return"function"==typeof this.origOnerror&&this.origOnerror.apply(this,v()(arguments))},n}(E.W);function Fe(e,t,r){this.message=e||"Uncaught error with no additional information",this.sourceURL=t,this.line=r}function Ge(e,t,r){var n=t?null:(0,y.zO)();(0,g.p)("err",[e,n],void 0,void 0,r)}var We=1;function Ue(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===self?0:(0,ie.X)(e,"nr@id",(function(){return We++}))}var Ve=__webpack_require__(1719);function Xe(e){if("string"==typeof e&&e.length)return e.length;if("object"==typeof e){if("undefined"!=typeof ArrayBuffer&&e instanceof ArrayBuffer&&e.byteLength)return e.byteLength;if("undefined"!=typeof Blob&&e instanceof Blob&&e.size)return e.size;if(!("undefined"!=typeof FormData&&e instanceof FormData))try{return JSON.stringify(e).length}catch(e){return}}}var Ze=__webpack_require__(7233),Ye=__webpack_require__(2141),Je=function(){function e(e){this.agentIdentifier=e,this.generateTracePayload=this.generateTracePayload.bind(this),this.shouldGenerateTrace=this.shouldGenerateTrace.bind(this)}var t=e.prototype;return t.generateTracePayload=function(e){if(!this.shouldGenerateTrace(e))return null;var t=(0,b.DL)(this.agentIdentifier);if(!t)return null;var r=(t.accountID||"").toString()||null,n=(t.agentID||"").toString()||null,i=(t.trustKey||"").toString()||null;if(!r||!n)return null;var o=(0,Ye.M)(),a=(0,Ye.Ht)(),c=Date.now(),u={spanId:o,traceId:a,timestamp:c};return(e.sameOrigin||this.isAllowedOrigin(e)&&this.useTraceContextHeadersForCors())&&(u.traceContextParentHeader=this.generateTraceContextParentHeader(o,a),u.traceContextStateHeader=this.generateTraceContextStateHeader(o,c,r,n,i)),(e.sameOrigin&&!this.excludeNewrelicHeader()||!e.sameOrigin&&this.isAllowedOrigin(e)&&this.useNewrelicHeaderForCors())&&(u.newrelicHeader=this.generateTraceHeader(o,a,c,r,n,i)),u},t.generateTraceContextParentHeader=function(e,t){return"00-"+t+"-"+e+"-01"},t.generateTraceContextStateHeader=function(e,t,r,n,i){return i+"@nr=0-1-"+r+"-"+n+"-"+e+"----"+t},t.generateTraceHeader=function(e,t,r,n,i,o){if(!("function"==typeof self.btoa))return null;var a={v:[0,1],d:{ty:"Browser",ac:n,ap:i,id:e,tr:t,ti:r}};return o&&n!==o&&(a.d.tk=o),btoa(JSON.stringify(a))},t.shouldGenerateTrace=function(e){return this.isDtEnabled()&&this.isAllowedOrigin(e)},t.isAllowedOrigin=function(e){var t=!1,r={};if((0,b.Mt)(this.agentIdentifier,"distributed_tracing")&&(r=(0,b.P_)(this.agentIdentifier).distributed_tracing),e.sameOrigin)t=!0;else if(r.allowed_origins instanceof Array)for(var n=0;n<r.allowed_origins.length;n++){var i=(0,Ze.e)(r.allowed_origins[n]);if(e.hostname===i.hostname&&e.protocol===i.protocol&&e.port===i.port){t=!0;break}}return t},t.isDtEnabled=function(){var e=(0,b.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.enabled},t.excludeNewrelicHeader=function(){var e=(0,b.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.exclude_newrelic_header},t.useNewrelicHeaderForCors=function(){var e=(0,b.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!1!==e.cors_use_newrelic_header},t.useTraceContextHeadersForCors=function(){var e=(0,b.Mt)(this.agentIdentifier,"distributed_tracing");return!!e&&!!e.cors_use_tracecontext_headers},e}();function Qe(e,t){return Qe=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Qe(e,t)}var Ke=["load","error","abort","timeout"],$e=Ke.length,et=b.Yu.REQ,tt=self.XMLHttpRequest,rt=function(e){var t,n;function i(t){var n;n=e.call(this,t)||this;var i=(0,b.OP)(n.agentIdentifier);return!i.xhrWrappable||i.disabled?function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(n):(i.features.xhr=!0,n.dt=new Je(n.agentIdentifier),n.handler=function(e,t,r,i){return(0,g.p)(e,t,r,i,n.ee)},n.wrappedFetch=function(e,t){return r=e,he(r);var r}(n.ee),Re(n.ee),function(e,t,n,i){function o(e){var t=this;t.totalCbs=0,t.called=0,t.cbTime=0,t.end=O,t.ended=!1,t.xhrGuids={},t.lastSize=null,t.loadCaptureCalled=!1,t.params=this.params||{},t.metrics=this.metrics||{},e.addEventListener("load",(function(r){E(t,e)}),(0,r.m)(!1)),Ve.I&&(Ve.I>34||Ve.I<10)||e.addEventListener("progress",(function(e){t.lastSize=e.loaded}),(0,r.m)(!1))}function a(e){this.params={method:e[0]},x(this,e[1]),this.metrics={}}function c(t,r){var n=(0,b.DL)(e);"xpid"in n&&this.sameOrigin&&r.setRequestHeader("X-NewRelic-ID",n.xpid);var o=i.generateTracePayload(this.parsedOrigin);if(o){var a=!1;o.newrelicHeader&&(r.setRequestHeader("newrelic",o.newrelicHeader),a=!0),o.traceContextParentHeader&&(r.setRequestHeader("traceparent",o.traceContextParentHeader),o.traceContextStateHeader&&r.setRequestHeader("tracestate",o.traceContextStateHeader),a=!0),a&&(this.dt=o)}}function u(e,n){var i=this.metrics,o=e[0],a=this;if(i&&o){var c=Xe(o);c&&(i.txSize=c)}this.startTime=(0,y.zO)(),this.listener=function(e){try{"abort"!==e.type||a.loadCaptureCalled||(a.params.aborted=!0),("load"!==e.type||a.called===a.totalCbs&&(a.onloadCalled||"function"!=typeof n.onload))&&a.end(n)}catch(e){try{t.emit("internal-error",[e])}catch(e){}}};for(var u=0;u<$e;u++)n.addEventListener(Ke[u],this.listener,(0,r.m)(!1))}function s(e,t,r){this.cbTime+=e,t?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof r.onload||this.end(r)}function f(e,t){var r=""+Ue(e)+!!t;this.xhrGuids&&!this.xhrGuids[r]&&(this.xhrGuids[r]=!0,this.totalCbs+=1)}function d(e,t){var r=""+Ue(e)+!!t;this.xhrGuids&&this.xhrGuids[r]&&(delete this.xhrGuids[r],this.totalCbs-=1)}function l(){this.endTime=(0,y.zO)()}function p(e,r){r instanceof tt&&"load"===e[0]&&t.emit("xhr-load-added",[e[1],e[2]],r)}function h(e,r){r instanceof tt&&"load"===e[0]&&t.emit("xhr-load-removed",[e[1],e[2]],r)}function v(e,t,r){t instanceof tt&&("onload"===r&&(this.onload=!0),("load"===(e[0]&&e[0].type)||this.onload)&&(this.xhrCbStart=(0,y.zO)()))}function _(e,r){this.xhrCbStart&&t.emit("xhr-cb-time",[(0,y.zO)()-this.xhrCbStart,this.onload,r],r)}function g(e){var t,r=e[1]||{};"string"==typeof e[0]?t=e[0]:e[0]&&e[0].url?t=e[0].url:self.URL&&e[0]&&e[0]instanceof URL&&(t=e[0].href),t&&(this.parsedOrigin=(0,Ze.e)(t),this.sameOrigin=this.parsedOrigin.sameOrigin);var n=i.generateTracePayload(this.parsedOrigin);if(n&&(n.newrelicHeader||n.traceContextParentHeader))if("string"==typeof e[0]||self.URL&&e[0]&&e[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),c(o.headers,n)&&(this.dt=n),e.length>1?e[1]=o:e.push(o)}else e[0]&&e[0].headers&&c(e[0].headers,n)&&(this.dt=n);function c(e,t){var r=!1;return t.newrelicHeader&&(e.set("newrelic",t.newrelicHeader),r=!0),t.traceContextParentHeader&&(e.set("traceparent",t.traceContextParentHeader),t.traceContextStateHeader&&e.set("tracestate",t.traceContextStateHeader),r=!0),r}}function m(e,t){this.params={},this.metrics={},this.startTime=(0,y.zO)(),this.dt=t,e.length>=1&&(this.target=e[0]),e.length>=2&&(this.opts=e[1]);var r,n=this.opts||{},i=this.target;"string"==typeof i?r=i:"object"==typeof i&&i instanceof et?r=i.url:self.URL&&"object"==typeof i&&i instanceof URL&&(r=i.href),x(this,r);var o=(""+(i&&i instanceof et&&i.method||n.method||"GET")).toUpperCase();this.params.method=o,this.txSize=Xe(n.body)||0}function w(e,t){var r;this.endTime=(0,y.zO)(),this.params||(this.params={}),this.params.status=t?t.status:0,"string"==typeof this.rxSize&&this.rxSize.length>0&&(r=+this.rxSize);var i={txSize:this.txSize,rxSize:r,duration:(0,y.zO)()-this.startTime};n("xhr",[this.params,i,this.startTime,this.endTime,"fetch"],this)}function O(e){var t=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;i<$e;i++)e.removeEventListener(Ke[i],this.listener,!1);t.aborted||(r.duration=(0,y.zO)()-this.startTime,this.loadCaptureCalled||4!==e.readyState?null==t.status&&(t.status=0):E(this,e),r.cbTime=this.cbTime,n("xhr",[t,r,this.startTime,this.endTime,"xhr"],this))}}function x(e,t){var r=(0,Ze.e)(t),n=e.params;n.hostname=r.hostname,n.port=r.port,n.protocol=r.protocol,n.host=r.hostname+":"+r.port,n.pathname=r.pathname,e.parsedOrigin=r,e.sameOrigin=r.sameOrigin}function E(e,t){e.params.status=t.status;var r=function(e,t){var r=e.responseType;return"json"===r&&null!==t?t:"arraybuffer"===r||"blob"===r||"json"===r?Xe(e.response):"text"===r||""===r||void 0===r?Xe(e.responseText):void 0}(t,e.lastSize);if(r&&(e.metrics.rxSize=r),e.sameOrigin){var n=t.getResponseHeader("X-NewRelic-App-Data");n&&(e.params.cat=n.split(", ").pop())}e.loadCaptureCalled=!0}t.on("new-xhr",o),t.on("open-xhr-start",a),t.on("open-xhr-end",c),t.on("send-xhr-start",u),t.on("xhr-cb-time",s),t.on("xhr-load-added",f),t.on("xhr-load-removed",d),t.on("xhr-resolved",l),t.on("addEventListener-end",p),t.on("removeEventListener-end",h),t.on("fn-end",_),t.on("fetch-before-start",g),t.on("fetch-start",m),t.on("fn-start",v),t.on("fetch-done",w)}(n.agentIdentifier,n.ee,n.handler,n.dt),n)}return n=e,(t=i).prototype=Object.create(n.prototype),t.prototype.constructor=t,Qe(t,n),i}(E.W);var nt=__webpack_require__(6023);function it(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function ot(e,t){return ot=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},ot(e,t)}var at="addEventListener",ct="resourcetimingbufferfull",ut="bstResource",st="-start",ft="-end",dt="fn-start",lt="fn-end",pt="bstTimer",ht="pushState",vt=b.Yu.EV,_t=function(e){var t,i;function o(t){var i;if(i=e.call(this,t)||this,!n.B)return it(i);if(!(window.performance&&window.performance.timing&&window.performance.getEntriesByType))return it(i);(0,b.OP)(i.agentIdentifier).features.stn=!0;var o=i.ee;function a(e){if((0,g.p)(ut,[window.performance.getEntriesByType("resource")],void 0,void 0,o),window.performance.clearResourceTimings)try{window.performance.removeEventListener(ct,a,!1)}catch(e){}else try{window.performance.removeEventListener("webkitresourcetimingbufferfull",a,!1)}catch(e){}}return i.timerEE=Ie(i.ee),i.rafEE=Le(i.ee),Se(i.ee),Ce(i.ee),i.ee.on(dt,(function(e,t){e[0]instanceof vt&&(this.bstStart=(0,y.zO)())})),i.ee.on(lt,(function(e,t){var r=e[0];r instanceof vt&&(0,g.p)("bst",[r,t,this.bstStart,(0,y.zO)()],void 0,void 0,o)})),i.timerEE.on(dt,(function(e,t,r){this.bstStart=(0,y.zO)(),this.bstType=r})),i.timerEE.on(lt,(function(e,t){(0,g.p)(pt,[t,this.bstStart,(0,y.zO)(),this.bstType],void 0,void 0,o)})),i.rafEE.on(dt,(function(){this.bstStart=(0,y.zO)()})),i.rafEE.on(lt,(function(e,t){(0,g.p)(pt,[t,this.bstStart,(0,y.zO)(),"requestAnimationFrame"],void 0,void 0,o)})),i.ee.on(ht+st,(function(e){this.time=(0,y.zO)(),this.startPath=location.pathname+location.hash})),i.ee.on(ht+ft,(function(e){(0,g.p)("bstHist",[location.pathname+location.hash,this.startPath,this.time],void 0,void 0,o)})),(0,nt.W)()?((0,g.p)(ut,[window.performance.getEntriesByType("resource")],void 0,void 0,o),function(){var e=new PerformanceObserver((function(e,t){var r=e.getEntries();(0,g.p)(ut,[r],void 0,void 0,o)}));try{e.observe({entryTypes:["resource"]})}catch(e){}}()):at in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener(ct,a,(0,r.m)(!1)):window.performance.addEventListener("webkitresourcetimingbufferfull",a,(0,r.m)(!1))),document.addEventListener("scroll",i.noOp,(0,r.m)(!1)),document.addEventListener("keypress",i.noOp,(0,r.m)(!1)),document.addEventListener("click",i.noOp,(0,r.m)(!1)),i}return i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,ot(t,i),o.prototype.noOp=function(e){},o}(E.W);function bt(e,t){return bt=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},bt(e,t)}var gt,mt,yt,wt=function(e){var t,r;function n(t){var r;return r=e.call(this,t)||this,(0,b.OP)(r.agentIdentifier).features.ins=!0,r}return r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,bt(t,r),n}(E.W),Ot=__webpack_require__(9011),xt=(0,e.n)();try{!function(){if(!w){var e=(0,_.gG)();n.n2&&(e.info.jsAttributes=Object.assign({},e.info.jsAttributes,{isWorker:!0}));try{(0,b.CX)(t.Z,e.info),(0,b.Dg)(t.Z,e.init),(0,b.GE)(t.Z,e.loader_config),(0,b.sU)(t.Z,{}),function(e){var t=(0,_.fP)(),r=s.ee.get(e),n=r.get("tracer"),i="api-",o="api-ixn-";function a(){}(0,m.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=u(i,r,!0,"api")})),t.addPageAction=u(i,"addPageAction",!0),t.setCurrentRouteName=u(i,"routeName",!0),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,b.OP)(e).customTransaction=(r||"http://custom.transaction")+t,u(i,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){var n,o=(0,b.C5)(e);return(0,b.CX)(e,Object.assign({},o,{jsAttributes:Object.assign({},o.jsAttributes,(n={},n[t]=r,n))})),u(i,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var i={},o=this,a="function"==typeof t;return(0,g.p)("api-ixn-tracer",[(0,y.zO)(),e,i],o,void 0,r),function(){if(n.emit((a?"":"no-")+"fn-start",[(0,y.zO)(),o,a],i),a)try{return t.apply(this,arguments)}catch(e){throw n.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],i),e}finally{n.emit("fn-end",[(0,y.zO)()],i)}}}};function u(e,t,n,i){return function(){return(0,g.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,r),(0,g.p)(e+t,[(0,y.zO)()].concat(v()(arguments)),n?null:this,i,r),n?void 0:this}}(0,m.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=u(o,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,g.p)("record-supportability",["API/noticeError/called"],void 0,void 0,r),(0,g.p)("err",[e,(0,y.zO)(),!1,t],void 0,void 0,r)}}(t.Z),w=!0}catch(e){}}}();var Et=(0,Ot.K)(t.Z);Et.page_view_event&&new A(t.Z),Et.page_view_timing&&new q(t.Z),Et.metrics&&new ne(t.Z,xt),Et.jserrors&&new Me(t.Z),Et.ajax&&new rt(t.Z),Et.session_trace&&new _t(t.Z),Et.page_action&&new wt(t.Z),gt="pro",void 0===yt&&(yt=1e3),mt?setTimeout((function(){return p(gt)}),yt):n.B?c((function(){return p(gt)})):p(gt)}catch(e){var kt,Pt,St;null!=(kt=self)&&null!=(Pt=kt.newrelic)&&null!=(St=Pt.ee)&&St.abort&&self.newrelic.ee.abort()}}(),self.NRBA=__webpack_exports__})();
+//# sourceMappingURL=https://js-agent.newrelic.com/nr-loader-full-1221.min.25fcbbf1.map</script>
+<!-- Responsiveness -->
+<meta content='width=device-width, initial-scale=1.0, minimum-scale=1' name='viewport'>
+<!-- Favicon -->
+<link href='/favicon.ico' rel='shortcut icon' type='image/ico'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="t4ZFqYjs8eA1v+Q/yTxhyXhTsG16Juy8anPSO+xRZUI+3sadCAT0oum+z/NjjAfcLVujJRLUpAe/Xd2B8o/4qA==" />
+<link href='https://climate.nasa.gov/causes.amp' rel='amphtml'>
+<title>Causes | Facts – Climate Change: Vital Signs of the Planet</title>
+<meta content='Climate Change: Vital Signs of the Planet' property='og:site_name'>
+<meta content='' name='author'>
+<meta content='NASA, climate change, global warming, greenhouse effect, humans, anthropogenic' name='keywords'>
+<meta content='Vital Signs of the Planet: Global Climate Change and Global Warming. What is the “greenhouse effect”? What is causing it? Are humans to blame? What does solar irradiance have to do with it? Answers here.' name='description'>
+<meta content='Most climate scientists agree the main cause of the current global warming trend is human expansion of the &quot;greenhouse effect&quot; — warming that results when the atmosphere traps heat radiating from Earth toward space.' property='og:description'>
+<meta content='The Causes of Climate Change' property='og:title'>
+<meta content='https://climate.nasa.gov/causes' property='og:url'>
+<meta content='article' property='og:type'>
+<meta content='2022-11-10 16:18:04 -0800' property='og:updated_time'>
+<meta content='The Causes of Climate Change' name='twitter:title'>
+<meta content='Most climate scientists agree the main cause of the current global warming trend is human expansion of the &quot;greenhouse effect&quot; — warming that results when the atmosphere traps heat radiating from Earth toward space.' name='twitter:description'>
+<meta content='https://climate.nasa.gov/internal_resources/2584/greenhouse-effect-revised-1200x630.jpg' property='og:image'>
+<meta content='https://climate.nasa.gov/internal_resources/2584/greenhouse-effect-revised-1200x630.jpg' name='twitter:image'>
+<link href='https://climate.nasa.gov/internal_resources/2584/greenhouse-effect-revised-1200x630.jpg' rel='image_src'>
+<link href='/causes/' hreflang='en' rel='alternate'>
+<link href='/causas/' hreflang='es' rel='alternate'>
+<link href='/causes/' hreflang='x-default' rel='alternate'>
+
+
+<meta content='253148381806292' property='fb:app_id'>
+
+<link rel="stylesheet" media="all" href="/assets/public_manifest-b5bfbf745c1bd7c7c252c9a6cde22287b862698d19553a78e781236fecd18c17.css" />
+<link rel="stylesheet" media="screen" href="/assets/mbcms/vendor/jquery.fancybox3-d5d81bdfc05a59e4ea72bca1d8b7fcc399bd3b61f7c06af95a8a48795df69d7a.css" />
+<link rel="stylesheet" media="screen" href="/assets/mbcms/vendor/jquery.fancybox-thumbs-63891ea3fd7b7f15621befe5cbdf329cd554b2129f7d69a7ea8d7cedb4c98323.css" />
+<link rel="stylesheet" media="print" href="/assets/gulp/print-f54dc65f5d92353561cad5b8afd7b1e7ede0f7c606679623174ac9b2f5398f22.css" />
+<script src="/assets/public_manifest-809e1b44b479964f6c26fdf27a31bd20c95afb312b4c266a12592799c2dcd995.js"></script>
+<script src="/assets/mbcms/vendor/jquery.fancybox3-bd543a29719f5c70e897670b5484b67824cc3c8eba68c8e4719d3cd6e2a5f542.js"></script>
+<script src="/assets/mbcms/vendor/jquery.fancybox-thumbs3-165b9822252e6816da53602b68cdd1a366475c528a9276488772c4849fed264f.js"></script>
+<script src="/assets/mb_manifest-459571a79518493a9faaa88b7317065493d488c1a9d266df10c6435b58c789f1.js"></script>
+
+<!-- /twitter cards -->
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@NASAClimate' name='twitter:site'>
+<meta content='Causes' name='twitter:title'>
+<meta content='Vital Signs of the Planet: Global Climate Change and Global Warming. What is the “greenhouse effect”? What is causing it? Are humans to blame? What does solar irradiance have to do with it? Answers here.' name='twitter:description'>
+<meta content='https://climate.nasa.gov/internal_resources/2584/greenhouse-effect-revised-1200x630.jpg' name='twitter:image'>
+
+</head>
+<body id='causes'>
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLDQZ25" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) -->
+
+
+<div data-react-class="BrowseHappier" data-react-props="{&quot;gt&quot;:1,&quot;lt&quot;:11}" data-react-cache-id="BrowseHappier-0"></div>
+<!-- For svg icons future use -->
+
+<div id='main_container'>
+<div id='site_body'>
+<div class='site_header_area'>
+<header class='site_header'>
+<div class='brand_area'>
+<div class='brand1'>
+<a class='nasa_logo' href='https://www.nasa.gov' target='_blank' title='visit nasa.gov'>NASA</a>
+</div>
+<div class='brand2'>
+<div class='gcc_logo'>
+<a href='/' id='gcc_logo' title='Home'>Global Climate Change</a>
+</div>
+<div class='sub_logo'>
+Vital Signs of the Planet
+</div>
+</div>
+<img alt='' class='print_only print_logo' src='/assets/logo_nasa_trio_black@2x.png'>
+</div>
+
+<a class='visuallyhidden focusable' href='#page'>Skip Navigation</a>
+<div class='right_header_container'>
+<a class='menu_button' href='javascript:void(0);' id='menu_button'>
+<span class='menu_icon'>
+menu
+</span>
+</a>
+<a class='modal_close' id='modal_close'>
+<span class='modal_close_icon'>
+close modal
+</span>
+</a>
+</div>
+<div class='nav_area'>
+<div id='site_nav_container'>
+<nav data-react-class="Meganav" data-react-props="{&quot;nav_items&quot;:[{&quot;name&quot;:&quot;Global Climate Change Home&quot;,&quot;li_class&quot;:&quot;nav_site_title&quot;,&quot;link&quot;:&quot;/&quot;},{&quot;name&quot;:&quot;Earth Now&quot;,&quot;style&quot;:&quot;icon&quot;,&quot;li_class&quot;:&quot;earth_now&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;link&quot;:&quot;/earth-now/&quot;,&quot;svg_icon_id&quot;:&quot;earth_now&quot;,&quot;id&quot;:1356,&quot;features&quot;:[{&quot;title&quot;:&quot;Global Air Temperature&quot;,&quot;body&quot;:&quot;View a current datamap of air temperatures around the globe, observed from space.&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb1VNIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8d04e4df935264ca4967f02454654ad156fa8d22/global_air_temp.jpg?disposition=inline&quot;,&quot;link&quot;:&quot;/earth-now/?vs_name=air_temperature\u0026dataset_id=820\u0026group_id=46\u0026animating=f\u0026start=\u0026end=&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;categories&quot;:[]}],&quot;title&quot;:&quot;Earth Now&quot;,&quot;short_description&quot;:&quot;Explore a real-time data visualization of NASA’s Earth-orbiting satellites and the data they collect about climate change.&quot;},{&quot;name&quot;:&quot;Facts&quot;,&quot;link&quot;:&quot;/evidence&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;Evidence&quot;,&quot;link&quot;:&quot;/evidence&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1409,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Causes&quot;,&quot;link&quot;:&quot;/causes&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1410,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Effects&quot;,&quot;link&quot;:&quot;/effects&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1411,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Scientific Consensus&quot;,&quot;link&quot;:&quot;/scientific-consensus&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1412,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Global Warming vs. Climate Change&quot;,&quot;link&quot;:&quot;/global-warming-vs-climate-change&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1413,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Vital Signs&quot;,&quot;link&quot;:&quot;/vital-signs/carbon-dioxide&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1264,&quot;items&quot;:[{&quot;name&quot;:&quot;Carbon Dioxide&quot;,&quot;link&quot;:&quot;/vital-signs/carbon-dioxide&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1273},{&quot;name&quot;:&quot;Global Temperature&quot;,&quot;link&quot;:&quot;/vital-signs/global-temperature&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1274},{&quot;name&quot;:&quot;Arctic Sea Ice Minimum Extent&quot;,&quot;link&quot;:&quot;/vital-signs/arctic-sea-ice&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1275},{&quot;name&quot;:&quot;Ice Sheets&quot;,&quot;link&quot;:&quot;/vital-signs/ice-sheets&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1276},{&quot;name&quot;:&quot;Sea Level&quot;,&quot;link&quot;:&quot;/vital-signs/sea-level&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1277},{&quot;name&quot;:&quot;Ocean Warming&quot;,&quot;link&quot;:&quot;/vital-signs/ocean-warming&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1373}]},{&quot;name&quot;:&quot;Questions (FAQ)&quot;,&quot;link&quot;:&quot;/faq&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1265,&quot;items&quot;:[]}]}],&quot;id&quot;:1263,&quot;style&quot;:&quot;gallery&quot;,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[{&quot;title&quot;:&quot;&quot;,&quot;body&quot;:&quot;\u003cblockquote class=&#39;&#39;\u003e\n\u003cdiv class=&#39;gradient_line_extra_margin clearfix&#39;\u003e\u003c/div\u003e\n\u003cdiv class=&#39;quote&#39;\u003e\n‘Scientific evidence for warming of the climate system is unequivocal.’\n\u003c/div\u003e\n\u003cfooter\u003e\n\u003ccite\u003e- Intergovernmental Panel on Climate Change\u003c/cite\u003e\n\u003c/footer\u003e\n\u003cdiv class=&#39;gradient_line_extra_margin&#39;\u003e\u003c/div\u003e\n\u003c/blockquote\u003e&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL1JkQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d965d79f29872529c72d24cb0c7343f5318691f7/evidence-quadrant-image.jpeg?disposition=inline&quot;,&quot;link&quot;:&quot;/evidence&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;categories&quot;:&quot;&quot;}],&quot;short_description&quot;:&quot;&quot;,&quot;has_climate_footer&quot;:false},{&quot;name&quot;:&quot;Articles&quot;,&quot;link&quot;:&quot;/news&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;News and Features&quot;,&quot;link&quot;:&quot;/news&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:17,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Ask NASA Climate&quot;,&quot;link&quot;:&quot;/ask-nasa-climate&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1279,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Subscribe&quot;,&quot;link&quot;:&quot;/newsletter_signup&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:76,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Climate Newsletter Archive&quot;,&quot;link&quot;:&quot;/newsletter-archive&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1407,&quot;items&quot;:[]}]}],&quot;id&quot;:1268,&quot;style&quot;:&quot;gallery&quot;,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[{&quot;title&quot;:&quot;Ask NASA Climate&quot;,&quot;body&quot;:&quot;In-depth answers to common questions about our changing planet.&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL1ZkQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--09525f89e0ddbaa403b64ba83464169aa9fe37ec/12041_519_blog_earth-640.jpeg?disposition=inline&quot;,&quot;link&quot;:&quot;/ask-nasa-climate&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;categories&quot;:&quot;&quot;}],&quot;short_description&quot;:&quot;&quot;,&quot;has_climate_footer&quot;:false},{&quot;name&quot;:&quot;Solutions&quot;,&quot;link&quot;:&quot;/solutions/earth-science-in-action&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;Earth Science in Action&quot;,&quot;link&quot;:&quot;/solutions/earth-science-in-action&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1401,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Mitigation and Adaptation&quot;,&quot;link&quot;:&quot;/solutions/adaptation-mitigation&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1267,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Sustainability and Government Resources&quot;,&quot;link&quot;:&quot;/solutions/resources&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1296,&quot;items&quot;:[]}]}],&quot;id&quot;:1266,&quot;style&quot;:&quot;gallery&quot;,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[{&quot;title&quot;:&quot;Earth Science in Action&quot;,&quot;body&quot;:&quot;We don&#39;t just study climate change. We act on it.&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL1pkQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--95d0f894fbf9b9028dec4cf25a3ed34c90b56bf2/12042_Earth_Science_Action_thumb.jpeg?disposition=inline&quot;,&quot;link&quot;:&quot;/solutions/earth-science-in-action&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;categories&quot;:&quot;&quot;}],&quot;short_description&quot;:&quot;We don&#39;t just study climate change. We act on it.&quot;,&quot;has_climate_footer&quot;:false},{&quot;name&quot;:&quot;Explore&quot;,&quot;link&quot;:&quot;/explore/interactives&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;Images of Change&quot;,&quot;link&quot;:&quot;/images-of-change&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:207,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Earth Minute Videos&quot;,&quot;link&quot;:&quot;/explore/earth-minute&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1293,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Interactives&quot;,&quot;link&quot;:&quot;/explore/interactives&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:100,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Beautiful Earth Gallery&quot;,&quot;link&quot;:&quot;/explore/beautiful-earth&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1288,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Earth 360&quot;,&quot;link&quot;:&quot;/explore/earth-360&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1351,&quot;items&quot;:[]}]}],&quot;id&quot;:1271,&quot;style&quot;:&quot;gallery&quot;,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[],&quot;short_description&quot;:&quot;&quot;,&quot;has_climate_footer&quot;:false},{&quot;name&quot;:&quot;NASA Science&quot;,&quot;link&quot;:&quot;/nasa_science/science/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;Science Mission Directorate&quot;,&quot;link&quot;:&quot;https://science.nasa.gov/&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1339,&quot;items&quot;:[]},{&quot;name&quot;:&quot;NASA Data Resources&quot;,&quot;link&quot;:&quot;/nasa_science/data&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1403,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Earth System Science&quot;,&quot;link&quot;:&quot;/nasa_science/science&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:257,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Earth Science Missions&quot;,&quot;link&quot;:&quot;/nasa_science/missions&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:2,&quot;items&quot;:[]},{&quot;name&quot;:&quot;History&quot;,&quot;link&quot;:&quot;/nasa_science/history&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1433,&quot;items&quot;:[]},{&quot;name&quot;:&quot;People&quot;,&quot;link&quot;:&quot;/nasa_science/people&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1357,&quot;items&quot;:[]}]}],&quot;id&quot;:1338,&quot;style&quot;:&quot;gallery&quot;,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[],&quot;short_description&quot;:&quot;&quot;,&quot;has_climate_footer&quot;:false},{&quot;name&quot;:&quot;More&quot;,&quot;link&quot;:&quot;in-progress&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;sections&quot;:[{&quot;items&quot;:[{&quot;name&quot;:&quot;For Media&quot;,&quot;link&quot;:&quot;/for-media&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1423,&quot;items&quot;:[]},{&quot;name&quot;:&quot;For Educators&quot;,&quot;link&quot;:&quot;/for-educators&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1424,&quot;items&quot;:[]},{&quot;name&quot;:&quot;Multimedia&quot;,&quot;link&quot;:&quot;/resources/graphics-and-multimedia&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1302,&quot;items&quot;:[]},{&quot;name&quot;:&quot;En español&quot;,&quot;link&quot;:&quot;/en-espanol&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1426,&quot;items&quot;:[]},{&quot;name&quot;:&quot;For Kids&quot;,&quot;link&quot;:&quot;/for-kids&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1427,&quot;items&quot;:[{&quot;name&quot;:&quot;Coloring Pages&quot;,&quot;link&quot;:&quot;/for-kids/coloring-pages&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1429},{&quot;name&quot;:&quot;Climate Kids&quot;,&quot;link&quot;:&quot;https://climatekids.nasa.gov&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1430},{&quot;name&quot;:&quot;Earth Day at Home Webquest&quot;,&quot;link&quot;:&quot;/for-kids/earth-day-at-home-webquest&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1431}]},{&quot;name&quot;:&quot;About Us&quot;,&quot;link&quot;:&quot;/about-us&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1432,&quot;items&quot;:[]}]}],&quot;id&quot;:1422,&quot;style&quot;:&quot;gallery&quot;,&quot;meganav_style&quot;:&quot;&quot;,&quot;features&quot;:[{&quot;title&quot;:&quot;Earth Minute&quot;,&quot;body&quot;:&quot;A fun whiteboard animation series that explains Earth science in relatable terms.&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL2RkQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4e771310831b583ccf25c7bac991ac5a97dbf630/12044_earthminute_fever_thumb.jpeg?disposition=inline&quot;,&quot;link&quot;:&quot;/explore/earth-minute&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;categories&quot;:&quot;Video&quot;}],&quot;short_description&quot;:&quot;&quot;,&quot;has_climate_footer&quot;:true}],&quot;search&quot;:true,&quot;follow&quot;:[[&quot;Twitter&quot;,&quot;https://twitter.com/nasaclimate&quot;,&quot;/assets/twitter_icon@2x.png&quot;],[&quot;Facebook&quot;,&quot;https://www.facebook.com/nasaclimatechange&quot;,&quot;/assets/facebook_icon@2x.png&quot;],[&quot;Instagram&quot;,&quot;https://www.instagram.com/nasaclimatechange&quot;,&quot;/assets/instagram_icon@2x.png&quot;],[&quot;RSS&quot;,&quot;https://climate.nasa.gov/news/rss.xml&quot;,&quot;/assets/rss_icon@2x.png&quot;]],&quot;mobile_grandchildren&quot;:true,&quot;no_hover_page_cover&quot;:true,&quot;no_redirect&quot;:{&quot;name&quot;:&quot;More&quot;}}" data-react-cache-id="Meganav-0" class="site_nav"></nav>
+<div data-react-class="CherTools" data-react-props="{&quot;title&quot;:&quot;Follow Global Climate Change&quot;,&quot;follow&quot;:[[&quot;Twitter&quot;,&quot;https://twitter.com/nasaclimate&quot;,&quot;/assets/twitter_icon@2x.png&quot;],[&quot;Facebook&quot;,&quot;https://www.facebook.com/nasaclimatechange&quot;,&quot;/assets/facebook_icon@2x.png&quot;],[&quot;Instagram&quot;,&quot;https://www.instagram.com/nasaclimatechange&quot;,&quot;/assets/instagram_icon@2x.png&quot;],[&quot;RSS&quot;,&quot;https://climate.nasa.gov/news/rss.xml&quot;,&quot;/assets/rss_icon@2x.png&quot;]]}" data-react-cache-id="CherTools-0"></div>
+</div>
+<script>
+  $(window).on('load', function() {
+    var $icon = $('a.main_nav_item.icon');
+    $icon.prepend('<span class="animated_icon"></span>');
+  })
+</script>
+</div>
+</header>
+</div>
+
+<div id='page'>
+<div class='page_cover'></div>
+<div data-react-class="HiPO" data-react-props="{}" data-react-cache-id="HiPO-0"></div>
+<!-- title to go in the page_header -->
+<section class='feature_area_container'>
+<section class='main_feature primary_media_feature clearfix single no_dashboard centered_text feature_the_causes_of_climate_change'>
+<article class='feature_container' style='background-image: url(&#39;/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEJZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1487917440241a8d6ac7aa9d9a28b2afdf75f16b/causes-feature-bg.jpeg&#39;);'>
+<div class='floating_text_area section_media_feature'>
+<h2 class='category_title'>Causes</h2>
+<h1 class='media_feature_title'>
+The Causes of Climate Change
+</h1>
+<div class='description'>
+Human activities are driving the global warming trend observed since the mid-20th century.
+</div>
+</div>
+
+<div class='gradient_container_top'></div>
+<div class='gradient_container_bottom'></div>
+</article>
+</section>
+
+</section>
+<div data-react-class="CherTools" data-react-props="{&quot;share&quot;:[[&quot;Facebook&quot;],[&quot;Twitter&quot;],[&quot;Pinterest&quot;],[&quot;Email&quot;]]}" data-react-cache-id="CherTools-0" class="chertools_floater"></div>
+
+<div class='middle_nav'>
+<div data-react-class="ExpandoNav" data-react-props="{&quot;items&quot;:[{&quot;title&quot;:&quot;Evidence&quot;,&quot;link&quot;:&quot;/evidence&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1409,&quot;parent_id&quot;:1263,&quot;subpages&quot;:[]},{&quot;title&quot;:&quot;Causes&quot;,&quot;link&quot;:&quot;/causes&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1410,&quot;parent_id&quot;:1263,&quot;subpages&quot;:[]},{&quot;title&quot;:&quot;Effects&quot;,&quot;link&quot;:&quot;/effects&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1411,&quot;parent_id&quot;:1263,&quot;subpages&quot;:[]},{&quot;title&quot;:&quot;Scientific Consensus&quot;,&quot;link&quot;:&quot;/scientific-consensus&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1412,&quot;parent_id&quot;:1263,&quot;subpages&quot;:[]},{&quot;title&quot;:&quot;Global Warming vs. Climate Change&quot;,&quot;link&quot;:&quot;/global-warming-vs-climate-change&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1413,&quot;parent_id&quot;:1263,&quot;subpages&quot;:[]},{&quot;title&quot;:&quot;Vital Signs&quot;,&quot;link&quot;:&quot;/vital-signs/carbon-dioxide&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1264,&quot;parent_id&quot;:1263,&quot;subpages&quot;:[{&quot;name&quot;:&quot;Carbon Dioxide&quot;,&quot;link&quot;:&quot;/vital-signs/carbon-dioxide&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1273},{&quot;name&quot;:&quot;Global Temperature&quot;,&quot;link&quot;:&quot;/vital-signs/global-temperature&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1274},{&quot;name&quot;:&quot;Arctic Sea Ice Minimum Extent&quot;,&quot;link&quot;:&quot;/vital-signs/arctic-sea-ice&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1275},{&quot;name&quot;:&quot;Ice Sheets&quot;,&quot;link&quot;:&quot;/vital-signs/ice-sheets&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1276},{&quot;name&quot;:&quot;Sea Level&quot;,&quot;link&quot;:&quot;/vital-signs/sea-level&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1277},{&quot;name&quot;:&quot;Ocean Warming&quot;,&quot;link&quot;:&quot;/vital-signs/ocean-warming&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1373}]},{&quot;title&quot;:&quot;Questions (FAQ)&quot;,&quot;link&quot;:&quot;/faq&quot;,&quot;target&quot;:&quot;_self&quot;,&quot;id&quot;:1265,&quot;parent_id&quot;:1263,&quot;subpages&quot;:[]}],&quot;current&quot;:1410,&quot;current_title&quot;:&quot;Causes&quot;,&quot;parent_title&quot;:&quot;Facts&quot;}" data-react-cache-id="ExpandoNav-0" class="expando_wrapper"></div>
+
+</div>
+<div class='tertiary_nav_container upper_tertiary_nav_container'>
+<script>
+  $(document).ready(function() {
+    tooWideCheck();
+    $(window).resize(function(){
+      tooWideCheck();
+    })
+  })
+  
+  function tooWideCheck(){
+    console.log('tooWideCheck');
+    if ($('.tertiary_nav ul.middle_nav_items').outerWidth() > $('nav.tertiary_nav').outerWidth()) {
+      $('nav.tertiary_nav').addClass('scrollable_nav');
+    } else {
+      $('nav.tertiary_nav').removeClass('scrollable_nav');
+    }
+  }
+</script>
+
+</div>
+<section class='content_page module feature_pages'>
+<article>
+<div id='on_this_page_column'>
+<div data-react-class="OtpDesktopNav" data-react-props="{&quot;hide_otp_on_scroll&quot;:true}" data-react-cache-id="OtpDesktopNav-0"></div>
+</div>
+<div id='primary_column'>
+<div data-react-class="OtpMobileNav" data-react-props="{}" data-react-cache-id="OtpMobileNav-0"></div>
+<div class='wysiwyg_content'>
+<div class='snippet_box_container with_frame_title'>
+<div class='snippet_box_module'>
+<fieldset>
+<legend class='frame_title'>
+Takeaways
+</legend>
+<p class='description'>
+
+
+<ul>
+	<li>The greenhouse effect is essential to life on Earth, but human-made emissions in the atmosphere are trapping and slowing heat loss to space.</li>
+	<li>Five key greenhouse gases are CO<sub>2</sub>, nitrous oxide, methane, chlorofluorocarbons, and water vapor.</li>
+	<li>While the Sun has played a role in past climate changes, the evidence shows the current warming cannot be explained by the Sun.</li>
+</ul>
+
+<p>
+</p>
+</fieldset>
+</div>
+</div>
+
+<div class='statement_module module link_only'>
+<div class='grid_layout'>
+<div class='statement'>
+
+</div>
+<div data-react-class="ArrowLink" data-react-props="{&quot;link&quot;:&quot;/causas/&quot;,&quot;link_text&quot;:&quot;En espa\u0026ntilde;ol&quot;,&quot;link_target&quot;:&quot;_self&quot;}" data-react-cache-id="ArrowLink-0"></div>
+</div>
+</div>
+
+<span class="mb_anchor_title">The Greenhouse Effect<a class="mb_anchor" name="the_greenhouse_effect"></a></span><p></p>
+
+<h2>Increasing Greenhouses Gases Are Warming the Planet</h2>
+
+<div data-react-class="Video" data-react-props="{&quot;files&quot;:[{&quot;file&quot;:&quot;/system/video_items/126_Greenhouse_effect_revised_HD_English.m4v&quot;},{&quot;file&quot;:&quot;/system/video_items/127_Greenhouse_effect_revised_HD_English.webm&quot;},{&quot;file&quot;:&quot;/system/video_items/128_Greenhouse_effect_revised_HD_English.ogv&quot;}],&quot;caption&quot;:&quot;A simplified animation of the greenhouse effect. Credit: NASA/JPL-Caltech (Download \u003ca href=\&quot;http://climate.nasa.gov/climate_resources/188/graphic-the-greenhouse-effect/\&quot;\u003een espa\u0026ntilde;ol\u003c/a\u003e.)&quot;,&quot;poster&quot;:&quot;/system/resources/detail_files/240_Greenhouse_effect_revised_HD_English.jpg&quot;,&quot;video_div&quot;:&quot;video_83766&quot;,&quot;layout&quot;:&quot;column-width&quot;,&quot;autostart&quot;:true,&quot;vrview&quot;:&quot;false&quot;,&quot;vrview_stereo&quot;:&quot;true&quot;,&quot;title&quot;:&quot;The Greenhouse Effect, Simplified&quot;,&quot;display_caption&quot;:true,&quot;autoloop&quot;:true,&quot;controls&quot;:null}" data-react-cache-id="Video-0" class="column-width video_player_container"></div>
+
+<p>Scientists attribute the global warming trend observed since the mid-20<sup>th</sup> century to the human expansion of the &quot;greenhouse effect&quot; &mdash; warming that results when the atmosphere traps heat radiating from Earth toward space.</p>
+
+<p>Life on Earth depends on energy coming from the Sun. About half the light energy reaching Earth&#39;s atmosphere passes through the air and clouds to the surface, where it is absorbed and radiated in the form of infrared heat. About 90% of this heat is then absorbed by greenhouse gases and re-radiated, slowing heat loss to space.</p>
+
+<span class="mb_anchor_title">Gases that Contribute<a class="mb_anchor" name="gases_that_contribute"></a></span><p></p>
+
+<div class='image_list_plus_module module full-bleed'>
+<div data-react-class="ImageListPlus" data-react-props="{&quot;title&quot;:&quot;Four Major Gases That Contribute to the Greenhouse Effect:&quot;,&quot;description&quot;:&quot;\u003cb\u003eFORCING:\u003c/b\u003e Something acting upon Earth\u0026#39;s climate that forces a change in how energy flows through it (such as long-lasting, heat-trapping gases - also known as greenhouse gases). These gases slow outgoing heat in the atmosphere and cause the planet to warm.&quot;,&quot;items&quot;:[[{&quot;id&quot;:1137,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Carbon Dioxide&quot;,&quot;body&quot;:&quot;A very important component of the atmosphere, carbon dioxide (CO\u003csub\u003e2\u003c/sub\u003e) is released through natural processes (like volcanic eruptions) and through human activities, like burning fossil fuels and deforestation. Human activities have increased the amount of CO\u003csub\u003e2\u003c/sub\u003e in the atmosphere by 50% since the Industrial Revolution began (1750). This sharp rise in CO\u003csub\u003e2\u003c/sub\u003e is the most important climate change driver over the last century.\r\n\u003cbr\u003e\r\n\u003cbr\u003e\r\nKids, learn more about the greenhouse gases here:\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-cards/\&quot;\u003eMeet the Greenhouse Gases\u003c/a\u003e\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-effect/\&quot;\u003eWhat Is the Greenhouse Effect?\u003c/a\u003e&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-06-16T14:33:18.980-07:00&quot;,&quot;updated_at&quot;:&quot;2022-07-18T12:28:23.383-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_style&quot;:[],&quot;textbox_position&quot;:[{&quot;id&quot;:102,&quot;category_type_id&quot;:18,&quot;title&quot;:&quot;bottom_left&quot;,&quot;created_at&quot;:&quot;2015-02-16T17:13:28.932-08:00&quot;,&quot;updated_at&quot;:&quot;2022-04-18T09:05:23.397-07:00&quot;,&quot;is_default&quot;:0,&quot;max&quot;:null,&quot;updated_by&quot;:null,&quot;display_name&quot;:null,&quot;description&quot;:null,&quot;position&quot;:1,&quot;internal_only&quot;:0,&quot;type&quot;:&quot;Textbox position&quot;}],&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:&quot;&quot;,&quot;feature_type&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;schedule_date&quot;:&quot;2022-06-16T21:32:00.000-07:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:&quot;A vital component of the atmosphere, carbon dioxide (CO\u003csub\u003e2\u003c/sub\u003e) is released through natural processes (like volcanic eruptions) and through human activities, such as burning fossil fuels and deforestation.&quot;,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;Carbon Dioxide bottom_left&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNDFZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b454f2b8304c787602c01912befa76ebea394400/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1044_co2.jpeg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNDFZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b454f2b8304c787602c01912befa76ebea394400/1044_co2.jpeg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null}],[{&quot;id&quot;:1138,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Methane&quot;,&quot;body&quot;:&quot;Like many atmospheric gases, methane comes from both natural and human-caused sources. Methane comes from plant-matter breakdown in wetlands and is also released from landfills and rice farming. Livestock animals emit methane from their \u003ca href=\&quot;/faq/33/which-is-a-bigger-methane-source-cow-belching-or-cow-flatulence/\&quot;\u003edigestion\u003c/a\u003e and manure. Leaks from fossil fuel production and transportation are another major source of methane, and natural gas is 70% to 90% methane. As a single molecule, methane is a far more effective greenhouse gas than carbon dioxide but is much less common in the atmosphere. The amount of methane in our atmosphere has more than doubled since pre-industrial times.\r\n\u003cbr\u003e\r\n\u003cbr\u003e\r\nKids, learn more about the greenhouse gases here:\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-cards/\&quot;\u003eMeet the Greenhouse Gases\u003c/a\u003e\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-effect/\&quot;\u003eWhat Is the Greenhouse Effect?\u003c/a\u003e&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-06-16T14:34:41.231-07:00&quot;,&quot;updated_at&quot;:&quot;2022-07-18T12:27:35.497-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_style&quot;:[],&quot;textbox_position&quot;:[{&quot;id&quot;:102,&quot;category_type_id&quot;:18,&quot;title&quot;:&quot;bottom_left&quot;,&quot;created_at&quot;:&quot;2015-02-16T17:13:28.932-08:00&quot;,&quot;updated_at&quot;:&quot;2022-04-18T09:05:23.397-07:00&quot;,&quot;is_default&quot;:0,&quot;max&quot;:null,&quot;updated_by&quot;:null,&quot;display_name&quot;:null,&quot;description&quot;:null,&quot;position&quot;:1,&quot;internal_only&quot;:0,&quot;type&quot;:&quot;Textbox position&quot;}],&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:&quot;&quot;,&quot;feature_type&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;schedule_date&quot;:&quot;2022-06-16T21:33:00.000-07:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:&quot;Like many atmospheric gases, methane comes from both natural and human-caused sources. Methane comes from plant-matter breakdown in wetlands and is also released from landfills and rice farming. Livestock animals emit methane from their \u003ca href=\&quot;/faq/33/which-is-a-bigger-methane-source-cow-belching-or-cow-flatulence/\&quot;\u003edigestion\u003c/a\u003e and manure. Leaks from fossil fuel production and transportation are another major source of methane, and natural gas is 70% to 90% methane.&quot;,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;Methane bottom_left&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNDVZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--95617ac42c7e743e85f115e2ceac8d2d97e31af7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1045_methane.jpeg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNDVZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--95617ac42c7e743e85f115e2ceac8d2d97e31af7/1045_methane.jpeg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null}],[{&quot;id&quot;:1139,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Nitrous Oxide&quot;,&quot;body&quot;:&quot;A potent greenhouse gas produced by farming practices, nitrous oxide is released during commercial and organic fertilizer production and use. Nitrous oxide also comes from burning fossil fuels and burning vegetation and has increased by 18% in the last 100 years.\r\n\u003cbr\u003e\r\n\u003cbr\u003e\r\nKids, learn more about the greenhouse gases here:\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-cards/\&quot;\u003eMeet the Greenhouse Gases\u003c/a\u003e\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-effect/\&quot;\u003eWhat Is the Greenhouse Effect?\u003c/a\u003e&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-06-16T14:35:39.471-07:00&quot;,&quot;updated_at&quot;:&quot;2022-07-18T12:26:42.511-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_style&quot;:[],&quot;textbox_position&quot;:[{&quot;id&quot;:102,&quot;category_type_id&quot;:18,&quot;title&quot;:&quot;bottom_left&quot;,&quot;created_at&quot;:&quot;2015-02-16T17:13:28.932-08:00&quot;,&quot;updated_at&quot;:&quot;2022-04-18T09:05:23.397-07:00&quot;,&quot;is_default&quot;:0,&quot;max&quot;:null,&quot;updated_by&quot;:null,&quot;display_name&quot;:null,&quot;description&quot;:null,&quot;position&quot;:1,&quot;internal_only&quot;:0,&quot;type&quot;:&quot;Textbox position&quot;}],&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:&quot;&quot;,&quot;feature_type&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;schedule_date&quot;:&quot;2022-06-16T21:35:00.000-07:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:&quot;A potent greenhouse gas produced by farming practices, nitrous oxide is released during commercial and organic fertilizer production and use. Nitrous oxide also comes from burning fossil fuels and burning vegetation and has increased by 18% in the last 100 years.&quot;,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;Nitrous Oxide bottom_left&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNDlZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0020cb99fbbf626ccac7b9637b263cd99c57eb8d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1046_nitrous-oxide.jpeg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNDlZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0020cb99fbbf626ccac7b9637b263cd99c57eb8d/1046_nitrous-oxide.jpeg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null}],[{&quot;id&quot;:1140,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Chlorofluorocarbons (CFCs)&quot;,&quot;body&quot;:&quot;These chemical compounds do not exist in nature – they are entirely of industrial origin. They were used as refrigerants, solvents (a substance that dissolves others), and spray-can propellants. An international agreement, known as the Montreal Protocol, now regulates CFCs because they damage the ozone layer. Despite this, emissions of some types of CFCs \u003ca href=\&quot;https://research.noaa.gov/article/ArtMID/587/ArticleID/2713/Emissions-of-a-banned-ozone-depleting-gas-are-back-on-the-decline\&quot;\u003espiked for about five years due to violations of the international agreement.\u003c/a\u003e Once members of the agreement called for immediate action and better enforcement, emissions dropped sharply starting in 2018.\r\n\u003cbr\u003e\r\n\u003cbr\u003e\r\nKids, learn more about the greenhouse gases here:\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-cards/\&quot;\u003eMeet the Greenhouse Gases\u003c/a\u003e\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-effect/\&quot;\u003eWhat Is the Greenhouse Effect?\u003c/a\u003e&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-06-16T14:38:02.498-07:00&quot;,&quot;updated_at&quot;:&quot;2022-07-18T12:26:20.642-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_style&quot;:[],&quot;textbox_position&quot;:[{&quot;id&quot;:102,&quot;category_type_id&quot;:18,&quot;title&quot;:&quot;bottom_left&quot;,&quot;created_at&quot;:&quot;2015-02-16T17:13:28.932-08:00&quot;,&quot;updated_at&quot;:&quot;2022-04-18T09:05:23.397-07:00&quot;,&quot;is_default&quot;:0,&quot;max&quot;:null,&quot;updated_by&quot;:null,&quot;display_name&quot;:null,&quot;description&quot;:null,&quot;position&quot;:1,&quot;internal_only&quot;:0,&quot;type&quot;:&quot;Textbox position&quot;}],&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:&quot;&quot;,&quot;feature_type&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;schedule_date&quot;:&quot;2022-06-16T21:37:00.000-07:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:&quot;These chemical compounds do not exist in nature – they are entirely of industrial origin. They were used as refrigerants, solvents (a substance that dissolves others), and spray can propellants.&quot;,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;CFCs bottom_left&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUJZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fde9604a11dfdb545f081384b31d1fc464e475a7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1047_ozone_omi_2013259.jpeg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUJZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fde9604a11dfdb545f081384b31d1fc464e475a7/1047_ozone_omi_2013259.jpeg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null}]]}" data-react-cache-id="ImageListPlus-0" class="image_list_plus"></div>
+</div>
+
+<div class='image_list_plus_module module full-bleed'>
+<div data-react-class="ImageListPlus" data-react-props="{&quot;title&quot;:&quot;Another Gas That Contributes to the Greenhouse Effect:&quot;,&quot;description&quot;:&quot;\u003cb\u003eFEEDBACKS:\u003c/b\u003e Gases such as water vapor, which respond physically or chemically to changes in temperature, are called \u0026quot;feedbacks.\u0026quot;&quot;,&quot;items&quot;:[[{&quot;id&quot;:1141,&quot;image_file_name&quot;:null,&quot;title&quot;:&quot;Water Vapor&quot;,&quot;body&quot;:&quot;Water vapor is the most abundant greenhouse gas, but because the warming ocean increases the amount of it in our atmosphere, it is not a direct cause of climate change. Rather, as other forcings (like carbon dioxide) change global temperatures, water vapor in the atmosphere responds, amplifying climate change already in motion. Water vapor increases as Earth&#39;s climate warms. Clouds and precipitation (rain or snow) also respond to temperature changes and can be important feedback mechanisms as well. \u003cbr\u003e\r\n\u003cbr\u003e\r\nKids, learn more about the greenhouse gases here:\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-cards/\&quot;\u003eMeet the Greenhouse Gases\u003c/a\u003e\r\n\u003cbr\u003e\r\n\u003ca href=\&quot;https://climatekids.nasa.gov/greenhouse-effect/\&quot;\u003eWhat Is the Greenhouse Effect?\u003c/a\u003e&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;more_link_text&quot;:&quot;&quot;,&quot;more_link&quot;:&quot;&quot;,&quot;status&quot;:1,&quot;created_at&quot;:&quot;2022-06-16T14:41:35.639-07:00&quot;,&quot;updated_at&quot;:&quot;2022-07-18T12:37:33.167-07:00&quot;,&quot;theme&quot;:null,&quot;textbox_style&quot;:[],&quot;textbox_position&quot;:[{&quot;id&quot;:102,&quot;category_type_id&quot;:18,&quot;title&quot;:&quot;bottom_left&quot;,&quot;created_at&quot;:&quot;2015-02-16T17:13:28.932-08:00&quot;,&quot;updated_at&quot;:&quot;2022-04-18T09:05:23.397-07:00&quot;,&quot;is_default&quot;:0,&quot;max&quot;:null,&quot;updated_by&quot;:null,&quot;display_name&quot;:null,&quot;description&quot;:null,&quot;position&quot;:1,&quot;internal_only&quot;:0,&quot;type&quot;:&quot;Textbox position&quot;}],&quot;textbox_category_title&quot;:&quot;&quot;,&quot;textbox_brand_title&quot;:&quot;&quot;,&quot;feature_type&quot;:&quot;&quot;,&quot;image_alt&quot;:&quot;&quot;,&quot;webm_video_file_name&quot;:null,&quot;mp4_video_file_name&quot;:null,&quot;ogv_video_file_name&quot;:null,&quot;embed_video&quot;:&quot;&quot;,&quot;mobile_image_file_name&quot;:null,&quot;schedule_date&quot;:&quot;2022-06-16T21:40:00.000-07:00&quot;,&quot;link_target&quot;:null,&quot;more_link_target&quot;:null,&quot;mobile_video_file_name&quot;:null,&quot;short_description&quot;:&quot;Water vapor is the most abundant greenhouse gas, but because the warming ocean increases the amount of it in our atmosphere, it is not a direct cause of climate change.&quot;,&quot;feature_links&quot;:[],&quot;category_names&quot;:&quot;Water Vapor bottom_left&quot;,&quot;mobile_video_src&quot;:null,&quot;webp_image_src&quot;:&quot;/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUZZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--40b7d6790e418e24a794f610114ba62a86524d67/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1043_water-vapor.jpeg?content_type=image%2Fwebp\u0026disposition=inline&quot;,&quot;image_src&quot;:&quot;/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUZZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--40b7d6790e418e24a794f610114ba62a86524d67/1043_water-vapor.jpeg?disposition=inline&quot;,&quot;ogv_video_src&quot;:null,&quot;mp4_video_src&quot;:null,&quot;webm_video_src&quot;:null}]]}" data-react-cache-id="ImageListPlus-0" class="image_list_plus"></div>
+</div>
+
+<span class="mb_anchor_title">The Role of Humans<a class="mb_anchor" name="the_role_of_humans"></a></span><p></p>
+
+<h2>Human Activity Is the Cause of Increased Greenhouse Gas Concentrations</h2>
+
+<p>Over the last century, burning of fossil fuels like coal and oil has increased the concentration of atmospheric carbon dioxide (CO<sub>2</sub>). This increase happens because the coal or oil burning process combines carbon with oxygen in the air to make CO<sub>2</sub>. To a lesser extent, clearing of land for agriculture, industry, and other human activities has increased concentrations of greenhouse gases.</p>
+
+<div class='faq_floater_container'>
+<aside class='faq_floater module'>
+<div class='question expanding_list_item'>
+<a class='mb_anchor_faq' id='question_20' name='question_20'></a>
+<div class='title_container' id='title_container_question_20'>
+<div class='title'>
+How do we know what greenhouse gas and temperature levels were in the distant past?
+</div>
+</div>
+<div class='text answer'>
+<p>Ice cores are scientists&rsquo; best source for historical climate data.&nbsp;Other tools for learning about Earth&rsquo;s ancient atmosphere include growth rings in trees, which keep a rough record of each growing season&rsquo;s temperature, moisture and cloudiness going back about 2,000 years. Corals also form growth rings that provide information about temperature and nutrients in the tropical ocean.&nbsp;Other proxies, such as benthic cores, extend our knowledge of past climate back about a billion years.</p>
+
+<a class='answer_detail_link' href='/faq/20' id='answer_detail_20'>
+detailed answer
+</a>
+</div>
+</div>
+</aside>
+</div>
+<script>
+  $(document).ready(function(){
+    $('#title_container_question_20').click(function(){
+      $(this).toggleClass("open");
+      // $(this).parents('.question').find('.answer').toggleClass("open");
+      $(this).siblings('.answer').slideToggle()
+    });  
+  });
+</script>
+
+<p>The industrial activities that our modern civilization depends upon have raised atmospheric carbon dioxide levels by nearly 50% since 1750. This increase is due to human activities, because scientists can see a distinctive <a href="https://gml.noaa.gov/ccgg/isotopes/chemistry.html">isotopic fingerprint</a> in the atmosphere. </p>
+
+<p>In its Sixth Assessment Report, the Intergovernmental Panel on Climate Change, composed of scientific experts from countries all over the world, concluded that<i> </i>it is unequivocal that the increase of CO<sub>2</sub>, methane, and nitrous oxide in the atmosphere over the industrial era is the result of human activities and that human influence is the principal driver of many changes observed across the atmosphere, ocean, cryosphere and biosphere.</p>
+
+<blockquote class=''>
+<div class='gradient_line_extra_margin clearfix'></div>
+<div class='quote'>
+&quot;Since systematic scientific assessments began in the 1970s, the influence of human activity on the warming of the climate system has evolved from theory to established fact.&quot;
+</div>
+<footer>
+<cite>- Intergovernmental Panel on Climate Change</cite>
+</footer>
+<div class='gradient_line_extra_margin'></div>
+</blockquote>
+
+<p>The panel&#39;s AR6 Working Group I (WGI) Summary for Policymakers report is online at <a class="c-link" href="https://www.ipcc.ch/report/ar6/wg1/" target="_blank">https://www.ipcc.ch/report/ar6/wg1/</a>.</p>
+
+<span class="mb_anchor_title">Is the Sun to Blame?<a class="mb_anchor" name="is_the_sun_to_blame?"></a></span><p></p>
+
+<h2>Evidence Shows That Current Global Warming Cannot Be Explained by Solar Irradiance</h2>
+
+<p>Scientists use a metric called Total Solar Irradiance (TSI) to measure the changes in energy the Earth receives from the Sun. TSI incorporates the <a href="https://climate.nasa.gov/faq/14/is-the-sun-causing-global-warming/">11-year solar cycle</a> and solar flares/storms from the Sun&#39;s surface.</p>
+
+<p>Studies show that solar variability has played a role in past climate changes. For example, a decrease in solar activity coupled with increased volcanic activity helped trigger the Little Ice Age.</p>
+
+<div class='image_module column-width' style='width:px;'>
+<figure class='inline_figure'>
+<a class='' href='/internal_resources/2166' target='_blank'>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbG9JIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0c1363a4371db039e7a6e1654dddbbc28bd480a1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/temperature_vs_solar_activity_updated_July_2020.png?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='temperature vs solar activity updated July 2020' src='/internal_resources/2166' style='width:px'>
+</picture>
+</a>
+<figcaption>
+The above graph compares global surface temperature changes (red line) and the Sun&#39;s energy that Earth receives (yellow line) in watts (units of energy) per square meter since 1880. The lighter/thinner lines show the yearly levels while the heavier/thicker lines show the 11-year average trends. Eleven-year averages are used to reduce the year-to-year natural noise in the data, making the underlying trends more obvious.<br />
+<br />
+The amount of solar energy that Earth receives has followed the Sun&rsquo;s natural 11-year cycle of small ups and downs with no net increase since the 1950s. Over the same period, global temperature has risen markedly. It is therefore extremely unlikely that the Sun has caused the observed global temperature warming trend over the past half-century. Credit: NASA/JPL-Caltech</p>
+
+
+</figcaption>
+</figure>
+</div>
+
+<p>But several lines of evidence show that current global warming cannot be explained by changes in energy from the Sun:</p>
+
+<ul>
+	<li class="barbulls">Since 1750, the average amount of energy from the Sun either remained constant or increased slightly.</li>
+</ul>
+
+<ul>
+	<li class="barbulls">If a more active Sun caused the warming, scientists would expect warmer temperatures in all layers of the atmosphere. Instead, they have observed a cooling in the upper atmosphere and a warming at the surface and lower parts of the atmosphere. That&#39;s because greenhouse gases are slowing heat loss from the lower atmosphere.</li>
+</ul>
+
+<ul>
+	<li class="barbulls">Climate models that include solar irradiance changes can&rsquo;t reproduce the observed temperature trend over the past century or more without including a rise in greenhouse gases.</li>
+</ul>
+
+<section class='double_teaser module no_bg' style=''>
+<div class='grid_layout'>
+<div class='column'>
+<article class='promo_teaser'>
+<header>
+<h2 class='module_title'>
+Earth Science in Action
+</h2>
+</header>
+<figure>
+<a href='/solutions/earth-science-in-action/' target='_self'>
+<div class='promo_image'>
+<img alt='two people talking on a boat' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemhZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d37a6075d90f8c98e774380934b32ee2c06eb46b/applied-sciences-640.jpeg?disposition=inline'>
+</div>
+<div class='text_area'>
+<div class='description'>
+People across the world using NASA data to solve big problems right here on Earth.
+</div>
+</div>
+<footer>
+<div data-react-class="ArrowLink" data-react-props="{&quot;link&quot;:&quot;/solutions/earth-science-in-action/&quot;,&quot;link_text&quot;:&quot;&quot;,&quot;link_target&quot;:&quot;_self&quot;}" data-react-cache-id="ArrowLink-0"></div>
+</footer>
+</a>
+</figure>
+</article>
+</div>
+<div class='column'>
+<article class='explore_teaser'>
+<header>
+<h2 class='module_title'>
+More to Explore
+</h2>
+</header>
+<ul class='item_list list_view'>
+<li>
+<a href='/ask-nasa-climate/' target='_self'>
+<div class='list_text'>
+<h3 class='title'>
+Ask NASA Climate
+</h3>
+<div class='description'>
+Your questions about climate change answered.
+</div>
+</div>
+<div class='list_image'>
+<img alt='bright image of Earth&#39;s horizon from space' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemxZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d871d24587b497bba013f606763f1c3da9097d28/blog_earth-480x360.jpeg?disposition=inline'>
+</div>
+</a>
+</li>
+<li>
+<a href='/nasa_science/people/' target='_self'>
+<div class='list_text'>
+<h3 class='title'>
+People Profiles
+</h3>
+<div class='description'>
+Learn about the people behind NASA Earth science.
+</div>
+</div>
+<div class='list_image'>
+<img alt='people with scopes and binoculars' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenBZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--dcfd130b3be92fa25ba74b7908e77c95a19e1a3e/people-profiles-480x360.jpeg?disposition=inline'>
+</div>
+</a>
+</li>
+<li>
+<a href='/explore/interactives/quizzes' target='_self'>
+<div class='list_text'>
+<h3 class='title'>
+Quizzes
+</h3>
+<div class='description'>
+Test your knowledge of climate science.
+</div>
+</div>
+<div class='list_image'>
+<img alt='barrelling ocean wave' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBenRZQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d28634b3fda6a266124cb6b33c309fa27c538ec6/ocean-wave-480x360.jpeg?disposition=inline'>
+</div>
+</a>
+</li>
+</ul>
+<footer>
+<div data-react-class="ArrowLink" data-react-props="{&quot;link&quot;:&quot;/explore&quot;,&quot;link_text&quot;:&quot;More&quot;}" data-react-cache-id="ArrowLink-0"></div>
+</footer>
+</article>
+</div>
+
+</div>
+</section>
+
+<span class="mb_anchor_title">References<a class="mb_anchor" name="references"></a></span><p></p>
+
+<h2>References</h2>
+
+<ol>
+	<li>
+	<p><a href="http://ipcc.ch/pdf/assessment-report/ar5/syr/AR5_SYR_FINAL_SPM.pdf" target="_blank">IPCC Fifth Assessment Report, 2014</a></p>
+
+	<p><a href="http://www.globalchange.gov/publications/reports/scientific-assessments/us-impacts" target="_blank">United States Global Change Research Program, &quot;Global Climate Change Impacts in the United States,&quot; Cambridge University Press, 2009</a></p>
+
+	<p><a href="http://www.sciencemag.org/content/306/5702/1686.full" target="_blank">Naomi Oreskes, <i>&quot;The Scientific Consensus on Climate Change,&quot; </i>Science 3 December 2004: Vol. 306 no. 5702 p. 1686 DOI: 10.1126/science.1103618</a></p>
+	</li>
+	<li>
+	<p>Friedlingstein et al 2021: &ldquo;<i>The mass of carbon in the atmosphere increased by 48% from 590 GtC in 1750 to 876 GtC in 2020.</i>&rdquo; <a href="https://essd.copernicus.org/preprints/essd-2021-386/">https://essd.copernicus.org/preprints/essd-2021-386/</a></p>
+	</li>
+	<li>
+	<p><a name="Reference 2"></a><a href="https://19january2017snapshot.epa.gov/climate-impacts/climate-impacts-agriculture-and-food-supply_.html" target="_blank">U.S. Environmental Protection Agency: &quot;Climate Impacts on Agriculture and Food Supply&quot;</a></p>
+	</li>
+	<li>
+	<p><a name="no2"></a>Mike Lockwood, <i>&ldquo;Solar Change and Climate: an update in the light of the current exceptional solar minimum,&rdquo;</i> Proceedings of the Royal Society A, 2 December 2009, doi 10.1098/rspa.2009.0519;</p>
+
+	<p>Judith Lean, <i>&ldquo;Cycles and trends in solar irradiance and climate,&rdquo;</i> Wiley Interdisciplinary Reviews: Climate Change, vol. 1, January/February 2010, 111-122.</p>
+	</li>
+</ol>
+
+</div>
+</div>
+</article>
+</section>
+<div class='tertiary_nav_container lower_tertiary_nav_container'>
+<script>
+  $(document).ready(function() {
+    tooWideCheck();
+    $(window).resize(function(){
+      tooWideCheck();
+    })
+  })
+  
+  function tooWideCheck(){
+    console.log('tooWideCheck');
+    if ($('.tertiary_nav ul.middle_nav_items').outerWidth() > $('nav.tertiary_nav').outerWidth()) {
+      $('nav.tertiary_nav').addClass('scrollable_nav');
+    } else {
+      $('nav.tertiary_nav').removeClass('scrollable_nav');
+    }
+  }
+</script>
+
+</div>
+<section class='news_teaser module cropped force_dark'>
+<div class='grid_layout page_carousel'>
+<header>
+<h2 class='module_title'>
+Recent News &amp; Features
+</h2>
+</header>
+<section>
+<script>
+  $(document).ready(function(){
+     $(".features").slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slide: '.features .slide',
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      lazyLoad: 'progressive',
+      centerMode: false,
+      centerPadding: '30px',
+      arrows: true,
+      responsive: [],
+      touchThreshold: 12
+     });
+     if (true) {
+       $('.features').on('afterChange', function(event, slick, currentSlide, nextSlide){
+         $(".features .slide_current").html(currentSlide+1);
+       });
+       $(".features .slide_current").html("1");
+       $(".features .slide_slash").html("/");
+       $(".features .slide_total").html("12");
+  
+       $(".features .arrow_wrapper.left").click(function(e){ $(".features").slick('slickPrev'); });
+       $(".features .arrow_wrapper.right").click(function(e){ $(".features").slick('slickNext'); });
+     }
+  });
+</script>
+<div class='features'>
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3246/nasa-says-2022-fifth-warmest-year-on-record-warming-trend-continues/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Earth's average surface temperature in 2022 tied with 2015 as the fifth warmest on record, according to an analysis by NASA.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNEozQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--26bc182c0ca93eb6ab6f952d4f6e283cde0fb323/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/list_image_640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='NASA Says 2022 Fifth Warmest Year on Record, Warming Trend Continues' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNEozQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--26bc182c0ca93eb6ab6f952d4f6e283cde0fb323/list_image_640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+news
+</h5>
+<a href='https://climate.nasa.gov/news/3246/nasa-says-2022-fifth-warmest-year-on-record-warming-trend-continues/'>
+<div class='content_title'>
+NASA Says 2022 Fifth Warmest Year on Record, Warming Trend Continues
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3245/nasa-space-missions-pinpoint-sources-of-co2-emissions-on-earth/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+A case study involving Europe’s largest coal-fired power plant shows space-based observations can be used to track carbon dioxide emissions – and reductions – at the source.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWQzQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f2a58b447c941859657504e3c4aa4fc2142e38bc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1-europe-at-night-640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='NASA Space Missions Pinpoint Sources of CO2 Emissions on Earth' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeWQzQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f2a58b447c941859657504e3c4aa4fc2142e38bc/1-europe-at-night-640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+features
+</h5>
+<a href='https://climate.nasa.gov/news/3245/nasa-space-missions-pinpoint-sources-of-co2-emissions-on-earth/'>
+<div class='content_title'>
+NASA Space Missions Pinpoint Sources of CO2 Emissions on Earth
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3243/watch-the-latest-water-satellite-unfold-itself-in-space/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Cameras on the Surface Water and Ocean Topography spacecraft captured the antennas for its main science instrument unfurling in orbit.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN04xQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fa98306ca115713ddfdca642c5abcf5213735586/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/SWOT-illustration-1041.2e16d0ba.fill-400x400-c50.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='Watch the Latest Water Satellite Unfold Itself in Space' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBN04xQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--fa98306ca115713ddfdca642c5abcf5213735586/SWOT-illustration-1041.2e16d0ba.fill-400x400-c50.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+news
+</h5>
+<a href='https://climate.nasa.gov/news/3243/watch-the-latest-water-satellite-unfold-itself-in-space/'>
+<div class='content_title'>
+Watch the Latest Water Satellite Unfold Itself in Space
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3242/nasa-launches-international-mission-to-survey-earths-water/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Led by NASA and the French space agency CNES, the Surface Water and Ocean Topography mission will provide high-definition data on the salt- and fresh water on Earth’s surface.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUp6QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6f61b7cf23e136be7e41206617adb2062bce7b86/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/PIA25596-SWOT-orbit-illo-cropped_CNES_640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='NASA Launches International Mission to Survey Earth&#39;s Water' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUp6QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6f61b7cf23e136be7e41206617adb2062bce7b86/PIA25596-SWOT-orbit-illo-cropped_CNES_640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+news
+</h5>
+<a href='https://climate.nasa.gov/news/3242/nasa-launches-international-mission-to-survey-earths-water/'>
+<div class='content_title'>
+NASA Launches International Mission to Survey Earth&#39;s Water
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3241/nasa-sensors-to-help-detect-methane-emitted-by-landfills/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+A nonprofit group, Carbon Mapper, will use data from NASA’s EMIT mission, plus current airborne and future satellite instruments, to survey waste sites for methane emissions.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM2R6QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ec9f26da6d4dfad7022f140cfbe15822276e054c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1-emit-carbon-mapper-640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='NASA Sensors to Help Detect Methane Emitted by Landfills' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM2R6QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ec9f26da6d4dfad7022f140cfbe15822276e054c/1-emit-carbon-mapper-640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+news
+</h5>
+<a href='https://climate.nasa.gov/news/3241/nasa-sensors-to-help-detect-methane-emitted-by-landfills/'>
+<div class='content_title'>
+NASA Sensors to Help Detect Methane Emitted by Landfills
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3240/latest-international-water-satellite-packs-an-engineering-punch/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Meet the scientific heart of the Surface Water and Ocean Topography mission, which will see Earth’s water in higher definition than ever before.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMFJ6QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9d4c412b7561f004b5060bf46c7f31a7264bff9c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1-pia25595-swot-640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='Latest International Water Satellite Packs an Engineering Punch' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMFJ6QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9d4c412b7561f004b5060bf46c7f31a7264bff9c/1-pia25595-swot-640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+features
+</h5>
+<a href='https://climate.nasa.gov/news/3240/latest-international-water-satellite-packs-an-engineering-punch/'>
+<div class='content_title'>
+Latest International Water Satellite Packs an Engineering Punch
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3239/water-mission-to-gauge-alaskan-rivers-on-front-lines-of-climate-change/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+The upcoming Surface Water and Ocean Topography mission will provide a trove of data on Earth’s water resources, even in remote locations. Alaska serves as a case study.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVZ5QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3b02d5d8dec6fbb690bb6f2edd2420743c1a0717/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/2-usgs-stream-gage-atigun-640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='Water Mission to Gauge Alaskan Rivers on Front Lines of Climate Change' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOVZ5QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--3b02d5d8dec6fbb690bb6f2edd2420743c1a0717/2-usgs-stream-gage-atigun-640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+
+</h5>
+<a href='https://climate.nasa.gov/news/3239/water-mission-to-gauge-alaskan-rivers-on-front-lines-of-climate-change/'>
+<div class='content_title'>
+Water Mission to Gauge Alaskan Rivers on Front Lines of Climate Change
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/images-of-change?id=813#813-mauna-loa-hawaii,-erupts'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Fountains of lava erupted near Mauna Loa’s summit on Nov. 27, 2022, ending a 38-year period of quiet since the volcano’s last eruption.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source type='image/webp'>
+<img alt='Mauna Loa, Hawaii, Erupts' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjV5QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b5993d730962f1ffa53bc259d4cef2a3448e31d7/mauna-loa.gif?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+images of change
+</h5>
+<a href='https://climate.nasa.gov/images-of-change?id=813#813-mauna-loa-hawaii,-erupts'>
+<div class='content_title'>
+Mauna Loa, Hawaii, Erupts
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3237/nasa-sets-coverage-for-swot-water-survey-mission-launch/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+Targeting a Dec. 15 launch, SWOT will survey nearly all water on Earth’s surface for the first time, helping to track how fresh and saltwater bodies change over time.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjF5QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--71f4debaa603507c02dfea69693f6f1cb2436730/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/swot_for_advisory_640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='NASA Sets Coverage for SWOT Water Survey Mission Launch' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNjF5QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--71f4debaa603507c02dfea69693f6f1cb2436730/swot_for_advisory_640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+news
+</h5>
+<a href='https://climate.nasa.gov/news/3237/nasa-sets-coverage-for-swot-water-survey-mission-launch/'>
+<div class='content_title'>
+NASA Sets Coverage for SWOT Water Survey Mission Launch
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3235/meet-the-people-behind-the-swot-water-tracking-satellite/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+A new video series highlights the hard work and passion of scientists and engineers who are helping to get this remarkable new satellite off the ground.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOU53QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--52b7b8546736e009bf20971b3afd24d4a6d90654/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1-personal-profiles-advisory-640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='Meet the People Behind the SWOT Water-Tracking Satellite' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOU53QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--52b7b8546736e009bf20971b3afd24d4a6d90654/1-personal-profiles-advisory-640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+features
+</h5>
+<a href='https://climate.nasa.gov/news/3235/meet-the-people-behind-the-swot-water-tracking-satellite/'>
+<div class='content_title'>
+Meet the People Behind the SWOT Water-Tracking Satellite
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3234/5-things-to-know-about-how-swot-will-look-at-the-worlds-water/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+The international Surface Water and Ocean Topography mission will provide high-definition data on the salt- and fresh water on Earth’s surface.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDF3QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a259f9f7cd251040957f690951f0230e102a5b26/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/pia25623-swot-640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='5 Things to Know About How SWOT Will Look at the World&#39;s Water' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBeDF3QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a259f9f7cd251040957f690951f0230e102a5b26/pia25623-swot-640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+features
+</h5>
+<a href='https://climate.nasa.gov/news/3234/5-things-to-know-about-how-swot-will-look-at-the-worlds-water/'>
+<div class='content_title'>
+5 Things to Know About How SWOT Will Look at the World&#39;s Water
+</div>
+</a>
+</div>
+
+<div class='slide'>
+<div class='image_and_description_container'>
+<a href='https://climate.nasa.gov/news/3232/nasa-study-rising-sea-level-could-exceed-estimates-for-us-coasts/'>
+<div class='rollover_description'>
+<div class='rollover_description_inner'>
+New results show average sea level rise approaching the 1-foot mark for most coastlines of the contiguous U.S. by 2050. The Gulf Coast and Southeast will see the most change.
+</div>
+<div class='overlay_arrow'>
+<img alt='More' src='/assets/overlay-arrow.png'>
+</div>
+</div>
+<picture>
+<source srcset='/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL3R2QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e34349ab8eb9e5b84d6e463e6caf957dc3f464a2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MWm05eWJXRjBPZ2wzWldKdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--308d105b858fde2aa7c2bd953e87f719e2dd73bb/1-norfolk-640x480.jpg?content_type=image%2Fwebp&amp;disposition=inline' type='image/webp'>
+<img alt='NASA Study: Rising Sea Level Could Exceed Estimates for U.S. Coasts' src='/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBL3R2QWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e34349ab8eb9e5b84d6e463e6caf957dc3f464a2/1-norfolk-640x480.jpg?disposition=inline'>
+</picture>
+</a>
+</div>
+<h5 class='category_title'>
+features
+</h5>
+<a href='https://climate.nasa.gov/news/3232/nasa-study-rising-sea-level-could-exceed-estimates-for-us-coasts/'>
+<div class='content_title'>
+NASA Study: Rising Sea Level Could Exceed Estimates for U.S. Coasts
+</div>
+</a>
+</div>
+
+<div class='slide_controls_and_count_container'>
+<div class='slide_controls'>
+<div class='arrow_wrapper left'>
+<svg class='arrow' viewBox='0 0 10 16' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<rect fill='none' height='16' width='10'></rect>
+<polygon fill='currentColor' points='10 13.36 7.62 15.83 0 7.92 7.62 0 10 2.47 4.76 7.92 10 13.36'></polygon>
+</svg>
+</div>
+<div class='arrow_wrapper right'>
+<svg class='arrow' viewBox='0 0 10 16' xmlns:svg='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg'>
+<rect fill='none' height='16' width='10'></rect>
+<polygon fill='currentColor' points='10 13.36 7.62 15.83 0 7.92 7.62 0 10 2.47 4.76 7.92 10 13.36'></polygon>
+</svg>
+</div>
+</div>
+<div class='slide_count'>
+<span class='slide_current'></span>
+<span class='slide_slash'></span>
+<span class='slide_total'></span>
+</div>
+</div>
+</div>
+
+</section>
+</div>
+</section>
+
+</div>
+<footer class='clearfix' id='site_footer'>
+<div class='site_footer_background'>
+<picture class='background_picture'>
+<source srcset='/assets/footer_starfield.webp' type='image/webp'>
+<img alt='' loading='lazy' src='/assets/footer_starfield.png'>
+</picture>
+<picture class='background_picture'>
+<source srcset='/assets/footer_starfield.webp' type='image/webp'>
+<img alt='' loading='lazy' src='/assets/footer_starfield.png'>
+</picture>
+<picture class='background_picture'>
+<source srcset='/assets/footer_starfield.webp' type='image/webp'>
+<img alt='' loading='lazy' src='/assets/footer_starfield.png'>
+</picture>
+</div>
+<section class='upper_footer'>
+<div class='footer_newsletter'>
+<h2>Get the Newsletter</h2>
+<form action='/newsletter_signup' class='submit_newsletter' method='GET'>
+<input class='email_field' name='email' onblur='this.placeholder = &#39;enter email address&#39;' onfocus='this.placeholder = &#39;&#39;' placeholder='enter email address' type='email' value=''>
+<input class='email_submit' type='submit' value=''>
+</form>
+</div>
+<div class='gradient_line'></div>
+<div class='share'>
+<h2>Stay Connected</h2>
+<div data-react-class="CherTools" data-react-props="{&quot;follow&quot;:[[&quot;Twitter&quot;,&quot;https://twitter.com/nasaclimate&quot;,&quot;/assets/twitter_icon@2x.png&quot;],[&quot;Facebook&quot;,&quot;https://www.facebook.com/nasaclimatechange&quot;,&quot;/assets/facebook_icon@2x.png&quot;],[&quot;Instagram&quot;,&quot;https://www.instagram.com/nasaclimatechange&quot;,&quot;/assets/instagram_icon@2x.png&quot;],[&quot;RSS&quot;,&quot;https://climate.nasa.gov/news/rss.xml&quot;,&quot;/assets/rss_icon@2x.png&quot;]]}" data-react-cache-id="CherTools-0"></div>
+
+</div>
+<div class='gradient_line'></div>
+</section>
+<section class='sitemap'>
+<div class='grid_layout'>
+<div class='sitemap_directory'>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/evidence">Facts</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/evidence' target='_self'>Evidence</a>
+</li>
+<li class='current'>
+<a href='/causes' target='_self'>Causes</a>
+</li>
+<li>
+<a href='/effects' target='_self'>Effects</a>
+</li>
+<li>
+<a href='/scientific-consensus' target='_self'>Scientific Consensus</a>
+</li>
+<li>
+<a href='/global-warming-vs-climate-change' target='_self'>Global Warming vs. Climate Change</a>
+</li>
+<li>
+<a href='/vital-signs/carbon-dioxide' target='_self'>Vital Signs</a>
+</li>
+<li>
+<a href='/faq' target='_self'>Questions (FAQ)</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/news">Articles</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/news' target='_self'>News and Features</a>
+</li>
+<li>
+<a href='/ask-nasa-climate' target='_self'>Ask NASA Climate</a>
+</li>
+<li>
+<a href='/newsletter_signup' target='_self'>Subscribe</a>
+</li>
+<li>
+<a href='/newsletter-archive' target='_self'>Climate Newsletter Archive</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/solutions/earth-science-in-action">Solutions</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/solutions/earth-science-in-action' target='_self'>Earth Science in Action</a>
+</li>
+<li>
+<a href='/solutions/adaptation-mitigation' target='_self'>Mitigation and Adaptation</a>
+</li>
+<li>
+<a href='/solutions/resources' target='_self'>Sustainability and Government Resources</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/explore/interactives">Explore</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/images-of-change' target='_self'>Images of Change</a>
+</li>
+<li>
+<a href='/explore/earth-minute' target='_self'>Earth Minute Videos</a>
+</li>
+<li>
+<a href='/explore/interactives' target='_self'>Interactives</a>
+</li>
+<li>
+<a href='/explore/beautiful-earth' target='_self'>Beautiful Earth Gallery</a>
+</li>
+<li>
+<a href='/explore/earth-360' target='_self'>Earth 360</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="/nasa_science/science/">NASA Science</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='https://science.nasa.gov/' target='_self'>Science Mission Directorate</a>
+</li>
+<li>
+<a href='/nasa_science/data' target='_self'>NASA Data Resources</a>
+</li>
+<li>
+<a href='/nasa_science/science' target='_self'>Earth System Science</a>
+</li>
+<li>
+<a href='/nasa_science/missions' target='_self'>Earth Science Missions</a>
+</li>
+<li>
+<a href='/nasa_science/history' target='_self'>History</a>
+</li>
+<li>
+<a href='/nasa_science/people' target='_self'>People</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+<div class='sitemap_block'>
+<div class='footer_sitemap_item'>
+<h3 class='sitemap_title'>
+<a href="in-progress">More</a>
+</h3>
+<ul><li>
+<div class='global_subnav_container'>
+<ul class='subnav'>
+<li>
+<a href='/for-media' target='_self'>For Media</a>
+</li>
+<li>
+<a href='/for-educators' target='_self'>For Educators</a>
+</li>
+<li>
+<a href='/resources/graphics-and-multimedia' target='_self'>Multimedia</a>
+</li>
+<li>
+<a href='/en-espanol' target='_self'>En español</a>
+</li>
+<li>
+<a href='/for-kids' target='_self'>For Kids</a>
+</li>
+<li>
+<a href='/about-us' target='_self'>About Us</a>
+</li>
+
+</ul>
+</div>
+</li></ul>
+</div>
+</div>
+
+</div>
+</div>
+<div class='gradient_line'></div>
+</section>
+<section class='lower_footer'>
+<picture class='background_picture'>
+<source srcset='/assets/footer_earth.webp' type='image/webp'>
+<img alt='' loading='lazy' src='/assets/footer_earth.png'>
+</picture>
+<div class='grid_layout'>
+<div class='nav_container'>
+<nav>
+<ul>
+<li>
+<a href='/feedback' target='_self'>Feedback</a>
+</li>
+|
+<li>
+<a href='/awards' target='_self'>Awards</a>
+</li>
+|
+<li>
+<a href='/visual-sitemap/content' target='_self'>Sitemap</a>
+</li>
+|
+<li>
+<a href='http://earthobservatory.nasa.gov' target='_self'>Earth Observatory</a>
+</li>
+|
+<li>
+<a href='https://sealevel.nasa.gov' target='_self'>SEA LEVEL CHANGE</a>
+</li>
+|
+<li>
+<a href='https://www.nasa.gov/about/highlights/HP_Privacy.html' target='_self'>Privacy</a>
+</li>
+|
+<li>
+<a href='http://www.data.gov/climate/' target='_self'>Climate Data Initiative</a>
+</li>
+|
+<li>
+<a href='http://toolkit.climate.gov' target='_self'>U.S. CLIMATE RESILIENCE TOOLKIT</a>
+</li>
+
+</ul>
+</nav>
+</div>
+<div class='credits'>
+<div class='footer_brands_top'>
+<p>
+This website is produced by the Earth Science Communications Team at
+</p>
+</div>
+<div class='footer_brands'>
+<a class='jpl' href='https://www.jpl.nasa.gov' target='_blank'>NASA's Jet Propulsion Laboratory</a>
+|
+<a class='caltech' href='https://www.caltech.edu' target='_blank'>California Institute of Technology</a>
+</div>
+<div class='staff'>
+<p>
+Site Editor: 
+<a href="/feedback">Holly Shaftel</a>
+<br>
+Managing Editor: 
+<a href="/feedback">Susan Callery</a>
+<br>
+Senior Producer: 
+<a href="/feedback">Randal Jackson</a>
+<br>
+Senior Science Editor: 
+<a href="/feedback">Daniel Bailey</a>
+<br>
+Science Editor: 
+<a href="/feedback">Susan Callery</a>
+<br>
+</p>
+</div>
+<div class='site_last_updated'>
+<p>
+Site last updated: January 12, 2023
+</p>
+</div>
+</div>
+</div>
+</section>
+</footer>
+
+</div>
+</div>
+<script>
+  var gmu = {
+  
+    addZero: function(i) {
+      if (i < 10) {
+        i = "0" + i;
+      }
+      return i;
+    },
+  
+    checkGMU: function(){
+      var param = mb_utils.getParam('pid')
+      var cookie_exists = mb_utils.readCookie('GMU_Visitor')
+      var now = new Date();
+      var date_string = (now.getMonth()+1) + "/"
+                + now.getDate() + "/" 
+                + now.getFullYear() + " @ "  
+                + now.getHours() + ":"  
+                + gmu.addZero(now.getMinutes()) + ":" 
+                + gmu.addZero(now.getSeconds()) + " ." 
+                + now.getMilliseconds();
+      var event_label = window.location.href + " (" + date_string + ")"
+      //if(!cookie_exists && param && param.length > 0){
+      console.log('param: ' + param);
+      console.log('cookie_exists: ' + cookie_exists);
+      if(param && param.length > 0 && cookie_exists != param){
+        console.log('create GMU cookie')
+        var date = new Date();
+        date.setTime(date.getTime()+(10*60*1000));  //10 minutes
+        var expires = "; expires="+date.toGMTString();
+        document.cookie = "GMU_Visitor="+param+expires+'; path=/';
+        _sendEvent('GMU', param, event_label, now.getTime());
+      } else if (cookie_exists){
+        console.log('use existing GMU cookie')
+        _sendEvent('GMU', cookie_exists, event_label, now.getTime());
+      } else {
+        //do nothing
+      }
+    },
+  
+    analyticsReady: function(){
+      if(typeof("_sendEvent") == 'undefined'){
+        console.log("analytics not loaded. wait 300ms.")
+        window.setTimeout(gmu.analyticsReady, 300);
+      } else {
+        console.log("analytics ok.")
+        gmu.checkGMU()
+      }
+    }
+  }
+  
+  $(document).ready(function(){
+    gmu.analyticsReady();
+  })
+</script>
+
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&amp;sub­agency=CLIMATE&amp;pua=UA-4391123-19,UA-118212757-1&amp;sp=q&amp;yt=true&amp;dclink=true&exts=tif,tiff,wav" type='text/javascript'></script>
+
+
+<!-- Google Tag Manager --><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NLDQZ25');</script><!-- End Google Tag Manager -->
+
+
+<script src="//script.crazyegg.com/pages/scripts/0013/2090.js" async="async"></script>
+</body>
+</html>

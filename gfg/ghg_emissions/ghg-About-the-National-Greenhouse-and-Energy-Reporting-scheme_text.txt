@@ -1,0 +1,129 @@
+Greenhouse gases and energy
+[if IE 9]
+[endif]
+Jump to the top navigation
+Jump to the search field
+Jump to the main content
+Jump to the footer
+You may be trying to access this site from a secured browser on the server. Please enable scripts and reload this page.
+Turn on more accessible mode
+Turn off more accessible mode
+Skip Ribbon Commands
+Skip to main content
+Turn off Animations
+Turn on Animations
+Media centre
+It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.
+Clean Energy Regulator
+About the Clean Energy Regulator
+What we doOur strategic directionSubscribe to email updatesLegislation and regulationsInternal review of decisionsAbout the Clean Energy RegulatorGlossaryComplaints handling policyEventsCompliance policy for enforceable undertakingsOperations during COVID-19
+Emissions Reduction Fund
+Subscribe to email updatesEmissions Reduction FundEventsEmissions Reduction Fund methodsMethod consultationMethod reviews
+National Greenhouse and Energy ReportingCurrently selected
+EventsSubscribe to email updates
+Renewable Energy Target
+EventsPrintSubscribe to email updates
+Information hubs
+AuditsCarbon Farming Initiative
+Closed methods
+Carbon Pricing Mechanism
+Industry assistanceUnit shortfall chargesInformation about units
+Case studiesConsultation hubData and informationMarkets
+About Carbon MarketsMarket contacts Contracts for carbon and renewable market tradesSubscribe to email updatesCarbon market licensing requirementsBuying ACCUsQuarterly Carbon Market ReportsAustralian Carbon ExchangeGuarantee of OriginTrial projectsPurchasing ACCUs with co-benefits
+Media Centre
+ResourcesSubscribe to email updatesAbout the media centre
+Our systems - logins and guidance
+Australian National Registry of Emissions Units
+Data and informationOpening an ANREU accountSubscribe to email updatesUsing emissions units as securityHistory of the ANREUSupporting the Emissions Reduction FundSupporting the Kyoto Protocol
+Client PortalClient Portal BetaEmissions and Energy Reporting System
+Identified issues
+REC Registry
+Greenhouse-gases-and-energy
+Clean Energy Regulator > National Greenhouse and Energy Reporting > About the National Greenhouse and Energy Reporting scheme > Greenhouse gases and energy
+About the National Greenhouse and Energy Reporting scheme
+Scheme componentsGreenhouse gases and energyCurrently selectedGlobal warming potentialsDisclaimer disclosure and privacy
+The safeguard mechanism
+CoverageBaselines
+Production-adjusted baselineCalculated baselineLandfill baselineSectoral baselineReported baselineBaseline variation
+Managing excess emissions
+Multi-year monitoring period
+Safeguard data
+Safeguard baselines tableSafeguard facility reported emissionsSafeguard multi-year monitoring period table
+Forms and guidanceKey dates
+Reporting cycle
+Assess your obligations
+Key steps in reporting your obligations
+Register and deregisterHow to reportRecord keeping and compliance
+National greenhouse and energy reporting data
+What data is published and whyData highlights
+2020-21 published data highlights2019–20 published data highlights2018–19 published data highlights2017–18 published data highlights2016–17 published data highlights2015–16 published data highlights2014–15 published data highlights
+Corporate emissions and energy data
+Corporate emissions and energy data 2020-21Corporate emissions and energy data 2019–20Corporate emission and energy data 2018–19Corporate emission and energy data 2017–18Corporate emissions and energy data 2016–17Corporate emissions and energy data 2015–16Corporate emissions and energy data 2014–15Corporate emissions and energy data 2013–14Corporate emissions and energy data 2012–13Corporate emissions and energy data 2011–12Corporate emissions and energy data 2010–11Corporate emissions and energy data 2009–10Corporate emissions and energy data 2008–09
+Electricity sector emissions and generation data
+Electricity sector emissions and generation data 2020-21Electricity sector emissions and generation data 2019-20Electricity sector emissions and generation data 2018-19Electricity sector emissions and generation data 2017-18Electricity sector emissions and generation data 2016-17Electricity sector emissions and generation data 2015-16Electricity sector emissions and generation data 2014-15Electricity sector emissions and generation data 2013-14Electricity sector emissions and generation data 2012-13
+Net energy consumption
+Net energy consumption totals 2010-11Net energy consumption totals 2011-12
+A closer look at emissions and energy data
+Australia’s scope 1 emissions by industry for NGER reportersAustralia's highest emitters (scope 1) and cumulative percentageState and territory scope 1 emissions by ANZSIC division for NGER reporters
+Greenpower and renewable energy certificatesNational Greenhouse and Energy Register by year
+National Greenhouse and Energy Register 2020–21National Greenhouse and Energy Register 2019–20National Greenhouse and Energy Register 2018–19National Greenhouse and Energy Register 2017–18National Greenhouse and Energy Register 2016–17National Greenhouse and Energy Register 2015–16National Greenhouse and Energy Register 2014–15National Greenhouse and Energy Register 2013–14National Greenhouse and Energy Register 2012–13National Greenhouse and Energy Register 2011–12National Greenhouse and Energy Register by year – 13 December 2011
+Data privacy statement
+Legislation
+Measurement Determination
+Forms and resources
+CalculatorsFormsGuidelinesArchived resources
+News and updatesEventsSubscribe to email updates
+Greenhouse gases and energy
+Suggested Reading
+Html Content 07LegislationNGER reporting cycleCalculators, forms, guides, training tools and FAQs
+14 October 2022
+Html Content 01
+NGER
+Html Content 04Contents
+Greenhouse gases
+Scope 1 emissions
+Scope 2 emissions
+Scope 3 emissions
+Energy production and consumptionGreenhouse gasesThe greenhouse gases that are reported under the NGER Scheme include carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), sulphur hexafluoride (SF6) and specified kinds of hydro fluorocarbons and perfluorocarbons. When reporting emissions, energy production and energy consumption data, only those activities, fuels and energy commodities for which there are
+applicable methods under the NGER Scheme are reported. Greenhouse gas emissions are measured as kilotonnes of carbon dioxide equivalence (CO2-e). This means that the amount of a greenhouse gas that a business emits is measured as an equivalent amount of carbon dioxide which has a global warming potential of one. For example, in 2015–16, one tonne of methane released into the atmosphere will cause the same amount of global warming as 25 tonnes of carbon dioxide. So, the one tonne of methane is expressed as 25 tonnes of carbon dioxide equivalence, or 25 t CO2-e.Scope 1 emissionsScope 1 greenhouse gas emissions are the emissions released to the atmosphere as a direct result of an activity, or series of activities at a
+facility level. Scope 1 emissions are sometimes referred to as direct emissions. Examples are:emissions produced from manufacturing processes, such as from the manufacture of cementemissions from the burning of diesel fuel in trucksfugitive emissions, such as methane emissions from coal mines, orproduction of electricity by burning coal.
+Scope 1 emissions are specified under the NGER legislation and must be reported.Scope 2 emissionsScope 2 greenhouse gas emissions are the emissions released to the atmosphere from the indirect consumption of an energy commodity. For example, 'indirect emissions' come from the use of electricity produced by the burning of coal in another facility.Scope 2 emissions from one facility are part of the scope 1 emissions from another facility.For example, a power station burns coal to power its generators and in turn creates electricity. Burning the coal causes greenhouse emissions to be emitted. These gases are attributed to the power station as scope 1 emissions. If the electricity is then transmitted to a car factory and used there to power its machinery and lighting, the gases emitted as a result of generating the electricity are then attributed to the factory as scope 2 emissions.
+Scope 2 emissions are specified under the NGER legislation and must be reported.Scope 3 emissions
+Scope 3 greenhouse gas emissions are not reported under the NGER Scheme, but can be used under
+Australia's National Greenhouse Accounts.Scope 3 emissions are indirect greenhouse gas emissions other than scope 2 emissions that are generated in the wider economy. They occur as a consequence of the activities of a facility, but from sources not owned or controlled by that facility's business. Some examples are extraction and production of purchased materials, transportation of purchased fuels, use of sold products and services, and flying on a commercial airline by a person from another business.Energy production and energy consumption
+documentasset:NGER energy production and consumption is reported under the NGER Scheme so that data on energy flows and transformations occurring throughout the economy can be captured. This includes the initial extraction and own-use of energy, and the transformation of energy occurring within and between facilities.The NGER Scheme legislation requires the total amount of each commodity to be reported, including each transformation of energy from one fuel or commodity into another.
+Html Content 02
+Documents on this page
+Was this page useful?
+Html Content 09
+LEAVE FEEDBACKCloseWas this page usefulRating *:Comment *:Name:Email:Phone number:Submit
+Page Image
+Page Content
+Image Caption
+About The Clean Energy Regulator
+Carbon Farming Initiative
+Carbon Pricing Mechanism
+National Greenhouse And Energy Reporting
+Renewable Energy Target
+Emissions Reduction Fund
+Our Systems And Their Resources
+Information Hubs
+Clean Energy Markets
+Data and information
+Media Centre
+Client Portal
+Emissions Reduction Assurance Committee
+Accessibility
+Contact Us
+Subscribe to email updates
+Disclaimer
+Glossary
+Copyright Notice
+Information Publication Scheme
+Freedom of Information
+The Clean Energy Regulator is a Government body responsible for accelerating carbon abatement for Australia.
+Follow us on:
+Twitter
+Facebook
+LinkedIn
+Youtube

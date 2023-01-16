@@ -1,0 +1,232 @@
+5 Facts about Country & Sector GHG Emissions
+Skip to main content
+Accessibility
+World Resources Institute
+Making Big Ideas Happen
+Main navigation
+Research
+Data
+Initiatives
+Insights
+Most Recent
+Podcasts
+News
+All Insights
+Click to see more
+Donate
+Donate
+Donate
+Quick Links
+Quick Links
+News
+Resource Library
+Experts
+Events
+Careers
+Donate
+Click to see more
+Main navigation
+Research
+Data
+Initiatives
+Insights
+Footer menu - secondary
+Our Work
+Regions
+Africa
+Asia
+Europe
+Latin America
+North America
+Programs
+Cities
+Climate
+Energy
+Food
+Forests
+Ocean
+Water
+Centers
+Business
+Economics
+Equity
+Finance
+Mega Menu
+Our Approach
+Strategic Plan
+Managing for Results
+Top Outcomes
+About Us
+Mission
+Staff
+Latest Annual Report
+Financials
+History
+Sustainability at WRI
+Board of Directors
+Join Us
+Events
+Careers
+Ways to Give
+Procurement Opportunities
+Contact the Institute
+What can we help you find?
+Ways to Give
+Join us
+Contact an Expert
+Explore WRI Perspectives
+Back
+Filter Your Site Experience by Topic
+Applying the filters below will filter all articles, data, insights and projects by the topic area you select.
+All Topics Remove filter
+Climate filter site by Climate
+Cities filter site by Cities
+Energy filter site by Energy
+Food filter site by Food
+Forests filter site by Forests
+Water filter site by Water
+Ocean filter site by Ocean
+Business filter site by Business
+Economics filter site by Economics
+Finance filter site by Finance
+Equity filter site by Equity
+Search WRI.org
+Not sure where to find something? Search all of the site's content.
+What can we help you find?
+Ways to Give
+Join us
+Contact an Expert
+Explore WRI Perspectives
+4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors
+February 6, 2020
+By
+Mengpin Ge, Johannes Friedrich and Leandro Vigna
+Cover Image by: Marek Piwnicki/Unsplash
+Explainer
+Topic
+Climate
+Social
+Twitter
+LinkedIn
+Facebook
+Email
+Print
+More on
+Energyclimatewatch-pinnedclimate changeGHG emissionsgreenhouse gases
+More on
+Energyclimatewatch-pinnedclimate changeGHG emissionsgreenhouse gases
+This article was updated in June 2022 to reflect the latest data.
+Globally, greenhouse gas emissions have grown by 53% from 1990 to 2019.
+(More recent carbon emissions data suggests that there was a temporary decrease in the average global CO2 emissions in 2020, but the trend was not sustained. Preliminary numbers find CO2 emissions increased again in 2021).
+Where are these emissions coming from, and who is responsible? WRI’s Climate Watch platform offers comprehensive emissions data for all countries, sectors and gases. Here’s what we know about the sectors and countries driving greenhouse gas emissions globally:
+The Energy Sector Produces the Most Greenhouse Gas Emissions
+Energy consumption is by far the biggest source of human-caused greenhouse gas emissions, responsible for a whopping 75.6% (37.6 GtCO2e) worldwide. The energy sector includes transportation, electricity and heat, buildings, manufacturing and construction, fugitive emissions and other fuel combustion.
+The other top sectors that produce emissions are agriculture, such as livestock and crop cultivation (5.8 GtCO2e, or 11.6%); industrial processes of chemicals, cement and more (3.1 GtCO2e, or 6.1%); waste, including landfills and wastewater (1.6 GtCO2e, or 3.3%); and land use, land-use change and forestry, such as deforestation (1.6 GtCO2e, or 3.3%).
+Within the energy sector, heat and electricity generation is responsible for most emissions (15.8 GtCO2e in 2019, or 31.8% of total greenhouse gas emissions), followed by transportation (8.4 GtCO2e in 2019, or 17% of total emissions) and manufacturing and construction (6.3 GtCO2e, or 12.7% of total emissions).
+View a static version of this graphic here.
+Buildings and Cars Are the Main Contributors of Energy-related Emissions
+The middle column of the chart above shows emissions by end-use activities, illustrating the specific activities from which emissions stem. Activities driving most energy emissions include road transportation (12.6% of total emissions), residential buildings (11.5% of total emissions) and commercial buildings (6.5% of total emissions). Emissions from those activities include both direct emissions from fossil fuel combustion, as well as indirect emissions from activities such as use of electricity.
+Outside of energy, major drivers include livestock and manure (5.8%), other industry (4.5%) and agricultural soils (4.2%). The “other industry” category contains all activities that do not squarely fall within the other categories, including non-metallic metals, construction, mining and quarrying, textile and leather, wood and wood products, transportation equipment and more activities.
+Industry and Transportation Are the Fastest-growing Sources of Greenhouse Gas Emissions
+Since 1990, three sectors stand out as the fastest-growing sources of greenhouse gas emissions: Industrial processes grew by 203%, electricity and heating (a subsector of energy) by 84%, and transportation (a subsector of energy) by 78%.
+The growth in industrial emissions stems not only from CO2 emissions, but also the increased use of refrigeration and air conditioning. These activities produce hydrofluorocarbons (HFCs), which are potent greenhouse gases. Increased travel by automobiles is the predominant reason transportation emissions are on the rise.
+10 Countries Produce More than 68% of Global Greenhouse Gas Emissions
+A small number of countries contribute most of the world’s greenhouse gas emissions, with the top 10 emitters accounting for over two-thirds of annual global greenhouse gas emissions. Most of them also have large populations and economies, together accounting for over 50% of the global population and 75% of the world’s GDP.
+China is the biggest emitter at 26.4% of global greenhouse gas emissions, followed by the United States at 12.5%, India at 7.06%, and the European Union at 7.03%.1
+Most of the top 10 emitters have higher emissions per person than the world average of 6.27 tCO2e per person. Among the top 10 total greenhouse gas emitters, Canada and the United States have the highest per capita greenhouse gas emissions at 19.6 tCO2e per person and 18.28 tCO2e per person, respectively, while India has the lowest at 2.48 tCO2e per person. China’s per capita emissions (9.06 tCO2e) continue to rise, surpassing those of the European Union (7.56 tCO2e).
+Countries such as Qatar and Australia, while not among the top 10 emitters, have higher per capita emissions than most top emitters at 40.52 tCO2e per person and 23.10 tCO2e per person, respectively.
+Carbon Dioxide Makes Up Most, but Not All, Greenhouse Gas Emissions
+Carbon dioxide (CO2) comprises 74.1% of greenhouse gas emissions. Most CO2 emissions (92%) are from the use of fossil fuels, especially for generation of electricity and heat, transportation, and manufacturing and consumption. Land use, land-use change and forestry is another contributor (3.7%) to human-made CO2 emissions, mostly due to deforestation.
+Methane (CH4) and nitrous oxide (N2O) make up 17.3% and 6.2% of total greenhouse gas emissions, respectively, mostly from agriculture, waste treatment and gas flaring. Fluorinated gases (comprised of HFCs, perfluorocarbons (PFCs), sulfur hexafluoride (SF6) and nitrogen trifluoride (NF3)) from industrial processes make up 2.4% of global emissions. These gases are much more potent than CO2 in terms their global warming potential, and often provide overlooked opportunities for mitigation.
+Greenhouse Gas Emissions Must Be Reduced Rapidly to Avert the Climate Crisis
+The world is already facing the consequences from climate change. To avoid much more dangerous and costly impacts, the latest IPCC report finds that for the world to limit global temperature rise to 1.5 degrees C (2.7 degrees F) and prevent the worst effects of climate change, global emissions need to peak before 2025. Recent research suggests that current levels of greenhouse gas emissions must be slashed in half by 2030 and reach net-zero by mid-century to keep this temperature target within reach.
+All countries, particularly major economies, need to step up their climate ambition and submit stronger national climate plans (known as NDCs), develop long-term climate strategies, and set up targets to reach net-zero emissions as soon as possible. Globally, 2030 greenhouse gas emissions need to be 55% lower than they would be under the initial round of nationally determined contributions (NDCs).
+The largest emissions sources, like the energy sector, are good places to start, but rapid transformations across all systems are needed. The State of Climate Action report finds that in order for the world to get on track for the emissions cuts required by 2030, countries must rapidly phase out coal in electricity generation, halt deforestation, increase the share of low-carbon fuels in transportation, and scale up public and private finance, among other actions.
+Relevant Work
+Climate
+This Interactive Chart Shows Changes in the World's Top 10 Emitters
+Insights
+December 10, 2020
+Climate
+The
+History of Carbon Dioxide Emissions
+Insights
+May 21, 2014
+Climate
+8 Charts to Understand US State Greenhouse Gas Emissions
+Insights
+August 10, 2017
+Climate
+How Methane Emissions Contribute to Climate Change
+Insights
+September 17, 2021
+How You Can HelpWRI relies on the generosity of donors like you to turn research into action. You can support our work by making a gift today or exploring other ways to give.
+Donate
+Ways to Give
+Stay Informed
+Email
+Footer menu - main
+Research
+Data
+Initiatives
+Insights
+Footer menu - secondary
+Our Work
+Regions
+Africa
+Asia
+Europe
+Latin America
+North America
+Programs
+Cities
+Climate
+Energy
+Food
+Forests
+Ocean
+Water
+Centers
+Business
+Economics
+Equity
+Finance
+Footer menu - Offices
+International Websites
+WRI Brasil
+WRI China
+WRI India
+WRI Indonesia
+WRI Mexico
+Footer menu - Additional
+Contact Us
+Events
+Resource Library
+For Media
+Financials
+Careers
+Internships
+Privacy
+Policy
+World Resources Institute
+10 G Street NE
+Suite 800
+Washington DC 20002
++1 (202) 729-7600
+Social menu
+Facebook
+Twitter
+LinkedIn
+Youtube
+Instagram
+© 2023 World Resources Institute
+Stories to Watch 2023
+At this pivotal moment, WRI President & CEO Ani Dasgupta will share insights into our predictions for the big stories coming up in 2023, including what actions governments, businesses, institutions and people must take to get the world on the right path.
+Sign up now to secure your spot.
+Register
+Make your end of year gift today.
+Donate now
+Research Consultancy, Alignment Process – Forest Data Partnership
+This website uses cookies to provide you with an improved user experience. By continuing to browse this site, you consent to the use of cookies and similar technologies. For further details please visit our
+privacy policy
+Okay

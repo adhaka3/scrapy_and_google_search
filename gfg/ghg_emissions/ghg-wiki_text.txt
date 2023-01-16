@@ -1,0 +1,2302 @@
+Greenhouse gas emissions - Wikipedia
+Greenhouse gas emissions
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+Sources and amounts of greenhouse gases emitted to the atmosphere from human activities
+This article is about emissions of greenhouse gases into the atmosphere. For carbon dioxide emissions once they are in the atmosphere, see Carbon dioxide in Earth's atmosphere. For the effect of greenhouse gases once in the atmosphere, see Greenhouse effect. For characteristics of greenhouse gases themselves, see Greenhouse gas.
+2020 Worldwide CO2 emissions (by region, per capita); variwide diagram
+Annual greenhouse gas emissions per person (height of vertical bars) and per country (area inside vertical bars)[1]
+In the highest-emitting countries, emission trends in recent decades sometimes diverge from longer-term historical trends.[2][3]
+Greenhouse gas emissions from human activities strengthen the greenhouse effect, contributing to climate change. Most is carbon dioxide from burning fossil fuels: coal, oil, and natural gas. The largest emitters include coal in China and large oil and gas companies. Human-caused emissions have increased atmospheric carbon dioxide by about 50% over pre-industrial levels. The growing levels of emissions have varied, but have been consistent among all greenhouse gases (GHGs). Emissions in the 2010s averaged 56 billion tons a year, higher than any decade before.[4] Each year, about 6.7 million people die from polluted air quality.[5]
+Electricity generation and transport are major emitters; the largest single source, according to the United States Environmental Protection Agency, is transportation, accounting for 27% of all USA greenhouse gas emissions.[6] Deforestation and other changes in land use also emit carbon dioxide and methane. The largest source of anthropogenic methane emissions is agriculture, closely followed by gas venting and fugitive emissions from the fossil-fuel industry. The largest agricultural methane source is livestock. Agricultural soils emit nitrous oxide partly due to fertilizers. Similarly, fluorinated gases from refrigerants play an outsized role in total human emissions.
+At current emission rates averaging six and a half tonnes per person per year, before 2030 temperatures may have increased by an average of 1.5 °C (2.7 °F) over pre-industrial levels, which is the limit for the G7 countries and aspirational limit of the Paris Agreement.[7]
+Contents
+1 Measurements and calculations
+2 Overview of main sources
+2.1 Inventories and maps
+3 Emissions by type of energy source
+3.1 Relative CO2 emission from various fuels
+4 Emissions by type of greenhouse gas
+4.1 Carbon dioxide (CO2)
+4.2 Methane (CH4)
+4.3 Nitrous oxide (N2O)
+4.4 F-Gases
+4.5 Black carbon
+5 Emissions by sector
+5.1 Electricity generation
+5.2 Agriculture, forestry and land use
+5.2.1 Agriculture
+5.2.1.1 Deforestation
+5.2.1.2 Land-use change
+5.3 Transport
+5.3.1 Aviation
+5.3.2 Trucking and haulage
+5.4 Buildings and construction
+5.5 Industrial processes
+5.5.1 Steel and aluminum
+5.5.2 Plastics
+5.5.3 Pulp and paper
+5.6 Various services
+5.6.1 Digital services
+5.6.2 Health care
+5.6.3 Water supply and sanitation
+5.6.4 Tourism
+6 Emissions by other characteristics
+6.1 Generational
+6.2 By socio-economic class
+7 Regional and national attribution of emissions
+7.1 Greenhouse gas intensity
+7.2 Cumulative and historical emissions
+7.3 Changes since a particular base year
+7.4 Embedded emissions
+8 Historical trends
+9 By country
+9.1 Annual emissions
+9.2 Top emitter countries
+9.3 United States
+9.4 China
+9.5 India
+10 Reducing greenhouse gas emissions
+10.1 Fiscal decentralisation and carbon reductions
+10.2 Effect of policy
+10.3 Projections
+10.4 Impacts of the COVID-19 pandemic
+11 See also
+12 References
+13 External links
+Measurements and calculations[edit]
+Annual CO2 emissions, total by country, not per capita (2017 data)
+Data from:[1] [2] [3]
+Global GHG Emissions by gas
+Global greenhouse gas emissions are about 50 Gt per year[8] (6.6t per person[9]) and for 2019 have been estimated at 57 Gt CO2 eq including 5 Gt due to land use change.[10] In 2019, approximately 34% [20 GtCO2-eq] of total net anthropogenic GHG emissions came from the energy supply sector, 24% [14 GtCO2-eq] from industry, 22% [13 GtCO2-eq]from agriculture, forestry and other land use (AFOLU), 15% [8.7 GtCO2-eq] from transport and 6% [3.3 GtCO2-eq] from buildings.[11]
+Carbon dioxide (CO2), nitrous oxide (N2O), methane, three groups of fluorinated gases (sulfur hexafluoride (SF6), hydrofluorocarbons (HFCs) and perfluorocarbons (PFCs)) are the major anthropogenic greenhouse gases, and are regulated under the Paris Agreement.[12]: 147 [13]
+Although CFCs are greenhouse gases, they are regulated by the Montreal Protocol, which was motivated by CFCs' contribution to ozone depletion rather than by their contribution to global warming. Note that ozone depletion has only a minor role in greenhouse warming, though the two processes are sometimes confused in the media. In 2016, negotiators from over 170 nations meeting at the summit of the United Nations Environment Programme reached a legally binding accord to phase out hydrofluorocarbons (HFCs) in the Kigali Amendment to the Montreal Protocol.[14][15][16]
+There are several ways of measuring greenhouse gas emissions. Some variables that have been reported include:[17]
+Definition of measurement boundaries: Emissions can be attributed geographically, to the area where they were emitted (the territory principle) or by the activity principle to the territory that produced the emissions. These two principles result in different totals when measuring, for example, electricity importation from one country to another, or emissions at an international airport.
+Time horizon of different gases: The contribution of given greenhouse gas is reported as a CO2 equivalent. The calculation to determine this takes into account how long that gas remains in the atmosphere. This is not always known accurately[clarification needed] and calculations must be regularly updated to reflect new information.
+The measurement protocol itself: This may be via direct measurement or estimation. The four main methods are the emission factor-based method, mass balance method, predictive emissions monitoring systems, and continuous emissions monitoring systems. These methods differ in accuracy, cost, and usability. Public information from space-based measurements of carbon dioxide by Climate Trace is expected to reveal individual large plants before the 2021 United Nations Climate Change Conference.[18]
+These measures are sometimes used by countries to assert various policy/ethical positions on climate change.[19]: 94
+The use of different measures leads to a lack of comparability, which is problematic when monitoring progress towards targets. There are arguments for the adoption of a common measurement tool, or at least the development of communication between different tools.[17]
+Emissions may be tracked over long time periods, known as historical or cumulative emissions measurements. Cumulative emissions provide some indicators of what is responsible for greenhouse gas atmospheric concentration build-up.[20]: 199
+The national accounts balance tracks emissions based on the difference between a country's exports and imports. For many richer nations, the balance is negative because more goods are imported than they are exported. This result is mostly due to the fact that it is cheaper to produce goods outside of developed countries, leading developed countries to become increasingly dependent on services and not goods. A positive account balance would mean that more production was occurring within a country, so more operational factories would increase carbon emission levels.[21]
+Emissions may also be measured across shorter time periods. Emissions changes may, for example, be measured against the base year of 1990. 1990 was used in the United Nations Framework Convention on Climate Change (UNFCCC) as the base year for emissions, and is also used in the Kyoto Protocol (some gases are also measured from the year 1995).[12]: 146, 149  A country's emissions may also be reported as a proportion of global emissions for a particular year.
+Another measurement is of per capita emissions. This divides a country's total annual emissions by its mid-year population.[22]: 370  Per capita emissions may be based on historical or annual emissions.[19]: 106–107
+While cities are sometimes considered to be disproportionate contributors to emissions, per-capita emissions tend to be lower for cities than the averages in their countries.[23]
+At current emission rates, before 2030 temperatures may have increased by 1.5 °C (2.7 °F) over pre-industrial levels,[24][25] which is the limit for the G7 countries[26] and aspirational limit of the Paris Agreement.[27]
+Overview of main sources[edit]
+See also: Effects of climate change on ecosystems
+Modern global CO2 emissions from the burning of fossil fuels.
+Potential CO2 emissions from large fossil fuel projects 'carbon bombs' per country
+Since about 1750, human activity has increased the concentration of carbon dioxide and other greenhouse gases. As of 2021, measured atmospheric concentrations of carbon dioxide were almost 50% higher than pre-industrial levels.[28] Natural sources of carbon dioxide are more than 20 times greater than sources due to human activity,[29] but over periods longer than a few years natural sources are closely balanced by natural sinks, mainly photosynthesis of carbon compounds by plants and marine plankton. Absorption of terrestrial infrared radiation by longwave absorbing gases makes Earth a less efficient emitter. Therefore, in order for Earth to emit as much energy as is absorbed, global temperatures must increase.
+Burning fossil fuels is estimated to have emitted 62% of 2015 human GhG.[30] The largest single source is coal-fired power stations, with 20% of GHG as of 2021.[31]
+The main sources of greenhouse gases due to human activity are:
+burning of fossil fuels and deforestation leading to higher carbon dioxide concentrations in the air.
+land use change (mainly deforestation in the tropics) accounts for about a quarter of total anthropogenic GHG emissions.[32]
+livestock enteric fermentation and manure management,[33] paddy rice farming, land use and wetland changes, man-made lakes,[34] pipeline losses, and covered vented landfill emissions leading to higher methane atmospheric concentrations. Many of the newer style fully vented septic systems that enhance and target the fermentation process also are sources of atmospheric methane.
+use of chlorofluorocarbons (CFCs) in refrigeration systems, and use of CFCs and halons in fire suppression systems and manufacturing processes.
+agricultural activities, including the use of fertilizers, that lead to higher nitrous oxide (N2O) concentrations.
+The major sources of Greenhouse gases (GHG) are:
+Land Use (CO2 emissions)
+Forestry (CO2-LULUCF)
+Nitrous Acid (N2O)
+Fluorinated gases (F-gases)
+Compromising hydrofluorocarbons (HFCs)
+Perfluorocarbons (PFCs)
+sulphur hexafluoride (SF6)
+nitrogen trifluoride (NF3) [35]
+The seven sources of CO2 from fossil fuel combustion are (with percentage contributions for 2000–2004):[36]
+This list needs updating, as it uses an out-of-date source. See the 2019 IPCC report for newer data.[needs update]
+Liquid fuels (e.g., gasoline, fuel oil): 36%
+Solid fuels (e.g., coal): 35%
+Gaseous fuels (e.g., natural gas): 20%
+Cement production: 3%
+Flaring gas industrially and at wells: 1%
+Non-fuel hydrocarbons: 1%
+"International bunker fuels" of transport not included in national inventories: 4%
+The largest source of anthropogenic methane emissions is agriculture, closely followed by gas venting and fugitive emissions from the fossil-fuel industry.[37][38] The largest agricultural methane source is livestock. Cattle (raised for both beef and milk, as well as for inedible outputs like manure and draft power) are the animal species responsible for the most emissions, representing about 65% of the livestock sector’s emissions.[39] Agricultural soils emit nitrous oxide partly due to fertilizers.[40]
+(N2O)
+(F-gases)
+(HFCs)
+(PFCs)
+(SF6)
+A 2017 survey of corporations responsible for global emissions found that 100 companies were responsible for 71% of global direct and indirect emissions, and that state-owned companies were responsible for 59% of their emissions.[41][42]
+Inventories and maps[edit]
+This section is an excerpt from Climate TRACE.[edit]
+Climate TRACE (Tracking Real-Time Atmospheric Carbon Emissions)[43] is an independent group which monitors and publishes greenhouse gas emissions within weeks.[44]
+It launched in 2021 before COP26,[45] and improves monitoring, reporting and verification (MRV) of both carbon dioxide and methane.[46][47]
+The group monitors sources such as coal mines and power station smokestacks worldwide,[48] with satellite data (but not their own satellites) and artificial intelligence.[49][50] Time magazine named it as one of the hundred best inventions of 2020.[51] Their emissions map is the largest global inventory and interactive map of greenhouse gas emission sources.[52][53]
+Emissions by type of energy source[edit]
+This section is an excerpt from Life-cycle greenhouse gas emissions of energy sources § Global warming potential of selected electricity sources.[edit]
+Life-cycle greenhouse gas emissions of electricity supply technologies, median values calculated by IPCC[54]
+Life cycle CO2 equivalent (including albedo effect) from selected electricity supply technologies according to IPCC 2014.[54][55] Arranged by decreasing median (gCO2eq/kWh) values.
+Technology
+Min.
+Median
+Max.
+Currently commercially available technologies
+Coal – PC
+740
+820
+910
+Gas – combined cycle
+410
+490
+650
+Biomass – Dedicated
+130
+230
+420
+Solar PV – Utility scale
+18
+48
+180
+Solar PV – rooftop
+26
+41
+60
+Geothermal
+6.0
+38
+79
+Concentrated solar power
+8.8
+27
+63
+Hydropower
+1.0
+24
+22001
+Wind Offshore
+8.0
+12
+35
+Nuclear
+3.7
+12
+110
+Wind Onshore
+7.0
+11
+56
+Pre‐commercial technologies
+Ocean (Tidal and wave)
+5.6
+17
+28
+1 see also environmental impact of reservoirs#Greenhouse gases.
+Lifecycle GHG emissions, in g CO2 eq. per kWh, UNECE 2020[56]
+Lifecycle CO2 emissions per kWh, EU28 countries, according to UNECE 2020.[56]
+Technology
+gCO2eq/kWh
+Hard coal
+PC, without CCS
+1000
+IGCC, without CCS
+850
+SC, without CCS
+950
+PC, with CCS
+370
+IGCC, with CCS
+280
+SC, with CCS
+330
+Natural gas
+NGCC, without CCS
+430
+NGCC, with CCS
+130
+Hydro
+660 MW [57]
+150
+360 MW
+11
+Nuclear
+average
+5.1
+CSP
+tower
+22
+trough
+42
+PV
+poly-Si, ground-mounted
+37
+poly-Si, roof-mounted
+37
+CdTe, ground-mounted
+12
+CdTe, roof-mounted
+15
+CIGS, ground-mounted
+11
+CIGS, roof-mounted
+14
+Wind
+onshore
+12
+offshore, concrete foundation
+14
+offshore, steel foundation
+13
+List of acronyms:
+PC — pulverized coal
+CCS — carbon capture and storage
+IGCC — integrated gasification combined cycle
+SC — supercritical
+NGCC — natural gas combined cycle
+CSP — concentrated solar power
+PV — photovoltaic power
+Relative CO2 emission from various fuels[edit]
+One liter of gasoline, when used as a fuel, produces 2.32 kg (about 1300 liters or 1.3 cubic meters) of carbon dioxide, a greenhouse gas. One US gallon produces 19.4 lb (1,291.5 gallons or 172.65 cubic feet).[58][59][60]
+The mass of carbon dioxide that is released when one MJ of energy is released from fuel can be estimated to a good approximation.[61] For the chemical formula of diesel we use as an approximation CnH2n. Note that diesel is a mixture of different molecules. As carbon has a molar mass of 12 g/mol and hydrogen (atomic!) has a molar mass of about 1 g/mol, so the fraction by weight of carbon in diesel is roughly 12/14. The reaction of diesel combustion is given by:
+2CnH2n + 3nO2 ⇌ 2nCO2 + 2nH2O
+Carbon dioxide has a molar mass of 44g/mol as it consists of 2 atoms of oxygen (16 g/mol) and 1 atom of carbon (12 g/mol). So 12 g of carbon yield 44 g of Carbon dioxide. Diesel has an energy content of 42.6 MJ per kg or 23.47 gram of Diesel contain 1 MJ of energy. Putting everything together the mass of carbon dioxide that is produced by releasing 1MJ of energy from diesel fuel can be calculated as:
+23.47
+g
+(Diesel)
+/
+M
+J
+⋅
+12
+14
+⋅
+44
+12
+=
+74
+g
+(carbon dioxide)
+/
+M
+J
+{\displaystyle 23.47\ \mathrm {g} {\text{ (Diesel)}}/\mathrm {MJ} \cdot {\frac {12}{14}}\cdot {\frac {44}{12}}=74\ \mathrm {g} {\text{ (carbon dioxide)}}/\mathrm {MJ} }
+For gasoline, with 22 g/MJ and a ratio of carbon to hydrogen atoms of about 6 to 14, the estimated value of carbon emission for 1MJ of energy is:
+22
+g
+(gasoline)
+/
+M
+J
+⋅
+6
+⋅
+12
+6
+⋅
+12
++
+14
+⋅
+1
+⋅
+44
+12
+=
+67.5
+g
+(carbon dioxide)
+/
+M
+J
+{\displaystyle 22\ \mathrm {g} {\text{ (gasoline)}}/\mathrm {MJ} \cdot {\frac {6\cdot 12}{6\cdot 12+14\cdot 1}}\cdot {\frac {44}{12}}=67.5\ \mathrm {g} {\text{ (carbon dioxide)}}/\mathrm {MJ} }
+Mass of carbon dioxide emitted per quantity of energy for various fuels[62]
+Fuel name
+CO2
+emitted
+(lbs/106 Btu)
+CO2
+emitted
+(g/MJ)
+CO2
+emitted
+(g/kWh)
+Hydrogen gas
+0
+0.0
+0.0
+Natural gas
+117
+50.30
+181.08
+Liquefied petroleum gas
+139
+59.76
+215.14
+Propane
+139
+59.76
+215.14
+Aviation gasoline
+153
+65.78
+236.81
+Automobile gasoline
+156
+67.07
+241.45
+Kerosene
+159
+68.36
+246.10
+Fuel oil
+161
+69.22
+249.19
+Tires/tire derived fuel
+189
+81.26
+292.54
+Wood and wood waste
+195
+83.83
+301.79
+Coal (bituminous)
+205
+88.13
+317.27
+Coal (sub-bituminous)
+213
+91.57
+329.65
+Coal (lignite)
+215
+92.43
+332.75
+Petroleum coke
+225
+96.73
+348.23
+Tar-sand bitumen
+[citation needed]
+[citation needed]
+[citation needed]
+Coal (anthracite)
+227
+97.59
+351.32
+Emissions by type of greenhouse gas[edit]
+See also: List of greenhouse gases
+GHG emissions 2019 by gas typewithout land-use changeusing 100 year GWPTotal: 51.8 GtCO2e[63]: 4
+CO2 mostly by fossil fuel (72%)  CH4 methane (19%)  N2O nitrous oxide (6%)  Fluorinated gases (3%)
+CO2 emissions by fuel type[64]
+coal (39%)  oil (34%)  gas (21%)  cement (4%)  others (1.5%)
+Carbon dioxide (CO2) is the dominant emitted greenhouse gas, while methane (CH4) emissions almost have the same short-term impact.[65] Nitrous oxide (N2O) and fluorinated gases (F-Gases) play a minor role.
+GHG emissions are measured in CO2 equivalents determined by their global warming potential (GWP), which depends on their lifetime in the atmosphere. Estimations largely depend on the ability of oceans and land sinks to absorb these gases. Short-lived climate pollutants (SLCPs) including methane, hydrofluorocarbons (HFCs), tropospheric ozone and black carbon persist in the atmosphere for a period ranging from days to 15 years; whereas carbon dioxide can remain in the atmosphere for millennia.[66] Reducing SLCP emissions can cut the ongoing rate of global warming by almost half and reduce the projected Arctic warming by two-thirds.[67]
+GHG emissions in 2019 were estimated at 57.4 GtCO2e, while CO2 emissions alone made up 42.5 Gt including land-use change (LUC).[68]
+While mitigation measures for decarbonization are essential on the longer-term, they could result in weak near-term warming because sources of carbon emissions often also co-emit air pollution. Hence, pairing measures that target carbon dioxide with measures targeting non-CO2 pollutants – short-lived climate pollutants, which have faster effects on the climate, is essential for climate goals.[69]
+Carbon dioxide (CO2)[edit]
+Fossil fuel: oil, gas and coal (89%) are the major driver of anthropogenic global warming with annual emissions of 35.6 GtCO2 in 2019.[63]: 20
+Cement production (4%) is estimated at 1.42 GtCO2
+Land-use change (LUC) is the imbalance of deforestation and reforestation. Estimations are very uncertain at 4.5 GtCO2. Wildfires alone cause annual emissions of about 7 GtCO2[70][71]
+Non-energy use of fuels, carbon losses in coke ovens, and flaring in crude oil production.[63]
+Methane (CH4)[edit]
+Historical and future temperature projections showing importance of mitigating short-lived climate pollutants like methane
+Methane has a high immediate impact with a 5-year global warming potential of up to 100.[65] Given this, the current 389 Mt of methane emissions[63]: 6  has about the same short-term global warming effect as CO2 emissions, with a risk to trigger irreversible changes in climate and ecosystems. For methane, a reduction of about 30% below current emission levels would lead to a stabilization in its atmospheric concentration.
+Fossil fuels (32%), again, account for most of the methane emissions including coal mining (12% of methane total), gas distribution and leakages (11%) as well as gas venting in oil production (9%).[63]: 6 [63]: 12
+Livestock (28%) with cattle (21%) as the dominant source, followed by buffalo (3%), sheep (2%), and goats (1.5%).[63]: 6, 23
+Human waste and wastewater (21%): When biomass waste in landfills and organic substances in domestic and industrial wastewater is decomposed by bacteria in anaerobic conditions, substantial amounts of methane are generated.[63]: 12
+Rice cultivation (10%) on flooded rice fields is another agricultural source, where anaerobic decomposition of organic material produces methane.[63]: 12
+Nitrous oxide (N2O)[edit]
+N2O has a high GWP and significant Ozone Depleting Potential. It is estimated that the global warming potential of N2O over 100 years is 265 times greater than CO2.[72] For N2O, a reduction of more than 50% would be required for a stabilization.
+Most emissions (56%) by agriculture, especially meat production: cattle (droppings on pasture), fertilizers, animal manure.[63]: 12
+Combustion of fossil fuels (18%) and bio fuels.[73]
+Industrial production of adipic acid and nitric acid.
+F-Gases[edit]
+Fluorinated gases include hydrofluorocarbons (HFC), perfluorocarbons (PFC), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3). They are used by switchgear in the power sector, semiconductor manufacture, aluminium production and a large unknown source of SF6.[63]: 38  Continued phase down of manufacture and use of HFCs under the Kigali Amendment to the Montreal Protocol will help reduce HFC emissions and concurrently improve the energy efficiency of appliances that use HFCs like air conditioners, freezers and other refrigeration devices.
+Black carbon[edit]
+Black carbon is formed through the incomplete combustion of fossil fuels, biofuel, and biomass. It is not a greenhouse gas but a climate forcing agent. Black carbon can absorb sunlight and reduce albedo when deposited on snow and ice. Indirect heating can be caused by the interaction with clouds.[74] Black carbon stays in the atmosphere for only several days to weeks.[75] Emissions may be mitigated by upgrading coke ovens, installing particulate filters on diesel-based engines, reducing routine flaring, and minimizing open burning of biomass.
+Emissions by sector[edit]
+See also: Climate change mitigation § Mitigation by sector
+Greenhouse Gas Emissions by Economic Sector according to IPCC Fifth Assessment Report[citation needed]
+2016 global greenhouse gas emissions by sector.[76] Percentages are calculated from estimated global emissions of all Kyoto Greenhouse Gases, converted to CO2 equivalent quantities (GtCO2e).
+Global greenhouse gas emissions can be attributed to different sectors of the economy. This provides a picture of the varying contributions of different types of economic activity to climate change, and helps in understanding the changes required to mitigate climate change.
+Manmade greenhouse gas emissions can be divided into those that arise from the combustion of fuels to produce energy, and those generated by other processes. Around two thirds of greenhouse gas emissions arise from the combustion of fuels.[77]
+Energy may be produced at the point of consumption, or by a generator for consumption by others. Thus emissions arising from energy production may be categorized according to where they are emitted, or where the resulting energy is consumed. If emissions are attributed at the point of production, then electricity generators contribute about 25% of global greenhouse gas emissions.[78] If these emissions are attributed to the final consumer then 24% of total emissions arise from manufacturing and construction, 17% from transportation, 11% from domestic consumers, and 7% from commercial consumers.[79] Around 4% of emissions arise from the energy consumed by the energy and fuel industry itself.
+The remaining third of emissions arise from processes other than energy production. 12% of total emissions arise from agriculture, 7% from land use change and forestry, 6% from industrial processes, and 3% from waste.[77]
+Electricity generation[edit]
+See also: Life-cycle greenhouse gas emissions of energy sources
+Global greenhouse gas emissions by gas.
+Coal-fired power stations are the single largest emitter, with over 20% of global GhG in 2018.[80] Although much less polluting than coal plants, natural gas-fired power plants are also major emitters,[81] taking electricity generation as a whole over 25% in 2018.[82] Notably, just 5% of the world's power plants account for almost three-quarters of carbon emissions from electricity generation, based on an inventory of more than 29,000 fossil-fuel power plants across 221 countries.[83] In the 2022 IPCC report, it is noted that providing modern energy services universally would only increase greenhouse gas emissions by a few percent at most. This slight increase means that the additional energy demand that comes from supporting decent living standards for all would be far lower than current average energy consumption.[84]
+Agriculture, forestry and land use[edit]
+Agriculture[edit]
+This section is an excerpt from Greenhouse gas emissions from agriculture.[edit]
+Agriculture contributes towards climate change through greenhouse gas emissions and by the conversion of non-agricultural land such as forests into agricultural land.[85][86]
+In 2019 the IPCC reported that 13%-21% of anthropogenic greenhouse gasses came specifically from the Agriculture, Forestry, and Other Land Uses Sector (AFOLU).[87]
+Emissions from agriculture of nitrous oxide, methane and carbon dioxide make up to half of the greenhouse-gases produced by the overall food industry, or 80% of agricultural emissions.[88] Animal husbandry is a major source of greenhouse gas emissions.[89]
+The agricultural food system is responsible for a significant amount of greenhouse gas emissions.[90][88] In addition to being a significant user of land and consumer of fossil fuel, agriculture contributes directly to greenhouse gas emissions through practices such as rice production and the raising of livestock.[91] The three main causes of the increase in greenhouse gases observed over the past 250 years have been fossil fuels, land use, and agriculture.[92] Farm animal digestive systems can be put into two categories: monogastric and ruminant. Ruminant cattle for beef and dairy rank high in greenhouse-gas emissions; monogastric, or pigs and poultry-related foods, are low. The consumption of the monogastric types may yield less emissions. Monogastric animals have a higher feed-conversion efficiency, and also do not produce as much methane.[88] Furthermore, CO2 is actually re-emitted into the atmosphere by plant and soil respiration in the later stages of crop growth, causing more greenhouse gas emissions. [93]
+There are many strategies that can be used to help soften the effects, and the further production of greenhouse gas emissions - this is also referred to as climate-smart agriculture. Some of these strategies include a higher efficiency in livestock farming, which includes management, as well as technology; a more effective process of managing manure; a lower dependence upon fossil-fuels and nonrenewable resources; a variation in the animals' eating and drinking duration, time and location; and a cutback in both the production and consumption of animal-sourced foods.[88][94][95][96] A range of policies may reduce greenhouse gas emissions from the agriculture sector for a more sustainable food system.[97][98]
+Deforestation[edit]
+Mean annual carbon loss from tropical deforestation.[99]
+Further information: Deforestation § Atmospheric, and Deforestation and climate change
+Deforestation is a major source of greenhouse gas emissions. A study shows annual carbon emissions (or carbon loss) from tropical deforestation have doubled during the last two decades and continue to increase. (0.97 ±0.16 PgC per year in 2001–2005 to 1.99 ±0.13 PgC per year in 2015–2019)[100][99]
+Land-use change[edit]
+Main article: Greenhouse gas emissions from agriculture
+Substantial land-use change contributions to emissions have been made by Latin America, Southeast Asia, Africa, and Pacific Islands. Area of rectangles shows total emissions for that region.[101]
+Land-use change, e.g., the clearing of forests for agricultural use, can affect the concentration of greenhouse gases in the atmosphere by altering how much carbon flows out of the atmosphere into carbon sinks.[102] Accounting for land-use change can be understood as an attempt to measure "net" emissions, i.e., gross emissions from all sources minus the removal of emissions from the atmosphere by carbon sinks.[19]: 92–93
+There are substantial uncertainties in the measurement of net carbon emissions.[103] Additionally, there is controversy over how carbon sinks should be allocated between different regions and over time.[19]: 93  For instance, concentrating on more recent changes in carbon sinks is likely to favour those regions that have deforested earlier, e.g., Europe.
+In 1997, human-caused Indonesian peat fires were estimated to have released between 13% and 40% of the average annual global carbon emissions caused by the burning of fossil fuels.[104][105][106]
+Transport[edit]
+Aviation[edit]
+Further information: Environmental effects of aviation
+Approximately 3.5% of the overall human impacts on climate are from the aviation sector. The impact of the sector on climate in the late 20 years had doubled, but the part of the contribution of the sector in comparison to other sectors did not change because other sectors grew as well.[107]
+Trucking and haulage[edit]
+Over a quarter of global transport CO2 emissions are from road freight,[108] so many countries are further restricting truck CO2 emissions to help limit climate change.[109]
+Buildings and construction[edit]
+In 2018, manufacturing construction materials and maintaining buildings accounted for 39% of carbon dioxide emissions from energy and process-related emissions. Manufacture of glass, cement, and steel accounted for 11% of energy and process-related emissions.[110] Because building construction is a significant investment, more than two-thirds of buildings in existence will still exist in 2050. Retrofitting existing buildings to become more efficient will be necessary to meet the targets of the Paris Agreement; it will be insufficient to only apply low-emission standards to new construction.[111] Buildings that produce as much energy as they consume are called zero-energy buildings, while buildings that produce more than they consume are energy-plus. Low-energy buildings are designed to be highly efficient with low total energy consumption and carbon emissions—a popular type is the passive house.[110]
+The global design and construction industry is responsible for approximately 39 percent of greenhouse gas emissions.[112] Green building practices that avoid emissions or capture the carbon already present in the environment, allow for reduced footprint of the construction industry, for example, use of hempcrete, cellulose fiber insulation, and landscaping.[113]
+In 2019, the building sector was responsible for 12 GtCO2-eq emissions. More than 95% of these emissions were carbon, and the remaining 5% were CH4 N2O and halocarbon.[114]
+Industrial processes[edit]
+As of 2020[update] Secunda CTL is the world's largest single emitter, at 56.5 million tonnes CO2 a year.[115]
+Around 6% of emissions are fugitive emissions, which are waste gases released by the extraction of fossil fuels.
+Steel and aluminum[edit]
+Steel and aluminum are key economic sectors for the carbon capture and storage. According to a 2013 study, "in 2004, the steel industry along emits about 590M tons of CO2, which accounts for 5.2% of the global anthropogenic GHG emissions. CO2 emitted from steel production primarily comes from energy consumption of fossil fuel as well as the use of limestone to purify iron oxides."[116]
+Plastics[edit]
+Plastics are produced mainly from fossil fuels. It was estimated that between 3% and 4% of global GHG emissions are associated with plastics' life cycles.[117] The EPA estimates[118] as many as five mass units of carbon dioxide are emitted for each mass unit of polyethylene terephthalate (PET) produced—the type of plastic most commonly used for beverage bottles,[119] the transportation produce greenhouse gases also.[120] Plastic waste emits carbon dioxide when it degrades. In 2018 research claimed that some of the most common plastics in the environment release the greenhouse gases methane and ethylene when exposed to sunlight in an amount that can affect the earth climate.[121][122]
+Due to the lightness of plastic versus glass or metal, plastic may reduce energy consumption. For example, packaging beverages in PET plastic rather than glass or metal is estimated to save 52% in transportation energy, if the glass or metal package is single-use, of course.
+In 2019 a new report "Plastic and Climate" was published. According to the report, the production and incineration of plastics will contribute in the equivalent of 850 million tonnes of carbon dioxide (CO2) to the atmosphere in 2019. With the current trend, annual life cycle greenhouse gas emissions of plastics will grow to 1.34 billion tonnes by 2030. By 2050, the life cycle emissions of plastics could reach 56 billion tonnes, as much as 14 percent of the Earth's remaining carbon budget.[123] The report says that only solutions which involve a reduction in consumption can solve the problem, while others like biodegradable plastic, ocean cleanup, using renewable energy in plastic industry can do little, and in some cases may even worsen it.[124]
+Pulp and paper[edit]
+Further information: Environmental effects of paper § Greenhouse gas emissions
+The global print and paper industry accounts for about 1% of global carbon dioxide emissions.[125] Greenhouse gas emissions from the pulp and paper industry are generated from the combustion of fossil fuels required for raw material production and transportation, wastewater treatment facilities, purchased power, paper transportation, printed product transportation, disposal and recycling.
+Various services[edit]
+Digital services[edit]
+See also: Streaming media § Greenhouse gas emissions, Data center § Greenhouse gas emissions, and Cryptocurrency § Environmental impact
+In 2020 data centers (excluding cryptocurrency mining) and data transmission each used about 1% of world electricity.[126] The digital sector produces between 2% and 4% of global GHG emissions,[127] a large part of which is from chipmaking.[128] However the sector reduces emissions from other sectors which have a larger global share, such as transport of people,[129] and possibly buildings and industry.[130]
+Mining for proof-of-work cryptocurrencies requires enormous amounts of electricity and consequently comes with a large carbon footprint.[131] Proof-of-work blockchains such as Bitcoin, Ethereum, Litecoin, and Monero were estimated to have added between 3 million and 15 million tonnes of carbon dioxide (CO2) to the atmosphere in the period from 1 January 2016 to 30 June 2017.[132] By the end of 2021, Bitcoin was estimated to produce 65.4 million tonnes of CO2, as much as Greece,[133] and consume between 91 and 177 terawatt-hours annually. Bitcoin is the least energy-efficient cryptocurrency, using 707.6 kilowatt-hours of electricity per transaction.[134][135][136]
+Health care[edit]
+The healthcare sector produces 4.4% - 4.6% of global greenhouse gas emissions.[137]
+Water supply and sanitation[edit]
+This section is an excerpt from WASH § Greenhouse gas emissions.[edit]
+Water and sanitation services contribute to greenhouse gas emissions. These emissions are grouped into three "scopes" in the international greenhouse gas protocol.[138] [139]: 9
+Tourism[edit]
+According to UNEP, global tourism is a significant contributor to the increasing concentrations of greenhouse gases in the atmosphere.[140]
+Emissions by other characteristics[edit]
+The responsibility for anthropogenic climate change differs substantially among individuals, e.g. between groups or cohorts.
+Generational[edit]
+Researchers report that, on average, the elderly played "a leading role in driving up GHG emissions in the past decade and are on the way to becoming the largest contributor" due to factors such as demographic transition, low informed concern about climate change and high expenditures on carbon-intensive products like energy which is used i.a. for heating rooms and private transport.[141][142] They are less affected by climate change impacts,[143] but have e.g. the same vote-weights for the available electoral options.
+By socio-economic class[edit]
+The emissions of the richest 1% of the global population account for more than twice the combined share of the poorest 50%. Compliance with the 1.5°C goal of the Paris Agreement would require the richest 1% to reduce their current emissions by at least a factor of 30, while per-person emissions of the poorest 50% could increase by a factor of about 3.[144]
+Fueled by the consumptive lifestyle of wealthy people, the wealthiest 5% of the global population has been responsible for 37% of the absolute increase in greenhouse gas emissions worldwide. Almost half of the increase in absolute global emissions has been caused by the richest 10% of the population.[145] In the newest report from the IPCC 2022, it states that the lifestyle consumptions of the poor and middle class in emerging economies produce approximately 5–50 times less the amount that the high class in already developed high-income countries.[146][147] Variations in regional, and national per capita emissions partly reflect different development stages, but they also vary widely at similar income levels. The 10% of households with the highest per capita emissions contribute a disproportionately large share of global household GHG emissions.[147]
+Studies find that the most affluent citizens of the world are responsible for most environmental impacts, and robust action by them is necessary for prospects of moving towards safer environmental conditions.[148][149]
+According to a 2020 report by Oxfam and the Stockholm Environment Institute,[150][151] the richest 1% of the global population have caused twice as much carbon emissions as the poorest 50% over the 25 years from 1990 to 2015.[152][153][154] This was, respectively, during that period, 15% of cumulative emissions compared to 7%.[155] The bottom half of the population is directly-responsible for less than 20% of energy footprints and consume less than the top 5% in terms of trade-corrected energy. The largest disproportionality was identified to be in the domain of transport, where e.g. the top 10% consume 56% of vehicle fuel and conduct 70% of vehicle purchases.[156] However, wealthy individuals are also often shareholders and typically have more influence[157] and, especially in the case of billionaires, may also direct lobbying efforts, direct financial decisions, and/or control companies:
+Regional and national attribution of emissions[edit]
+See also: Greenhouse gas inventory
+Greenhouse gas intensity[edit]
+Greenhouse gas intensity is a ratio between greenhouse gas emissions and another metric, e.g., gross domestic product (GDP) or energy use. The terms "carbon intensity" and "emissions intensity" are also sometimes used.[158] Emission intensities may be calculated using market exchange rates (MER) or purchasing power parity (PPP).[19]: 96  Calculations based on MER show large differences in intensities between developed and developing countries, whereas calculations based on PPP show smaller differences. According to a study discussing the relationship between urbanization and carbon emissions, urbanization is becoming a huge player in the global carbon cycle. Depending on total carbon emissions done by a city that hasn't invested in carbon efficiency or improved resource management, the global carbon cycle is projected to reach 75% of the world population by 2030.[159]
+Cumulative and historical emissions[edit]
+Cumulative CO2 emission by world region
+Cumulative per person emissions by world region in 3 time periods
+CO2 Emissions by source since 1880
+Cumulative anthropogenic (i.e., human-emitted) emissions of CO2 from fossil fuel use are a major cause of global warming,[160] and give some indication of which countries have contributed most to human-induced climate change. In particular, CO2 stays in the atmosphere for at least 150 years, whilst methane and nitrous oxides generally disappear within a decade or so. The graph gives some indication of which regions have contributed most to human-induced climate change.[161]
+[162]: 15  When these numbers are calculated per capita cumulative emissions based on then-current population the situation is shown even more clearly. The ratio in per capita emissions between industrialized countries and developing countries was estimated at more than 10 to 1.
+Non-OECD countries accounted for 42% of cumulative energy-related CO2 emissions between 1890 and 2007.[163]: 179–80  Over this time period, the US accounted for 28% of emissions; the EU, 23%; Japan, 4%; other OECD countries 5%; Russia, 11%; China, 9%; India, 3%; and the rest of the world, 18%.[163]: 179–80
+Overall, developed countries accounted for 83.8% of industrial CO2 emissions over this time period, and 67.8% of total CO2 emissions. Developing countries accounted for industrial CO2 emissions of 16.2% over this time period, and 32.2% of total CO2 emissions.
+In comparison, humans have emitted more greenhouse gases than the Chicxulub meteorite impact event which caused the extinction of the dinosaurs.[164]
+Transport, together with electricity generation, is the major source of greenhouse gas emissions in the EU. Greenhouse gas emissions from the transportation sector continue to rise, in contrast to power generation and nearly all other sectors. Since 1990, transportation emissions have increased by 30%. The transportation sector accounts for around 70% of these emissions. The majority of these emissions are caused by passenger vehicles and vans. Road travel is the first major source of greenhouse gas emissions from transportation, followed by aircraft and maritime.[165][6] Waterborne transportation is still the least carbon-intensive mode of transportation on average, and it is an essential link in sustainable multimodal freight supply chains.[166]
+Buildings, like industry, are directly responsible for around one-fifth of greenhouse gas emissions, primarily from space heating and hot water consumption. When combined with power consumption within buildings, this figure climbs to more than one-third.[167][168][169]
+Within the EU, the agricultural sector presently accounts for roughly 10% of total greenhouse gas emissions, with methane from livestock accounting for slightly more than half of 10%.[170]
+Estimates of total CO2 emissions do include biotic carbon emissions, mainly from deforestation.[19]: 94  Including biotic emissions brings about the same controversy mentioned earlier regarding carbon sinks and land-use change.[19]: 93–94  The actual calculation of net emissions is very complex, and is affected by how carbon sinks are allocated between regions and the dynamics of the climate system.
+Fossil fuel CO2 emissions on a log (natural and base 10) scale
+The graphic shows the logarithm of 1850–2019 fossil fuel CO2 emissions;[64] natural log on left, actual value of Gigatons per year on right. Although emissions increased during the 170-year period by about 3% per year overall, intervals of distinctly different growth rates (broken at 1913, 1945, and 1973) can be detected. The regression lines suggest that emissions can
+rapidly shift from one growth regime to another and then persist for long periods of time. The most recent drop in emissions growth - by almost 3 percentage points - was at about the time of the 1970s energy crisis. Percent changes per year were estimated by piecewise linear regression on the log data and are shown on the plot; the data are from The Integrated Carbon Observation system.[171]
+Changes since a particular base year[edit]
+See also: Greenhouse gas inventory
+The sharp acceleration in CO2 emissions since 2000 to more than a 3% increase per year (more than 2 ppm per year) from 1.1% per year during the 1990s is attributable to the lapse of formerly declining trends in carbon intensity of both developing and developed nations. China was responsible for most of global growth in emissions during this period. Localised plummeting emissions associated with the collapse of the Soviet Union have been followed by slow emissions growth in this region due to more efficient energy use, made necessary by the increasing proportion of it that is exported.[36] In comparison, methane has not increased appreciably, and N2O by 0.25% y−1.
+Using different base years for measuring emissions has an effect on estimates of national contributions to global warming.[162]: 17–18 [172] This can be calculated by dividing a country's highest contribution to global warming starting from a particular base year, by that country's minimum contribution to global warming starting from a particular base year. Choosing between base years of 1750, 1900, 1950, and 1990 has a significant effect for most countries.[162]: 17–18  Within the G8 group of countries, it is most significant for the UK, France and Germany. These countries have a long history of CO2 emissions (see the section on Cumulative and historical emissions).
+Embedded emissions[edit]
+One way of attributing greenhouse gas emissions is to measure the embedded emissions (also referred to as "embodied emissions") of goods that are being consumed. Emissions are usually measured according to production, rather than consumption.[173] For example, in the main international treaty on climate change (the UNFCCC), countries report on emissions produced within their borders, e.g., the emissions produced from burning fossil fuels.[163]: 179 [174]: 1  Under a production-based accounting of emissions, embedded emissions on imported goods are attributed to the exporting, rather than the importing, country. Under a consumption-based accounting of emissions, embedded emissions on imported goods are attributed to the importing country, rather than the exporting, country.
+Davis and Caldeira (2010)[174]: 4  found that a substantial proportion of CO2 emissions are traded internationally. The net effect of trade was to export emissions from China and other emerging markets to consumers in the US, Japan, and Western Europe.
+Historical trends[edit]
+The Integrated Carbon Observation System (ICOS) continuously releases data about CO2 emissions, budget and concentration at individual observation stations.
+CO2 emissions[175][176]
+Year
+Fossil fuels
+and industry
+Gt C
+Land use
+change
+Gt C
+Total
+Gt C
+Total
+Gt CO2
+2010
+9.05
+1.38
+10.43
+38.2
+2011
+9.35
+1.34
+10.69
+39.2
+2012
+9.5
+1.47
+10.97
+40.3
+2013
+9.54
+1.52
+11.06
+40.6
+2014
+9.61
+1.66
+11.27
+41.4
+2015
+9.62
+1.7
+11.32
+41.5
+2016
+9.66
+1.54
+11.2
+41.1
+2017
+9.77
+1.47
+11.24
+41.3
+2018
+9.98
+1.51
+11.49
+42.1
+2019
+(projection)
+10.0
+1.8
+11.8
+43.1
+By country[edit]
+Main article: List of countries by greenhouse gas emissions
+Annual emissions[edit]
+CO2 emissions vs GDP
+Annual per capita emissions in the industrialized countries are typically as much as ten times the average in developing countries.[12]: 144  Due to China's fast economic development, its annual per capita emissions are quickly approaching the levels of those in the Annex I group of the Kyoto Protocol (i.e., the developed countries excluding the US).[177] Other countries with fast growing emissions are South Korea, Iran, and Australia (which apart from the oil rich Persian Gulf states, now has the highest per capita emission rate in the world). On the other hand, annual per capita emissions of the EU-15 and the US are gradually decreasing over time.[177] Emissions in Russia and Ukraine have decreased fastest since 1990 due to economic restructuring in these countries.[178]
+Energy statistics for fast-growing economies are less accurate than those for industrialized countries.[177]
+The greenhouse gas footprint refers to the emissions resulting from the creation of products or services. It is more comprehensive than the commonly used carbon footprint, which measures only carbon dioxide, one of many greenhouse gases.[citation needed]
+2015 was the first year to see both total global economic growth and a reduction of carbon emissions.[179]
+Top emitter countries[edit]
+The top 40 countries emitting all greenhouse gases, showing both that derived from all sources including land clearance and forestry and also the CO2 component excluding those sources. Per capita figures are included. "World Resources Institute data".. Note that Indonesia and Brazil show very much higher than on graphs simply showing fossil fuel use.
+See also: List of countries by carbon dioxide emissions, List of countries by carbon dioxide emissions per capita, List of countries by greenhouse gas emissions, and List of countries by greenhouse gas emissions per personIn 2019, China, the United States, India, the EU27+UK, Russia, and Japan - the world's largest CO2 emitters - together accounted for 51% of the population, 62.5% of global gross domestic product, 62% of total global fossil fuel consumption and emitted 67% of total global fossil CO2. Emissions from these five countries and the EU28 show different changes in 2019 compared to 2018: the largest relative increase is found for China (+3.4%), followed by India (+1.6%). On the contrary, the EU27+UK (-3.8%), the United States (-2.6%), Japan (-2.1%) and Russia (-0.8%) reduced their fossil CO2 emissions.[180]
+2019 Fossil CO2 emissions by country[180]
+Country
+total emissions(Mton)
+Share(%)
+per capita(ton)
+per GDP(ton/k$)
+Global Total
+38,016.57
+100.00
+4.93
+0.29
+China
+11,535.20
+30.34
+8.12
+0.51
+United States
+5,107.26
+13.43
+15.52
+0.25
+EU27+UK
+3,303.97
+8.69
+6.47
+0.14
+India
+2,597.36
+6.83
+1.90
+0.28
+Russia
+1,792.02
+4.71
+12.45
+0.45
+Japan
+1,153.72
+3.03
+9.09
+0.22
+International Shipping
+730.26
+1.92
+-
+-
+Germany
+702.60
+1.85
+8.52
+0.16
+Iran
+701.99
+1.85
+8.48
+0.68
+South Korea
+651.87
+1.71
+12.70
+0.30
+International Aviation
+627.48
+1.65
+-
+-
+Indonesia
+625.66
+1.65
+2.32
+0.20
+Saudi Arabia
+614.61
+1.62
+18.00
+0.38
+Canada
+584.85
+1.54
+15.69
+0.32
+South Africa
+494.86
+1.30
+8.52
+0.68
+Mexico
+485.00
+1.28
+3.67
+0.19
+Brazil
+478.15
+1.26
+2.25
+0.15
+Australia
+433.38
+1.14
+17.27
+0.34
+Turkey
+415.78
+1.09
+5.01
+0.18
+United Kingdom
+364.91
+0.96
+5.45
+0.12
+Italy,  San Marino and the Holy See
+331.56
+0.87
+5.60
+0.13
+Poland
+317.65
+0.84
+8.35
+0.25
+France and  Monaco
+314.74
+0.83
+4.81
+0.10
+Vietnam
+305.25
+0.80
+3.13
+0.39
+Kazakhstan
+277.36
+0.73
+14.92
+0.57
+Taiwan
+276.78
+0.73
+11.65
+0.23
+Thailand
+275.06
+0.72
+3.97
+0.21
+Spain and Andorra
+259.31
+0.68
+5.58
+0.13
+Egypt
+255.37
+0.67
+2.52
+0.22
+Malaysia
+248.83
+0.65
+7.67
+0.27
+Pakistan
+223.63
+0.59
+1.09
+0.22
+United Arab Emirates
+222.61
+0.59
+22.99
+0.34
+Argentina
+199.41
+0.52
+4.42
+0.20
+Iraq
+197.61
+0.52
+4.89
+0.46
+Ukraine
+196.40
+0.52
+4.48
+0.36
+Algeria
+180.57
+0.47
+4.23
+0.37
+Netherlands
+156.41
+0.41
+9.13
+0.16
+Philippines
+150.64
+0.40
+1.39
+0.16
+Bangladesh
+110.16
+0.29
+0.66
+0.14
+Venezuela
+110.06
+0.29
+3.36
+0.39
+Qatar
+106.53
+0.28
+38.82
+0.41
+Czechia
+105.69
+0.28
+9.94
+0.25
+Belgium
+104.41
+0.27
+9.03
+0.18
+Nigeria
+100.22
+0.26
+0.50
+0.10
+Kuwait
+98.95
+0.26
+23.29
+0.47
+Uzbekistan
+94.99
+0.25
+2.90
+0.40
+Oman
+92.78
+0.24
+18.55
+0.67
+Turkmenistan
+90.52
+0.24
+15.23
+0.98
+Chile
+89.89
+0.24
+4.90
+0.20
+Colombia
+86.55
+0.23
+1.74
+0.12
+Romania
+78.63
+0.21
+4.04
+0.14
+Morocco
+73.91
+0.19
+2.02
+0.27
+Austria
+72.36
+0.19
+8.25
+0.14
+Serbia and Montenegro
+70.69
+0.19
+7.55
+0.44
+Israel and  Palestine
+68.33
+0.18
+7.96
+0.18
+Belarus
+66.34
+0.17
+7.03
+0.37
+Greece
+65.57
+0.17
+5.89
+0.20
+Peru
+56.29
+0.15
+1.71
+0.13
+Singapore
+53.37
+0.14
+9.09
+0.10
+Hungary
+53.18
+0.14
+5.51
+0.17
+Libya
+52.05
+0.14
+7.92
+0.51
+Portugal
+48.47
+0.13
+4.73
+0.14
+Myanmar
+48.31
+0.13
+0.89
+0.17
+Norway
+47.99
+0.13
+8.89
+0.14
+Sweden
+44.75
+0.12
+4.45
+0.08
+Hong Kong
+44.02
+0.12
+5.88
+0.10
+Finland
+43.41
+0.11
+7.81
+0.16
+Bulgaria
+43.31
+0.11
+6.20
+0.27
+North Korea
+42.17
+0.11
+1.64
+0.36
+Ecuador
+40.70
+0.11
+2.38
+0.21
+Switzerland and  Liechtenstein
+39.37
+0.10
+4.57
+0.07
+New Zealand
+38.67
+0.10
+8.07
+0.18
+Ireland
+36.55
+0.10
+7.54
+0.09
+Slovakia
+35.99
+0.09
+6.60
+0.20
+Azerbaijan
+35.98
+0.09
+3.59
+0.25
+Mongolia
+35.93
+0.09
+11.35
+0.91
+Bahrain
+35.44
+0.09
+21.64
+0.48
+Bosnia and Herzegovina
+33.50
+0.09
+9.57
+0.68
+Trinidad and Tobago
+32.74
+0.09
+23.81
+0.90
+Tunisia
+32.07
+0.08
+2.72
+0.25
+Denmark
+31.12
+0.08
+5.39
+0.09
+Cuba
+31.04
+0.08
+2.70
+0.11
+Syria
+29.16
+0.08
+1.58
+1.20
+Jordan
+28.34
+0.07
+2.81
+0.28
+Sri Lanka
+27.57
+0.07
+1.31
+0.10
+Lebanon
+27.44
+0.07
+4.52
+0.27
+Dominican Republic
+27.28
+0.07
+2.48
+0.14
+Angola
+25.82
+0.07
+0.81
+0.12
+Bolivia
+24.51
+0.06
+2.15
+0.24
+Sudan and  South Sudan
+22.57
+0.06
+0.40
+0.13
+Guatemala
+21.20
+0.06
+1.21
+0.15
+Kenya
+19.81
+0.05
+0.38
+0.09
+Croatia
+19.12
+0.05
+4.62
+0.16
+Estonia
+18.50
+0.05
+14.19
+0.38
+Ethiopia
+18.25
+0.05
+0.17
+0.07
+Ghana
+16.84
+0.04
+0.56
+0.10
+Cambodia
+16.49
+0.04
+1.00
+0.23
+New Caledonia
+15.66
+0.04
+55.25
+1.67
+Slovenia
+15.37
+0.04
+7.38
+0.19
+Nepal
+15.02
+0.04
+0.50
+0.15
+Lithuania
+13.77
+0.04
+4.81
+0.13
+Côte d’Ivoire
+13.56
+0.04
+0.53
+0.10
+Georgia
+13.47
+0.04
+3.45
+0.24
+Tanzania
+13.34
+0.04
+0.22
+0.09
+Kyrgyzstan
+11.92
+0.03
+1.92
+0.35
+Panama
+11.63
+0.03
+2.75
+0.09
+Afghanistan
+11.00
+0.03
+0.30
+0.13
+Yemen
+10.89
+0.03
+0.37
+0.17
+Zimbabwe
+10.86
+0.03
+0.63
+0.26
+Honduras
+10.36
+0.03
+1.08
+0.19
+Cameroon
+10.10
+0.03
+0.40
+0.11
+Senegal
+9.81
+0.03
+0.59
+0.18
+Luxembourg
+9.74
+0.03
+16.31
+0.14
+Mozambique
+9.26
+0.02
+0.29
+0.24
+Moldova
+9.23
+0.02
+2.29
+0.27
+Costa Rica
+8.98
+0.02
+1.80
+0.09
+North Macedonia
+8.92
+0.02
+4.28
+0.26
+Tajikistan
+8.92
+0.02
+0.96
+0.28
+Paraguay
+8.47
+0.02
+1.21
+0.09
+Latvia
+8.38
+0.02
+4.38
+0.14
+Benin
+8.15
+0.02
+0.69
+0.21
+Mauritania
+7.66
+0.02
+1.64
+0.33
+Zambia
+7.50
+0.02
+0.41
+0.12
+Jamaica
+7.44
+0.02
+2.56
+0.26
+Cyprus
+7.41
+0.02
+6.19
+0.21
+El Salvador
+7.15
+0.02
+1.11
+0.13
+Botswana
+7.04
+0.02
+2.96
+0.17
+Brunei
+7.02
+0.02
+15.98
+0.26
+Laos
+6.78
+0.02
+0.96
+0.12
+Uruguay
+6.56
+0.02
+1.89
+0.09
+Armenia
+5.92
+0.02
+2.02
+0.15
+Curaçao
+5.91
+0.02
+36.38
+1.51
+Nicaragua
+5.86
+0.02
+0.92
+0.17
+Congo
+5.80
+0.02
+1.05
+0.33
+Albania
+5.66
+0.01
+1.93
+0.14
+Uganda
+5.34
+0.01
+0.12
+0.06
+Namibia
+4.40
+0.01
+1.67
+0.18
+Mauritius
+4.33
+0.01
+3.41
+0.15
+Madagascar
+4.20
+0.01
+0.16
+0.09
+Papua New Guinea
+4.07
+0.01
+0.47
+0.11
+Iceland
+3.93
+0.01
+11.53
+0.19
+Puerto Rico
+3.91
+0.01
+1.07
+0.04
+Barbados
+3.83
+0.01
+13.34
+0.85
+Burkina Faso
+3.64
+0.01
+0.18
+0.08
+Haiti
+3.58
+0.01
+0.32
+0.18
+Gabon
+3.48
+0.01
+1.65
+0.11
+Equatorial Guinea
+3.47
+0.01
+2.55
+0.14
+Réunion
+3.02
+0.01
+3.40
+-
+Democratic Republic of the Congo
+2.98
+0.01
+0.03
+0.03
+Guinea
+2.92
+0.01
+0.22
+0.09
+Togo
+2.85
+0.01
+0.35
+0.22
+Bahamas
+2.45
+0.01
+6.08
+0.18
+Niger
+2.36
+0.01
+0.10
+0.08
+Bhutan
+2.12
+0.01
+2.57
+0.24
+Suriname
+2.06
+0.01
+3.59
+0.22
+Martinique
+1.95
+0.01
+5.07
+-
+Guadeloupe
+1.87
+0.00
+4.17
+-
+Malawi
+1.62
+0.00
+0.08
+0.08
+Guyana
+1.52
+0.00
+1.94
+0.20
+Sierra Leone
+1.40
+0.00
+0.18
+0.10
+Fiji
+1.36
+0.00
+1.48
+0.11
+Palau
+1.33
+0.00
+59.88
+4.09
+Macao
+1.27
+0.00
+1.98
+0.02
+Liberia
+1.21
+0.00
+0.24
+0.17
+Rwanda
+1.15
+0.00
+0.09
+0.04
+Eswatini
+1.14
+0.00
+0.81
+0.11
+Djibouti
+1.05
+0.00
+1.06
+0.20
+Seychelles
+1.05
+0.00
+10.98
+0.37
+Malta
+1.04
+0.00
+2.41
+0.05
+Mali
+1.03
+0.00
+0.05
+0.02
+Cabo Verde
+1.02
+0.00
+1.83
+0.26
+Somalia
+0.97
+0.00
+0.06
+0.57
+Maldives
+0.91
+0.00
+2.02
+0.09
+Chad
+0.89
+0.00
+0.06
+0.04
+Aruba
+0.78
+0.00
+7.39
+0.19
+Eritrea
+0.75
+0.00
+0.14
+0.08
+Lesotho
+0.75
+0.00
+0.33
+0.13
+Gibraltar
+0.69
+0.00
+19.88
+0.45
+French Guiana
+0.61
+0.00
+2.06
+-
+French Polynesia
+0.60
+0.00
+2.08
+0.10
+The Gambia
+0.59
+0.00
+0.27
+0.11
+Greenland
+0.54
+0.00
+9.47
+0.19
+Antigua and Barbuda
+0.51
+0.00
+4.90
+0.24
+Central African Republic
+0.49
+0.00
+0.10
+0.11
+Guinea-Bissau
+0.44
+0.00
+0.22
+0.11
+Cayman Islands
+0.40
+0.00
+6.38
+0.09
+Timor-Leste
+0.38
+0.00
+0.28
+0.10
+Belize
+0.37
+0.00
+0.95
+0.14
+Bermuda
+0.35
+0.00
+5.75
+0.14
+Burundi
+0.34
+0.00
+0.03
+0.04
+Saint Lucia
+0.30
+0.00
+1.65
+0.11
+Western Sahara
+0.30
+0.00
+0.51
+-
+Grenada
+0.23
+0.00
+2.10
+0.12
+Comoros
+0.21
+0.00
+0.25
+0.08
+Saint Kitts and Nevis
+0.19
+0.00
+3.44
+0.14
+São Tomé and Príncipe
+0.16
+0.00
+0.75
+0.19
+Saint Vincent and the Grenadines
+0.15
+0.00
+1.32
+0.11
+Samoa
+0.14
+0.00
+0.70
+0.11
+Solomon Islands
+0.14
+0.00
+0.22
+0.09
+Tonga
+0.13
+0.00
+1.16
+0.20
+Turks and Caicos Islands
+0.13
+0.00
+3.70
+0.13
+British Virgin Islands
+0.12
+0.00
+3.77
+0.17
+Dominica
+0.10
+0.00
+1.38
+0.12
+Vanuatu
+0.09
+0.00
+0.30
+0.09
+Saint Pierre and Miquelon
+0.06
+0.00
+9.72
+-
+Cook Islands
+0.04
+0.00
+2.51
+-
+Falkland Islands
+0.03
+0.00
+10.87
+-
+Kiribati
+0.03
+0.00
+0.28
+0.13
+Anguilla
+0.02
+0.00
+1.54
+0.12
+Saint Helena,  Ascension and  Tristan da Cunha
+0.02
+0.00
+3.87
+-
+Faroes
+0.00
+0.00
+0.04
+0.00
+The C-Story of Human Civilization by PIK
+United States[edit]
+This section is an excerpt from Greenhouse gas emissions by the United States.[edit]
+Transportation in the United States is the largest source of greenhouse gas[181]
+The U.S. has among the highest per person emissions, of the countries that emit the most greenhouse gases.[182]
+US greenhouse gas emissions by economic sector[183]
+Transportation (28.6%)  Electricity generation (25.1%)  Industry (22.9%)  Agriculture (10.2%)  Commercial (6.9%)  Residential (5.8%)  U.S. territories (0.4%)
+The United States produced 5.2 billion metric tons of carbon dioxide equivalent greenhouse gas (GHG) emissions in 2020,[184] the second largest in the world after greenhouse gas emissions by China and among the countries with the highest greenhouse gas emissions per person. In 2019 China is estimated to have emitted 27% of world GHG, followed by the United States with 11%, then India with 6.6%.[185] In total the United States has emitted a quarter of world GHG, more than any other country.[186][187][188] Annual emissions are over 15 tons per person and, amongst the top eight emitters, is the highest country by greenhouse gas emissions per person.[189]
+Because coal-fired power stations are gradually shutting down, in the 2010s emissions from electricity generation fell to second place behind transportation which is now the largest single source.[190]
+In 2020, 27% of the GHG emissions of the United States were from transportation, 25% from electricity, 24% from industry, 13% from commercial and residential buildings and 11% from agriculture.[191] These greenhouse gas emissions are contributing to climate change in the United States, as well as worldwide.
+China[edit]
+This section is an excerpt from Greenhouse gas emissions by China.[edit]
+China has the most total annual emissions (area of rectangle) of any nation, and has higher than average per capita emissions.[192]Cumulatively over time, emissions from China have caused more economic damage globally than any other nation except the U.S.[193]
+Greenhouse gas emissions by China are the largest of any country in the world both in production and consumption terms, and stem mainly from coal burning in China, including coal-fired power stations, coal mining,[194] and blast furnaces producing iron and steel.[195] When measuring production-based emissions, China emitted over 14 gigatonnes (Gt) CO2eq of greenhouse gases in 2019,[196] 27% of the world total.[197][198] When measuring in consumption-based terms, which adds emissions associated with imported goods and extracts those associated with exported goods, China accounts for 13 gigatonnes (Gt) or 25% of global emissions.[199]
+Despite having the largest emissions in the world, China's large population means its per person emissions have remained considerably lower than those in the developed world.[199] This corresponds to over 10.1 tonnes CO2eq emitted per person each year, slightly over the world average and the EU average but significantly lower than the second largest emitter of greenhouse gases, the United States, with its 17.6 tonnes per person.[199] Accounting for historic emissions, OECD countries produced four times more CO2 in cumulative emissions than China, due to developed countries' early start in industrialization.[197][199]
+The targets laid out in China's Nationally Determined Contribution in 2016 will likely be met, but are not enough to properly combat global warming.[200] China has committed to peak emissions by 2030 and net zero by 2060.[201] In order to limit warming to 1.5 degrees C coal plants in China without carbon capture must be phased out by 2045.[202] China continues to build coal-fired power stations in 2020 and promised to "phase down" coal use from 2026.[203]
+India[edit]
+This section is an excerpt from Climate change in India § Greenhouse gas emissions.[edit]
+Greenhouse gas emissions by India are the third largest in the world and the main source is coal.[204] India emitted 2.8 Gt of CO2eq in 2016 (2.5 including LULUCF).[205][206] 79% were CO2, 14% methane and 5% nitrous oxide.[206] India emits about 3 gigatonnes (Gt) CO2eq of greenhouse gases each year; about two tons per person,[207] which is half the world average.[208] The country emits 7% of global emissions.[209]
+As of 2019[update] these figures are quite uncertain, but a comprehensive greenhouse gas inventory is within reach.[210] Cutting greenhouse gas emissions, and therefore air pollution in India, would have health benefits worth 4 to 5 times the cost, which would be the most cost-effective in the world.[211]
+The Paris Agreement commitments included a reduction of this intensity by 33–35% by 2030.[212]
+India's annual emissions per person are less than the global average,[213] and the UNEP forecasts that by 2030 they will be between 3 and 4 tonnes.[209]
+In 2019 China is estimated to have emitted 27% of world GhG, followed by the US with 11%, then India with 6.6%.[214]
+Reducing greenhouse gas emissions[edit]
+This section is an excerpt from Climate change mitigation.[edit]
+Climate change mitigation is action to limit climate change by reducing emissions of greenhouse gases or removing those gases from the atmosphere.[215]: 2239  The recent rise in global average temperature is mostly caused by emissions from fossil fuels burning (coal, oil, and natural gas). Mitigation can reduce emissions by transitioning to sustainable energy sources, conserving energy, and increasing efficiency. In addition, CO2 can be removed from the atmosphere by enlarging forests, restoring wetlands and using other natural and technical processes, which are grouped together under the term of carbon sequestration.[216]: 12 [217]
+Solar energy and wind power have the highest climate change mitigation potential at lowest cost compared to a range of other options.[218] Variable availability of sunshine and wind is addressed by energy storage and improved electrical grids, including long-distance electricity transmission, demand management and diversification of renewables. As low-carbon power is more widely available, transportation and heating can increasingly rely on these sources.[219]: 1  Energy efficiency is improved using heat pumps and electric vehicles. If industrial processes must create carbon dioxide, carbon capture and storage can reduce net emissions.[220]
+Fiscal decentralisation and carbon reductions[edit]
+As carbon oxides are one important source of greenhouse gas, having means to reduce it is important. One suggestion, is to consider some means in relation to fiscal decentralisation. Previous research found that the linear term of fiscal decentralization promotes carbon emissions, while the non-linear term mitigates it.[clarification needed] It verified the inverted U-shaped curve between fiscal decentralization and carbon emissions.[example
+needed] Besides, increasing energy prices for non-renewable energy decrease carbon emission due to a substitution effect. Among other explanatory variables, improvement in the quality of institutions decreases carbon emissions, while the gross domestic product increases it.
+Strengthening fiscal decentralization, lowering non-renewable energy prices,[clarification needed] and improving institutional quality to check the deteriorating environmental quality in the study sample and other worldwide regions can reduce carbon emissions.[221]
+Effect of policy[edit]
+This section needs to be updated. Please help update this article to reflect recent events or newly available information. (December 2019)
+See also: Energy policy
+Governments have taken action to reduce greenhouse gas emissions to mitigate climate change. Assessments of policy effectiveness have included work by the Intergovernmental Panel on Climate Change, International Energy Agency,[222][223] and United Nations Environment Programme.[224] Policies implemented by governments have included[225][226][227] national and regional targets to reduce emissions, promoting energy efficiency, and support for a renewable energy transition, such as Solar energy, as an effective use of renewable energy because solar uses energy from the sun and does not release pollutants into the air.
+Countries and regions listed in Annex I of the United Nations Framework Convention on Climate Change (UNFCCC) (i.e., the OECD and former planned economies of the Soviet Union) are required to submit periodic assessments to the UNFCCC of actions they are taking to address climate change.[227]: 3
+Projections[edit]
+See also: Carbon budget
+This section is an excerpt from Climate change scenario.[edit]
+Global CO2 emissions and probabilistic temperature outcomes of different policies
+Futures studies
+Concepts
+Accelerating change
+Cashless society
+Existential risk
+Future
+Earth
+Mathematics
+Race
+Climate
+Space exploration
+Universe
+Kardashev scale
+Moore's law
+Resource depletion
+Singularity
+Speculative evolution
+Techniques
+Backcasting
+Causal layered analysis
+Chain-linked model
+Consensus forecast
+Cross impact analysis
+Delphi
+Real-time Delphi
+Foresight
+Future-proof
+Futures wheel
+Futures workshops
+Horizon scanning
+Reference class forecasting
+Scenario planning
+Systems analysis
+Threatcasting
+Trend analysis
+Technology assessment and forecasting
+Critical design
+Design fiction
+Exploratory engineering
+FTA
+Hype cycle
+Science fiction prototyping
+Speculative design
+TRL
+Technology scouting
+vte
+Climate change scenarios or socioeconomic scenarios are projections of future greenhouse gas (GHG) emissions used by analysts to assess future vulnerability to climate change.[228] Scenarios and pathways are created by scientists[229] to survey any long term routes and explore the effectiveness of mitigation and helps us understand what the future may hold this will allow us to envision the future of human environment system.[229] Producing scenarios requires estimates of future population levels, economic activity, the structure of governance, social values, and patterns of technological change. Economic and energy modelling (such as the World3 or the POLES models) can be used to analyze and quantify the effects of such drivers.
+Scientists can develop separate international, regional and national climate change scenarios. These scenarios are designed to help stakeholders understand what kinds of decisions will have meaningful effects on climate change mitigation or adaptation. Most countries developing adaptation plans or Nationally Determined Contributions will commission scenario studies in order to better understand the decisions available to them.
+International goals for mitigating climate change through international processes like the Intergovernmental Panel on Climate Change (IPCC), the Paris Agreement and Sustainable Development Goal 13 ("Take urgent action to combat climate change and its impacts") are based on reviews of these scenarios. For example, the Special Report on Global Warming of 1.5 °C was released in 2018 order to reflect more up-to-date models of emissions, Nationally Determined Contributions, and impacts of climate change than its predecessor IPCC Fifth Assessment Report published in 2014 before the Paris Agreement.[230]
+Impacts of the COVID-19 pandemic[edit]
+Main article: Impact of the COVID-19 pandemic on the environment § Climate change
+In 2020, carbon dioxide emissions fell by 6.4% or 2.3 billion tonnes globally.[231] In April 2020, NOx emissions fell by up to 30%.[232] In China, lockdowns and other measures resulted in a 26% decrease in coal consumption, and a 50% reduction in nitrogen oxide emissions.[233] Greenhouse gas emissions rebounded later in the pandemic as many countries began lifting restrictions, with the direct impact of pandemic policies having a negligible long-term impact on climate change.[231][234] However, decreased human activity during the pandemic diverted attention from ongoing activities such as accelerated deforestation of the Amazon rainforest.[235][236]
+The hindrance of environmental policy efforts, combined with economic slowdown may have contributed to slowed investment in green energy technologies.[237][238]
+See also[edit]
+Attribution of recent climate change
+Carbon accounting
+Carbon credit
+Carbon Dioxide Information Analysis Center
+Carbon offset
+Carbon tax
+Green hydrogen
+List of countries by renewable electricity production
+Low-carbon economy
+Orbiting Carbon Observatory 2
+Paris Agreement
+Perfluorotributylamine
+Vehicle emission standard
+World energy supply and consumption
+Zero-emissions vehicle
+Climate change portalEnvironment portalRenewable Energy portal
+References[edit]
+^ ● "Territorial (MtCO2)". GlobalCarbonAtlas.org. Retrieved 30 December 2021. (choose "Chart view"; use download link) ● Data for 2020 is also presented in Popovich, Nadja; Plumer, Brad (12 November 2021). "Who Has The Most Historical Responsibility for Climate Change?". The New York Times. Archived from the original on 29 December 2021.● Source for country populations: "List of the populations of the world's countries, dependencies, and territories". britannica.com. Encyclopedia Britannica.
+^ "Annual CO₂ emissions". Our World in Data. Retrieved 21 June 2022.
+^ Ritchie, Hannah; Roser, Max; Rosado, Pablo (11 May 2020). "CO₂ and Greenhouse Gas Emissions". Our World in Data.
+^ "Chapter 2: Emissions trends and drivers" (PDF). Ipcc_Ar6_Wgiii. 2022.
+^ "Data Review: How many people die from air pollution?". Our World in Data. Retrieved 2023-01-11.
+^ a b US EPA, OAR (10 September 2015). "Carbon Pollution from Transportation". www.epa.gov. Retrieved 18 October 2021.
+^ Intergovernmental Panel on Climate Change (4 April 2022). "IPCC: Climate Change 2022, Mitigation of Climate Change, Summary for Policymakers" (PDF). ipecac.ch. Retrieved 22 April 2004.
+^ Ritchie, Hannah; Roser, Max (11 May 2020). "Greenhouse gas emissions". Our World in Data. Retrieved 22 June 2021.
+^ "By 2030, Cut Per Capita Emission to Global Average: India to G20". The Leading Solar Magazine In India. Retrieved 17 September 2021.
+^ PBL (21 December 2020). "Trends in Global CO2 and Total Greenhouse Gas Emissions; 2020 Report". PBL Netherlands Environmental Assessment Agency. Retrieved 8 September 2021.
+^ IPCC (2019). "Summary for Policy Makers" (PDF). IPCC: 99.
+^ a b c
+Grubb, M. (July–September 2003). "The economics of the Kyoto protocol" (PDF). World Economics. 4 (3). Archived from the original (PDF) on 17 July 2011.
+^
+Lerner & K. Lee Lerner, Brenda Wilmoth (2006). "Environmental issues: essential primary sources". Thomson Gale. Retrieved 11 September 2006.
+^ Johnston, Chris; Milman, Oliver; Vidal, John (15 October 2016). "Climate change: global deal reached to limit use of hydrofluorocarbons". The Guardian. Retrieved 21 August 2018.
+^ "Climate change: 'Monumental' deal to cut HFCs, fastest growing greenhouse gases". BBC News. 15 October 2016. Retrieved 15 October 2016.
+^ "Nations, Fighting Powerful Refrigerant That Warms Planet, Reach Landmark Deal". The New York Times. 15 October 2016. Retrieved 15 October 2016.
+^ a b Bader, N.; Bleichwitz, R. (2009). "Measuring urban greenhouse gas emissions: The challenge of comparability". S.A.P.I.EN.S. 2 (3). Retrieved 11 September 2011.
+^ "Transcript: The Path Forward: Al Gore on Climate and the Economy". Washington Post. ISSN 0190-8286. Retrieved 6 May 2021.
+^ a b c d e f g Banuri, T. (1996). Equity and social considerations. In: Climate change 1995: Economic and social dimensions of climate change. Contribution of Working Group III to the Second Assessment Report of the Intergovernmental Panel on Climate Change (J.P. Bruce et al. Eds.). This version: Printed by Cambridge University Press, Cambridge, and New York. PDF version: IPCC website. ISBN 978-0521568548.
+^
+World energy outlook 2007 edition – China and India insights. International Energy Agency (IEA), Head of Communication and Information Office, 9 rue de la Fédération, 75739 Paris Cedex 15, France. 2007. p. 600. ISBN 978-9264027305. Archived from the original on 15 June 2010. Retrieved 4 May 2010.
+^ Holtz-Eakin, D. (1995). "Stoking the fires? CO2 emissions and economic growth" (PDF). Journal of Public Economics. 57 (1): 85–101. doi:10.1016/0047-2727(94)01449-X. S2CID 152513329.
+^
+"Selected Development Indicators" (PDF). World Development Report 2010: Development and Climate Change (PDF). Washington, DC: The International Bank for Reconstruction and Development / The World Bank. 2010. Tables A1 and A2. doi:10.1596/978-0-8213-7987-5. ISBN 978-0821379875.
+^ Dodman, David (April 2009). "Blaming cities for climate change? An analysis of urban greenhouse gas emissions inventories". Environment and Urbanization. 21 (1): 185–201. doi:10.1177/0956247809103016. ISSN 0956-2478. S2CID 154669383.
+^ "Analysis: When might the world exceed 1.5C and 2C of global warming?". Carbon Brief. 4 December 2020. Retrieved 17 June 2021.
+^ "World now likely to hit watershed 1.5 °C rise in next five years, warns UN weather agency". UN News. 26 May 2021. Retrieved 22 June 2021.
+^ Nishat (14 June 2021). "G7 countries agree to existing climate change policies". Open Access Government. Retrieved 17 June 2021.
+^ Tollefson, Jeff (9 August 2021).
+Helmuth, Laura (ed.). "Earth Is Warmer Than It's Been in 125,000 Years". Scientific American. Berlin: Springer Nature. ISSN 0036-8733. Archived from the original on 9 August 2021. Retrieved 12 August 2021.
+^ Fox, Alex. "Atmospheric Carbon Dioxide Reaches New High Despite Pandemic Emissions Reduction". Smithsonian Magazine. Retrieved 22 June 2021.
+^ "The present carbon cycle – Climate Change". Grida.no. Retrieved 16 October 2010.
+^ "Climate Change: Causation Archives". EarthCharts. Retrieved 22 June 2021.
+^ "It's critical to tackle coal emissions – Analysis". IEA. Retrieved 9 October 2021.
+^ US EPA, OAR (12 January 2016). "Global Greenhouse Gas Emissions Data". www.epa.gov. Retrieved 13 September 2021.
+^ Steinfeld, H.; Gerber, P.; Wassenaar, T.; Castel, V.; Rosales, M.; de Haan, C. (2006). Livestock's long shadow (Report). FAO Livestock, Environment and Development (LEAD) Initiative.
+^ Ciais, Phillipe; Sabine, Christopher;
+et al. "Carbon and Other Biogeochemical Cycles" (PDF).
+In Stocker Thomas F.;
+et al. (eds.). Climate Change 2013: The Physical Science Basis. IPCC. p. 473.
+^ "Chapter 2: Emissions trends and drivers" (PDF). Ipcc_Ar6_Wgiii. 2022.
+^ a b Raupach, M.R.;
+et al. (2007). "Global and regional drivers of accelerating CO2 emissions" (PDF). Proc. Natl. Acad. Sci. USA. 104 (24): 10288–93. Bibcode:2007PNAS..10410288R. doi:10.1073/pnas.0700609104. PMC 1876160. PMID 17519334.
+^ "Global Methane Emissions and Mitigation Opportunities" (PDF). Global Methane Initiative. 2020.
+^ "Sources of methane emissions". International Energy Agency. 20 August 2020.
+^ "Key facts and findings". Fao.org. Food and Agricultural Organization. n.d. Retrieved 25 October 2022.
+^ Chrobak, Ula (14 May 2021). "Fighting climate change means taking laughing gas seriously". Knowable Magazine. doi:10.1146/knowable-051321-2. S2CID 236555111. Retrieved 8 March 2022.
+^ "Just 100 companies responsible for 71% of global emissions, study says". The Guardian. 10 July 2017. Retrieved 9 April 2021.
+^ Gustin, Georgina (9 July 2017). "25 Fossil Fuel Producers Responsible for Half Global Emissions in Past 3 Decades". Inside Climate News. Retrieved 4 May 2021.
+^ Gore, Al (December 12, 2020). "Opinion | Al Gore: Where I Find Hope". The New York Times. ISSN 0362-4331. Archived from the original on August 18, 2021. Retrieved July 10, 2021.
+^ "Climate TRACE to track real-time global carbon emissions". Yale Climate Connections. August 17, 2020. Archived from the original on July 12, 2021. Retrieved July 10, 2021.
+^ Freedman, Andrew. "Al Gore's Climate TRACE tracking group finds vast undercounts of emissions". Axios. Archived from the original on 2021-09-27. Retrieved 2021-09-27.
+^ Roberts, David (July 16, 2020). "The entire world's carbon emissions will finally be trackable in real time". Vox. Archived from the original on July 10, 2021. Retrieved July 10, 2021.
+^ "Methane: A Threat to People and Planet". Rocky Mountain Institute. July 7, 2021. Archived from the original on July 10, 2021. Retrieved July 10, 2021.
+^ "Transcript: The Path Forward: Al Gore on Climate and the Economy". The Washington Post. ISSN 0190-8286. Archived from the original on April 25, 2021. Retrieved July 10, 2021.
+^ Puko, Timothy (April 13, 2021). "John Kerry Says U.S. Will Hold China to Account on Climate Pledges". The Wall Street Journal. ISSN 0099-9660. Archived from the original on July 10, 2021. Retrieved July 10, 2021.
+^ Peters, Adele (July 15, 2020). "This Al Gore-supported project uses AI to track the world's emissions in near real time". Fast Company. Archived from the original on May 12, 2021. Retrieved July 15, 2021.
+^ "The 100 Best Inventions of 2020". Time. Archived from the original on July 25, 2021. Retrieved July 10, 2021.
+^ Cockburn, Harry (9 November 2022). "Global oil and gas emissions 'up to three times higher than companies claim'". The Independent. Retrieved 18 December 2022.
+^ "Emissions Map - Climate TRACE". climatetrace.org. Retrieved 18 December 2022.
+Press release: "News - Climate TRACE". Retrieved 18 December 2022.
+^ a b "IPCC Working Group III – Mitigation of Climate Change, Annex III: Technology - specific cost and performance parameters - Table A.III.2 (Emissions of selected electricity supply technologies (gCO 2eq/kWh))" (PDF). IPCC. 2014. p. 1335. Archived (PDF) from the original on 14 December 2018. Retrieved 14 December 2018.
+^ "IPCC Working Group III – Mitigation of Climate Change, Annex II Metrics and Methodology - A.II.9.3 (Lifecycle greenhouse gas emissions)" (PDF). pp. 1306–1308. Archived (PDF) from the original on 23 April 2021. Retrieved 14 December 2018.
+^ a b "Life Cycle Assessment of Electricity Generation Options | UNECE". unece.org. Retrieved 2021-11-26.
+^ "The 660 MW plant should be considered as an outlier, as transportation for the dam construction elements is assumed to occur over thousands of kilometers (which is only representative of a very small share of hydropower projects globally). The 360 MW plant should be considered as the most representative, with fossil greenhouse gas emissions ranging from 6.1 to 11 g CO2eq/kWh" (UNECE 2020 section 4.4.1)
+^ "Greenhouse Gas Emissions from a Typical Passenger Vehicle" (PDF). Epa.gov. US Environment Protection Agency. Retrieved 11 September 2011.
+^ Engber, Daniel (1 November 2006). "How gasoline becomes CO2, Slate Magazine". Slate Magazine. Retrieved 11 September 2011.
+^ "Volume calculation for carbon dioxide". Icbe.com. Retrieved 11 September 2011.
+^ Hilgers, Michael (2020). The Diesel Engine, in series: commercial vehicle technology. Berlin/Heidelberg/New York: Springer. ISBN 978-3-662-60856-2.
+^ "Voluntary Reporting of Greenhouse Gases Program". Energy Information Administration. Archived from the original on 1 November 2004. Retrieved 21 August 2009.
+^ a b c d e f g h i j k Olivier J.G.J. and Peters J.A.H.W. (2020), Trends in global CO2 and total greenhouse gas emissions: 2020 report Archived 2022-04-02 at the Wayback Machine. PBL Netherlands Archived 2021-09-09 at the Wayback Machine Environmental Assessment Agency, The Hague.
+^ a b Friedlingstein, Pierre; O'Sullivan, Michael; Jones, Matthew W.; Andrew, Robbie M.; Hauck, Judith; Olsen, Are; Peters, Glen P.; Peters, Wouter; Pongratz, Julia; Sitch, Stephen; Le Quéré, Corinne; Canadell, Josep G.; Ciais, Philippe; Jackson, Robert B.; Alin, Simone (2020). "Global Carbon Budget 2020". Earth System Science Data. 12 (4): 3269–3340. doi:10.5194/essd-12-3269-2020. ISSN 1866-3516.
+^ a b "Methane vs. Carbon Dioxide: A Greenhouse Gas Showdown". One Green Planet. 30 September 2014. Retrieved 13 February 2020.
+^ IGSD (2013). "Short-Lived Climate Pollutants (SLCPs)". Institute of Governance and Sustainable Development (IGSD). Retrieved 29 November 2019.
+^ Zaelke, Durwood; Borgford-Parnell, Nathan; Andersen, Stephen; Picolotti, Romina; Clare, Dennis; Sun, Xiaopu; Gabrielle, Danielle (2013). "Primer on Short-Lived Climate Pollutants" (PDF). Institute for Governance and Sustainable Development. p. 3.
+^ using 100 year global warming potential from IPCC-AR4
+^ Dreyfus, Gabrielle B.; Xu, Yangyang; Shindell, Drew T.; Zaelke, Durwood; Ramanathan, Veerabhadran (31 May 2022). "Mitigating climate disruption in time: A self-consistent approach for avoiding both near-term and long-term global warming". Proceedings of the National Academy of Sciences. 119 (22): e2123536119. Bibcode:2022PNAS..11923536D. doi:10.1073/pnas.2123536119. ISSN 0027-8424. PMC 9295773. PMID 35605122. S2CID 249014617.
+^ Lombrana, Laura Millan; Warren, Hayley; Rathi, Akshat (2020). "Measuring the Carbon-Dioxide Cost of Last Year's Worldwide Wildfires". Bloomberg L.P.
+^ Global fire annual emissions (PDF) (Report). Global Fire Emissions Database.
+^ World Meteorological Organization (January 2019). "Scientific Assessment of ozone Depletion: 2018" (PDF). Global Ozone Research and Monitoring Project. 58: A3 (see Table A1).
+^ Thompson, R.L; Lassaletta, L.; Patra, P.K (2019). et al. "Acceleration of global N2O emissions seen from two decades of atmospheric inversion". Nature Climate Change. 9 (12): 993–998. Bibcode:2019NatCC...9..993T. doi:10.1038/s41558-019-0613-7. S2CID 208302708.
+^ Bond;
+et al. (2013). "Bounding the role of black carbon in the climate system: A scientific assessment". J. Geophys. Res. Atmos. 118 (11): 5380–5552. Bibcode:2013JGRD..118.5380B. doi:10.1002/jgrd.50171.
+^ Ramanathan, V.; Carmichael, G. (April 2008). "Global and regional climate changes due to black carbon". Nature Geoscience. 1 (4): 221–227. Bibcode:2008NatGe...1..221R. doi:10.1038/ngeo156.
+^ "Global Greenhouse Gas Emissions by Sector". EarthCharts. 6 March 2020. Retrieved 15 March 2020.
+^ a b "Climate Watch". www.climatewatchdata.org. Retrieved 6 March 2020.
+^ IEA, CO2 Emissions from Fuel Combustion 2018: Highlights (Paris: International Energy Agency, 2018) p.98
+^ IEA, CO2 Emissions from Fuel Combustion 2018: Highlights (Paris: International Energy Agency, 2018) p.101
+^ "Emissions". www.iea.org. Archived from the original on 12 August 2019. Retrieved 21 September 2019.
+^ "We have too many fossil-fuel power plants to meet climate goals". Environment. 1 July 2019. Retrieved 21 September 2019.
+^ "March: Tracking the decoupling of electricity demand and associated CO2 emissions". www.iea.org. Retrieved 21 September 2019.
+^ Grant, Don; Zelinka, David; Mitova, Stefania (13 July 2021). "Reducing CO2 emissions by targeting the world's hyper-polluting power plants". Environmental Research Letters. 16 (9): 094022. Bibcode:2021ERL....16i4022G. doi:10.1088/1748-9326/ac13f1. ISSN 1748-9326.
+^ Emission Trends and Drivers, Ch 2 in "Climate Change 2022: Mitigation of Climate Change" https://www.ipcc.ch/report/ar6/wg3/ Archived 2022-08-02 at the Wayback Machine
+^ Section 4.2: Agriculture's current contribution to greenhouse gas emissions, in: HLPE 2012, pp. 67–69 harvnb error: no target: CITEREFHLPE2012 (help)
+^ Sarkodie, Samuel A.; Ntiamoah, Evans B.; Li, Dongmei (2019). "Panel heterogeneous distribution analysis of trade and modernized agriculture on CO2 emissions: The role of renewable and fossil fuel energy consumption". Natural Resources Forum. 43 (3): 135–153. doi:10.1111/1477-8947.12183. ISSN 1477-8947.
+^ Agriculture, Forestry, and Other Land Uses Ch7 from "Climate Change 2022: Mitigation of Climate Change". www.ipcc.ch. Retrieved 6 April 2022.
+^ a b c d Friel, Sharon; Dangour, Alan D.; Garnett, Tara;
+et al. (2009). "Public health benefits of strategies to reduce greenhouse-gas emissions: food and agriculture". The Lancet. 374 (9706): 2016–2025. doi:10.1016/S0140-6736(09)61753-0. PMID 19942280. S2CID 6318195.
+^ "How livestock farming affects the environment". www.downtoearth.org.in. Retrieved 2022-02-10.
+^ "The Food Gap: The Impacts of Climate Change on Food Production: a 2020 Perspective" (PDF). 2011. Archived from the original (PDF) on 16 April 2012.
+^ Steinfeld H, Gerber P, Wassenaar T, Castel V, Rosales M, de Haan C (2006). Livestock's long shadow: environmental issues and options (PDF). Food and Agriculture Organization of the UN. ISBN 978-92-5-105571-7. Archived from the original (PDF) on 25 June 2008.
+^ Intergovernmental Panel on Climate Change Archived 1 May 2007 at the Wayback Machine (IPCC)
+^ Sharma, Gagan Deep; Shah, Muhammad Ibrahim; Shahzad, Umer; Jain, Mansi; Chopra, Ritika (1 November 2021). "Exploring the nexus between agriculture and greenhouse gas emissions in BIMSTEC region: The role of renewable energy and human capital as moderators". Journal of Environmental Management. 297: 113316. doi:10.1016/j.jenvman.2021.113316. ISSN 0301-4797. PMID 34293673.
+^ Thornton, P.K.; van de Steeg, J.; Notenbaert, A.; Herrero, M. (2009). "The impacts of climate change on livestock and livestock systems in developing countries: A review of what we know and what we need to know". Agricultural Systems. 101 (3): 113–127. doi:10.1016/j.agsy.2009.05.002.
+^ Kurukulasuriya, Pradeep; Rosenthal, Shane (June 2003). Climate Change and Agriculture: A Review of Impacts and Adaptions (PDF) (Report). World Bank.
+^ McMichael, A.J.; Campbell-Lendrum, D.H.; Corvalán, C.F.;
+et al. (2003). Climate Change and Human Health: Risks and Responses (PDF) (Report). World Health Organization. ISBN 92-4-156248-X.
+^ SUMMARY AND RECOMMENDATIONS, in: HLPE 2012, pp. 12–23 harvnb error: no target: CITEREFHLPE2012 (help)
+^ Smith, P., et al., Executive summary, in: Chapter 5: Drivers, Trends and Mitigation (archived 30 December 2014), in: IPCC AR5 WG3 2014, pp. 816–817 harvnb error: no target: CITEREFIPCC_AR5_WG32014 (help)
+^ a b Feng, Yu; Zeng, Zhenzhong; Searchinger, Timothy D.; Ziegler, Alan D.; Wu, Jie; Wang, Dashan; He, Xinyue; Elsen, Paul R.; Ciais, Philippe; Xu, Rongrong; Guo, Zhilin; Peng, Liqing; Tao, Yiheng; Spracklen, Dominick V.; Holden, Joseph; Liu, Xiaoping; Zheng, Yi; Xu, Peng; Chen, Ji; Jiang, Xin; Song, Xiao-Peng; Lakshmi, Venkataraman; Wood, Eric F.; Zheng, Chunmiao (28 February 2022). "Doubling of annual forest carbon loss over the tropics during the early twenty-first century". Nature Sustainability. 5 (5): 444–451. doi:10.1038/s41893-022-00854-3. ISSN 2398-9629. S2CID 247160560.
+^ "Deforestation emissions far higher than previously thought, study finds". The Guardian. 28 February 2022. Retrieved 16 March 2022.
+^ Fig. SPM.2c from Working Group III (4 April 2022). "Climate Change 2022 / Mitigation of Climate Change / Summary for Policymakers" (PDF). IPCC.ch. Intergovernmental Panel on Climate Change. p. SPM-11. Archived (PDF) from the original on 4 April 2022. Data is for 2019.
+^ B. Metz; O.R. Davidson; P.R. Bosch; R. Dave; L.A. Meyer (eds.), Annex I: Glossary J–P, archived from the original on 3 May 2010
+^ Markandya, A. (2001). "7.3.5 Cost Implications of Alternative GHG Emission Reduction Options and Carbon Sinks".
+In B. Metz;
+et al. (eds.). Costing Methodologies. Climate Change 2001: Mitigation. Contribution of Working Group III to the Third Assessment Report of the Intergovernmental Panel on Climate Change. Print version: Cambridge University Press, Cambridge, and New York. This version: GRID-Arendal website. ISBN 978-0521015028. Archived from the original on 5 August 2011. Retrieved 11 April 2011.
+^ Page, S.; Siegert, F.; Rieley, J.; Boehm, H.; Jaya, A.; Limin, S. (2002). "The amount of carbon released from peat and forest fires in Indonesia during 1997". Nature. 420 (6911): 61–65. Bibcode:2002Natur.420...61P. doi:10.1038/nature01131. PMID 12422213. S2CID 4379529.
+^ Lazaroff, Cat (2002-11-08). "Indonesian Wildfires Accelerated Global Warming". Environment New Service. Archived from the original on 8 September 2019. Retrieved 2011-11-07.
+^ Pearce, Fred (6 November 2004). "Massive peat burn is speeding climate change". New Scientist.
+^ Davidson, Jordan (4 September 2020). "Aviation Accounts for 3.5% of Global Warming Caused by Humans, New Research Says". Ecowatch. Retrieved 6 September 2020.
+^ "Cars, planes, trains: where do CO2 emissions from transport come from?". Our World in Data. Retrieved 19 June 2021.
+^ "EU countries agree to 30 percent cut in truck CO2 emissions". Reuters. 20 December 2018.
+^ a b Ürge-Vorsatz, Diana; Khosla, Radhika; Bernhardt, Rob; Chan, Yi Chieh; Vérez, David; Hu, Shan; Cabeza, Luisa F. (2020). "Advances Toward a Net-Zero Global Building Sector". Annual Review of Environment and Resources. 45: 227–269. doi:10.1146/annurev-environ-012420-045843.
+^ "Why the building sector?". Architecture 2020. Retrieved 1 April 2021.
+^ Budds, Diana (19 September 2019). "How do buildings contribute to climate change?". Curbed. Retrieved 22 January 2021.
+^ "Sequestering Carbon in Buildings". Green Energy Times. 23 June 2017. Retrieved 22 January 2021.
+^ "IPCC — Intergovernmental Panel on Climate Change". Retrieved 4 April 2022.
+^ "The World's Biggest Emitter of Greenhouse Gases". Bloomberg.com. 17 March 2020. Retrieved 29 December 2020.
+^ Tsaia, I-Tsung; Al Alia, Meshayel; El Waddi, Sanaâ; Adnan Zarzourb, aOthman (2013). "Carbon Capture Regulation for The Steel and Aluminum Industries in the UAE: An Empirical Analysis". Energy Procedia. 37: 7732–7740. doi:10.1016/j.egypro.2013.06.719. ISSN 1876-6102. OCLC 5570078737.
+^ Zheng, Jiajia; Suh, Sangwon (May 2019). "Strategies to reduce the global carbon footprint of plastics". Nature Climate Change. 9 (5): 374–378. Bibcode:2019NatCC...9..374Z. doi:10.1038/s41558-019-0459-z. ISSN 1758-6798. S2CID 145873387.
+^ "The Link Between Plastic Use and Climate Change: Nitty-gritty". stanfordmag.org. 2009. Retrieved 5 March 2021. ... According to the EPA, approximately one ounce of carbon dioxide is emitted for each ounce of polyethylene (PET) produced. PET is the type of plastic most commonly used for beverage bottles. ...'
+^ Glazner, Elizabeth (21 November 2017). "Plastic Pollution and Climate Change". Plastic Pollution Coalition. Plastic Pollution Coalition. Retrieved 6 August 2018.
+^ Blue, Marie-Luise. "What Is the Carbon Footprint of a Plastic Bottle?". Sciencing. Leaf Group Ltd. Retrieved 6 August 2018.
+^ Royer, Sarah-Jeanne; Ferrón, Sara; Wilson, Samuel T.; Karl, David M. (1 August 2018). "Production of methane and ethylene from plastics in the environment". PLOS ONE. 13 (Plastic, Climate Change): e0200574. Bibcode:2018PLoSO..1300574R. doi:10.1371/journal.pone.0200574. PMC 6070199. PMID 30067755.
+^ Rosane, Olivia (2 August 2018). "Study Finds New Reason to Ban Plastic: It Emits Methane in the Sun". No. Plastic, Climate Change. Ecowatch. Retrieved 6 August 2018.
+^ "Sweeping New Report on Global Environmental Impact of Plastics Reveals Severe Damage to Climate". Center for International Environmental Law (CIEL). Retrieved 16 May 2019.
+^ Plastic & Climate The Hidden Costs of a Plastic Planet (PDF). Center for International Environmental Law, Environmental Integrity Project, FracTracker Alliance, Global Alliance for Incinerator Alternatives, 5 Gyres, and Break Free From Plastic. May 2019. pp. 82–85. Retrieved 20 May 2019.
+^ "World GHG Emissions Flow Chart" (PDF). Ecofys.com. 2010. Retrieved 16 August 2018.
+^ "Data Centres and Data Transmission Networks – Analysis". IEA. Retrieved 2022-03-06.
+^ Freitag, Charlotte; Berners-Lee, Mike (December 2020). "The climate impact of ICT: A review of estimates, trends and regulations". arXiv:2102.02622 [physics.soc-ph].
+^ "The computer chip industry has a dirty climate secret". the Guardian. 18 September 2021. Retrieved 18 September 2021.
+^ "Working from home is erasing carbon emissions -- but for how long?". Grist. 19 May 2020. Retrieved 4 April 2021.
+^ Cunliff, Colin (6 July 2020). "Beyond the Energy Techlash: The Real Climate Impacts of Information Technology".
+^ Foteinis, Spyros (7 February 2018). "Bitcoin's alarming carbon footprint". Nature. 554 (7691): 169. Bibcode:2018Natur.554..169F. doi:10.1038/d41586-018-01625-x.
+^ Krause, Max J.; Tolaymat, Thabet (November 2018). "Quantification of energy and carbon costs for mining cryptocurrencies". Nature Sustainability. 1 (11): 711–718. doi:10.1038/s41893-018-0152-7. S2CID 169170289.
+^ Davies, Pascale (26 February 2022). "Bitcoin mining is worse for the environment now since China banned it". euronews. Retrieved 1 March 2022.
+^ Ponciano, Jonathan. "Bill Gates Sounds Alarm On Bitcoin's Energy Consumption–Here's Why Crypto Is Bad For Climate Change". Forbes. Retrieved 30 July 2021.
+^ Huang, Jon; O’Neill, Claire; Tabuchi, Hiroko (3 September 2021). "Bitcoin Uses More Electricity Than Many Countries. How Is That Possible?". The New York Times. ISSN 0362-4331. Retrieved 1 March 2022.
+^ "Bitcoin energy consumption worldwide 2017-2021". Statista. Retrieved 1 March 2022.
+^ J. Eckelman, Matthew; Huang, Kaixin; Dubrow, Robert; D. Sherman, Jodi (December 2020). "Health Care Pollution And Public Health Damage In The United States: An Update". Health Affairs. 39 (12): 2071–2079. doi:10.1377/hlthaff.2020.01247. PMID 33284703.
+^ The greenhouse gas protocol : a corporate accounting and reporting standard. World Business Council for Sustainable Development, World Resources Institute (Rev. ed.). Geneva, Switzerland: World Business Council for Sustainable Development. 2004. ISBN 1-56973-568-9. OCLC 55049070.{{cite book}}:
+CS1 maint: others (link)
+^ Alix, Alexandre; Bellet, Laurent; Trommsdorff, Corinne; Audureau, Iris, eds. (2022). Reducing the Greenhouse Gas Emissions of Water and Sanitation Services: Overview of emissions and their potential reduction illustrated by utility know-how. IWA Publishing. doi:10.2166/9781789063172. ISBN 978-1-78906-317-2. S2CID 250128707.
+^ "Environmental Impacts of Tourism – Global Level". UNEP.
+^ Mel, Svein Inge. "People over 60 are greenhouse gas emission 'bad guys'". Norwegian University of Science. Retrieved 18 April 2022.
+^ Zheng, Heran; Long, Yin; Wood, Richard; Moran, Daniel; Zhang, Zengkai; Meng, Jing; Feng, Kuishuang; Hertwich, Edgar; Guan, Dabo (March 2022). "Ageing society in developed countries challenges carbon mitigation". Nature Climate Change. 12 (3): 241–248. Bibcode:2022NatCC..12..241Z. doi:10.1038/s41558-022-01302-y. hdl:11250/3027882. ISSN 1758-6798. S2CID 247322718.
+^ Thiery, Wim; Lange, Stefan; Rogelj, Joeri; Schleussner, Carl-Friedrich; Gudmundsson, Lukas; Seneviratne, Sonia I.; Andrijevic, Marina; Frieler, Katja; Emanuel, Kerry; Geiger, Tobias; Bresch, David N.; Zhao, Fang; Willner, Sven N.; Büchner, Matthias; Volkholz, Jan; Bauer, Nico; Chang, Jinfeng; Ciais, Philippe; Dury, Marie; François, Louis; Grillakis, Manolis; Gosling, Simon N.; Hanasaki, Naota; Hickler, Thomas; Huber, Veronika; Ito, Akihiko; Jägermeyr, Jonas; Khabarov, Nikolay; Koutroulis, Aristeidis; Liu, Wenfeng; Lutz, Wolfgang; Mengel, Matthias; Müller, Christoph; Ostberg, Sebastian; Reyer, Christopher P. O.; Stacke, Tobias; Wada, Yoshihide (8 October 2021). "Intergenerational inequities in exposure to climate extremes". Science. 374 (6564): 158–160. Bibcode:2021Sci...374..158T. doi:10.1126/science.abi7339. PMID 34565177. S2CID 237942847. Archived from the original on 11 May 2022. Retrieved 28 October 2021.
+^ "Emissions Gap Report 2020 / Executive Summary" (PDF). United Nations Environment Programme. 2021. p. XV Fig. ES.8. Archived (PDF) from the original on 31 July 2021.
+^ Rapid Transition Alliance, 13 April 2021 "Cambridge Sustainability Commission Report on Scaling Behaviour Change" Archived 2022-02-05 at the Wayback Machine p. 20
+^ Emission trends and drivers, Ch 2 in "Climate Change 2022: Mitigation of Climate Change". http://www.ipcc.ch. Retrieved 5 April 2022.
+^ a b https://report.ipcc.ch/ar6wg3/pdf/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf Archived 2022-04-04 at the Wayback Machine[bare URL PDF]
+^ Wiedmann, Thomas; Lenzen, Manfred; Keyßer, Lorenz T.; Steinberger, Julia K. (19 June 2020). "Scientists' warning on affluence". Nature Communications. 11 (1): 3107. Bibcode:2020NatCo..11.3107W. doi:10.1038/s41467-020-16941-y. ISSN 2041-1723. PMC 7305220. PMID 32561753.
+^ Nielsen, Kristian S.; Nicholas, Kimberly A.; Creutzig, Felix; Dietz, Thomas; Stern, Paul C. (30 September 2021). "The role of high-socioeconomic-status people in locking in or rapidly reducing energy-driven greenhouse gas emissions". Nature Energy. 6 (11): 1011–1016. Bibcode:2021NatEn...6.1011N. doi:10.1038/s41560-021-00900-y. ISSN 2058-7546. S2CID 244191460.
+^ Gore, Tim (2020-09-23). "Confronting carbon inequality". Oxfam International. Archived from the original on 24 March 2022. Retrieved 2022-03-20.
+^ Kartha, Sivan; Kemp-Benedict, Eric; Ghosh, Emily; Nazareth, Anisha; Gore, Tim (September 2020). "The Carbon Inequality Era: An assessment of the global distribution of consumption emissions among individuals from 1990 to 2015 and beyond" (PDF). Stockholm Environment Institute. Archived (PDF) from the original on 22 January 2022. Retrieved 11 May 2022.
+^ Clifford, Catherine (26 January 2021). "The '1%' are the main drivers of climate change, but it hits the poor the hardest: Oxfam report". CNBC. Archived from the original on 28 October 2021. Retrieved 28 October 2021.
+^ Berkhout, Esmé; Galasso, Nick; Lawson, Max; Rivero Morales, Pablo Andrés; Taneja, Anjela; Vázquez Pimentel, Diego Alejo (25 January 2021). "The Inequality Virus". Oxfam International. Archived from the original on 28 October 2021. Retrieved 28 October 2021.
+^ "Emissions Gap Report 2020 / Executive Summary" (PDF). United Nations Environment Programme. 2021. p. XV Fig. ES.8. Archived (PDF) from the original on 31 July 2021.
+^ Paddison, Laura (28 October 2021). "How the rich are driving climate change". BBC. Archived from the original on 5 November 2021. Retrieved 7 November 2021.
+^ Oswald, Yannick; Owen, Anne; Steinberger, Julia K. (March 2020). "Large inequality in international and intranational energy footprints between income groups and across consumption categories" (PDF). Nature Energy. 5 (3): 231–239. Bibcode:2020NatEn...5..231O. doi:10.1038/s41560-020-0579-8. ISSN 2058-7546. S2CID 216245301. Archived (PDF) from the original on 28 October 2021. Retrieved 16 November 2021.
+^ Timperley, Jocelyn. "Who is really to blame for climate change?". www.bbc.com. Retrieved 8 June 2022.
+^ Herzog, T. (November 2006).
+Yamashita, M.B. (ed.). Target: intensity – an analysis of greenhouse gas intensity targets (PDF). World Resources Institute. ISBN 978-1569736388. Retrieved 11 April 2011.
+^ McGee, Julius Alexander; York, Richard (7 December 2018). "Asymmetric relationship of urbanization and CO2 emissions in less developed countries". PLOS ONE. 13 (12): e0208388. Bibcode:2018PLoSO..1308388M. doi:10.1371/journal.pone.0208388. PMC 6286174. PMID 30532262.
+^
+Botzen, W.J.W.;
+et al. (2008). "Cumulative CO2 emissions: shifting international responsibilities for climate debt". Climate Policy. 8 (6): 570. doi:10.3763/cpol.2008.0539. S2CID 153972794.
+^ "Climate Watch - Historical Emissions Data". World Resources Institute. Retrieved 23 October 2021.
+^ a b c
+Höhne, N.;
+et al. (24 September 2010). "Contributions of individual countries' emissions to climate change and their uncertainty" (PDF). Climatic Change. 106 (3): 359–91. doi:10.1007/s10584-010-9930-6. S2CID 59149563. Archived from the original (PDF) on 26 April 2012.
+^ a b c
+World Energy Outlook 2009 (PDF), Paris: International Energy Agency (IEA), 2009, pp. 179–80, ISBN 978-9264061309, archived from the original (PDF) on 24 September 2015, retrieved 27 December 2011
+^ Specktor, Brandon (1 October 2019). "Humans Are Disturbing Earth's Carbon Cycle More Than the Dinosaur-Killing Asteroid Did". livescience.com. Retrieved 8 July 2021.
+^ "Transport emissions". ec.europa.eu. Retrieved 18 October 2021.
+^ "Rail and waterborne — best for low-carbon motorised transport — European Environment Agency". www.eea.europa.eu. Retrieved 18 October 2021.
+^ "Luxembourg 2020 – Analysis". IEA. Retrieved 18 October 2021.
+^ Ritchie, Hannah; Roser, Max (11 May 2020). "CO₂ and Greenhouse Gas Emissions". Our World in Data.
+^ "Why The Building Sector? – Architecture 2030". Retrieved 18 October 2021.
+^ "Global Assessment: Urgent steps must be taken to reduce methane emissions this decade". United Nations. 6 May 2021.
+^ "Global Carbon Budget 2019".
+^ The cited paper uses the term "start date" instead of "base year."
+^
+Helm, D.;
+et al. (10 December 2007). Too Good To Be True? The UK's Climate Change Record (PDF). p. 3. Archived from the original (PDF) on 15 July 2011.
+^ a b
+Davis, S.J.; K. Caldeira (8 March 2010). "Consumption-based Accounting of CO2 Emissions" (PDF). Proceedings of the National Academy of Sciences of the United States of America. 107 (12): 5687–5692. Bibcode:2010PNAS..107.5687D. doi:10.1073/pnas.0906974107. PMC 2851800. PMID 20212122. Retrieved 18 April 2011.
+^ "Global Carbon Budget 2019". ICOS. Retrieved 26 January 2020.
+^ Friedlingstein, P., Jones, M., O'Sullivan, M., Andrew, R., Hauck, J., Peters, G., Peters, W., Pongratz, J., Sitch, S., Le Quéré, C. and 66 others (2019) "Global carbon budget 2019". Earth System Science Data, 11(4): 1783–1838. doi:10.5194/essd-11-1783-2019.
+Material was copied from this source, which is available under a Creative Commons Attribution 4.0 International License.
+^ a b c "Global CO2 emissions: annual increase halves in 2008". Netherlands Environmental Assessment Agency (PBL) website. 25 June 2009. Archived from the original on 19 December 2010. Retrieved 5 May 2010.
+^ "Global Carbon Mechanisms: Emerging lessons and implications (CTC748)". Carbon Trust. March 2009. p. 24. Retrieved 31 March 2010.
+^ Vaughan, Adam (7 December 2015). "Global emissions to fall for first time during a period of economic growth". The Guardian. ISSN 0261-3077. Retrieved 23 December 2016.
+^ a b "Fossil CO2 emissions of all world countries - 2020 report". EDGAR - Emissions Database for Global Atmospheric Research.  This article incorporates text available under the CC BY 4.0 license.
+^ US EPA, OAR (2015-08-25). "Fast Facts on Transportation Greenhouse Gas Emissions". www.epa.gov. Retrieved 2021-12-14.
+^ ● "Territorial (MtCO2)". GlobalCarbonAtlas.org. Retrieved 30 December 2021. (choose "Chart view"; use download link) ● Data for 2020 is also presented in Popovich, Nadja; Plumer, Brad (November 12, 2021). "Who Has The Most Historical Responsibility for Climate Change?". The New York Times. Archived from the original on December 29, 2021.● Source for country populations: "List of the populations of the world's countries, dependencies, and territories". britannica.com. Encyclopedia Britannica.
+^ "Greenhouse Gas Inventory Data Explorer | US EPA". cfpub.epa.gov. Retrieved 17 April 2021.
+^ US EPA, OAR (2017-02-08). "Inventory of U.S. Greenhouse Gas Emissions and Sinks". www.epa.gov. Retrieved 2022-08-04.
+^ "Report: China emissions exceed all developed nations combined". BBC News. 2021-05-07.
+^ "Cumulative CO2 emissions globally by country 2018". Statista. Retrieved 2021-02-19.
+^ "The world is still falling short of meeting its climate goals". Environment. 2021-10-26. Retrieved 2021-10-28.
+^ "Who has contributed most to global CO2 emissions?". Our World in Data. Retrieved 2021-12-29.
+^ Ge, Mengpin; Friedrich, Johannes; Vigna, Leandro (2020-02-06). "4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors". World Resources Institute. Retrieved 2020-04-29.
+^ EPA,OA, US (2015-12-29). "Sources of Greenhouse Gas Emissions - US EPA". US EPA. Retrieved 19 April 2018.
+^ EPA, OA, US (2015-12-29). "Sources of Greenhouse Gas Emissions - US EPA". US EPA. Retrieved 19 April 2018.
+^ "Historical GHG Emissions / Global Historical Emissions". ClimateWatchData.org. Climate Watch. 2021. Archived from the original on 21 May 2021. ● Population data from "List of the populations of the world's countries, dependencies, and territories". britannica.com. Encyclopedia Britannica. Archived from the original on 26 May 2021.
+^ Chart based on: Milman, Oliver (12 July 2022). "Nearly $2tn of damage inflicted on other countries by US emissions". The Guardian. Archived from the original on 12 July 2022. Guardian cites Callahan, Christopher W.; Mankin, Justin S. (12 July 2022). "National attribution of historical climate damages". Climatic Change. 172 (40): 40. Bibcode:2022ClCh..172...40C. doi:10.1007/s10584-022-03387-y. S2CID 250430339.
+^ "全球温室气体排放数据（最新版）_中国碳排放交易网". www.tanpaifang.com. Archived from the original on 2018-04-10. Retrieved 2018-04-10.
+^ "Analysis: China's carbon emissions grow at fastest rate for more than a decade". Carbon Brief. 2021-05-20. Retrieved 2021-07-07.
+^ "Preliminary 2020 Greenhouse Gas Emissions Estimates for China". Rhodium Group. Retrieved 2021-04-25.
+^ a b Bloomberg News (6 May 2021). "China's Emissions Now Exceed All the Developed World's Combined". Bloomberg.
+^ "CO2 Emissions: China - 2020 - Climate TRACE". climatetrace.org. Retrieved 2021-09-27.
+^ a b c d Larsen, Kate; Pitt, Hannah (6 May 2021). "China's Greenhouse Gas Emissions Exceeded the Developed World for the First Time in 2019". Rhodium Group.
+^ "To prevent catastrophic global warming, China must hang tough". The Economist. 2019-09-19. ISSN 0013-0613. Archived from the original on 2019-10-04. Retrieved 2019-10-04.
+^ "China aims to cut its net carbon-dioxide emissions to zero by 2060". The Economist. ISSN 0013-0613. Retrieved 2020-09-29.
+^ China's New Growth Pathway: From the 14th Five-Year Plan to Carbon Neutrality (PDF) (Report). Energy Foundation China. December 2020. p. 24.{{cite report}}:
+CS1 maint: url-status (link)
+^ "Why China's climate policy matters to us all". BBC News. 2021-08-08. Retrieved 2021-10-03.
+^ "The Carbon Brief Profile: India". Carbon Brief. 2019-03-14. Retrieved 2019-09-25.
+^ Government of India (2018) India Second Biennial Update Report to the United Nations Framework Convention on Climate Change
+^ a b "India: Third Biennial Update Report to The United Nations Framework Convention on Climate Change" (PDF). Archived (PDF) from the original on 2021-02-27.
+^ "By 2030, Cut Per Capita Emission to Global Average: India to G20". The Leading Solar Magazine In India. Retrieved 2021-09-17.
+^ "Greenhouse Gas Emissions in India" (PDF). September 2018. Archived (PDF) from the original on 2020-02-14. Retrieved 10 June 2021.
+^ a b "Emissions Gap Report 2019". UN Environment Programme. 2019. Archived from the original on 2019-11-20. Retrieved 10 June 2021.
+^ "A comprehensive GHG inventory for India is within reach". www.downtoearth.org.in. Retrieved 2019-09-25.
+^ Sampedro, Jon; Smith, Steven J.; Arto, Iñaki; González-Eguino, Mikel; Markandya, Anil; Mulvaney, Kathleen M.; Pizarro-Irizar, Cristina; Van Dingenen, Rita (2020-03-01). "Health co-benefits and mitigation costs as per the Paris Agreement under different technological pathways for energy supply". Environment International. 136: 105513. doi:10.1016/j.envint.2020.105513. ISSN 0160-4120. PMID 32006762.
+^ "Greenhouse Gas Emissions Factsheet: India". Climatelinks. Retrieved 2020-04-23.
+^ Roche, Elizabeth (2021-09-05). "India, US to focus on financing green technologies during John Kerry's visit". mint. Retrieved 2021-09-17.
+^ "Report: China emissions exceed all developed nations combined". BBC News. 2021-05-07.
+^ IPCC, 2021: Annex VII: Glossary [Matthews, J.B.R., V. Möller, R. van Diemen, J.S. Fuglestvedt, V. Masson-Delmotte, C.  Méndez, S. Semenov, A. Reisinger (eds.)]. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Masson-Delmotte, V., P. Zhai, A. Pirani, S.L. Connors, C. Péan, S. Berger, N. Caud, Y. Chen, L. Goldfarb, M.I. Gomis, M. Huang, K. Leitzell, E. Lonnoy, J.B.R. Matthews, T.K. Maycock, T. Waterfield, O. Yelekçi, R. Yu, and B. Zhou (eds.)]. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, pp. 2215–2256, doi:10.1017/9781009157896.022.
+^ IPCC (2022) Technical Summary. In Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change, Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA
+^ "Sector by sector: where do global greenhouse gas emissions come from?". Our World in Data. Retrieved 16 November 2022.
+^ IPCC (2022) Summary for policy makers in Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change, Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA
+^ Ram M., Bogdanov D., Aghahosseini A., Gulagi A., Oyewo A.S., Child M., Caldera U., Sadovskaia K., Farfan J., Barbosa LSNS., Fasihi M., Khalili S., Dalheimer B., Gruber G., Traber T., De Caluwe F., Fell H.-J., Breyer C. Global Energy System based on 100% Renewable Energy – Power, Heat, Transport and Desalination Sectors. Study by Lappeenranta University of Technology and Energy Watch Group, Lappeenranta, Berlin, March 2019.
+^ "Cement – Analysis". IEA. Retrieved 24 November 2022.
+^ Shan, Shan; Ahmad, Munir; Tan, Zhixiong; Adebayo, Tomiwa Sunday; Man Li, Rita Yi; Kirikkaleli, Dervis (November 2021). "The role of energy prices and non-linear fiscal decentralization in limiting carbon emissions: Tracking environmental sustainability". Energy. 234: 121243. doi:10.1016/j.energy.2021.121243. ISSN 0360-5442.
+^ "Energy Policy". Paris: International Energy Agency (IEA). 2012. Archived from the original on 8 September 2012. Retrieved 4 September 2012.
+^ "IEA Publications on 'Energy Policy'". Paris: Organization for Economic Co-operation and Development (OECD) / International Energy Agency (IEA). 2012. Archived from the original on 12 June 2012. Retrieved 31 May 2012.
+^
+Bridging the Emissions Gap: A UNEP Synthesis Report (PDF), Nairobi, Kenya: United Nations Environment Programme (UNEP), November 2011, ISBN 978-9280732290 UNEP Stock Number: DEW/1470/NA
+^
+"4. Energizing development without compromising the climate" (PDF). World Development Report 2010: Development and Climate Change (PDF). Washington, DC: The International Bank for Reconstruction and Development / The World Bank. 2010. p. 192, Box 4.2: Efficient and clean energy can be good for development. doi:10.1596/978-0-8213-7987-5. ISBN 978-0821379875.
+^
+Sixth compilation and synthesis of initial national communications from Parties not included in Annex I to the Convention. Note by the secretariat. Executive summary (PDF). Geneva, Switzerland: United Nations Framework Convention on Climate Change (UNFCCC). 2005. pp. 10–12.
+^ a b
+Compilation and synthesis of fifth national communications. Executive summary. Note by the secretariat (PDF). Geneva (Switzerland): United Nations Framework Convention on Climate Change (UNFCCC). 2011. pp. 9–10.
+^ Carter, T.R.;
+et al. (2001). "Developing and Applying Scenarios. In: Climate Change 2001: Impacts, Adaptation and Vulnerability. Contribution of Working Group II to the Third Assessment Report of the Intergovernmental Panel on Climate Change [J.J. McCarthy et al. Eds.]". Cambridge University Press, Cambridge, U.K., and New York, N.Y., U.S.A. Archived from the original on 2018-10-05. Retrieved 2010-01-10.
+^ a b "IPCC AR6 WG3 Ch3" (PDF).
+^ Press release: Special Report on Global Warming of 1.5ºC (PDF) (Report). Incheon, Republic of Korea: Intergovernmental Panel on Climate Change (IPCC). 8 October 2018. Retrieved 7 October 2018.
+^ a b Tollefson J (January 2021). "COVID curbed carbon emissions in 2020 - but not by much". Nature. 589 (7842): 343. Bibcode:2021Natur.589..343T. doi:10.1038/d41586-021-00090-3. PMID 33452515. S2CID 231622354.
+^ Forster PM, Forster HI, Evans MJ, Gidden MJ, Jones CD, Keller CA,
+et al. (August 2020). "Erratum: Publisher Correction: Current and future global climate impacts resulting from COVID-19". Nature Climate Change. 10 (10): 971. doi:10.1038/s41558-020-0904-z. PMC 7427494. PMID 32845944.
+^ Rume T, Islam SM (September 2020). "Environmental effects of COVID-19 pandemic and potential strategies of sustainability". Heliyon. 6 (9): e04965. doi:10.1016/j.heliyon.2020.e04965. PMC 7498239. PMID 32964165.
+^ Forster PM, Forster HI, Evans MJ, Gidden MJ, Jones CD, Keller CA,
+et al. (7 August 2020). "Current and future global climate impacts resulting from COVID-19". Nature Climate Change. 10 (10): 913–919. Bibcode:2020NatCC..10..913F. doi:10.1038/s41558-020-0883-0. ISSN 1758-6798.
+^ "Deforestation of the Amazon has soared under cover of the coronavirus". NBC News. 11 May 2020.
+^ "Deforestation of Amazon rainforest accelerates amid COVID-19 pandemic". ABC News. 6 May 2020.
+^ "Cop26 climate talks postponed to 2021 amid coronavirus pandemic". Climate Home News. 1 April 2020. Archived from the original on 4 April 2020. Retrieved 2 April 2020.
+^ Newburger E (13 March 2020). "Coronavirus could weaken climate change action and hit clean energy investment, researchers warn". CNBC. Archived from the original on 15 March 2020. Retrieved 16 March 2020.
+External links[edit]
+Wikimedia Commons has media related to Greenhouse gas emissions.
+The official greenhouse gas emissions data of developed countries from the UNFCCC
+Annual Greenhouse Gas Index (AGGI) from NOAA
+NOAA CMDL CCGG – Interactive Atmospheric Data Visualization NOAA CO2 data
+IPCC Website
+Official IPCC Sixth Assessment Report website
+vteClimate changeOverview
+Attribution of recent climate change
+Climate system
+Effects of climate change
+Climate change mitigation
+Climate change adaptation
+By country and region
+CausesOverview
+Attribution of recent climate change
+Carbon dioxide in Earth's atmosphere
+Extreme event attribution
+Greenhouse effect
+Scientific consensus on climate change
+Sources
+Greenhouse gases
+Carbon accounting
+Greenhouse gas emissions
+from agriculture
+from wetlands
+Fossil fuel
+Deforestation and climate change
+Land use, land-use change, and forestry
+Representative Concentration Pathway
+Shared Socioeconomic Pathways
+World energy supply and consumption
+History
+History of climate change science
+History of climate change policy and politics
+Svante Arrhenius
+James Hansen
+Charles David Keeling
+United Nations conferences
+Years in climate change
+2019
+2020
+2021
+2022
+2023
+Effects and issuesPhysical
+Abrupt climate change
+Anoxic event
+Arctic methane emissions
+Arctic sea ice decline
+Atlantic meridional overturning circulation
+Drought
+Extreme weather
+Flood
+Coastal flooding
+Glacier retreat
+Heat wave
+Urban heat island
+Marine
+Oceans
+acidification
+deoxygenation
+heat content
+sea surface temperature
+stratification
+temperature
+Ozone depletion
+Permafrost thaw
+Tipping points in the climate system
+Sea level rise
+Season creep
+Tropical cyclones
+Water cycle
+Wildfires
+Flora and fauna
+Ecosystems
+Mass mortality event
+Invasive species
+Plant biodiversity
+Marine life
+Terrestrial animals
+Birds
+Extinction risk from climate change
+Forest dieback
+Social impacts
+Agriculture
+Cities
+Children
+Disability
+Economic impacts
+Fisheries
+Gender
+Health
+Human rights
+Indigenous peoples
+Infectious diseases
+Island nations
+Mental health
+Migration
+Poverty
+Climate resilience
+Risk assessments
+Security and conflict
+Urban flooding
+Vulnerability
+Water scarcity
+Water security
+By country & region
+Africa
+Americas
+Antarctica
+Arctic
+Australia
+Caribbean
+Europe
+Middle East and North Africa
+Small island countries
+South Asia
+by individual country
+Society and climate changeSociety
+Business responses
+Climate action
+Climate grief
+Climate movement
+school strike
+Climate emergency declaration
+Denial
+Soft denial
+conspiracy theories
+Controversy
+Governance
+Justice
+Litigation
+Nationally Determined Contributions
+Politics
+Public opinion
+Women
+Communication
+Education
+Climate spiral
+Popular culture depictions
+art
+climate fiction
+games
+Climate Change Performance Index
+Climate crisis (term)
+Media coverage
+Warming stripes
+International agreements
+Glasgow Climate Pact
+Sustainable Development Goal 13
+Kyoto Protocol
+Paris Agreement
+Cooperative Mechanisms under Article 6 of the Paris Agreement
+United Nations Framework Convention on Climate Change
+MitigationEconomics and finance
+Carbon budget
+Carbon credit
+Carbon offset
+Gold Standard (carbon offset standard)
+Carbon tax
+Climate debt
+Climate risk
+Climate risk insurance
+Climate finance
+Co-benefits of climate change mitigation
+Fossil fuel divestment
+Economics of mitigation
+Emissions trading
+Carbon emission trading
+Green Climate Fund
+Low-carbon economy
+Energy
+Carbon capture and storage
+Energy transition
+Fossil fuel phase-out
+Low-carbon energy
+Nuclear power
+Renewable energy
+Sustainable energy
+Preserving and enhancing carbon sinks
+Blue carbon
+Carbon dioxide removal
+Carbon capture and storage
+Carbon sequestration
+Carbon farming
+Climate-smart agriculture
+Nature-based solutions
+Reducing emissions from deforestation and forest degradation
+Reforestation
+Personal
+Carbon neutrality
+Individual action on climate change
+Carbon footprint
+Plant-based diet
+Background and theoryMeasurements
+Global surface temperature
+Instrumental temperature record
+Satellite measurements
+Theory
+Albedo
+Carbon cycle
+Biological pump
+Oceanic carbon cycle
+Permafrost carbon cycle
+Carbon sink
+Climate sensitivity
+Climate variability and change
+Cloud feedback
+Cloud forcing
+Fixed anvil temperature hypothesis
+Iris hypothesis
+Feedbacks
+Earth's energy budget
+Global warming potential
+Illustrative model of greenhouse effect on climate change
+Orbital forcing
+Radiative forcing
+Research
+Climate change scenario
+Climate model
+Coupled Model Intercomparison Project
+Intergovernmental Panel on Climate Change (IPCC)
+IPCC Sixth Assessment Report
+Paleoclimatology
+Paleotempestology
+Solar geoengineering
+Climate change portal
+Glossary
+Index
+Category
+vteGreenhouse gas emissions by countryAfghanistanAlgeriaAustraliaAustriaBangladeshBelgiumCambodiaCanadaChinaFijiFinlandFranceGermanyGrenadaIndiaIndonesiaIranIrelandItalyJapanKenyaKyrgyzstanLuxembourgMalaysiaMexicoNorth KoreaNorwayPhilippinesRomaniaRussiaSouth KoreaSpainSurinameSwedenTaiwanTurkeyTuvaluUnited KingdomUnited StatesVietnam
+vteClimate change by countryAfghanistanAlbaniaAlgeriaAngolaAntigua and BarbudaArgentinaArmeniaAustraliaAustriaAzerbaijanBahamasBahrainBangladeshBarbadosBelarusBelgiumBelizeBeninBhutanBoliviaBosnia and HerzegovinaBotswanaBrazilBruneiBulgariaBurkina FasoBurundiCambodiaCameroonCanadaCape VerdeCentral African RepublicChadChileChinaColombiaCosta RicaCroatiaCubaCyprusCzech RepublicDemocratic Republic of the CongoDenmarkDjiboutiDominicaDominican RepublicEast TimorEcuadorEgyptEl SalvadorEritreaEstoniaEswatiniEthiopiaFederated States of MicronesiaFijiFinlandFranceGabonGambiaGeorgiaGermanyGhanaGreeceGrenadaGuatemalaGuineaGuinea-BissauGuyanaHaitiHondurasHungaryIcelandIndiaIndonesiaIranIraqIrelandIsraelItalyIvory CoastJamaicaJapanJordanKazakhstanKenyaKiribatiKosovoKuwaitKyrgyzstanLaosLatviaLebanonLesothoLiberiaLibyaLithuaniaLuxembourgMadagascarMalawiMalaysiaMaldivesMaliMaltaMarshall IslandsMauritaniaMauritiusMexicoMoldovaMongoliaMontenegroMoroccoMozambiqueMyanmarNamibiaNepalNetherlandsNew ZealandNicaraguaNigerNigeriaNorth KoreaNorth MacedoniaNorwayOmanPakistanPalauPalestinePanamaPapua New GuineaParaguayPeruPhilippinesPolandPortugalQatarRepublic of the CongoRomaniaRussiaRwandaSaint Kitts and NevisSaint LuciaSaint Vincent and the GrenadinesSamoaSaudi ArabiaSenegalSerbiaSeychellesSierra LeoneSingaporeSlovakiaSloveniaSolomon IslandsSomaliaSouth AfricaSouth KoreaSouth SudanSpainSri LankaSudanSurinameSwedenSwitzerlandSyriaSão Tomé and PríncipeTaiwanTajikistanTanzaniaThailandTogoTongaTrinidad and TobagoTunisiaTurkeyTurkmenistanTuvaluUgandaUkraineUnited Arab EmiratesUnited KingdomUnited StatesUruguayUzbekistanVanuatuVenezuelaVietnamWestern SaharaYemenZambiaZimbabwe
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Greenhouse_gas_emissions&oldid=1133442182"
+Categories: Greenhouse gas emissionsClimate forcingHidden categories: Webarchive template wayback linksHarv and Sfn no-target errorsCS1 maint: othersAll articles with bare URLs for citationsArticles with bare URLs for citations from April 2022Articles with PDF format bare URLs for citationsArticles with imported freely licensed textCS1 maint: url-statusArticles with short descriptionShort description is different from WikidataWikipedia articles needing clarification from June 2021Wikipedia articles in need of updating from March 2020All Wikipedia articles in need of updatingArticles with excerptsAll articles with unsourced statementsArticles with unsourced statements from August 2013Articles with unsourced statements from June 2021Articles containing potentially dated statements from 2020All articles containing potentially dated statementsArticles with unsourced statements from September 2021Wikipedia articles needing clarification from September 2021All articles needing examplesArticles needing examples from September 2021Wikipedia articles in need of updating from December 2019Commons category link is defined as the pagenameArticles containing video clips
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+ArticleTalk
+English
+Views
+ReadEditView history
+More
+Navigation
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+Contribute
+HelpLearn to editCommunity portalRecent changesUpload file
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+Print/export
+Download as PDFPrintable version
+Languages
+العربيةΕλληνικάفارسیپښتوSimple EnglishTürkçe
+Edit links
+This page was last edited on 13 January 2023, at 20:43 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement

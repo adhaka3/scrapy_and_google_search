@@ -1,0 +1,205 @@
+Final UK greenhouse gas emissions national statistics: 1990 to 2020 - GOV.UK
+Skip to main content
+Cookies on GOV.UK
+We use some essential cookies to make this website work.
+We’d like to set additional cookies to understand how you use GOV.UK, remember your settings and improve government services.
+We also use cookies set by other sites to help us deliver content from their services.
+Accept additional cookies
+Reject additional cookies
+View cookies
+You can change your cookie settings at any time.
+Hide this message
+GOV.UK
+Navigation menu
+Menu
+Menu
+Topics
+Benefits
+Births, death, marriages and care
+Business and self-employed
+Childcare and parenting
+Citizenship and living in the UK
+Cost of living support
+Crime, justice and the law
+Disabled people
+Driving and transport
+Education and learning
+Employing people
+Environment and countryside
+Housing and local services
+Money and tax
+Passports, travel and living abroad
+Visas and immigration
+Working, jobs and pensions
+Government activity
+Departments
+Departments, agencies and public bodies
+News
+News stories, speeches, letters and notices
+Guidance and regulation
+Detailed guidance, regulations and rules
+Research and statistics
+Reports, analysis and official statistics
+Policy papers and consultations
+Consultations and strategy
+Transparency
+Data, Freedom of Information releases and corporate reports
+Search GOV.UK
+×
+Search
+Search GOV.UK
+Search GOV.UK
+Search
+Popular on GOV.UK
+Check benefits and financial support you can get
+Find out about the Energy Bills Support Scheme
+Find a job
+Coronavirus (COVID-19)
+Universal Credit account: sign in
+Home
+Environment
+Climate change and energy
+Energy and climate change: evidence and analysis
+National statistics
+Final UK greenhouse gas emissions national statistics: 1990 to 2020
+Final estimates of UK territorial greenhouse gas emissions.
+From:
+Department for Business, Energy & Industrial Strategy
+Published
+1 February 2022
+Last updated
+30 June 2022
+—
+See all updates
+Get emails about this page
+Documents
+2020 UK greenhouse gas emissions: final figures - statistical summary
+PDF, 349 KB, 1 page
+2020 UK greenhouse gas emissions: final figures - statistical release
+PDF, 1.33 MB, 47 pages
+2020 UK greenhouse gas emissions: final figures - data tables (Excel)
+MS Excel Spreadsheet, 830 KB
+This file may not be suitable for users of assistive technology.
+Request an accessible format.
+If you use assistive technology (such as a screen reader) and need a
+version of this document in a more accessible format, please email alt.formats@beis.gov.uk.
+Please tell us what format you need. It will help us if you say what assistive technology you use.
+2020 UK greenhouse gas emissions: final figures - data tables (alternative ODS format)
+ODS, 709 KB
+This file is in an OpenDocument format
+This file may not be suitable for users of assistive technology.
+Request an accessible format.
+If you use assistive technology (such as a screen reader) and need a
+version of this document in a more accessible format, please email alt.formats@beis.gov.uk.
+Please tell us what format you need. It will help us if you say what assistive technology you use.
+Annex 1: 1990-2020 final emissions by end user and uncertainty
+PDF, 623 KB, 19 pages
+Annex 2: 1990-2020 final emissions by Standard Industrial Classification
+PDF, 440 KB, 8 pages
+Supplementary tables: 2020 UK greenhouse gas emissions by Standard Industrial Classification (Excel)
+MS Excel Spreadsheet, 718 KB
+This file may not be suitable for users of assistive technology.
+Request an accessible format.
+If you use assistive technology (such as a screen reader) and need a
+version of this document in a more accessible format, please email alt.formats@beis.gov.uk.
+Please tell us what format you need. It will help us if you say what assistive technology you use.
+Supplementary tables: 2020 UK greenhouse gas emissions by Standard Industrial Classification (alternative ODS format)
+ODS, 759 KB
+This file is in an OpenDocument format
+This file may not be suitable for users of assistive technology.
+Request an accessible format.
+If you use assistive technology (such as a screen reader) and need a
+version of this document in a more accessible format, please email alt.formats@beis.gov.uk.
+Please tell us what format you need. It will help us if you say what assistive technology you use.
+2020 UK greenhouse gas emissions: final figures – dataset of emissions by source
+View online
+Download CSV
+9.18 MB
+2020 UK greenhouse gas emissions: final figures – dataset of emissions by end user
+View online
+Download CSV
+9.04 MB
+Details
+This publication provides the final estimates of UK territorial greenhouse gas emissions going back to 1990. Estimates are presented by source in February of each year. They are updated in March of each year to include estimates by end-user, and in June to include estimates by Standard Industrial Classification (SIC).
+These statistics covers emissions that occur within the UK’s borders. When emissions are reported by source, emissions are attributed to the sector that emits them directly. When emissions are reported by end-user, energy supply emissions by source are reallocated in accordance with where the end-use activity occurred. This reallocation of emissions is based on a modelling process. For example, all the carbon dioxide produced by a power station is allocated to the power station when reporting on a source basis. However, when applying the end-user method, these emissions are reallocated to the users of this electricity, such as domestic homes or large industrial users.
+BEIS does not estimate emissions outside the UK associated with UK consumption, however the Department for Environment, Food and Rural Affairs publishes estimates of the UK’s carbon footprint annually.
+For the purposes of reporting, greenhouse gas emissions are allocated into a small number of broad, high level sectors known as National Communication sectors, which are as follows: energy supply, business, transport, public, residential, agriculture, industrial processes, land use land use change and forestry (LULUCF), and waste management.
+These high-level sectors are made up of a number of more detailed sectors, which follow the definitions set out by the International Panel on Climate Change (IPCC), and which are used in international reporting tables which are submitted to the United Nations Framework Convention on Climate Change (UNFCCC) every year.
+This is a National Statistics publication and complies with the Code of Practice for Statistics.
+Please check our frequently asked questions or email GreenhouseGas.Statistics@beis.gov.uk if you have any questions or comments about the information on this page.
+Published 1 February 2022
+Last updated 30 June 2022
++ show all updates
+30 June 2022
+Added Annex 2 and supplementary tables showing UK greenhouse gas emissions by Standard Industrial Classification (SIC).
+31 March 2022
+Updated 2020 UK greenhouse gas emissions: final figures - data tables, added 2 new files: Annex 1: 1990-2020 final emissions by end user and emission uncertainties, and 2020 UK greenhouse gas emissions: final figures – dataset of emissions by end user.
+1 February 2022
+First published.
+Get emails about this page
+Related content
+UK territorial greenhouse gas emissions national statistics
+Provisional UK greenhouse gas emissions national statistics 2021
+Final UK greenhouse gas emissions national statistics: 1990-2013
+Final UK greenhouse gas emissions national statistics: 1990 to 2019
+UK greenhouse gas emissions: 2022 provisional figures
+Collection
+UK territorial greenhouse gas emissions national statistics
+Explore the topic
+Energy and climate change: evidence and analysis
+Is this page useful?
+Maybe
+Yes this page is useful
+No this page is not useful
+Thank you for your feedback
+Report a problem with this page
+Help us improve GOV.UK
+Don’t include personal or financial information like your National Insurance number or credit card details.
+This field is for robots only. Please leave blank
+What were you doing?
+What went wrong?
+Send
+Cancel
+Help us improve GOV.UK
+To help us improve GOV.UK, we’d like to know more about your visit today. We’ll send you a link to a feedback form. It will take only 2 minutes to fill in. Don’t worry we won’t send you spam or share your email address with anyone.
+Email address
+Send me the survey
+Cancel
+Topics
+Benefits
+Births, death, marriages and care
+Business and self-employed
+Childcare and parenting
+Citizenship and living in the UK
+Cost of living support
+Crime, justice and the law
+Disabled people
+Driving and transport
+Education and learning
+Employing people
+Environment and countryside
+Housing and local services
+Money and tax
+Passports, travel and living abroad
+Visas and immigration
+Working, jobs and pensions
+Government activity
+Departments
+News
+Guidance and regulation
+Research and statistics
+Policy papers and consultations
+Transparency
+How government works
+Get involved
+Support links
+Help
+Privacy
+Cookies
+Accessibility statement
+Contact
+Terms and conditions
+Rhestr o Wasanaethau Cymraeg
+Government Digital Service
+All content is available under the Open Government Licence v3.0, except where otherwise stated
+© Crown copyright

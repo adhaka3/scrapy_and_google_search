@@ -1,0 +1,903 @@
+Greenhouse Gas Emissions - PlanWorks | Federal Highway Administration
+Skip to main content
+Print
+PlanWorks
+Main Menu
+Home (current)
+Decision Guide
+Assessments
+User Portals
+Applications
+Library
+Glossary
+US Department of Transportation
+FHWA PlanWorks: Better Planning, Better Projects
+Home
+/ Applications
+/ Greenhouse Gas Emissions
+US Department of Transportation
+FHWA Planworks: Better Planning, Better Projects
+Greenhouse Gas Emissions
+Overview
+The GHG Technical Process
+The Decision Guide and GHG Planning
+Examples from Practice
+Overview
+Training »
+Reference Links
+A Performance-Based Approach to Addressing Greenhouse Gas Emissions through Transportation Planning, FHWA
+http://www.fhwa.dot.gov/environment/climate_change/mitigation/publications_and_tools/ghg_planning/index.cfm [FHWA]
+Energy and Emissions Reduction Policy Analysis Tool (EERPAT), FHWA
+http://www.planning.dot.gov/FHWA_tool/default.asp [FHWA]
+Handbook for Estimating Transportation Greenhouse Gases for Integration into the Planning Process, FHWA
+http://www.fhwa.dot.gov/environment/climate_change/mitigation/publications_and_tools/ghg_handbook/index.cfm [FHWA]
+Infrastructure Carbon Estimator, FHWA
+http://www.fhwa.dot.gov/environment/climate_change/mitigation/publications_and_tools/carbon_estimator/index.cfm [FHWA]
+Integrating Climate Change into Transportation Planning, FHWA
+http://www.fhwa.dot.gov/environment/climate_change/adaptation/publications_and_tools/integrating_climate_change/index.cfm [FHWA]
+Transportation and Climate Change Clearinghouse, U.S. DOT
+https://www.transportation.gov/sustainability/climate/about-center [U.S. DOT]
+Transportation's Role in Reducing GHG Emissions, U.S. DOT Report
+http://ntl.bts.gov/lib/32000/32700/32779/DOT_Climate_Change_Report_-_April_2010_-_Volume_1_and_2.pdf [U.S. DOT Report]
+C09 Final Project Report, SHRP2, TRB
+http://www.trb.org/Main/Blurbs/166936.aspx [SHRP2, TRB]
+Integrating GHG Reduction Objectives into Decision Making, NCHRP
+http://onlinepubs.trb.org/onlinepubs/nchrp/nchrp_w152.pdf [NCHRP]
+Resources for Estimating Transportation Emissions, U.S. EPA
+http://www.epa.gov/otaq/stateresources/policy/pag_transp.htm [U.S. EPA]
+Practitioner's Guidebook, SHRP2, TRB
+http://www.trb.org/Main/Blurbs/166940.aspx [SHRP2, TRB]
+Concern about climate change and its impacts has led many communities to consider ways to reduce greenhouse gas (GHG) emissions. Transportation is a leading contributor to GHG emissions as well as one of the fastest growing sources. Transportation practitioners are often asked to respond to questions from the public and decision makers about the implications transportation plans and projects have on GHG emissions.
+There are three areas of information that support this application.
+The GHG Technical Process is a series of steps involving data collection and analysis of the implications of transportation choices on GHG. See The GHG Technical Process
+to learn more.
+The Decision Guide represents the Key Decisions in the transportation process that are made through collaboration among partners and with input from stakeholders.See The Decision Guide and GHG Planning to understand how Technical information is used at each of these Key Decisions to inform decision makers.
+State legislation, regional action plans and even project-level analysis is currently underway in many areas to address GHG emissions.See Examples from Practice.
+The GHG Technical Process
+Training »
+Did you know?
+Greenhouse gases include:
+water vapor
+ozone, carbon
+dioxide (CO2)
+methane (CH4)
+nitrous oxide (N2O)
+hydrofluorocarbons (HFCs)
+perfluorocarbons (PFCs)
+sulfur hexafluoride (SF6)
+Of these, carbon dioxide is one of the most
+important human-influenced contributors to climate change.
+The GHG Technical Process
+provides a step-by-step framework for the analysis of GHG as part of
+transportation decision making.
+Although
+there are many individual steps in this technical process, this high-level
+framework captures what is common across transportation agencies.
+Technical considerations are
+necessary to: (1) evaluate potential opportunities and (2) inform decision makers.
+In order for practitioners to take action, policy makers must be convinced of
+the value and make ongoing decisions that provide support.
+See the information in the next tab, The Decision Guide and GHG Planning, to see how this technical information can be used
+to support policy decisions.
+Click on each of the steps to
+understand what activities fit into this part of the process.
+Click on a step for more information.
+Greenhouse Gas Technical Process Steps
+Collect Information
+Define Goals and Measures
+Identify Options
+Evaluate Options
+Select Preferred Option
+Collect Information
+Information refers to data, tools, plans, reports, stakeholders or other resources that may be used to support consideration of GHG emissions associated with transportation options. Some questions to consider are:
+What are the existing or readily available tools to support analysis?
+What travel data (speeds and VMT), emissions data, other activity data is available and appropriate for analysis?
+What modes are to be considered?
+What analysis years will be considered?
+What will the consideration of GHG cost and what revenue sources might be available?
+What findings are relevant to consider from previous plans and studies?
+Is the planning region or study area identified for project impacts sufficient for the consideration of GHG emissions?
+What is the level of stakeholder interest in reducing GHG emissions?
+Define Goals and Measures
+The purpose of this step is to identify specific goals, objectives and targets for emissions reductions along with methods to measure how transportation options relate to those goals. It may be necessary to translate these into broader goals for decision makers. Some questions to consider are:
+How specific should GHG goal statements be? For example, should they be integrated into a broader environmental goal or considered separately?
+What GHG emissions mitigation measures may be considered?
+What are the relevant criteria to evaluate the impact?
+What corridor travel data (current and projected travel volume, speeds, congestion levels), corridor land use data (current and projected population and employment characteristics), and/or corridor-specific GHG emissions data is available to support evaluation criteria?
+How does the consideration of GHG emissions relate to the plan goals or project purpose and need?
+What GHG evaluation measures will be used to evaluate transportation options? For example: CO2, CO2e, VMT?
+What is the agency's capability to produce this information? What "control" does the agency have over the factors that influence the measure outcome?
+Identify Options
+Transportation options may be referred to as strategies, solutions, alternatives, or scenarios depending on the stage of transportation planning or project development. Some questions to consider at any stage are:
+What transportation options can provide GHG reduction benefits and are potentially applicable in the region or study area?
+What are the potential GHG reduction strategies (i.e. VMT reduction, emissions controls, land use changes, mode shifts) that may be applicable in region or study area?
+How do these strategies perform when combined or when treated separately?
+Are there interactive effects to consider? For example strategies which work better in combination or that work against each other.
+Are there potential strategies that require more refined analysis or study and therefore should not be considered at this time?
+Evaluate Options
+The process of evaluating the pros and cons of various options or combinations of options is often iterative. The final options may be quite different than the initial selection or represent a "hybrid" that combines different features of individual options. Some questions to consider are:
+What are the associated benefits or disincentives that should be considered?
+How do the options compare in terms of cost, emissions and impact to other adopted plans or projects?
+What associated mitigation measures are required?
+What is the relative importance of GHG-reduction benefits compared to other transportation benefits?
+Select Preferred Option
+The comparison of options must result in a final choice in order to implement the plan or project. This is often referred to as the "preferred" option which is selected ultimately by the decision makers. Some questions to consider are:
+What are the results of the technical comparison of options?
+What other policies or strategies are needed to support the selected option?
+What is the level of GHG-reduction and cost-effectiveness for each option?
+How does the level of reduction compare to the adopted targets?
+Are there resources available to implement the option?
+How quickly can the option be implemented?
+Additional support is available in the Practitioner's Guide for incorporating greenhouse gas emissions into transportation decision making.
+This resource provides technical information needed to answer questions at each relevant Key Decision.
+The Decision Guide and GHG Planning
+Training »
+Reference Links
+Estimating GHG Emissions from Travel Efficiency Strategies,, US EPA
+http://www.epa.gov/otaq/stateresources/policy/420r11025.pdf [US EPA]
+GHG Analysis Techniques for Transportation Projects, AASHTO
+https://www.fhwa.dot.gov/exit.cfm?link=http://onlinepubs.trb.org/onlinepubs/archive/NotesDocs/25-25(17)_FR.pdf [AASHTO]
+Local Governments Operations Protocol, ECLEI
+https://www.fhwa.dot.gov/exit.cfm?link=http://www.icleiusa.org/tools/ghg-protocol/local-government-operations-protocol [ECLEI]
+Did you know?
+National inventories suggest that the transportation sector contributes approximately 28% of the U.S. GHG emissions; with roadway vehicles constituting 82% of transportation GHG emissions (see Practitioner's Guide).
+The transportation Decision Guide is a framework of Key Decisions required by law or regulation or which have become part of successful practice. These decisions require action by those empowered to make the final decisions about plan adoption,funding priorities or project implementation. Technical information is used at each of these Key Decisions to inform decision makers. Technical steps and Key Decisions are related through the flow of data and analysis.
+Key Decisions that are grayed-out have no specific relationship to greenhouse gas.
+Greenhouse Gas Technical Process Steps
+Collect Information
+Define Goals and Measures
+Identify Options
+Evaluate Options
+Select Preferred Option
+Full Decision Guide
+Long Range Transportation Planning
+Programming
+Corridor Planning
+Environmental Review/NEPA Merged with Permitting
+Submit
+Long Range Transportation Planning
+LRP-1
+Approve Scope of LRTP Process
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/LRP-1
+Define scope of GHG emissions to be considered, and identify key information, stakeholders and partners with an interest that should be included in planning and analysis of GHG reduction strategies.
+LRP-2
+Approve Vision and Goals
+Establish GHG reduction as a planning consideration and incorporate goals, objectives into the plan vision and goals.
+LRP-3
+Approve Evaluation Criteria, Methods and Measures
+Define the GHG-related evaluation criteria, metrics, analytical methods, targets and level of analysis that will be applied to understand the potential GHG reduction resulting from proposed scenarios.
+LRP-4
+Approve Transportation Deficiencies
+This Key Decision is not associated with application.
+LRP-5
+Approve Financial Assumptions
+Reach agreement on how revenue from both transportation and other sources may be considered to support GHG reduction goals.
+LRP-6
+Approve Strategies
+Define and incorporate strategies that will address regional GHG reduction goals.
+LRP-7
+Approve Plan Scenarios
+Establish plan scenarios that include evaluation of GHG reduction impacts/benefits.
+LRP-8
+Adopt Preferred Plan Scenario
+Estimate and document potential GHG reduction impacts from the preferred plan scenario, while balancing the potential for negative impacts.
+LRP-9
+Make Conformity Determination by MPO
+This Key Decision is not associated with application.
+LRP-10
+Adopt LRTP by MPO
+This Key Decision is not associated with application.
+LRP-11
+Make Conformity Determination
+This Key Decision is not associated with application.
+Programming
+PRO-1
+Approve Revenue Sources
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/PRO-1
+Identify potential non-transportation funding/revenue sources (public or private) that could be available for projects aimed at reducing GHG emissions.
+PRO-2
+Approve Project Cost and Revenue Allocation Approach
+Identify how GHG-related funding sources will be allocated to support individual projects.
+PRO-3
+Approve Project List from Adopted Plan
+This Key Decision is not associated with application.
+PRO-4
+Approve Project Prioritization
+Compare the potential GHG reduction impacts of individual projects and the timeframe over which those impacts will occur to prioritized projects.
+PRO-5
+Reach Consensus on Draft TIP
+This Key Decision is not associated with application.
+PRO-6
+Adopt TIP by MPO
+This Key Decision is not associated with application.
+PRO-7
+Approve TIP by Governor and Incorporate into Draft STIP
+This Key Decision is not associated with application.
+PRO-8
+Reach Consensus on Draft STIP
+This Key Decision is not associated with application.
+PRO-9
+Approve STIP with respect to Fiscal Constraint
+This Key Decision is not associated with application.
+Corridor Planning
+COR-1
+Approve Scope of Corridor Planning Process
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-1
+Identify key resources, stakeholders and partners with an interest in GHG emissions reduction and define scope of GHG emissions to consider in the corridor planning process.
+COR-2
+Approve Problem Statements and Opportunities
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-2
+Identify problems in the corridor that relate to increased GHG emissions. Define the potential opportunities for reducing GHG emissions arising from the corridor improvement.
+COR-3
+Approve Goals for the Corridor
+Establish GHG reduction as a study consideration and incorporate goals for reducing GHG emissions into the corridor goals.
+COR-4
+Reach Consensus on Scope of Environmental Analysis
+Inform the scope of environmental review based on the scope of GHG emissions that may be considered, the potential GHG reduction impacts, and the types of information needed for analysis at the corridor level.
+COR-5
+Approve Evaluation Criteria, Methods and Measures
+Identify GHG-related evaluation criteria, performance metrics, targets and analytical methods that can be used to understand the GHG reduction impacts of the corridor plan.
+COR-6
+Approve Range of Solution Sets
+Evaluate and compare the potential GHG reduction impacts of each proposed solution and the ability to address goals for the corridor.
+COR-7
+Adopt Preferred Solution Set
+Inform the selection of the solution set with GHG-related outcomes.
+COR-8
+Approve Implementation Criteria for Prioritizing Projects
+Incorporate GHG reduction into the criteria for corridor project prioritization and sequencing.
+COR-9
+Adopt Priorities for Implementation
+Consider potential GHG reduction impacts of the various projects or strategies in the corridor plan and the timeframe over which they are applicable.
+Environmental Review/NEPA Merged with Permitting
+ENV-1
+Reach Consensus on Scope of Environmental Review
+This Key Decision is not associated with application.
+ENV-2
+Approve Notice of Intent
+This Key Decision is not associated with application.
+ENV-3
+Approve Purpose and Need/Reach Consensus on Project Purpose
+This Key Decision is not associated with application.
+ENV-4
+Reach Consensus on Study Area
+This Key Decision is not associated with application.
+ENV-5
+Approve Evaluation Criteria, Methods and Measures
+This Key Decision is not associated with application.
+ENV-6
+Approve Full Range of Alternatives
+This Key Decision is not associated with application.
+ENV-7
+Approve Alternatives to be Carried Forward
+This Key Decision is not associated with application.
+ENV-8
+Approve Draft EIS with Conceptual Mitigation
+This Key Decision is not associated with application.
+ENV-9
+Approve Resource Agency Public Notice
+This Key Decision is not associated with application.
+ENV-10
+Approve Preferred Alternative / LEDPA
+This Key Decision is not associated with application.
+ENV-11
+Approve Final Jurisdictional Determination
+This Key Decision is not associated with application.
+ENV-12
+Reach Consensus on Avoidance and Minimization for the LEDPA
+This Key Decision is not associated with application.
+ENV-13
+Approve Final EIS and Record of Decision
+This Key Decision is not associated with application.
+ENV-14
+Render Permit Decision and Approve Avoidance and Minimization
+This Key Decision is not associated with application.
+Long Range Transportation Planning
+LRP-1
+Approve Scope of LRTP Process
+Define scope of GHG emissions to be considered, and identify key information, stakeholders and partners with an interest that should be included in planning and analysis of GHG reduction strategies.
+LRP-2
+Approve Vision and Goals
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/LRP-2
+Establish GHG reduction as a planning consideration and incorporate goals, objectives into the plan vision and goals.
+LRP-3
+Approve Evaluation Criteria, Methods and Measures
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/LRP-3
+Define the GHG-related evaluation criteria, metrics, analytical methods, targets and level of analysis that will be applied to understand the potential GHG reduction resulting from proposed scenarios.
+LRP-4
+Approve Transportation Deficiencies
+This Key Decision is not associated with application.
+LRP-5
+Approve Financial Assumptions
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/LRP-5
+Reach agreement on how revenue from both transportation and other sources may be considered to support GHG reduction goals.
+LRP-6
+Approve Strategies
+Define and incorporate strategies that will address regional GHG reduction goals.
+LRP-7
+Approve Plan Scenarios
+Establish plan scenarios that include evaluation of GHG reduction impacts/benefits.
+LRP-8
+Adopt Preferred Plan Scenario
+Estimate and document potential GHG reduction impacts from the preferred plan scenario, while balancing the potential for negative impacts.
+LRP-9
+Make Conformity Determination by MPO
+This Key Decision is not associated with application.
+LRP-10
+Adopt LRTP by MPO
+This Key Decision is not associated with application.
+LRP-11
+Make Conformity Determination
+This Key Decision is not associated with application.
+Programming
+PRO-1
+Approve Revenue Sources
+Identify potential non-transportation funding/revenue sources (public or private) that could be available for projects aimed at reducing GHG emissions.
+PRO-2
+Approve Project Cost and Revenue Allocation Approach
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/PRO-2
+Identify how GHG-related funding sources will be allocated to support individual projects.
+PRO-3
+Approve Project List from Adopted Plan
+This Key Decision is not associated with application.
+PRO-4
+Approve Project Prioritization
+Compare the potential GHG reduction impacts of individual projects and the timeframe over which those impacts will occur to prioritized projects.
+PRO-5
+Reach Consensus on Draft TIP
+This Key Decision is not associated with application.
+PRO-6
+Adopt TIP by MPO
+This Key Decision is not associated with application.
+PRO-7
+Approve TIP by Governor and Incorporate into Draft STIP
+This Key Decision is not associated with application.
+PRO-8
+Reach Consensus on Draft STIP
+This Key Decision is not associated with application.
+PRO-9
+Approve STIP with respect to Fiscal Constraint
+This Key Decision is not associated with application.
+Corridor Planning
+COR-1
+Approve Scope of Corridor Planning Process
+Identify key resources, stakeholders and partners with an interest in GHG emissions reduction and define scope of GHG emissions to consider in the corridor planning process.
+COR-2
+Approve Problem Statements and Opportunities
+Identify problems in the corridor that relate to increased GHG emissions. Define the potential opportunities for reducing GHG emissions arising from the corridor improvement.
+COR-3
+Approve Goals for the Corridor
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-3
+Establish GHG reduction as a study consideration and incorporate goals for reducing GHG emissions into the corridor goals.
+COR-4
+Reach Consensus on Scope of Environmental Analysis
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-4
+Inform the scope of environmental review based on the scope of GHG emissions that may be considered, the potential GHG reduction impacts, and the types of information needed for analysis at the corridor level.
+COR-5
+Approve Evaluation Criteria, Methods and Measures
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-5
+Identify GHG-related evaluation criteria, performance metrics, targets and analytical methods that can be used to understand the GHG reduction impacts of the corridor plan.
+COR-6
+Approve Range of Solution Sets
+Evaluate and compare the potential GHG reduction impacts of each proposed solution and the ability to address goals for the corridor.
+COR-7
+Adopt Preferred Solution Set
+Inform the selection of the solution set with GHG-related outcomes.
+COR-8
+Approve Implementation Criteria for Prioritizing Projects
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-8
+Incorporate GHG reduction into the criteria for corridor project prioritization and sequencing.
+COR-9
+Adopt Priorities for Implementation
+Consider potential GHG reduction impacts of the various projects or strategies in the corridor plan and the timeframe over which they are applicable.
+Environmental Review/NEPA Merged with Permitting
+ENV-1
+Reach Consensus on Scope of Environmental Review
+This Key Decision is not associated with application.
+ENV-2
+Approve Notice of Intent
+This Key Decision is not associated with application.
+ENV-3
+Approve Purpose and Need/Reach Consensus on Project Purpose
+This Key Decision is not associated with application.
+ENV-4
+Reach Consensus on Study Area
+This Key Decision is not associated with application.
+ENV-5
+Approve Evaluation Criteria, Methods and Measures
+This Key Decision is not associated with application.
+ENV-6
+Approve Full Range of Alternatives
+This Key Decision is not associated with application.
+ENV-7
+Approve Alternatives to be Carried Forward
+This Key Decision is not associated with application.
+ENV-8
+Approve Draft EIS with Conceptual Mitigation
+This Key Decision is not associated with application.
+ENV-9
+Approve Resource Agency Public Notice
+This Key Decision is not associated with application.
+ENV-10
+Approve Preferred Alternative / LEDPA
+This Key Decision is not associated with application.
+ENV-11
+Approve Final Jurisdictional Determination
+This Key Decision is not associated with application.
+ENV-12
+Reach Consensus on Avoidance and Minimization for the LEDPA
+This Key Decision is not associated with application.
+ENV-13
+Approve Final EIS and Record of Decision
+This Key Decision is not associated with application.
+ENV-14
+Render Permit Decision and Approve Avoidance and Minimization
+This Key Decision is not associated with application.
+Long Range Transportation Planning
+LRP-1
+Approve Scope of LRTP Process
+Define scope of GHG emissions to be considered, and identify key information, stakeholders and partners with an interest that should be included in planning and analysis of GHG reduction strategies.
+LRP-2
+Approve Vision and Goals
+Establish GHG reduction as a planning consideration and incorporate goals, objectives into the plan vision and goals.
+LRP-3
+Approve Evaluation Criteria, Methods and Measures
+Define the GHG-related evaluation criteria, metrics, analytical methods, targets and level of analysis that will be applied to understand the potential GHG reduction resulting from proposed scenarios.
+LRP-4
+Approve Transportation Deficiencies
+This Key Decision is not associated with application.
+LRP-5
+Approve Financial Assumptions
+Reach agreement on how revenue from both transportation and other sources may be considered to support GHG reduction goals.
+LRP-6
+Approve Strategies
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/LRP-6
+Define and incorporate strategies that will address regional GHG reduction goals.
+LRP-7
+Approve Plan Scenarios
+Establish plan scenarios that include evaluation of GHG reduction impacts/benefits.
+LRP-8
+Adopt Preferred Plan Scenario
+Estimate and document potential GHG reduction impacts from the preferred plan scenario, while balancing the potential for negative impacts.
+LRP-9
+Make Conformity Determination by MPO
+This Key Decision is not associated with application.
+LRP-10
+Adopt LRTP by MPO
+This Key Decision is not associated with application.
+LRP-11
+Make Conformity Determination
+This Key Decision is not associated with application.
+Programming
+PRO-1
+Approve Revenue Sources
+Identify potential non-transportation funding/revenue sources (public or private) that could be available for projects aimed at reducing GHG emissions.
+PRO-2
+Approve Project Cost and Revenue Allocation Approach
+Identify how GHG-related funding sources will be allocated to support individual projects.
+PRO-3
+Approve Project List from Adopted Plan
+This Key Decision is not associated with application.
+PRO-4
+Approve Project Prioritization
+Compare the potential GHG reduction impacts of individual projects and the timeframe over which those impacts will occur to prioritized projects.
+PRO-5
+Reach Consensus on Draft TIP
+This Key Decision is not associated with application.
+PRO-6
+Adopt TIP by MPO
+This Key Decision is not associated with application.
+PRO-7
+Approve TIP by Governor and Incorporate into Draft STIP
+This Key Decision is not associated with application.
+PRO-8
+Reach Consensus on Draft STIP
+This Key Decision is not associated with application.
+PRO-9
+Approve STIP with respect to Fiscal Constraint
+This Key Decision is not associated with application.
+Corridor Planning
+COR-1
+Approve Scope of Corridor Planning Process
+Identify key resources, stakeholders and partners with an interest in GHG emissions reduction and define scope of GHG emissions to consider in the corridor planning process.
+COR-2
+Approve Problem Statements and Opportunities
+Identify problems in the corridor that relate to increased GHG emissions. Define the potential opportunities for reducing GHG emissions arising from the corridor improvement.
+COR-3
+Approve Goals for the Corridor
+Establish GHG reduction as a study consideration and incorporate goals for reducing GHG emissions into the corridor goals.
+COR-4
+Reach Consensus on Scope of Environmental Analysis
+Inform the scope of environmental review based on the scope of GHG emissions that may be considered, the potential GHG reduction impacts, and the types of information needed for analysis at the corridor level.
+COR-5
+Approve Evaluation Criteria, Methods and Measures
+Identify GHG-related evaluation criteria, performance metrics, targets and analytical methods that can be used to understand the GHG reduction impacts of the corridor plan.
+COR-6
+Approve Range of Solution Sets
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-6
+Evaluate and compare the potential GHG reduction impacts of each proposed solution and the ability to address goals for the corridor.
+COR-7
+Adopt Preferred Solution Set
+Inform the selection of the solution set with GHG-related outcomes.
+COR-8
+Approve Implementation Criteria for Prioritizing Projects
+Incorporate GHG reduction into the criteria for corridor project prioritization and sequencing.
+COR-9
+Adopt Priorities for Implementation
+Consider potential GHG reduction impacts of the various projects or strategies in the corridor plan and the timeframe over which they are applicable.
+Environmental Review/NEPA Merged with Permitting
+ENV-1
+Reach Consensus on Scope of Environmental Review
+This Key Decision is not associated with application.
+ENV-2
+Approve Notice of Intent
+This Key Decision is not associated with application.
+ENV-3
+Approve Purpose and Need/Reach Consensus on Project Purpose
+This Key Decision is not associated with application.
+ENV-4
+Reach Consensus on Study Area
+This Key Decision is not associated with application.
+ENV-5
+Approve Evaluation Criteria, Methods and Measures
+This Key Decision is not associated with application.
+ENV-6
+Approve Full Range of Alternatives
+This Key Decision is not associated with application.
+ENV-7
+Approve Alternatives to be Carried Forward
+This Key Decision is not associated with application.
+ENV-8
+Approve Draft EIS with Conceptual Mitigation
+This Key Decision is not associated with application.
+ENV-9
+Approve Resource Agency Public Notice
+This Key Decision is not associated with application.
+ENV-10
+Approve Preferred Alternative / LEDPA
+This Key Decision is not associated with application.
+ENV-11
+Approve Final Jurisdictional Determination
+This Key Decision is not associated with application.
+ENV-12
+Reach Consensus on Avoidance and Minimization for the LEDPA
+This Key Decision is not associated with application.
+ENV-13
+Approve Final EIS and Record of Decision
+This Key Decision is not associated with application.
+ENV-14
+Render Permit Decision and Approve Avoidance and Minimization
+This Key Decision is not associated with application.
+Long Range Transportation Planning
+LRP-1
+Approve Scope of LRTP Process
+Define scope of GHG emissions to be considered, and identify key information, stakeholders and partners with an interest that should be included in planning and analysis of GHG reduction strategies.
+LRP-2
+Approve Vision and Goals
+Establish GHG reduction as a planning consideration and incorporate goals, objectives into the plan vision and goals.
+LRP-3
+Approve Evaluation Criteria, Methods and Measures
+Define the GHG-related evaluation criteria, metrics, analytical methods, targets and level of analysis that will be applied to understand the potential GHG reduction resulting from proposed scenarios.
+LRP-4
+Approve Transportation Deficiencies
+This Key Decision is not associated with application.
+LRP-5
+Approve Financial Assumptions
+Reach agreement on how revenue from both transportation and other sources may be considered to support GHG reduction goals.
+LRP-6
+Approve Strategies
+Define and incorporate strategies that will address regional GHG reduction goals.
+LRP-7
+Approve Plan Scenarios
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/LRP-7
+Establish plan scenarios that include evaluation of GHG reduction impacts/benefits.
+LRP-8
+Adopt Preferred Plan Scenario
+Estimate and document potential GHG reduction impacts from the preferred plan scenario, while balancing the potential for negative impacts.
+LRP-9
+Make Conformity Determination by MPO
+This Key Decision is not associated with application.
+LRP-10
+Adopt LRTP by MPO
+This Key Decision is not associated with application.
+LRP-11
+Make Conformity Determination
+This Key Decision is not associated with application.
+Programming
+PRO-1
+Approve Revenue Sources
+Identify potential non-transportation funding/revenue sources (public or private) that could be available for projects aimed at reducing GHG emissions.
+PRO-2
+Approve Project Cost and Revenue Allocation Approach
+Identify how GHG-related funding sources will be allocated to support individual projects.
+PRO-3
+Approve Project List from Adopted Plan
+This Key Decision is not associated with application.
+PRO-4
+Approve Project Prioritization
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/PRO-4
+Compare the potential GHG reduction impacts of individual projects and the timeframe over which those impacts will occur to prioritized projects.
+PRO-5
+Reach Consensus on Draft TIP
+This Key Decision is not associated with application.
+PRO-6
+Adopt TIP by MPO
+This Key Decision is not associated with application.
+PRO-7
+Approve TIP by Governor and Incorporate into Draft STIP
+This Key Decision is not associated with application.
+PRO-8
+Reach Consensus on Draft STIP
+This Key Decision is not associated with application.
+PRO-9
+Approve STIP with respect to Fiscal Constraint
+This Key Decision is not associated with application.
+Corridor Planning
+COR-1
+Approve Scope of Corridor Planning Process
+Identify key resources, stakeholders and partners with an interest in GHG emissions reduction and define scope of GHG emissions to consider in the corridor planning process.
+COR-2
+Approve Problem Statements and Opportunities
+Identify problems in the corridor that relate to increased GHG emissions. Define the potential opportunities for reducing GHG emissions arising from the corridor improvement.
+COR-3
+Approve Goals for the Corridor
+Establish GHG reduction as a study consideration and incorporate goals for reducing GHG emissions into the corridor goals.
+COR-4
+Reach Consensus on Scope of Environmental Analysis
+Inform the scope of environmental review based on the scope of GHG emissions that may be considered, the potential GHG reduction impacts, and the types of information needed for analysis at the corridor level.
+COR-5
+Approve Evaluation Criteria, Methods and Measures
+Identify GHG-related evaluation criteria, performance metrics, targets and analytical methods that can be used to understand the GHG reduction impacts of the corridor plan.
+COR-6
+Approve Range of Solution Sets
+Evaluate and compare the potential GHG reduction impacts of each proposed solution and the ability to address goals for the corridor.
+COR-7
+Adopt Preferred Solution Set
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-7
+Inform the selection of the solution set with GHG-related outcomes.
+COR-8
+Approve Implementation Criteria for Prioritizing Projects
+Incorporate GHG reduction into the criteria for corridor project prioritization and sequencing.
+COR-9
+Adopt Priorities for Implementation
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-9
+Consider potential GHG reduction impacts of the various projects or strategies in the corridor plan and the timeframe over which they are applicable.
+Environmental Review/NEPA Merged with Permitting
+ENV-1
+Reach Consensus on Scope of Environmental Review
+This Key Decision is not associated with application.
+ENV-2
+Approve Notice of Intent
+This Key Decision is not associated with application.
+ENV-3
+Approve Purpose and Need/Reach Consensus on Project Purpose
+This Key Decision is not associated with application.
+ENV-4
+Reach Consensus on Study Area
+This Key Decision is not associated with application.
+ENV-5
+Approve Evaluation Criteria, Methods and Measures
+This Key Decision is not associated with application.
+ENV-6
+Approve Full Range of Alternatives
+This Key Decision is not associated with application.
+ENV-7
+Approve Alternatives to be Carried Forward
+This Key Decision is not associated with application.
+ENV-8
+Approve Draft EIS with Conceptual Mitigation
+This Key Decision is not associated with application.
+ENV-9
+Approve Resource Agency Public Notice
+This Key Decision is not associated with application.
+ENV-10
+Approve Preferred Alternative / LEDPA
+This Key Decision is not associated with application.
+ENV-11
+Approve Final Jurisdictional Determination
+This Key Decision is not associated with application.
+ENV-12
+Reach Consensus on Avoidance and Minimization for the LEDPA
+This Key Decision is not associated with application.
+ENV-13
+Approve Final EIS and Record of Decision
+This Key Decision is not associated with application.
+ENV-14
+Render Permit Decision and Approve Avoidance and Minimization
+This Key Decision is not associated with application.
+Long Range Transportation Planning
+LRP-1
+Approve Scope of LRTP Process
+Define scope of GHG emissions to be considered, and identify key information, stakeholders and partners with an interest that should be included in planning and analysis of GHG reduction strategies.
+LRP-2
+Approve Vision and Goals
+Establish GHG reduction as a planning consideration and incorporate goals, objectives into the plan vision and goals.
+LRP-3
+Approve Evaluation Criteria, Methods and Measures
+Define the GHG-related evaluation criteria, metrics, analytical methods, targets and level of analysis that will be applied to understand the potential GHG reduction resulting from proposed scenarios.
+LRP-4
+Approve Transportation Deficiencies
+This Key Decision is not associated with application.
+LRP-5
+Approve Financial Assumptions
+Reach agreement on how revenue from both transportation and other sources may be considered to support GHG reduction goals.
+LRP-6
+Approve Strategies
+Define and incorporate strategies that will address regional GHG reduction goals.
+LRP-7
+Approve Plan Scenarios
+Establish plan scenarios that include evaluation of GHG reduction impacts/benefits.
+LRP-8
+Adopt Preferred Plan Scenario
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/LRP-8
+Estimate and document potential GHG reduction impacts from the preferred plan scenario, while balancing the potential for negative impacts.
+LRP-9
+Make Conformity Determination by MPO
+This Key Decision is not associated with application.
+LRP-10
+Adopt LRTP by MPO
+This Key Decision is not associated with application.
+LRP-11
+Make Conformity Determination
+This Key Decision is not associated with application.
+Programming
+PRO-1
+Approve Revenue Sources
+Identify potential non-transportation funding/revenue sources (public or private) that could be available for projects aimed at reducing GHG emissions.
+PRO-2
+Approve Project Cost and Revenue Allocation Approach
+Identify how GHG-related funding sources will be allocated to support individual projects.
+PRO-3
+Approve Project List from Adopted Plan
+This Key Decision is not associated with application.
+PRO-4
+Approve Project Prioritization
+Compare the potential GHG reduction impacts of individual projects and the timeframe over which those impacts will occur to prioritized projects.
+PRO-5
+Reach Consensus on Draft TIP
+This Key Decision is not associated with application.
+PRO-6
+Adopt TIP by MPO
+This Key Decision is not associated with application.
+PRO-7
+Approve TIP by Governor and Incorporate into Draft STIP
+This Key Decision is not associated with application.
+PRO-8
+Reach Consensus on Draft STIP
+This Key Decision is not associated with application.
+PRO-9
+Approve STIP with respect to Fiscal Constraint
+This Key Decision is not associated with application.
+Corridor Planning
+COR-1
+Approve Scope of Corridor Planning Process
+Identify key resources, stakeholders and partners with an interest in GHG emissions reduction and define scope of GHG emissions to consider in the corridor planning process.
+COR-2
+Approve Problem Statements and Opportunities
+Identify problems in the corridor that relate to increased GHG emissions. Define the potential opportunities for reducing GHG emissions arising from the corridor improvement.
+COR-3
+Approve Goals for the Corridor
+Establish GHG reduction as a study consideration and incorporate goals for reducing GHG emissions into the corridor goals.
+COR-4
+Reach Consensus on Scope of Environmental Analysis
+Inform the scope of environmental review based on the scope of GHG emissions that may be considered, the potential GHG reduction impacts, and the types of information needed for analysis at the corridor level.
+COR-5
+Approve Evaluation Criteria, Methods and Measures
+Identify GHG-related evaluation criteria, performance metrics, targets and analytical methods that can be used to understand the GHG reduction impacts of the corridor plan.
+COR-6
+Approve Range of Solution Sets
+Evaluate and compare the potential GHG reduction impacts of each proposed solution and the ability to address goals for the corridor.
+COR-7
+Adopt Preferred Solution Set
+https://fhwaapps.fhwa.dot.gov/planworks/DecisionGuide/Step/COR-7
+Inform the selection of the solution set with GHG-related outcomes.
+COR-8
+Approve Implementation Criteria for Prioritizing Projects
+Incorporate GHG reduction into the criteria for corridor project prioritization and sequencing.
+COR-9
+Adopt Priorities for Implementation
+Consider potential GHG reduction impacts of the various projects or strategies in the corridor plan and the timeframe over which they are applicable.
+Environmental Review/NEPA Merged with Permitting
+ENV-1
+Reach Consensus on Scope of Environmental Review
+This Key Decision is not associated with application.
+ENV-2
+Approve Notice of Intent
+This Key Decision is not associated with application.
+ENV-3
+Approve Purpose and Need/Reach Consensus on Project Purpose
+This Key Decision is not associated with application.
+ENV-4
+Reach Consensus on Study Area
+This Key Decision is not associated with application.
+ENV-5
+Approve Evaluation Criteria, Methods and Measures
+This Key Decision is not associated with application.
+ENV-6
+Approve Full Range of Alternatives
+This Key Decision is not associated with application.
+ENV-7
+Approve Alternatives to be Carried Forward
+This Key Decision is not associated with application.
+ENV-8
+Approve Draft EIS with Conceptual Mitigation
+This Key Decision is not associated with application.
+ENV-9
+Approve Resource Agency Public Notice
+This Key Decision is not associated with application.
+ENV-10
+Approve Preferred Alternative / LEDPA
+This Key Decision is not associated with application.
+ENV-11
+Approve Final Jurisdictional Determination
+This Key Decision is not associated with application.
+ENV-12
+Reach Consensus on Avoidance and Minimization for the LEDPA
+This Key Decision is not associated with application.
+ENV-13
+Approve Final EIS and Record of Decision
+This Key Decision is not associated with application.
+ENV-14
+Render Permit Decision and Approve Avoidance and Minimization
+This Key Decision is not associated with application.
+Examples from Practice
+Training »
+Reference Links
+Climate Change - Model Language in Transportation Plans, FHWA
+Integrating Climate Change into the Transportation Planning Process, FHWA
+Columbia Law School EIS Databases (databases of environmental impact statements addressing climate change)
+Additional resources are available through The Center for Climate Change Law at the Columbia Law School
+The extent to which GHG emissions are considered in transportation decision making
+varies greatly.
+In some states there are regulations that require GHG reduction to
+meet established targets.
+Other states and some MPOs have introduced GHG into their
+planning activities.
+Although many transportation agencies are interested in reducing
+GHG emissions, additional information or support may be needed.
+Examples of
+states with legislation to reduce GHG emissions,
+regional climate action plans, and
+GHG analysis in environmental review
+are provided here.
+States with legislation to reduce GHG emissions
+Some states have already adopted requirements to limit GHG emissions resulting
+from transportation. In order to account for these reductions through the planning
+process, goals and objectives in the long range plans of MPOs in these states have
+to be consistent with the established targets at the state level.
+Click on the arrows below for detailed information about each example.
+Oregon House Bill 1059
+The Oregon legislature has been proactive since 2007, when it passed House Bill 3543 to reduce carbon emissions. In 2009, House Bill 2186 allowed the Environmental Quality Commission to adopt low-carbon fuel standards with the sunset date of December 31, 2015, and created the Metropolitan Planning Organization Greenhouse Gas Emissions Task Force. The task force is charged with studying the development of alternative land use and transportation scenarios that accommodate population and employment growth while also reducing greenhouse gas (GHG) emissions from motor vehicles with a gross vehicle weight rating of 10,000 pounds or less.
+In 2010, Oregon passed Senate Bill 1059, which directs the Oregon Transportation Commission(OTC) to adopt a statewide transportation strategy to help reduce GHG from transportation. This bill tasks the departments of Transportation and Land Conservation and Development with educating the public about the benefits of reducing GHG emissions from motor vehicles. It also specifically requires these departments to establish scenario planning guidelines and a toolkit to assist local governments in identifying actions that help reduce GHG emissions from motor vehicles. The law also requires the Land Conservation and Development Commission, in consultation with the OTC,to adopt reduction targets for GHG emissions from motor vehicles for all metropolitan planning organizations. Collectively, these efforts are referred to as the Oregon Sustainable Transportation Initiative
+California Senate Bill 375
+California passed Senate Bill 375 in 2008 to enact mandatory GHG reduction targets in regional transportation planning. The law directs the California Air Resources Board (CARB) to provide each of the state's 18 MPOs with GHG emissions reduction targets from the auto and light truck sector for 2020 and 2035. MPOs will then prepare a "sustainable communities strategy (SCS)" that demonstrates how the region will meet its greenhouse gas reduction target through integrated land use, housing, and transportation planning.Each final SCS will be reviewed by CARB to determine whether it would, if implemented,achieve the greenhouse gas emission reduction target for its region. Once adopted by the MPO, the SCS will be incorporated into that region's federally enforceable regional transportation plan (RTP).
+Washington House Bill 2815
+In 2008 Washington State enacted climate change framework legislation House Bill 2815 which provides a framework for reducing greenhouse gas emissions in the Washington state economy. The Bill includes a requirement to reduce light-duty vehicle miles traveled (VMT) per capita 18 percent by 2020, 30 percent by 2035, and 50 percent by 2050.
+Maryland Greenhouse Gas Reduction Act of 2009
+Maryland's Greenhouse Gas Reduction Act of 2009 requires the state to reduce statewide GHG emissions by 25 percent from 2006 levels by 2020 and adopt a finalplan to achieve reductions by 2012. The Act required the Department of Environment to: (i) develop a 2006 Statewide greenhouse gas emissions inventory;(ii) develop a projected "business as usual" emissions inventory for 2020; and (iii) develop and publish for public comment a proposed plan to achieve a 25 percent emissions reduction by 2020. In addition, the Act stipulated that the final GHG reduction plan adopted by 2012 should establish the need and timeline for seeking any additional legislative authority necessary for full implementation of plan measures.
+New York Legislation A1391-2011
+New York Legislation A1391-2011 establishes the New York state climate change task force, the membership of the task force, and the powers and duties of the task force.The legislation highlighted two key objectives of the task force as follows: (i)conducting an in-depth examination of issues related to global climate change on the citizens, natural resources, and the economy of the state, and (ii) developing a climate action plan that will incorporate both measures related to mitigating carbon emissions and adapting to the potential impacts of climate change carbon.The state climate action plan will include an inventory of statewide GHG emissions and results of the evaluation of current and future GHG emissions reduction measures.
+Regional Climate Action Plans
+In the absence of formal legislation, some states and regions are accounting for GHG emissions because of community interest in mitigating for climate change and a focus on regional sustainability. Several states, MPOs, and local agencies have developed Climate Action Plans that outline strategies for reducing GHG emissions in the transportation sector. By 2010, 36 states had developed or were developing some sort of climate action plan, including creation of GHG inventories and forecasts.These plans typically propose specific policies and programs for consideration by the state legislature or implementation by a state agency.
+Several MPOs and regional agencies are also incorporating GHG reduction and climate change mitigation in the goals of their long-range transportation plans. Case studies of MPO activities in integrating GHG reduction goals into transportation decision making can be found on the U.S. DOT's Transportation and Climate Change Clearinghouse. Some examples are provided below.
+Click on the arrows below for detailed information about each example.
+Chicago Metropolitan Agency for Planning (CMAP) GO TO 2040 regional plan
+CMAP includes climate change mitigation in the goals of its GO TO 2040 regional plan. CMAP, with help from the Volpe Center, prepared a strategy paper on how goals to reduce GHG may be incorporated into the plan through policies, investments, and other actions (Climate Change Strategy Paper). The paper takes the Chicago region's legislative and policy context into account while drawing on the experience of other peer regions doing the same. For example, GO TO 2040 recommendations include providing good alternatives to automobile travel to reduce GHG emissions while also reducing energy consumption and improving quality of life.
+Metro (Portland, Oregon region) 2035 Regional Transportation Plan
+The Transportation and climate change section of Metro's 2035 Regional Transportation Plan addresses how an integrated set of transportation investments, land use policies, and other strategies can most effectively reduce GHG emissions. As part of the plan, Metro commits to voluntarily monitoring GHG emissions and implementing specific GHG-reduction policy objectives and actions that reduce the need to drive and improve the operating efficiency of the transportation system.
+House Bill 2001 requires Metro to develop two or more land use and transportation planning scenarios. Metro's effort, known as the Climate Smart Communities Scenarios Project, includes requirements to adopt one of these scenarios and for the local jurisdictions within the Metro region to amend their comprehensive plans to be consistent with the adopted scenario.The departments of Transportation and Land Conservation and Development must provide technical and financial support.
+Houston-Galveston Area Council (H-GAC) 2035 Regional Transportation Plan Update
+H-GAC acknowledges the need for climate change adaptation and mitigation in the trends and challenges of its 2035 Regional Transportation Plan Update. As stated in the plan, H-GAC is working with TxDOT and research institutes in the region on the issue of GHG mitigation and establishing analytical methodologies for measuring the reduction of GHG emissions at the project level.
+Puget Sound Regional Council (PSRC) (Seattle region) Four-Part Greenhouse Gas Strategy
+PSRC is committed to reducing transportation-related GHG emissions in the region.The regional growth, transportation, and economic strategy, VISION 2040 refers to climate change mitigation in its goals, trends and challenges, strategies, and performance measures. It establishes annual average GHG emissions as a performance measure to monitor the plan. It further commits the agency to: development of a regional air quality guide and a climate change action plan, and working with other agencies and partners to develop greenhouse gas emission reduction estimates. PSRC's regional transportation plan, Transportation 2040 contains a Four-Part Greenhouse Gas Strategy. PSRC has updated its transportation model to incorporate GHG emissions analysis in the comparison of alternatives and scenarios.
+Delaware Valley Regional Planning Commission (DVRPC) (Philadelphia region) Connections long range plan
+DVRPC supports a goal to reduce regional greenhouse gas emissions 50 percent by 2035, which will put the region on track to achieve an 80 percent reduction in greenhouse gas emissions by 2050. This reduction is considered necessary to keep the impacts of global climate change within an acceptable range. As part of this effort, DVRPC has outlined a regional goal to "Reduce greenhouse gas emissions by 50% while building an energy-efficient economy" in its long range plan, Connections, adopted in 2009. More information about the plan and DVRPC's Energy and Climate Change Initiatives program area is available on their website.
+Denver Regional Council of Governments (DRCOG) Metro Vision 2035 Plan
+DRCOG's
+Metro Vision 2035 Plan
+was recently updated with a focus on several sustainability goals, involving increase in urban density, reduction in GHG emissions, reduction in daily per capita vehicle miles traveled, and reduction in the number of single occupancy vehicle trips.
+Santa Fe Metropolitan Planning Organization Sustainable Santa Fe Plan
+The City of Santa Fe recently published its draft Sustainable Santa Fe Plan. The plan considers climate change and energy efficiency, among other aspects of sustainability. Transportation is one of several sectors addressed in the plan. The document discusses the impact of transportation on climate change, as well as several key determinants of transportation GHG emissions.
+Privacy Policy | Freedom of Information Act (FOIA) | Accessibility | Web Policies & Notices | No Fear Act | Report Waste, Fraud and Abuse
+U.S. DOT Home | USA.gov | WhiteHouse.gov
+Federal Highway Administration | 1200 New Jersey Avenue, SE | Washington, DC 20590 | 202-366-4000

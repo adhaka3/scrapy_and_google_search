@@ -1,0 +1,454 @@
+Greenhouse Gas Emissions from Energy - Data product
+- IEA
+IEA
+Close Search
+Submit
+IEASkip navigation
+Countries
+Find out about the world, a region, or a country
+All countriescircle-arrow
+Explore worldcircle-arrow
+Member countries
+Australia
+Austria
+Belgium
+Canada
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Greece
+Hungary
+Ireland
+Italy
+Japan
+Korea
+Lithuania
+Luxembourg
+Mexico
+New Zealand
+Norway
+Poland
+Portugal
+Slovak Republic
+Spain
+Sweden
+Switzerland
+The Netherlands
+Türkiye
+United Kingdom
+United States
+Accession countries
+Chile
+Colombia
+Israel
+Latvia
+Association countries
+Argentina
+Brazil
+China
+Egypt
+India
+Indonesia
+Morocco
+Singapore
+South Africa
+Thailand
+Ukraine
+Fuels & technologies
+Find out about a fuel, a technology or a sector
+All fuels and technologiescircle-arrow
+Fuels
+Coal
+Electricity
+Gas
+Nuclear
+Oil
+Renewables
+Technologies
+Aluminium
+Appliances & equipment
+Aviation
+Bioenergy
+Building envelopes
+Carbon capture, utilisation and storage
+Cement
+Chemicals
+Cooling
+Data centres & networks
+Demand response
+Electric vehicles
+Energy storage
+Fuel economy
+Heating
+Hydrogen
+Hydropower
+International shipping
+Iron & steel
+Lighting
+Methane abatement
+Other renewables
+Pulp & paper
+Rail
+Smart grids
+Solar
+Trucks & buses
+Wind
+Analysis
+Explore the full range of IEA's unique analysis
+Reportscircle-arrow
+Commentariescircle-arrow
+Flagship analysis
+Energy Technology Perspectives
+Global Energy Crisis
+Net Zero Emissions
+Oil Market Report
+Russia's War on Ukraine
+Saving Energy
+Tracking Clean Energy Progress
+World Energy Outlook
+All flagship analysis
+By topic
+Buildings
+Climate change
+Covid-19
+Critical minerals
+Digitalisation
+Energy access
+Energy and gender
+Energy and water
+Energy efficiency
+Energy security
+Energy subsidies
+Energy transitions
+Industry
+Innovation
+Investment
+Renewable integration
+Transport
+All topics
+By programme
+Electric Vehicles Initiative
+Our Inclusive Energy Future
+Clean Energy Transitions Programme
+CEM Hydrogen Initiative
+Clean Energy Transitions in Emerging Economies
+Technology Collaboration Programme
+EU4Energy
+Energy Efficiency in Emerging Economies
+Digital Demand-Driven Electricity Networks Initiative
+Energy Sub-Saharan Africa
+All programmes
+Data
+Search, download and purchase energy data and statistics
+Data explorerscircle-arrow
+Data setscircle-arrow
+Chart librarycircle-arrow
+Aboutcircle-arrow
+Data sets
+Free
+All
+Coal
+Emissions
+Renewables
+Gas
+Oil
+Electricity
+Efficiency
+Scenarios
+Balances/statistics
+Prices
+Other
+Data explorers
+Statistics
+Forecasts & estimates
+Scenarios
+Monthly & real-time
+Policies
+Technologies & innovation
+Simulations & calculators
+Maps
+Policies
+Search, filter and find energy-related policies
+About policiescircle-arrow
+All policiescircle-arrow
+By topic
+Cities
+Critical Minerals
+Electrification
+Energy Efficiency
+Energy Poverty
+Methane abatement
+Renewable Energy
+Technology R&D and innovation
+By sector
+Buildings
+Economy-wide (Multi-sector)
+Power, Heat and Utilities
+Electricity and heat generation
+Transport
+Power generation
+Residential
+Road transport
+By type
+Payments, finance and taxation
+Regulation
+Payments and transfers
+Targets, plans and framework legislation
+Grants
+Strategic plans
+Information and education
+Codes and standards
+About
+Shaping a secure and sustainable energy future
+Areas of workcircle-arrow
+About IEAcircle-arrow
+Areas of work
+Promoting energy efficiency
+International collaborations
+Data and statistics
+Training
+Technology collaboration
+Energy security
+Global engagement
+Industry engagement
+Programmes and partnerships
+Promoting digital demand-driven electricity networks
+About IEA
+History
+Leadership
+Membership
+Mission
+Structure
+News
+Latest news
+Events
+Calendar
+Past events
+Search
+Bag
+1
+User Profile
+Search
+Sign In
+Flyout close
+Email
+*
+Error
+Password
+*
+Forgot password?
+Error
+CheckboxRemember me
+Sign inSign in
+Create an account
+Create a free IEA account to download our reports or subcribe to a paid service.
+Join for freeJoin for free
+Purchase licence
+Flyout close
+External dissemination of any IEA data, including within software or other tools, requires specific permission and may be subject to an additional licence fee. Please contact us at DataSales@iea.org if you have any questions on the terms.
+Duration
+12 months
+Users
+1 user
+5 users
+10 users
+Unlimited users
+Locations
+1 location
+Multiple locations
+Copies
+Quantity
+Need help with your purchase ? Visit our
+help centre
+See if you qualify for a discount.
+Learn more
+Request price
+Name
+*
+Error
+Company
+Error
+Email
+*
+Error
+Additional information
+Error
+Error
+Error
+Error
+Error
+Greenhouse Gas Emissions from Energy
+12 months, 1 user, 1 location
+€
+610
+Add to cart
+icon
+Product added to cart
+View cart
+Checkout
+icon
+Unsaved changes made to your selection
+Update cart
+Contact us
+Send request
+Cancel
+snackbar icon
+Product added to cart
+Share
+Close dialog
+Share on Twitter Twitter
+Share on Facebook Facebook
+Share on LinkedIn LinkedIn
+Share on Email Email
+Share on Print Print
+card product data
+Buy
+Buy
+Greenhouse Gas Emissions from Energy
+Annual time series of GHG emissions from energy, a major source of anthropogenic emissions
+Last updated
+August 2022
+Licence
+Terms of Use for Non-CC Material
+Overview
+Data sets
+Schedule
+Documentation
+Share
+SubscribeSubscribe
+The Greenhouse Gas Emissions from Energy database (upgrade of the former CO2 Emissions from Fuel Combustion) contains global annual GHG emissions from energy and related indicators, including CO2, CH4, N20 emissions from fuel combustion and fugitive emissions. This edition includes annual data for 203 countries and 42 regional aggregates, generally from 1960 (OECD) and from 1971 (Non-OECD).Emissions from fuel combustion were calculated using IEA energy balances and the default methods and emission factors given in the 2006 IPCC Guidelines for GHG inventories. The fugitive emissions data are obtained from the IEA Methane Tracker 2022.With the objective to increase the scope of greenhouse gas emissions estimations, the IEA has covered in the 2021 edition the broad set of energy-related emissions, accounting for bulk of the category 1 of the 2006 IPCC Guidelines for GHG inventories. The additional coverage includes:-	Non-CO2 greenhouse gas emissions from fuel combustion: estimates for CH4 and N2O have been added, following a methodology similar to that for the estimates of CO2 emissions from fuel combustion, and considering the type and level of disaggregation of activity data available at country level.-	Fugitive emissions of CO2 and CH4 from the coal, oil and gas energy sectors are now included for 91 countries and 18 regions. This includes category 1B of the 2006 IPCC guidelines for GHG inventories-	Aggregated figures for total energy-related greenhouse gas emissions are now included for 91 countries and 18 regions.Additionally, with the objective to increase the policy-relevance of the statistical information provided, the IEA has included in the 2021 edition time series of a set of CO2-related socio-economic indicators for a complementing set of over fifty countries in the CO2 emissions indicators data file of this database, to complement total emissions time series.Finally, following the upgrade in content, the IEA has also expanded the set of socio-economic indicators, adding new indicators based on total greenhouse gas emissions from energy.A free highlights version of the 2021 edition is also available. Data can also be visualized in our interactive Greenhouse gas emissions data explorer.Important note: the CO2 emission factors from electricity generation are no longer included in this data service. They are offered as a separate product, Emissions Factors.
+Overview
+Learn more about this data
+Greenhouse Gas Emissions from Energy Data Explorer
+Circle left
+Data sets
+GHG emissions from fuel combustion
+1 files
+CO2 emissions indicators
+1 files
+CO2 emissions from fuel combustion (detailed estimates)
+1 files
+Allocation of emissions from electricity and heat
+1 files
+IPCC fuel combustion emissions (2006 Guidelines)
+1 files
+CO2 emissions from fuel combustion starting in 1751
+1 files
+Emissions of CO2, CH4, N2O, HFCs, PFCs and SF6
+1 files
+GHG emissions from fuel combustion
+Aggregated GHG emissions by sector and by product category.
+ZIP file contains data in fixed-width TXT format.
+File
+Updated
+Formats
+GHG emissions from fuel combustion
+02/08/2022
+IVT
+ZIP
+CO2 emissions indicators
+This file contains emissions-related, energy and socio-economic indicators.
+File
+Updated
+Formats
+CO2 emissions indicators
+02/08/2022
+IVT
+ZIP
+CO2 emissions from fuel combustion (detailed estimates)
+Detailed CO2 emissions by subsector and by product.
+ZIP file contains data in fixed-width TXT format.
+File
+Updated
+Formats
+CO2 emissions from fuel combustion (detailed estimates)
+02/08/2022
+IVT
+ZIP
+Allocation of emissions from electricity and heat
+This file contains CO2 emissions after reallocation of emissions from electricity and heat generation to consuming sectors.
+File
+Updated
+Formats
+Allocation of emissions from electricity and heat
+02/08/2022
+IVT
+ZIP
+IPCC fuel combustion emissions (2006 Guidelines)
+CO2 emissions from fuel combustion, with Reference and Sectoral Approach totals, as well as detailed split between emissions across the Energy, and Industrial Processes and Product Use (IPPU) sectors, as recommended in the 2006 IPCC Guidelines for GHG inventories.
+File
+Updated
+Formats
+IPCC fuel combustion emissions
+02/08/2022
+IVT
+ZIP
+CO2 emissions from fuel combustion starting in 1751
+This file contains total CO2 emissions from fuel combustion, for 18 regions, for years starting in 1751.
+File
+Updated
+Formats
+CO2 emissions from fuel combustion starting in 1751
+15/07/2020
+IVT
+ZIP
+Emissions of CO2, CH4, N2O, HFCs, PFCs and SF6
+This file contains CO2-equivalent emissions of six greenhouse gases across all sectors, based on
+EDGAR information.
+Data are available for 1990, 1995, 2000, 2005, 2010 2012 and 2015.
+File
+Updated
+Formats
+Emissions of CO2, CH4, N2O, HFCs, PFCs and SF6
+15/07/2020
+IVT
+TXT
+Schedule
+This service is updated two times a year with a progressively broader geographical coverage. The April update includes all OECD countries, all IEA family countries (IEA members, Association and Accession countries), and any other country for which data up through year-2 have been received and validated. The final edition released in August includes complete time series of GHG emissions from energy by source and sector for all countries and regions up to the year-2, based on the latest IEA World Energy Balances.
+02/08/2022
+Latest
+August 2022 - World data
+Documentation
+Database documentation (2022 World edition)
+pdf
+Download "Database documentation (2022 World edition)"
+Expanded product description and complete database documentation.
+The Energy Mix
+Keep up to date with our latest news and analysis by subscribing to our regular newsletter
+Error
+Subscribe
+Explore our other newsletters
+Browse
+Countries
+Fuels and technologies
+Topics
+Explore
+Analysis
+Data and statistics
+Learn
+About
+Areas of work
+News
+Events
+Connect
+Help centre
+Contact
+Jobsarrow-north-east
+Delegatesarrow-north-east
+Follow
+twitter
+facebook
+linkedin
+youtube
+instagram
+IEA
+©IEA 2023
+Terms
+Privacy
+Back to top
+Subscription successful
+Close dialog
+Thank you for subscribing. You can unsubscribe at any time by clicking the link at the bottom of any IEA newsletter.

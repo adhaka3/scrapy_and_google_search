@@ -1,0 +1,163 @@
+Causes | Facts – Climate Change: Vital Signs of the Planet
+NASA
+Global Climate Change
+Vital Signs of the Planet
+Skip Navigation
+menu
+close modal
+Causes
+The Causes of Climate Change
+Human activities are driving the global warming trend observed since the mid-20th century.
+Takeaways
+The greenhouse effect is essential to life on Earth, but human-made emissions in the atmosphere are trapping and slowing heat loss to space.
+Five key greenhouse gases are CO2, nitrous oxide, methane, chlorofluorocarbons, and water vapor.
+While the Sun has played a role in past climate changes, the evidence shows the current warming cannot be explained by the Sun.
+The Greenhouse Effect
+Increasing Greenhouses Gases Are Warming the Planet
+Scientists attribute the global warming trend observed since the mid-20th century to the human expansion of the "greenhouse effect" — warming that results when the atmosphere traps heat radiating from Earth toward space.
+Life on Earth depends on energy coming from the Sun. About half the light energy reaching Earth's atmosphere passes through the air and clouds to the surface, where it is absorbed and radiated in the form of infrared heat. About 90% of this heat is then absorbed by greenhouse gases and re-radiated, slowing heat loss to space.
+Gases that Contribute
+The Role of Humans
+Human Activity Is the Cause of Increased Greenhouse Gas Concentrations
+Over the last century, burning of fossil fuels like coal and oil has increased the concentration of atmospheric carbon dioxide (CO2). This increase happens because the coal or oil burning process combines carbon with oxygen in the air to make CO2. To a lesser extent, clearing of land for agriculture, industry, and other human activities has increased concentrations of greenhouse gases.
+How do we know what greenhouse gas and temperature levels were in the distant past?
+Ice cores are scientists’ best source for historical climate data. Other tools for learning about Earth’s ancient atmosphere include growth rings in trees, which keep a rough record of each growing season’s temperature, moisture and cloudiness going back about 2,000 years. Corals also form growth rings that provide information about temperature and nutrients in the tropical ocean. Other proxies, such as benthic cores, extend our knowledge of past climate back about a billion years.
+detailed answer
+The industrial activities that our modern civilization depends upon have raised atmospheric carbon dioxide levels by nearly 50% since 1750. This increase is due to human activities, because scientists can see a distinctive isotopic fingerprint in the atmosphere.
+In its Sixth Assessment Report, the Intergovernmental Panel on Climate Change, composed of scientific experts from countries all over the world, concluded that it is unequivocal that the increase of CO2, methane, and nitrous oxide in the atmosphere over the industrial era is the result of human activities and that human influence is the principal driver of many changes observed across the atmosphere, ocean, cryosphere and biosphere.
+"Since systematic scientific assessments began in the 1970s, the influence of human activity on the warming of the climate system has evolved from theory to established fact."
+- Intergovernmental Panel on Climate Change
+The panel's AR6 Working Group I (WGI) Summary for Policymakers report is online at https://www.ipcc.ch/report/ar6/wg1/.
+Is the Sun to Blame?
+Evidence Shows That Current Global Warming Cannot Be Explained by Solar Irradiance
+Scientists use a metric called Total Solar Irradiance (TSI) to measure the changes in energy the Earth receives from the Sun. TSI incorporates the 11-year solar cycle and solar flares/storms from the Sun's surface.
+Studies show that solar variability has played a role in past climate changes. For example, a decrease in solar activity coupled with increased volcanic activity helped trigger the Little Ice Age.
+The above graph compares global surface temperature changes (red line) and the Sun's energy that Earth receives (yellow line) in watts (units of energy) per square meter since 1880. The lighter/thinner lines show the yearly levels while the heavier/thicker lines show the 11-year average trends. Eleven-year averages are used to reduce the year-to-year natural noise in the data, making the underlying trends more obvious.
+The amount of solar energy that Earth receives has followed the Sun’s natural 11-year cycle of small ups and downs with no net increase since the 1950s. Over the same period, global temperature has risen markedly. It is therefore extremely unlikely that the Sun has caused the observed global temperature warming trend over the past half-century. Credit: NASA/JPL-Caltech
+But several lines of evidence show that current global warming cannot be explained by changes in energy from the Sun:
+Since 1750, the average amount of energy from the Sun either remained constant or increased slightly.
+If a more active Sun caused the warming, scientists would expect warmer temperatures in all layers of the atmosphere. Instead, they have observed a cooling in the upper atmosphere and a warming at the surface and lower parts of the atmosphere. That's because greenhouse gases are slowing heat loss from the lower atmosphere.
+Climate models that include solar irradiance changes can’t reproduce the observed temperature trend over the past century or more without including a rise in greenhouse gases.
+Earth Science in Action
+People across the world using NASA data to solve big problems right here on Earth.
+More to Explore
+Ask NASA Climate
+Your questions about climate change answered.
+People Profiles
+Learn about the people behind NASA Earth science.
+Quizzes
+Test your knowledge of climate science.
+References
+References
+IPCC Fifth Assessment Report, 2014
+United States Global Change Research Program, "Global Climate Change Impacts in the United States," Cambridge University Press, 2009
+Naomi Oreskes, "The Scientific Consensus on Climate Change," Science 3 December 2004: Vol. 306 no. 5702 p. 1686 DOI: 10.1126/science.1103618
+Friedlingstein et al 2021: “The mass of carbon in the atmosphere increased by 48% from 590 GtC in 1750 to 876 GtC in 2020.” https://essd.copernicus.org/preprints/essd-2021-386/
+U.S. Environmental Protection Agency: "Climate Impacts on Agriculture and Food Supply"
+Mike Lockwood, “Solar Change and Climate: an update in the light of the current exceptional solar minimum,” Proceedings of the Royal Society A, 2 December 2009, doi 10.1098/rspa.2009.0519;
+Judith Lean, “Cycles and trends in solar irradiance and climate,” Wiley Interdisciplinary Reviews: Climate Change, vol. 1, January/February 2010, 111-122.
+Recent News & Features
+Earth's average surface temperature in 2022 tied with 2015 as the fifth warmest on record, according to an analysis by NASA.
+news
+NASA Says 2022 Fifth Warmest Year on Record, Warming Trend Continues
+A case study involving Europe’s largest coal-fired power plant shows space-based observations can be used to track carbon dioxide emissions – and reductions – at the source.
+features
+NASA Space Missions Pinpoint Sources of CO2 Emissions on Earth
+Cameras on the Surface Water and Ocean Topography spacecraft captured the antennas for its main science instrument unfurling in orbit.
+news
+Watch the Latest Water Satellite Unfold Itself in Space
+Led by NASA and the French space agency CNES, the Surface Water and Ocean Topography mission will provide high-definition data on the salt- and fresh water on Earth’s surface.
+news
+NASA Launches International Mission to Survey Earth's Water
+A nonprofit group, Carbon Mapper, will use data from NASA’s EMIT mission, plus current airborne and future satellite instruments, to survey waste sites for methane emissions.
+news
+NASA Sensors to Help Detect Methane Emitted by Landfills
+Meet the scientific heart of the Surface Water and Ocean Topography mission, which will see Earth’s water in higher definition than ever before.
+features
+Latest International Water Satellite Packs an Engineering Punch
+The upcoming Surface Water and Ocean Topography mission will provide a trove of data on Earth’s water resources, even in remote locations. Alaska serves as a case study.
+Water Mission to Gauge Alaskan Rivers on Front Lines of Climate Change
+Fountains of lava erupted near Mauna Loa’s summit on Nov. 27, 2022, ending a 38-year period of quiet since the volcano’s last eruption.
+images of change
+Mauna Loa, Hawaii, Erupts
+Targeting a Dec. 15 launch, SWOT will survey nearly all water on Earth’s surface for the first time, helping to track how fresh and saltwater bodies change over time.
+news
+NASA Sets Coverage for SWOT Water Survey Mission Launch
+A new video series highlights the hard work and passion of scientists and engineers who are helping to get this remarkable new satellite off the ground.
+features
+Meet the People Behind the SWOT Water-Tracking Satellite
+The international Surface Water and Ocean Topography mission will provide high-definition data on the salt- and fresh water on Earth’s surface.
+features
+5 Things to Know About How SWOT Will Look at the World's Water
+New results show average sea level rise approaching the 1-foot mark for most coastlines of the contiguous U.S. by 2050. The Gulf Coast and Southeast will see the most change.
+features
+NASA Study: Rising Sea Level Could Exceed Estimates for U.S. Coasts
+Get the Newsletter
+Stay Connected
+Facts
+Evidence
+Causes
+Effects
+Scientific Consensus
+Global Warming vs. Climate Change
+Vital Signs
+Questions (FAQ)
+Articles
+News and Features
+Ask NASA Climate
+Subscribe
+Climate Newsletter Archive
+Solutions
+Earth Science in Action
+Mitigation and Adaptation
+Sustainability and Government Resources
+Explore
+Images of Change
+Earth Minute Videos
+Interactives
+Beautiful Earth Gallery
+Earth 360
+NASA Science
+Science Mission Directorate
+NASA Data Resources
+Earth System Science
+Earth Science Missions
+History
+People
+More
+For Media
+For Educators
+Multimedia
+En español
+For Kids
+About Us
+Feedback
+|
+Awards
+|
+Sitemap
+|
+Earth Observatory
+|
+SEA LEVEL CHANGE
+|
+Privacy
+|
+Climate Data Initiative
+|
+U.S. CLIMATE RESILIENCE TOOLKIT
+This website is produced by the Earth Science Communications Team at
+NASA's Jet Propulsion Laboratory
+|
+California Institute of Technology
+Site Editor:
+Holly Shaftel
+Managing Editor:
+Susan Callery
+Senior Producer:
+Randal Jackson
+Senior Science Editor:
+Daniel Bailey
+Science Editor:
+Susan Callery
+Site last updated: January 12, 2023

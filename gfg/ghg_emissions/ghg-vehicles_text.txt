@@ -1,0 +1,101 @@
+Alternative Fuels Data Center: Natural Gas Vehicle Emissions
+Skip to Content
+EERE Home | Programs & Offices | Consumer Information
+Search the AFDC
+Search
+Alternative Fuels Data Center
+Fuels & Vehicles
+Biodiesel | Diesel Vehicles
+Electricity | Electric Vehicles
+Ethanol | Flex Fuel Vehicles
+Hydrogen | Fuel Cell Vehicles
+Natural Gas | Natural Gas Vehicles
+Propane | Propane Vehicles
+Emerging Fuels
+Fuel Prices
+Alternative Fuel and Advanced Technology Vehicles
+Vehicle Cost Calculator
+Conserve Fuel
+Idle ReductionParts & EquipmentMaintenanceDriving BehaviorFleet RightsizingSystem Efficiency
+Idle Reduction Savings Worksheet
+Locate Stations
+Search by Location
+Map a Route
+Station Data by State
+Download Station Data
+Laws & Incentives
+Search All
+Federal
+State
+Key Legislation
+Project Assistance & Funding Opportunities
+Examples of Local Laws & Incentives
+More...
+Maps & Data
+Case Studies
+Publications
+Tools
+About
+Home
+Maps & DataCase StudiesPublicationsToolsAboutHome
+Print Preview
+Print
+Close
+U.S. Department of Energy - Energy Efficiency and Renewable Energy
+Alternative Fuels Data Center
+EERE » AFDC » Fuels & Vehicles » Natural Gas
+Printable Version
+More in this section...
+Natural Gas BasicsBenefits & ConsiderationsStationsVehiclesAvailabilityConversionsEmissionsMaintenance & SafetyLaws & Incentives
+Natural Gas Vehicle Emissions
+When used as a vehicle fuel, natural gas can offer life cycle greenhouse gas (GHG) emissions benefits over conventional fuels, depending on vehicle type, duty cycle, and engine calibration. In addition, natural gas reduces some engine emissions.
+Tailpipe emissions result from fuel combustion in a vehicle's engine. The emissions of primary concern include the regulated emissions of hydrocarbons, oxides of nitrogen (NOx), carbon monoxide (CO), as well as carbon dioxide (CO2). The U.S. Environmental Protection Agency (EPA) requires all fuels and vehicle types to meet increasingly lower, near zero, thresholds for tailpipe emissions of air pollutants and particulate matter. One advantage to natural gas vehicles (NGVs) is their ability to meet these stringent standards with less complicated emissions controls. NGVs continue to provide life cycle emissions benefits—especially when replacing older conventional vehicles. NGVs with ultra-low NOx engines can produce near-zero NOx emissions, which meets the California Air Resources Board’s optional near-zero emission standard of 0.02 NOx.
+Natural gas is increasingly used to replace gasoline in smaller applications, such as forklifts and commercial lawn equipment. Because natural gas is a low-carbon fuel, a switch to natural gas in these applications can result in reductions of hydrocarbon, CO, NOx, and GHG emissions.
+Life Cycle Emissions and Petroleum Use
+Argonne National Laboratory's GREET model estimates the life cycle petroleum use and GHG emissions of vehicles running on compressed natural gas (CNG) and liquefied natural gas (LNG). Based on this model, heavy-duty natural gas vehicles can provide small to moderate GHG reduction benefits compared to diesel throughout the fuel life cycle. Actual reductions will depend on both the relative fuel economy, as well as upstream and vehicle methane leakage. When comparing the life cycle emissions of the two types of natural gas, CNG and LNG are nearly identical. CNG production uses less petroleum and emits slightly fewer GHGs than LNG because compressing natural gas requires less energy than liquefying it.
+Because renewable natural gas (RNG), also known as biomethane, is chemically identical to fossil natural gas, yet yields far fewer life cycle GHG emissions, the blending of even relatively small quantities of RNG with fossil natural gas can provide significant life cycle GHG emission benefits. In a 2011 study of RNG production methods, Argonne National Laboratory concluded that all RNG methods show significantly less GHG emissions and fossil fuel consumption than conventional fossil natural gas and gasoline.
+Overall, CNG and LNG are both clean-burning fuels and perform well against current vehicle emissions standards.
+Converted Vehicles
+Converting conventional vehicles to operate on natural gas is a good option for incorporating alternative fuels into fleet operations. EPA's emissions requirements and regulations apply to vehicles converted to CNG and LNG fuel systems.
+EPA requires conversion system manufacturers to demonstrate that converted vehicles or engines meet the same emissions standards as the original vehicle or engine. For this and many other reasons, it's important that conversions be performed by reputable and well-qualified system retrofitters.
+Maps & Data
+Greenhouse Gas Emissions by Economic Sector
+More Natural Gas Data | All Maps & Data
+Case Studies
+Seattle's Waste Haulers are Going Green
+Freedom CNG Reduces Emissions with Natural Gas in Texas
+ampCNG Puts Conventional Fuels Out to Pasture with Renewable Natural Gas
+More Natural Gas Case Studies | All Case Studies
+Publications
+Waste-to-Fuel: A Case Study of Converting Food Waste to Renewable Natural Gas as a Transportation Fuel
+Fleets Run Cleaner on Natural Gas; Emissions and Environmental Benefits of Natural Gas Vehicle
+Hydraulic Fracturing and Shale Gas Production: Technology, Impacts, and Policy
+More Natural Gas Publications | All Publications
+Tools
+Vehicle Cost Calculator
+Heavy-Duty Vehicle Emissions
+All Tools
+Fuels & Vehicles
+BiodieselElectricityEthanolHydrogenNatural GasPropaneEmerging FuelsFuel Prices
+Conserve Fuel
+Idle ReductionParts & EquipmentMaintenanceDriving BehaviorFleet RightsizingSystem Efficiency
+Locate Stations
+Search by Location
+Map a Route
+Laws & Incentives
+Search
+Federal
+State
+Key Legislation
+Data & Tools
+Widgets
+Data Downloads
+APIs
+About
+Newsletters
+Project AssistanceContacts
+Need project assistance?
+Email the Technical Response Service or call 800-254-6735
+The AFDC is a resource of the U.S. Department of Energy's Vehicle Technologies Office.
+Contacts | Web Site Policies | U.S. Department of Energy | USA.gov
+×

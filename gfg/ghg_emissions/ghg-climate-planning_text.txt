@@ -1,0 +1,138 @@
+Understanding Our Emissions - Environment | seattle.gov
+Skip to main content
+Services & Information
+Departments
+Elected Officials
+Boards & Commissions
+Media Contacts
+News
+Events
+Close
+Main Menu
+Environment
+Green New Deal
+Climate Impact Actions
+Green New Deal Oversight Board
+Buildings & Energy
+Building Tune-Ups
+About Building Tune-Ups
+How to Comply
+Building Tune-Up Accelerator Program
+Resources
+FAQs
+Enforcement
+Energy Benchmarking
+Benchmarking Instructions
+Data and Reports
+About Benchmarking
+Penalties
+Benchmarking FAQs
+Benchmarking Map and Building Reports
+Contact the Benchmarking Team
+Seattle Energy Code
+Building Performance Standards
+Seattle Building Performance Standards Policy Development
+Clean Buildings for Washington
+Seattle Clean Buildings Accelerator
+Seattle's Clean Heat Program
+City Facilities
+Sustainable Buildings & Sites
+Resource Conservation Initiative
+Capital Green Toolkit
+Resources & Reports
+Transportation
+Transportation Electrification
+Transportation Electrification Blueprint
+Supporting Mode Shift
+Exploring Road Pricing
+Climate Planning
+Climate Action Plan
+Adaptation
+Understanding Our Emissions
+Services & Information
+Departments
+Elected Officials
+Boards & Commissions
+Media Contacts
+News
+Events
+Office of Sustainability & Environment
+Climate Change
+Equity & Environment
+Sustainable Communities
+Environmental Progress
+About Us
+Home
+Climate Change
+Climate Planning
+Understanding Our Emissions
+Seattle releases an analysis of our climate pollution, called a greenhouse gas inventory, every two years. See the tabs below for more context on why this work is important, what our recent analysis is telling us, and the action steps we are committed to. A downloadable version of our most recent report is here.
+<
+What and Why
+Climate Justice
+Data
+Past Reports
+Overview
+A greenhouse gas (GHG) is a gas in the atmosphere that traps and holds heat. When we use the phrase greenhouse gas emissions, we are talking about the gasses that are released into the atmosphere primarily as a result of human activities. The more GHGs we release, the more our climate is impacted. We measure our greenhouse gas emissions using a geographic-based emissions inventory to better understand the scope and scale of our local climate footprint, the impact of our actions, opportunities for progress, and the challenges ahead.
+The Seattle GHG inventory tracks emissions over three key sectors: transportation, buildings, and waste for a total of over 3 million metric tons of climate pollution emitted and transportation continuing to account for the majority of core emissions. As our population and economy continue to grow, we need to take bolder steps to become a sustainable, healthy, and climate friendly city.
+Recent Update
+The 2020 GHG Inventory finds a marked decrease in greenhouse gas emissions since the prior 2018 report, the majority of which are likely temporary and primarily attributed to the impacts of the COVID-19 pandemic.
+Transportation (24.5% decrease in emissions)
+Seattle’s residents drove significantly less in 2020 primarily due to COVID-19 stay-at-home orders, resulting a 20% decrease in both passenger and freight vehicle miles traveled (VMTs).
+Public transit was especially hard hit, and traffic monitors show vehicle volume and personal vehicle travel patterns returning back to baseline.
+The 2020 GHG inventory also showed a 5% decrease in emissions per mile, a trend that is likely to continue as vehicles on the road will continue to get gradually more efficient.
+Buildings (5% decrease in residential and commercial emissions)
+All core building emissions categories decreased except for residential (3% increase), which accounts for the increase in time spent at home as residents who were able adhered to stay-at-home orders and continued working from home.
+At the same time, Seattle’s buildings also got more efficient, consuming 5% less energy per capita after normalizing for weather, a trend that is expected to continue, and Seattle City Light's emissions factors changed as the utility reported a resource portfolio with less carbon-intensive electricity compared to 2018.
+As with transportation emissions, commercial building emissions are expected to rebound in consequent years.
+Waste (12.4% decrease in emissions)
+The major factors contributing to the reduction in waste emissions were a decrease in commercial waste due to the pandemic, and a new residential waste composition study, which shows a lower percentage of recyclable and compostable materials entering the waste stream.
+Waste emissions account for just 1.2% of total core emissions in this geographic-based emissions inventory, but SPU’s consistent efforts to improve the composition of municipal solid waste have led to a 35.5% reduction in emissions since 2008.
+Seattle is also working with a team of local jurisdictions led by King County to develop a Consumption-Based Emissions Inventory, which looks at GHG emissions that come from the products and services we buy and consume here in the city, but may be produced locally or elsewhere. The analysis will provide fresh insight into Seattle’s consumption based emissions sources. The results of this inventory will be posted on this webpage when released
+Climate Justice
+Climate change is a racial justice issue. Seattle's increasing consumption of fossil gas is harming all of our communities. Yet, we know that our Black, Indigenous, and People of Color (BIPOC) communities are being impacted disproportionately. These communities unequally bear the burden of climate change, air pollution, and environmental degradation.
+While our current climate analysis provides us a broad understanding of how our emissions are trending, it is not detailed enough in scope or depth to use as the primary source for making decisions that center racial equity. It is therefore imperative that we center this context when analyzing the results of this inventory and prioritize partnering with BIPOC communities to shape equitable climate policy for the City.
+As called for in the Green New Deal Resolution (Res 31895) to address these gaps, OSE is developing a map-based website which will be updated on a quarterly basis to provide more frequent and granular data indicators of emissions in Seattle’s neighborhoods. The “One Seattle Climate Portal” will be released by the end of 2022. Beginning in 2023 the City will develop the next phase of the portal which will incorporate community led data efforts, as well as ways to spatially track city-led investments.
+Climate Data Visualizations
+All of our inventory data is now available to explore through the dashboards below. The first dashboard displays data on overall emissions trends since the baseline year of 2008. The second dashboard contains a detailed breakdown of emissions by sector, sub-sector, source, and fuel type.
+If the dashboards are not displaying correctly in your browser click these links to open in a new tab:
+Emissions Trends
+Emissions by Sector
+Difference between Core and Expanded emissions: Core emissions include the transportation, buildings, and waste sectors. Core emissions sources are those the city can most directly and significantly impact. Expanded emissions include all core emission sectors as well as additional sectors that the City has less direct influence over.
+We measure and track Seattle's greenhouse gas (GHG) emissions on a regular basis. These reports identify the source and amount of climate pollution across the city of Seattle.
+2018 Community Inventory
+2016 Community Inventory
+2014 Community Inventory
+2012 Community Inventory
+2008 Community Inventory
+2005 Community & City Operations Inventory
+Sustainability and Environment
+Jessyn Farrell, Director
+Address:
+700 5th Avenue, #1868, Seattle, WA, 98104
+Mailing Address:
+PO Box 94729, Seattle, WA, 98124-4729
+Phone: (206) 256-5158
+Email: maketa.brazier@seattle.gov
+Newsletter Updates
+Subscribe
+Sign up for the latest updates from Sustainability and Environment
+City-Wide Information
+Elected Officials
+Open Data Portal
+Public Records
+City News Feed
+City Event Calendar
+All City Newsletters
+View the Departments & Agencies List
+Top Requests
+Learn About Regional Adaptation Planning
+Learn About the City's Climate Action Plan
+Learn About the City's Climate Change Strategies
+Learn About the Drive Clean Seattle Initiative
+We collaborate with City agencies, business groups, nonprofit organizations, and other partners to protect and enhance Seattle's distinctive environmental quality and livability.
+© Copyright 1995-2023 City of Seattle
+Policies
+About Our Digital Properties
+Privacy Policy
+ADA Notice

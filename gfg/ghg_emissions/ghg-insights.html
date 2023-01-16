@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"NRJS-85441708ad22153833b",applicationID:"1557361636"};/*! For license information please see nr-loader-rum-1221.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={507:function(__unused_webpack_module,__webpack_exports__,__webpack_require__){"use strict";function detectPolyfillFeatures(){var featureStatus={};return checkAndAddFeature("Promise","PROMISE"),checkAndAddFeature("Array.prototype.includes","ARRAY_INCLUDES"),checkAndAddFeature("Object.assign","OBJECT_ASSIGN"),checkAndAddFeature("Object.entries","OBJECT_ENTRIES"),featureStatus;function checkAndAddFeature(funcString,featName){try{var func=eval("self."+funcString);-1!==func.toString().indexOf("[native code]")?featureStatus[featName]=Status.NATIVE:featureStatus[featName]=Status.CHANGED}catch(e){featureStatus[featName]=Status.UNAVAIL}}}__webpack_require__.d(__webpack_exports__,{n:function(){return detectPolyfillFeatures}});var Status={UNAVAIL:"NotSupported",NATIVE:"Detected",CHANGED:"Modified"}},2687:function(e,t,r){"use strict";var n=r(2141);t.Z=(0,n.ky)(16)},1719:function(e,t,r){"use strict";r.d(t,{I:function(){return n}});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},3524:function(e,t,r){"use strict";var n,i;if(r.d(t,{H:function(){return i}}),r(8283).B){var o=document.createElement("div");o.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=o.getElementsByTagName("div").length}i=4===n?6:3===n?7:2===n?8:1===n?9:0},5970:function(e,t,r){"use strict";r.d(t,{Mt:function(){return p},C5:function(){return u},OP:function(){return C},Yu:function(){return b},Dg:function(){return d},CX:function(){return s},GE:function(){return h},sU:function(){return R}});var n={};r.r(n),r.d(n,{agent:function(){return w},match:function(){return x},version:function(){return m}});var i=r(4580),o=function(e,t){var r=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],n=e[1];r[t]=n}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")},a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},c={};function u(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!c[e])throw new Error("Info for "+e+" was never set");return c[e]}function s(e,t){if(!e)throw new Error("All info objects require an agent identifier!");c[e]=new o(t,a),(0,i.Qy)(e,c[e],"info")}var f={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},l={};function d(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=new o(t,f),(0,i.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=function(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for "+e+" was never set");return l[e]}(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}var v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};function h(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");_[e]=new o(t,v),(0,i.Qy)(e,_[e],"loader_config")}var b=(0,i.mF)().o,g=r(3524),y=r(9206),w=null,m=null;if(navigator.userAgent){var k=navigator.userAgent,O=k.match(/Version\/(\S+)\s+Safari/);O&&-1===k.indexOf("Chrome")&&-1===k.indexOf("Chromium")&&(w="Safari",m=O[1])}function x(e,t){if(!w)return!1;if(e!==w)return!1;if(!t)return!0;if(!m)return!1;for(var r=m.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var E=r(2141),P=r(8283).B?window.sessionStorage:void 0,S="NRBA_SESSION_ID";var j=self.XMLHttpRequest,A=j&&j.prototype,q={};function C(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!q[e])throw new Error("Runtime for "+e+" was never set");return q[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r,a;q[e]=new o(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===g.H?2e3:3e4,offset:(0,y.yf)(),onerror:void 0,origin:""+self.location,ptid:void 0,releaseIds:{},sessionId:1==p(r,"privacy.cookies_enabled")&&P?(null===(a=P.getItem(S))&&(a=(0,E.ky)(16),P.setItem(S,a)),a):null,xhrWrappable:j&&A&&A.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,q[e],"runtime")}},8873:function(e,t,r){"use strict";r.d(t,{q:function(){return n}});var n=["1221","PROD"].filter((function(e){return e})).join(".")},1925:function(e,t,r){"use strict";r.d(t,{w:function(){return i}});var n={agentIdentifier:""},i=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,n),Object.entries(e).forEach((function(e){var r=e[0],i=e[1];Object.keys(n).includes(r)&&(t.sharedContext[r]=i)}))}},2071:function(e,t,r){"use strict";r.d(t,{ee:function(){return n}});var n,i=r(4580),o=r(9010),a=r(9599),c="nr@context",u=(0,i.fP)();function s(){}function f(){return new s}function l(){(n.backlog.api||n.backlog.feature)&&(n.aborted=!0,n.backlog={})}u.ee?n=u.ee:(n=function e(t,r){var i={},u={},d={},p={on:h,addEventListener:h,removeEventListener:b,emit:_,get:y,listeners:g,context:v,buffer:w,abort:l,aborted:!1,isBuffering:m,debugId:r,backlog:t&&t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof s?e:e?(0,o.X)(e,c,f):f()}function _(e,r,i,o,a){if(!1!==a&&(a=!0),!n.aborted||o){t&&a&&t.emit(e,r,i);for(var c=v(i),s=g(e),f=s.length,l=0;l<f;l++)s[l].apply(c,r);var d=k()[u[e]];return d&&d.push([p,e,r,c]),c}}function h(e,t){i[e]=g(e).concat(t)}function b(e,t){var r=i[e];if(r)for(var n=0;n<r.length;n++)r[n]===t&&r.splice(n,1)}function g(e){return i[e]||[]}function y(t){return d[t]=d[t]||e(p,t)}function w(e,t){var r=k();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",u[n]=t,t in r||(r[t]=[])}))}function m(e){return!!k()[u[e]]}function k(){return p.backlog}}(void 0,"globalEE"),u.ee=n)},3195:function(e,t,r){"use strict";r.d(t,{E:function(){return n},p:function(){return i}});var n=r(2071).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4539:function(e,t,r){"use strict";r.d(t,{X:function(){return o}});var n=r(3195);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3585:function(e,t,r){"use strict";r.d(t,{m:function(){return o}});var n=!1;try{var i=Object.defineProperty({},"passive",{get:function(){n=!0}});self.addEventListener("testPassive",null,i),self.removeEventListener("testPassive",null,i)}catch(e){}function o(e){return n?{passive:!0,capture:!!e}:!!e}},2141:function(e,t,r){"use strict";function n(){var e=null,t=0,r=self.crypto||self.msCrypto;function n(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)a+="x"===(i=o[c])?n().toString(16):"y"===i?(i=3&n()|8).toString(16):i;return a}function i(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}r.d(t,{Rl:function(){return n},ky:function(){return i}})},9206:function(e,t,r){"use strict";r.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var n=r(1209),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function c(){return i}function u(e){o=e}function s(){return o}},1209:function(e,t,r){"use strict";var n,i;r.d(t,{G:function(){return o}});var o=void 0!==(null==(n=self.performance)||null==(i=n.timing)?void 0:i.navigationStart)},745:function(e,t,r){"use strict";r.d(t,{s:function(){return c},v:function(){return u}});var n=r(7036),i=r(1719),o=r(9206),a=r(1209),c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,self.performance.timing.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},7036:function(e,t,r){"use strict";r.d(t,{B:function(){return o},L:function(){return a}});var n=r(9206),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){var o,a,c=e.sharedContext.agentIdentifier,u=null==(o=i[c])?void 0:o[r],s=null==(a=i[c])?void 0:a[n];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},8547:function(e,t,r){"use strict";r.d(t,{T:function(){return i}});var n=r(8283),i={isFileProtocol:function(){var e,t=(0,n.ek)(),r=Boolean("file:"===(null==(e=t.location)?void 0:e.protocol));r&&(i.supportabilityMetricSent=!0);return r},supportabilityMetricSent:!1}},9011:function(e,t,r){"use strict";r.d(t,{K:function(){return o}});var n=r(5970),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function o(e){var t={};return i.forEach((function(r){t[r]=function(e,t){return!0!==(0,n.OP)(t).disabled&&!1!==(0,n.Mt)(t,e+".enabled")}(r,e)})),t}},8025:function(e,t,r){"use strict";r.d(t,{W:function(){return i}});var n=r(2071),i=function(e,t,r){void 0===r&&(r=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.externalFeatures=r}},9010:function(e,t,r){"use strict";r.d(t,{X:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9599:function(e,t,r){"use strict";r.d(t,{D:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},248:function(e,t,r){"use strict";r.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var n=r(5970),i=r(1925),o=r(8547);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,r;function n(t){return e.call(this,t)||this}r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,a(t,r);var i=n.prototype;return i.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},i.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r},n}(i.w);function s(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},4580:function(e,t,r){"use strict";r.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return i},fP:function(){return o},gG:function(){return s},mF:function(){return a}});var n=r(9206),i={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return self.NREUM||(self.NREUM={}),void 0===self.newrelic&&(self.newrelic=self.NREUM),self.NREUM}function a(){var e=o();if(!e.o){var t=self,r=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:r,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,r){var i,a,c=o(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((i={})[r]=t,i)),a)),c}function u(e,t){o()[e]=t}function s(){var e,t;return e=o(),t=e.info||{},e.info=Object.assign({beacon:i.beacon,errorBeacon:i.errorBeacon},t),function(){var e=o(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=o(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),o()}},8283:function(e,t,r){"use strict";r.d(t,{B:function(){return a},ek:function(){return o},n2:function(){return c}});var n=self,i=n;function o(){return i}var a=Boolean("object"==typeof window&&self.document),c=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator)},8539:function(e){e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},__webpack_module_cache__={},inProgress,dataWebpackPrefix;function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.m=__webpack_modules__,__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,{a:t}),t},__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.f={},__webpack_require__.e=function(e){return Promise.all(Object.keys(__webpack_require__.f).reduce((function(t,r){return __webpack_require__.f[r](e,t),t}),[]))},__webpack_require__.u=function(e){return e+"."+__webpack_require__.h().slice(0,8)+"-1221.js"},__webpack_require__.h=function(){return"25fcbbf1b6e5e9bcbd37"},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},inProgress={},dataWebpackPrefix="NRBA:",__webpack_require__.l=function(e,t,r,n){if(inProgress[e])inProgress[e].push(t);else{var i,o;if(void 0!==r)for(var a=document.getElementsByTagName("script"),c=0;c<a.length;c++){var u=a[c];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==dataWebpackPrefix+r){i=u;break}}i||(o=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,__webpack_require__.nc&&i.setAttribute("nonce",__webpack_require__.nc),i.setAttribute("data-webpack",dataWebpackPrefix+r),i.src=e),inProgress[e]=[t];var s=function(t,r){i.onerror=i.onload=null,clearTimeout(f);var n=inProgress[e];if(delete inProgress[e],i.parentNode&&i.parentNode.removeChild(i),n&&n.forEach((function(e){return e(r)})),t)return t(r)},f=setTimeout(s.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=s.bind(null,i.onerror),i.onload=s.bind(null,i.onload),o&&document.head.appendChild(i)}},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.p="https://js-agent.newrelic.com/",function(){var e={195:0,10:0};__webpack_require__.f.j=function(t,r){var n=__webpack_require__.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var i=new Promise((function(r,i){n=e[t]=[r,i]}));r.push(n[2]=i);var o=__webpack_require__.p+__webpack_require__.u(t),a=new Error;__webpack_require__.l(o,(function(r){if(__webpack_require__.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var i=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed.\n("+i+": "+o+")",a.name="ChunkLoadError",a.type=i,a.request=o,n[1](a)}}),"chunk-"+t,t)}};var t=function(t,r){var n,i,o=r[0],a=r[1],c=r[2],u=0;if(o.some((function(t){return 0!==e[t]}))){for(n in a)__webpack_require__.o(a,n)&&(__webpack_require__.m[n]=a[n]);if(c)c(__webpack_require__)}for(t&&t(r);u<o.length;u++)i=o[u],__webpack_require__.o(e,i)&&e[i]&&e[i][0](),e[i]=0},r=self.webpackChunkNRBA=self.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))}();var __webpack_exports__={};!function(){"use strict";__webpack_require__.r(__webpack_exports__);var e=__webpack_require__(507),t=__webpack_require__(2687),r=__webpack_require__(3585),n=__webpack_require__(8283),i=n.B&&window,o=i&&i.document;function a(e){if(!o||"complete"===o.readyState)return e()||!0}function c(e){a(e)||i.addEventListener("load",e,(0,r.m)(!1))}function u(e){a(e)||o.addEventListener("DOMContentLoaded",e,(0,r.m)(!1))}var s=__webpack_require__(2071);function f(){f=function(){return e};var e={},t=Object.prototype,r=t.hasOwnProperty,n=Object.defineProperty||function(e,t,r){e[t]=r.value},i="function"==typeof Symbol?Symbol:{},o=i.iterator||"@@iterator",a=i.asyncIterator||"@@asyncIterator",c=i.toStringTag||"@@toStringTag";function u(e,t,r){return Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{u({},"")}catch(e){u=function(e,t,r){return e[t]=r}}function s(e,t,r,i){var o=t&&t.prototype instanceof p?t:p,a=Object.create(o.prototype),c=new P(i||[]);return n(a,"_invoke",{value:k(e,r,c)}),a}function l(e,t,r){try{return{type:"normal",arg:e.call(t,r)}}catch(e){return{type:"throw",arg:e}}}e.wrap=s;var d={};function p(){}function v(){}function _(){}var h={};u(h,o,(function(){return this}));var b=Object.getPrototypeOf,g=b&&b(b(S([])));g&&g!==t&&r.call(g,o)&&(h=g);var y=_.prototype=p.prototype=Object.create(h);function w(e){["next","throw","return"].forEach((function(t){u(e,t,(function(e){return this._invoke(t,e)}))}))}function m(e,t){function i(n,o,a,c){var u=l(e[n],e,o);if("throw"!==u.type){var s=u.arg,f=s.value;return f&&"object"==typeof f&&r.call(f,"__await")?t.resolve(f.__await).then((function(e){i("next",e,a,c)}),(function(e){i("throw",e,a,c)})):t.resolve(f).then((function(e){s.value=e,a(s)}),(function(e){return i("throw",e,a,c)}))}c(u.arg)}var o;n(this,"_invoke",{value:function(e,r){function n(){return new t((function(t,n){i(e,r,t,n)}))}return o=o?o.then(n,n):n()}})}function k(e,t,r){var n="suspendedStart";return function(i,o){if("executing"===n)throw new Error("Generator is already running");if("completed"===n){if("throw"===i)throw o;return j()}for(r.method=i,r.arg=o;;){var a=r.delegate;if(a){var c=O(a,r);if(c){if(c===d)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===n)throw n="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n="executing";var u=l(e,t,r);if("normal"===u.type){if(n=r.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:r.done}}"throw"===u.type&&(n="completed",r.method="throw",r.arg=u.arg)}}}function O(e,t){var r=e.iterator[t.method];if(void 0===r){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,O(e,t),"throw"===t.method))return d;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var n=l(r,e.iterator,t.arg);if("throw"===n.type)return t.method="throw",t.arg=n.arg,t.delegate=null,d;var i=n.arg;return i?i.done?(t[e.resultName]=i.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,d):i:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,d)}function x(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function E(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function P(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(x,this),this.reset(!0)}function S(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var n=-1,i=function t(){for(;++n<e.length;)if(r.call(e,n))return t.value=e[n],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:j}}function j(){return{value:void 0,done:!0}}return v.prototype=_,n(y,"constructor",{value:_,configurable:!0}),n(_,"constructor",{value:v,configurable:!0}),v.displayName=u(_,c,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===v||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,_):(e.__proto__=_,u(e,c,"GeneratorFunction")),e.prototype=Object.create(y),e},e.awrap=function(e){return{__await:e}},w(m.prototype),u(m.prototype,a,(function(){return this})),e.AsyncIterator=m,e.async=function(t,r,n,i,o){void 0===o&&(o=Promise);var a=new m(s(t,r,n,i),o);return e.isGeneratorFunction(r)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},w(y),u(y,c,"Generator"),u(y,o,(function(){return this})),u(y,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=Object(e),r=[];for(var n in t)r.push(n);return r.reverse(),function e(){for(;r.length;){var n=r.pop();if(n in t)return e.value=n,e.done=!1,e}return e.done=!0,e}},e.values=S,P.prototype={constructor:P,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!e)for(var t in this)"t"===t.charAt(0)&&r.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function n(r,n){return a.type="throw",a.arg=e,t.next=r,n&&(t.method="next",t.arg=void 0),!!n}for(var i=this.tryEntries.length-1;i>=0;--i){var o=this.tryEntries[i],a=o.completion;if("root"===o.tryLoc)return n("end");if(o.tryLoc<=this.prev){var c=r.call(o,"catchLoc"),u=r.call(o,"finallyLoc");if(c&&u){if(this.prev<o.catchLoc)return n(o.catchLoc,!0);if(this.prev<o.finallyLoc)return n(o.finallyLoc)}else if(c){if(this.prev<o.catchLoc)return n(o.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<o.finallyLoc)return n(o.finallyLoc)}}}},abrupt:function(e,t){for(var n=this.tryEntries.length-1;n>=0;--n){var i=this.tryEntries[n];if(i.tryLoc<=this.prev&&r.call(i,"finallyLoc")&&this.prev<i.finallyLoc){var o=i;break}}o&&("break"===e||"continue"===e)&&o.tryLoc<=t&&t<=o.finallyLoc&&(o=null);var a=o?o.completion:{};return a.type=e,a.arg=t,o?(this.method="next",this.next=o.finallyLoc,d):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),d},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.finallyLoc===e)return this.complete(r.completion,r.afterLoc),E(r),d}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.tryLoc===e){var n=r.completion;if("throw"===n.type){var i=n.arg;E(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,r){return this.delegate={iterator:S(e),resultName:t,nextLoc:r},"next"===this.method&&(this.arg=void 0),d}},e}function l(e,t,r,n,i,o,a){try{var c=e[o](a),u=c.value}catch(e){return void r(e)}c.done?t(u):Promise.resolve(u).then(n,i)}var d=0;function p(e){var t;(t=f().mark((function t(){var r,n;return f().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!d++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,__webpack_require__.e(859).then(__webpack_require__.bind(__webpack_require__,7859));case 5:return r=t.sent,n=r.aggregator,t.next=9,n(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),s.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,r=arguments;return new Promise((function(n,i){var o=t.apply(e,r);function a(e){l(o,n,i,a,c,"next",e)}function c(e){l(o,n,i,a,c,"throw",e)}a(void 0)}))})()}var v=__webpack_require__(8539),_=__webpack_require__.n(v),h=__webpack_require__(4580),b=__webpack_require__(5970),g=__webpack_require__(3195),y=__webpack_require__(9599),w=__webpack_require__(9206);var m=!1;var k=__webpack_require__(7036),O=__webpack_require__(745),x=__webpack_require__(8025);function E(e,t){return E=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},E(e,t)}var P,S,j,A=function(e){var t,r;function i(t){var r;return r=e.call(this,t)||this,n.B?((0,O.v)(t),(0,k.B)(t,"firstbyte",(0,w.yf)()),c((function(){return r.measureWindowLoaded()})),u((function(){return r.measureDomContentLoaded()})),r):function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r)}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,E(t,r);var o=i.prototype;return o.measureWindowLoaded=function(){var e=(0,w.zO)();(0,k.B)(this.agentIdentifier,"onload",e+(0,w.os)()),(0,g.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,k.B)(this.agentIdentifier,"domContent",(0,w.zO)()+(0,w.os)())},i}(x.W);function q(e,t){return q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},q(e,t)}n.B&&(void 0!==document.hidden?(P="hidden",S="visibilitychange",j="visibilityState"):void 0!==document.msHidden?(P="msHidden",S="msvisibilitychange"):void 0!==document.webkitHidden&&(P="webkitHidden",S="webkitvisibilitychange",j="webkitVisibilityState"));var C=function(e){var t,i;function o(t){var i,o;if(!(i=e.call(this,t)||this).isEnabled()||!n.B)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(i);if(i.pageHiddenTime="hidden"===document.visibilityState?-1:1/0,i.performanceObserver,i.lcpPerformanceObserver,i.clsPerformanceObserver,i.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i.performanceObserver=new PerformanceObserver((function(){var e;return(e=i).perfObserver.apply(e,arguments)}));try{i.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}i.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).lcpObserver.apply(e,arguments)}));try{i.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}i.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).clsObserver.apply(e,arguments)}));try{i.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){i.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(e){document.addEventListener(e,(function(){var e;return(e=i).captureInteraction.apply(e,arguments)}),(0,r.m)(!1))}))}return o=function(){var e;return(e=i).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&S&&document.addEventListener(S,(function(){j&&document[j]?o(document[j]):document[P]?o("hidden"):o("visible")}),(0,r.m)(!1)),i}i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,q(t,i);var a=o.prototype;return a.isEnabled=function(){return!1!==(0,b.Mt)(this.agentIdentifier,"page_view_timing.enabled")},a.perfObserver=function(e,t){var r=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,g.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,r.ee):"first-contentful-paint"===e.name&&(0,g.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,r.ee)}))},a.lcpObserver=function(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,g.p)("lcp",i,void 0,void 0,this.ee)}},a.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,g.p)("cls",[e],void 0,void 0,t.ee)}))},a.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},a.captureInteraction=function(e){if(e instanceof b.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,w.zO)()?r.fid=(0,w.zO)()-t:t>(0,w.os)()&&t<=Date.now()?(t-=(0,w.os)(),r.fid=(0,w.zO)()-t):t=(0,w.zO)(),this.fiRecorded=!0,(0,g.p)("timing",["fi",t,r],void 0,void 0,this.ee)}},a.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,w.zO)(),(0,g.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(x.W),R=__webpack_require__(4539),L="React",T="Angular",N="AngularJS",I="Backbone",B="Ember",M="Vue",D="Meteor",F="Zepto",G="Jquery";function W(){if(!n.B)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(L),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(N),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(T),window.Backbone&&e.push(I),window.Ember&&e.push(B),window.Vue&&e.push(M),window.Meteor&&e.push(D),window.Zepto&&e.push(F),window.jQuery&&e.push(G)}catch(e){}return e}var H,z=__webpack_require__(8547),V=__webpack_require__(248),U=__webpack_require__(8873);function Z(e,t,r){return Z=X()?Reflect.construct.bind():function(e,t,r){var n=[null];n.push.apply(n,t);var i=new(Function.bind.apply(e,n));return r&&Q(i,r.prototype),i},Z.apply(null,arguments)}function X(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}function Q(e,t){return Q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Q(e,t)}var J,Y,K,$=Boolean(self.Worker),ee=Boolean(self.SharedWorker),te=Boolean(null==(H=self.navigator)?void 0:H.serviceWorker);function re(e,t){return re=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},re(e,t)}var ne,ie,oe,ae=function(e){var t,r;function i(t,r){var n;return void 0===r&&(r={}),(n=e.call(this,t)||this).PfFeatStatusEnum=r,n.singleChecks(),(0,R.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,R.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,re(t,r);var o=i.prototype;return o.recordSupportability=function(e,t){var r=["sm",e,{name:e},t];return(0,g.p)("storeMetric",r,null,void 0,this.ee),r},o.recordCustom=function(e,t){var r=["cm",e,{name:e},t];return(0,g.p)("storeEventMetrics",r,null,void 0,this.ee),r},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+U.q+"/Detected"),n.B&&u((function(){W().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),z.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),z.T.supportabilityMetricSent=!0);var t=(0,V.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,V.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),n.B&&this.reportPolyfillsNeeded(),function(e){if(!J){if($){J=Worker;try{self.Worker=r(J,"Dedicated")}catch(e){a(e,"Dedicated")}if(ee){Y=SharedWorker;try{self.SharedWorker=r(Y,"Shared")}catch(e){a(e,"Shared")}}else i("Shared");if(te){K=navigator.serviceWorker.register;try{self.navigator.serviceWorker.register=(t=K,function(){for(var e,r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return o("Service",null==(e=n[1])?void 0:e.type),t.apply(navigator.serviceWorker,n)})}catch(e){a(e,"Service")}}else i("Service");var t;return}i("All")}function r(e,t){return new Proxy(e,{construct:function(e,r){var n;return o(t,null==(n=r[1])?void 0:n.type),Z(e,r)}})}function i(t){n.n2||e("Workers/"+t+"/Unavailable")}function o(t,r){e("module"===r?"Workers/"+t+"/Module":"Workers/"+t+"/Classic")}function a(t,r){e("Workers/"+r+"/SM/Unsupported"),console.warn("NR Agent: Unable to capture "+r+" workers.",t)}}(this.recordSupportability.bind(this))},o.reportPolyfillsNeeded=function(){this.recordSupportability("Generic/Polyfill/Promise/"+this.PfFeatStatusEnum.PROMISE),this.recordSupportability("Generic/Polyfill/ArrayIncludes/"+this.PfFeatStatusEnum.ARRAY_INCLUDES),this.recordSupportability("Generic/Polyfill/ObjectAssign/"+this.PfFeatStatusEnum.OBJECT_ASSIGN),this.recordSupportability("Generic/Polyfill/ObjectEntries/"+this.PfFeatStatusEnum.OBJECT_ENTRIES)},i}(x.W),ce=__webpack_require__(9011),ue=(0,e.n)();try{!function(){if(!m){var e=(0,h.gG)();n.n2&&(e.info.jsAttributes=Object.assign({},e.info.jsAttributes,{isWorker:!0}));try{(0,b.CX)(t.Z,e.info),(0,b.Dg)(t.Z,e.init),(0,b.GE)(t.Z,e.loader_config),(0,b.sU)(t.Z,{}),function(e){var t=(0,h.fP)(),r=s.ee.get(e),n=r.get("tracer"),i="api-",o="api-ixn-";function a(){}(0,y.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=u(i,r,!0,"api")})),t.addPageAction=u(i,"addPageAction",!0),t.setCurrentRouteName=u(i,"routeName",!0),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,b.OP)(e).customTransaction=(r||"http://custom.transaction")+t,u(i,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){var n,o=(0,b.C5)(e);return(0,b.CX)(e,Object.assign({},o,{jsAttributes:Object.assign({},o.jsAttributes,(n={},n[t]=r,n))})),u(i,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var i={},o=this,a="function"==typeof t;return(0,g.p)("api-ixn-tracer",[(0,w.zO)(),e,i],o,void 0,r),function(){if(n.emit((a?"":"no-")+"fn-start",[(0,w.zO)(),o,a],i),a)try{return t.apply(this,arguments)}catch(e){throw n.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],i),e}finally{n.emit("fn-end",[(0,w.zO)()],i)}}}};function u(e,t,n,i){return function(){return(0,g.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,r),(0,g.p)(e+t,[(0,w.zO)()].concat(_()(arguments)),n?null:this,i,r),n?void 0:this}}(0,y.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=u(o,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,g.p)("record-supportability",["API/noticeError/called"],void 0,void 0,r),(0,g.p)("err",[e,(0,w.zO)(),!1,t],void 0,void 0,r)}}(t.Z),m=!0}catch(e){}}}();var se=(0,ce.K)(t.Z);se.page_view_event&&new A(t.Z),se.page_view_timing&&new C(t.Z),se.metrics&&new ae(t.Z,ue),ne="lite",void 0===oe&&(oe=1e3),ie?setTimeout((function(){return p(ne)}),oe):n.B?c((function(){return p(ne)})):p(ne)}catch(e){var fe,le,de;null!=(fe=self)&&null!=(le=fe.newrelic)&&null!=(de=le.ee)&&de.abort&&self.newrelic.ee.abort()}}(),self.NRBA=__webpack_exports__})();
+//# sourceMappingURL=https://js-agent.newrelic.com/nr-loader-rum-1221.min.25fcbbf1.map</script>
+<link rel="canonical" href="https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors" />
+<meta name="description" content="Which countries have the highest greenhouse gas emissions, and which sectors are the biggest polluters? WRI’s Climate Watch platform offers answers." />
+<meta name="citation_title" content="4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors" />
+<meta name="citation_author" content="Mengpin Ge" />
+<meta name="citation_author" content="Johannes Friedrich" />
+<meta name="citation_author" content="Leandro Vigna" />
+<meta name="citation_publication_date" content="Thu, 02/06/2020 - 11:50" />
+<meta property="og:site_name" content="World Resources Institute" />
+<meta property="og:url" content="https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors" />
+<meta property="og:title" content="4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors" />
+<meta property="og:description" content="Which countries have the highest greenhouse gas emissions, and which sectors are the biggest polluters? WRI’s Climate Watch platform offers answers." />
+<meta property="og:image" content="https://files.wri.org/d8/s3fs-public/styles/1222x722/s3/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=B_JXBiG7Yqpw.7b_7dVevP_Xtw8D7DOD&amp;h=cfea4fea&amp;itok=ruYLR4bi" />
+<meta property="og:image:width" content="1222" />
+<meta property="og:image:height" content="722" />
+<meta property="og:image:alt" content="Emissions rising from a factory with a sunset in the background." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Which countries have the highest greenhouse gas emissions, and which sectors are the biggest polluters? WRI’s Climate Watch platform offers answers." />
+<meta name="twitter:title" content="4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Article",
+            "headline": "4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors",
+            "name": "4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors",
+            "about": {
+                "0": "Climate",
+                "2": "Energy"
+            },
+            "description": "Which countries have the highest greenhouse gas emissions, and which sectors are the biggest polluters? WRI’s Climate Watch platform offers answers.",
+            "image": {
+                "@type": "ImageObject",
+                "representativeOfPage": "True",
+                "url": "https://files.wri.org/d8/s3fs-public/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=84GSS2WkEEWYQUK0aKSDj9_BiCJ2xNQA",
+                "width": "1440px",
+                "height": "550px"
+            },
+            "datePublished": "Thu, 02/06/2020 - 11:50",
+            "dateModified": "Mon, 09/26/2022 - 14:35",
+            "isAccessibleForFree": "True",
+            "author": {
+                "@type": "Person",
+                "name": [
+                    "Mengpin Ge",
+                    "Johannes Friedrich",
+                    "Leandro Vigna"
+                ]
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.wri.org/",
+                "name": "World Resources Institute",
+                "url": "https://www.wri.org/"
+            },
+            "mainEntityOfPage": "https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors"
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://www.wri.org/",
+            "name": "World Resources Institute",
+            "url": "https://www.wri.org/",
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.wri.org/",
+                "name": "World Resource Institute",
+                "url": "https://www.wri.org/",
+                "sameAs": [
+                    "http://www.facebook.com/pages/World-Resources-Institute/61863318139",
+                    "http://twitter.comworldresources",
+                    "http://www.youtube.com/WorldResourcesInst",
+                    "https://www.linkedin.com/company/world-resources-institute/"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "representativeOfPage": "True",
+                    "url": "https://www.wri.org/profiles/contrib/wri_sites/themes/custom/ts_wrin/logo.png",
+                    "width": "150",
+                    "height": "53"
+                }
+            }
+        }
+    ]
+}</script>
+<link rel="icon" href="/profiles/contrib/wri_sites/themes/custom/ts_wrin/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="/sites/default/files/google_tag/ga4_testing/google_tag.script.js?rofqtn" defer></script>
+
+    <title>5 Facts about Country &amp; Sector GHG Emissions</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_ChNkGqiLSTq5l2AMh_ZDRtdLCVDSQuXPj_Do_bB70eE.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_PJMDxwkMigKO_2N1HQiw7IqRu5kH5nGq1b5ZNHaXhnc.css" />
+<link rel="stylesheet" media="all" href="https://use.typekit.net/xrt8xkt.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_rLo81i2X7Kb2SwgMdxUWSQBXgfxco5XX1oURvNK5hqc.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_LzzVvwSbA5lbahdYJEzNt5Ffju7Od6GMmrLM84GFZW8.css" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/66088","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"simple_popup_blocks":{"settings":[{"identifier":"files-modal","uid":"files_modal","type":"1","css_selector":"0","layout":"5","visit_counts":"0","overlay":"1","trigger_method":"1","trigger_selector":".files-overlay-trigger","escape":"1","delay":"0","minimize":"1","close":"1","width":"600","cookie_expiry":"100","status":"1"},{"identifier":"block-storiestowatch2023","uid":"storiestowatch2023","type":"0","css_selector":"1","layout":"4","visit_counts":"1","overlay":"1","trigger_method":"0","trigger_selector":"#custom-css-id","enable_escape":"1","delay":"0","minimize":"1","close":"1","use_time_frequency":"0","time_frequency":"3600","show_minimized_button":"0","width":"800","cookie_expiry":"100","status":"1","trigger_width":""},{"identifier":"wri-region-map-popup","uid":"wri_region_map_popup","type":"1","css_selector":"0","layout":"7","visit_counts":"0","overlay":"0","trigger_method":"1","trigger_selector":".wri-region-map-popup-button","escape":"1","delay":"0","minimize":"0","close":"0","width":"500","cookie_expiry":"0","status":"1"}]},"wri_filter":{"filterCookieName":"STYXKEY_wri_filter","allFilters":{"53":{"id":"53","name":"climate"},"226":{"id":"226","name":"cities"},"222":{"id":"222","name":"energy"},"4422":{"id":"4422","name":"food"},"73":{"id":"73","name":"forests"},"56":{"id":"56","name":"water"},"18861":{"id":"18861","name":"ocean"},"74":{"id":"74","name":"business"},"10510":{"id":"10510","name":"economics"},"9640":{"id":"9640","name":"finance"},"227":{"id":"227","name":"equity"}},"pageIsFilterable":false,"currentFilterName":""},"wri_seo":{"node_type":"article","article_details":{"insights topic":"Climate","insights region":"","insights type":"Explainer","insights publish date":"2020-02-06","primary topic":"Climate"}},"wri_common":{"gtm_id":"GTM-WGH5WB9"},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"validateDelay":25,"container":"","loader":true,"unblazy":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"user":{"uid":0,"permissionsHash":"6da986556ff8cd4af34fc6d1b4fd34a0c5b219a1c2c16c40631407b3a4258e4a"}}</script>
+<script src="/sites/default/files/js/js_SVHZkEftJ1g2WDl3GNIhkxqrSl2s8YAAxqw0e615eSI.js"></script>
+
+    
+  </head>
+  <body class="_-charts-explain-greenhouse-gas-emissions-by-countries-and-sectors path-node page-node-type-article">
+    <!-- Google Tag Manager (noscript) -->
+        <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WGH5WB9" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Grid Layout Checker -->
+        <!-- END Grid Layout Checker -->
+
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+
+    <div id="accessibility-url">
+      <a href="/accessibility" class="visually-hidden focusable skip-link">
+		    Accessibility
+      </a>
+    </div>
+      <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZF7PMT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+      
+    <div id="tray-nav-wrapper">
+  <div id="tray-nav-canvas">
+    <header>
+      <div class="container header-wrapper">
+                  
+  
+
+<div  class="region region-primary-nav">
+  <div id="block-ts-wrin-branding" class="block block-system block-system-branding-block">
+  
+    
+        <a href="/" rel="home" class="site-logo">
+      <img class="logo-white hidden" src="/sites/default/files/nav_logo_white_0.svg" alt="Home" />
+      <img class="logo-color" src="/sites/default/files/nav_logo_color_0.svg" alt="Home" />
+    </a>
+        <div class="site-name hidden">
+      <a href="/" title="Home" rel="home">World Resources Institute</a>
+    </div>
+        <div class="site-slogan visually-hidden">Making Big Ideas Happen</div>
+  </div>
+<nav role="navigation" aria-labelledby="block-ts-wrin-main-menu-menu" id="block-ts-wrin-main-menu" class="has-active-trail block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-ts-wrin-main-menu-menu">Main navigation</h2>
+  
+
+        <div class="menu-wrapper">
+
+              <ul class="menu">
+                    <li class="menu-item menu-item--collapsed">
+        <a href="/research" data-drupal-link-system-path="node/71">Research</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/data" data-drupal-link-system-path="node/72">Data</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/initiatives" data-drupal-link-system-path="node/73">Initiatives</a>
+              </li>
+                <li class="menu-item menu-item--expanded menu-item--active-trail">
+        <a href="/insights" data-drupal-link-system-path="node/100014">Insights</a>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <a href="/resources/type/insights-50?query=&amp;sort_by=created" title="Most Recent Insights" data-drupal-link-query="{&quot;query&quot;:&quot;&quot;,&quot;sort_by&quot;:&quot;created&quot;}" data-drupal-link-system-path="resources/type/insights-50">Most Recent</a>
+              </li>
+                <li class="menu-item">
+        <a href="/podcasts" data-drupal-link-system-path="node/100253">Podcasts</a>
+              </li>
+                <li class="menu-item">
+        <a href="/news" data-drupal-link-system-path="node/100179">News</a>
+              </li>
+                <li class="menu-item">
+        <a href="/resources/type/insights-50" data-drupal-link-system-path="resources/type/insights-50">All Insights</a>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+</div><a href="#scroll" class="nav-arrow"><svg aria-hidden="true" data-title="Click to see more items" tabindex="-1" data-prefix="far" data-icon="chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-chevron-right fa-w-8 fa-3x"><path d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"/><title>Click to see more</title></svg></a>
+  </nav>
+
+</div>
+
+        
+        <div class="header-right ">
+                      
+  
+
+<div  class="region region-secondary-nav">
+  <nav role="navigation" aria-labelledby="block-donate-menu" id="block-donate" class="block block-menu navigation menu--donate">
+            
+  <h2 class="visually-hidden" id="block-donate-menu">Donate</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://giving.wri.org/give/406206/#!/donation/checkout">Donate</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+</div>
+
+          
+          
+                        <button class="tray-toggle search-toggle" aria-label="Toggle Search Menu" title="Search Menu" data-tray="search-tray">
+    <svg viewBox="0 0 18 19" version="1.1" xmlns="http://www.w3.org/2000/svg">
+      <g transform="translate(1 1)" stroke-width="2" fill="none" fill-rule="evenodd">
+        <circle cx="7.69047619" cy="7.69047619" r="7.69047619" shape-rendering="geometricPrecision"/>
+        <path stroke-linecap="square" d="M13 14l2.3998058 2.3998058" shape-rendering="geometricPrecision"/>
+      </g>
+    </svg>
+  </button>          
+                        <button class="tray-toggle filter-toggle" aria-label="Toggle filter Menu" title="Filter Menu" data-tray="filter-tray">
+      <span class="filter-icon">
+        <svg width="22px" height="24px" viewBox="0 0 22 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="block-styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="assets" transform="translate(-194.000000, -186.000000)" stroke-width="2">
+              <g id="icon/gear-white-copy-2" transform="translate(195.018833, 187.000000)">
+                <path d="M9.99998346,14.1437469 C8.10683773,14.1437469 6.57210464,12.6090138 6.57210464,10.7158681 C6.57210464,8.82272233 8.10683773,7.28798924 9.99998346,7.28798924 C11.8931292,7.28798924 13.4278623,8.82272233 13.4278623,10.7158681 C13.4278623,12.6090138 11.8931292,14.1437469 9.99998346,14.1437469 Z M18.3523689,12.6590768 C18.499688,12.0242017 18.5741447,11.3727453 18.5741447,10.7158681 C18.5741447,10.0589908 18.499688,9.40737496 18.3523689,8.77265936 L19.8018036,7.28097404 C20.0203907,7.0558501 20.0626413,6.71338109 19.9062344,6.4418612 L19.2804472,5.35801375 L18.65466,4.27400686 C18.527111,4.05334712 18.293537,3.92356604 18.0475269,3.92356604 C17.9901298,3.92356604 17.9328922,3.93058123 17.8754952,3.94508993 L15.8567137,4.4546481 C14.895951,3.55558723 13.7462564,2.89121649 12.493566,2.51080166 L11.9261325,0.509558172 C11.8403558,0.208542581 11.5650094,5.15143483e-14 11.2515578,5.15143483e-14 L8.74824966,5.15143483e-14 C8.43495748,5.15143483e-14 8.15945169,0.208542581 8.073675,0.509558172 L7.50640091,2.51080166 C6.2537105,2.89121649 5.10385645,3.55558723 4.1432532,4.4546481 L2.1243123,3.94508993 C2.06707469,3.93058123 2.00967765,3.92356604 1.95291836,3.92356604 C1.70642995,3.92356604 1.47285589,4.05334712 1.34578522,4.27400686 L0.719998036,5.35801375 L0.0942108564,6.4418612 C-0.0628338243,6.71338109 -0.0204237887,7.0558501 0.198163274,7.28097404 L1.64743855,8.77265936 C1.50011948,9.40737496 1.42614107,10.0589908 1.42614107,10.7158681 C1.42614107,11.3727453 1.50011948,12.0242017 1.64743855,12.6590768 L0.198163274,14.1507621 C-0.0204237887,14.375886 -0.0628338243,14.7181956 0.0942108564,14.9898749 L0.719998036,16.0737224 L1.34578522,17.1577293 C1.47285589,17.378389 1.70642995,17.5081701 1.95291836,17.5081701 C2.00967765,17.5081701 2.06707469,17.5011549 2.1243123,17.4866462 L4.1432532,16.977088 C5.10385645,17.8761489 6.2537105,18.5405196 7.50640091,18.9209345 L8.073675,20.9221779 C8.15945169,21.2238313 8.43495748,21.4317361 8.74824966,21.4317361 L11.2515578,21.4317361 C11.5650094,21.4317361 11.8403558,21.2238313 11.9261325,20.9221779 L12.493566,18.9209345 C13.7462564,18.5405196 14.895951,17.8761489 15.8567137,16.977088 L17.8754952,17.4866462 C17.9328922,17.5011549 17.9901298,17.5081701 18.0475269,17.5081701 C18.293537,17.5081701 18.527111,17.378389 18.65466,17.1577293 L19.2804472,16.0737224 L19.9062344,14.9898749 C20.0626413,14.7181956 20.0203907,14.375886 19.8018036,14.1507621 L18.3523689,12.6590768 Z" id="icon/gear-black"></path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </span>
+  </button>          
+          <button class="menu-toggle" aria-label="Open mobile menu" title="Menu Toggle">
+  <div class="ts-menu-toggle-wrapper">
+    <span></span>
+  </div>
+</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-menu-target">
+      <div class="ts-mobile-menu__wrapper">
+                  
+
+<div  class="region region-hamburger-nav container">
+  <div class="hamburger-header">
+    <a href="/" rel="home" class="site-logo">
+      <img class="logo-white" src="/sites/default/files/nav_logo_white_0.svg" alt="Home" />
+    </a>
+    <div class="donate-menu">
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://giving.wri.org/give/406206/#!/donation/checkout">Donate</a>
+              </li>
+        </ul>
+  
+
+</div>
+    <button class="mega_menu_close" aria-label="Toggle Mega Menu" title="Close Mega Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+        <path d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"/>
+      </svg>
+    </button>
+  </div>
+  <div class="hamburger-content">
+    
+<nav role="navigation" aria-labelledby="block-quicklinks-menu" id="block-quicklinks" class="block block-menu navigation menu--quick-links margin-bottom-md">
+            
+  <h2 class="visually-hidden" id="block-quicklinks-menu">Quick Links</h2>
+  
+
+        
+        <div class="menu-wrapper">
+          <ul class="menu">
+                    <li class="menu-item">
+        <span>Quick Links</span>
+              </li>
+                <li class="menu-item">
+        <a href="/news" data-drupal-link-system-path="node/100179">News </a>
+              </li>
+                <li class="menu-item">
+        <a href="/resources" data-drupal-link-system-path="resources">Resource Library</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://www.wri.org/about/experts-staff">Experts</a>
+              </li>
+                <li class="menu-item">
+        <a href="/events" data-drupal-link-system-path="events">Events</a>
+              </li>
+                <li class="menu-item">
+        <a href="https://jobs.jobvite.com/wri/jobs/">Careers</a>
+              </li>
+                <li class="menu-item">
+        <a href="/donate" class="button small" data-drupal-link-system-path="node/100250">Donate</a>
+              </li>
+          </ul>
+    </div>
+  
+
+
+  </nav><a href="#scroll" aria-hidden="true" tabindex="-1" class="nav-arrow"><svg aria-hidden="true" data-prefix="far" data-icon="chevron-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="svg-inline--fa fa-chevron-right fa-w-8 fa-3x"><path d="M24.707 38.101L4.908 57.899c-4.686 4.686-4.686 12.284 0 16.971L185.607 256 4.908 437.13c-4.686 4.686-4.686 12.284 0 16.971L24.707 473.9c4.686 4.686 12.284 4.686 16.971 0l209.414-209.414c4.686-4.686 4.686-12.284 0-16.971L41.678 38.101c-4.687-4.687-12.285-4.687-16.971 0z"/><title>Click to see more</title></svg></a>
+<nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation" class="block block-menu navigation menu--main">
+            
+  <h2 class="visually-hidden" id="block-mainnavigation-menu">Main navigation</h2>
+  
+
+        
+
+              <ul class="menu">
+                    <li class="menu-item menu-item--collapsed">
+        <a href="/research" data-drupal-link-system-path="node/71">Research</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/data" data-drupal-link-system-path="node/72">Data</a>
+              </li>
+                <li class="menu-item menu-item--collapsed">
+        <a href="/initiatives" data-drupal-link-system-path="node/73">Initiatives</a>
+              </li>
+                <li class="menu-item menu-item--collapsed menu-item--active-trail">
+        <a href="/insights" data-drupal-link-system-path="node/100014">Insights</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenusecondary-2-menu" id="block-footermenusecondary-2" class="block block-menu navigation menu--footer-secondary">
+            
+  <h2 class="visually-hidden" id="block-footermenusecondary-2-menu">Footer menu - secondary</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><a href="/our-work" class="flexible-row-submenu" data-drupal-link-system-path="node/100023">Our Work</a></span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><span>Regions</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/africa" data-drupal-link-system-path="node/100030">Africa</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/asia" data-drupal-link-system-path="node/100062">Asia</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/europe" data-drupal-link-system-path="node/100066">Europe</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/latin-america" data-drupal-link-system-path="node/100032">Latin America</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/north-america" data-drupal-link-system-path="node/100065">North America</a></span>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><span>Programs</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/cities" data-drupal-link-system-path="node/100028">Cities</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/climate" data-drupal-link-system-path="node/100004">Climate</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/energy" data-drupal-link-system-path="node/100005">Energy</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/food" data-drupal-link-system-path="node/100006">Food</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/forests" data-drupal-link-system-path="node/100007">Forests</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/ocean" data-drupal-link-system-path="node/100008">Ocean</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/water" data-drupal-link-system-path="node/100009">Water</a></span>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><span>Centers</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/business" data-drupal-link-system-path="node/100024">Business</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/economics" data-drupal-link-system-path="node/100025">Economics</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/equitable-development" data-drupal-link-system-path="node/100027">Equity</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/finance" data-drupal-link-system-path="node/100026">Finance</a></span>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-megamenu-menu" id="block-megamenu" class="block block-menu navigation menu--mega-menu">
+            
+  <h2 class="visually-hidden" id="block-megamenu-menu">Mega Menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><a href="/our-approach" data-drupal-link-system-path="node/100163">Our Approach</a></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="https://www.wri.org/strategic-plan/our-view-world">Strategic Plan</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/our-approach/managing-for-results" data-drupal-link-system-path="node/100303">Managing for Results</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/top-outcomes" data-drupal-link-system-path="node/100164">Top Outcomes</a></span>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><a href="/about" data-drupal-link-system-path="node/100080">About Us</a></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/mission-values" data-drupal-link-system-path="node/100258">Mission</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://www.wri.org/about/experts-staff">Staff</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/annual-report/2021-22" data-drupal-link-system-path="node/101925">Latest Annual Report</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/financials" data-drupal-link-system-path="node/100221">Financials </a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/history" data-drupal-link-system-path="node/102377">History</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/sustainability-wri" data-drupal-link-system-path="node/100257">Sustainability at WRI</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/board-directors" data-drupal-link-system-path="node/100147">Board of Directors</a></span>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><a href="/join-us" data-drupal-link-system-path="node/100251">Join Us</a></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/events" data-drupal-link-system-path="events">Events</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://jobs.jobvite.com/wri/jobs/">Careers</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/support" data-drupal-link-system-path="node/100245">Ways to Give</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/procurement-opportunities" data-drupal-link-system-path="node/100304">Procurement Opportunities</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/contact" data-drupal-link-system-path="node/100415">Contact the Institute</a></span>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-wrinsearch-2" class="block block-wri-search block-single-file-component-blockwri-search-menu">
+  
+    
+        <div class="search-tray tray-contents">
+            <form class="single-border" action="/search">
+      <div class="input-wrapper">
+        <label for="wrinsearch_2">What can we help you find?</label>
+        <input class="ghost" type="text" name="keys" id="wrinsearch_2">
+      </div>
+      <input class="button ghost form" type="submit" value="Search">
+    </form>
+
+    <button class="tray-nav__close" aria-label="Toggle Search Menu" title="Close Search Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+        <path d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"/>
+      </svg>
+    </button>
+    
+              <ul class="search-menu-block">
+                    <li class="menu-item">
+        <a href="/support" data-drupal-link-system-path="node/100245">Ways to Give</a>
+              </li>
+                <li class="menu-item">
+        <a href="/join-us" data-drupal-link-system-path="node/100251">Join us</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/experts-staff" data-drupal-link-system-path="about/experts-staff">Contact an Expert</a>
+              </li>
+                <li class="menu-item">
+        <a href="/insights" data-drupal-link-system-path="node/100014">Explore WRI Perspectives</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+  </div>
+
+  </div>
+  <div class="hamburger-slider">
+    <div class="hamburger-slider-contents">
+      <a href="#" class="back">Back</a>
+      <ul class="menu"></ul>
+    </div>
+  </div>
+</div>
+
+              </div>
+    </div>
+
+        <div id="tray-nav">
+              
+  
+
+<div  class="region region-wrin-custom">
+  <div id="block-wrinfilter" class="block block-wri-filter block-single-file-component-blockwri-filter">
+  
+    
+        
+  <div class="filter-tray tray-contents content-side-padding">
+    <div class="header">
+      <h2 class="h2 white">Filter Your Site Experience by Topic</h2>
+      <p class="white">Applying the filters below will filter all articles, data, insights and projects by the topic area you select.</p>
+    </div>
+    <ul>
+      <li><a class="sitewide-content-filter all-topics active h4 white" href="/content-filter/remove">All Topics <span class="filter-remove italic-tiny white">Remove filter</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="climate" href="/content-filter/53">Climate <span class="filter-description italic-tiny black">filter site by Climate</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="cities" href="/content-filter/226">Cities <span class="filter-description italic-tiny black">filter site by Cities</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="energy" href="/content-filter/222">Energy <span class="filter-description italic-tiny black">filter site by Energy</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="food" href="/content-filter/4422">Food <span class="filter-description italic-tiny black">filter site by Food</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="forests" href="/content-filter/73">Forests <span class="filter-description italic-tiny black">filter site by Forests</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="water" href="/content-filter/56">Water <span class="filter-description italic-tiny black">filter site by Water</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="ocean" href="/content-filter/18861">Ocean <span class="filter-description italic-tiny black">filter site by Ocean</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="business" href="/content-filter/74">Business <span class="filter-description italic-tiny black">filter site by Business</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="economics" href="/content-filter/10510">Economics <span class="filter-description italic-tiny black">filter site by Economics</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="finance" href="/content-filter/9640">Finance <span class="filter-description italic-tiny black">filter site by Finance</span></a></li>
+              <li><a class="sitewide-content-filter white h4" data-filter="equity" href="/content-filter/227">Equity <span class="filter-description italic-tiny black">filter site by Equity</span></a></li>
+          </ul>
+    <button class="tray-nav__close" aria-label="Toggle filter Menu" title="Close Filter Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+        <path d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"/>
+      </svg>
+    </button>
+  </div>
+  </div>
+<div id="block-wrinsearch" class="block block-wri-search block-single-file-component-blockwri-search-menu">
+  
+    
+        <div class="search-tray tray-contents">
+          <h2 class="h2 white">Search WRI.org</h2>
+              <p class="tray-nav-description">Not sure where to find something? Search all of the site&#039;s content.</p>
+        <form class="single-border" action="/search">
+      <div class="input-wrapper">
+        <label for="wrinsearch">What can we help you find?</label>
+        <input class="ghost" type="text" name="keys" id="wrinsearch">
+      </div>
+      <input class="button ghost form" type="submit" value="Search">
+    </form>
+
+    <button class="tray-nav__close" aria-label="Toggle Search Menu" title="Close Search Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+        <path d="M23 20.168l-8.185-8.187 8.185-8.174-2.832-2.807-8.182 8.179-8.176-8.179-2.81 2.81 8.186 8.196-8.186 8.184 2.81 2.81 8.203-8.192 8.18 8.192z"/>
+      </svg>
+    </button>
+    
+              <ul class="search-menu-block">
+                    <li class="menu-item">
+        <a href="/support" data-drupal-link-system-path="node/100245">Ways to Give</a>
+              </li>
+                <li class="menu-item">
+        <a href="/join-us" data-drupal-link-system-path="node/100251">Join us</a>
+              </li>
+                <li class="menu-item">
+        <a href="/about/experts-staff" data-drupal-link-system-path="about/experts-staff">Contact an Expert</a>
+              </li>
+                <li class="menu-item">
+        <a href="/insights" data-drupal-link-system-path="node/100014">Explore WRI Perspectives</a>
+              </li>
+        </ul>
+  
+
+
+  </div>
+  </div>
+<div id="block-wrinfilterstatus" class="block block-wri-filter block-single-file-component-blockwri-filter-status">
+  
+    
+        
+  </div>
+
+</div>
+
+          </div>
+    
+          
+  
+
+<div  class="region region-admin">
+  <div data-drupal-messages-fallback class="hidden"></div>
+
+</div>
+
+    
+                  
+  
+
+<div  id="main-content" class="region region-content">
+  <div id="block-ts-wrin-content" class="block block-system block-system-main-block">
+  
+    
+      
+<article role="article" about="/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors" class="node node--type-article node--view-mode-full">
+
+  
+    
+
+  
+  <div class="node__content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      <div class="block block-ctools block-entity-viewnode">
+  
+    
+      <div class="article">
+    <div  class="layout__region layout__region--hero">
+    
+  
+
+
+
+
+                  <div class="media media--blazy media--bundle--image is-b-loading media--responsive media--image">  <picture>
+                  <source srcset="" media="(min-width: 1440px)" type="image/jpeg" data-srcset="https://files.wri.org/d8/s3fs-public/styles/2000x695/s3/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=upasuxkakkX513kTMifyvobOAN.X7BMJ&amp;h=cfea4fea&amp;itok=OOFSfeBB 1x"/>
+              <source srcset="" media="(min-width: 1024px) and (max-width: 1440px)" type="image/jpeg" data-srcset="https://files.wri.org/d8/s3fs-public/styles/1440x550/s3/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=45fLtp5LREhj7_bUzT3jR.nWqNruG7ro&amp;h=cfea4fea&amp;itok=NZILbCaj 1x"/>
+              <source srcset="" media="(min-width: 768px) and (max-width: 1023px)" type="image/jpeg" data-srcset="https://files.wri.org/d8/s3fs-public/styles/1024x450/s3/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=8JGENzoVpCMUWW7UmiSNV4.5OMp1LFjO&amp;h=cfea4fea&amp;itok=LHm08Ku2 1x"/>
+              <source srcset="" media="(min-width: 501px) and (max-width: 767px)" type="image/jpeg" data-srcset="https://files.wri.org/d8/s3fs-public/styles/768x338/s3/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=YftZHLiuH7I9pFq6Csywfo10I78hRgHJ&amp;h=cfea4fea&amp;itok=_TPe6Z57 1x"/>
+              <source srcset="" media="(min-width: 0px) and (max-width: 500px)" type="image/jpeg" data-srcset="https://files.wri.org/d8/s3fs-public/styles/500x300/s3/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=M5LaP7VYQQwwTPBUtQ6_AKA3Yh.QQvb6&amp;h=cfea4fea&amp;itok=4UJk4Qk1 1x"/>
+                  <img loading="lazy" class="media__image media__element b-lazy b-responsive" decoding="async" data-src="https://files.wri.org/d8/s3fs-public/styles/500x300/s3/2021-08/global-ghg-emissions-marek-piwnicki.jpg?VersionId=M5LaP7VYQQwwTPBUtQ6_AKA3Yh.QQvb6&amp;h=cfea4fea&amp;itok=4UJk4Qk1" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039;%20viewBox%3D&#039;0%200%203000%201000&#039;%2F%3E" alt="Emissions rising from a factory with a sunset in the background." title="global-ghg-emissions-marek-piwnicki.jpg" typeof="foaf:Image" />
+
+  </picture>
+        </div>
+        
+  
+
+
+  </div>
+    <div class="grid article__title margin-bottom-sm">
+        <div  class="layout__region layout__region--title full-width">
+    
+  <h1 class="h1">
+  4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors
+</h1>
+
+
+    </div>
+    
+        <div  class="layout__region layout__region--byline full-width">
+          <span  class="article-date">
+        
+                  February 6, 2020
+      
+  
+    </span>
+
+By      <span  class="margin-right-xs">
+        
+                  <a href="/profile/mengpin-ge" hreflang="en">Mengpin Ge</a>, <a href="/profile/johannes-friedrich" hreflang="en">Johannes Friedrich</a> and <a href="/profile/leandro-vigna" hreflang="en">Leandro Vigna</a>
+      
+  
+    </span>
+
+<span class="cover-attribution">Cover Image by: Marek Piwnicki/Unsplash</span>
+    </div>
+      </div>
+
+    <div class="article__meta grid">
+        <div  class="layout__region layout__region--bundle left-sidebar">
+          
+                          <div  class="h4" >
+      Explainer</div>
+      
+  
+
+
+    </div>
+    
+        <div  class="layout__region layout__region--category">
+        <div class="field-label-inline">Topic</div>
+
+  <a href="/climate" class="taxonomy" hreflang="en">Climate</a>
+
+    </div>
+    
+        <div  class="layout__region layout__region--share right-sidebar">
+      <div id="social-sharing-block">
+  <nav role="navigation">
+    <ul class="">
+      <li><a class="share-icon icon-social" href="#" aria-haspopup="true">Social</a>
+        <ul class="dropdown" aria-label="submenu">
+          <li><a href="https://twitter.com/intent/tweet?text=4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors+https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors via @WorldResources" title="Share to Twitter" aria-label="Share to Twitter" class="social-sharing-buttons__button" rel="noopener">
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors&title=4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors&source=https://www.wri.org" title="Share to Linkedin" aria-label="Share to Linkedin" class="social-sharing-buttons__button" rel="noopener">
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors&title=4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors" title="Share to Facebook" aria-label="Share to Facebook" class="social-sharing-buttons__button" rel="noopener">
+              Facebook
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a class="share-icon icon-email social-sharing-buttons__button" href="mailto:?subject=4 Charts Explain Greenhouse Gas Emissions by Countries and Sectors&body=https://www.wri.org/insights/4-charts-explain-greenhouse-gas-emissions-countries-and-sectors" title="Share to E-mail" aria-label="Share to E-mail"  target="_blank" rel="noopener">
+          Email
+        </a>
+      </li>
+      <li><a class="share-icon icon-print" href="javascript:window.print()" aria-label="Print document">Print</a></li>
+    </ul>
+  </nav>
+</div>
+
+
+                    <div  class="layout__region layout__region--left_sidebar left-sidebar mobile more-on">
+          <div class="field-label"><a href="#">More on</a></div>
+          <div class="more-on__items">
+                
+                  <div class="item-list"><ul><li><a href="/energy" hreflang="en">Energy</a></li><li><a href="/resources/tags/climatewatch-pinned-15461" hreflang="en">climatewatch-pinned</a></li><li><a href="/resources/tags/climate-change-8563" hreflang="en">climate change</a></li><li><a href="/resources/tags/ghg-emissions-9889" hreflang="en">GHG emissions</a></li><li><a href="/resources/tags/greenhouse-gases-9192" hreflang="en">greenhouse gases</a></li></ul></div>
+      
+  
+
+
+          </div>
+        </div>
+      
+    </div>
+      </div>
+  
+  <div class="article__main grid margin-top-md">
+        <div  class="layout__region layout__region--left_sidebar left-sidebar mobile more-on">
+      <div class="field-label">More on</div>
+      <div class="more-on__items">
+            
+                  <div class="item-list"><ul><li><a href="/energy" hreflang="en">Energy</a></li><li><a href="/resources/tags/climatewatch-pinned-15461" hreflang="en">climatewatch-pinned</a></li><li><a href="/resources/tags/climate-change-8563" hreflang="en">climate change</a></li><li><a href="/resources/tags/ghg-emissions-9889" hreflang="en">GHG emissions</a></li><li><a href="/resources/tags/greenhouse-gases-9192" hreflang="en">greenhouse gases</a></li></ul></div>
+      
+  
+
+
+      </div>
+    </div>
+    
+        <div  class="layout__region layout__region--main_content main-content margin-bottom-xl">
+    
+  <p><em>This article was updated in June 2022 to reflect the latest data. </em></p>
+
+<p>Globally, greenhouse gas emissions have grown by 53% from 1990 to 2019. </p>
+
+<p>(More recent carbon emissions data suggests that there was a <a href="https://www.globalcarbonproject.org/news/TemporaryReductionInCO2EmissionsDuringCOVID-19.html">temporary decrease</a> in the average global CO2 emissions in 2020, but the trend was not sustained. Preliminary numbers find CO2 emissions <a href="https://www.globalcarbonproject.org/carbonbudget/21/highlights.htm">increased again in 2021</a>).</p>
+
+<p>Where are these emissions coming from, and who is responsible? WRI’s <a href="https://www.climatewatchdata.org/" target="_blank">Climate Watch platform</a> offers <a href="https://www.climatewatchdata.org/ghg-emissions" target="_blank">comprehensive emissions data for all countries</a>, sectors and gases. Here’s what we know about the sectors and countries driving greenhouse gas emissions globally:</p>
+
+<h3><strong>The Energy Sector Produces the Most Greenhouse Gas Emissions</strong></h3>
+
+<p>Energy consumption is by far the biggest source of human-caused greenhouse gas emissions, responsible for a whopping <a href="https://www.climatewatchdata.org/ghg-emissions?breakBy=sector&amp;chartType=percentage" target="_blank">75.6%</a> (37.6 GtCO<sub>2</sub>e) worldwide. The energy sector includes transportation, electricity and heat, buildings, manufacturing and construction, fugitive emissions and other fuel combustion.</p>
+
+<p>The other top sectors that produce emissions are agriculture, such as livestock and crop cultivation (5.8 GtCO<sub>2</sub>e, or 11.6%); industrial processes of chemicals, cement and more (3.1 GtCO<sub>2</sub>e, or 6.1%); waste, including landfills and wastewater (1.6 GtCO<sub>2</sub>e, or 3.3%); and land use, land-use change and forestry, such as deforestation (1.6 GtCO<sub>2</sub>e, or 3.3%).</p>
+
+<p>Within the energy sector, <a href="https://www.climatewatchdata.org/ghg-emissions?breakBy=sector&amp;chartType=percentage&amp;end_year=2018&amp;sectors=agriculture%2Cindustrial-processes%2Cland-use-change-and-forestry%2Cbuilding%2Celectricity-heat%2Cfugitive-emissions%2Cmanufacturing-construction%2Cother-fuel-combustion%2Ctransportation%2Cwaste&amp;start_year=1990" target="_blank">heat and electricity</a> generation is responsible for most emissions (15.8 GtCO<sub>2</sub>e in 2019, or 31.8% of total greenhouse gas emissions), followed by transportation (8.4 GtCO<sub>2</sub>e in 2019, or 17% of total emissions) and manufacturing and construction (6.3 GtCO<sub>2</sub>e, or 12.7% of total emissions).</p>
+
+<div class="flourish-embed flourish-sankey" data-src="visualisation/10196225"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+<p><em>View a static version of this graphic <a href="https://files.wri.org/d8/s3fs-public/2022-06/world-ghg-emissions-2019.png" target="_blank">here</a>.</em></p>
+
+<h3>Buildings and Cars Are the Main Contributors of Energy-related Emissions</h3>
+
+<p>The middle column of the chart above shows emissions by end-use activities, illustrating the specific activities from which emissions stem. Activities driving most energy emissions include road transportation (12.6% of total emissions), residential buildings (11.5% of total emissions) and commercial buildings (6.5% of total emissions). Emissions from those activities include both direct emissions from fossil fuel combustion, as well as indirect emissions from activities such as use of electricity.</p>
+
+<p>Outside of energy, major drivers include livestock and manure (5.8%), other industry (4.5%) and agricultural soils (4.2%). The “other industry” category contains all activities that do not squarely fall within the other categories, including non-metallic metals, construction, mining and quarrying, textile and leather, wood and wood products, transportation equipment and more activities.</p>
+
+<h3>Industry and Transportation Are the Fastest-growing Sources of Greenhouse Gas Emissions</h3>
+
+<p>Since 1990, three sectors stand out as the fastest-growing sources of greenhouse gas emissions: Industrial processes grew by 203%, electricity and heating (a subsector of energy) by 84%, and <a href="https://www.wri.org/blog/2019/10/everything-you-need-know-about-fastest-growing-source-global-emissions-transport">transportation</a> (a subsector of energy) by 78%.</p>
+
+<p>The growth in industrial emissions stems <a href="https://www.climatewatchdata.org/ghg-emissions?breakBy=gas&amp;end_year=2018&amp;sectors=industrial-processes&amp;start_year=1990" target="_blank">not only from CO<sub>2</sub> emissions</a>, but also the increased use of refrigeration and air conditioning. These activities produce <a href="https://www.wri.org/blog/2018/10/3-charts-explain-one-most-overlooked-opportunities-address-climate-change-and-poverty">hydrofluorocarbons (HFCs</a>), which are potent greenhouse gases. Increased travel by automobiles is the predominant reason transportation emissions are on the rise.</p>
+
+<p><iframe frameborder="0" src="https://www.climatewatchdata.org/embed/ghg-emissions%3FbreakBy%3Dsector%26chartType%3Darea%26end_year%3D2019%26start_year%3D1990" style="height: 600px; width: 1230px"></iframe></p>
+
+<h3>10 Countries Produce More than 68% of Global Greenhouse Gas Emissions</h3>
+
+<p>A small number of countries contribute most of the world’s greenhouse gas emissions, with the top 10 emitters accounting for over two-thirds of annual global greenhouse gas emissions. Most of them also have large populations and economies, together accounting for over 50% of the global population and 75% of the world’s GDP.</p>
+
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/10196480"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+<p>China is the biggest emitter at 26.4% of global greenhouse gas emissions, followed by the United States at 12.5%, India at 7.06%, and the European Union at 7.03%.<a href="https://www.wri.org/blog/2020/02/greenhouse-gas-emissions-by-country-sector#fn:1"><sup>1</sup></a></p>
+
+<p>Most of the top 10 emitters have higher emissions per person than the world average of 6.27 tCO<sub>2</sub>e per person. Among the top 10 total greenhouse gas emitters, Canada and the United States have the highest per capita greenhouse gas emissions at 19.6 tCO<sub>2</sub>e per person and 18.28 tCO<sub>2</sub>e per person, respectively, while India has the lowest at 2.48 tCO<sub>2</sub>e per person. China’s per capita emissions (9.06 tCO<sub>2</sub>e) continue to rise, surpassing those of the European Union (7.56 tCO<sub>2</sub>e).</p>
+
+<p>Countries such as Qatar and Australia, while not among the top 10 emitters, have higher per capita emissions than most top emitters at 40.52 tCO<sub>2</sub>e per person and 23.10 tCO<sub>2</sub>e per person, respectively.</p>
+
+<p><iframe frameborder="0" src="https://www.climatewatchdata.org/embed/ghg-emissions%3FbreakBy%3Dregions%26calculation%3DPER_CAPITA%26chartType%3Dline%26end_year%3D2019%26regions%3DEUU%252CWORLD%252CAUS%252CCAN%252CCHN%252CIND%252CIDN%252CQAT%252CRUS%252CUSA%26sectors%3Dtotal-excluding-lucf%26source%3DCAIT%26start_year%3D1990" style="height: 600px; width: 1230px"></iframe></p>
+
+<h3>Carbon Dioxide Makes Up Most, but Not All, Greenhouse Gas Emissions</h3>
+
+<p>Carbon dioxide (CO<sub>2</sub>) comprises <a href="https://www.climatewatchdata.org/ghg-emissions?breakBy=gas&amp;chartType=percentage&amp;end_year=2019&amp;start_year=1990" target="_blank">74.1% of greenhouse gas emissions</a>. Most CO<sub>2 </sub>emissions (<a href="https://www.climatewatchdata.org/ghg-emissions?breakBy=sector&amp;chartType=percentage&amp;end_year=2019&amp;gases=co2&amp;sectors=total-including-lucf&amp;start_year=1990" target="_blank">92%</a>) are from the use of fossil fuels, especially for generation of electricity and heat, transportation, and manufacturing and consumption. Land use, land-use change and forestry is another contributor (3.7%) to human-made CO<sub>2</sub> emissions, mostly <a href="https://www.wri.org/blog/2019/04/world-lost-belgium-sized-area-primary-rainforests-last-year">due to deforestation</a>.</p>
+
+<p>Methane (CH<sub>4</sub>) and nitrous oxide (N<sub>2</sub>O) make up 17.3% and 6.2% of total greenhouse gas emissions, respectively, mostly from agriculture, waste treatment and gas flaring. Fluorinated gases (comprised of HFCs, perfluorocarbons (PFCs), sulfur hexafluoride (SF<sub>6</sub>) and nitrogen trifluoride (NF<sub>3</sub>)) from industrial processes make up 2.4% of global emissions. These gases are much more <a href="https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf" target="_blank">potent</a> than CO<sub>2</sub> in terms their global warming potential, and often provide overlooked <a href="https://www.wri.org/publication/china-opportunities-mitigation-ambition">opportunities</a> for mitigation.</p>
+
+<h3>Greenhouse Gas Emissions Must Be Reduced Rapidly to Avert the Climate Crisis</h3>
+
+<p>The world <a href="https://www.wri.org/blog/2019/12/6-ways-climate-changed-over-past-decade">is already facing</a> the consequences from climate change. To avoid much more dangerous and costly impacts, the latest IPCC report <a href="https://www.wri.org/insights/ipcc-report-2022-mitigation-climate-change">finds</a> that for the world to limit global temperature rise to 1.5 degrees C (2.7 degrees F) and prevent the worst effects of climate change, global emissions need to peak before 2025. Recent research suggests that current levels of greenhouse gas emissions must be <a href="https://www.wri.org/research/state-climate-action-assessing-progress-toward-2030-and-2050">slashed in half by 2030</a> and <a href="https://www.wri.org/insights/net-zero-ghg-emissions-questions-answered">reach net-zero</a> by mid-century to keep this temperature target within reach.</p>
+
+<p>All countries, particularly major economies, need to <a href="https://www.wri.org/blog/2021/02/emissions-reduction-plans-progress-ndcs">step up their climate ambition</a> and submit stronger national climate plans (known as NDCs), develop <a href="https://www.wri.org/insights/findings-long-term-strategies-first-batch">long-term climate strategies</a>, and set up targets to <a href="https://www.wri.org/insights/net-zero-target-whats-next">reach net-zero emissions</a> as soon as possible. Globally, 2030 greenhouse gas emissions need to be <a href="https://www.unep.org/emissions-gap-report-2020" target="_blank">55% lower</a> than they would be under the initial round of nationally determined contributions (NDCs).</p>
+
+<p>The largest emissions sources, like the energy sector, are good places to start, but rapid transformations across all systems are needed. The <a href="https://www.wri.org/insights/climate-action-progress-indicators-2030-2050-targets">State of Climate Action</a> report finds that in order for the world to get on track for the emissions cuts required by 2030, countries must rapidly phase out coal in electricity generation, halt deforestation, increase the share of low-carbon fuels in transportation, and scale up public and private finance, among other actions.</p>
+
+
+    </div>
+    
+      </div>
+</div>
+
+
+  </div>
+<div class="block block-layout-builder block-extra-field-blocknodearticlecontent-moderation-control">
+  
+    
+      
+  </div>
+<div class="block block-wri-block block-related-resources-fallback field-related-resources">
+  
+      <h2>Relevant Work</h2>
+    
+      <div class="view view-related-content view-id-related_content view-display-id-block_1">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row">  <div class="teaser-item">
+      <div class="tags topic-tag margin-top-xs">
+      
+  <a href="/climate" hreflang="en">Climate</a>
+
+      
+    </div>
+      <div class="teaser__inner-wrapper">
+      <div class="left-section margin-bottom-xs">
+              <h3 class="teaser-title margin-top-xs">
+          
+    <a href="/insights/interactive-chart-shows-changes-worlds-top-10-emitters" hreflang="en">This Interactive Chart Shows Changes in the World&#039;s Top 10 Emitters</a>
+
+
+        </h3>
+                    <span class="content-type-region bundle">
+          
+  Insights
+
+        </span>
+                    <span class="date-region date">
+          
+  December 10, 2020
+
+        </span>
+            </div>
+      <div class="right-section margin-top-xs">
+              </div>
+    </div>
+  </div>
+
+</div>
+    <div class="views-row">  <div class="teaser-item">
+      <div class="tags topic-tag margin-top-xs">
+      
+  <a href="/climate" hreflang="en">Climate</a>
+
+      
+    </div>
+      <div class="teaser__inner-wrapper">
+      <div class="left-section margin-bottom-xs">
+              <h3 class="teaser-title margin-top-xs">
+          
+    <a href="/insights/history-carbon-dioxide-emissions" hreflang="en">The  History of Carbon Dioxide Emissions </a>
+
+
+        </h3>
+                    <span class="content-type-region bundle">
+          
+  Insights
+
+        </span>
+                    <span class="date-region date">
+          
+  May 21, 2014
+
+        </span>
+            </div>
+      <div class="right-section margin-top-xs">
+              </div>
+    </div>
+  </div>
+
+</div>
+    <div class="views-row">  <div class="teaser-item">
+      <div class="tags topic-tag margin-top-xs">
+      
+  <a href="/climate" hreflang="en">Climate</a>
+
+      
+    </div>
+      <div class="teaser__inner-wrapper">
+      <div class="left-section margin-bottom-xs">
+              <h3 class="teaser-title margin-top-xs">
+          
+    <a href="/insights/8-charts-understand-us-state-greenhouse-gas-emissions" hreflang="en">8 Charts to Understand US State Greenhouse Gas Emissions</a>
+
+
+        </h3>
+                    <span class="content-type-region bundle">
+          
+  Insights
+
+        </span>
+                    <span class="date-region date">
+          
+  August 10, 2017
+
+        </span>
+            </div>
+      <div class="right-section margin-top-xs">
+              </div>
+    </div>
+  </div>
+
+</div>
+    <div class="views-row">  <div class="teaser-item">
+      <div class="tags topic-tag margin-top-xs">
+      
+  <a href="/climate" hreflang="en">Climate</a>
+
+      
+    </div>
+      <div class="teaser__inner-wrapper">
+      <div class="left-section margin-bottom-xs">
+              <h3 class="teaser-title margin-top-xs">
+          
+    <a href="/insights/methane-gas-emissions-climate-change" hreflang="en">How Methane Emissions Contribute to Climate Change</a>
+
+
+        </h3>
+                    <span class="content-type-region bundle">
+          
+  Insights
+
+        </span>
+                    <span class="date-region date">
+          
+  September 17, 2021
+
+        </span>
+            </div>
+      <div class="right-section margin-top-xs">
+              </div>
+    </div>
+  </div>
+
+</div>
+
+    </div>
+  
+          </div>
+
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+
+  </div>
+
+</div>
+
+          
+            <div class="region region-footer-top">
+    <div class="container">
+      <div class="footer-padding">
+        <div id="block-howyoucanhelpblock" class="block block-wri-block block-how-you-can-help">
+  
+    
+      <h3 class="h4 white">How You Can Help</h3><p>WRI relies on the generosity of donors like you to turn research into action. You can support our work by making a gift today or exploring other ways to give.</p>
+              <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/donate" class="button small" data-drupal-link-system-path="node/100250">Donate</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/support" class="button small" data-drupal-link-system-path="node/100245">Ways to Give</a></span>
+              </li>
+        </ul>
+  
+
+
+  </div>
+<div id="block-webform" class="block block-webform block-webform-block grid">
+  <div class="webform-outer">
+    
+          <h2>Stay Informed</h2>
+        
+          <form id="wri-stay-informed-footer" action="" method="post">
+  
+  <div data-drupal-selector="edit-flexbox" class="webform-flexbox js-webform-flexbox js-form-wrapper form-wrapper" id="edit-flexbox"><div class="webform-flex webform-flex--1"><div class="webform-flex--container"><div class="input-wrapper js-form-item form-item js-form-type-email form-type-email js-form-item-email form-item-email">
+      <label for="edit-email" class="js-form-required form-required">Email</label>
+        <input data-drupal-selector="edit-email" type="email" id="edit-email" name="email" value="" size="60" maxlength="254" class="form-email required" required="required" aria-required="true" />
+
+        </div>
+</div></div></div>
+<input data-drupal-selector="edit-url-action" type="hidden" name="url_action" value="/webform/sign_up_for_wri_digest" />
+<input autocomplete="off" data-drupal-selector="form-ee-r7bjexjn-xvx8g6dgwevw0-gamhchalg0bhi70mu" type="hidden" name="form_build_id" value="form-ee-r7bjEXJn-XVx8G6dGWevw0-gAmHcHaLg0BHi70mU" />
+<input data-drupal-selector="edit-webform-submission-simple-email-submit-add-form" type="hidden" name="form_id" value="webform_submission_simple_email_submit_add_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input class="webform-button--submit button button--primary js-form-submit form-submit" data-drupal-selector="edit-submit" type="submit" id="edit-submit" name="op" value="Submit" />
+
+</div>
+
+
+  
+</form>
+
+      </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+
+    
+          <div class="region-footer">
+        <div class="container">
+          <div class="footer-padding">
+            <div class="footer-logo margin-bottom-md">
+              <a href="/">
+                <img class="logo-white" src="/sites/default/files/nav_logo_white_0.svg" alt="Home" />
+              </a>
+            </div>
+                          
+  
+
+<div  class="region region-footer-left">
+  <nav role="navigation" aria-labelledby="block-footermenumain-menu" id="block-footermenumain" class="block block-menu navigation menu--footer-main">
+            
+  <h2 class="visually-hidden" id="block-footermenumain-menu">Footer menu - main</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/research" data-drupal-link-system-path="node/71">Research</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/data" data-drupal-link-system-path="node/72">Data</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/initiatives" data-drupal-link-system-path="node/73">Initiatives</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/insights" title="WRI Insights" data-drupal-link-system-path="node/100014">Insights</a></span>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenusecondary-menu" id="block-footermenusecondary" class="block block-menu navigation menu--footer-secondary">
+            
+  <h2 class="visually-hidden" id="block-footermenusecondary-menu">Footer menu - secondary</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><a href="/our-work" class="flexible-row-submenu" data-drupal-link-system-path="node/100023">Our Work</a></span>
+                                <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><span>Regions</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/africa" data-drupal-link-system-path="node/100030">Africa</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/asia" data-drupal-link-system-path="node/100062">Asia</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/europe" data-drupal-link-system-path="node/100066">Europe</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/latin-america" data-drupal-link-system-path="node/100032">Latin America</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/north-america" data-drupal-link-system-path="node/100065">North America</a></span>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><span>Programs</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/cities" data-drupal-link-system-path="node/100028">Cities</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/climate" data-drupal-link-system-path="node/100004">Climate</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/energy" data-drupal-link-system-path="node/100005">Energy</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/food" data-drupal-link-system-path="node/100006">Food</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/forests" data-drupal-link-system-path="node/100007">Forests</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/ocean" data-drupal-link-system-path="node/100008">Ocean</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/water" data-drupal-link-system-path="node/100009">Water</a></span>
+              </li>
+        </ul>
+  
+              </li>
+                <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><span>Centers</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/business" data-drupal-link-system-path="node/100024">Business</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/economics" data-drupal-link-system-path="node/100025">Economics</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/equitable-development" data-drupal-link-system-path="node/100027">Equity</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/finance" data-drupal-link-system-path="node/100026">Finance</a></span>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+
+</div>
+
+            
+                          
+  
+
+<div  class="region region-footer-right">
+  <nav role="navigation" aria-labelledby="block-footermenuoffices-menu" id="block-footermenuoffices" class="block block-menu navigation menu--footer-offices">
+            
+  <h2 class="visually-hidden" id="block-footermenuoffices-menu">Footer menu - Offices</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item menu-item--expanded">
+        <span class="menu-item-title"><span>International Websites</span></span>
+                                <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="https://wribrasil.org.br/pt" target="_blank">WRI Brasil</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://www.wri.org.cn/" target="_blank">WRI China</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://wri-india.org/" target="_blank">WRI India</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://wri-indonesia.org/" target="_blank">WRI Indonesia</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://wrimexico.org/" target="_blank">WRI Mexico</a></span>
+              </li>
+        </ul>
+  
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<nav role="navigation" aria-labelledby="block-footermenuadditional-menu" id="block-footermenuadditional" class="block block-menu navigation menu--footer-additional">
+            
+  <h2 class="visually-hidden" id="block-footermenuadditional-menu">Footer menu - Additional</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/contact" data-drupal-link-system-path="node/100415">Contact Us</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/events" data-drupal-link-system-path="events">Events</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/resources" data-drupal-link-system-path="resources">Resource Library</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/media-contacts" data-drupal-link-system-path="node/100406">For Media</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/financials" data-drupal-link-system-path="node/100221">Financials</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://jobs.jobvite.com/wri/jobs/">Careers</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/internships" title="Internships at WRI" data-drupal-link-system-path="node/100297">Internships</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="/about/privacy-policy" data-drupal-link-system-path="node/100305">Privacy  Policy</a></span>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-addressblock" class="block block-wri-block block-address-block">
+  
+    
+      <p><strong>World Resources Institute</strong><br />
+10 G Street NE<br />
+Suite 800<br />
+Washington DC 20002<br />
++1 (202) 729-7600</p>
+
+  </div>
+<nav role="navigation" aria-labelledby="block-socialmenu-menu" id="block-socialmenu" class="block block-menu navigation menu--social-menu">
+            
+  <h2 class="visually-hidden" id="block-socialmenu-menu">Social menu</h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <span class="menu-item-title"><a href="https://www.facebook.com/worldresources/" class="facebook">Facebook</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://twitter.com/worldresources" class="twitter">Twitter</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://www.linkedin.com/company/world-resources-institute/" class="linkedin">LinkedIn</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://www.youtube.com/WorldResourcesInst" class="youtube">Youtube</a></span>
+              </li>
+                <li class="menu-item">
+        <span class="menu-item-title"><a href="https://www.instagram.com/worldresources/" class="instagram">Instagram</a></span>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div id="block-copyrightblock" class="block block-wri-block block-copyright-block">
+  
+    
+      <p>&copy; 2023 World Resources Institute</p>
+  </div>
+
+</div>
+
+                      </div>
+        </div>
+      </div>
+    
+          
+  
+
+<div  class="region region-modals">
+  
+<div class="has-blue-background-color block block-block-content block-block-content0423c8a7-4b9d-45fb-9b8d-8888d77c6c1c block-modal" id="block-storiestowatch2023">
+  
+  
+      
+      <div class="modal_inner">
+        <div class="modal_inner_wrapper">
+        <div class="left-text">
+          
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Stories to Watch 2023</div>
+      
+          
+            <div class="clearfix text-formatted field field--name-field-intro field--type-text-long field--label-hidden field__item"><p>At this pivotal moment, WRI President &amp; CEO Ani Dasgupta will share insights into our predictions for the big stories coming up in 2023, including what actions governments, businesses, institutions and people must take to get the world on the right path.</p>
+<p>Sign up now to secure your spot.</p>
+</div>
+      
+        </div>
+        <div class="right-image">
+                  </div>
+        </div>
+        
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="https://wri.zoom.us/webinar/register/5516709566663/WN_RWkmuFomQOKH50uNCdkY2w" class="button">Register</a></div>
+      
+        
+      </div>
+  </div>
+
+<div class="has-blue-background-color block block-block-content block-block-content6df7e1df-ac56-43ab-b0dc-547224093cfd block-modal" id="block-yearendcampaign2022small">
+  
+  
+      
+      <div class="modal_inner">
+        <div class="modal_inner_wrapper">
+        <div class="left-text">
+          
+            <div class="field field--name-field-title field--type-string field--label-hidden field__item">Make your end of year gift today.</div>
+      
+          
+        </div>
+        <div class="right-image">
+                  </div>
+        </div>
+        
+            <div class="field field--name-field-link field--type-link field--label-hidden field__item"><a href="https://giving.wri.org/give/453181#!/donation/checkout?utm_source=wri.org&amp;utm_medium=banner-footer&amp;utm_campaign=EOY22" class="button">Donate now</a></div>
+      
+        
+      </div>
+  </div>
+<div class="views-element-container block block-views block-views-blocktest-cache-buster-block-1" id="block-views-block-test-cache-buster-block-1">
+  
+    
+      <div><div class="view view-test-cache-buster view-id-test_cache_buster view-display-id-block_1 js-view-dom-id-5e6a936a8ce4e463ec53ae54bd71bd73c7fbb55368ca63dfb138a7dfc9796974">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><div class="views-field views-field-title"><span class="field-content"><a href="/node/102841" hreflang="en">Research Consultancy, Alignment Process – Forest Data Partnership</a></span></div></div>
+
+    </div>
+  
+          </div>
+</div>
+
+  </div>
+
+</div>
+
+    
+  </div>
+</div>
+
+  </div>
+
+      <div id="gdpr-popup" class="bottom" style="background:rgba(26, 25, 25, 0.9);">
+  <div class="gdpr-popup-content">
+    <div class="grid">
+      <div class="gdpr-popup-text white">
+        <p class="gdpr-popup-cookies">This website uses cookies to provide you with an improved user experience. By continuing to browse this site, you consent to the use of cookies and similar technologies. For further details please visit our </p>
+        <a class="privacy-policy" href="/about/privacy-policy">privacy policy</a>
+              </div>
+      <div class="gdpr-popup-buttons black">
+        <button type="button" id="gdpr-agree" class="button small" style=background:#f3b229;>
+          Okay
+        </button>
+                              </div>
+    </div>
+  </div>
+</div>
+
+    <script src="/sites/default/files/js/js_pVuPMKLArWitj8MXMAQ6tsVAuGQkyGQ2sq-OuhoCF50.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"NRJS-85441708ad22153833b","applicationID":"1557361636","transactionName":"YFVbZRZUV0pXVkRfVlkfeFIQXFZXGXFCQ0lWXGVfC1FcZXVaXkJLWFxVVBZpd1ZSUGZfXEBzVl8QR1ZVWlBCGwdBWVxG","queueTime":0,"applicationTime":520,"atts":"TBJYE15OREQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

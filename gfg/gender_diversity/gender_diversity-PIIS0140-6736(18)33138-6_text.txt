@@ -1,0 +1,942 @@
+Working toward gender diversity and inclusion in medicine: myths and solutions - The Lancet
+Skip to Main Content
+Login to your accountEmail/UsernamePasswordShowForgot password?Remember meDon’t have an account?Create a Free Account
+If you don't remember your password, you can reset it by entering your email address and clicking the Reset Password button. You will then receive an email that contains a secure link for resetting your passwordEmail*If the address matches a valid account an email will be sent to __email__ with instructions for resetting your passwordCancel
+CloseThis JournalBackJournal HomeOnline FirstCurrent IssueAll IssuesSpecial IssuesAbout the journalJournalsBackThe LancetThe Lancet Child & Adolescent HealthThe Lancet Diabetes & EndocrinologyThe Lancet Digital HealthThe Lancet Gastroenterology & HepatologyThe Lancet Global HealthThe Lancet HaematologyThe Lancet Healthy LongevityThe Lancet HIVThe Lancet Infectious DiseasesThe Lancet MicrobeThe Lancet NeurologyThe Lancet OncologyThe Lancet Planetary HealthThe Lancet PsychiatryThe Lancet Public HealthThe Lancet Regional Health – AmericasThe Lancet Regional Health – EuropeThe Lancet Regional Health – Southeast AsiaThe Lancet Regional Health – Western PacificThe Lancet Respiratory MedicineThe Lancet RheumatologyeBioMedicineeClinicalMedicineClinicalBackThe Lancet ClinicSeriesCommissionsPicture QuizGlobal HealthBackHubSeriesCommissionsGlobal Burden of DiseaseLancet CountdownThe Lancet Discovery ScienceBackOvervieweBioMedicineeClinicalMedicineThe Lancet Regional HealthBackGlobal InitiativeThe Lancet Regional Health – AmericasThe Lancet Regional Health – EuropeThe Lancet Regional Health – Southeast AsiaThe Lancet Regional Health – Western PacificInformationBackAbout usFor authorsFor readersPeer reviewPublishing excellenceOpen accessContact usEquity, diversity, and inclusionSubmit a PaperBackThe LancetThe Lancet Child & Adolescent HealthThe Lancet Diabetes & EndocrinologyThe Lancet Digital HealthThe Lancet Gastroenterology & HepatologyThe Lancet Global HealthThe Lancet HaematologyThe Lancet Healthy LongevityThe Lancet HIVThe Lancet Infectious DiseasesThe Lancet MicrobeThe Lancet NeurologyThe Lancet OncologyThe Lancet Planetary HealthThe Lancet PsychiatryThe Lancet Public HealthThe Lancet Regional Health – AmericasThe Lancet Regional Health – EuropeThe Lancet Regional Health – Southeast AsiaThe Lancet Regional Health – Western PacificThe Lancet Respiratory MedicineThe Lancet RheumatologyeBioMedicineeClinicalMedicinePreprints with The LancetCOVID-19 Resource CentreThe Lancet Home
+Go searchAll ContentArticle TitleAuthorsKeywordsAbstractArticle Title, Abstract, KeywordsThis JournalFull SiteAdvanced SearchSave searchPlease enter a term before submitting your search. Ok
+Submit ArticleLog inRegisterLog inSubmit ArticleLog inSubscribeClaim
+Access provided by
+Review|
+Volume 393, ISSUE 10171, P579-586, February 09, 2019PDF [102 KB]PDF [102 KB]SaveAdd To Online LibraryPowered ByMendeleyAdd To My Reading ListExport CitationCreate Citation Alert
+ShareShare onFacebookTwitterLinkedInMendeleySina Weibo
+moreReprintsRequestTopWorking toward gender diversity and inclusion in medicine: myths and solutionsSonia K Kang, PhD Sonia K KangCorrespondenceCorrespondence to: Dr Sonia K Kang, Rotman School of Management, University of Toronto, ON M5S 3E6 Canada
+Contact
+AffiliationsInstitute for Management and Innovation, University of Toronto Mississauga, Mississauga, ON, CanadaInstitute for Gender and the Economy, Rotman School of Management, University of Toronto, Toronto, ON, CanadaSearch for articles by this authorProf Sarah Kaplan, PhD Sarah KaplanAffiliationsInstitute for Gender and the Economy, Rotman School of Management, University of Toronto, Toronto, ON, CanadaMack Institute for Innovation Management, Wharton School, University of Pennsylvania, Philadelphia, PA, USASearch for articles by this author Published:February 09, 2019DOI:https://doi.org/10.1016/S0140-6736(18)33138-6Working toward gender diversity and inclusion in medicine: myths and solutionsPrevious ArticleApplying feminist theory to medical educationNext ArticleOrganisational best practices towards gender equality in science and medicine
+SummaryWomen's representation in science and medicine has slowly increased over the past few decades. However, this rise in numbers of women, or gender diversity, has not been matched by a rise in gender inclusion. Despite increasing representation, women still encounter bias and discrimination when compared with men in these fields across a variety of outcomes, including treatment at school and work, hiring, compensation, evaluation, and promotion. Individual and systemic biases create unwelcome environments for women, particularly for those who additionally identify with other traditionally devalued groups (eg, women of colour). This Review draws on several decades of research in the field of management and its cognate disciplines to identify five myths that continue to perpetuate gender bias and five strategies for improving not only the number of women in medicine, but also their lived experiences, capacity to aspire, and opportunity to succeed. We argue for a move away from a singular focus on interventions aimed at targeting individual attitudes and behaviour to more comprehensive interventions that address structural and systemic changes.IntroductionThe year 2017 marked the first time in history when the number of women enrolling in US medical schools exceeded the number of men.1Association of American Medical CollegesMore women than men enrolled in U.S. medical schools in 2017.https://news.aamc.org/press-releases/article/applicant-enrollment-2017/Date: Dec 18, 2017Date accessed: September 14, 2018Google Scholar When this historic cohort of female medical students enters the workforce, what kind of work environment will they encounter? Despite the record numbers of women entering fields across science, technology, engineering, mathematics (STEM), and medicine,2Bowley R A snapshot of progress among women in the workforce.https://blog.linkedin.com/2018/march/6/a-snapshot-of-progress-among-women-in-the-workforceDate: March 6, 2018Date accessed: September 14, 2018Google Scholar women continue to experience disadvantage, discrimination, and gender-based violence in their home and work lives,3Bohnet I What works: gender equality by design. The Belknap Press of Harvard University Press,
+Cambridge, MA2016Crossref
+Google Scholar,  4Eagly AH Carli LL Through the labyrinth: the truth about how women become leaders. Harvard Business Review Press,
+Boston, MA2007Google Scholar,  5Heilman ME Gender stereotypes and workplace bias.Res Organ Behav. 2012; 32: 113-135Crossref
+Scopus (555)
+Google Scholar,  6Parker K Funk C Gender discrimination comes in many forms for today's working women.http://www.pewresearch.org/fact-tank/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/Date: Dec 14, 2017Date accessed: September 14, 2018Google Scholar,  7WHOViolence against women.http://www.who.int/news-room/fact-sheets/detail/violence-against-womenDate: Nov 29, 2017Date accessed: September 14, 2018Google Scholar,  8World BankWomen, business and the law 2018. World Bank Group,
+Washington, DC2018Crossref
+Google Scholar,  9UN WomenDiscrimination against women persists around the globe hampering development.http://www.unwomen.org/en/news/stories/2012/7/discrimination-against-women-persists-around-the-globe-hampering-developmentDate: July 5, 2012Date accessed: November 16, 2018Google Scholar a reality that is too often amplified for women of colour, of low socioeconomic status and social class, and of advanced age, and women who do not identify as heterosexual, are disabled, or belong to other traditionally devalued groups.10Dasgupta N Stout JG Girls and women in science, technology, engineering, and mathematics: STEMing the tide and broadening participation in STEM careers.Policy Insights Behav Brain Sci. 2014; 1: 21-29Crossref
+Scopus (241)
+Google Scholar,  11Duncan C Loretto W Never the right age? Gender and age-based discrimination in employment.Gend Work Organ. 2004; 11: 95-115Crossref
+Scopus (286)
+Google Scholar,  12Hunter ML “If you're light you're alright”: light skin color as social capital for women of color.Gend Soc. 2002; 16: 175-193Google Scholar,  13Ortiz SY Roscigno VJ Discrimination, women, and work: processes and variations by race and class.Sociol Q. 2009; 50: 336-359Crossref
+Scopus (57)
+Google Scholar,  14Sanchez-Hucles JV Davis DD Women and women of color in leadership: complexity, identity, and intersectionality.Am Psychol. 2010; 65: 171-181Crossref
+PubMed
+Scopus (192)
+Google Scholar,  15Shields SA Gender: an intersectionality perspective.Sex Roles. 2008; 59: 301-311Crossref
+Scopus (849)
+Google Scholar,  16Williams JC Multhaup M Mihaylo S Why companies should add class to their diversity discussions.https://hbr.org/2018/09/why-companies-should-add-class-to-their-diversity-discussionsDate: Sept 5, 2018Date accessed: September 18, 2018Google Scholar In medicine, these inequities manifest for women as everyday experiences of sexism, which includes exposure to sexist jokes in class; sexual harassment by clinicians, faculty, or patients; weaker reference letters than men for medical school faculty applications; lower income than men; channelling into lower paid areas of medicine such as family practice; and a decreased likelihood of being addressed by one's professional title than men.17Beagan B Micro inequities and everyday inequalities: ‘race,’ gender, sexuality and class in medical school.Can J Sociol. 2001; 26: 583-610Crossref
+Scopus (46)
+Google Scholar,  18Files JA Mayer AP Ko MG et al.Speaker introductions at internal medicine grand rounds: forms of address reveal gender bias.J Womens Health (Larchmt). 2017; 26: 413-419Crossref
+PubMed
+Scopus (146)
+Google Scholar,  19Glauser W Why are women still earning less than men in medicine?.CMAJ. 2018; 190: E664-E665Crossref
+PubMed
+Scopus (4)
+Google Scholar,  20Sanfey H Crandall M Shaughnessy E et al.Strategies for identifying and closing the gender salary gap in surgery.J Am Coll Surg. 2017; 225: 333-338Summary
+Full Text
+Full Text PDF
+PubMed
+Scopus (37)
+Google Scholar,  21Trix F Psenka C Exploring the color of glass: letters of recommendation for female and male medical faculty.Discourse Soc. 2003; 14: 191-220Crossref
+Scopus (302)
+Google Scholar,  22Williams J Phillips KW Hall EV Double jeopardy? Gender bias against women of color in science.https://worklifelaw.org/publications/Double-Jeopardy-Report_v6_full_web-sm.pdfDate: Jan, 2014Date accessed: November 1, 2018Google Scholar While we may be making progress on the numbers—an increase in gender diversity—true progress on improving women's sense of belonging and inclusion is critically lagging.The disconnect between diversity and inclusion is not unique to medicine. This inability to see the problem as beyond merely the number of women in the field occurs in a wide variety of academic and professional domains.23Nishii LH The benefits of climate for inclusion for gender-diverse groups.Acad Manage J. 2012; 56: 1754-1774Crossref
+Scopus (482)
+Google Scholar,  24Roberson QM Disentangling the meanings of diversity and inclusion in organizations.Group Organ Manag. 2006; 31: 212-236Crossref
+Scopus (421)
+Google Scholar,  25Shore LM Randel AE Chung BG Dean MA Holcombe Ehrhart K Singh G Inclusion and diversity in work groups: a review and model for future research.J Manage. 2011; 37: 1262-1289Crossref
+Scopus (734)
+Google Scholar,  26Tienda M Diversity ≠ inclusion: promoting integration in higher education.Educ Res. 2013; 42: 467-475Crossref
+PubMed
+Scopus (85)
+Google Scholar In this Review, we offer insights from decades of research on diversity and inclusion in the fields of management and its cognate disciplines, including psychology, sociology, and economics, to propose suggestions for improving not only the number of women in medicine, but also their lived experiences, capacity to aspire, and opportunity to succeed. We acknowledge that most of this work has been done in Europe and North America and therefore might not be generalisable to all contexts. Moreover, any effective intervention would have to be tailored not only to country cultures and laws, but also to the specific organisations and departments in which these interventions are being made. Thus, the solutions proposed here should not be viewed as general fixed principles, but rather as a starting point for making more localised change. We start by debunking five myths that are commonly encountered when examining diversity and inclusion practices, and conclude by offering five research-supported solutions to bring about equity by design, an approach that we argue is particularly well suited to the medical field.Five myths about diversity and inclusionDiversity and inclusion policies and practice are becoming nearly ubiquitous in organisational settings. Finding an organisation or institution without a written statement outlining their commitment to diversity is now rare, and billions of dollars each year are used in the efforts to increase the representation of women and minorities.27Kaiser CR Major B Jurcevic I Dover TL Brady LM Shapiro JR Presumed fair: ironic effects of organizational diversity structures.J Pers Soc Psychol. 2013; 104: 504-519Crossref
+PubMed
+Scopus (196)
+Google Scholar,  28Kang SK DeCelles KA Tilcsik A Jun S Whitened résumés: race and self-presentation in the labor market.Adm Sci Q. 2016; 61: 469-502Crossref
+Scopus (176)
+Google Scholar To create lasting change and to prevent the current focus on diversity and inclusion from becoming another ineffectual trend in management, it is important to ensure that efforts are evidence-based and do not rely on common myths that might instead perpetuate the problems they are trying to solve. The five myths uncovered in this Review are not mutually exclusive—often being intertwined or potentially conflicting—but represent the most common (albeit inaccurate) assumptions people make about achieving diversity and inclusion.Myth 1: other people are biased, not meThe first myth that should be debunked is the idea that bias is a problem unique to only a few individuals: namely the racists, sexists, and bigots among us.29Chugh D The person you mean to be: confronting bias to build a better workplace and world.1st edn.
+Harper Business,
+New York, NY2018Google Scholar However, research on the human brain and how it makes sense of the world suggests not only that all of us are biased, but that we must be biased to survive.30Macrae CN Milne AB Bodenhausen GV Stereotypes as energy-saving devices: a peek inside the cognitive toolbox.J Pers Soc Psychol. 1994; 66: 37-47Crossref
+Scopus (677)
+Google Scholar,  31Macrae CN Bodenhausen GV Social cognition: thinking categorically about others.Annu Rev Psychol. 2000; 51: 93-120Crossref
+PubMed
+Scopus (853)
+Google Scholar Cognitive biases and heuristics are shortcuts that allow us to interact meaningfully with people, objects, and tasks without having to exhaust our insufficient attentional resources to decipher every sensory signal.32Fiske ST Lin M Neuberg SL The continuum model: ten years later.in: Chaiken S Trope Y Dual-process theories in social psychology.
+Guilford Press,
+New York, NY1999: 231-254Google Scholar,  33Macrae CN Bodenhausen GV Social cognition: categorical person perception.Br J Psychol. 2001; 92: 239-255Crossref
+Scopus (184)
+Google Scholar Whenever you encounter a person, for example, your brain rapidly engages in a series of calculations to interpret that person's relevance to you by placing them within a social category.32Fiske ST Lin M Neuberg SL The continuum model: ten years later.in: Chaiken S Trope Y Dual-process theories in social psychology.
+Guilford Press,
+New York, NY1999: 231-254Google Scholar The first automatic calculations regard age, race, and gender.34Brewer MB Lui LN The primacy of age and sex in the structure of person categories.Soc Cogn. 1989; 7: 262-274Crossref
+Google Scholar,  35Ridgeway CL Framed before we know it: how gender shapes social relations.Gend Soc. 2009; 23: 145-160Crossref
+Scopus (422)
+Google Scholar,  36Schneider DJ The psychology of stereotyping. Guilford Press,
+New York, NY2004Google Scholar Because of this perceptual primacy, gender has come to frame the way we see the world; it is an implicit or unconscious bias that serves as a foundation upon which stereotypes, expectations, and norms have been created.37Greenwald AG Banaji MR Implicit social cognition: attitudes, self-esteem, and stereotypes.Psychol Rev. 1995; 102: 4-27Crossref
+PubMed
+Scopus (3806)
+Google Scholar Social categorisation is an inevitable part of our perceptual experience, such that the stereotypes we hold about different social groups will alter our perceptions of, and reactions to, individual group members.33Macrae CN Bodenhausen GV Social cognition: categorical person perception.Br J Psychol. 2001; 92: 239-255Crossref
+Scopus (184)
+Google Scholar Further, when it comes to devaluing women's contributions in masculinised settings, women can be just as biased as men, meaning that people of all gender identities can perpetuate gender bias in organisations.5Heilman ME Gender stereotypes and workplace bias.Res Organ Behav. 2012; 32: 113-135Crossref
+Scopus (555)
+Google Scholar,  38Ellemers N Rink F Derks B Ryan MK Women in high places: when and why promoting women into top positions can harm them individually or as a group (and how to prevent this).Res Organ Behav. 2012; 32: 163-187Crossref
+Scopus (104)
+Google Scholar Rejecting the idea that only some people are biased is a crucial first step to personally engaging with the problem of discrimination so as to bring about change.Myth 2: the key to controlling bias is controlling how people thinkMost of the efforts made to minimise bias in organisations has focused on controlling or eradicating the biases that exist in our minds. Implicit bias training is an example of such efforts. Testing for implicit bias via the Implicit Association Test (IAT)39Greenwald AG McGhee DE Schwartz JL Measuring individual differences in implicit cognition: the implicit association test.J Pers Soc Psychol. 1998; 74: 1464-1480Crossref
+PubMed
+Scopus (7196)
+Google Scholar has become commonplace, and has risen in popularity along with implicit bias or diversity training. Despite the millions of dollars spent on administering the IAT and training people to act without bias, the evidence that this kind of training actually changes organisational outcomes is scarce.40Oswald FL Mitchell G Blanton H Jaccard J Tetlock PE Predicting ethnic and racial discrimination: a meta-analysis of IAT criterion studies.J Pers Soc Psychol. 2013; 105: 171-192Crossref
+PubMed
+Scopus (433)
+Google Scholar,  41Singal J Psychology's favorite tool for measuring racism isn't up to the job.https://www.thecut.com/2017/01/psychologys-racism-measuring-tool-isnt-up-to-the-job.htmlDate: Jan 11, 2017Date accessed: September 22, 2018Google Scholar More commonly, diversity training (especially when done alone and not in combination with other organisational interventions) has produced a host of unintended consequences.42Dobbin F Kalev A Why diversity programs fail.https://hbr.org/2016/07/why-diversity-programs-failDate: July 1, 2016Date accessed: September 22, 2018Google Scholar It has been shown to be associated with reduced diversity,43Kalev A Dobbin F Kelly E Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies.Am Sociol Rev. 2006; 71: 589-617Crossref
+Scopus (1093)
+Google Scholar worsened behaviour toward minority co-workers,44Sanchez JI Medkik N The effects of diversity awareness training on differential treatment.Group Organ Manag. 2004; 29: 517-536Crossref
+Scopus (62)
+Google Scholar and the creation of the illusion of fairness such that those who claim to have experienced discrimination are less likely to be believed.27Kaiser CR Major B Jurcevic I Dover TL Brady LM Shapiro JR Presumed fair: ironic effects of organizational diversity structures.J Pers Soc Psychol. 2013; 104: 504-519Crossref
+PubMed
+Scopus (196)
+Google Scholar Instructing people to avoid the use of stereotypes can paradoxically lead to increased activation of those stereotypes,45Macrae CN Bodenhausen GV Milne AB Jetten J Out of mind but back in sight: stereotypes on the rebound.J Pers Soc Psychol. 1994; 67: 808-817Crossref
+Scopus (618)
+Google Scholar and attempts to increase the awareness of stereotype prevalence can inadvertently normalise stereotyping and discrimination (such as, if everyone uses stereotypes it must be okay).46Duguid MM Thomas-Hunt MC Condoning stereotyping? How awareness of stereotyping prevalence impacts expression of stereotypes.J Appl Psychol. 2015; 100: 343-359Crossref
+PubMed
+Scopus (119)
+Google Scholar Eradicating these innate human biases is difficult and likely to be impossible. Although educating people about these biases and providing education on how to recognise them is an important first step, we must go further to create systems and environments in which bias and stereotyping are either less likely to become initiated, or are prevented from resulting in discrimination even when they are active.Myth 3: under-representation of women is a pipeline problemThe representation of women across a variety of STEM fields and within medicine has been slowly increasing, albeit at different rates within these fields and across nations.47Hill C Corbett C St Rose A Why so few? Women in science, technology, engineering, and mathematics.https://eric.ed.gov/?id=ED509653Date: 2010Date accessed: September 22, 2018Google Scholar,  48Miller DI Eagly AH Linn MC Women's representation in science predicts national gender-science stereotypes: evidence from 66 nations.J Educ Psychol. 2015; 107: 631-644Crossref
+Scopus (229)
+Google Scholar If we look to the research on child development and psychology, girls perform to an equal or better standard than boys in STEM topics, and report high interest in pursuing careers in STEM.49Halpern DF Benbow CP Geary DC Gur RC Hyde JS Gernsbacher MA The science of sex differences in science and mathematics.Psychol Sci Public Interest. 2007; 8: 1-51Crossref
+PubMed
+Scopus (628)
+Google Scholar,  50Hyde JS Lindberg SM Linn MC Ellis AB Williams CC Gender similarities characterize math performance.Science. 2008; 321: 494-495Crossref
+PubMed
+Scopus (583)
+Google Scholar,  51Pomerantz EM Altermatt ER Saxon JL Making the grade but feeling distressed: gender differences in academic performance and internal distress.J Educ Psychol. 2002; 94: 396-404Crossref
+Scopus (293)
+Google Scholar,  52Spelke ES Sex differences in intrinsic aptitude for mathematics and science?: a critical review.Am Psychol. 2005; 60: 950-958Crossref
+PubMed
+Scopus (437)
+Google Scholar Therefore, the pipeline of female trainees and candidates itself is healthy. The real problem is brought about by the pressures that push women out of the pipeline.18Files JA Mayer AP Ko MG et al.Speaker introductions at internal medicine grand rounds: forms of address reveal gender bias.J Womens Health (Larchmt). 2017; 26: 413-419Crossref
+PubMed
+Scopus (146)
+Google Scholar,  20Sanfey H Crandall M Shaughnessy E et al.Strategies for identifying and closing the gender salary gap in surgery.J Am Coll Surg. 2017; 225: 333-338Summary
+Full Text
+Full Text PDF
+PubMed
+Scopus (37)
+Google Scholar,  21Trix F Psenka C Exploring the color of glass: letters of recommendation for female and male medical faculty.Discourse Soc. 2003; 14: 191-220Crossref
+Scopus (302)
+Google Scholar,  53Carnes M Bartels CM Kaatz A Kolehmainen C Why is John more likely to become department chair than Jennifer?.Trans Am Clin Climatol Assoc. 2015; 126: 197-214PubMed
+Google Scholar,  54Hall W Schmader T Aday A Croft E Decoding the dynamics of social identity threat in the workplace: a within-person analysis of women's and men's interactions in STEM.Soc Psychol Personal Sci. 2018;
+(published online May 2.)DOI:10.1177/1948550618772582Crossref
+Scopus (25)
+Google Scholar,  55Hall W Schmader T Aday A Inness M Croft E Climate control: the relationship between social identity threat and cues to an identity-safe culture.J Pers Soc Psychol. 2018; 115: 446-467Crossref
+PubMed
+Scopus (33)
+Google Scholar,  56Moss-Racusin CA Dovidio JF Brescoll VL Graham MJ Handelsman J Science faculty's subtle gender biases favor male students.Proc Natl Acad Sci USA. 2012; 109: 16474-16479Crossref
+PubMed
+Scopus (1714)
+Google Scholar,  57Shapiro JR Williams AM The role of stereotype threats in undermining girls' and women's performance and interest in STEM fields.Sex Roles. 2012; 66: 175-183Crossref
+Scopus (257)
+Google Scholar,  58Steinpreis RE Anders KA Ritzke D The impact of gender on the review of the curricula vitae of job applicants and tenure candidates: a national empirical study.Sex Roles. 1999; 41: 509-528Crossref
+Scopus (470)
+Google Scholar Research shows that discrimination exists against women at each stage of professional life, from recruitment and selection, to recommendation, evaluation, promotion, training, and compensation.3Bohnet I What works: gender equality by design. The Belknap Press of Harvard University Press,
+Cambridge, MA2016Crossref
+Google Scholar,  59Botelho TL Abraham M Pursuing quality: how search costs and uncertainty magnify gender-based double standards in a multistage evaluation process.Adm Sci Q. 2017; 62: 698-730Crossref
+Scopus (49)
+Google Scholar,  60Heilman ME Eagly AH Gender stereotypes are alive, well, and busy producing workplace discrimination.Ind Organ Psychol. 2008; 1: 393-398Crossref
+Google Scholar These effects are often exacerbated for women of colour or for those who possess other devalued intersectional identities.22Williams J Phillips KW Hall EV Double jeopardy? Gender bias against women of color in science.https://worklifelaw.org/publications/Double-Jeopardy-Report_v6_full_web-sm.pdfDate: Jan, 2014Date accessed: November 1, 2018Google Scholar,  61Berdahl JL Moore C Workplace harassment: double jeopardy for minority women.J Appl Psychol. 2006; 91: 426-436Crossref
+PubMed
+Scopus (354)
+Google Scholar,  62Clancy KBH Lee KMN Rodgers EM Richey C Double jeopardy in astronomy and planetary science: women of color face greater risks of gendered and racial harassment.J Geophys Res Planets. 2017; 122: 1610-1623Crossref
+Scopus (96)
+Google Scholar,  63Espinosa L Pipelines and pathways: women of color in undergraduate STEM majors and the college experiences that contribute to persistence.Harv Educ Rev. 2011; 81: 209-241Crossref
+Scopus (327)
+Google Scholar,  64Krieger N Waterman PD Hartman C et al.Social hazards on the job: workplace abuse, sexual harassment, and racial discrimination— a study of black, latino, and white low-income women and men workers in the United States.Int J Health Serv. 2006; 36: 51-85Crossref
+PubMed
+Scopus (121)
+Google Scholar,  65Randolph DS The meaning of workplace discrimination for women with disabilities.Work. 2005; 24: 369-380PubMed
+Google Scholar,  66Sayer G Granleese J Gendered ageism and “lookism”: a triple jeopardy for female academics.Women Manage Rev. 2006; 21: 500-517Crossref
+Scopus (55)
+Google Scholar Women are conferred less respect and status, experience greater workplace hostility and harassment, are disproportionately punished for errors, and experience higher amounts of invisible and uncompensated labour, particularly in terms of emotional labour, than men.54Hall W Schmader T Aday A Croft E Decoding the dynamics of social identity threat in the workplace: a within-person analysis of women's and men's interactions in STEM.Soc Psychol Personal Sci. 2018;
+(published online May 2.)DOI:10.1177/1948550618772582Crossref
+Scopus (25)
+Google Scholar,  67Babcock L Recalde MP Vesterlund L Weingart L Gender differences in accepting and receiving requests for tasks with low promotability.Am Econ Rev. 2017; 107: 714-747Crossref
+Scopus (176)
+Google Scholar,  68Fitzgerald LF Sexual harassment. Violence against women in the workplace.Am Psychol. 1993; 48: 1070-1076Crossref
+PubMed
+Scopus (263)
+Google Scholar,  69Guy ME Newman MA Women's jobs, men's jobs: sex segregation and emotional labor.Public Adm Rev. 2004; 64: 289-298Crossref
+Scopus (291)
+Google Scholar,  70Mitchell SM Hesli VL Women don't ask? Women don't say no? Bargaining and service in the political science profession.PS Polit Sci Polit. 2013; 46: 355-369Crossref
+Scopus (82)
+Google Scholar,  71Morris JA Feldman DC The dimensions, antecedents, and consequences of emotional labor.Acad Manage Rev. 1996; 21: 986-1010Crossref
+Google Scholar,  72Sarsons H Interpreting signals in the labor market: evidence from medical referrals.https://scholar.harvard.edu/files/sarsons/files/sarsons_jmp.pdfDate: Nov 28, 2017Date accessed: November 1, 2018Google Scholar,  73Thomas-Hunt MC Phillips KW When what you know is not enough: expertise and gender dynamics in task groups.Pers Soc Psychol Bull. 2004; 30: 1585-1598Crossref
+PubMed
+Scopus (125)
+Google Scholar,  74Winslow S Gender inequality and time allocations among academic faculty.Gend Soc. 2010; 24: 769-793Crossref
+Scopus (108)
+Google Scholar It is often argued that women choose to opt out of certain careers or opt in when lower status roles are available due to motherhood. However, research suggests that the effects of this so-called motherhood penalty are structured by discriminatory dynamics.75Benard S Correll SJ Normative discrimination and the motherhood penalty.Gend Soc. 2010; 24: 616-646Crossref
+Scopus (212)
+Google Scholar,  76Correll SJ Benard S Paik I Getting a job: is there a motherhood penalty?.AJS. 2007; 112: 1297-1339Google Scholar Further, if motherhood fully explains women's under-representation in STEM and medicine, then we would not also observe under-representation of men of colour, but we do.77Griffith AL Persistence of women and minorities in STEM field majors: is it the school that matters?.Econ Educ Rev. 2010; 29: 911-922Crossref
+Scopus (317)
+Google Scholar Therefore, it is not the case that women are entering the pipeline in too few numbers, but rather that a confluence of factors is pushing them out.Myth 4: promoting diversity contravenes meritocracyOne of the most commonly cited explanations that people provide for rejecting diversity initiatives is that their organisations are meritocratic.78Thomas KM Mack DA Montagliani A The arguments against diversity: are they valid?.in: Stockdale MS Crosby FJ The psychology and management of workplace diversity.
+Blackwell Publishing,
+Malden, MA2004: 31-51Google Scholar The arguments are that if women were equally qualified, they would be hired and promoted, and that any diversity initiatives aimed at righting the imbalance would compromise quality. However, an abundance of research evidence shows our so-called meritocracies are not so meritocratic.79Castilla EJ Gender, race, and meritocracy in organizational careers.AJS. 2008; 113: 1479-1526PubMed
+Google Scholar,  80Castilla EJ Benard S The paradox of meritocracy in organizations.Adm Sci Q. 2010; 55: 543-676Crossref
+Scopus (374)
+Google Scholar Studies that control for underlying quality show that a signal of female gender by itself leads to devaluation: for equal curriculum vitae in which only the name is different, Brian is more likely than Karen to be seen as hireable; with equal business cases for a startup company in which only the video narration voice differs, the male narration is deemed twice as investable as the female narration; female postdoctoral applicants have to be 2·5 times more productive than the average male applicant to be hired; and computers named James are valued nearly 25% more than computers named Julie.56Moss-Racusin CA Dovidio JF Brescoll VL Graham MJ Handelsman J Science faculty's subtle gender biases favor male students.Proc Natl Acad Sci USA. 2012; 109: 16474-16479Crossref
+PubMed
+Scopus (1714)
+Google Scholar,  58Steinpreis RE Anders KA Ritzke D The impact of gender on the review of the curricula vitae of job applicants and tenure candidates: a national empirical study.Sex Roles. 1999; 41: 509-528Crossref
+Scopus (470)
+Google Scholar,  81Brooks AW Huang L Kearney SW Murray FE Investors prefer entrepreneurial ventures pitched by attractive men.Proc Natl Acad Sci USA. 2014; 111: 4427-4431Crossref
+PubMed
+Scopus (190)
+Google Scholar,  82Posard MN Status processes in human-computer interactions: does gender matter?.Comput Human Behav. 2014; 37: 189-195Crossref
+Scopus (6)
+Google Scholar,  83Wennerás C Wold A Nepotism and sexism in peer-review.Nature. 1997; 387: 341-343Crossref
+PubMed
+Scopus (868)
+Google Scholar,  84Wennerás C Wold A Nepotism and sexism in peer-review.in: Wyers M Barbercheck M Giesman D Öztürk HÖ Wayne M Women, Science, and Technology. 2nd edn.
+Routledge,
+New York, NY2010: 50-56Google Scholar So, if anything, underlying biases appear to be causing the current meritocratic systems to bypass many highly capable women and members of other minority groups. We are drawing heterosexual, white men from much further down the distribution of talent than we are for other social categories.Myth 5: we have to fix the womenRelated to the gender bias in organisations, most programmes attempting to address gender inequality focus on so-called fixing the women, by teaching them such skills as how to lean in, negotiate better, stand up straight, adopt powerful postures, talk more in meetings, and be more assertive, to name a few.85Cuddy AJ Schultz SJ Fosse NE P-curving a more comprehensive body of research on postural feedback reveals clear evidential value for power-posing effects: reply to Simmons and Simonsohn (2017).Psychol Sci. 2018; 29: 656-666Crossref
+PubMed
+Scopus (63)
+Google Scholar,  86Rennung M Blum J Göritz AS To strike a pose: no stereotype backlash for power posing women.Front Psychol. 2016; 7: 1463Crossref
+PubMed
+Scopus (10)
+Google Scholar,  87Babcock L Laschever S Women don't ask: negotiation and the gender divide. Princeton University Press,
+Princeton, NJ2003Google Scholar,  88Bowles HR Babcock L How can women escape the compensation negotiation dilemma? Relational accounts are one answer.Psychol Women Q. 2013; 37: 80-96Crossref
+Scopus (73)
+Google Scholar,  89Brescoll VL Who takes the floor and why: gender, power, and volubility in organizations.Adm Sci Q. 2011; 56: 622-641Crossref
+Scopus (155)
+Google Scholar,  90Akinola M Martin AE Phillips KW To delegate or not to delegate: gender differences in affective associations and behavioral responses to delegation.Acad Manage J. 2018; 61: 1467-1491Crossref
+Scopus (34)
+Google Scholar,  91Moss-Racusin C Rudman LA Disruptions in women's self-promotion: the backlash avoidance model.Psychol Women Q. 2010; 34: 186-202Crossref
+Scopus (147)
+Google Scholar Although not universally the case, many of these solutions are themselves highly biased, in that they train women to act more like men because the actions of men are more valued and perceived as the correct way to succeed. What is neglected in this approach is the backlash women often experience when engaging in these behaviours. Competent women with agency have been shown to experience backlash for violating expectations of warmth and so-called feminine niceness.92Eagly AH Mladinic A Are people prejudiced against women? Some answers from research on attitudes, gender stereotypes, and judgments of competence.Eur Rev Soc Psychol. 1994; 5: 1-35Crossref
+Scopus (338)
+Google Scholar,  93Phelan JE Moss-Racusin CA Rudman LA Competent yet out in the cold: shifting criteria for hiring reflect backlash toward agentic women.Psychol Women Q. 2008; 32: 406-413Crossref
+Scopus (177)
+Google Scholar,  94Rudman LA Glick P Feminized management and backlash toward agentic women: the hidden costs to women of a kinder, gentler image of middle managers.J Pers Soc Psychol. 1999; 77: 1004-1010Crossref
+PubMed
+Scopus (566)
+Google Scholar,  95Rudman LA Glick P Prescriptive gender stereotypes and backlash toward agentic women.J Soc Issues. 2001; 57: 743-762Crossref
+Scopus (1039)
+Google Scholar Research also shows that women are punished more severely than men for mistakes or failures, and that these negative effects can negatively affect perceptions of other female co-workers.72Sarsons H Interpreting signals in the labor market: evidence from medical referrals.https://scholar.harvard.edu/files/sarsons/files/sarsons_jmp.pdfDate: Nov 28, 2017Date accessed: November 1, 2018Google Scholar,  96Egan ML Matvos G Seru A When Harry fired Sally: the double standard in punishing misconduct. National Bureau of Economic Research.https://www.nber.org/papers/w23242.pdfDate: March 2017Date accessed: November 1, 2018Google Scholar,  97Kennedy J McDonnell M-H Stephens N Does gender raise the ethical bar? Exploring the punishment of ethical violations at work. Social Science Research Network,
+Rochester, NYApril 26, 2016https://papers.ssrn.com/abstract=2770012Date accessed: September 24, 2018Google Scholar Thus, attempts to fix the women will continue to be counterproductive within a system that is rigged against them.Five solutions for achieving gender equality in medicineWe turn next to a series of suggestions based on management research for improving the experience of women in medicine. This research shows that intervening at the level of the individual is difficult, perhaps even impossible, and that attempts to alter the behaviour of individuals have not proven effective on their own. The introduction and application of stereotypes and other biases are most common under stress (eg, when time is restricted, when information processing demands are high, or when we are under pressure to perform). Accordingly, perhaps no better environment for unintentionally enabling bias exists than the medical workplace, where demands are high, resources can be low, and the pressure to perform the right action quickly can be overwhelming. Under these conditions, individual change must be embedded within a structure that is designed to enable progress. Management research about the medical profession has shown that practitioners can easily overlook or misinterpret cues in crisis situations, supporting the assertion that educating about and attempting to control bias are not enough.98Christianson MK More and less effective updating: the role of trajectory management in making sense again.Adm Sci Q. 2017;
+(published online Dec 21.)DOI:10.1177/0001839217750856PubMed
+Google Scholar We also know from progress in evidence-based medicine that structural solutions such as behavioural guidelines might be an effective means for physicians and other health-care practitioners to overcome habits and biases.99Haynes AB Weiser TG Berry WR et al.A surgical safety checklist to reduce morbidity and mortality in a global population.N Engl J Med. 2009; 360: 491-499Crossref
+PubMed
+Scopus (3752)
+Google Scholar,  100Gawande A The checklist manifesto: how to get things right.1st edn.
+Picador,
+New York, NY2010Google Scholar Therefore, we argue that medicine is particularly well suited to interventions that target organisational change by designing for equality, and we outline five potential solutions in this context. These solutions are presented as a starting point for the innovation of refined and targeted solutions that consider departmental, organisational, regional, and national contextual needs and constraints. We should also recognise that we cannot achieve equality inside organisations without also achieving equality in people's lives outside of work. Structural inequalities in society should also change. The interventions that we will outline therefore focus on only one aspect of achieving workplace gender equality in medicine, but it is the aspect over which most people in the medical profession have more control.Solution 1: treat gender equality as an innovation challengeThe general approach to working toward gender equality, and diversity more broadly, has been largely rooted in attitudes and values. Justifications for gender equality are often discussed in terms of the so-called business case, focusing on how equity, diversity, and inclusion are economically productive, rather than focusing on them as the right thing to do.101Kaplan S Beyond the business case for social responsibility.Acad Manage Discov. 2019;
+(published online Jan 3.)DOI:10.5465/amd.2018.0220Google Scholar Instead of initiating action toward finding a solution, such discussions on gender equality become stalled when trying to define the nature of the problem and in determining whether or not it is worthy of solving. Further, this type of framing can ultimately cause more harm than good.101Kaplan S Beyond the business case for social responsibility.Acad Manage Discov. 2019;
+(published online Jan 3.)DOI:10.5465/amd.2018.0220Google Scholar To make progress in achieving gender equality, we must declare the discussion on whether and why we should pursue equality to be over. From this point, within contexts where this is possible (ie, within some contexts even the recognition of gender equality as a basic human right is still an ongoing challenge), we can switch our focus onto experimentation and innovation.102Kaplan S Because it's 2017: gender equality as an innovation challenge.http://www.rotman.utoronto.ca/Connect/Rotman-MAG/Back-Issues/2017/Back-Issues---2017/Fall2017-Inequality/Fall2017-FreeFeatureArticle-KaplanDate: 2017Date accessed: September 14, 2018Google Scholar As with any organisational initiative, gender equality should be approached with an open and scientific attitude, and the willingness to experiment and measure outcomes. Because the challenge of achieving equality is complex and multifaceted, openness to failure and the willingness to change tactics is a must, as is transparency via measurement and reporting, so that momentum and accountability for change remain high.The most promising solutions are probably behavioural and systemic changes that focus on creating a climate for change, an approach widely supported by the so-called nudge theory (with the idea of identifying easy to implement and economical ways to change people's behaviours by structuring their choices),103Thaler RH Sunstein CR Nudge: improving decisions about health, wealth, and happiness, revised and expanded edition. Penguin Books,
+New York, NY2009Google Scholar rather than those focusing only on changing individual attitudes or values. Gender-inclusive workplace cultures are those that create a positive social climate for people of all gender identities, and can be cultivated through such practices as increasing the representation of women and gender non-binary people in leadership, by use of gender inclusive photos and pronouns in organisational communications, and adopting anonymous evaluation practices that minimise the potential for bias by eliminating gender cues such as names and pronouns.43Kalev A Dobbin F Kelly E Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies.Am Sociol Rev. 2006; 71: 589-617Crossref
+Scopus (1093)
+Google Scholar,  104Dasgupta N Asgari S Seeing is believing: exposure to counterstereotypic women leaders and its effect on the malleability of automatic gender stereotyping.J Exp Soc Psychol. 2004; 40: 642-658Crossref
+Scopus (435)
+Google Scholar,  105Hall WM Interpersonal triggers and cultural moderators of social identity threat. University of British Columbia,
+2016: 1-171Google Scholar,  106Murphy MC Steele CM Gross JJ Signaling threat: how situational cues affect women in math, science, and engineering settings.Psychol Sci. 2007; 18: 879-885Crossref
+PubMed
+Scopus (668)
+Google Scholar,  107Rosenthal L Levy SR London B Lobel M Bazile C In pursuit of the MD: the impact of role models, identity compatibility, and belonging among undergraduate women.Sex Roles. 2013; 68: 464-473Crossref
+PubMed
+Scopus (50)
+Google Scholar That said, no quick-fix solution is available to offer, and actual change will only follow from the repeated application of commitment, courage, and many iterations of innovative experimentation. Further, just as we should think about solutions for gender diversity innovatively, we should also update our conceptualisation of gender itself to expand beyond the traditional male and female binary, so as to encompass the range of identities that represent gender diversity.Solution 2: change institutional normsNorms are the conventional patterns of behaviour that are considered acceptable by a social group.108Gollwitzer P Bargh JA The psychology of action: linking cognition and motivation to behavior. Guilford Press,
+New York, NY1996Google Scholar,  109Hirsh JB Kang SK Mechanisms of identity conflict: uncertainty, anxiety, and the behavioral inhibition system.Pers Soc Psychol Rev. 2016; 20: 223-244Crossref
+PubMed
+Scopus (101)
+Google Scholar,  110Miller DT Prentice DA The construction of social norms and standards.in: Kruglanski AW Higgins ET Social psychology: handbook of basic principles.
+Guilford Press,
+New York, NY1996: 799-829Google Scholar People of all gender identities are under pressure to conform to gender norms (eg, women are expected to be kind and nurturing; men are expected to be competent and strong).111Brescoll VL Uhlmann EL Attitudes toward traditional and nontraditional parents.Psychol Women Q. 2005; 29: 436-445Crossref
+Scopus (120)
+Google Scholar,  112Carli LL Gender and social influence.J Soc Issues. 2001; 57: 725-741Crossref
+Scopus (321)
+Google Scholar,  113Prentice DA Carranza E What women and men should be, shouldn't be, are allowed to be, and don't have to be: the contents of prescriptive gender stereotypes.Psychol Women Q. 2002; 26: 269-281Crossref
+Scopus (835)
+Google Scholar These norms have a powerful influence on our behaviour.114Cialdini RB Goldstein NJ Social influence: compliance and conformity.Annu Rev Psychol. 2004; 55: 591-621Crossref
+PubMed
+Scopus (2898)
+Google Scholar,  115Cialdini RB Kallgren CA Reno RR A focus theory of normative conduct: a theoretical refinement and reevaluation of the role of norms in human behavior.in: Zanna MP Advances in experimental social psychology.
+Academic Press,
+Cambridge, MA1991: 201-234Google Scholar They result in women being socialised into more communal medical specialties (eg, family medicine) and men being socialised into more agentic specialties (eg, surgery).21Trix F Psenka C Exploring the color of glass: letters of recommendation for female and male medical faculty.Discourse Soc. 2003; 14: 191-220Crossref
+Scopus (302)
+Google Scholar Over time, these norms have strong effects on other measurable outcomes beyond behaviour. As family medicine has become more feminised over time, for example, the pay gap between family medicine and other specialties has widened considerably.19Glauser W Why are women still earning less than men in medicine?.CMAJ. 2018; 190: E664-E665Crossref
+PubMed
+Scopus (4)
+Google Scholar,  116Vogel L Pay gap growing between family doctors, specialists.https://cmajnews.com/2017/09/28/pay-gap-growing-between-family-doctors-specialists-109-5508/Date: Sept 28, 2017Date accessed: September 26, 2018Google Scholar Fortunately, because we are a fundamentally social species, changing perceptions of norms also changes behaviour.117Miller DT Prentice DA Changing norms to change behavior.Annu Rev Psychol. 2016; 67: 339-361Crossref
+PubMed
+Scopus (265)
+Google Scholar Theories on the social influence of norms predict that if everyone else in an organisation appears to value diversity, we are more likely to act like we value diversity ourselves. Conversely, if expression of prejudicial attitudes or engagement in discriminatory behaviour (as observed in the so-called iron man surgery culture118Kellogg KC Challenging operations: medical reform and resistance in surgery. University of Chicago Press,
+Chicago, IL2011Crossref
+Google Scholar) is considered normative, these practices will become embedded within a social environment. The most important source of such normative change is that of a group's leaders.119Bass BM Avolio BJ Transformational leadership and organizational culture.Public Adm Q. 1993; 17: 112-121Google Scholar,  120Taggar S Ellis R The role of leaders in shaping formal team norms.Leadersh Q. 2007; 18: 105-120Crossref
+Scopus (88)
+Google Scholar The behaviour of those at the head of a group have a powerful influence on the people further down the group, and therefore the communication and behaviour of hospital administration and senior staff, for example, must show a commitment to diversity for others to follow suit.Solution 3: create a culture in which people feel personally responsible for changeOne of the reasons that diversity training programmes can be so spectacularly unsuccessful is that they challenge people's sense of autonomy, self-determination, and control.42Dobbin F Kalev A Why diversity programs fail.https://hbr.org/2016/07/why-diversity-programs-failDate: July 1, 2016Date accessed: September 22, 2018Google Scholar,  121Dobbin F Schrage D Kalev A Rage against the iron cage: the varied effects of bureaucratic personnel reforms on diversity.Am Sociol Rev. 2015; 80: 1014-1044Crossref
+Scopus (168)
+Google Scholar Just as humans are inherently prone to bias, so too do we have an inherent drive toward autonomy, which can lead us to resist initiatives that we feel are forced upon us.122Legault L Gutsell JN Inzlicht M Ironic effects of antiprejudice messages: how motivational interventions can reduce (but also increase) prejudice.Psychol Sci. 2011; 22: 1472-1477Crossref
+PubMed
+Scopus (186)
+Google Scholar,  123Ryan RM Deci EL Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.Am Psychol. 2000; 55: 68-78Crossref
+PubMed
+Scopus (20222)
+Google Scholar People react negatively to perceived coercion, and overbearing diversity programmes can therefore go wrong and actually make organisations less inclusive. The three most common diversity programmes of the past 30 years, mandatory diversity training, mandatory testing for job applicants, and grievance systems, are associated with decreases in the representation of white women, as well as black, Hispanic, and Asian men and women.43Kalev A Dobbin F Kelly E Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies.Am Sociol Rev. 2006; 71: 589-617Crossref
+Scopus (1093)
+Google Scholar Better results are seen with diversity programmes that capitalise on people's need for autonomy, increase contact between diverse groups, encourage personal engagement, and include all members of the organisation rather than only those who are part of the group targeted for intervention. Examples of successful diversity programmes are mentoring programmes, which effectively increase representation among minority women in particular, and the establishment of diversity task forces.43Kalev A Dobbin F Kelly E Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies.Am Sociol Rev. 2006; 71: 589-617Crossref
+Scopus (1093)
+Google Scholar Even more effective are sponsorship programmes in which sponsors become personally invested in their protégé's career success, take risks to champion them for recognition and advancement, and actively embed them in powerful networks.124Hewlett SA (Forget a mentor) find a sponsor: the new way to fast-track your career. Harvard Business Review Press,
+Boston, MA2013Google Scholar,  125Patton EW Griffith KA Jones RD Stewart A Ubel PA Jagsi R Differences in mentor-mentee sponsorship in male vs female recipients of National Institutes of Health grants.JAMA Intern Med. 2017; 177: 580-582Crossref
+PubMed
+Scopus (84)
+Google Scholar Combined targeted recruitment and mentoring programmes, in which sponsors are given personal responsibility for recruiting and fostering the success of under-represented minorities can also be effective. These types of programmes are promising not only because they support individual autonomy and engagement, but also because they circumvent the hesitation to participate because an individual believes he or she is not biased. Attempts to control specific attitudes and behaviours can go wrong if individuals feel that their autonomy is threatened, but meaningfully engaging them in organisational change can help to circumvent this type of backlash.121Dobbin F Schrage D Kalev A Rage against the iron cage: the varied effects of bureaucratic personnel reforms on diversity.Am Sociol Rev. 2015; 80: 1014-1044Crossref
+Scopus (168)
+Google ScholarSolution 4: implement behavioural guidelines and action plansPeople often encounter difficulty translating their goals into action. This issue can be remedied through a type of planning known as implementation intentions, which links anticipated acute situations to goal-directed responses (eg, “whenever situation x happens, I will initiate the goal-directed response y”).126Gollwitzer PM Implementation intentions: strong effects of simple plans.Am Psychol. 1999; 54: 493-503Crossref
+Scopus (3415)
+Google Scholar,  127Gollwitzer PM Sheeran P Implementation intentions and goal achievement: a meta-analysis of effects and processes.in: Zanna M Advances in experimental social psychology.
+Academic Press,
+Cambridge, MA2006: 69-119Crossref
+Scopus (2017)
+Google Scholar These kinds of systems are already very common in medical workplaces (eg, code systems clearly link specific situations to a prescribed set of responses). To advance toward the goal of gender equality, one suggestion is to put more emphasis on behavioural rather than attitudinal guidelines for promoting diversity and inclusion. For example, consider what might happen if a hospital decides to combat gender bias during the search for new attending physicians. A typical first step would be clearly outlining the goal (eg, to eliminate gender bias within search committees looking for attending physicians) and the rationale (eg, eliminating gender bias will benefit our team, patients, organisation, and other various stakeholders) This step is where most plans for improving diversity end. People are left with an abstract set of values and goals, but no distinct action plan for achieving them and no indication of how progress will be measured and success identified, which research over the decades has shown is an essential part of effective goal-setting.128Locke EA Latham GP Building a practically useful theory of goal setting and task motivation. A 35-year odyssey.Am Psychol. 2002; 57: 705-717Crossref
+PubMed
+Scopus (4088)
+Google Scholar Worse still, in some cases abstract or attitudinal diversity goals or statements have been unsuccessful and end up doing more harm than good.27Kaiser CR Major B Jurcevic I Dover TL Brady LM Shapiro JR Presumed fair: ironic effects of organizational diversity structures.J Pers Soc Psychol. 2013; 104: 504-519Crossref
+PubMed
+Scopus (196)
+Google Scholar,  28Kang SK DeCelles KA Tilcsik A Jun S Whitened résumés: race and self-presentation in the labor market.Adm Sci Q. 2016; 61: 469-502Crossref
+Scopus (176)
+Google Scholar,  42Dobbin F Kalev A Why diversity programs fail.https://hbr.org/2016/07/why-diversity-programs-failDate: July 1, 2016Date accessed: September 22, 2018Google Scholar,  129Kang S DeCelles K Tilcsik A Jun S The unintended consequences of diversity statements.https://hbr.org/2016/03/the-unintended-consequences-of-diversity-statementsDate: March 29, 2016Date accessed: September 24, 2018Google Scholar,  130Trawalter S Driskell S Davidson MN What is good isn't always fair: on the unintended effects of framing diversity as good.Anal Soc Issues Public Policy. 2016; 16: 69-99Crossref
+Scopus (12)
+Google Scholar,  131Unzueta MM Knowles ED Ho GC Diversity is what you want it to be: how social-dominance motives affect construals of diversity.Psychol Sci. 2012; 23: 303-309Crossref
+PubMed
+Scopus (43)
+Google ScholarTo move from abstract plans to actions and avoid unintended consequences, organisations must clearly lay out the specific steps that will be taken to enact their values and goals, and specify the indicators that will be used to measure success, while also taking into consideration the many barriers that stand in the way of individual behavioural change.132Cabana MD Rand CS Powe NR et al.Why don't physicians follow clinical practice guidelines? A framework for improvement.JAMA. 1999; 282: 1458-1465Crossref
+PubMed
+Scopus (5193)
+Google Scholar In the attending physician example, some of these guidelines might include ensuring that at least a third of hiring committee members are women, with success being identified as a steady state of 50:50 men and women on committees within 3 years; ensuring that only standardised questions and structured interviews are used, and using a statistically significant increase in the number of women hired over a 3 year period as an indicator of success. Without specific behavioural guidelines to inform practice, diversity and inclusion are often unable to advance beyond attitudes and goals. Examples of resources to equip managers with the tools to interrupt bias are the toolkits available via Bias Interrupters, an initiative of The Centre for Worklife Law at the University of California Hastings College of the Law (San Francisco, CA, USA), and the Bias Busting Strategies worksheets created by the Engendering Success in STEM consortium. These tools are available for individuals and organisations, list clear behaviours and responses that can be initiated when bias is encountered, and provide a starting point from which to build specific action plans for a given environmental context and set of goals.Solution 5: create organisational accountability for changeJust as individual change must be embedded within supportive organisational structures, so too must organisational efforts be embedded within larger systems that support and monitor progress toward diversity and inclusion goals.43Kalev A Dobbin F Kelly E Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies.Am Sociol Rev. 2006; 71: 589-617Crossref
+Scopus (1093)
+Google Scholar,  121Dobbin F Schrage D Kalev A Rage against the iron cage: the varied effects of bureaucratic personnel reforms on diversity.Am Sociol Rev. 2015; 80: 1014-1044Crossref
+Scopus (168)
+Google Scholar Methods for holding individuals, teams, and the organisation as a whole accountable for change can help by measuring and keeping progress on track toward essential milestones, and by signalling the importance of the initiative.103Thaler RH Sunstein CR Nudge: improving decisions about health, wealth, and happiness, revised and expanded edition. Penguin Books,
+New York, NY2009Google Scholar The common maxim what gets measured gets done applies just as well to diversity initiatives as it does to any other type of initiative an organisation might wish to set up. Without ongoing data collection and transparency, whether time and resources are being expended effectively or just wasted is impossible to tell. However, to avoid backlash associated with threats to autonomy, organisational accountability must be designed empathetically and with room for failure.3Bohnet I What works: gender equality by design. The Belknap Press of Harvard University Press,
+Cambridge, MA2016Crossref
+Google Scholar,  29Chugh D The person you mean to be: confronting bias to build a better workplace and world.1st edn.
+Harper Business,
+New York, NY2018Google Scholar,  121Dobbin F Schrage D Kalev A Rage against the iron cage: the varied effects of bureaucratic personnel reforms on diversity.Am Sociol Rev. 2015; 80: 1014-1044Crossref
+Scopus (168)
+Google Scholar Failure is part of the experimental process, and learning from mistakes allows us to refine, redesign, and retest. Organisational initiatives embedded within accountability frameworks such as affirmative action plans and work processes adhered to and promoted by diversity committees and task forces and diversity managers or departments have shown great promise in increasing and sustaining diversity.121Dobbin F Schrage D Kalev A Rage against the iron cage: the varied effects of bureaucratic personnel reforms on diversity.Am Sociol Rev. 2015; 80: 1014-1044Crossref
+Scopus (168)
+Google Scholar Again, the most promising approach is comprehensive, in which individual, structural, and organisational initiatives are combined in the push for progress.ConclusionsThe available evidence is clear: decades of policies and billions of dollars aimed at changing individuals have not been successful in bringing about gender equality. We have made progress, albeit uneven across the world and specialties, in the number of women entering and working in medicine, but true progress on inclusion remains an elusive goal. By understanding more about how bias works and dismissing the myths that have held us back for so long, we can turn our attention and resources toward structural and systemic interventions that have more promise for success.For more on the #LancetWomen initiative see https://www.thelancet.com/lancet-womenContributorsSKan wrote the first draft. SKap collaborated on outlining the ideas and on revisions of the preliminary draft.Declaration of interestsSKap reports advising the Department of Medicine, University of Toronto, Toronto, ON, Canada prior to writing this review. SKan declares no competing interests.References1.Association of American Medical CollegesMore women than men enrolled in U.S. medical schools in 2017.https://news.aamc.org/press-releases/article/applicant-enrollment-2017/Date: Dec 18, 2017Date accessed: September 14, 2018View
+in Article
+Google Scholar2.Bowley R A snapshot of progress among women in the workforce.https://blog.linkedin.com/2018/march/6/a-snapshot-of-progress-among-women-in-the-workforceDate: March 6, 2018Date accessed: September 14, 2018View
+in Article
+Google Scholar3.Bohnet I What works: gender equality by design. The Belknap Press of Harvard University Press,
+Cambridge, MA2016View
+in Article
+Crossref
+Google Scholar4.Eagly AH Carli LL Through the labyrinth: the truth about how women become leaders. Harvard Business Review Press,
+Boston, MA2007View
+in Article
+Google Scholar5.Heilman ME Gender stereotypes and workplace bias.Res Organ Behav. 2012; 32: 113-135View
+in Article
+Scopus (555)
+Crossref
+Google Scholar6.Parker K Funk C Gender discrimination comes in many forms for today's working women.http://www.pewresearch.org/fact-tank/2017/12/14/gender-discrimination-comes-in-many-forms-for-todays-working-women/Date: Dec 14, 2017Date accessed: September 14, 2018View
+in Article
+Google Scholar7.WHOViolence against women.http://www.who.int/news-room/fact-sheets/detail/violence-against-womenDate: Nov 29, 2017Date accessed: September 14, 2018View
+in Article
+Google Scholar8.World BankWomen, business and the law 2018. World Bank Group,
+Washington, DC2018View
+in Article
+Crossref
+Google Scholar9.UN WomenDiscrimination against women persists around the globe hampering development.http://www.unwomen.org/en/news/stories/2012/7/discrimination-against-women-persists-around-the-globe-hampering-developmentDate: July 5, 2012Date accessed: November 16, 2018View
+in Article
+Google Scholar10.Dasgupta N Stout JG Girls and women in science, technology, engineering, and mathematics: STEMing the tide and broadening participation in STEM careers.Policy Insights Behav Brain Sci. 2014; 1: 21-29View
+in Article
+Scopus (241)
+Crossref
+Google Scholar11.Duncan C Loretto W Never the right age? Gender and age-based discrimination in employment.Gend Work Organ. 2004; 11: 95-115View
+in Article
+Scopus (286)
+Crossref
+Google Scholar12.Hunter ML “If you're light you're alright”: light skin color as social capital for women of color.Gend Soc. 2002; 16: 175-193View
+in Article
+Google Scholar13.Ortiz SY Roscigno VJ Discrimination, women, and work: processes and variations by race and class.Sociol Q. 2009; 50: 336-359View
+in Article
+Scopus (57)
+Crossref
+Google Scholar14.Sanchez-Hucles JV Davis DD Women and women of color in leadership: complexity, identity, and intersectionality.Am Psychol. 2010; 65: 171-181View
+in Article
+Scopus (192)
+PubMed
+Crossref
+Google Scholar15.Shields SA Gender: an intersectionality perspective.Sex Roles. 2008; 59: 301-311View
+in Article
+Scopus (849)
+Crossref
+Google Scholar16.Williams JC Multhaup M Mihaylo S Why companies should add class to their diversity discussions.https://hbr.org/2018/09/why-companies-should-add-class-to-their-diversity-discussionsDate: Sept 5, 2018Date accessed: September 18, 2018View
+in Article
+Google Scholar17.Beagan B Micro inequities and everyday inequalities: ‘race,’ gender, sexuality and class in medical school.Can J Sociol. 2001; 26: 583-610View
+in Article
+Scopus (46)
+Crossref
+Google Scholar18.Files JA Mayer AP Ko MG et al.Speaker introductions at internal medicine grand rounds: forms of address reveal gender bias.J Womens Health (Larchmt). 2017; 26: 413-419View
+in Article
+Scopus (146)
+PubMed
+Crossref
+Google Scholar19.Glauser W Why are women still earning less than men in medicine?.CMAJ. 2018; 190: E664-E665View
+in Article
+Scopus (4)
+PubMed
+Crossref
+Google Scholar20.Sanfey H Crandall M Shaughnessy E et al.Strategies for identifying and closing the gender salary gap in surgery.J Am Coll Surg. 2017; 225: 333-338View
+in Article
+Scopus (37)
+PubMed
+Summary
+Full Text
+Full Text PDF
+Google Scholar21.Trix F Psenka C Exploring the color of glass: letters of recommendation for female and male medical faculty.Discourse Soc. 2003; 14: 191-220View
+in Article
+Scopus (302)
+Crossref
+Google Scholar22.Williams J Phillips KW Hall EV Double jeopardy? Gender bias against women of color in science.https://worklifelaw.org/publications/Double-Jeopardy-Report_v6_full_web-sm.pdfDate: Jan, 2014Date accessed: November 1, 2018View
+in Article
+Google Scholar23.Nishii LH The benefits of climate for inclusion for gender-diverse groups.Acad Manage J. 2012; 56: 1754-1774View
+in Article
+Scopus (482)
+Crossref
+Google Scholar24.Roberson QM Disentangling the meanings of diversity and inclusion in organizations.Group Organ Manag. 2006; 31: 212-236View
+in Article
+Scopus (421)
+Crossref
+Google Scholar25.Shore LM Randel AE Chung BG Dean MA Holcombe Ehrhart K Singh G Inclusion and diversity in work groups: a review and model for future research.J Manage. 2011; 37: 1262-1289View
+in Article
+Scopus (734)
+Crossref
+Google Scholar26.Tienda M Diversity ≠ inclusion: promoting integration in higher education.Educ Res. 2013; 42: 467-475View
+in Article
+Scopus (85)
+PubMed
+Crossref
+Google Scholar27.Kaiser CR Major B Jurcevic I Dover TL Brady LM Shapiro JR Presumed fair: ironic effects of organizational diversity structures.J Pers Soc Psychol. 2013; 104: 504-519View
+in Article
+Scopus (196)
+PubMed
+Crossref
+Google Scholar28.Kang SK DeCelles KA Tilcsik A Jun S Whitened résumés: race and self-presentation in the labor market.Adm Sci Q. 2016; 61: 469-502View
+in Article
+Scopus (176)
+Crossref
+Google Scholar29.Chugh D The person you mean to be: confronting bias to build a better workplace and world.1st edn.
+Harper Business,
+New York, NY2018View
+in Article
+Google Scholar30.Macrae CN Milne AB Bodenhausen GV Stereotypes as energy-saving devices: a peek inside the cognitive toolbox.J Pers Soc Psychol. 1994; 66: 37-47View
+in Article
+Scopus (677)
+Crossref
+Google Scholar31.Macrae CN Bodenhausen GV Social cognition: thinking categorically about others.Annu Rev Psychol. 2000; 51: 93-120View
+in Article
+Scopus (853)
+PubMed
+Crossref
+Google Scholar32.Fiske ST Lin M Neuberg SL The continuum model: ten years later.in: Chaiken S Trope Y Dual-process theories in social psychology.
+Guilford Press,
+New York, NY1999: 231-254View
+in Article
+Google Scholar33.Macrae CN Bodenhausen GV Social cognition: categorical person perception.Br J Psychol. 2001; 92: 239-255View
+in Article
+Scopus (184)
+Crossref
+Google Scholar34.Brewer MB Lui LN The primacy of age and sex in the structure of person categories.Soc Cogn. 1989; 7: 262-274View
+in Article
+Crossref
+Google Scholar35.Ridgeway CL Framed before we know it: how gender shapes social relations.Gend Soc. 2009; 23: 145-160View
+in Article
+Scopus (422)
+Crossref
+Google Scholar36.Schneider DJ The psychology of stereotyping. Guilford Press,
+New York, NY2004View
+in Article
+Google Scholar37.Greenwald AG Banaji MR Implicit social cognition: attitudes, self-esteem, and stereotypes.Psychol Rev. 1995; 102: 4-27View
+in Article
+Scopus (3806)
+PubMed
+Crossref
+Google Scholar38.Ellemers N Rink F Derks B Ryan MK Women in high places: when and why promoting women into top positions can harm them individually or as a group (and how to prevent this).Res Organ Behav. 2012; 32: 163-187View
+in Article
+Scopus (104)
+Crossref
+Google Scholar39.Greenwald AG McGhee DE Schwartz JL Measuring individual differences in implicit cognition: the implicit association test.J Pers Soc Psychol. 1998; 74: 1464-1480View
+in Article
+Scopus (7196)
+PubMed
+Crossref
+Google Scholar40.Oswald FL Mitchell G Blanton H Jaccard J Tetlock PE Predicting ethnic and racial discrimination: a meta-analysis of IAT criterion studies.J Pers Soc Psychol. 2013; 105: 171-192View
+in Article
+Scopus (433)
+PubMed
+Crossref
+Google Scholar41.Singal J Psychology's favorite tool for measuring racism isn't up to the job.https://www.thecut.com/2017/01/psychologys-racism-measuring-tool-isnt-up-to-the-job.htmlDate: Jan 11, 2017Date accessed: September 22, 2018View
+in Article
+Google Scholar42.Dobbin F Kalev A Why diversity programs fail.https://hbr.org/2016/07/why-diversity-programs-failDate: July 1, 2016Date accessed: September 22, 2018View
+in Article
+Google Scholar43.Kalev A Dobbin F Kelly E Best practices or best guesses? Assessing the efficacy of corporate affirmative action and diversity policies.Am Sociol Rev. 2006; 71: 589-617View
+in Article
+Scopus (1093)
+Crossref
+Google Scholar44.Sanchez JI Medkik N The effects of diversity awareness training on differential treatment.Group Organ Manag. 2004; 29: 517-536View
+in Article
+Scopus (62)
+Crossref
+Google Scholar45.Macrae CN Bodenhausen GV Milne AB Jetten J Out of mind but back in sight: stereotypes on the rebound.J Pers Soc Psychol. 1994; 67: 808-817View
+in Article
+Scopus (618)
+Crossref
+Google Scholar46.Duguid MM Thomas-Hunt MC Condoning stereotyping? How awareness of stereotyping prevalence impacts expression of stereotypes.J Appl Psychol. 2015; 100: 343-359View
+in Article
+Scopus (119)
+PubMed
+Crossref
+Google Scholar47.Hill C Corbett C St Rose A Why so few? Women in science, technology, engineering, and mathematics.https://eric.ed.gov/?id=ED509653Date: 2010Date accessed: September 22, 2018View
+in Article
+Google Scholar48.Miller DI Eagly AH Linn MC Women's representation in science predicts national gender-science stereotypes: evidence from 66 nations.J Educ Psychol. 2015; 107: 631-644View
+in Article
+Scopus (229)
+Crossref
+Google Scholar49.Halpern DF Benbow CP Geary DC Gur RC Hyde JS Gernsbacher MA The science of sex differences in science and mathematics.Psychol Sci Public Interest. 2007; 8: 1-51View
+in Article
+Scopus (628)
+PubMed
+Crossref
+Google Scholar50.Hyde JS Lindberg SM Linn MC Ellis AB Williams CC Gender similarities characterize math performance.Science. 2008; 321: 494-495View
+in Article
+Scopus (583)
+PubMed
+Crossref
+Google Scholar51.Pomerantz EM Altermatt ER Saxon JL Making the grade but feeling distressed: gender differences in academic performance and internal distress.J Educ Psychol. 2002; 94: 396-404View
+in Article
+Scopus (293)
+Crossref
+Google Scholar52.Spelke ES Sex differences in intrinsic aptitude for mathematics and science?: a critical review.Am Psychol. 2005; 60: 950-958View
+in Article
+Scopus (437)
+PubMed
+Crossref
+Google Scholar53.Carnes M Bartels CM Kaatz A Kolehmainen C Why is John more likely to become department chair than Jennifer?.Trans Am Clin Climatol Assoc. 2015; 126: 197-214View
+in Article
+PubMed
+Google Scholar54.Hall W Schmader T Aday A Croft E Decoding the dynamics of social identity threat in the workplace: a within-person analysis of women's and men's interactions in STEM.Soc Psychol Personal Sci. 2018;
+(published online May 2.)DOI:10.1177/1948550618772582View
+in Article
+Scopus (25)
+Crossref
+Google Scholar55.Hall W Schmader T Aday A Inness M Croft E Climate control: the relationship between social identity threat and cues to an identity-safe culture.J Pers Soc Psychol. 2018; 115: 446-467View
+in Article
+Scopus (33)
+PubMed
+Crossref
+Google Scholar56.Moss-Racusin CA Dovidio JF Brescoll VL Graham MJ Handelsman J Science faculty's subtle gender biases favor male students.Proc Natl Acad Sci USA. 2012; 109: 16474-16479View
+in Article
+Scopus (1714)
+PubMed
+Crossref
+Google Scholar57.Shapiro JR Williams AM The role of stereotype threats in undermining girls' and women's performance and interest in STEM fields.Sex Roles. 2012; 66: 175-183View
+in Article
+Scopus (257)
+Crossref
+Google Scholar58.Steinpreis RE Anders KA Ritzke D The impact of gender on the review of the curricula vitae of job applicants and tenure candidates: a national empirical study.Sex Roles. 1999; 41: 509-528View
+in Article
+Scopus (470)
+Crossref
+Google Scholar59.Botelho TL Abraham M Pursuing quality: how search costs and uncertainty magnify gender-based double standards in a multistage evaluation process.Adm Sci Q. 2017; 62: 698-730View
+in Article
+Scopus (49)
+Crossref
+Google Scholar60.Heilman ME Eagly AH Gender stereotypes are alive, well, and busy producing workplace discrimination.Ind Organ Psychol. 2008; 1: 393-398View
+in Article
+Crossref
+Google Scholar61.Berdahl JL Moore C Workplace harassment: double jeopardy for minority women.J Appl Psychol. 2006; 91: 426-436View
+in Article
+Scopus (354)
+PubMed
+Crossref
+Google Scholar62.Clancy KBH Lee KMN Rodgers EM Richey C Double jeopardy in astronomy and planetary science: women of color face greater risks of gendered and racial harassment.J Geophys Res Planets. 2017; 122: 1610-1623View
+in Article
+Scopus (96)
+Crossref
+Google Scholar63.Espinosa L Pipelines and pathways: women of color in undergraduate STEM majors and the college experiences that contribute to persistence.Harv Educ Rev. 2011; 81: 209-241View
+in Article
+Scopus (327)
+Crossref
+Google Scholar64.Krieger N Waterman PD Hartman C et al.Social hazards on the job: workplace abuse, sexual harassment, and racial discrimination— a study of black, latino, and white low-income women and men workers in the United States.Int J Health Serv. 2006; 36: 51-85View
+in Article
+Scopus (121)
+PubMed
+Crossref
+Google Scholar65.Randolph DS The meaning of workplace discrimination for women with disabilities.Work. 2005; 24: 369-380View
+in Article
+PubMed
+Google Scholar66.Sayer G Granleese J Gendered ageism and “lookism”: a triple jeopardy for female academics.Women Manage Rev. 2006; 21: 500-517View
+in Article
+Scopus (55)
+Crossref
+Google Scholar67.Babcock L Recalde MP Vesterlund L Weingart L Gender differences in accepting and receiving requests for tasks with low promotability.Am Econ Rev. 2017; 107: 714-747View
+in Article
+Scopus (176)
+Crossref
+Google Scholar68.Fitzgerald LF Sexual harassment. Violence against women in the workplace.Am Psychol. 1993; 48: 1070-1076View
+in Article
+Scopus (263)
+PubMed
+Crossref
+Google Scholar69.Guy ME Newman MA Women's jobs, men's jobs: sex segregation and emotional labor.Public Adm Rev. 2004; 64: 289-298View
+in Article
+Scopus (291)
+Crossref
+Google Scholar70.Mitchell SM Hesli VL Women don't ask? Women don't say no? Bargaining and service in the political science profession.PS Polit Sci Polit. 2013; 46: 355-369View
+in Article
+Scopus (82)
+Crossref
+Google Scholar71.Morris JA Feldman DC The dimensions, antecedents, and consequences of emotional labor.Acad Manage Rev. 1996; 21: 986-1010View
+in Article
+Crossref
+Google Scholar72.Sarsons H Interpreting signals in the labor market: evidence from medical referrals.https://scholar.harvard.edu/files/sarsons/files/sarsons_jmp.pdfDate: Nov 28, 2017Date accessed: November 1, 2018View
+in Article
+Google Scholar73.Thomas-Hunt MC Phillips KW When what you know is not enough: expertise and gender dynamics in task groups.Pers Soc Psychol Bull. 2004; 30: 1585-1598View
+in Article
+Scopus (125)
+PubMed
+Crossref
+Google Scholar74.Winslow S Gender inequality and time allocations among academic faculty.Gend Soc. 2010; 24: 769-793View
+in Article
+Scopus (108)
+Crossref
+Google Scholar75.Benard S Correll SJ Normative discrimination and the motherhood penalty.Gend Soc. 2010; 24: 616-646View
+in Article
+Scopus (212)
+Crossref
+Google Scholar76.Correll SJ Benard S Paik I Getting a job: is there a motherhood penalty?.AJS. 2007; 112: 1297-1339View
+in Article
+Google Scholar77.Griffith AL Persistence of women and minorities in STEM field majors: is it the school that matters?.Econ Educ Rev. 2010; 29: 911-922View
+in Article
+Scopus (317)
+Crossref
+Google Scholar78.Thomas KM Mack DA Montagliani A The arguments against diversity: are they valid?.in: Stockdale MS Crosby FJ The psychology and management of workplace diversity.
+Blackwell Publishing,
+Malden, MA2004: 31-51View
+in Article
+Google Scholar79.Castilla EJ Gender, race, and meritocracy in organizational careers.AJS. 2008; 113: 1479-1526View
+in Article
+PubMed
+Google Scholar80.Castilla EJ Benard S The paradox of meritocracy in organizations.Adm Sci Q. 2010; 55: 543-676View
+in Article
+Scopus (374)
+Crossref
+Google Scholar81.Brooks AW Huang L Kearney SW Murray FE Investors prefer entrepreneurial ventures pitched by attractive men.Proc Natl Acad Sci USA. 2014; 111: 4427-4431View
+in Article
+Scopus (190)
+PubMed
+Crossref
+Google Scholar82.Posard MN Status processes in human-computer interactions: does gender matter?.Comput Human Behav. 2014; 37: 189-195View
+in Article
+Scopus (6)
+Crossref
+Google Scholar83.Wennerás C Wold A Nepotism and sexism in peer-review.Nature. 1997; 387: 341-343View
+in Article
+Scopus (868)
+PubMed
+Crossref
+Google Scholar84.Wennerás C Wold A Nepotism and sexism in peer-review.in: Wyers M Barbercheck M Giesman D Öztürk HÖ Wayne M Women, Science, and Technology. 2nd edn.
+Routledge,
+New York, NY2010: 50-56View
+in Article
+Google Scholar85.Cuddy AJ Schultz SJ Fosse NE P-curving a more comprehensive body of research on postural feedback reveals clear evidential value for power-posing effects: reply to Simmons and Simonsohn (2017).Psychol Sci. 2018; 29: 656-666View
+in Article
+Scopus (63)
+PubMed
+Crossref
+Google Scholar86.Rennung M Blum J Göritz AS To strike a pose: no stereotype backlash for power posing women.Front Psychol. 2016; 7: 1463View
+in Article
+Scopus (10)
+PubMed
+Crossref
+Google Scholar87.Babcock L Laschever S Women don't ask: negotiation and the gender divide. Princeton University Press,
+Princeton, NJ2003View
+in Article
+Google Scholar88.Bowles HR Babcock L How can women escape the compensation negotiation dilemma? Relational accounts are one answer.Psychol Women Q. 2013; 37: 80-96View
+in Article
+Scopus (73)
+Crossref
+Google Scholar89.Brescoll VL Who takes the floor and why: gender, power, and volubility in organizations.Adm Sci Q. 2011; 56: 622-641View
+in Article
+Scopus (155)
+Crossref
+Google Scholar90.Akinola M Martin AE Phillips KW To delegate or not to delegate: gender differences in affective associations and behavioral responses to delegation.Acad Manage J. 2018; 61: 1467-1491View
+in Article
+Scopus (34)
+Crossref
+Google Scholar91.Moss-Racusin C Rudman LA Disruptions in women's self-promotion: the backlash avoidance model.Psychol Women Q. 2010; 34: 186-202View
+in Article
+Scopus (147)
+Crossref
+Google Scholar92.Eagly AH Mladinic A Are people prejudiced against women? Some answers from research on attitudes, gender stereotypes, and judgments of competence.Eur Rev Soc Psychol. 1994; 5: 1-35View
+in Article
+Scopus (338)
+Crossref
+Google Scholar93.Phelan JE Moss-Racusin CA Rudman LA Competent yet out in the cold: shifting criteria for hiring reflect backlash toward agentic women.Psychol Women Q. 2008; 32: 406-413View
+in Article
+Scopus (177)
+Crossref
+Google Scholar94.Rudman LA Glick P Feminized management and backlash toward agentic women: the hidden costs to women of a kinder, gentler image of middle managers.J Pers Soc Psychol. 1999; 77: 1004-1010View
+in Article
+Scopus (566)
+PubMed
+Crossref
+Google Scholar95.Rudman LA Glick P Prescriptive gender stereotypes and backlash toward agentic women.J Soc Issues. 2001; 57: 743-762View
+in Article
+Scopus (1039)
+Crossref
+Google Scholar96.Egan ML Matvos G Seru A When Harry fired Sally: the double standard in punishing misconduct. National Bureau of Economic Research.https://www.nber.org/papers/w23242.pdfDate: March 2017Date accessed: November 1, 2018View
+in Article
+Google Scholar97.Kennedy J McDonnell M-H Stephens N Does gender raise the ethical bar? Exploring the punishment of ethical violations at work. Social Science Research Network,
+Rochester, NYApril 26, 2016https://papers.ssrn.com/abstract=2770012Date accessed: September 24, 2018View
+in Article
+Google Scholar98.Christianson MK More and less effective updating: the role of trajectory management in making sense again.Adm Sci Q. 2017;
+(published online Dec 21.)DOI:10.1177/0001839217750856View
+in Article
+PubMed
+Google Scholar99.Haynes AB Weiser TG Berry WR et al.A surgical safety checklist to reduce morbidity and mortality in a global population.N Engl J Med. 2009; 360: 491-499View
+in Article
+Scopus (3752)
+PubMed
+Crossref
+Google Scholar100.Gawande A The checklist manifesto: how to get things right.1st edn.
+Picador,
+New York, NY2010View
+in Article
+Google Scholar101.Kaplan S Beyond the business case for social responsibility.Acad Manage Discov. 2019;
+(published online Jan 3.)DOI:10.5465/amd.2018.0220View
+in Article
+Google Scholar102.Kaplan S Because it's 2017: gender equality as an innovation challenge.http://www.rotman.utoronto.ca/Connect/Rotman-MAG/Back-Issues/2017/Back-Issues---2017/Fall2017-Inequality/Fall2017-FreeFeatureArticle-KaplanDate: 2017Date accessed: September 14, 2018View
+in Article
+Google Scholar103.Thaler RH Sunstein CR Nudge: improving decisions about health, wealth, and happiness, revised and expanded edition. Penguin Books,
+New York, NY2009View
+in Article
+Google Scholar104.Dasgupta N Asgari S Seeing is believing: exposure to counterstereotypic women leaders and its effect on the malleability of automatic gender stereotyping.J Exp Soc Psychol. 2004; 40: 642-658View
+in Article
+Scopus (435)
+Crossref
+Google Scholar105.Hall WM Interpersonal triggers and cultural moderators of social identity threat. (PhD thesis) University of British Columbia,
+2016: 1-171View
+in Article
+Google Scholar106.Murphy MC Steele CM Gross JJ Signaling threat: how situational cues affect women in math, science, and engineering settings.Psychol Sci. 2007; 18: 879-885View
+in Article
+Scopus (668)
+PubMed
+Crossref
+Google Scholar107.Rosenthal L Levy SR London B Lobel M Bazile C In pursuit of the MD: the impact of role models, identity compatibility, and belonging among undergraduate women.Sex Roles. 2013; 68: 464-473View
+in Article
+Scopus (50)
+PubMed
+Crossref
+Google Scholar108.Gollwitzer P Bargh JA The psychology of action: linking cognition and motivation to behavior. Guilford Press,
+New York, NY1996View
+in Article
+Google Scholar109.Hirsh JB Kang SK Mechanisms of identity conflict: uncertainty, anxiety, and the behavioral inhibition system.Pers Soc Psychol Rev. 2016; 20: 223-244View
+in Article
+Scopus (101)
+PubMed
+Crossref
+Google Scholar110.Miller DT Prentice DA The construction of social norms and standards.in: Kruglanski AW Higgins ET Social psychology: handbook of basic principles.
+Guilford Press,
+New York, NY1996: 799-829View
+in Article
+Google Scholar111.Brescoll VL Uhlmann EL Attitudes toward traditional and nontraditional parents.Psychol Women Q. 2005; 29: 436-445View
+in Article
+Scopus (120)
+Crossref
+Google Scholar112.Carli LL Gender and social influence.J Soc Issues. 2001; 57: 725-741View
+in Article
+Scopus (321)
+Crossref
+Google Scholar113.Prentice DA Carranza E What women and men should be, shouldn't be, are allowed to be, and don't have to be: the contents of prescriptive gender stereotypes.Psychol Women Q. 2002; 26: 269-281View
+in Article
+Scopus (835)
+Crossref
+Google Scholar114.Cialdini RB Goldstein NJ Social influence: compliance and conformity.Annu Rev Psychol. 2004; 55: 591-621View
+in Article
+Scopus (2898)
+PubMed
+Crossref
+Google Scholar115.Cialdini RB Kallgren CA Reno RR A focus theory of normative conduct: a theoretical refinement and reevaluation of the role of norms in human behavior.in: Zanna MP Advances in experimental social psychology.
+Academic Press,
+Cambridge, MA1991: 201-234View
+in Article
+Google Scholar116.Vogel L Pay gap growing between family doctors, specialists.https://cmajnews.com/2017/09/28/pay-gap-growing-between-family-doctors-specialists-109-5508/Date: Sept 28, 2017Date accessed: September 26, 2018View
+in Article
+Google Scholar117.Miller DT Prentice DA Changing norms to change behavior.Annu Rev Psychol. 2016; 67: 339-361View
+in Article
+Scopus (265)
+PubMed
+Crossref
+Google Scholar118.Kellogg KC Challenging operations: medical reform and resistance in surgery. University of Chicago Press,
+Chicago, IL2011View
+in Article
+Crossref
+Google Scholar119.Bass BM Avolio BJ Transformational leadership and organizational culture.Public Adm Q. 1993; 17: 112-121View
+in Article
+Google Scholar120.Taggar S Ellis R The role of leaders in shaping formal team norms.Leadersh Q. 2007; 18: 105-120View
+in Article
+Scopus (88)
+Crossref
+Google Scholar121.Dobbin F Schrage D Kalev A Rage against the iron cage: the varied effects of bureaucratic personnel reforms on diversity.Am Sociol Rev. 2015; 80: 1014-1044View
+in Article
+Scopus (168)
+Crossref
+Google Scholar122.Legault L Gutsell JN Inzlicht M Ironic effects of antiprejudice messages: how motivational interventions can reduce (but also increase) prejudice.Psychol Sci. 2011; 22: 1472-1477View
+in Article
+Scopus (186)
+PubMed
+Crossref
+Google Scholar123.Ryan RM Deci EL Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.Am Psychol. 2000; 55: 68-78View
+in Article
+Scopus (20222)
+PubMed
+Crossref
+Google Scholar124.Hewlett SA (Forget a mentor) find a sponsor: the new way to fast-track your career. Harvard Business Review Press,
+Boston, MA2013View
+in Article
+Google Scholar125.Patton EW Griffith KA Jones RD Stewart A Ubel PA Jagsi R Differences in mentor-mentee sponsorship in male vs female recipients of National Institutes of Health grants.JAMA Intern Med. 2017; 177: 580-582View
+in Article
+Scopus (84)
+PubMed
+Crossref
+Google Scholar126.Gollwitzer PM Implementation intentions: strong effects of simple plans.Am Psychol. 1999; 54: 493-503View
+in Article
+Scopus (3415)
+Crossref
+Google Scholar127.Gollwitzer PM Sheeran P Implementation intentions and goal achievement: a meta-analysis of effects and processes.in: Zanna M Advances in experimental social psychology.
+Academic Press,
+Cambridge, MA2006: 69-119View
+in Article
+Scopus (2017)
+Crossref
+Google Scholar128.Locke EA Latham GP Building a practically useful theory of goal setting and task motivation. A 35-year odyssey.Am Psychol. 2002; 57: 705-717View
+in Article
+Scopus (4088)
+PubMed
+Crossref
+Google Scholar129.Kang S DeCelles K Tilcsik A Jun S The unintended consequences of diversity statements.https://hbr.org/2016/03/the-unintended-consequences-of-diversity-statementsDate: March 29, 2016Date accessed: September 24, 2018View
+in Article
+Google Scholar130.Trawalter S Driskell S Davidson MN What is good isn't always fair: on the unintended effects of framing diversity as good.Anal Soc Issues Public Policy. 2016; 16: 69-99View
+in Article
+Scopus (12)
+Crossref
+Google Scholar131.Unzueta MM Knowles ED Ho GC Diversity is what you want it to be: how social-dominance motives affect construals of diversity.Psychol Sci. 2012; 23: 303-309View
+in Article
+Scopus (43)
+PubMed
+Crossref
+Google Scholar132.Cabana MD Rand CS Powe NR et al.Why don't physicians follow clinical practice guidelines? A framework for improvement.JAMA. 1999; 282: 1458-1465View
+in Article
+Scopus (5193)
+PubMed
+Crossref
+Google ScholarArticle InfoPublication HistoryPublished: 09 February 2019IdentificationDOI: https://doi.org/10.1016/S0140-6736(18)33138-6Copyright© 2019 Elsevier Ltd. All rights reserved.ScienceDirectAccess this article on ScienceDirectHide CaptionDownloadSee figure in articleToggle ThumbstripView Large ImageDownload Hi-res image
+Download .PPT
+Hide CaptionDownloadSee figure in ArticleToggle ThumbstripDownload Hi-res image Download .PPT
+ADVERTISEMENT
+SCROLL TO CONTINUE WITH CONTENT
+Open GPT Console
+Open Oracle Keywords
+Refresh Values
+Property
+Value
+Status
+Version
+Ad File
+Disable Ads Flag
+Environment
+Moat Init
+Moat Ready
+Contextual Ready
+Contextual URL
+Contextual Initial Segments
+Contextual Used Segments
+AdUnit
+SubAdUnit
+Custom Targeting
+Ad Events
+Invalid Ad Sizes
+Lancet Journals
+The Lancet
+The Lancet Child & Adolescent Health
+The Lancet Diabetes & Endocrinology
+The Lancet Digital Health
+The Lancet Gastroenterology & Hepatology
+The Lancet Global Health
+The Lancet Haematology
+The Lancet Healthy Longevity
+The Lancet HIV
+The Lancet Infectious Diseases
+The Lancet Microbe
+The Lancet Neurology
+The Lancet Oncology
+The Lancet Planetary Health
+The Lancet Psychiatry
+The Lancet Public Health
+The Lancet Regional Health – Americas
+The Lancet Regional Health – Europe
+The Lancet Regional Health – Southeast Asia
+The Lancet Regional Health – Western Pacific
+The Lancet Respiratory Medicine
+The Lancet Rheumatology
+eBioMedicine
+eClinicalMedicine
+CLINICAL INITIATIVES
+The Lancet Clinic
+Commissions
+Series
+Picture Quiz
+GLOBAL HEALTH INITIATIVES
+Global Health Hub
+Commissions
+Series
+Global Burden of Disease
+Climate Countdown
+MULTIMEDIA
+Infographics
+Podcasts
+Videos
+Information
+About us
+For authors
+For advertisers
+For press
+Statement on offensive historical content
+Open access
+Publishing excellence
+Careers
+Community guidelines
+Peer review
+Preprints
+Access
+Access our content
+Personal subscriptions
+Existing print subscribers
+Request institutional access
+Research4Life
+Connect
+Lancet Alerts
+Contact us
+Customer service
+Our global team
+Conferences
+We use cookies to help provide and enhance our service and tailor content and ads. To update your cookie settings, please visit the Cookie Preference Center for this site.
+Copyright © 2023 Elsevier Inc. except certain content provided by third parties. The content on this site is intended for healthcare professionals.
+Privacy Policy   Terms and Conditions   Accessibility

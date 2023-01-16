@@ -1,0 +1,558 @@
+2023-01-16 16:37:04,570 Scrapy 2.7.1 started (bot: gfg)
+2023-01-16 16:37:04,571 Versions: lxml 4.9.2.0, libxml2 2.9.12, cssselect 1.2.0, parsel 1.7.0, w3lib 2.1.1, Twisted 22.10.0, Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)], pyOpenSSL 23.0.0 (OpenSSL 3.0.7 1 Nov 2022), cryptography 39.0.0, Platform Windows-10-10.0.19041-SP0
+2023-01-16 16:37:04,576 Overridden settings:
+{'BOT_NAME': 'gfg',
+ 'NEWSPIDER_MODULE': 'gfg.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'ROBOTSTXT_OBEY': True,
+ 'SPIDER_MODULES': ['gfg.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'}
+2023-01-16 16:37:04,579 Using selector: SelectSelector
+2023-01-16 16:37:04,581 Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-01-16 16:37:04,581 Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2023-01-16 16:37:04,598 Telnet Password: 9697b938601788de
+2023-01-16 16:37:04,616 Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2023-01-16 16:37:04,909 Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2023-01-16 16:37:04,915 Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-01-16 16:37:04,916 Enabled item pipelines:
+[]
+2023-01-16 16:37:04,916 Spider opened
+2023-01-16 16:37:05,080 Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-01-16 16:37:05,082 Telnet console listening on 127.0.0.1:6023
+2023-01-16 16:37:05,086 Starting new HTTPS connection (1): www.google.com:443
+2023-01-16 16:37:05,768 https://www.google.com:443 "GET /search?q=Gender%2BDiversity&num=122&hl=en&start=0 HTTP/1.1" 200 None
+2023-01-16 16:37:07,308 Starting new HTTPS connection (1): www.google.com:443
+2023-01-16 16:37:07,980 https://www.google.com:443 "GET /search?q=Gender%2BDiversity&num=48&hl=en&start=74 HTTP/1.1" 200 None
+2023-01-16 16:37:08,981 Starting new HTTPS connection (1): www.google.com:443
+2023-01-16 16:37:09,662 https://www.google.com:443 "GET /search?q=Gender%2BDiversity&num=4&hl=en&start=118 HTTP/1.1" 200 None
+2023-01-16 16:37:11,014 Attempting to acquire lock 2233155548160 on C:\Users\SG-Innovation\ddt\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2023-01-16 16:37:11,015 Lock 2233155548160 acquired on C:\Users\SG-Innovation\ddt\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2023-01-16 16:37:11,018 Attempting to release lock 2233155548160 on C:\Users\SG-Innovation\ddt\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2023-01-16 16:37:11,019 Lock 2233155548160 released on C:\Users\SG-Innovation\ddt\lib\site-packages\tldextract\.suffix_cache/publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2023-01-16 16:37:11,022 Crawled (200) <GET https://en.wikipedia.org/robots.txt> (referer: None)
+2023-01-16 16:37:11,067 Crawled (403) <GET https://www.un.org/robots.txt> (referer: None)
+2023-01-16 16:37:11,068 Rule at line 1 without any user agent to enforce it on.
+2023-01-16 16:37:11,069 Rule at line 3 without any user agent to enforce it on.
+2023-01-16 16:37:11,071 Rule at line 16 without any user agent to enforce it on.
+2023-01-16 16:37:11,097 Crawled (403) <GET https://www.un.org/sustainabledevelopment/gender-equality/> (referer: None)
+2023-01-16 16:37:11,128 Crawled (200) <GET https://en.wikipedia.org/wiki/Gender_diversity> (referer: None)
+2023-01-16 16:37:11,212 Ignoring response <403 https://www.un.org/sustainabledevelopment/gender-equality/>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:11,384 Crawled (200) <GET https://en-gb.workplace.com/robots.txt> (referer: None)
+2023-01-16 16:37:11,402 Crawled (200) <GET https://www.mckinsey.com/robots.txt> (referer: None)
+2023-01-16 16:37:11,447 Crawled (200) <GET https://splashbi.com/robots.txt> (referer: None)
+2023-01-16 16:37:11,571 Crawled (200) <GET https://www.ifrc.org/robots.txt> (referer: None)
+2023-01-16 16:37:11,615 Crawled (200) <GET https://splashbi.com/importance-of-gender-diversity-in-the-workplace/> (referer: None)
+2023-01-16 16:37:11,618 Crawled (200) <GET https://www.ifrc.org/document/gender-and-diversity-policy> (referer: None)
+2023-01-16 16:37:11,623 Crawled (200) <GET https://www.apa.org/robots.txt> (referer: None)
+2023-01-16 16:37:11,640 Crawled (200) <GET https://www.unicef.org/robots.txt> (referer: None)
+2023-01-16 16:37:11,646 Crawled (200) <GET https://www.unfpa.org/robots.txt> (referer: None)
+2023-01-16 16:37:11,655 Crawled (200) <GET https://www.apa.org/pi/lgbt/programs/safe-supportive/lgbt/key-terms.pdf> (referer: None)
+2023-01-16 16:37:11,996 Crawled (200) <GET https://www.spglobal.com/robots.txt> (referer: None)
+2023-01-16 16:37:12,006 Crawled (200) <GET https://www.unicef.org/gender-equality> (referer: None)
+2023-01-16 16:37:12,008 Crawled (200) <GET https://www.unfpa.org/resources/frequently-asked-questions-about-gender-equality> (referer: None)
+2023-01-16 16:37:12,368 Redirecting (meta refresh) to <GET https://en-gb.workplace.com/blog/diversity-in-the-workplace?_fb_noscript=1> from <GET https://en-gb.workplace.com/blog/diversity-in-the-workplace>
+2023-01-16 16:37:12,392 Crawled (200) <GET https://www.gatesfoundation.org/robots.txt> (referer: None)
+2023-01-16 16:37:12,508 Crawled (200) <GET https://economictimes.indiatimes.com/robots.txt> (referer: None)
+2023-01-16 16:37:12,517 Crawled (200) <GET https://www.ilo.org/robots.txt> (referer: None)
+2023-01-16 16:37:12,543 Crawled (200) <GET https://www.mckinsey.com/featured-insights/diversity-and-inclusion/women-in-the-workplace> (referer: None)
+2023-01-16 16:37:12,825 Crawled (200) <GET https://economictimes.indiatimes.com/topic/gender-diversity> (referer: None)
+2023-01-16 16:37:12,829 Crawled (200) <GET https://jfin-swufe.springeropen.com/robots.txt> (referer: None)
+2023-01-16 16:37:12,833 Crawled (200) <GET https://eige.europa.eu/robots.txt> (referer: None)
+2023-01-16 16:37:12,838 Crawled (200) <GET https://www.ilo.org/gender/lang--en/index.htm> (referer: None)
+2023-01-16 16:37:13,150 Crawled (404) <GET https://www.ioe-emp.org/robots.txt> (referer: None)
+2023-01-16 16:37:13,151 Rule at line 1 without any user agent to enforce it on.
+2023-01-16 16:37:13,158 Crawled (200) <GET https://www.spglobal.com/esg/csa/yearbook/articles/gender-equality-workplace-going-beyond-women-on-the-board> (referer: None)
+2023-01-16 16:37:13,159 Crawled (200) <GET https://www.statcan.gc.ca/robots.txt> (referer: None)
+2023-01-16 16:37:13,242 Crawled (200) <GET https://en-gb.workplace.com/blog/diversity-in-the-workplace?_fb_noscript=1> (referer: None)
+2023-01-16 16:37:13,245 Retrying <GET https://www.oecd.org/robots.txt> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:13,358 Crawled (200) <GET https://eige.europa.eu/> (referer: None)
+2023-01-16 16:37:13,361 Crawled (200) <GET https://www.undp.org/robots.txt> (referer: None)
+2023-01-16 16:37:13,611 Crawled (200) <GET https://www.gatesfoundation.org/our-work/programs/gender-equality/gender-equality> (referer: None)
+2023-01-16 16:37:13,804 Crawled (200) <GET https://www.statcan.gc.ca/en/topics-start/gender_diversity_and_inclusion> (referer: None)
+2023-01-16 16:37:13,893 Crawled (200) <GET https://jfin-swufe.springeropen.com/articles/10.1186/s40854-021-00265-x> (referer: None)
+2023-01-16 16:37:14,006 Crawled (403) <GET https://www.ohchr.org/robots.txt> (referer: None)
+2023-01-16 16:37:14,006 Rule at line 1 without any user agent to enforce it on.
+2023-01-16 16:37:14,008 Rule at line 3 without any user agent to enforce it on.
+2023-01-16 16:37:14,011 Rule at line 16 without any user agent to enforce it on.
+2023-01-16 16:37:14,181 Crawled (200) <GET https://www.igi-global.com/robots.txt> (referer: None)
+2023-01-16 16:37:14,186 Retrying <GET https://www.oecd.org/robots.txt> (failed 2 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:14,211 Crawled (403) <GET https://www.ohchr.org/en/special-procedures/ie-sexual-orientation-and-gender-identity/struggle-trans-and-gender-diverse-persons> (referer: None)
+2023-01-16 16:37:14,333 Ignoring response <403 https://www.ohchr.org/en/special-procedures/ie-sexual-orientation-and-gender-identity/struggle-trans-and-gender-diverse-persons>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:14,425 Crawled (200) <GET https://www.hourly.io/robots.txt> (referer: None)
+2023-01-16 16:37:14,436 Crawled (200) <GET https://www.ipu.org/robots.txt> (referer: None)
+2023-01-16 16:37:14,507 Crawled (200) <GET https://www.undp.org/careers/gender-and-diversity> (referer: None)
+2023-01-16 16:37:14,541 Crawled (200) <GET https://www.bcg.com/robots.txt> (referer: None)
+2023-01-16 16:37:14,619 Crawled (200) <GET https://www.ericsson.com/robots.txt> (referer: None)
+2023-01-16 16:37:14,733 Crawled (200) <GET https://www.hourly.io/post/gender-diversity> (referer: None)
+2023-01-16 16:37:14,755 Crawled (200) <GET https://www.ioe-emp.org/policy-priorities/gender-equality-and-diversity> (referer: None)
+2023-01-16 16:37:14,760 Crawled (403) <GET https://www.ericsson.com/en/about-us/diversity-and-inclusion> (referer: None)
+2023-01-16 16:37:14,772 Crawled (200) <GET https://www.pdac.ca/robots.txt> (referer: None)
+2023-01-16 16:37:14,821 Crawled (200) <GET https://www.who.int/robots.txt> (referer: None)
+2023-01-16 16:37:14,829 Forbidden by robots.txt: <GET https://www.who.int/health-topics/gender>
+2023-01-16 16:37:14,987 Ignoring response <403 https://www.ericsson.com/en/about-us/diversity-and-inclusion>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:15,066 Crawled (200) <GET https://www.gallup.com/robots.txt> (referer: None)
+2023-01-16 16:37:15,070 Crawled (200) <GET https://www.pdac.ca/programs-and-advocacy/responsible-exploration/diversity-and-inclusion/gender-diversity-and-inclusion-guidance-document> (referer: None)
+2023-01-16 16:37:15,361 Crawled (200) <GET https://www.ipu.org/impact/gender-equality> (referer: None)
+2023-01-16 16:37:15,364 Crawled (200) <GET https://www.bii.co.uk/robots.txt> (referer: None)
+2023-01-16 16:37:15,367 Crawled (200) <GET https://www.volvogroup.com/robots.txt> (referer: None)
+2023-01-16 16:37:15,370 Crawled (200) <GET https://spacegeneration.org/robots.txt> (referer: None)
+2023-01-16 16:37:15,374 Gave up retrying <GET https://www.oecd.org/robots.txt> (failed 3 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:15,377 Error downloading <GET https://www.oecd.org/robots.txt>: [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\core\downloader\middleware.py", line 49, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:15,419 Crawled (200) <GET https://www.igi-global.com/dictionary/gender-diversity-in-the-senior-management-of-large-technology-companies/49101> (referer: None)
+2023-01-16 16:37:15,730 Crawled (403) <GET https://www.dlgsc.wa.gov.au/robots.txt> (referer: None) ['partial']
+2023-01-16 16:37:15,730 Rule at line 1 without any user agent to enforce it on.
+2023-01-16 16:37:15,737 Crawled (200) <GET https://www.volvogroup.com/en/careers/diversity-and-inclusion/accelerating-gender-diversity.html> (referer: None)
+2023-01-16 16:37:15,746 Crawled (200) <GET https://www.bcg.com/capabilities/diversity-inclusion/gender-equality> (referer: None)
+2023-01-16 16:37:15,795 Crawled (403) <GET https://www.dlgsc.wa.gov.au/sport-and-recreation/gender-diversity> (referer: None) ['partial']
+2023-01-16 16:37:15,811 Retrying <GET https://www.oecd.org/gender/> (failed 1 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:15,957 Crawled (200) <GET https://vervoe.com/robots.txt> (referer: None)
+2023-01-16 16:37:15,964 Retrying <GET https://www.unhcr.org/robots.txt> (failed 1 times): 503 Service Unavailable
+2023-01-16 16:37:16,094 Ignoring response <403 https://www.dlgsc.wa.gov.au/sport-and-recreation/gender-diversity>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:16,102 Crawled (200) <GET https://www.pnas.org/robots.txt> (referer: None)
+2023-01-16 16:37:16,106 Crawled (200) <GET https://equity.ubc.ca/robots.txt> (referer: None)
+2023-01-16 16:37:16,147 Retrying <GET https://www.pnas.org/doi/10.1073/pnas.1700616114> (failed 1 times): 503 Service Unavailable
+2023-01-16 16:37:16,158 Retrying <GET https://www.unhcr.org/robots.txt> (failed 2 times): 503 Service Unavailable
+2023-01-16 16:37:16,183 Crawled (200) <GET https://www.gallup.com/workplace/236543/business-benefits-gender-diversity.aspx> (referer: None)
+2023-01-16 16:37:16,185 Crawled (200) <GET https://www.icrw.org/robots.txt> (referer: None)
+2023-01-16 16:37:16,210 Gave up retrying <GET https://www.unhcr.org/robots.txt> (failed 3 times): 503 Service Unavailable
+2023-01-16 16:37:16,211 Crawled (503) <GET https://www.unhcr.org/robots.txt> (referer: None)
+2023-01-16 16:37:16,213 Rule at line 11 without any user agent to enforce it on.
+2023-01-16 16:37:16,213 Rule at line 12 without any user agent to enforce it on.
+2023-01-16 16:37:16,214 Rule at line 13 without any user agent to enforce it on.
+2023-01-16 16:37:16,215 Rule at line 14 without any user agent to enforce it on.
+2023-01-16 16:37:16,217 Rule at line 16 without any user agent to enforce it on.
+2023-01-16 16:37:16,217 Rule at line 17 without any user agent to enforce it on.
+2023-01-16 16:37:16,218 Rule at line 18 without any user agent to enforce it on.
+2023-01-16 16:37:16,219 Rule at line 19 without any user agent to enforce it on.
+2023-01-16 16:37:16,219 Rule at line 20 without any user agent to enforce it on.
+2023-01-16 16:37:16,220 Rule at line 21 without any user agent to enforce it on.
+2023-01-16 16:37:16,220 Rule at line 22 without any user agent to enforce it on.
+2023-01-16 16:37:16,220 Rule at line 24 without any user agent to enforce it on.
+2023-01-16 16:37:16,221 Rule at line 27 without any user agent to enforce it on.
+2023-01-16 16:37:16,221 Rule at line 28 without any user agent to enforce it on.
+2023-01-16 16:37:16,222 Rule at line 30 without any user agent to enforce it on.
+2023-01-16 16:37:16,222 Rule at line 60 without any user agent to enforce it on.
+2023-01-16 16:37:16,223 Rule at line 65 without any user agent to enforce it on.
+2023-01-16 16:37:16,227 Rule at line 71 without any user agent to enforce it on.
+2023-01-16 16:37:16,227 Rule at line 75 without any user agent to enforce it on.
+2023-01-16 16:37:16,228 Rule at line 76 without any user agent to enforce it on.
+2023-01-16 16:37:16,229 Rule at line 77 without any user agent to enforce it on.
+2023-01-16 16:37:16,229 Rule at line 78 without any user agent to enforce it on.
+2023-01-16 16:37:16,230 Rule at line 79 without any user agent to enforce it on.
+2023-01-16 16:37:16,231 Rule at line 80 without any user agent to enforce it on.
+2023-01-16 16:37:16,231 Rule at line 81 without any user agent to enforce it on.
+2023-01-16 16:37:16,232 Rule at line 82 without any user agent to enforce it on.
+2023-01-16 16:37:16,233 Rule at line 83 without any user agent to enforce it on.
+2023-01-16 16:37:16,233 Rule at line 84 without any user agent to enforce it on.
+2023-01-16 16:37:16,234 Rule at line 85 without any user agent to enforce it on.
+2023-01-16 16:37:16,234 Rule at line 86 without any user agent to enforce it on.
+2023-01-16 16:37:16,235 Rule at line 87 without any user agent to enforce it on.
+2023-01-16 16:37:16,235 Rule at line 88 without any user agent to enforce it on.
+2023-01-16 16:37:16,236 Rule at line 89 without any user agent to enforce it on.
+2023-01-16 16:37:16,237 Rule at line 90 without any user agent to enforce it on.
+2023-01-16 16:37:16,237 Rule at line 91 without any user agent to enforce it on.
+2023-01-16 16:37:16,238 Rule at line 92 without any user agent to enforce it on.
+2023-01-16 16:37:16,238 Rule at line 93 without any user agent to enforce it on.
+2023-01-16 16:37:16,239 Rule at line 94 without any user agent to enforce it on.
+2023-01-16 16:37:16,243 Rule at line 95 without any user agent to enforce it on.
+2023-01-16 16:37:16,246 Rule at line 96 without any user agent to enforce it on.
+2023-01-16 16:37:16,247 Rule at line 101 without any user agent to enforce it on.
+2023-01-16 16:37:16,247 Rule at line 106 without any user agent to enforce it on.
+2023-01-16 16:37:16,248 Rule at line 130 without any user agent to enforce it on.
+2023-01-16 16:37:16,249 Rule at line 137 without any user agent to enforce it on.
+2023-01-16 16:37:16,250 Rule at line 138 without any user agent to enforce it on.
+2023-01-16 16:37:16,251 Rule at line 139 without any user agent to enforce it on.
+2023-01-16 16:37:16,251 Rule at line 141 without any user agent to enforce it on.
+2023-01-16 16:37:16,274 Retrying <GET https://www.pnas.org/doi/10.1073/pnas.1700616114> (failed 2 times): 503 Service Unavailable
+2023-01-16 16:37:16,394 Crawled (200) <GET https://gap.hks.harvard.edu/robots.txt> (referer: None)
+2023-01-16 16:37:16,402 Crawled (200) <GET https://www.icrw.org/wp-content/uploads/2017/10/Advisors-The-Business-Case-for-Gender-Diversity.pdf> (referer: None)
+2023-01-16 16:37:16,403 Crawled (403) <GET https://academic.oup.com/robots.txt> (referer: None)
+2023-01-16 16:37:16,408 Retrying <GET https://www.oecd.org/gender/> (failed 2 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:16,418 Retrying <GET https://www.unhcr.org/age-gender-diversity/> (failed 1 times): 503 Service Unavailable
+2023-01-16 16:37:16,434 Gave up retrying <GET https://www.pnas.org/doi/10.1073/pnas.1700616114> (failed 3 times): 503 Service Unavailable
+2023-01-16 16:37:16,434 Crawled (503) <GET https://www.pnas.org/doi/10.1073/pnas.1700616114> (referer: None)
+2023-01-16 16:37:16,464 Crawled (200) <GET https://www.wgea.gov.au/robots.txt> (referer: None)
+2023-01-16 16:37:16,468 Retrying <GET https://www.istockphoto.com/robots.txt> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,503 Spider error processing <GET https://www.icrw.org/wp-content/uploads/2017/10/Advisors-The-Business-Case-for-Gender-Diversity.pdf> (referer: None)
+Traceback (most recent call last):
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 29, in parse
+    links = response.css('a::attr(href)').extract()
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\http\response\__init__.py", line 135, in css
+    raise NotSupported("Response content isn't text")
+scrapy.exceptions.NotSupported: Response content isn't text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 54, in parse
+    count+=1
+UnboundLocalError: local variable 'count' referenced before assignment
+2023-01-16 16:37:16,511 Crawled (200) <GET https://gap.hks.harvard.edu/impact-gender-diversity-performance-business-teams-evidence-field-experiment> (referer: None)
+2023-01-16 16:37:16,515 Retrying <GET https://www.unhcr.org/age-gender-diversity/> (failed 2 times): 503 Service Unavailable
+2023-01-16 16:37:16,516 Retrying <GET https://www.istockphoto.com/robots.txt> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,536 Ignoring response <503 https://www.pnas.org/doi/10.1073/pnas.1700616114>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:16,569 Gave up retrying <GET https://www.istockphoto.com/robots.txt> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,569 Error downloading <GET https://www.istockphoto.com/robots.txt>: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\core\downloader\middleware.py", line 49, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,582 Crawled (200) <GET https://knowledge.wharton.upenn.edu/robots.txt> (referer: None)
+2023-01-16 16:37:16,606 Crawled (200) <GET https://www.wgea.gov.au/sites/default/files/documents/SETTING-GENDER-TARGETS-Online-accessible_0.pdf> (referer: None)
+2023-01-16 16:37:16,611 Gave up retrying <GET https://www.unhcr.org/age-gender-diversity/> (failed 3 times): 503 Service Unavailable
+2023-01-16 16:37:16,611 Crawled (503) <GET https://www.unhcr.org/age-gender-diversity/> (referer: None)
+2023-01-16 16:37:16,729 Retrying <GET https://www.istockphoto.com/photos/gender-diversity> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,735 Crawled (200) <GET https://knowledge.wharton.upenn.edu/article/will-gender-diversity-boards-really-boost-company-performance/> (referer: None)
+2023-01-16 16:37:16,736 Spider error processing <GET https://www.wgea.gov.au/sites/default/files/documents/SETTING-GENDER-TARGETS-Online-accessible_0.pdf> (referer: None)
+Traceback (most recent call last):
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 29, in parse
+    links = response.css('a::attr(href)').extract()
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\http\response\__init__.py", line 135, in css
+    raise NotSupported("Response content isn't text")
+scrapy.exceptions.NotSupported: Response content isn't text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 54, in parse
+    count+=1
+UnboundLocalError: local variable 'count' referenced before assignment
+2023-01-16 16:37:16,738 Ignoring response <503 https://www.unhcr.org/age-gender-diversity/>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:16,748 Gave up retrying <GET https://www.oecd.org/gender/> (failed 3 times): [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:16,786 Retrying <GET https://www.istockphoto.com/photos/gender-diversity> (failed 2 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,829 Gave up retrying <GET https://www.istockphoto.com/photos/gender-diversity> (failed 3 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,963 Crawled (200) <GET https://equity.ubc.ca/resources/gender-diversity/> (referer: None)
+2023-01-16 16:37:16,965 Error downloading <GET https://www.oecd.org/gender/>
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\core\downloader\middleware.py", line 49, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure OpenSSL.SSL.Error: [('SSL routines', '', 'unsafe legacy renegotiation disabled')]>]
+2023-01-16 16:37:16,966 Error downloading <GET https://www.istockphoto.com/photos/gender-diversity>
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\core\downloader\middleware.py", line 49, in process_request
+    return (yield download_func(request=request, spider=spider))
+twisted.web._newclient.ResponseNeverReceived: [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
+2023-01-16 16:37:16,991 Retrying <GET https://www.gov.nl.ca/robots.txt> (failed 1 times): 500 Internal Server Error
+2023-01-16 16:37:17,047 Crawled (200) <GET https://www.shutterstock.com/robots.txt> (referer: None)
+2023-01-16 16:37:17,165 Crawled (200) <GET https://hospitalityinsights.ehl.edu/robots.txt> (referer: None)
+2023-01-16 16:37:17,194 Crawled (403) <GET https://academic.oup.com/oxrep/article/36/4/760/6124301> (referer: None)
+2023-01-16 16:37:17,262 Crawled (200) <GET https://hospitalityinsights.ehl.edu/gender-diversity-leadership> (referer: None)
+2023-01-16 16:37:17,279 Crawled (406) <GET https://www.shutterstock.com/search/gender-diversity> (referer: None)
+2023-01-16 16:37:17,305 Ignoring response <403 https://academic.oup.com/oxrep/article/36/4/760/6124301>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:17,368 Crawled (200) <GET https://www.sc.com/robots.txt> (referer: None)
+2023-01-16 16:37:17,479 Crawled (200) <GET https://home.barclays/robots.txt> (referer: None)
+2023-01-16 16:37:17,479 Rule at line 1 without any user agent to enforce it on.
+2023-01-16 16:37:17,485 Crawled (200) <GET https://www.thelancet.com/robots.txt> (referer: None)
+2023-01-16 16:37:17,493 Crawled (200) <GET https://vervoe.com/gender-diversity/> (referer: None)
+2023-01-16 16:37:17,497 Ignoring response <406 https://www.shutterstock.com/search/gender-diversity>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:17,591 Crawled (200) <GET https://www.dictionary.com/robots.txt> (referer: None)
+2023-01-16 16:37:17,596 Crawled (200) <GET https://www.bii.co.uk/en/our-impact/our-impact-specialisms/gender-equality/> (referer: None)
+2023-01-16 16:37:18,068 Crawled (200) <GET https://www.sc.com/en/about/diversity-and-inclusion/gender-equality/> (referer: None)
+2023-01-16 16:37:18,071 Crawled (200) <GET https://home.barclays/who-we-are/our-strategy/diversity-and-inclusion/gender/> (referer: None)
+2023-01-16 16:37:18,074 Crawled (200) <GET https://www.dictionary.com/browse/gender-diverse> (referer: None)
+2023-01-16 16:37:18,076 Crawled (200) <GET https://teara.govt.nz/robots.txt> (referer: None)
+2023-01-16 16:37:18,431 Crawled (200) <GET https://www.globalprotectioncluster.org/robots.txt> (referer: None)
+2023-01-16 16:37:18,442 Retrying <GET https://www.gov.nl.ca/robots.txt> (failed 2 times): 500 Internal Server Error
+2023-01-16 16:37:18,467 Crawled (200) <GET https://spacegeneration.org/projects/diversity-gender-equality> (referer: None)
+2023-01-16 16:37:18,820 Crawled (200) <GET https://www.cfainstitute.org/robots.txt> (referer: None)
+2023-01-16 16:37:18,826 Crawled (200) <GET https://www.uu.nl/robots.txt> (referer: None)
+2023-01-16 16:37:18,896 Crawled (200) <GET https://www.instride.com/robots.txt> (referer: None)
+2023-01-16 16:37:18,899 Crawled (200) <GET https://iwa-network.org/robots.txt> (referer: None)
+2023-01-16 16:37:18,904 Crawled (200) <GET https://www.infosys.com/robots.txt> (referer: None)
+2023-01-16 16:37:18,913 Crawled (200) <GET https://www.iadb.org/robots.txt> (referer: None)
+2023-01-16 16:37:18,948 Crawled (200) <GET https://www.iadb.org/en/gender-and-diversity/gender-and-diversity> (referer: None)
+2023-01-16 16:37:18,969 Crawled (200) <GET https://www.uu.nl/en/research/gender-diversity-and-global-justice> (referer: None)
+2023-01-16 16:37:19,008 Crawled (200) <GET https://theconversation.com/robots.txt> (referer: None)
+2023-01-16 16:37:19,036 Crawled (200) <GET https://theconversation.com/us/topics/gender-diversity-3699> (referer: None)
+2023-01-16 16:37:19,186 Crawled (200) <GET https://www.infosys.com/about/diversity-inclusion/gender-diversity.html> (referer: None)
+2023-01-16 16:37:19,339 Crawled (200) <GET https://www.globalprotectioncluster.org/old/themes/age-gender-diversity/> (referer: None)
+2023-01-16 16:37:19,344 Crawled (200) <GET https://www.cfainstitute.org/en/research/survey-reports/gender-diversity-report> (referer: None)
+2023-01-16 16:37:19,588 Crawled (200) <GET https://sseinitiative.org/robots.txt> (referer: None)
+2023-01-16 16:37:19,599 Crawled (200) <GET https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(18)33138-6/fulltext> (referer: None)
+2023-01-16 16:37:19,702 Crawled (200) <GET https://www.iea.org/robots.txt> (referer: None)
+2023-01-16 16:37:20,227 Gave up retrying <GET https://www.gov.nl.ca/robots.txt> (failed 3 times): 500 Internal Server Error
+2023-01-16 16:37:20,227 Crawled (500) <GET https://www.gov.nl.ca/robots.txt> (referer: None)
+2023-01-16 16:37:20,229 Rule at line 1 without any user agent to enforce it on.
+2023-01-16 16:37:20,229 Rule at line 7 without any user agent to enforce it on.
+2023-01-16 16:37:20,230 Rule at line 8 without any user agent to enforce it on.
+2023-01-16 16:37:20,231 Rule at line 9 without any user agent to enforce it on.
+2023-01-16 16:37:20,232 Rule at line 10 without any user agent to enforce it on.
+2023-01-16 16:37:20,233 Rule at line 14 without any user agent to enforce it on.
+2023-01-16 16:37:20,234 Rule at line 15 without any user agent to enforce it on.
+2023-01-16 16:37:20,235 Rule at line 16 without any user agent to enforce it on.
+2023-01-16 16:37:20,236 Rule at line 17 without any user agent to enforce it on.
+2023-01-16 16:37:20,236 Rule at line 18 without any user agent to enforce it on.
+2023-01-16 16:37:20,237 Rule at line 21 without any user agent to enforce it on.
+2023-01-16 16:37:20,239 Rule at line 22 without any user agent to enforce it on.
+2023-01-16 16:37:20,239 Rule at line 26 without any user agent to enforce it on.
+2023-01-16 16:37:20,240 Rule at line 29 without any user agent to enforce it on.
+2023-01-16 16:37:20,241 Rule at line 30 without any user agent to enforce it on.
+2023-01-16 16:37:20,242 Rule at line 31 without any user agent to enforce it on.
+2023-01-16 16:37:20,242 Rule at line 34 without any user agent to enforce it on.
+2023-01-16 16:37:20,243 Rule at line 35 without any user agent to enforce it on.
+2023-01-16 16:37:20,247 Rule at line 39 without any user agent to enforce it on.
+2023-01-16 16:37:20,248 Rule at line 40 without any user agent to enforce it on.
+2023-01-16 16:37:20,248 Rule at line 44 without any user agent to enforce it on.
+2023-01-16 16:37:20,249 Rule at line 45 without any user agent to enforce it on.
+2023-01-16 16:37:20,249 Rule at line 46 without any user agent to enforce it on.
+2023-01-16 16:37:20,250 Rule at line 47 without any user agent to enforce it on.
+2023-01-16 16:37:20,261 Crawled (200) <GET https://iwa-network.org/iwa-gender-diversity-water-award/> (referer: None)
+2023-01-16 16:37:20,267 Crawled (200) <GET https://www.instride.com/insights/gender-diversity-in-the-workplace/> (referer: None)
+2023-01-16 16:37:20,307 Crawled (200) <GET https://www.iea.org/topics/energy-and-gender> (referer: None)
+2023-01-16 16:37:20,365 Crawled (200) <GET https://www.michaelpage.co.in/robots.txt> (referer: None)
+2023-01-16 16:37:20,712 Crawled (200) <GET https://www.michaelpage.co.in/advice/management-advice/diversity-and-inclusion/how-hire-improve-gender-diversity-workplace> (referer: None)
+2023-01-16 16:37:20,714 Crawled (200) <GET https://www.osce.org/robots.txt> (referer: None)
+2023-01-16 16:37:20,718 Crawled (200) <GET https://www.ntnu.edu/robots.txt> (referer: None)
+2023-01-16 16:37:20,998 Crawled (200) <GET https://sseinitiative.org/gender-equality/> (referer: None)
+2023-01-16 16:37:21,056 Crawled (200) <GET https://spssi.onlinelibrary.wiley.com/robots.txt> (referer: None)
+2023-01-16 16:37:21,093 Retrying <GET https://spssi.onlinelibrary.wiley.com/doi/10.1111/sipr.12064> (failed 1 times): 503 Service Unavailable
+2023-01-16 16:37:21,205 Crawled (200) <GET https://www.ncbi.nlm.nih.gov/robots.txt> (referer: None)
+2023-01-16 16:37:21,210 Forbidden by robots.txt: <GET https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6750582/>
+2023-01-16 16:37:21,213 Crawled (200) <GET https://altrata.com/robots.txt> (referer: None)
+2023-01-16 16:37:21,288 Crawled (200) <GET https://www.engie.com/robots.txt> (referer: None)
+2023-01-16 16:37:21,297 Retrying <GET https://spssi.onlinelibrary.wiley.com/doi/10.1111/sipr.12064> (failed 2 times): 503 Service Unavailable
+2023-01-16 16:37:21,319 Crawled (200) <GET https://www.engie.com/en/commitments/professional-and-gender-equality> (referer: None)
+2023-01-16 16:37:21,398 Crawled (200) <GET https://teara.govt.nz/en/gender-diversity/page-1> (referer: None)
+2023-01-16 16:37:21,407 Gave up retrying <GET https://spssi.onlinelibrary.wiley.com/doi/10.1111/sipr.12064> (failed 3 times): 503 Service Unavailable
+2023-01-16 16:37:21,407 Crawled (503) <GET https://spssi.onlinelibrary.wiley.com/doi/10.1111/sipr.12064> (referer: None)
+2023-01-16 16:37:21,493 Crawled (200) <GET https://www.commbank.com.au/robots.txt> (referer: None)
+2023-01-16 16:37:21,499 Crawled (200) <GET https://www.osce.org/odihr/gender-diversity-justice-paper> (referer: None)
+2023-01-16 16:37:21,500 Crawled (200) <GET https://www.unglobalcompact.org/robots.txt> (referer: None)
+2023-01-16 16:37:21,596 Ignoring response <503 https://spssi.onlinelibrary.wiley.com/doi/10.1111/sipr.12064>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:21,600 Crawled (200) <GET https://www.ntnu.edu/genderequality> (referer: None)
+2023-01-16 16:37:21,604 Filtered duplicate request: <GET https://www.globalprotectioncluster.org/old/themes/age-gender-diversity/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-01-16 16:37:21,824 Retrying <GET https://www.gov.nl.ca/exec/wge/files/genderbased-equitableemploy.pdf> (failed 1 times): 500 Internal Server Error
+2023-01-16 16:37:21,951 Crawled (200) <GET https://www.commbank.com.au/about-us/careers/gender-diversity.html> (referer: None)
+2023-01-16 16:37:21,968 Crawled (200) <GET https://www.gsb.stanford.edu/robots.txt> (referer: None)
+2023-01-16 16:37:22,022 Crawled (200) <GET https://totalenergies.com/robots.txt> (referer: None)
+2023-01-16 16:37:22,128 Crawled (200) <GET https://www.maersk.com/robots.txt> (referer: None)
+2023-01-16 16:37:22,133 Crawled (200) <GET https://altrata.com/reports/global-gender-diversity-2022> (referer: None)
+2023-01-16 16:37:22,203 Crawled (200) <GET https://www.unilever.com/robots.txt> (referer: None)
+2023-01-16 16:37:22,226 Crawled (200) <GET https://hbswk.hbs.edu/robots.txt> (referer: None)
+2023-01-16 16:37:22,359 Crawled (200) <GET https://www.elsevier.com/robots.txt> (referer: None)
+2023-01-16 16:37:22,369 Crawled (200) <GET https://teachingsexualhealth.ca/robots.txt> (referer: None)
+2023-01-16 16:37:22,426 Crawled (200) <GET https://www.unilever.com/planet-and-society/equity-diversity-and-inclusion/gender-equality-and-womens-empowerment/> (referer: None)
+2023-01-16 16:37:22,437 Crawled (200) <GET https://journals.plos.org/robots.txt> (referer: None)
+2023-01-16 16:37:22,473 Crawled (200) <GET https://www.gsb.stanford.edu/insights/do-investors-really-care-about-gender-diversity> (referer: None)
+2023-01-16 16:37:22,738 Crawled (200) <GET https://www.unglobalcompact.org/what-is-gc/our-work/social/gender-equality> (referer: None)
+2023-01-16 16:37:23,004 Redirecting (301) to <GET https://totalenergies.com/features/gender-diversity-workplace-key-issue-our-company> from <GET https://totalenergies.com/special-features/gender-diversity-workplace-key-issue-our-company>
+2023-01-16 16:37:23,007 Crawled (200) <GET https://teachingsexualhealth.ca/parents/information-by-topic/sexual-diversity/> (referer: None)
+2023-01-16 16:37:23,010 Crawled (200) <GET https://www.maersk.com/careers/diversity-equity-and-inclusion/gender> (referer: None)
+2023-01-16 16:37:23,012 Crawled (410) <GET https://www.elsevier.com/connect/3-reasons-gender-diversity-is-crucial-to-science> (referer: None)
+2023-01-16 16:37:23,312 Ignoring response <410 https://www.elsevier.com/connect/3-reasons-gender-diversity-is-crucial-to-science>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:23,359 Retrying <GET https://www.gov.nl.ca/exec/wge/files/genderbased-equitableemploy.pdf> (failed 2 times): 500 Internal Server Error
+2023-01-16 16:37:23,363 Crawled (200) <GET https://www.burberryplc.com/robots.txt> (referer: None)
+2023-01-16 16:37:23,509 Crawled (200) <GET https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222443> (referer: None)
+2023-01-16 16:37:23,517 Crawled (200) <GET https://www.teamleasegroup.com/robots.txt> (referer: None)
+2023-01-16 16:37:23,551 Crawled (200) <GET https://www.herzindagi.com/robots.txt> (referer: None)
+2023-01-16 16:37:23,567 Crawled (403) <GET https://www.sciencedirect.com/robots.txt> (referer: None)
+2023-01-16 16:37:23,569 Rule at line 10 without any user agent to enforce it on.
+2023-01-16 16:37:23,570 Rule at line 11 without any user agent to enforce it on.
+2023-01-16 16:37:23,570 Rule at line 12 without any user agent to enforce it on.
+2023-01-16 16:37:23,571 Rule at line 14 without any user agent to enforce it on.
+2023-01-16 16:37:23,574 Rule at line 20 without any user agent to enforce it on.
+2023-01-16 16:37:23,575 Rule at line 21 without any user agent to enforce it on.
+2023-01-16 16:37:23,575 Rule at line 22 without any user agent to enforce it on.
+2023-01-16 16:37:23,576 Rule at line 56 without any user agent to enforce it on.
+2023-01-16 16:37:23,577 Rule at line 63 without any user agent to enforce it on.
+2023-01-16 16:37:23,578 Rule at line 87 without any user agent to enforce it on.
+2023-01-16 16:37:23,578 Rule at line 90 without any user agent to enforce it on.
+2023-01-16 16:37:23,579 Rule at line 92 without any user agent to enforce it on.
+2023-01-16 16:37:23,580 Rule at line 95 without any user agent to enforce it on.
+2023-01-16 16:37:23,580 Rule at line 97 without any user agent to enforce it on.
+2023-01-16 16:37:23,581 Rule at line 99 without any user agent to enforce it on.
+2023-01-16 16:37:23,581 Rule at line 104 without any user agent to enforce it on.
+2023-01-16 16:37:23,582 Rule at line 105 without any user agent to enforce it on.
+2023-01-16 16:37:23,583 Rule at line 106 without any user agent to enforce it on.
+2023-01-16 16:37:23,583 Rule at line 107 without any user agent to enforce it on.
+2023-01-16 16:37:23,584 Rule at line 108 without any user agent to enforce it on.
+2023-01-16 16:37:23,585 Rule at line 109 without any user agent to enforce it on.
+2023-01-16 16:37:23,585 Rule at line 110 without any user agent to enforce it on.
+2023-01-16 16:37:23,586 Rule at line 114 without any user agent to enforce it on.
+2023-01-16 16:37:23,587 Rule at line 122 without any user agent to enforce it on.
+2023-01-16 16:37:23,591 Rule at line 143 without any user agent to enforce it on.
+2023-01-16 16:37:23,591 Rule at line 144 without any user agent to enforce it on.
+2023-01-16 16:37:23,592 Rule at line 145 without any user agent to enforce it on.
+2023-01-16 16:37:23,592 Rule at line 146 without any user agent to enforce it on.
+2023-01-16 16:37:23,593 Rule at line 147 without any user agent to enforce it on.
+2023-01-16 16:37:23,593 Rule at line 149 without any user agent to enforce it on.
+2023-01-16 16:37:23,594 Rule at line 155 without any user agent to enforce it on.
+2023-01-16 16:37:23,595 Rule at line 189 without any user agent to enforce it on.
+2023-01-16 16:37:23,595 Rule at line 190 without any user agent to enforce it on.
+2023-01-16 16:37:23,617 Spider error processing <GET https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0222443> (referer: None)
+Traceback (most recent call last):
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 26, in parse
+    with open(os.path.join("gender_diversity", filename), 'wb') as f:
+OSError: [Errno 22] Invalid argument: 'gender_diversity\\gender_diversity-article?id=10.1371.html'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 54, in parse
+    count+=1
+UnboundLocalError: local variable 'count' referenced before assignment
+2023-01-16 16:37:23,641 Crawled (200) <GET https://hbswk.hbs.edu/item/why-does-lack-of-gender-diversity-hurt-performance> (referer: None)
+2023-01-16 16:37:23,679 Redirecting (301) to <GET https://www.globalgoals.org/robots.txt> from <GET https://globalgoals.org/robots.txt>
+2023-01-16 16:37:23,689 Crawled (200) <GET https://www.europeanceo.com/robots.txt> (referer: None)
+2023-01-16 16:37:23,707 Crawled (403) <GET https://www.sciencedirect.com/science/article/pii/S2444883418300494> (referer: None)
+2023-01-16 16:37:23,828 Crawled (200) <GET https://www.akzonobel.com/robots.txt> (referer: None)
+2023-01-16 16:37:23,834 Crawled (200) <GET https://totalenergies.com/features/gender-diversity-workplace-key-issue-our-company> (referer: None)
+2023-01-16 16:37:23,836 Ignoring response <403 https://www.sciencedirect.com/science/article/pii/S2444883418300494>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:23,846 Crawled (200) <GET https://www.teamleasegroup.com/sites/default/files/resources/Gender%20Diversity%20Report.pdf> (referer: None)
+2023-01-16 16:37:23,897 Crawled (200) <GET https://www.herzindagi.com/society-culture/women-ceos-are-running-10-per-cent-of-fortune-500-companies-gender-diversity-article-219671> (referer: None)
+2023-01-16 16:37:24,007 Crawled (200) <GET https://www.akzonobel.com/en/careers/our-people/gender-diversity-women-manufacturing> (referer: None)
+2023-01-16 16:37:24,010 Crawled (200) <GET https://www.burberryplc.com/en/people/diversity_and_inclusion/gender-equality.html> (referer: None)
+2023-01-16 16:37:24,011 Spider error processing <GET https://www.teamleasegroup.com/sites/default/files/resources/Gender%20Diversity%20Report.pdf> (referer: None)
+Traceback (most recent call last):
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 29, in parse
+    links = response.css('a::attr(href)').extract()
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\http\response\__init__.py", line 135, in css
+    raise NotSupported("Response content isn't text")
+scrapy.exceptions.NotSupported: Response content isn't text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 54, in parse
+    count+=1
+UnboundLocalError: local variable 'count' referenced before assignment
+2023-01-16 16:37:24,350 Crawled (200) <GET https://www.europeanceo.com/business-and-management/top-5-ways-to-encourage-gender-diversity-in-the-workplace/> (referer: None)
+2023-01-16 16:37:24,352 Crawled (200) <GET https://humanrights.gov.au/robots.txt> (referer: None)
+2023-01-16 16:37:24,449 Crawled (200) <GET https://www.ultratechcement.com/robots.txt> (referer: None)
+2023-01-16 16:37:24,549 Crawled (200) <GET https://www.globalgoals.org/robots.txt> (referer: None)
+2023-01-16 16:37:24,554 Crawled (200) <GET https://www.ultratechcement.com/about-us/media/features/gender-diversity-at-ultratech> (referer: None)
+2023-01-16 16:37:24,605 Gave up retrying <GET https://www.gov.nl.ca/exec/wge/files/genderbased-equitableemploy.pdf> (failed 3 times): 500 Internal Server Error
+2023-01-16 16:37:24,605 Crawled (500) <GET https://www.gov.nl.ca/exec/wge/files/genderbased-equitableemploy.pdf> (referer: None)
+2023-01-16 16:37:24,758 Redirecting (301) to <GET https://www.globalgoals.org/goals/5-gender-equality/> from <GET https://globalgoals.org/goals/5-gender-equality/>
+2023-01-16 16:37:24,759 Ignoring response <500 https://www.gov.nl.ca/exec/wge/files/genderbased-equitableemploy.pdf>: HTTP status code is not handled or not allowed
+2023-01-16 16:37:24,803 Crawled (200) <GET https://www.globalgoals.org/robots.txt> (referer: None)
+2023-01-16 16:37:24,849 Crawled (200) <GET http://wistainternational.com/robots.txt> (referer: None)
+2023-01-16 16:37:24,884 Crawled (200) <GET https://www.globalgoals.org/goals/5-gender-equality/> (referer: None)
+2023-01-16 16:37:24,978 Crawled (200) <GET https://www.idbinvest.org/robots.txt> (referer: None)
+2023-01-16 16:37:25,101 Crawled (200) <GET https://humanrights.gov.au/extended-area-work/gender-diversity> (referer: None)
+2023-01-16 16:37:25,346 Crawled (200) <GET https://www.peoplematters.in/robots.txt> (referer: None)
+2023-01-16 16:37:25,350 Crawled (200) <GET https://www.unwomen.org/robots.txt> (referer: None)
+2023-01-16 16:37:25,388 Crawled (200) <GET https://www.idbinvest.org/en/solutions/gender> (referer: None)
+2023-01-16 16:37:25,421 Crawled (200) <GET https://www.unwomen.org/en> (referer: None)
+2023-01-16 16:37:25,689 Redirecting (301) to <GET https://www.orange.com/en/robots.txt> from <GET https://www.orange.com/robots.txt>
+2023-01-16 16:37:25,695 Crawled (200) <GET https://studentaffairs.psu.edu/robots.txt> (referer: None)
+2023-01-16 16:37:25,851 Crawled (200) <GET https://www.orange.com/en/robots.txt> (referer: None)
+2023-01-16 16:37:25,924 Crawled (200) <GET https://www.frontiersin.org/robots.txt> (referer: None)
+2023-01-16 16:37:26,077 Crawled (200) <GET https://www.itcilo.org/robots.txt> (referer: None)
+2023-01-16 16:37:26,106 Crawled (200) <GET https://www2.deloitte.com/robots.txt> (referer: None)
+2023-01-16 16:37:26,137 Crawled (200) <GET https://www.peoplematters.in/article/diversity/gender-diversity-in-the-workplace-24324> (referer: None)
+2023-01-16 16:37:26,324 Crawled (200) <GET https://studentaffairs.psu.edu/csgd> (referer: None)
+2023-01-16 16:37:26,632 Crawled (200) <GET https://www.fau.eu/robots.txt> (referer: None)
+2023-01-16 16:37:26,730 Crawled (200) <GET https://resources.workable.com/robots.txt> (referer: None)
+2023-01-16 16:37:26,824 Crawled (200) <GET https://www2.deloitte.com/xe/en/insights/industry/financial-services/gender-diversity-in-global-financial-services.html> (referer: None)
+2023-01-16 16:37:27,382 Crawled (200) <GET https://www.orange.com/en/engagements/oranges-commitment/to-supporting-a-responsible-economy/promoting-gender-equality-ensure-inclusive-technology> (referer: None)
+2023-01-16 16:37:27,386 Crawled (200) <GET https://www.ey.com/robots.txt> (referer: None)
+2023-01-16 16:37:27,394 Crawled (200) <GET https://resources.workable.com/stories-and-insights/gender-inclusion-in-the-workplace> (referer: None)
+2023-01-16 16:37:27,668 Crawled (200) <GET https://www.frontiersin.org/articles/10.3389/fpsyg.2015.01371/full> (referer: None)
+2023-01-16 16:37:28,111 Crawled (200) <GET https://www.ey.com/en_gl/women-fast-forward/why-gender-diversity-initiatives-need-a-reboot> (referer: None)
+2023-01-16 16:37:28,155 Crawled (200) <GET https://www.itcilo.org/topics/gender-equality-and-diversity> (referer: None)
+2023-01-16 16:37:29,043 Crawled (200) <GET https://www.fau.eu/people/gender-diversity-family/> (referer: None)
+2023-01-16 16:37:34,074 Crawled (200) <GET http://wistainternational.com/wp-content/uploads/DIVERSITY-BOOK.pdf> (referer: None)
+2023-01-16 16:37:34,183 Spider error processing <GET http://wistainternational.com/wp-content/uploads/DIVERSITY-BOOK.pdf> (referer: None)
+Traceback (most recent call last):
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 29, in parse
+    links = response.css('a::attr(href)').extract()
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\scrapy\http\response\__init__.py", line 135, in css
+    raise NotSupported("Response content isn't text")
+scrapy.exceptions.NotSupported: Response content isn't text
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SG-Innovation\ddt\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "D:\scrapy\scrapy_with_googlesearch\gfg\gfg\spiders\gfgfetch.py", line 54, in parse
+    count+=1
+UnboundLocalError: local variable 'count' referenced before assignment
+2023-01-16 16:37:34,290 Closing spider (finished)
+2023-01-16 16:37:34,292 Dumping Scrapy stats:
+{'downloader/exception_count': 14,
+ 'downloader/exception_type_count/scrapy.exceptions.IgnoreRequest': 2,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 12,
+ 'downloader/request_bytes': 58182,
+ 'downloader/request_count': 220,
+ 'downloader/request_method_count/GET': 220,
+ 'downloader/response_bytes': 14468869,
+ 'downloader/response_count': 208,
+ 'downloader/response_status_count/200': 172,
+ 'downloader/response_status_count/301': 4,
+ 'downloader/response_status_count/403': 11,
+ 'downloader/response_status_count/404': 1,
+ 'downloader/response_status_count/406': 1,
+ 'downloader/response_status_count/410': 1,
+ 'downloader/response_status_count/500': 6,
+ 'downloader/response_status_count/503': 12,
+ 'dupefilter/filtered': 24,
+ 'elapsed_time_seconds': 29.211361,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2023, 1, 16, 11, 7, 34, 291386),
+ 'httpcompression/response_bytes': 16408445,
+ 'httpcompression/response_count': 143,
+ 'httperror/response_ignored_count': 12,
+ 'httperror/response_ignored_status_count/403': 6,
+ 'httperror/response_ignored_status_count/406': 1,
+ 'httperror/response_ignored_status_count/410': 1,
+ 'httperror/response_ignored_status_count/500': 1,
+ 'httperror/response_ignored_status_count/503': 3,
+ 'log_count/DEBUG': 345,
+ 'log_count/ERROR': 19,
+ 'log_count/INFO': 22,
+ 'response_received_count': 191,
+ 'retry/count': 20,
+ 'retry/max_reached': 10,
+ 'retry/reason_count/500 Internal Server Error': 4,
+ 'retry/reason_count/503 Service Unavailable': 8,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 8,
+ "robotstxt/exception_count/<class 'twisted.web._newclient.ResponseNeverReceived'>": 2,
+ 'robotstxt/forbidden': 2,
+ 'robotstxt/request_count': 99,
+ 'robotstxt/response_count': 97,
+ 'robotstxt/response_status_count/200': 89,
+ 'robotstxt/response_status_count/403': 5,
+ 'robotstxt/response_status_count/404': 1,
+ 'robotstxt/response_status_count/500': 1,
+ 'robotstxt/response_status_count/503': 1,
+ 'scheduler/dequeued': 113,
+ 'scheduler/dequeued/memory': 113,
+ 'scheduler/enqueued': 113,
+ 'scheduler/enqueued/memory': 113,
+ 'spider_exceptions/UnboundLocalError': 5,
+ 'start_time': datetime.datetime(2023, 1, 16, 11, 7, 5, 80025)}
+2023-01-16 16:37:34,293 Spider closed (finished)

@@ -1,0 +1,105 @@
+Overview of greenhouse gases - NAEI, UK
+Skip navigation to content
+Search
+Search
+Home
+Overview
+About the Inventory
+Data
+Reports
+You are here:
+NAEI OverviewOverview of greenhouse gases
+NAEI homeOverview
+Overview of air pollutants
+Overview of greenhouse gases
+Making projections
+Overview of greenhouse gases
+You can select information about greenhouse gases pollutants below. Each description page will allow you to find out more about the pollutant itself, related issues and a timeseries graph.
+Greenhouse gases
+Carbon Dioxide as Carbon
+Methane
+NF3
+Nitrous Oxide
+Sulphur hexafluoride
+Sector, Gas and Uncertainty Summary Factsheets
+Factsheets for each
+National Communication sector and greenhouse gas
+(GHG), reported on within the
+most recent UK Greenhouse Gas Inventory,
+are
+Available to view here
+The Sector, Gas and Uncertainty Summary Factsheets provide a snapshot of historic emissions and their
+sources, data sets and methods used for estimating emissions, uncertainties and
+improvements associated with them. More detailed information is available in
+the latest National Inventory Report in the Reports section.
+Introduction
+The GHG inventory covers the seven direct greenhouse gases under the Kyoto Protocol:
+Carbon dioxide (CO2)
+Methane (CH4)
+Nitrous oxide (N2O)
+Hydrofluorocarbons (HFCs)
+Perfluorocarbons (PFCs)
+Sulphur hexafluoride (SF6)
+Nitrogen trifluoride (NF3)
+These gases contribute directly to climate change owing to their positive radiative forcing effect. HFCs, PFCs, SF6 and NF3 are collectively known as the 'F-gases'.
+In general terms, the largest contributor to global warming is carbon dioxide which makes it the focus of many climate change initiatives.  Methane and nitrous oxide contribute to a smaller proportion, typically <20%, and the contribution of f–gases is even smaller (in spite of their high Global Warming Potentials) at <5% of the total.
+Also reported are four indirect greenhouse gases:
+Nitrogen oxides (NOx)
+Carbon monoxide (CO)
+Non-methane volatile organic compounds (NMVOC)
+Sulphur dioxide (SO2)
+Nitrogen oxides, carbon monoxide and NMVOCs are included in the inventory because they can produce increases in tropospheric ozone concentrations and this increases radiative forcing (warming of the atmosphere).
+Sulphur dioxide is included because it contributes to aerosol formation which can either warm (through absorption of solar radiation on dark particles) or cool (from forming cloud droplets and reflecting radiation) the atmosphere.
+Targets
+Countries that have signed and ratified
+the Kyoto Protocol are legally bound to reduce their greenhouse gas emissions
+by an agreed amount. A single European Union Kyoto Protocol reduction target
+for greenhouse gas emissions of -8% compared to base-year levels was negotiated
+for the first commitment period, and a Burden Sharing Agreement allocated the
+target between Member States of the European Union. Under this agreement, the
+UK reduction target was -12.5% on base-year levels. The first commitment period
+of the Kyoto Protocol was from 2008 to 2012.
+The second commitment period of the
+Kyoto Protocol applies from 2013 to 2020 inclusive. For this second commitment
+period, the EU and the Member States communicated an independent quantified
+economy-wide emission reduction target of a 20 percent emission reduction by
+2020 compared with 1990 levels (base year) (“the EU2020 target”). The EU2020
+target is based on the understanding that it will be fulfilled jointly by the
+European Union and the Member States. The EU2020 target is unconditional and
+supported by EU legislation in place since 2009 (The EU Climate and Energy
+Package). This Kyoto target covered the UK, and the relevant Crown Dependencies and Overseas Territories for whom the ratification is extended.
+Get data on Kyoto emissions
+The Climate Change Act
+became UK Law on the 26th November 2008. This legislation introduced a new,
+more ambitious and legally binding target for the UK to reduce GHG emissions to
+80% below base year by 2050, with legally binding five year GHG budgets. The
+independent Committee on Climate Change (CCC) was set up to advise the UK
+Government on the setting and meeting of UK carbon budgets as well as
+monitoring progress against them scope and level of UK carbon budgets.
+The Climate Change Act was amended in 2019 to revise the greenhouse gas emission reduction target for 2050 from 80% to 100%, i.e. net-zero.
+Get data on Carbon Budgets (gov.uk website)
+Countries that have signed and ratified the Paris Agreement are asked to declare a Nationally Determined Contribution (NDC), where countries set out what targets they intend to meet to contribute to mitigating climate change, and information on how the country plans to achieve those targets. The UK’s NDC commits the UK to reducing economy-wide greenhouse gas emissions by at least 68% by 2030, compared to 1990 levels.
+Get data on Paris emissionsFurther information on the UK's action to tackle climate change can be found on the BEIS website.
+Page last modified: 14 October 2022
+You may also be
+interested in...
+UNFCCC GHG reporting requirements
+EU GHG reporting requirements (mechanism for monitoring GHG emissions)
+GHG inventories from other countries
+IPCC National GHG Inventories Programme
+© Crown copyright
+Terms & conditions
+Privacy
+Cookies Policy
+Accessibility statement
+Help
+NAEI HelplineNational rate
+01235 75 3046
+We use some essential cookies to make this website work.
+We’d like to set additional cookies to understand how you use
+https://naei.beis.gov.uk/, remember your settings and improve
+data services. We also use cookies set by other site
+to help us deliver content with their services. For more
+detailed information about the cookies we use, see our view and set your cookie options.
+Accept all Cookies
+Reject all Cookies

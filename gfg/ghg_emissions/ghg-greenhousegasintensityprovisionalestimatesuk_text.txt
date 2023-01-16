@@ -1,0 +1,144 @@
+Greenhouse gas emissions, UK - Office for National Statistics
+Tell us whether you accept cookies
+We would like to use cookies to collect information about how you use ons.gov.uk.
+We use this information to make the website work as well as possible and improve our services.
+Accept all cookies
+Set cookie preferences
+You’ve accepted all cookies. You can change your cookie settings at any time.
+Hide
+Skip to main content
+/economy/environmentalaccounts/bulletins/greenhousegasintensityprovisionalestimatesuk/2021
+English (EN) |
+Cymraeg (CY)
+Release calendar
+Methodology
+Media
+About
+Blog
+Menu
+Search
+Home
+Business, industry and trade
+Business
+Changes to business
+Construction industry
+IT and internet industry
+International trade
+Manufacturing and production industry
+Retail industry
+Tourism industry
+Economy
+Economic output and productivity
+Environmental accounts
+Government, public sector and taxes
+Gross Domestic Product (GDP)
+Gross Value Added (GVA)
+Inflation and price indices
+Investments, pensions and trusts
+National accounts
+Regional accounts
+Employment and labour market
+People in work
+People not in work
+People, population and community
+Armed forces community
+Births, deaths and marriages
+Crime and justice
+Cultural identity
+Education and childcare
+Elections
+Health and social care
+Household characteristics
+Housing
+Leisure and tourism
+Personal and household finances
+Population and migration
+Well-being
+Taking part in a survey?
+English (EN) |
+Cymraeg (CY)
+Search for a keyword(s) or time series ID
+Search
+Data and analysis from Census 2021
+Home
+Economy
+Environmental accounts
+Greenhouse gas emissions, UK
+Greenhouse gas emissions, UK: provisional estimates: 2021
+Measuring the contribution of the environment to the economy, the impact of economic activity on the environment, and society's response to environmental issues.
+This is the latest release.
+View previous releases
+Contact: Email Alexandra Christenson
+Release date: 1 November 2022
+Next release: To be announced
+Table of contents
+Main points
+Environmental Accounts data
+Measuring the data
+Related links
+Cite this statistical bulletin
+Print this
+Statistical bulletin
+Download as PDF
+View all data used in this
+Statistical bulletin
+1. Main points
+UK greenhouse gas (GHG) emissions on a residence basis increased by 6% between 2020 and 2021, to over 505 million tonnes of carbon dioxide equivalent (CO2e).
+Despite the increase, UK emissions in 2021 are below 2019 levels.
+Carbon Dioxide (CO2) accounts for 85% of all UK GHG emissions with methane (CH4) being the next largest contributor.
+The largest decrease since 2019 is seen in the transport and storage industry.
+Consumer expenditure is still the largest single contributor to UK emissions, with 27% of all UK GHG emissions in 2021.
+The consumer expenditure, electricity, gas, steam and air conditioning supply, manufacturing and transport industries account for 72% of emissions in 2021.
+The Office for National Statistics (ONS) is developing estimates of quarterly GHG emissions; a potential framework is set out in our article, Developing quarterly greenhouse gas emissions accounts, UK: May 2020, and an update is planned by the end of this year.
+Back to table of contents
+2. Environmental Accounts data
+Atmospheric emissions: acid rain precursors by industry and gas
+Dataset | Released 01 November 2022
+The emissions of sulphur dioxide, nitrogen oxide, ammonia, and total acid rain precursors, by industry (SIC 2007 group – around 130 categories), UK, 1990 to 2020 and (provisional) 2021.Atmospheric emissions: greenhouse gas emissions intensity by industry
+Dataset | Released 01 November 2022
+Greenhouse gas and carbon dioxide emissions intensity –the level of emissions per unit of economic output, by industry (SIC 2007 group – around 130 categories), UK, 1990 to 2020 and (provisional) 2021. Atmospheric emissions: other pollutants by industry and gas
+Dataset | Released 01 November 2022
+The emissions of PM10, PM2.5, carbon monoxide, non-methane volatile organic compound, Benzene and 1,3-Butadiene, by industry (SIC 2007 group – around 130 categories), UK, 1990 to 2020 and (provisional) 2021. Atmospheric emissions: greenhouse gases by industry and gas
+Dataset | Released 01 November 2022
+The emissions of carbon dioxide, methane, nitrous oxide, hydro-fluorocarbons, perfluorocarbons, sulphur
+Back to table of contents
+3. Measuring the data
+All 2021 data in this release are provisional. To produce provisional 2021 air emissions data, the 2020 data on activities that could result in emissions are updated using information on production activities for 2021, where available, or using appropriate proxy information if necessary. Emission factors from 2021 that estimate the mass of emissions associated with those activities (by type of gas or pollutant) are then applied.The UK Environmental Accounts are "satellite accounts" to the main UK National Accounts (Accounts that are linked to the economy but are not part of the core UK National Accounts). They are compiled in accordance with the System of Environmental Economic Accounting (SEEA), as detailed on the United Nations website, which closely follows the UN System of National Accounts (SNA).Air emissions and energy useThe air and energy accounts in the UK Environmental Accounts are compiled by Ricardo Energy and Environment on behalf of the Office for National Statistics (ONS).The main source of information for this reporting is the National Atmospheric Emissions Inventory (NAEI). This provides air emissions data, calculated from activity data and emission factors, for all relevant sources in the UK as a starting point for generating the air emissions accounts. The residence principle is then applied to these datasets, which assigns the emissions to an industrial classification based on Standard Industrial Classification: SIC 2007.QualityMore quality and methodology information on strengths, limitations, appropriate uses, and how the data were created is available in our Environmental accounts on air emissions Quality and Methodology Information (QMI).
+Back to table of contents
+4. Related links
+Greenhouse gas emissions intensity, UK: 2020 provisional estimates
+Article | Released 21 September 2021
+Measuring the contribution of the environment to the economy, the impact of economic activity on the environment, and society's response to environmental issues. UK Environmental Accounts: 2022
+Bulletin | Released 9 June 2022
+Measuring the contribution of the environment to the economy, impact of economic activity on the environment, and response to environmental issues. Low carbon and renewable energy economy, UK: 2020 Bulletin | Released 17 February 2022 Estimates of the size of the UK's green economy from the Low Carbon and Renewable Energy Economy Survey, including turnover and employment.UK natural capital accounts: 2022 Bulletin | Released 10 November 2022 Estimates of the financial and societal value of natural resources to people in the UK.UK environmental goods and services sector (EGSS): 2019 Bulletin | Released 21 March 2022 First estimates of the UK environmental goods and services sector (EGSS) for 2019 and revised estimates for 2010 to 2018. Included are estimates of output, gross value added, employment and exports.Environmental protection expenditure, UK: 2020 Bulletin | Released 8 June 2022 Estimates of environmental protection expenditure by UK industries for 2015 to 2020, based on the environmental protection expenditure survey, and newly published estimates of the environmental protection expenditure accounts for 2010 to 2019.Developing quarterly greenhouse gas emissions accounts, UK: May 2022 Article | Released 12 May 2022 Sets out a potential framework to develop annual greenhouse gas (GHG) emissions accounts on a quarterly basis. Also outlines potential issues and future work.UK and England's carbon footprint to 2019 Webpage | Updated as and when data become available Annual greenhouse gas and carbon dioxide emissions relating to UK and England consumption.UK territorial greenhouse gas emissions national statistics Webpage | Updated as and when data become available Final and provisional estimates of UK territorial greenhouse gas emissions from 1990.17 goals to transform our world Webpage | Updated as and when data become available UK data for the Sustainable Development Goals.Climate change statistics portal Webpage | Updated as and when data become available Latest climate change and greenhouse gas emissions data and analysis from across government departments, agencies and public bodies.
+Back to table of contents
+5. Cite this statistical bulletin
+Office for National Statistics (ONS), released 1 November 2022, ONS website, statistical bulletin, UK greenhouse gas emissions, provisional estimates: 2021
+Back to table of contents
+View all data used in this
+Statistical bulletin
+Contact details for this
+Statistical bulletin
+Alexandra Christenson
+environment.accounts@ons.gov.uk
+Telephone: +44 1329 444932
+Footer links
+Help
+Accessibility
+Cookies
+Privacy
+Terms and conditions
+About ONS
+What we do
+Careers
+Contact us
+News
+Freedom of Information
+Connect with us
+Twitter
+Facebook
+LinkedIn
+Consultations
+Discussion forums
+Email alerts
+All content is available under the Open Government Licence v3.0, except where otherwise stated

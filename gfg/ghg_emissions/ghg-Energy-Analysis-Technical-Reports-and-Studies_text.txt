@@ -1,0 +1,233 @@
+Greenhouse Gas Emissions Studies - NYSERDA
+Skip Navigation
+Your browser does not support iFrames
+NYSERDA
+Business& Industry
+Business and Industry Overview
+Agriculture
+Commercial Real Estate
+Commercial Transportation
+Healthcare & Hospitals
+Housing & Development
+Industrial
+Training Opportunities
+RELATED:
+Universities & Colleges
+Partner with NYSERDA
+Clean Energy Startups
+Investors & Venture Capital
+Communities& Governments
+Communities & Governments Overview
+P-12 Schools
+Universities and Colleges
+Local Governments
+Communities
+RELATED:
+Housing and Development
+Partners& Investors
+Partners & Investors Overview
+Partner with NYSERDA
+Clean Energy Startups
+Investors & Venture Capital
+Saratoga Technology + Energy Park (STEP®)
+Connect With Us
+Researchers& Policymakers
+Researchers & Policymakers Overview
+Biomimicry
+Buildings
+Clean Energy Dashboard Introduction
+Clean Energy Standard
+Clean Heating and Cooling
+DER & Power Generation
+Electric Vehicles
+Energy Prices and Weather Data
+Energy Storage
+Environment
+Green Jobs – Green New York
+Ground Source Heat Pump
+Hydrogen
+Lighting Clearinghouse
+New York State Energy Plan
+Radioactive Waste Policy and Nuclear Coordination
+Regional Greenhouse Gas Initiative
+Research and Innovation Centers
+Research Project Updates
+Smart Grid
+Transportation Technology
+West Valley Site Management Program
+RELATED:
+Energy Statistics
+Publications and Technical Reports
+Evaluation Reports
+Residents& Homeowners
+Cooking at Home
+Residents & Homeowners Overview
+Save Energy at Home
+Save Energy in Your Apartment
+Reduce Your Footprint
+Use Efficient Appliances and Lighting
+Use Solar At Home
+Heat and Cool Your Home
+Seal and Insulate Your Home
+Find Contractors and Incentives
+RELATED:
+Housing and Development
+Energy Prices and Weather Data
+Training Opportunities
+NYSERDA
+Navigation menu
+Business & Industry
+Communities & Governments
+Partners & Investors
+Researchers & Policymakers
+Residents & Homeowners
+Find a Program
+About
+RELATED:
+Find a Contractor
+subscribe
+Pick a topic, get updates!
+Find a Program
+Find A Contractor
+About
+Change Language
+عربى
+বাংলা
+中国人 (简化版)
+Dansk
+Nederlands
+Suomalainen
+Français
+Deutsche
+Ελληνικά
+Kreyòl Ayisyen
+עִברִית
+हिंदी
+Italiana
+日本語
+한국어
+Polskie
+Pусский
+Español
+Eydish
+English
+About
+Publications and Technical Reports
+Energy Analysis, Technical Reports, and Studies
+Publications and Technical Reports
+Program and Initiative Fact Sheets
+Statewide Initiatives
+Program and Initiative Case Studies
+NYSERDA-Related Reports
+Program Planning and Status Reports
+Evaluation Reports
+West Valley Documents and Reports
+Energy Analysis, Technical Reports, and Studies
+Greenhouse Gas Emissions Studies
+NYSERDA conducts research and analysis to support the development and improvement of the statewide Greenhouse Gas Emissions Report, statewide planning and policy development, implementation of the Climate Leadership and Community Protection Act (The Climate Act), and greenhouse gas emissions mitigation.
+Studies Completed by NYSERDA Supporting the Greenhouse Gas Emissions Report and the Integration Analysis
+Other Greenhouse Gas Emissions Studies Completed by NYSERDA
+Studies Completed by NYSERDA Supporting the Greenhouse Gas Emissions Report and the Integration Analysis
+The Climate Act requires the Department of Environmental Conservation (DEC) to publish an annual Greenhouse Gas Emissions Report. DEC is preparing the first annual report to be issued in 2021. For more information, please visit the DEC website .
+To support the Climate Act, NYSERDA developed an economy-wide Integration Analysis to assess benefits and costs of greenhouse gas mitigation and decarbonization. Further information on the results and assumptions is available in the Resources section of climate.ny.gov.
+The below studies have been completed by NYSERDA to help support NYSERDA programs and inform the Greenhouse Gas Emissions Report and the Integration Analysis.
+Studies Supporting the Greenhouse Gas Emissions Report
+The New York State Oil and Gas Methane Emissions Inventory, 2018-2020 Update [PDF] supplements the initial New York State Oil and Gas Sector Methane Emissions Inventory [PDF] with an updated full-time series to provide a detailed inventory of historical methane emission data from 1990-2020 from New York State’s oil and gas sector.
+The Hydrofluorocarbon Emissions Inventory in New York State [PDF] provides a detailed inventory of historical hydrofluorocarbon (HFC) emissions in New York State from 1990 – 2020.
+Studies Supporting the Integration Analysis
+The Hydrofluorocarbon Emissions Inventory and Mitigation Potential in New York State [PDF] provides an updated and more detailed inventory for HFC gases in New York State; how statewide HFC usage is expected to change in future years, due to economic growth, appliance electrification, and other trends; and the impacts of potential policies that could be considered to significantly reduce HFC emissions.
+The Potential of Renewable Natural Gas report [PDF] is a technical analysis of the energy potential of renewable natural gas (RNG) in New York State using various feedstocks and conversion technologies.
+The New York Power Grid Study was undertaken in order to identify distribution upgrades, local transmission upgrades, and bulk transmission investments that are necessary or appropriate for the power grid for the State of New York.
+The Carbon Neutral Buildings Roadmap is intended to identify pathways to decarbonize New York’s building stock by 2050.
+The Renewable Fuels Roadmap and Sustainable Biomass Feedstock Supply for New York State (Roadmap) was intended to evaluate the future of liquid biofuel production and feedstock supplies for transportation purposes in New York State.
+Energy Efficiency and Renewable Energy Potential Studies examine various technologies and energy efficiency opportunities across New York State.
+The Co-Pollutant Impacts of Low-Carbon Fuels and Technologies [PDF] (Updated October 2022) memorandum summarizes the conclusions from existing studies on the impact of using certain low-carbon fuels and carbon capture technologies on the emission of criteria air pollutants (including nitrogen oxides (NOx), sulfur dioxide (SO2), fine particulate matter (PM2.5), volatile organic compounds (VOCs), and ammonia (NH3), relative to the use of corresponding fossil fuels.
+Archive
+The Greenhouse Gas Inventory 1990-2016 [PDF] report contains a detailed inventory of historical greenhouse gas emission data from 1990-2016 for New York State's energy and non-energy sectors. This report is an archived version published for informational purposes only.
+The Pathways to Deep Decarbonization in New York State (June 2020) is a strategic analysis of New York’s decarbonization opportunities developed for NYSERDA by Energy and Environmental Economics (E3), completed prior to the current Integration Analysis.
+Pathways to Deep Decarbonization in New York State – Final Report [PDF]
+Appendix A: Methods and Data [PDF]
+Appendix B: Literature Review of Economy-Wide Deep Decarbonization and Highly Renewable Energy Systems[PDF]
+Supplementary Workbook [XLS]
+Pathways to Deep Decarbonization in New York State Presentation [PDF]
+Other Greenhouse Gas Emissions Studies Completed by NYSERDA
+The Projected Emission Factors for New York State Grid Electricity white paper [PDF] and annexed spreadsheet [XL] provide NYSERDA’s most recent estimates of greenhouse gas emission factors and proposes a method for applying them for benefits reporting, benefit-cost analyses, and other uses. Greenhouse gas emission factors measure the emissions intensity of grid power (the amount of emissions produced per unit of power generated). These updated emission factors represent NYSERDA’s best understanding of current and future projected greenhouse gas emissions from electricity delivered in New York.
+Emission factors can be used to evaluate how a change to the electric load, such as an energy efficiency program, building electrification, electric vehicle charging, or customer adoption of distributed energy resources, will affect emissions produced from electricity generation on a per unit basis. In addition, in the absence of marginal abatement cost information, social costs for each GHG can be applied to the grid emission factors to calculate a resulting social value of grid emissions. This social value can be used to evaluate the societal costs and benefits of electricity generation or of changing load.
+The Fossil and Biogenic Fuel Greenhouse Gas Emission Factors white paper [PDF]  provides NYSERDA’s most recent interpretation of greenhouse gas emission factors associated with fuel use by sector consistent with the accounting methods used under the Climate Act and proposes a method for applying them for emissions reduction estimates and benefits reporting or benefit-cost analyses. Greenhouse gas emission factors measure the emissions intensity of fuel use (the amount of emissions produced per energy unit). These emission factors represent NYSERDA’s best understanding of greenhouse gas emissions from fuel use in New York.
+Emission factors can be used to evaluate how a change in fuel use, such as fuel switching, source reduction (efficiency) or fuel elimination (electrification), will affect emissions from fuel use per energy unit. (For emissions associated with electricity use see the grid electricity with paper above.) In addition, in the absence of marginal abatement cost information, social costs for each GHG can be applied to the fuel emissions to calculate a resulting social value of fuel emissions. This social value can be used to evaluate the societal costs and benefits of fuel use or reduction.
+back to top
+New York State Energy Research and Development Authority
+NYSERDA offers objective information and analysis, innovative programs, technical expertise, and support to help New Yorkers increase energy efficiency, save money, use renewable energy, and reduce reliance on fossil fuels. A public benefit corporation, NYSERDA has been advancing energy solutions and working to protect the environment since 1975.
+Governance
+Kathy Hochul, Governor
+Richard L. Kauffman, Chair
+Doreen M. Harris, President and Chief Executive Officer
+Board Governance
+NYSERDA Board Members
+Executive Leadership
+Connect
+Contact NYSERDA
+[email protected]
+518-862-1090
+866-NYSERDA (Toll free)
+Fax: 518-862-1091
+17 Columbia Circle
+Albany, NY 12203-6399
+See Our Other Offices
+Open Monday - Friday
+8:30 am to 5:00 pm
+Quick Links
+Jobs at NYSERDA
+Funding Opportunities
+Energy Prices
+Home Energy Efficiency Programs
+NY-Sun
+Events Calendar
+Site Map
+Tracking Clean Energy Progress
+Publications and Reports
+All Publications & Reports
+Case Studies
+Energy Analysis
+New York Solar Studies
+Annual Reports and Financial Statements
+Program Planning Reports
+Evaluation Reports
+Research and Technical Reports
+West Valley Reports
+Our Partners
+Partner with NYSERDA
+Become a Contractor
+Guide to Doing Business with NYSERDA [PDF]
+Connect With Us
+FACEBOOK
+TWITTER
+INSTAGRAM
+YOUTUBE
+LINKEDIN
+Copyright 2023
+Web Policy
+|
+Accessibility
+|
+Disclaimer
+|
+Internet Privacy Policy
+|
+New York State Regulations
+|
+Adobe Acrobat Reader
+|
+Microsoft Office Apps (Word, Excel, PowerPoint)
+Copyright 2023
+About
+|
+Accessibility
+|
+Careers at NYSERDA
+|
+Disclaimer
+|
+Privacy
+Your browser does not support iFrames
+Your browser does not support iFrames

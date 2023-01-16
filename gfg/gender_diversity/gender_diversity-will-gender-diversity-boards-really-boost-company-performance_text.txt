@@ -1,0 +1,108 @@
+Does Gender Diversity on Boards Really Boost Company Performance? - Knowledge at Wharton
+Knowledge at Wharton logoKnowledge at Wharton logoWharton Business Daily logoThe Wharton School logo
+Skip to content
+Skip to main menu
+A business journal from the Wharton School of the University of Pennsylvania
+Mobile menu toggle
+Subscribe
+Menu
+Go to site search
+Mobile menu toggle
+TopicsToggle submenu
+View All Topics »
+Analytics
+Entrepreneurship
+ESG
+Finance & Accounting
+Innovation
+Leadership
+Management
+Marketing
+Markets & The Economy
+Public Policy
+Technology
+Diversity, Equity, & Inclusion
+COVID-19
+Fintech
+Inflation
+Opinion
+SeriesToggle submenu
+View All Series »
+Beyond Business Series
+Dollars and Change Series
+Great Question Series
+Leading Diversity at Work Series
+Meet the Authors Series
+Nano Tools for Leaders Series
+Articles
+Podcasts
+Videos
+Faculty
+Bookstore
+Skip NavigationMenuTopicsView All Topics »AnalyticsEntrepreneurshipESGFinance & AccountingInnovationLeadershipManagementMarketingMarkets & The EconomyPublic PolicyTechnologyWhat's TrendingDiversity, Equity, & InclusionCOVID-19FintechInflationOpinionSeriesView All Series »Beyond Business SeriesHow Data Analytics Can Help Deliver Social GoodDecember 20, 2022How Analytics Is Changing FinanceNovember 29, 2022Beyond Business: Humanizing ESGDecember 13, 2021How Corporate Governance Is ChangingNovember 23, 2021Dollars and Change SeriesWhy Employee-owned Companies Are Better at Building Worker WealthNovember 11, 2022Investing in Refugee Entrepreneurs in East AfricaAugust 8, 2022How Companies and Capital Can Be Forces for GoodJune 21, 2022Making the Business Case for ESGMay 3, 2022Great Question SeriesGreat Question: Witold Henisz on ESG InitiativesNovember 17, 2021Great Question: Wendy De La Rosa on Personal FinanceOctober 15, 2021Great Question: Dean Erika James on Crisis ManagementAugust 16, 2021Great Question: Kevin Werbach on Cryptocurrency and FintechJuly 21, 2021Leading Diversity at Work SeriesNavigating Microaggressions at WorkNovember 1, 2022Action, not Words: Creating Gender and Racial Equity at WorkJuly 11, 2022How Data Analytics Can Help Advance DEIJanuary 18, 2022How Social Class Affects the Career LadderOctober 29, 2021Meet the Authors SeriesMeet the Authors: Erika James and Lynn Perry Wooten on The Prepared LeaderOctober 3, 2022Meet the Authors: Wharton’s Peter Cappelli on The Future of the OfficeNovember 4, 2021Meet the Authors: Mauro Guillén on How Businesses Succeed in a Global MarketplaceJune 21, 2021Meet the Authors: Wharton’s Katy Milkman on How to ChangeMay 14, 2021Nano Tools for Leaders SeriesA Key to Better Leadership: Confident HumilityDecember 6, 2022Building a Team to Lead in a Crisis: Four Key StepsNovember 22, 2022The 25-Minute MeetingOctober 25, 2022Preventing Burnout: The Demand-Control-Support ModelSeptember 27, 2022ArticlesPodcastsVideosFacultyBookstore
+Go to site search
+Does Gender Diversity on Boards Really Boost Company Performance?
+May 18, 2017 • 13 min read
+Conventional wisdom says gender diversity in the corporate boardroom improves company performance. But academic research says otherwise.
+ESGDiversity, Equity, & InclusionManagement
+Featured Faculty
+Katherine Klein
+Many commentators suggest that gender diversity in the corporate boardroom improves company performance because of the different points of view and experience it offers. However, rigorous, peer-reviewed academic research paints a different picture. Despite the intuitive appeal of the argument that gender diversity on the board improves company performance, research suggests otherwise.
+Results of numerous academic studies of the topic suggest that the presence of more female board members does not much improve — or worsen — a firm’s performance. In this opinion piece, Wharton management professor Katherine Klein summarizes academic research on the topic and discusses the possible reasons and implications for these surprising findings. Klein is also the vice dean of the Wharton Social Impact Initiative.
+Do companies with women on the board perform better than companies whose boards are all-male? Many popular press articles and fund managers make this claim, citing studies by consulting firms, information providers and financial institutions, such as McKinsey, Thomson Reuters and Credit Suisse.
+Writing recently on Huffington Post, for example, one consultant observed the following:
+“Companies with gender-diverse management teams have been proven to consistently perform better and be more profitable than those without them. There is overwhelming evidence to support the value of having more women in senior leadership positions. A growing body of research –including studies by McKinsey & Company — has proven that companies with more women in senior executive and board roles have advantages over those that don’t.”
+But research conducted by consulting firms and financial institutions is not as rigorous as peer-reviewed academic research. Here, I dig into the findings of rigorous, peer-reviewed studies of the relationship between board gender diversity and company performance.
+“Rigorous, peer-reviewed studies suggest that companies do not perform better when they have women on the board. Nor do they perform worse.”
+Spoiler alert: Rigorous, peer-reviewed studies suggest that companies do not perform better when they have women on the board. Nor do they perform worse. Depending on which meta-analysis you read, board gender diversity either has a very weak relationship with board performance or no relationship at all.
+Wealth of Data on Board Gender Diversity
+There have been many rigorous, peer-reviewed studies of board gender diversity. Given global interest in the effects of board gender diversity and the availability of abundant data on board gender composition and firm performance, many researchers have investigated the topic. The research literature includes over 100 studies of firms in 35 countries and five continents (Post and Byron, 2015).
+Consider two recent meta-analyses that have been conducted to summarize prior research on the topic. Post and Byron (2015) synthesized the findings from 140 studies of board gender diversity with a combined sample of more than 90,000 firms from more than 30 countries.
+Pletzer, Nikolova, Kedzior, and Voelpel (2015) took a different approach, conducting a meta-analysis of a smaller set of studies — 20 studies that were published in peer-reviewed academic journals and that tested the relationship between board gender diversity and firm financial performance (return on assets, return on equity, and Tobin’s Q).
+No Clear Business Case
+The results of these two meta-analyses, summarizing numerous rigorous, original peer-reviewed studies, suggest that the relationship between board gender diversity and company performance is either non-exist (effectively zero) or very weakly positive.
+Further, there is no evidence available to suggest that the addition, or presence, of women on the board actually causes a change in company performance.
+In sum, the research results suggest that there is no business case for — or against — appointing women to corporate boards. Women should be appointed to boards for reasons of gender equality, but not because gender diversity on boards leads to improvements in company performance.
+The two meta-analyses reached very similar conclusions, despite the differences in the underlying studies (140 studies vs. 20, etc.). Because meta-analyses provide a statistical summary — a sophisticated averaging — of the results of prior studies, their findings are much more credible than the findings of any single study. The fact that two quite distinctive meta-analyses reached nearly identical conclusions carries a lot of weight.
+Post and Byron (2015) found that firms with more female directors tend to have slightly higher “accounting returns,” such as return on assets and return on equity, than firms with fewer female directors. The relationship was statistically significant — suggesting it wasn’t a chance effect — but it was tiny. (Statistical significance depends in part on sample size. So, a tiny effect is statistically significant if the sample is big enough.)
+The average correlation between board gender diversity and firm accounting performance, Post and Byron found, was .047. This suggests that gender diversity on the board explains about two-tenths of 1% of the variance in company performance. The average correlation between board gender diversity and firm market performance (such as stock performance, shareholder returns) was even smaller and was not statistically significant.
+Pletzer and his colleagues (2015) found that the average correlation between the percentage of women on the board and firm performance was small (.01) and not statistically significant.
+It’s worth noting that even if the meta-analyses revealed a stronger relationship between board gender diversity and firm performance, we couldn’t conclude that board gender diversity causes firm performance. To establish causal effects, you need to conduct a randomized control trial. But, that’s impossible here; we can’t randomly assign board members to companies.
+Gender Diversity in the Boardroom
+Commentators often suggest that corporate boards that include women will make better decisions than boards that include only men. The argument is that women differ from men in their knowledge, experiences, and values and thus bring novel information and perspectives to the board. They increase the board’s “cognitive variety.” The greater a board’s cognitive variety, the theory goes, the more options it is likely to consider and the more deeply it is likely to debate those options.
+We don’t know exactly why this theoretical logic doesn’t hold among corporate boards. It is worth noting that gender diversity in other kinds of work teams is not significantly positively related to performance, either. Despite popular press accounts that suggest that teams high in gender diversity outperform those composed only of men or only of women, rigorous research does not support this conclusion. Meta-analyses linking team gender diversity to team performance (e.g., Bell et al., 2011) reach much the same conclusion as meta-analyses linking board gender diversity to firm performance — that is, the relationship between team gender diversity and team performance is tiny.
+What’s going on here? Again, we can’t know for certain why board diversity doesn’t predict company performance, but it seems likely that some of the following factors explain the very weak and mostly non-significant effects:
+The women named to corporate boards may not in fact differ very much in their values, experiences, and knowledge from the men who already serve on these boards. The argument that gender diversity on the board will improve company performance rests on the assumption that the addition of one or more women to an all-male board will increase the board’s “cognitive variety” because women — the argument goes — differ from men in their values, experiences, and knowledge.
+While research indicates that in general male and female adults differ somewhat in their values, experiences, and knowledge (and the differences are not huge), it’s not clear that male and female board members differ all that much in their values, experiences, and knowledge. After all, both male and female board members are likely to be selected for their professional accomplishments, experience, and competence. If male and female board members are fairly similar in their values, experience, and knowledge, the addition of women to an all-male board may not increase the board’s cognitive variety as one might expect at first blush.
+Even if the women named to corporate boards are different from the men on these boards, they may not speak up in board conversations and they may lack the influence to change the board’s decisions. When individuals are minorities, tokens, or outliers in a group, they often self-censor, holding back from expressing beliefs and opinions that run counter to the beliefs and opinions of the majority of the group. And even when individuals who are minorities, tokens, or outliers speak up, the majority group members may discount their views. If these dynamics occur within corporate boards, boards may not take full advantage of their own cognitive variety.
+Even if women who are named to corporate boards are different from the men on these boards and even if the women do speak up and influence board decision-making, their influence may not be consistently positive (or consistently negative, for that matter). Some research suggests, for example, that gender-diverse boards make fewer acquisitions than all-male boards (Chen, Crossland and Huang, 2016). But, is this good or bad for firm performance? Companies are likely to benefit from acquisitions in some circumstances and to suffer in other circumstances. If that’s the case, the average effect on firm performance of adding women to the board and thus decreasing risk-taking may be neutral.
+“Women should be appointed to boards for reasons of gender equality.”
+And, finally, even if the addition of women to corporate boards does improve cognitive variety and decision making, companies may only see benefits to their accounting performance (their sales, profits, return on assets, for example) — not their market returns. Other things being equal, market analysts may, consciously or unconsciously, regard all-male boards as more competent than boards that are more gender-diverse. If so, board gender diversity may be positively related to accounting returns, but not market returns. Indeed, this is what Post and Byron’s meta-analysis showed. Still, the relationship between gender diversity and accounting returns was tiny.
+Women Directors and Other Dimensions of Company Performance
+While the relationship between board gender diversity and company performance is very weak, there appears to be a somewhat stronger relationship between board gender diversity and corporate social responsibility (CSR). Byron and Post (2016) meta-analyzed the results of 87 studies and found that board gender diversity is weakly but significantly positively correlated with CSR. The average correlation is .15. Board gender diversity thus explains about 1% of the variance in companies’ engagement in CSR. This isn’t a strong relationship, but it’s a good bit stronger than the relationship between board diversity and corporate performance.
+Again, it’s important to remember that a significant correlational relationship does not prove causality. While it’s possible that the addition of women to the board causes an increase in CSR, existing research cannot prove it. Companies that engage in CSR, or intend to do so, may be particularly inclined to appoint women to the board. So, existing findings could reflect a causal relationship, a reverse-causal relationship, or the effects of other variables. We don’t know and cannot know.
+Researchers have also studied the relationship between board diversity and various board decisions and practices such as acquisitions, board monitoring and dividend payouts (Ararat, Aksu, Cetin, 2015; Chen, Crossland and Huang, 2016; Chen, Leung, & Goergen, 2017). By studying outcomes that are more proximal or immediately related to board decision-making than is company performance, researchers may shed more light on when, whether, and how diverse boards differ from all-male boards. Still, given all the studies of board diversity and company performance that have been conducted to date, it seems very unlikely that new research will reveal a strong, clear relationship between board diversity and company performance.
+CEO Gender and Firm Performance
+Given the findings of research on board gender diversity, one might wonder about the effects on company performance of CEO gender and top management team gender diversity.
+Rigorous, academic studies of CEO gender and company performance tell much the same story as rigorous, academic studies of board gender diversity and company performance do. Ditto for studies of the gender diversity of the top management team.
+“The women named to corporate boards may not in fact differ very much in their values, experiences, and knowledge from the men.”
+The best evidence comes from a recent meta-analysis of 146 studies (Jeong and Harrison, 2017). The relationship between CEO gender and long-term company performance is statistically significant, the authors find, but tiny. The average correlation between CEO gender and long-term financial performance is .007. It’s hard to get much closer to zero. Similarly, the relationship of top management team (TMT) gender diversity and company performance is statistically significant but very small. The correlation is .03. The authors conclude the following:
+“Undoubtedly, breaking the glass ceiling matters. It signals an end, or at least the beginning of an end, to gender exclusivity in firm leadership. Are there further consequences for firm performance if females join a firm’s upper echelons? If so, how and when? An immense investigative effort has been devoted to these questions: over 140 studies in the past several decades, conducted in dozens of countries, and published in journals from many different disciplines and theoretical traditions. Yet, the answers have not been clear or consistent.
+Using meta-analytic techniques, we have uncovered findings that help to settle some of those answers. Our foremost conclusion is that there is no cumulative, zero-order evidence of long-term performance declines for firms that have more females in their upper echelons (as CEOs or TMT members).
+By and large, the obverse is true: breaking glass helps firms — slightly. There are small but dependably positive associations of female representation in CEO positions and TMTs with long-term value creation for a firm’s fiscal outcomes. The modest size of the positive effects helps explain ambiguity and inconsistency in prior scholarship (past research has been triangulating on a weak signal in a noisy field), and they caution against overclaiming about strong or causally dependable financial benefits (Eagly, 2016).
+Related articlesDiversity, Equity, & InclusionDoes a Woman’s Biological Clock Have a Price?January 10, 2023 • 7 min readManagementHero Worship: What Happens When Jobs are Suddenly MoralizedNovember 29, 2022 • 9 min read
+More From Knowledge at WhartonDiversity, Equity, & InclusionDoes a Woman’s Biological Clock Have a Price?January 10, 2023 • 7 min readManagementHero Worship: What Happens When Jobs are Suddenly MoralizedNovember 29, 2022 • 9 min readESGWhy Employee-owned Companies Are Better at Building Worker WealthNovember 11, 2022 • 17 min read
+Back to top
+A business journal from the Wharton School of the University of Pennsylvania
+AboutKnowledge at Wharton
+The Wharton School
+Faculty
+BookstoreShop Books
+About Wharton School Press
+Contact Wharton School Press
+HelpContact Us
+Report a Bug
+TwitterFacebookLinkedInInstagram
+©2023 Knowledge at Wharton. All rights reserved. Knowledge at Wharton is an affiliate of the Wharton School of the University of Pennsylvania.
+Privacy Policy
+Report Accessibility Issues and Get Help

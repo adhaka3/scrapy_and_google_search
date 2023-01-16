@@ -1,0 +1,46 @@
+Current California GHG Emission Inventory Data | California Air Resources Board
+Skip to main content
+×Display Settings
+Default
+High Contrast
+Reset
+Increase Font SizeFont
+Decrease Font SizeFont
+twitter
+youtube
+linkedin
+email
+Search
+CalendarHelp & FAQsContactCareersDisplay Settings
+EnglishEspañol
+California Air Resources Board
+Main navigation
+AboutOur WorkResourcesServicesRulemakingNewsEquity
+Current California GHG Emission Inventory Data
+California Greenhouse Gas Emission Inventory ProgramAboutNewsResources
+Current DataGraphs & PlotsWildfire EmissionsNatural & Working LandsData Archive2020 Limit2020 BAU Projection1990–2004 InventoryShort-Lived Climate PollutantsDescriptions & SourcesGlobal Warming PotentialsGlossaryContacts
+Subscribe
+Contact
+Email
+anny.huang@arb.ca.gov
+Phone
+(916) 323-8475
+2000-2020 GHG Inventory (2022 Edition)Graphic: California's greenhouse gas emissions in 2020 broken out by economic sectorCalifornia Greenhouse Gas 2000-2020 Emissions Trends and Indicators Report The California Greenhouse Gas Emissions for 2000 to 2020, Trends of Emissions and Other Indicators,  summarizes and highlights the major annual changes and notable longer-term trends of each year's GHG inventory. It provides easy-to-read graphs and explanations to illuminate California's progress in its commitment to reduce climate-changing emissions.2000–2020 GHG Emissions Trends Report Data used for figures in the report is available for download. Links to additional data and documentation can be found below.Note: Carbon dioxide equivalent values are calculated using the IPCC's Fourth Assessment Report 100-year Global Warming Potential values. Webinar Presentation Slides [October 26, 2022]GHG Inventory Query ToolGHG Inventory Graphs & PlotsGHG Inventory FAQBackgroundCalifornia's annual statewide greenhouse gas (GHG) emission inventory is an important tool for establishing historical emission trends and tracking California's progress in reducing GHGs. In concert with data collected through various California Global Warming Solutions Act (AB 32) programs, the GHG inventory is a critical piece in demonstrating the state's progress in achieving the statewide GHG target. The inventory provides estimates of anthropogenic GHG emissions within California, as well as emissions associated with imported electricity; natural sources are not included in the inventory. CARB is responsible for maintaining and updating California's GHG Inventory per H&SC section 39607.4.The inventory includes estimates for carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and fluorinated gases with high global warming potentials (High-GWP) which includes hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulfur hexafluoride (SF6), and nitrogen trifluoride (NF3). It uses an inventory scope and framework consistent with international and national GHG inventory practices. An updated emission inventory is published annually to include additional years and improved estimation methods. Archives of all previous inventory data and documentation are available on the archive page.What are Greenhouse Gases?Global Warming Potentials (GWPs) for GHG Emissions Glossary of GHG Inventory TermsData OverviewStatewide emission estimates rely on state, regional or federal data sources, and on aggregated facility-specific emission reports from CARB's Mandatory GHG Reporting Program (MRR). Calculation methodologies are consistent with the 2006 IPCC Guidelines. The current inventory uses 100-year global warming potential (GWP) values from the IPCC Fourth Assessment Report, consistent with current international and national GHG inventory practices. In preparation for each new edition of the inventory, recalculations are made to correct errors, incorporate new methodologies or, most commonly, to reflect changes in statistical data supplied by other agencies. Emission estimates are recalculated for all years to maintain a consistent time-series following IPCC recommendations for developing GHG inventories. Thus the new inventory may report a different emission level for an earlier year than previous inventory editions.The California GHG inventory is categorized in three ways:Scoping Plan; follows the categories identified in the AB 32 Scoping Plan.Economic sectors; allows for comparison with other CARB emission inventories, which are similarly categorized.IPCC process-oriented categories; follows the IPCC categorization to ensure comparability with international inventories.The table below provides a crosswalk among the three categorization schemes.Inventory Categorization Crosswalk2022 Inventory Documentation2000–2020 Emissions Trends Report 2000–2020 Trends Figure Data2000–2020 Inventory Updates DocumentationGHG Inventory Documentation IndexTechnical DocumentationCARB has a fully detailed Technical Support Document, last updated for the 2016 edition of the inventory. Since then, staff have prepared Inventory Updates Documents that specify all methodology changes made to the inventory for each year. A compilation of these documents is found below and can be used in conjunction with the full Technical Support Document to show all information for the methodologies of the inventory calculations.Technical Support DocumentSupplemental Method Updates Document (Years 2017-2021)DataSummaries of GHG Emissions by Categorization GroupScoping Plan CategorizationEconomic Sector CategorizationIPCC CategorizationTotals by GasGHG Emission Summaries Segregated by GasCategorizationCO2 OnlyCH4 OnlyN2O OnlyHigh-GWP OnlyScoping PlanCO2 - ScopingCH4 - ScopingN2O - ScopingHigh-GWP - ScopingEconomic SectorCO2 - EconomicCH4 - EconomicN2O - EconomicHigh-GWP - EconomicIPCC CategoryCO2 - IPCCCH4 - IPCCN2O - IPCCHigh-GWP - IPCCFull InventoryScoping Plan Categorization Economic Sector CategorizationIPCC CategorizationFuel Combustion and Heat Content Download a detailed list of all fuel combustion data used to calculate the GHG emissions by sector and activity. The categorization in this workbook matches the "Economic Sector Categorization" inventory spreadsheet above.Guidance & Resources for Working with GHG Inventory DataCogeneration EmissionsThe CARB Regulation for the Mandatory Reporting of GHG Emissions (MRR) is a primary data source for the statewide inventory but emissions are categorized differently in the two programs. Industrial cogeneration (also known as Combined Heat and Power, or CHP) represents the major categorization difference. The guidance document below provides instruction for working with and crosswalking between the two datasets. A spreadsheet provides GHG inventory industrial cogeneration emissions disaggregation to facilitate comparison with MRR data.Guidance for Working with the GHG Inventory & MRR Data Using Disaggregated Industrial Cogeneration Data 2011–2020 Industrial Cogeneration BreakoutAdditional InformationAB 2195 Report on Upstream Emissions of California’s Natural Gas Consumption  AB 2195 requires CARB “to quantify and publish annually the amount of greenhouse gas emissions resulting from the loss or release of uncombusted natural gas to the atmosphere and emissions from natural gas flares during all processes associated with the production, processing, and transporting of natural gas imported into the state from out-of-state sources.”  Most of the emissions quantified in the AB 2195 report occurred outside of California borders; and therefore, are not added to the GHG Inventory total pursuant to the inventory boundary specified in AB 32.  Link to the report:AB 2195 Out-of-State Natural Gas EmissionsOther Resource LinksArchive Data & Documentation for Past GHG Inventories2020 Business as Usual (BAU) GHG Emissions ProjectionShort Lived Climate Pollutant (SLCP) InventoryForest & Other Lands InventoryOriginal (1990-2004) InventoryGHG emissions estimates for years prior to 2000 are included in the 1990–2004 GHG Emission Inventory published in November 2007, and are included in the 1990 Inventory Query Tool. This inventory, and associated 1990–2004 Inventory Data and Documentation, provided the basis for developing the 1990 Statewide Emission Level & 2020 Emission Limit required by the Global Warming Solutions Act of 2006 (AB 32).
+Contact Us
+(800) 242-4450  |  helpline@arb.ca.gov
+1001 I Street, Sacramento, CA 95814
+P.O. Box 2815, Sacramento, CA 95812
+twitter
+youtube
+linkedin
+email
+AccessibilityPrivacy PolicyConditions of UseAir DistrictsRegister to Vote
+California Governor
+Gavin Newsom Opens a New Window.
+Secretary for Environmental Protection
+Yana Garcia Opens a New Window.
+Chair, California Air Resources Board
+Liane M. Randolph Opens a New Window.
+The California Air Resources Board is one of six boards, departments, and offices under the umbrella of the California Environmental Protection Agency.
+CalEPACalRecycleDPRDTSCOEHHASWRCB
+Copyright © 2023 State of California

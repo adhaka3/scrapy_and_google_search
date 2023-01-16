@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"348872d504",applicationID:"496267014"};/*! For license information please see nr-loader-rum-1221.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={507:function(__unused_webpack_module,__webpack_exports__,__webpack_require__){"use strict";function detectPolyfillFeatures(){var featureStatus={};return checkAndAddFeature("Promise","PROMISE"),checkAndAddFeature("Array.prototype.includes","ARRAY_INCLUDES"),checkAndAddFeature("Object.assign","OBJECT_ASSIGN"),checkAndAddFeature("Object.entries","OBJECT_ENTRIES"),featureStatus;function checkAndAddFeature(funcString,featName){try{var func=eval("self."+funcString);-1!==func.toString().indexOf("[native code]")?featureStatus[featName]=Status.NATIVE:featureStatus[featName]=Status.CHANGED}catch(e){featureStatus[featName]=Status.UNAVAIL}}}__webpack_require__.d(__webpack_exports__,{n:function(){return detectPolyfillFeatures}});var Status={UNAVAIL:"NotSupported",NATIVE:"Detected",CHANGED:"Modified"}},2687:function(e,t,r){"use strict";var n=r(2141);t.Z=(0,n.ky)(16)},1719:function(e,t,r){"use strict";r.d(t,{I:function(){return n}});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},3524:function(e,t,r){"use strict";var n,i;if(r.d(t,{H:function(){return i}}),r(8283).B){var o=document.createElement("div");o.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=o.getElementsByTagName("div").length}i=4===n?6:3===n?7:2===n?8:1===n?9:0},5970:function(e,t,r){"use strict";r.d(t,{Mt:function(){return p},C5:function(){return u},OP:function(){return C},Yu:function(){return b},Dg:function(){return d},CX:function(){return s},GE:function(){return h},sU:function(){return R}});var n={};r.r(n),r.d(n,{agent:function(){return w},match:function(){return x},version:function(){return m}});var i=r(4580),o=function(e,t){var r=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],n=e[1];r[t]=n}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")},a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},c={};function u(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!c[e])throw new Error("Info for "+e+" was never set");return c[e]}function s(e,t){if(!e)throw new Error("All info objects require an agent identifier!");c[e]=new o(t,a),(0,i.Qy)(e,c[e],"info")}var f={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},l={};function d(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=new o(t,f),(0,i.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=function(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for "+e+" was never set");return l[e]}(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}var v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};function h(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");_[e]=new o(t,v),(0,i.Qy)(e,_[e],"loader_config")}var b=(0,i.mF)().o,g=r(3524),y=r(9206),w=null,m=null;if(navigator.userAgent){var k=navigator.userAgent,O=k.match(/Version\/(\S+)\s+Safari/);O&&-1===k.indexOf("Chrome")&&-1===k.indexOf("Chromium")&&(w="Safari",m=O[1])}function x(e,t){if(!w)return!1;if(e!==w)return!1;if(!t)return!0;if(!m)return!1;for(var r=m.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var E=r(2141),P=r(8283).B?window.sessionStorage:void 0,S="NRBA_SESSION_ID";var j=self.XMLHttpRequest,A=j&&j.prototype,q={};function C(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!q[e])throw new Error("Runtime for "+e+" was never set");return q[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r,a;q[e]=new o(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===g.H?2e3:3e4,offset:(0,y.yf)(),onerror:void 0,origin:""+self.location,ptid:void 0,releaseIds:{},sessionId:1==p(r,"privacy.cookies_enabled")&&P?(null===(a=P.getItem(S))&&(a=(0,E.ky)(16),P.setItem(S,a)),a):null,xhrWrappable:j&&A&&A.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,q[e],"runtime")}},8873:function(e,t,r){"use strict";r.d(t,{q:function(){return n}});var n=["1221","PROD"].filter((function(e){return e})).join(".")},1925:function(e,t,r){"use strict";r.d(t,{w:function(){return i}});var n={agentIdentifier:""},i=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,n),Object.entries(e).forEach((function(e){var r=e[0],i=e[1];Object.keys(n).includes(r)&&(t.sharedContext[r]=i)}))}},2071:function(e,t,r){"use strict";r.d(t,{ee:function(){return n}});var n,i=r(4580),o=r(9010),a=r(9599),c="nr@context",u=(0,i.fP)();function s(){}function f(){return new s}function l(){(n.backlog.api||n.backlog.feature)&&(n.aborted=!0,n.backlog={})}u.ee?n=u.ee:(n=function e(t,r){var i={},u={},d={},p={on:h,addEventListener:h,removeEventListener:b,emit:_,get:y,listeners:g,context:v,buffer:w,abort:l,aborted:!1,isBuffering:m,debugId:r,backlog:t&&t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof s?e:e?(0,o.X)(e,c,f):f()}function _(e,r,i,o,a){if(!1!==a&&(a=!0),!n.aborted||o){t&&a&&t.emit(e,r,i);for(var c=v(i),s=g(e),f=s.length,l=0;l<f;l++)s[l].apply(c,r);var d=k()[u[e]];return d&&d.push([p,e,r,c]),c}}function h(e,t){i[e]=g(e).concat(t)}function b(e,t){var r=i[e];if(r)for(var n=0;n<r.length;n++)r[n]===t&&r.splice(n,1)}function g(e){return i[e]||[]}function y(t){return d[t]=d[t]||e(p,t)}function w(e,t){var r=k();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",u[n]=t,t in r||(r[t]=[])}))}function m(e){return!!k()[u[e]]}function k(){return p.backlog}}(void 0,"globalEE"),u.ee=n)},3195:function(e,t,r){"use strict";r.d(t,{E:function(){return n},p:function(){return i}});var n=r(2071).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4539:function(e,t,r){"use strict";r.d(t,{X:function(){return o}});var n=r(3195);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3585:function(e,t,r){"use strict";r.d(t,{m:function(){return o}});var n=!1;try{var i=Object.defineProperty({},"passive",{get:function(){n=!0}});self.addEventListener("testPassive",null,i),self.removeEventListener("testPassive",null,i)}catch(e){}function o(e){return n?{passive:!0,capture:!!e}:!!e}},2141:function(e,t,r){"use strict";function n(){var e=null,t=0,r=self.crypto||self.msCrypto;function n(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)a+="x"===(i=o[c])?n().toString(16):"y"===i?(i=3&n()|8).toString(16):i;return a}function i(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}r.d(t,{Rl:function(){return n},ky:function(){return i}})},9206:function(e,t,r){"use strict";r.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var n=r(1209),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function c(){return i}function u(e){o=e}function s(){return o}},1209:function(e,t,r){"use strict";var n,i;r.d(t,{G:function(){return o}});var o=void 0!==(null==(n=self.performance)||null==(i=n.timing)?void 0:i.navigationStart)},745:function(e,t,r){"use strict";r.d(t,{s:function(){return c},v:function(){return u}});var n=r(7036),i=r(1719),o=r(9206),a=r(1209),c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,self.performance.timing.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},7036:function(e,t,r){"use strict";r.d(t,{B:function(){return o},L:function(){return a}});var n=r(9206),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){var o,a,c=e.sharedContext.agentIdentifier,u=null==(o=i[c])?void 0:o[r],s=null==(a=i[c])?void 0:a[n];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},8547:function(e,t,r){"use strict";r.d(t,{T:function(){return i}});var n=r(8283),i={isFileProtocol:function(){var e,t=(0,n.ek)(),r=Boolean("file:"===(null==(e=t.location)?void 0:e.protocol));r&&(i.supportabilityMetricSent=!0);return r},supportabilityMetricSent:!1}},9011:function(e,t,r){"use strict";r.d(t,{K:function(){return o}});var n=r(5970),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function o(e){var t={};return i.forEach((function(r){t[r]=function(e,t){return!0!==(0,n.OP)(t).disabled&&!1!==(0,n.Mt)(t,e+".enabled")}(r,e)})),t}},8025:function(e,t,r){"use strict";r.d(t,{W:function(){return i}});var n=r(2071),i=function(e,t,r){void 0===r&&(r=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.externalFeatures=r}},9010:function(e,t,r){"use strict";r.d(t,{X:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9599:function(e,t,r){"use strict";r.d(t,{D:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},248:function(e,t,r){"use strict";r.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var n=r(5970),i=r(1925),o=r(8547);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,r;function n(t){return e.call(this,t)||this}r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,a(t,r);var i=n.prototype;return i.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},i.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r},n}(i.w);function s(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},4580:function(e,t,r){"use strict";r.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return i},fP:function(){return o},gG:function(){return s},mF:function(){return a}});var n=r(9206),i={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return self.NREUM||(self.NREUM={}),void 0===self.newrelic&&(self.newrelic=self.NREUM),self.NREUM}function a(){var e=o();if(!e.o){var t=self,r=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:r,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,r){var i,a,c=o(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((i={})[r]=t,i)),a)),c}function u(e,t){o()[e]=t}function s(){var e,t;return e=o(),t=e.info||{},e.info=Object.assign({beacon:i.beacon,errorBeacon:i.errorBeacon},t),function(){var e=o(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=o(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),o()}},8283:function(e,t,r){"use strict";r.d(t,{B:function(){return a},ek:function(){return o},n2:function(){return c}});var n=self,i=n;function o(){return i}var a=Boolean("object"==typeof window&&self.document),c=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator)},8539:function(e){e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},__webpack_module_cache__={},inProgress,dataWebpackPrefix;function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.m=__webpack_modules__,__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,{a:t}),t},__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.f={},__webpack_require__.e=function(e){return Promise.all(Object.keys(__webpack_require__.f).reduce((function(t,r){return __webpack_require__.f[r](e,t),t}),[]))},__webpack_require__.u=function(e){return e+"."+__webpack_require__.h().slice(0,8)+"-1221.js"},__webpack_require__.h=function(){return"25fcbbf1b6e5e9bcbd37"},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},inProgress={},dataWebpackPrefix="NRBA:",__webpack_require__.l=function(e,t,r,n){if(inProgress[e])inProgress[e].push(t);else{var i,o;if(void 0!==r)for(var a=document.getElementsByTagName("script"),c=0;c<a.length;c++){var u=a[c];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==dataWebpackPrefix+r){i=u;break}}i||(o=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,__webpack_require__.nc&&i.setAttribute("nonce",__webpack_require__.nc),i.setAttribute("data-webpack",dataWebpackPrefix+r),i.src=e),inProgress[e]=[t];var s=function(t,r){i.onerror=i.onload=null,clearTimeout(f);var n=inProgress[e];if(delete inProgress[e],i.parentNode&&i.parentNode.removeChild(i),n&&n.forEach((function(e){return e(r)})),t)return t(r)},f=setTimeout(s.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=s.bind(null,i.onerror),i.onload=s.bind(null,i.onload),o&&document.head.appendChild(i)}},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.p="https://js-agent.newrelic.com/",function(){var e={195:0,10:0};__webpack_require__.f.j=function(t,r){var n=__webpack_require__.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var i=new Promise((function(r,i){n=e[t]=[r,i]}));r.push(n[2]=i);var o=__webpack_require__.p+__webpack_require__.u(t),a=new Error;__webpack_require__.l(o,(function(r){if(__webpack_require__.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var i=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed.\n("+i+": "+o+")",a.name="ChunkLoadError",a.type=i,a.request=o,n[1](a)}}),"chunk-"+t,t)}};var t=function(t,r){var n,i,o=r[0],a=r[1],c=r[2],u=0;if(o.some((function(t){return 0!==e[t]}))){for(n in a)__webpack_require__.o(a,n)&&(__webpack_require__.m[n]=a[n]);if(c)c(__webpack_require__)}for(t&&t(r);u<o.length;u++)i=o[u],__webpack_require__.o(e,i)&&e[i]&&e[i][0](),e[i]=0},r=self.webpackChunkNRBA=self.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))}();var __webpack_exports__={};!function(){"use strict";__webpack_require__.r(__webpack_exports__);var e=__webpack_require__(507),t=__webpack_require__(2687),r=__webpack_require__(3585),n=__webpack_require__(8283),i=n.B&&window,o=i&&i.document;function a(e){if(!o||"complete"===o.readyState)return e()||!0}function c(e){a(e)||i.addEventListener("load",e,(0,r.m)(!1))}function u(e){a(e)||o.addEventListener("DOMContentLoaded",e,(0,r.m)(!1))}var s=__webpack_require__(2071);function f(){f=function(){return e};var e={},t=Object.prototype,r=t.hasOwnProperty,n=Object.defineProperty||function(e,t,r){e[t]=r.value},i="function"==typeof Symbol?Symbol:{},o=i.iterator||"@@iterator",a=i.asyncIterator||"@@asyncIterator",c=i.toStringTag||"@@toStringTag";function u(e,t,r){return Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{u({},"")}catch(e){u=function(e,t,r){return e[t]=r}}function s(e,t,r,i){var o=t&&t.prototype instanceof p?t:p,a=Object.create(o.prototype),c=new P(i||[]);return n(a,"_invoke",{value:k(e,r,c)}),a}function l(e,t,r){try{return{type:"normal",arg:e.call(t,r)}}catch(e){return{type:"throw",arg:e}}}e.wrap=s;var d={};function p(){}function v(){}function _(){}var h={};u(h,o,(function(){return this}));var b=Object.getPrototypeOf,g=b&&b(b(S([])));g&&g!==t&&r.call(g,o)&&(h=g);var y=_.prototype=p.prototype=Object.create(h);function w(e){["next","throw","return"].forEach((function(t){u(e,t,(function(e){return this._invoke(t,e)}))}))}function m(e,t){function i(n,o,a,c){var u=l(e[n],e,o);if("throw"!==u.type){var s=u.arg,f=s.value;return f&&"object"==typeof f&&r.call(f,"__await")?t.resolve(f.__await).then((function(e){i("next",e,a,c)}),(function(e){i("throw",e,a,c)})):t.resolve(f).then((function(e){s.value=e,a(s)}),(function(e){return i("throw",e,a,c)}))}c(u.arg)}var o;n(this,"_invoke",{value:function(e,r){function n(){return new t((function(t,n){i(e,r,t,n)}))}return o=o?o.then(n,n):n()}})}function k(e,t,r){var n="suspendedStart";return function(i,o){if("executing"===n)throw new Error("Generator is already running");if("completed"===n){if("throw"===i)throw o;return j()}for(r.method=i,r.arg=o;;){var a=r.delegate;if(a){var c=O(a,r);if(c){if(c===d)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===n)throw n="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n="executing";var u=l(e,t,r);if("normal"===u.type){if(n=r.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:r.done}}"throw"===u.type&&(n="completed",r.method="throw",r.arg=u.arg)}}}function O(e,t){var r=e.iterator[t.method];if(void 0===r){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,O(e,t),"throw"===t.method))return d;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var n=l(r,e.iterator,t.arg);if("throw"===n.type)return t.method="throw",t.arg=n.arg,t.delegate=null,d;var i=n.arg;return i?i.done?(t[e.resultName]=i.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,d):i:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,d)}function x(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function E(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function P(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(x,this),this.reset(!0)}function S(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var n=-1,i=function t(){for(;++n<e.length;)if(r.call(e,n))return t.value=e[n],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:j}}function j(){return{value:void 0,done:!0}}return v.prototype=_,n(y,"constructor",{value:_,configurable:!0}),n(_,"constructor",{value:v,configurable:!0}),v.displayName=u(_,c,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===v||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,_):(e.__proto__=_,u(e,c,"GeneratorFunction")),e.prototype=Object.create(y),e},e.awrap=function(e){return{__await:e}},w(m.prototype),u(m.prototype,a,(function(){return this})),e.AsyncIterator=m,e.async=function(t,r,n,i,o){void 0===o&&(o=Promise);var a=new m(s(t,r,n,i),o);return e.isGeneratorFunction(r)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},w(y),u(y,c,"Generator"),u(y,o,(function(){return this})),u(y,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=Object(e),r=[];for(var n in t)r.push(n);return r.reverse(),function e(){for(;r.length;){var n=r.pop();if(n in t)return e.value=n,e.done=!1,e}return e.done=!0,e}},e.values=S,P.prototype={constructor:P,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!e)for(var t in this)"t"===t.charAt(0)&&r.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function n(r,n){return a.type="throw",a.arg=e,t.next=r,n&&(t.method="next",t.arg=void 0),!!n}for(var i=this.tryEntries.length-1;i>=0;--i){var o=this.tryEntries[i],a=o.completion;if("root"===o.tryLoc)return n("end");if(o.tryLoc<=this.prev){var c=r.call(o,"catchLoc"),u=r.call(o,"finallyLoc");if(c&&u){if(this.prev<o.catchLoc)return n(o.catchLoc,!0);if(this.prev<o.finallyLoc)return n(o.finallyLoc)}else if(c){if(this.prev<o.catchLoc)return n(o.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<o.finallyLoc)return n(o.finallyLoc)}}}},abrupt:function(e,t){for(var n=this.tryEntries.length-1;n>=0;--n){var i=this.tryEntries[n];if(i.tryLoc<=this.prev&&r.call(i,"finallyLoc")&&this.prev<i.finallyLoc){var o=i;break}}o&&("break"===e||"continue"===e)&&o.tryLoc<=t&&t<=o.finallyLoc&&(o=null);var a=o?o.completion:{};return a.type=e,a.arg=t,o?(this.method="next",this.next=o.finallyLoc,d):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),d},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.finallyLoc===e)return this.complete(r.completion,r.afterLoc),E(r),d}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.tryLoc===e){var n=r.completion;if("throw"===n.type){var i=n.arg;E(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,r){return this.delegate={iterator:S(e),resultName:t,nextLoc:r},"next"===this.method&&(this.arg=void 0),d}},e}function l(e,t,r,n,i,o,a){try{var c=e[o](a),u=c.value}catch(e){return void r(e)}c.done?t(u):Promise.resolve(u).then(n,i)}var d=0;function p(e){var t;(t=f().mark((function t(){var r,n;return f().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!d++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,__webpack_require__.e(859).then(__webpack_require__.bind(__webpack_require__,7859));case 5:return r=t.sent,n=r.aggregator,t.next=9,n(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),s.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,r=arguments;return new Promise((function(n,i){var o=t.apply(e,r);function a(e){l(o,n,i,a,c,"next",e)}function c(e){l(o,n,i,a,c,"throw",e)}a(void 0)}))})()}var v=__webpack_require__(8539),_=__webpack_require__.n(v),h=__webpack_require__(4580),b=__webpack_require__(5970),g=__webpack_require__(3195),y=__webpack_require__(9599),w=__webpack_require__(9206);var m=!1;var k=__webpack_require__(7036),O=__webpack_require__(745),x=__webpack_require__(8025);function E(e,t){return E=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},E(e,t)}var P,S,j,A=function(e){var t,r;function i(t){var r;return r=e.call(this,t)||this,n.B?((0,O.v)(t),(0,k.B)(t,"firstbyte",(0,w.yf)()),c((function(){return r.measureWindowLoaded()})),u((function(){return r.measureDomContentLoaded()})),r):function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r)}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,E(t,r);var o=i.prototype;return o.measureWindowLoaded=function(){var e=(0,w.zO)();(0,k.B)(this.agentIdentifier,"onload",e+(0,w.os)()),(0,g.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,k.B)(this.agentIdentifier,"domContent",(0,w.zO)()+(0,w.os)())},i}(x.W);function q(e,t){return q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},q(e,t)}n.B&&(void 0!==document.hidden?(P="hidden",S="visibilitychange",j="visibilityState"):void 0!==document.msHidden?(P="msHidden",S="msvisibilitychange"):void 0!==document.webkitHidden&&(P="webkitHidden",S="webkitvisibilitychange",j="webkitVisibilityState"));var C=function(e){var t,i;function o(t){var i,o;if(!(i=e.call(this,t)||this).isEnabled()||!n.B)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(i);if(i.pageHiddenTime="hidden"===document.visibilityState?-1:1/0,i.performanceObserver,i.lcpPerformanceObserver,i.clsPerformanceObserver,i.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i.performanceObserver=new PerformanceObserver((function(){var e;return(e=i).perfObserver.apply(e,arguments)}));try{i.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}i.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).lcpObserver.apply(e,arguments)}));try{i.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}i.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).clsObserver.apply(e,arguments)}));try{i.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){i.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(e){document.addEventListener(e,(function(){var e;return(e=i).captureInteraction.apply(e,arguments)}),(0,r.m)(!1))}))}return o=function(){var e;return(e=i).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&S&&document.addEventListener(S,(function(){j&&document[j]?o(document[j]):document[P]?o("hidden"):o("visible")}),(0,r.m)(!1)),i}i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,q(t,i);var a=o.prototype;return a.isEnabled=function(){return!1!==(0,b.Mt)(this.agentIdentifier,"page_view_timing.enabled")},a.perfObserver=function(e,t){var r=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,g.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,r.ee):"first-contentful-paint"===e.name&&(0,g.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,r.ee)}))},a.lcpObserver=function(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,g.p)("lcp",i,void 0,void 0,this.ee)}},a.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,g.p)("cls",[e],void 0,void 0,t.ee)}))},a.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},a.captureInteraction=function(e){if(e instanceof b.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,w.zO)()?r.fid=(0,w.zO)()-t:t>(0,w.os)()&&t<=Date.now()?(t-=(0,w.os)(),r.fid=(0,w.zO)()-t):t=(0,w.zO)(),this.fiRecorded=!0,(0,g.p)("timing",["fi",t,r],void 0,void 0,this.ee)}},a.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,w.zO)(),(0,g.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(x.W),R=__webpack_require__(4539),L="React",T="Angular",N="AngularJS",I="Backbone",B="Ember",M="Vue",D="Meteor",F="Zepto",G="Jquery";function W(){if(!n.B)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(L),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(N),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(T),window.Backbone&&e.push(I),window.Ember&&e.push(B),window.Vue&&e.push(M),window.Meteor&&e.push(D),window.Zepto&&e.push(F),window.jQuery&&e.push(G)}catch(e){}return e}var H,z=__webpack_require__(8547),V=__webpack_require__(248),U=__webpack_require__(8873);function Z(e,t,r){return Z=X()?Reflect.construct.bind():function(e,t,r){var n=[null];n.push.apply(n,t);var i=new(Function.bind.apply(e,n));return r&&Q(i,r.prototype),i},Z.apply(null,arguments)}function X(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}function Q(e,t){return Q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Q(e,t)}var J,Y,K,$=Boolean(self.Worker),ee=Boolean(self.SharedWorker),te=Boolean(null==(H=self.navigator)?void 0:H.serviceWorker);function re(e,t){return re=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},re(e,t)}var ne,ie,oe,ae=function(e){var t,r;function i(t,r){var n;return void 0===r&&(r={}),(n=e.call(this,t)||this).PfFeatStatusEnum=r,n.singleChecks(),(0,R.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,R.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,re(t,r);var o=i.prototype;return o.recordSupportability=function(e,t){var r=["sm",e,{name:e},t];return(0,g.p)("storeMetric",r,null,void 0,this.ee),r},o.recordCustom=function(e,t){var r=["cm",e,{name:e},t];return(0,g.p)("storeEventMetrics",r,null,void 0,this.ee),r},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+U.q+"/Detected"),n.B&&u((function(){W().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),z.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),z.T.supportabilityMetricSent=!0);var t=(0,V.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,V.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),n.B&&this.reportPolyfillsNeeded(),function(e){if(!J){if($){J=Worker;try{self.Worker=r(J,"Dedicated")}catch(e){a(e,"Dedicated")}if(ee){Y=SharedWorker;try{self.SharedWorker=r(Y,"Shared")}catch(e){a(e,"Shared")}}else i("Shared");if(te){K=navigator.serviceWorker.register;try{self.navigator.serviceWorker.register=(t=K,function(){for(var e,r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return o("Service",null==(e=n[1])?void 0:e.type),t.apply(navigator.serviceWorker,n)})}catch(e){a(e,"Service")}}else i("Service");var t;return}i("All")}function r(e,t){return new Proxy(e,{construct:function(e,r){var n;return o(t,null==(n=r[1])?void 0:n.type),Z(e,r)}})}function i(t){n.n2||e("Workers/"+t+"/Unavailable")}function o(t,r){e("module"===r?"Workers/"+t+"/Module":"Workers/"+t+"/Classic")}function a(t,r){e("Workers/"+r+"/SM/Unsupported"),console.warn("NR Agent: Unable to capture "+r+" workers.",t)}}(this.recordSupportability.bind(this))},o.reportPolyfillsNeeded=function(){this.recordSupportability("Generic/Polyfill/Promise/"+this.PfFeatStatusEnum.PROMISE),this.recordSupportability("Generic/Polyfill/ArrayIncludes/"+this.PfFeatStatusEnum.ARRAY_INCLUDES),this.recordSupportability("Generic/Polyfill/ObjectAssign/"+this.PfFeatStatusEnum.OBJECT_ASSIGN),this.recordSupportability("Generic/Polyfill/ObjectEntries/"+this.PfFeatStatusEnum.OBJECT_ENTRIES)},i}(x.W),ce=__webpack_require__(9011),ue=(0,e.n)();try{!function(){if(!m){var e=(0,h.gG)();n.n2&&(e.info.jsAttributes=Object.assign({},e.info.jsAttributes,{isWorker:!0}));try{(0,b.CX)(t.Z,e.info),(0,b.Dg)(t.Z,e.init),(0,b.GE)(t.Z,e.loader_config),(0,b.sU)(t.Z,{}),function(e){var t=(0,h.fP)(),r=s.ee.get(e),n=r.get("tracer"),i="api-",o="api-ixn-";function a(){}(0,y.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=u(i,r,!0,"api")})),t.addPageAction=u(i,"addPageAction",!0),t.setCurrentRouteName=u(i,"routeName",!0),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,b.OP)(e).customTransaction=(r||"http://custom.transaction")+t,u(i,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){var n,o=(0,b.C5)(e);return(0,b.CX)(e,Object.assign({},o,{jsAttributes:Object.assign({},o.jsAttributes,(n={},n[t]=r,n))})),u(i,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var i={},o=this,a="function"==typeof t;return(0,g.p)("api-ixn-tracer",[(0,w.zO)(),e,i],o,void 0,r),function(){if(n.emit((a?"":"no-")+"fn-start",[(0,w.zO)(),o,a],i),a)try{return t.apply(this,arguments)}catch(e){throw n.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],i),e}finally{n.emit("fn-end",[(0,w.zO)()],i)}}}};function u(e,t,n,i){return function(){return(0,g.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,r),(0,g.p)(e+t,[(0,w.zO)()].concat(_()(arguments)),n?null:this,i,r),n?void 0:this}}(0,y.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=u(o,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,g.p)("record-supportability",["API/noticeError/called"],void 0,void 0,r),(0,g.p)("err",[e,(0,w.zO)(),!1,t],void 0,void 0,r)}}(t.Z),m=!0}catch(e){}}}();var se=(0,ce.K)(t.Z);se.page_view_event&&new A(t.Z),se.page_view_timing&&new C(t.Z),se.metrics&&new ae(t.Z,ue),ne="lite",void 0===oe&&(oe=1e3),ie?setTimeout((function(){return p(ne)}),oe):n.B?c((function(){return p(ne)})):p(ne)}catch(e){var fe,le,de;null!=(fe=self)&&null!=(le=fe.newrelic)&&null!=(de=le.ee)&&de.abort&&self.newrelic.ee.abort()}}(),self.NRBA=__webpack_exports__})();
+//# sourceMappingURL=https://js-agent.newrelic.com/nr-loader-rum-1221.min.25fcbbf1.map</script>
+<link rel="shortcut icon" href="https://doee.dc.gov/sites/default/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2, minimum-scale=1, user-scalable=yes" />
+<meta name="description" content="DOEE regularly tracks the District’s greenhouse gas emissions in order to measure our progress towards reducing emissions 60% by 2030 and reaching net-zero emissions by 2045. Greenhouse gas inventories identify the major sources of greenhouse gasses and measure how much they pollute. Major sources include energy used by homes and buildings, transportation, and solid waste." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://doee.dc.gov/service/greenhouse-gas-inventories" />
+<link rel="shortlink" href="https://doee.dc.gov/service/greenhouse-gas-inventories" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://doee.dc.gov/service/greenhouse-gas-inventories" />
+<meta name="twitter:title" content="Greenhouse Gas Inventories" />
+<meta name="twitter:description" content="DOEE regularly tracks the District’s greenhouse gas emissions in order to measure our progress towards reducing emissions 60% by 2030 and reaching net-zero emissions by 2045. Greenhouse gas inventories identify the major sources of greenhouse gasses and measure how much they pollute. Major sources include energy used by homes and buildings, transportation, and solid waste." />
+  <title>Greenhouse Gas Inventories | ddoe</title>  
+  <style type="text/css" media="all">
+@import url("https://doee.dc.gov/modules/system/system.base.css?rog783");
+@import url("https://doee.dc.gov/modules/system/system.menus.css?rog783");
+@import url("https://doee.dc.gov/modules/system/system.messages.css?rog783");
+@import url("https://doee.dc.gov/modules/system/system.theme.css?rog783");
+</style>
+<style type="text/css" media="all">
+@import url("https://doee.dc.gov/modules/book/book.css?rog783");
+@import url("https://doee.dc.gov/modules/comment/comment.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/date/date_repeat_field/date_repeat_field.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/domain/domain_nav/domain_nav.css?rog783");
+@import url("https://doee.dc.gov/modules/field/theme/field.css?rog783");
+@import url("https://doee.dc.gov/modules/node/node.css?rog783");
+@import url("https://doee.dc.gov/modules/search/search.css?rog783");
+@import url("https://doee.dc.gov/modules/user/user.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/views/css/views.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/ckeditor/css/ckeditor.css?rog783");
+</style>
+<style type="text/css" media="all">
+@import url("https://doee.dc.gov/sites/all/modules/ctools/css/ctools.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/contrib/flickrgallery/flickrgallery.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/panels/css/panels.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/rate/rate.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/text_resize/text_resize.css?rog783");
+@import url("https://doee.dc.gov/sites/all/modules/extlink/extlink.css?rog783");
+</style>
+<style type="text/css" media="all">
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/normalize.css?rog783");
+</style>
+<style type="text/css" media="all">
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/alpha-reset.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/alpha-mobile.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/omega/css/formalize.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/omega/css/omega-text.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/omega/css/omega-branding.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/omega/css/omega-forms.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/global.css?rog783");
+</style>
+
+<!--[if (lt IE 9)&(!IEMobile)]>
+<style type="text/css" media="all">
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default-normal.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-24.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?rog783");
+</style>
+<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)">
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default-narrow.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-24.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/narrow/alpha-default-narrow-12.css?rog783");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default-normal.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-24.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/normal/alpha-default-normal-12.css?rog783");
+</style>
+<!--<![endif]-->
+
+<!--[if gte IE 9]><!-->
+<style type="text/css" media="all and (min-width: 1220px)">
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/dc_agency_omega/css/dc-agency-omega-alpha-default-wide.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-24.css?rog783");
+@import url("https://doee.dc.gov/sites/all/themes/omega/alpha/css/grid/alpha_default/wide/alpha-default-wide-12.css?rog783");
+</style>
+<!--<![endif]-->
+  <script type="text/javascript" src="https://doee.dc.gov/sites/all/modules/contrib/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://doee.dc.gov/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://doee.dc.gov/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.8.3"></script>
+<script type="text/javascript" src="https://doee.dc.gov/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://doee.dc.gov/misc/drupal.js?rog783"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+      // close script tag for SecKit protection
+      //--><!]]>
+      </script>
+      <script type="text/javascript" src="/sites/all/modules/contrib/seckit/js/seckit.document_write.js"></script>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-no-body" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.no_body.css" />
+      <!-- stop SecKit protection -->
+      <noscript>
+      <link type="text/css" rel="stylesheet" id="seckit-clickjacking-noscript-tag" media="all" href="/sites/all/modules/contrib/seckit/css/seckit.noscript_tag.css" />
+      <div id="seckit-noscript-tag">
+        Sorry, you need to enable JavaScript to visit this website.
+      </div>
+      </noscript>
+      <script type="text/javascript">
+      <!--//--><![CDATA[//><!--
+      // open script tag to avoid syntax errors
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://doee.dc.gov/sites/all/modules/text_resize/jquery.cookie.js?rog783"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var text_resize_scope = "not-front #main, #zone-content";
+    var text_resize_minimum = "12";
+    var text_resize_maximum = "25";
+    var text_resize_line_height_allow = 1;
+    var text_resize_line_height_min = "16";
+    var text_resize_line_height_max = "36";
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://doee.dc.gov/sites/all/modules/text_resize/text_resize.js?rog783"></script>
+<script type="text/javascript" src="https://doee.dc.gov/sites/all/modules/extlink/extlink.js?rog783"></script>
+<script type="text/javascript" src="https://doee.dc.gov/sites/all/modules/google_analytics/googleanalytics.js?rog783"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-2638726-1", {"cookieDomain":"auto"});ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://doee.dc.gov/sites/all/themes/dc_agency_omega/js/dcAgency.js?rog783"></script>
+<script type="text/javascript" src="https://doee.dc.gov/sites/all/themes/omega/omega/js/jquery.formalize.js?rog783"></script>
+<script type="text/javascript" src="https://doee.dc.gov/sites/all/themes/omega/omega/js/omega-mediaqueries.js?rog783"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dc_agency_omega","theme_token":"jwGZIYltv1ReyiaeHLvbWoW_kI0EsqPHNvk7dloAD7w","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"0":1,"sites\/all\/modules\/text_resize\/jquery.cookie.js":1,"1":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/dc_agency_omega\/js\/dcAgency.js":1,"sites\/all\/themes\/omega\/omega\/js\/jquery.formalize.js":1,"sites\/all\/themes\/omega\/omega\/js\/omega-mediaqueries.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/domain\/domain_nav\/domain_nav.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/flickrgallery\/flickrgallery.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/rate\/rate.css":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/dc_agency_omega\/css\/normalize.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-reset.css":1,"sites\/all\/themes\/omega\/alpha\/css\/alpha-mobile.css":1,"sites\/all\/themes\/omega\/omega\/css\/formalize.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-text.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-branding.css":1,"sites\/all\/themes\/omega\/omega\/css\/omega-forms.css":1,"sites\/all\/themes\/dc_agency_omega\/css\/global.css":1,"ie::normal::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default.css":1,"ie::normal::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default-normal.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"ie::normal::sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"narrow::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default.css":1,"narrow::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default-narrow.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-24.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/narrow\/alpha-default-narrow-12.css":1,"normal::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default.css":1,"normal::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default-normal.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-24.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/normal\/alpha-default-normal-12.css":1,"wide::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default.css":1,"wide::sites\/all\/themes\/dc_agency_omega\/css\/dc-agency-omega-alpha-default-wide.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-24.css":1,"sites\/all\/themes\/omega\/alpha\/css\/grid\/alpha_default\/wide\/alpha-default-wide-12.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"http[s]*:\/\/[a-zA-Z0-9\\-\\.]*dc.gov[\\\/a-zA-Z0-9\\-\\.\\?\\=]*","extInclude":"","extAlert":0,"extAlertText":"The District government has provided links as a courtesy and is not responsible for information on websites outside the DC portal. Inquiries should be made to the sponsoring organizations.","mailtoClass":"mailto"},"better_exposed_filters":{"views":{"alerts":{"displays":{"emergency_alerts_block":{"filters":[]}}},"agency_information":{"displays":{"block":{"filters":[]},"agency_director":{"filters":[]}}},"features_blocks":{"displays":{"interior_1":{"filters":[]},"interior_2":{"filters":[]},"interior_3":{"filters":[]},"interior_4":{"filters":[]}}}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"omega":{"layouts":{"primary":"normal","order":["narrow","normal","wide"],"queries":{"narrow":"all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape)","normal":"all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)","wide":"all and (min-width: 1220px)"}}}});
+//--><!]]>
+</script>
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-18822 node-type-service domain-doee-dc-gov i18n-en context-service">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+  <div class="region region-page-top" id="region-page-top">
+  <div class="region-inner region-page-top-inner">
+      </div>
+</div>  <div class="page clearfix" id="page">
+      <header id="section-header" class="section section-header">
+  <div id="zone-menu-wrapper" class="zone-wrapper zone-menu-wrapper clearfix">  
+  <div id="zone-menu" class="zone zone-menu clearfix container-24">
+    <div class="grid-24 region region-menu" id="region-menu">
+  <div class="region-inner region-menu-inner">
+          </div>
+</div>
+  </div>
+</div><div id="zone-branding-wrapper" class="zone-wrapper zone-branding-wrapper clearfix">  
+  <div id="zone-branding" class="zone zone-branding clearfix container-24">
+    <div class="grid-24 region region-branding" id="region-branding">
+  <div class="region-inner region-branding-inner">
+        <div class="branding-data clearfix">
+                        <hgroup class="site-name-slogan">
+                                <h1 id="site-name-only" class="site-name">ddoe</h1>
+                                        <h6 id="site-slogan" class="site-slogan">Department of Energy &amp; Environment</h6>
+              </hgroup>
+          </div>
+        <div class="block block-block block-164 block-block-164 odd block-without-title" id="block-block-164">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <style type="text/css">#header #block-menu-block-2{
+text-align:left;}
+.dcSearchForm input{
+font-size:14px;padding:3px!important}
+.logo-text{
+padding-left:10px;font-size:14px}
+.logo-text a{font-size:14px!important}
+.zone-content-wrapper nav.node-links {
+    display: none;
+}
+/* Show node language translation block links on internal pages*/
+.not-front .zone-content-wrapper nav.node-links {
+   display: block!important;
+}
+/* .element-invisible {display: none;} */
+
+/* DCRA menu modification */
+.menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > .collapsed, 
+.menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-198786,
+.menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-197476,
+.menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-197951 {
+	display:none;
+}
+ 
+.page-node-1230386 .menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > .collapsed, 
+.page-node-1230386 .menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-198786,
+.page-node-1230386 .menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-197476,
+.page-node-1230386 .menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-197606,
+.page-node-447262 .menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-197821,
+.page-node-1230511 .menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-197606,
+.page-node-1230511 .menu-block-wrapper.menu-block-1.menu-name-menu-dcra-nav2.parent-mlid-0.menu-level-2 > .menu-sub > li.menu-mlid-197801{
+	display:block;
+}
+#section-header .menu-name-menu-dc-top-menu ul {
+	max-width: 390px;
+	float: right;
+}
+ol.roman { list-style-type: lower-roman }
+ol.roman.upper { list-style-type: upper-roman }
+ol.alpha { list-style-type: lower-alpha }
+ol.alpha.upper { list-style-type: upper-alpha }
+.view-display-id-homepage_a .view-content, .view-display-id-homepage_b .view-content, .view-display-id-homepage_c .view-content{
+  overflow:hidden;
+}
+/* End of Global Styles */
+/* Narrow Styles */
+@media all and (min-device-width: 740px) and (min-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation: landscape){
+  #zone-branding1 {
+    margin-top: -15px;
+  }
+  #section-header .menu-name-menu-dc-top-menu ul {
+    max-width: 100%;
+    float: none;
+  }
+
+}
+/* End of Narrow Styles */
+/* Normal Styles */
+@media all and (min-width: 980px) and (min-device-width: 980px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape){
+  #zone-branding1 {
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  #region-branding1 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+.form-item-sort-by, .form-item-sort-order {
+        top: 100px;
+    }
+#region-agency-info .views-field.views-field-field-image {
+    min-height: 325px;
+}
+}
+/* End of Normal Styles */
+/* Wide Styles */
+@media all and (min-width: 1220px) and (orientation:landscape){
+  #zone-branding1 {
+    margin-bottom: 5px;
+    margin-top: 20px;
+  }
+  #region-branding1 {
+    margin-left: 89px;
+    margin-right: 0px;
+    width: 280px !important;
+  }
+}
+/* End of Wide Styles */
+/* Style overrides for new GSE implementation */
+ .gsc-input input{
+        background: 0 !important;
+        padding: 10px !important;
+    }
+    .gsc-input table{
+        margin:0!important;
+    }
+    .gsc-search-button-v2, .gsc-search-button-v2:hover, .gsc-search-button-v2:focus{
+        padding: 11px!important;
+        background-color: #2B4888!important;
+        border-radius: 21px!important;
+background: #2B4888!important;
+    }
+.gsc-input input:focus{
+        border:0!important;
+        outline: none!important;
+        box-shadow: none!important;
+    }
+</style>
+<div class="dots">&nbsp;</div>
+
+<div class="block block-menu-block" id="block-menu-block-2">
+<h2 class="element-invisible element-invisible">DC Agency Top Menu</h2>
+
+<div class="content">
+<div class="menu-block-wrapper menu-block-2 menu-name-menu-dc-top-menu parent-mlid-0 menu-level-1">
+<ul class="menu clearfix">
+	<li class="first leaf menu-mlid-487 menu-487"><a href="https://311.dc.gov/citizen/home" title="311 Online">311 Online</a></li>
+	<li class="leaf"><a href="https://dc.gov/directory" title="Agency Directory">Agency Directory</a></li>
+	<li class="leaf"><a href="https://dc.gov/online-services" title="Online Services">Online Services</a></li>
+	<li class="last"><a href="https://dc.gov/page/dcgov-accessibility-policy" title="Accessibility">Accessibility</a></li>
+</ul>
+</div>
+
+<div class="navigation" id="navigation">&nbsp;</div>
+</div>
+
+<div class="zone zone-branding clearfix" id="zone-branding1">
+<div class="grid-6 region region-branding" id="region-branding1">
+<div class="region-inner region-branding-inner">
+<div class="branding-data clearfix">
+<div class="logo-img"><a href="http://dc.gov/" rel="home" title="DC.gov Home"><img alt="DC.gov Home" id="logo" src="/sites/default/files/dc/dcgov_logo.jpg" /></a></div>
+</div>
+
+<div class="logo-text"><a href="http://mayor.dc.gov" title="Mayor Muriel Bowser">Mayor Muriel Bowser</a></div>
+</div>
+</div>
+
+<div class="grid-18 region region-branding-second" id="region-branding-second">
+<div class="region-inner region-branding-second-inner">
+<div class="block block-block block-83 block-block-83 odd block-without-title" id="block-block-83">
+<div class="block-inner clearfix">
+<div class="content clearfix">
+<div id="googleGSEContainer">&nbsp;</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<h1 class="agency_title"><script type=text/JavaScript>document.write(document.getElementById("site-slogan").innerHTML);</script></h1>
+</div>
+<script type="text/javascript">
+var site = window.location.host.split('.');
+
+//<![CDATA[
+      var usasearch_config = { siteHandle:site[0] };
+
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = "https://search.usa.gov/javascripts/remote.loader.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+
+//]]>
+
+jQuery(document).ready(function() {
+	  function checkresponsiveOea() {
+
+	  	console.log("At least im loading");
+	  	//Create the views filter for mobile -NR
+		    if (jQuery('#mobile-filter').length < 1) {
+		        jQuery(".view-oea-decisions .view-content").before("<div id='mobile-filter'><div id='mobile-filter-container'></div></div>");
+		        //jQuery("#mobile-filter").before("<div class='filterButton'><a href='#'>Filter</a></div");
+		    }
+	  }
+
+	  checkresponsiveOea(); //Call the checkresponsive() to initialize the components
+	  
+	  function resizeStuffOea() {
+
+	      //Show mobile Views filter -NR
+	      if (jQuery(window).width() < 963) {
+	          jQuery("#views-exposed-form-oea-decisions-page").appendTo('#mobile-filter-container');
+
+	        }// End Show mobile Views filter -NR   End < 963
+	    
+	      //Hide mobile Views filter -NR
+	      if (jQuery(window).width() > 963) {
+	          jQuery("#views-exposed-form-oea-decisions-page").insertBefore("#block-views-agency-information-block");
+	      console.log("i should be showing");
+	      }// End Hide mobile Views filter -NR  End > 963
+
+  		} /* end resizeStuff() function */
+
+resizeStuffOea();
+	  // jQuery(function(){
+	  //   var TO = false;
+	  //   jQuery(window).resize(function () {
+	  //     if (TO !== false) {
+	  //         clearTimeout(TO);
+	  //     }
+	  //     TO = setTimeout(resizeStuffOea, 10); //100 is time in miliseconds
+	  //   }).resize();
+	  // });
+
+//ready.dc.gov language link fix
+if( jQuery(".domain-preview-ready-dc-gov").length > 0) {
+	var currentLanguage = jQuery("html").attr("lang");
+console.log(currentLanguage);
+	if (currentLanguage != 'en'){	
+console.log("language not english");
+	jQuery("article .field-name-body a").each(function(){
+console.log("inside link function");
+		var newlink =	jQuery(this).attr("href").replace('/node/', '/' + currentLanguage + '/node/');
+		jQuery(this).attr("href", newlink);
+    	}
+	);
+	}
+}
+
+});
+
+
+
+</script>
+<style type="text/css">#edit-field-oea-decision-type-tid{max-width:200px;}.view-oea-decisions{margin-top:100px;}
+
+/* 
+#block-menu-block-2 .menu-block-2 a:link,
+.region-sidebar-first-inner a:link,
+#content-start .content a:link
+{font-weight: bold!important;}
+*/
+.front .zone-content-wrapper .region-agency-home-3col .item-list {display:block;margin-left: 10px;}
+/* 
+styles used to force rtf languages pages like arabic to flow ltr, except for the content section;
+styles should be moved to appropriate .rtl theme css file;
+ */
+html{
+  direction:ltr;
+}
+html[dir="rtl"] #content-start{
+  direction:rtl;
+}
+</style>
+<script>
+//GSE implementation 
+
+    const customGSE = [
+        {
+            sitename: 'dmv', 
+            id: '4c254971bbc9a591a'
+        },
+        {
+            sitename: 'osse',
+            id: '012222452693656877933:9w0dpmabj3a',
+        },
+        {
+            sitename: 'mota',
+            id: '012222452693656877933:apfcbman_ls',
+        },
+        {
+            sitename: 'anc',
+            id: '012222452693656877933:cgfnv5ex66w',
+        },
+        {
+            sitename: 'dcrb',
+            id: '012222452693656877933:grdef0g38mu',
+        },
+        {
+            sitename: 'dmhhs',
+            id: '012222452693656877933:h5nhg83lr38',
+        },
+        {
+            sitename: 'dpw',
+            id: '012222452693656877933:iafq60pl4yo',
+        },
+        {
+            sitename: 'doh',
+            id: '012222452693656877933:myuumbqxnzu',
+        },
+        {
+            sitename: 'mayor',
+            id: '012222452693656877933:p7fawnywqbq',
+        },
+        {
+            sitename: 'dcps',
+            id: '012222452693656877933:qt0vevsk6n0',
+        },
+        {
+            sitename: 'dc',
+            id: '012222452693656877933:sul8glk5y2y',
+        },
+{
+            sitename: 'mpdc',
+            id: '012222452693656877933:tlue_o98ca0',
+},
+{
+            sitename: 'oca',
+            id: '012222452693656877933:tptzkgd5jxq',
+},
+{
+            sitename: 'jnc',
+            id: '012222452693656877933:wg7bujwm_rw',
+},
+{
+            sitename: 'dmpsj',
+            id: 'e89f7125667be589e',
+},
+{
+            sitename: 'odr',
+            id: 'cf540772bf4615bc9',
+},
+{
+            sitename: 'dpr',
+            id: '564999e4b4c93bfd9',
+},
+{
+            sitename: 'dhcd',
+            id: '897e4eb551f882b96',
+},
+{
+            sitename: 'ovsjg',
+            id: 'b5c6b68d45059168a',
+},
+{
+            sitename: 'ovs',
+            id: 'e84567f0a7ec1b6a0',
+},
+{
+            sitename: 'mocrs',
+            id: '3527a30cbbb1218fe',
+},
+{
+            sitename: 'cfsa',
+            id: '6a838511440540d61',
+},
+{
+            sitename: 'cssd',
+            id: '2ed30336e98dedb12',
+},
+{
+            sitename: 'osa',
+            id: '62af887e34fcb38a3',
+},
+{
+            sitename: 'connect',
+            id: '1a1da72fd0ac33465',
+},
+{
+            sitename: 'agefriendly',
+            id: 'bf3bb9be20aecc978',
+},
+{
+            sitename: 'does',
+            id: '1ca0ac106ed1f8a93',
+},
+{
+            sitename: 'fems',
+            id: '5e014e76a0d277bc3',
+},
+{
+            sitename: 'ocme',
+            id: '4306bb5fa5d5440e2',
+},
+{
+            sitename: 'planning',
+            id: '5877072f98b3e3ff3',
+},
+{
+            sitename: 'doee',
+            id: '9456cbbe53ddf0aff',
+},
+{
+            sitename: 'scdc',
+            id: '0b8aff734b20dc68e',
+},
+{
+            sitename: 'ohr',
+            id: '22946d3223dbb546d',
+},
+{
+            sitename: 'dfhv',
+            id: 'c6935b5a82b8faf84',
+},
+{
+            sitename: 'dslbd',
+            id: '6f9c9ab51ce477ca5',
+},
+{
+            sitename: 'dcnet',
+            id: '03e2c837efb0a470e',
+},
+{
+            sitename: 'octo',
+            id: 'f976bdadef5d7a80d',
+},
+{
+            sitename: 'dcyac',
+            id: '90fe88785eec1f36c',
+},
+{
+            sitename: 'cfo',
+            id: '2e9700f4e0cf10bf4',
+},
+{
+            sitename: 'disb',
+            id: '4b832d7dfb3bde629',
+},
+{
+            sitename: 'dgs',
+            id: '8302229254dd62390',
+},
+{
+            sitename: 'oig',
+            id: '4cc326ccce8ad0bcf',
+},
+{
+            sitename: 'ouc',
+            id: '2e3b6961e92706b93',
+},
+{
+            sitename: 'dhs',
+            id: '2d618894035d0d742',
+},
+{
+            sitename: 'lottery',
+            id: '191d6434cb932a198',
+},
+{
+            sitename: 'otr.cfo',
+            id: 'f376c47336c37895f',
+},
+{
+            sitename: 'abra',
+            id: '28d56dd3a8b7cb078',
+},
+{
+            sitename: 'hbx',
+            id: '6be09608e01ea2e2d',
+},
+{
+            sitename: 'dchealth',
+            id: '012222452693656877933:myuumbqxnzu',
+},
+{
+            sitename: 'dds',
+            id: '0ea1ab0f155b71de9',
+},
+{
+            sitename: 'dchr',
+            id: '3086d0b01a8ba25bb',
+},
+{
+            sitename: 'oah',
+            id: '3b88a5bafa599fad9',
+},
+{
+            sitename: 'dmped',
+            id: '922f7e155327009c5',
+},
+{
+            sitename: 'dfs',
+            id: 'fef18d67a5e0f15c2',
+},
+{
+            sitename: 'dme',
+            id: '41b9cded88f7163b9',
+},
+{
+            sitename: 'snow',
+            id: '8cbf3ce7f486808b1',
+},
+{
+            sitename: 'hsema',
+            id: '0619b9e6e2827cd69',
+},
+{
+            sitename: 'policecomplaints',
+            id: 'f6a13facd68d4ebce',
+},
+{
+            sitename: 'os',
+            id: '43a53c79a47cc577f',
+},
+{
+            sitename: 'ocp',
+            id: '4022d962f1f24f314',
+},
+{
+            sitename: 'dhcf',
+            id: '28c4b3f37ca982806',
+},
+{
+            sitename: 'perb',
+            id: 'b3ee15cfd92a9b689',
+},
+{
+            sitename: 'dbh',
+            id: 'a07e2793a58ad4ebc',
+},
+{
+            sitename: 'dyrs',
+            id: '6cf8ce027024bc50c',
+},
+{
+            sitename: 'cjdt',
+            id: '26046c3b07c96a009',
+},
+{
+            sitename: 'ich',
+            id: 'f4422a712e4f983cc',
+},
+{
+            sitename: 'cjcc',
+            id: '499df646e45d5fb26',
+},
+{
+            sitename: 'sboe',
+            id: '478d3e5a1c80a3b77',
+},
+{
+            sitename: 'ota',
+            id: '4cc3f365a89c550f7',
+},
+{
+            sitename: 'cab',
+            id: '4b5a0be49126a94f7',
+},
+{
+            sitename: 'rptac',
+            id: '494e69ca3cb917c7a',
+},
+{
+            sitename: 'oea',
+            id: '7e02ee7d8acf8770f',
+},
+{
+            sitename: 'emancipation',
+            id: 'e090c425519b4b41d',
+},
+{
+            sitename: 'orm',
+            id: '94417e3d58eeb746a',
+},
+{
+            sitename: 'goc',
+            id: '9fddb73a12f1a95e7',
+},
+{
+            sitename: 'healthcareombudsman',
+            id: 'ba923c8332e8a7f3f',
+},
+{
+            sitename: 'dcworks',
+            id: '292f1ae4253a53069',
+},
+{
+            sitename: 'greatstreets',
+            id: '43e5a2f2d52d82450',
+},
+{
+            sitename: 'ddc',
+            id: 'e13b305c16625570f',
+},
+{
+            sitename: 'answersplease',
+            id: '821e08f79c4405f57',
+},
+{
+            sitename: 'cic',
+            id: 'c3f9030f38b6f1173',
+},
+{
+            sitename: 'esa',
+            id: '0f7a89fa883cb2431',
+},
+{
+            sitename: 'grade',
+            id: '52c23cdad6ee138a7',
+},
+{
+            sitename: 'ocf',
+            id: '4af3ad09bb9aa92d6',
+},
+{
+            sitename: 'op3',
+            id: '5c7e9f084d0c6fd55',
+},
+{
+            sitename: 'attendance',
+            id: 'b4a7b1f561c77f096',
+},
+{
+            sitename: 'ogag',
+            id: '0999350088d015841',
+},
+{
+            sitename: 'ccrc',
+            id: 'e1f704570251bb01f',
+},
+{
+            sitename: 'dcoz',
+            id: 'bee94804355251fef',
+},
+{
+            sitename: 'engagement',
+            id: '863eb7a6ac6b35962',
+},
+{
+            sitename: 'onse',
+            id: 'e5464ac70178e6f0a',
+},
+{
+            sitename: 'marchforourlives',
+            id: 'f23dd09cd431da27a',
+},
+{
+            sitename: 'cfae',
+            id: '58403d413d3a39e3e',
+},
+{
+            sitename: 'molc',
+            id: '41a9bf28fed234355',
+},
+{
+            sitename: 'dmoi',
+            id: 'e6a1ebcb0ae909d80',
+},
+{
+            sitename: 'safepassage',
+            id: '6bb384852e0a0d76d',
+},
+{
+            sitename: 'rhc',
+            id: 'eccf37bda86814fcc',
+},
+{
+            sitename: 'is',
+            id: '33ab0c592721b9fe5',
+},
+{
+            sitename: 'dacl',
+            id: 'c913c1f9a9e523a60',
+},
+{
+            sitename: 'olrcb',
+            id: '1214a208d98853c9c',
+},
+{
+            sitename: 'missing',
+            id: 'e3d812b695755ad0d',
+},
+{
+            sitename: 'doc',
+            id: '7844aade1bdcbb68b',
+},
+    ];
+
+function getDomainName(){
+    //Get site name from domain
+    let windowLocation = window.location.host;
+    //let windowLocation = 'olrcb';
+    let strippedDomain = windowLocation.replace(".dc.gov", "");
+    let currentGSE = customGSE.find( ({ sitename }) => sitename === strippedDomain );
+    //IF domain can't be found default to dc.gov id
+    if (currentGSE === undefined){
+        currentGSE = customGSE.find( ({ sitename }) => sitename === 'dc' );
+        return currentGSE.id;
+    }
+    else{
+        return currentGSE.id;
+    }
+}
+
+    let gseContainerDiv = document.getElementById("googleGSEContainer")
+    let scriptTag = document.createElement("script");
+    let googleSearchbox = '<div class="gcse-search"></div>';
+    scriptTag.setAttribute('async', 'async');
+    scriptTag.setAttribute('src', 'https://cse.google.com/cse.js?cx='+getDomainName());
+    gseContainerDiv.appendChild(scriptTag);
+    gseContainerDiv.innerHTML += googleSearchbox;
+
+window.onload = function() {
+    let searchbox = document.querySelector(".gsc-input input");
+    searchbox.setAttribute('placeholder', 'What are you looking for today?')
+};
+
+    </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XLLLT5975Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XLLLT5975Z');
+</script>    </div>
+  </div>
+</div><div class="block block-views block-alerts-emergency-alerts-block block-views-alerts-emergency-alerts-block even block-without-title" id="block-views-alerts-emergency-alerts-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-alerts view-id-alerts view-display-id-emergency_alerts_block view-dom-id-a4d7059299fcac56fdeaf8f8fda10301">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+          <p class="rtecenter"><a href="https://coronavirus.dc.gov/covidcenters" title="Find a COVID Center Near You">Find a COVID Center Near You</a></p>
+    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</div>
+  </div>
+</div><div id="zone-header-wrapper" class="zone-wrapper zone-header-wrapper clearfix"> 
+  <div id="stickyhideout" style="display: none;">
+  <div class="dclogo_small_desktop" style="display: block;"><a title="DC.Gov Home" href="/">
+   <img title="DC.Gov Logo" alt="DC.Gov Logo" src="/sites/default/files/dc/shared_assets/dc_home_logo2_small.png">
+  </a></div>
+  <div class="sh_agency_title">
+   <script type="text/JavaScript">document.write(document.getElementById("site-slogan").innerHTML);</script>
+  </div>
+  <div class="header_search">
+    <a href="javascript:void(0)">
+      <div class="header_search_icon"><img alt="Search DC.gov" title="Search DC.gov" src="/sites/default/files/dc/shared_assets/search2.png"></div>
+    </a>
+    <div class="search_dropdown" style="display: none;">
+      <div class="content clearfix">
+        <form name="gs2" method="get" id="gs2" action="javascript:submitForm2()">
+          <div class="header_search_form_container">
+            <h2 class="element-invisible">Search form</h2>
+            <a title="Close Search" class="close" href="javascript:void(0)">X</a>
+            <div class="header_search_form">
+              <label class="element-invisible">Search </label>
+              <input type="text" class="form-text" maxlength="128" size="40" value="" name="q" id="header-search-block-input" title="Enter the terms you wish to search for.">
+            </div>
+            <div id="header-search-from-button" class="header-form-button">
+              <input type="submit" title="Search" class="form-submit" value="Go" name="op" id="edit-submit">
+            </div>
+          </div>
+          <input type="hidden" value="xml_no_dtd" name="output">
+          <input type="hidden" value="UTF-8" name="oe">
+          <input type="hidden" value="UTF-8" name="ie">
+          <input type="hidden" value="dc_v2" name="client">
+          <input type="hidden" value="dc_v2" name="proxystylesheet">
+          <input type="hidden" name="site">
+          <script async="" src="//www.google-analytics.com/analytics.js"></script>
+          <script id="twitter-wjs" src="//platform.twitter.com/widgets.js"></script>
+          <script type="text/JavaScript">
+            function submitForm2(){
+              document.gs2.action="http://google.dc.gov/search"; document.gs2.submit();
+            }
+          </script>
+        </form>    
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div id="zone-header" class="zone zone-header clearfix container-12">
+    <div class="grid-24 region region-header-first" id="region-header-first">
+  <div class="region-inner region-header-first-inner">
+    <div class="block block-domain-conf block-domain-main-links block-domain-conf-domain-main-links odd block-without-title" id="block-domain-conf-domain-main-links">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <ul class="menu-sub"><li class="first leaf"><a href="/" title="">DOEE Home</a></li>
+<li class="expanded"><a href="/service/environmental-services" title="Environmental Services">Environmental Services</a><ul class="menu-sub"><li class="first leaf"><a href="/services" title="">See All Services A-Z</a></li>
+<li class="collapsed"><a href="/air" title="Air Quality">Air Quality</a></li>
+<li class="collapsed"><a href="/education" title="Environmental Outreach &amp; Education">Environmental Education and Outreach</a></li>
+<li class="collapsed"><a href="/lead">Lead in the District</a></li>
+<li class="collapsed"><a href="/service/fisheries-and-wildlife" title="Fisheries and Wildlife">Fisheries and Wildlife</a></li>
+<li class="collapsed"><a href="/service/toxic-substances">Toxic Substances</a></li>
+<li class="collapsed"><a href="/service/water-district" title="Water in the District">Water in the District</a></li>
+<li class="collapsed"><a href="/sustainability" title="Sustainability">Sustainability</a></li>
+<li class="last collapsed"><a href="/service/vegetation-trees-flowers-plants">Vegetation: Trees, Flowers &amp; Plants</a></li>
+</ul></li>
+<li class="expanded"><a href="/energy" title="Energy in the District">Energy in the District</a><ul class="menu-sub"><li class="first leaf"><a href="/cleanenergydc">Clean Energy DC</a></li>
+<li class="collapsed"><a href="/energyassistance" title="Utility Affordability Programs">Utility Affordability Programs</a></li>
+<li class="collapsed"><a href="/service/building-energy-performance-benchmarking">Building Energy Performance &amp; Benchmarking</a></li>
+<li class="collapsed"><a href="/service/dc-sustainable-energy-utility-dcseu" title="DC Sustainable Energy Utility">DC Sustainable Energy Utility</a></li>
+<li class="collapsed"><a href="/service/solar-initiatives" title="Solar Initiatives">Solar Initiatives</a></li>
+<li class="leaf"><a href="/service/dcpace" title="Property Assessed Clean Energy">Property Assessed Clean Energy</a></li>
+<li class="leaf"><a href="/service/energychoice" title="Energy Choice DC">Energy Choice DC</a></li>
+<li class="leaf"><a href="/service/buy-green-power" title="Buy Green Power">Buy Green Power</a></li>
+<li class="last leaf"><a href="/service/gridmodernization">Energy Grid Modernization</a></li>
+</ul></li>
+<li class="expanded active-trail"><a href="/service/resources" title="Resources" class="active-trail">Resources</a><ul class="menu-sub"><li class="first collapsed"><a href="/service/environmental-applications-licenses-and-permits" title="Applications, Licenses &amp; Permits">Applications, Licenses, Permits</a></li>
+<li class="expanded active-trail"><a href="/service/environmental-data-maps" title="Environmental Data &amp; Maps" class="active-trail active-trail">Environmental Data &amp; Maps</a><ul class="menu-sub"><li class="first leaf"><a href="/service/climate-change">Climate Change</a></li>
+<li class="leaf active-trail"><a href="/service/greenhouse-gas-inventories" class="active-trail active-trail active">DC Greenhouse Gas Emissions Inventory</a></li>
+<li class="leaf"><a href="/service/environmental-maps" title="Environmental Maps">Environmental Maps</a></li>
+<li class="last leaf"><a href="/service/total-maximum-daily-load-tmdl-documents" title="Total Maximum Daily Load (TMDL) Documents">Total Maximum Daily Load (TMDL) Documents</a></li>
+</ul></li>
+<li class="collapsed"><a href="/service/resources-businesses" title="Resources for Businesses">For Businesses</a></li>
+<li class="collapsed"><a href="/service/resources-residents" title="Resources for Residents">For Residents</a></li>
+<li class="leaf"><a href="/page/grants-and-other-funding" title="Grants and Funding">Grants and Funding</a></li>
+<li class="collapsed"><a href="/service/plans-and-commitments" title="Plans &amp; Commitments">Plans &amp; Commitments</a></li>
+<li class="last leaf"><a href="/publications" title="">Publications</a></li>
+</ul></li>
+<li class="expanded"><a href="/service/laws-regulations" title="Laws &amp; Regulations">Laws &amp; Regulations</a><ul class="menu-sub"><li class="first collapsed"><a href="/service/air-quality-law-and-regulations" title="Air Quality Regulations">Air Quality Regulations</a></li>
+<li class="collapsed"><a href="/service/energy-related-regulations" title="Energy">Energy</a></li>
+<li class="collapsed"><a href="/service/fines-and-enforcement" title="Fines &amp; Enforcement">Fines &amp; Enforcement</a></li>
+<li class="collapsed"><a href="/service/fisheries-and-wildlife" title="">Fish &amp; Wildlife</a></li>
+<li class="leaf"><a href="/service/public-notices-hearings">Public Notices &amp; Hearings</a></li>
+<li class="collapsed"><a href="/service/regulating-hazardous-waste-and-toxic-substances" title="Toxic Substances">Toxic Substances</a></li>
+<li class="last collapsed"><a href="/service/water-quality-regulations" title="Water Quality Regulations">Water Quality</a></li>
+</ul></li>
+<li class="last expanded"><a href="/page/about-doee">About DOEE</a><ul class="menu-sub"><li class="first collapsed"><a href="/page/doee-agency-offices-and-divisions">Agency Offices and Divisions</a></li>
+<li class="leaf"><a href="/page/open-government-and-foia-doee">Open Government and FOIA - DOEE</a></li>
+<li class="leaf"><a href="/service/leading-example" title="Leading by Example">Leading by Example</a></li>
+<li class="leaf"><a href="/page/press">For the Press</a></li>
+<li class="leaf"><a href="/newsroom" title="">News Room</a></li>
+<li class="leaf"><a href="/biography/richard-jackson-interim-director" title="DOEE Director">DOEE Director</a></li>
+<li class="leaf"><a href="/page/senior-leadership-team">Senior Leadership Team</a></li>
+<li class="last collapsed"><a href="/greenpathways">Employment Opportunities</a></li>
+</ul></li>
+</ul>    </div>
+  </div>
+</div>  </div>
+</div> 
+  </div>
+</div>
+</header>    
+      <section id="section-content" class="section section-content">
+  <div id="zone-content-wrapper" class="zone-wrapper zone-content-wrapper clearfix">  
+  <div id="zone-content" class="zone zone-content clearfix container-24">
+
+    <aside class="grid-6 region region-sidebar-first" id="region-sidebar-first" aria-labelledby="region-sidebar-first">
+  <div class="region-inner region-sidebar-first-inner">
+    <section class="block block-menu-block block-1 block-menu-block-1 odd" id="block-menu-block-1">
+  <div class="block-inner clearfix">
+              <h2 class="block-title">Resources</h2>
+            
+    <div class="content clearfix">
+      <div class="menu-block-wrapper menu-block-1 menu-name-menu-ddoe parent-mlid-0 menu-level-2">
+  <ul class="menu-sub"><li class="first collapsed menu-mlid-4692"><a href="/service/environmental-applications-licenses-and-permits" title="Applications, Licenses &amp; Permits">Applications, Licenses, Permits</a></li>
+<li class="expanded active-trail menu-mlid-3782"><a href="/service/environmental-data-maps" title="Environmental Data &amp; Maps" class="active-trail">Environmental Data &amp; Maps</a><ul class="menu-sub"><li class="first leaf menu-mlid-6772"><a href="/service/climate-change">Climate Change</a></li>
+<li class="leaf active-trail active menu-mlid-8202"><a href="/service/greenhouse-gas-inventories" class="active-trail active">DC Greenhouse Gas Emissions Inventory</a></li>
+<li class="leaf menu-mlid-161512"><a href="/service/environmental-maps" title="Environmental Maps">Environmental Maps</a></li>
+<li class="last leaf menu-mlid-10602"><a href="/service/total-maximum-daily-load-tmdl-documents" title="Total Maximum Daily Load (TMDL) Documents">Total Maximum Daily Load (TMDL) Documents</a></li>
+</ul></li>
+<li class="collapsed menu-mlid-3412"><a href="/service/resources-businesses" title="Resources for Businesses">For Businesses</a></li>
+<li class="collapsed menu-mlid-4592"><a href="/service/resources-residents" title="Resources for Residents">For Residents</a></li>
+<li class="leaf menu-mlid-70172"><a href="/page/grants-and-other-funding" title="Grants and Funding">Grants and Funding</a></li>
+<li class="collapsed menu-mlid-5532"><a href="/service/plans-and-commitments" title="Plans &amp; Commitments">Plans &amp; Commitments</a></li>
+<li class="last leaf menu-mlid-9892"><a href="/publications" title="">Publications</a></li>
+</ul></div>
+    </div>
+  </div>
+</section><div class="block block-views block-agency-information-block block-views-agency-information-block even block-without-title" id="block-views-agency-information-block">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-agency-information view-id-agency_information view-display-id-block view-dom-id-fcda43c20a619649929eb16be65bd2d4">
+            <div class="view-header">
+      <h2>Department of Energy &amp; Environment<br></h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/"><img typeof="foaf:Image" src="https://doee.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/ddoe/agency_content/images/DOEE%20Horiz%20206x155.png?itok=qAvGs7aZ" width="200" height="52" alt="DOEE Agency logo" title="DOEE Agency logo" /></a></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="view-agency-information-details">
+<strong>Office Hours</strong><br>Monday to Friday, 9 am to 5 pm<br><br> <strong>Connect With Us</strong><br>1200 First Street NE,  Washington, DC 20002
+<br>Phone: (202) 535-2600<br>
+Fax: (202) 535-2881<br>
+TTY: (800) 855-1000<br>
+
+Email: <a href="/cdn-cgi/l/email-protection#35515a50507551561b525a43" title="doee@dc.gov"><span class="__cf_email__" data-cfemail="a2c6cdc7c7e2c6c18cc5cdd4">[email&#160;protected]</span></a><br><br>
+
+<a href="https://www.facebook.com/DOEE.DC"><img src="/sites/default/files/dc/shared_assets/social_icons/facebook.png" title="facebook" alt="facebook"></a>
+<a href="https://twitter.com/doee_dc"><img src="/sites/default/files/dc/shared_assets/social_icons/twitter.png" title="twitter" alt="twitter"></a>
+
+<a href="https://instagram.com/doee_dc/"><img src="/sites/default/files/dc/shared_assets/social_icons/instagram.png" title="instagram" alt="instagram"></a>
+
+
+
+
+
+<div class="views-field-field-askthedirectortitle"><a href="https://dcforms.dc.gov/webform/department-energy-environment-ask-director" title="Ask the Director" target="_blank">Ask the Director</a><br></div>
+<a href="https://oca.dc.gov/node/160652" title="Agency Performance" target="_blank">Agency Performance</a><br>
+
+<div class="field field-name-field-language-support field-type-node-reference field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/page/ddoe-amharic">Amharic (አማርኛ)</a></div><div class="field-item odd"><a href="/page/ddoe-chinese">Chinese (中文)</a></div><div class="field-item even"><a href="/page/ddoe-french">French (Français)</a></div><div class="field-item odd"><a href="/page/ddoe-korean">Korean (한국어)</a></div><div class="field-item even"><a href="/node/714902">Spanish (Español)</a></div><div class="field-item odd"><a href="/page/ddoe-vietnamese">Vietnamese (Tiếng Việt)</a></div></div></div>
+</div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <br style="clear:both" />    </div>
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-views block-d57ea9063772fb95c21cdfa73d7c2d80 block-views-d57ea9063772fb95c21cdfa73d7c2d80 odd block-without-title" id="block-views-d57ea9063772fb95c21cdfa73d7c2d80">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-agency-information view-id-agency_information view-display-id-agency_director view-dom-id-356f969b016e2ab8bd1c71ef91ba9f71">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/biography/richard-jackson-interim-director">Richard Jackson - Interim Director</a></span>  </div>  
+  <div class="views-field views-field-field-position">        <div class="field-content">Director</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</aside>
+<div class="grid-12 region region-content" id="region-content">
+  <div class="region-inner region-content-inner">
+	 <div class="block block-text-resize">
+	<a href="javascript:;" class="changer" id="text_resize_decrease"><sup>-</sup>A</a> <a href="javascript:;" class="changer" id="text_resize_increase"><sup>+</sup>A</a><div id="text_resize_clear"></div>	 </div>
+
+<div class="pane-add-this">
+	<a class="addthis_button" href="https://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-4dc44024632b89e6">
+	<img alt="Bookmark and Share" height="16" src="https://s7.addthis.com/static/btn/v2/lg-share-en.gif" style="border:0" width="125" /></a>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#async=1#pubid=ra-4dc44024632b89e6"></script>
+	<script type="text/javascript">var addthis_config = {ui_click: true}</script>
+</div>
+
+<script src="//cdn1.readspeaker.com/script/6295/webReader/webReader.js?pids=wr" type="text/javascript"></script>
+<div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve">
+    <a rel="nofollow" class="rsbtn_play" accesskey="L" title="Listen to this page using ReadSpeaker webReader" href="//app-na.readspeaker.com/cgi-bin/rsent?customerid=6295&amp;lang=en_us&amp;readid=content-start&amp;url=https://doee.dc.gov/service/greenhouse-gas-inventories">
+        <span class="rsbtn_left rsimg rspart"><span class="rsbtn_text"><span>Listen</span></span></span>
+        <span class="rsbtn_right rsimg rsplay rspart"></span>
+    </a>
+</div>
+
+<div id="content-start">
+    <a id="main-content"></a>
+                <h1 class="title" id="page-title">Greenhouse Gas Inventories</h1>
+                        <div class="block block-system block-main block-system-main odd block-without-title" id="block-system-main">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <article about="/service/greenhouse-gas-inventories" typeof="sioc:Item foaf:Document" class="node node-service node-published node-not-promoted node-not-sticky author-beverlybricker odd clearfix" id="node-service-18822">
+        <span property="dc:title" content="Greenhouse Gas Inventories" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>    
+  
+  <div class="content clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>DOEE regularly tracks the District&rsquo;s greenhouse gas emissions in order to measure our progress towards reducing emissions 60% by 2030 and reaching net-zero emissions by 2045. Greenhouse gas inventories identify the major sources of greenhouse gasses and measure how much they pollute. Major sources include energy used by homes and buildings, transportation, and solid waste.</p>
+
+<p>We track emissions across the District using the <a href="https://ghgprotocol.org/greenhouse-gas-protocol-accounting-reporting-standard-cities" target="_blank">Global Protocol for Community-Scale Greenhouse Gas Emission Inventories (GPC)</a>, as well as from our own government operations, using the <a href="http://icleiusa.org/ghg-protocols/" target="_blank">Local Government Operations Protocol (LGO Protocol)</a>. The first District greenhouse gas inventory was completed for 2006. DOEE releases an annual inventory with data available for 2009-2020.<br />
+<span style="tab-stops:list .5in"><img alt="" src="/sites/default/files/dc/sites/ddoe/service_content/images/2020%20city%20wide%20emissions-01.png" style="width: 535px; height: 303px;" /></span><br />
+<strong>Progress Towards Emissions Reduction Goals</strong></p>
+
+<p>The District is on track to meet its ambitious goals to reduce emissions by 60% by 2030, and to become carbon neutral by 2045. In 2020, the District saw a 40% decrease in citywide emissions compared to the 2006 baseline inventory, noting 2020 data reflects significant impacts of the COVID-19 public health emergency, particularly in decreased non-residential building energy use and transportation. Analyzing any lasting impacts on the city&rsquo;s long-term emissions trends will require several years of future data, but overall the District has demonstrated strong progress towards our 2030 goal, with much work still ahead to achieve carbon neutrality.<br />
+<span style="tab-stops:list .5in"><img alt="" src="/sites/default/files/dc/sites/ddoe/service_content/images/2020%20emissions%20by%20sector-01.png" style="width: 535px; height: 305px;" /></span><br />
+<b>Emissions Sources in the District</b></p>
+
+<p>The District&rsquo;s greenhouse gas inventory tracks emissions by both source and sector: sources refer to the fuels that produce energy, and sectors are the main energy-consuming areas of the economy. In the District, emissions come from three main sectors: buildings, transportation, and waste. In 2020, buildings continued to be the main driver of citywide emissions (72%) followed by transportation (21%) and waste (7%). Within these sectors, the main sources of emissions are electricity (49%), fossil gas (24%), and gasoline (17%).<br />
+<span style="tab-stops:list .5in"><img alt="" src="/sites/default/files/dc/sites/ddoe/service_content/images/2020%20emissions%20by%20sector%20pie-02.png" style="width: 535px; height: 318px;" /></span><br />
+<b>Additional Resources</b></p>
+
+<ul>
+	<li><span style="tab-stops:list .5in"><a href="https://www.cdp.net/en-US/Pages/HomePage.aspx" target="_blank">CDP</a>: The District, along with major cities from around the world, regularly reports greenhouse gas emissions through the Carbon Disclosure Project CDP</span></li>
+</ul>
+</div></div></div><div class="field field-name-field-attachment field-type-file field-label-above"><div class="field-label">Attachment(s):&nbsp;</div><div class="field-items"><div class="field-item even"><span class="file"><img class="file-icon" alt="File" title="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" src="/modules/file/icons/x-office-spreadsheet.png" /> <a href="https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/2006-2020%20Greenhouse%20Gas%20Data%20%28web%29%281%29.xlsx" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; length=86408" title="2006-2020 Greenhouse Gas Data (web)(1).xlsx">2006-2020 Greenhouse Gas Inventory</a></span></div><div class="field-item odd"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/2006-2016%20Greenhouse%20Gas%20Inventory_1.pdf" type="application/pdf; length=2300375" title="2006-2016 Greenhouse Gas Inventory.pdf">2006-2016 Greenhouse Gas Inventory</a></span></div><div class="field-item even"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/2013%20%20Greenhouse%20Gas%20Inventory%20Update_web.pdf" type="application/pdf; length=791996" title="2013  Greenhouse Gas Inventory Update_web.pdf">2012 - 2013 Inventory Update Fact Sheet</a></span></div><div class="field-item odd"><span class="file"><img class="file-icon" alt="PDF icon" title="application/pdf" src="/modules/file/icons/application-pdf.png" /> <a href="https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/GHGinventory-1205-.pdf" type="application/pdf; length=1108796" title="GHGinventory-1205-.pdf">2006-2011 Inventory Update Fact Sheet </a></span></div></div></div><div class="field field-name-field-related field-type-node-reference field-label-above"><div class="field-label">Related Content:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/service/environmental-maps">Environmental Maps</a></div><div class="field-item odd"><a href="/service/climate-change">Climate Change</a></div></div></div>  </div>
+  
+  <div class="clearfix">
+          <nav class="links node-links clearfix"></nav>
+    
+      </div>
+</article>
+    </div>
+  </div>
+</div>    </div>
+  </div>
+</div>
+<script async src=https://siteimproveanalytics.com/js/siteanalyze_6002505.js></script>
+<aside class="grid-6 region region-sidebar-second" id="region-sidebar-second" aria-labelledby="region-sidebar-second">
+  <div class="region-inner region-sidebar-second-inner">
+    <div class="block block-views block-features-blocks-interior-1 block-views-features-blocks-interior-1 odd block-without-title" id="block-views-features-blocks-interior-1">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-features-blocks view-id-features_blocks view-display-id-interior_1 view-dom-id-91d4561aeccf5b4bcc2a1aca6e9d3aac">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1" class="views-view-grid">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first 1">
+              
+  <h2 class="views-field views-field-title">        <span class="field-content">Foam Free DC</span>  </h2>  
+  <div class="views-field views-field-field-image-link-url">        <div class="field-content"><a href="/foam" title="Foam Free DC"><img typeof="foaf:Image" src="https://doee.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/ddoe/featured_content/images/Foam%20Free%20Side%20Bar.jpg?itok=WFtwmbbv" width="200" height="150" alt="Foam Free DC" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>The District has banned the use of food service products made of expanded polystyrene. <a href="/foam" title="Foam Ban">Read More&gt;&gt;</a></p>
+</div>  </div>  
+  <div class="views-field views-field-field-related">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-external-link-url">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-views block-features-blocks-interior-2 block-views-features-blocks-interior-2 even block-without-title" id="block-views-features-blocks-interior-2">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-features-blocks view-id-features_blocks view-display-id-interior_2 view-dom-id-1023efa8c1fd14212a193ce9a456de88">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1" class="views-view-grid">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first 1">
+              
+  <h2 class="views-field views-field-title">        <span class="field-content">Our Last Straw</span>  </h2>  
+  <div class="views-field views-field-field-image-link-url">        <div class="field-content"><a href="/service/our-last-straw" title="Our Last Straw"><img typeof="foaf:Image" src="https://doee.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/ddoe/featured_content/images/Our-Last-Straw-Logos-feature.jpg?itok=_Vv1BGVl" width="188" height="150" alt="Our Last Straw" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>Mayor Bowser Joins Our Last Straw Coalition to Say No to Plastic Straws. Businesses, Nonprofits, Individuals, and DC Government Unite in the Effort to Reduce Plastic Waste in the District. <a href="/ourlaststraw" title="Our Last Straw">Read More&gt;&gt;</a></p>
+</div>  </div>  
+  <div class="views-field views-field-field-related">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-external-link-url">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-views block-features-blocks-interior-3 block-views-features-blocks-interior-3 odd block-without-title" id="block-views-features-blocks-interior-3">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-features-blocks view-id-features_blocks view-display-id-interior_3 view-dom-id-f4c23e7331cdbcc1f353fffb8da3471c">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1" class="views-view-grid">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first 1">
+              
+  <h2 class="views-field views-field-title">        <span class="field-content">Get RiverSmart</span>  </h2>  
+  <div class="views-field views-field-field-image-link-url">        <div class="field-content"><a href="/service/get-riversmart" title="Get RiverSmart"><img typeof="foaf:Image" src="https://doee.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/ddoe/featured_content/images/RiverSmart-logov1.1.jpg?itok=7ifdmedM" width="199" height="150" alt="Get RiverSmart" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>RiverSmart programs offer incentives for reducing stormwater pollution. </p>
+</div>  </div>  
+  <div class="views-field views-field-field-related">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-external-link-url">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div><div class="block block-views block-features-blocks-interior-4 block-views-features-blocks-interior-4 even block-without-title" id="block-views-features-blocks-interior-4">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="view view-features-blocks view-id-features_blocks view-display-id-interior_4 view-dom-id-c0ccc4064b57c4e874e709b09490828e">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1" class="views-view-grid">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first 1">
+              
+  <h2 class="views-field views-field-title">        <span class="field-content">Skip the Bag - Save the River</span>  </h2>  
+  <div class="views-field views-field-field-image-link-url">        <div class="field-content"><a href="/service/skip-bag-save-river" title="Skip the Bag - Save the River"><img typeof="foaf:Image" src="https://doee.dc.gov/sites/default/files/styles/callout_interior_graphic/public/dc/sites/ddoe/featured_content/images/Skip-Bag-Solid.jpg?itok=ffb6yM58" width="199" height="150" alt="Skip the Bag - Save the River" title="Skip the Bag - Save the River" /></a></div>  </div>  
+  <div class="views-field views-field-body">        <div class="field-content"><p>District businesses selling food or alcohol are required to charge $.05 for each disposable paper or plastic carryout bag.&nbsp;Find out about <a href="/service/skip-bag-save-river" title="DC's Bag Law">DC&#39;s Bag Law</a>.</p>
+</div>  </div>  
+  <div class="views-field views-field-field-related">        <div class="field-content"></div>  </div>  
+  <div class="views-field views-field-field-external-link-url">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+</div>  </div>
+</aside>
+  </div>
+</div><div id="zone-postscript-wrapper" class="zone-wrapper zone-postscript-wrapper clearfix">  
+  <div id="zone-postscript" class="zone zone-postscript clearfix container-12">
+    <div class="grid-3 region region-postscript-first" id="region-postscript-first">
+  <div class="region-inner region-postscript-first-inner">
+    <div class="block block-block block-92 block-block-92 odd block-without-title" id="block-block-92">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <style type="text/css">p.more-link::after {
+  content: url("/sites/all/themes/dc_home_omega/images/more-arrow.png");
+  display: block;
+  float: right;
+  margin-left: 7px;
+  margin-top: 4px;
+}
+p.more-link a {
+  font-size: 18px;
+  font-family: Roboto-Regular;
+}
+</style>
+<div id="resource-icon-section">
+<div class="resource-content-block twitter-resource-icon" title="Twitter">
+<div class="resource-icon-text"><a alt="Twitter" href="/twitter" title="Twitter">Twitter</a></div>
+</div>
+
+<div class="resource-content-block facebook-resource-icon" title="Facebook">
+<div class="resource-icon-text"><a alt="Facebook" href="/facebook" title="Facebook">Facebook</a></div>
+</div>
+
+<div class="resource-content-block mobile-resource-icon" title="Mobile">
+<div class="resource-icon-text"><a alt="Mobile" href="https://dc.gov/page/mobile-apps" title="Mobile">Mobile</a></div>
+</div>
+
+<div class="resource-content-block maps-resource-icon" title="Maps">
+<div class="resource-icon-text"><a alt="Maps" href="https://octo.dc.gov/page/online-maps-listing" title="Maps">Maps</a></div>
+</div>
+
+<div class="resource-content-block webcasts-resource-icon" title="Webcasts">
+<div class="resource-icon-text"><a alt="Webcasts" href="/webcasts" title="Webcasts">Webcasts</a></div>
+</div>
+
+<div class="resource-content-block rss-resource-icon" title="RSS">
+<div class="resource-icon-text"><a alt="RSS" href="/rss" title="RSS">RSS</a></div>
+</div>
+
+<div class="resource-content-block data-resource-icon" title="Data">
+<div class="resource-icon-text"><a alt="Data" href="http://opendata.dc.gov" title="Data">Data</a></div>
+</div>
+
+<div class="resource-content-block subscribe-resource-icon" title="Subscribe">
+<div class="resource-icon-text"><a alt="Subscribe" href="/subscribe" title="Subscribe">Subscribe</a></div>
+</div>
+</div>
+
+<p class="more-link"><a class="more-links" href="/district-resources">More Resources</a></p>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></section>    
+  
+      <footer id="section-footer" class="section section-footer">
+    
+  <div id="zone-prefooter" class="zone zone-prefooter clearfix container-12">
+    <div class="grid-24 region region-prefooter-first" id="region-prefooter-first">
+  <div class="region-inner region-prefooter-first-inner">
+      </div>
+</div>  </div>
+<div id="zone-footer-wrapper" class="zone-wrapper zone-footer-wrapper clearfix">  
+  <div id="zone-footer" class="zone zone-footer clearfix container-12">
+    <div class="grid-12 region region-footer-first" id="region-footer-first">
+  <div class="region-inner region-footer-first-inner">
+    <div class="block block-block block-112 block-block-112 odd block-without-title" id="block-block-112">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <div class="dcFooter">
+<div class="dcBar">
+<div class="dcFooterListLower" id="resources-link">
+<ul>
+<li class="dcFirstChild"><a title="Resources" href="/district-resources">Resources</a></li>
+</ul>
+</div>
+<span class="dcFooterList">
+<div class="footer-icon"><img title="District News" alt="District News" src="/sites/default/files/dc/shared_assets/map_icon_footer.png"></div>
+<div class="dcFooterLabel">District News</div>
+<ul id="list">
+<li><a title="Mayors Public Schedule" href="https://mayor.dc.gov/newsroom">Mayor's Public Schedule</a></li>
+<li><a title="Citywide News" href="https://newsroom.dc.gov">Citywide News</a></li>
+<li><a title="Citywide Calendar" href="https://calendar.dc.gov/events">Citywide Calendar</a></li>
+<li><a target="_blank" class="ext" title="Subscribe to Emails" href="https://service.govdelivery.com/service/user.html?code=DCWASH">Subscribe to Receive Emails</a></li>
+<li><a title="Subscribe to Text Alerts" href="https://textalert.ema.dc.gov/index.php?CCheck=1">Subscribe to Text Alerts</a></li>
+<li><a target="_blank" class="ext" title="Subscribe to Newsletters" href="https://public.govdelivery.com/accounts/DCWASH/subscriber/new?">Subscribe to Newsletters</a></li>
+</ul>
+</span>
+<span class="dcFooterList">
+<div class="footer-icon"><img title="District Initiatives" alt="District Initiatives" src="/sites/default/files/dc/shared_assets/infoCenter_icon_footer.png"></div>
+<div class="dcFooterLabel">District Initiatives</div>
+<ul id="list2">
+
+<li><a title="Green DC" href="https://green.dc.gov">Green DC</a></li>
+<li><a title="Age-Friendly DC" href="https://agefriendly.dc.gov">Age-Friendly DC</a></li>
+<li><a title="Sustainable DC" href="https://sustainable.dc.gov">Sustainable DC</a></li>
+<li><a title="Connect DC" href="https://connect.dc.gov">Connect DC</a></li>
+<li><a title="Great Streets" href="https://greatstreets.dc.gov">Great Streets</a></li>
+<li><a title="Ready DC" href="https://ready.dc.gov/">Ready DC</a></li>
+</ul>
+</span>
+<span class="dcFooterList">
+<div class="footer-icon"><img title="About DC" alt="About DC" src="/sites/default/files/dc/shared_assets/community_icon_footer.png"></div>
+<div class="dcFooterLabel">About DC</div>
+<ul id="list3">
+<li><a title="Open DC" href="https://ogag.dc.gov/">Open DC</a></li>
+<li><a title="Budget" href="https://cfo.dc.gov/budget">Budget</a></li>
+<li><a title="Emancipation" href="https://emancipation.dc.gov">Emancipation</a></li>
+<li><a title="Consumer Protection" href="https://oag.dc.gov/consumer-protection">Consumer Protection</a></li>
+<li><a title="Contracts" href="https://dc.gov/contracts">Contracts</a></li>
+<li><a title="Property Quest" href="https://propertyquest.dc.gov">Property Quest</a></li>
+</ul>
+</span>
+<span class="dcFooterList">
+<div class="footer-icon"><img title="Contact Us" alt="Contact Us" src="/sites/default/files/dc/shared_assets/contact_footer_icon.png"></div>
+<div class="dcFooterLabel">Contact Us</div>
+<ul id="list5">
+<li><a title="Agency Directory" href="https://dc.gov/directory">Agency Directory</a></li>
+<li><a title="Call 311" href="https://311.dc.gov/">Call 311</a></li>
+<li><a title="Contact the Mayor" href="https://dcforms.dc.gov/webform/executive-office-mayor-ask-mayor">Contact the Mayor</a></li>
+<li><a title="Contact Agency Directors" href="/page/contact-agency-directors">Contact Agency Directors</a></li>
+<li><a title="Make FOIA Requests" href="https://dc.gov/page/freedom-information-act-foia">FOIA Requests</a></li>
+<li><a title="Report Website Problems" href="https://dc.gov/page/dcgovernmentwebsite">Report Website Problems</a></li>
+<!--li><a title="Send Feedback" href="https://feedback.dc.gov">Send Feedback</a></li-->
+<li><a title="Service Request Center" href="https://311.dc.gov/">Service Request Center</a></li>
+</ul>
+</span>
+</div>
+</div>    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div><div id="zone-second-footer-wrapper" class="zone-wrapper zone-second-footer-wrapper clearfix">  
+  <div id="zone-second-footer" class="zone zone-second-footer clearfix container-24">
+    <div class="grid-24 region region-second-footer" id="region-second-footer">
+  <div class="region-inner region-second-footer-inner">
+    <div class="block block-block block-122 block-block-122 odd block-without-title" id="block-block-122">
+  <div class="block-inner clearfix">
+                
+    <div class="content clearfix">
+      <style>
+.zone-second-footer-wrapper .dcFooterListLower ul li a:visited { color: #fff !important; }
+</style>
+
+<div class="dcFooter" style="min-height:130px;">
+<div class="dcBar">&nbsp;
+<div class="dcFooterListLower">
+<ul>
+	<li class="dcFirstChild"><a href="https://dc.gov/page/dcgov-accessibility-policy" title="Accessibility">Accessibility</a></li>
+	<li><a href="https://dc.gov/page/privacy-and-security" title="Privacy and Security">Privacy and Security</a></li>
+	<li><a href="https://dc.gov/page/terms-and-conditions-use" title="Terms and Conditions">Terms and Conditions</a></li>
+	<li><a href="https://dc.gov/page/about-district-government-website" title="About DC.Gov">About DC.Gov</a></li>
+	<li class="last">&nbsp;</li>
+</ul>
+</div>
+</div>
+
+<div style="width: 310px;margin-left:auto;margin-right:auto;">
+<div style="background-color: #fff;padding: 1px;width: 120px;float:left;margin: 0 10px 5px 0;"><a href="https://www.govtech.com/cdg/government-experience/Best-of-the-Web--Digital-Government-Achievement-Awards-2014---Winners-Announced.html" target="_blank" title="Best of the Web 2014"><img alt="Best of the Web logo 2014" src="/sites/default/files/dc/shared_assets/BOW14_Winner.png" style="width:110px;padding:3px;" /></a></div>
+
+<div style="background-color: #fff;padding: 3px;width: 120px;float:left;"><a href="https://www.govtech.com/cdg/government-experience/Best-of-the-Web--Digital-Government-Achievement-Awards-2013.html" target="_blank" title=""><img alt="Best of the Web logo 2013" src="/sites/default/files/dc/shared_assets/BOW13_final.jpg" style="width:110px;" /></a></div>
+<!-- include IF Vox before closing HEAD tag --><script type="text/javascript">(function(){setTimeout(function(){var d=document,t='script',f=d.getElementsByTagName(t)[0],s=d.createElement(t);s.type='text/java'+t;s.async=true;s.src='//d2rnkf2kqy5m6h.cloudfront.net/vxc/uwxO-8vMSgaKorrjBbcQ1A/surveys.js?'+(new Date)/1;f.parentNode.insertBefore(s,f);},1);})();</script></div>
+</div>
+    </div>
+  </div>
+</div>  </div>
+</div>  </div>
+</div></footer>
+  </div>  <div class="region region-page-bottom" id="region-page-bottom">
+  <div class="region-inner region-page-bottom-inner">
+      </div>
+</div><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"348872d504","applicationID":"496267014","transactionName":"YVYAZxQEC0EHBhVYWVgcI1ASDApcSQsOVVNpQwNUAzoTWwMS","queueTime":0,"applicationTime":474,"atts":"TREDEVweGE8=","errorBeacon":"bam.nr-data.net","agent":""}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"78a6592eaa011d24","token":"40173a06e921460ebb3fe70b55ba3d2f","version":"2022.11.3","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>

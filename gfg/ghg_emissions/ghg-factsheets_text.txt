@@ -1,0 +1,208 @@
+Germany’s greenhouse gas emissions and energy transition targets | Clean Energy Wire
+Journalism for the energy transition
+About CLEW
+The Clean Energy Wire produces and enables first-class journalism about the energy transition in Germany and beyond.
+OverviewMotivationTeamFundersPartnersOur UsersContact
+News
+Our daily news articles and newsletters offer comprehensive coverage of the latest developments in Germany’s energy transition.
+OverviewLatest NewsNews ArchiveNewsletter
+Analysis
+CLEW's Dossiers and Factsheets provide in-depth information, figures and background on key energy transition topics.
+OverviewDossiersFactsheets
+Network
+The CLEW Journalism Network brings together international reporters covering the global energy transition story.
+OverviewAbout the NetworkMapping the NetworkCLEW Blog
+Events & Opportunities
+We organise tours, meetings and online events to help you with frontline reporting of the energy transition.
+OverviewResearch ToursResearch MapAll Events
+Services
+We can help you find interviewees, background info, research locations and reporting opportunities.
+OverviewEasy GuideExpertsGlossaryResearch MapCalendarResources (menu position rule)
+Topics
+CLEW covers all aspects of the energy transition – browse through our topic pages to find news and background on:
+Climate & CO2
+Electricity
+Mobility
+Business
+Efficiency
+Politics
+International
+Easy Guide
+About CLEW
+Newsletter
+DE
+Search form
+Search
+Search
+Choose topic
+Climate & CO2
+Electricity
+Mobility
+Business
+Efficiency
+Politics
+International
+Easy Guide
+Factsheet
+21 Dec 2022, 13:10
+Kerstine Appunn
+Freja Eriksen
+Julian Wettengel
+Germany’s greenhouse gas emissions and energy transition targets
+Climate & CO2
+This factsheet provides an overview of Germany's greenhouse gas emissions and the government's energy transition targets. [UPDATES text and emissions graphs to include 2021 and 2022 data]
+Germany's national climate targets
+Germany aims to become greenhouse gas neutral by 2045. It has set the preliminary targets of cutting emissions by at least 65 percent by 2030 compared to 1990 levels, and 88 percent by 2040.
+The country's first national climate law, passed in 2019 and amended in 2021, states annual reduction targets for individual sectors such as industry and transport until the year 2030. These are set in line with the European greenhouse gas emission reduction plans.
+In case a target is missed or overshot, the law states that the difference will be spread out evenly over the remaining annual emissions budgets of the sector until 2030 and beyond, with further targets set for 2040 and 2045. The ambition of Germany's national climate targets can be raised but not lowered.
+Germany's climate law also states that new emission budgets for the years after 2030 will be set in 2024, and that these must be in line with the goals of the law and the requirements of the European Union – climate neutrality by 2050.
+Germany is one of a handful of countries globally to have enshrined the goal of climate neutrality by or before 2050 in its national law. The European Union decided to put the 2050 target in its 2021 climate law, and about 40 other nations worldwide have committed to achieving net-zero emissions by at least 2050 through legislation or in policy documents.
+Some of these expressed their target in terms of carbon dioxide (CO₂) emissions only, while the EU and Germany refer to all greenhouse gases – an important difference. In Germany's national climate law, 'net greenhouse gas neutrality' is defined as the "balance between anthropogenic emissions of greenhouse gases from sources and the removal of such gases by sinks".
+The 2050 net-zero target derives from the Intergovernmental Panel on Climate Change's (IPCC) message in 2018: In order to keep global warming to 1.5°C, global net human-caused emissions of CO₂ should be brought to 'net zero' within three decades.
+Interlinked with Europe's goals
+Germany’s climate targets derive from the European Union's greenhouse gas emission reduction plans. The EU is currently negotiating a major overhaul of its climate and energy legislation after deciding to raise its 2030 target (to -55%) and aiming for climate neutrality by 2050. The reforms at EU level – expected to be largely decided by the end of 2022 or in 2023 – will again influence German policy. Until then, the situation is as follows:
+The EU ETS covers emissions from power generation, energy-intensive industries and civil aviation through a "cap-and-trade" approach. The EU sets a cap on how much greenhouse gas pollution can be emitted each year, and companies must hold emission allowances for every tonne of CO2 they emit. They receive or buy these permits – and they can trade them. If they emit more CO2 than they have covered by emission allowances, they face a fine of 100 euros per excess tonne.
+Almost 60 percent of total domestic EU emissions are limited by an EU-wide target under the Effort Sharing Regulation. This covers emissions from transport, buildings, waste, some smaller industries and agriculture (but not LULUCF), which are not covered by the union's Emissions Trading System (ETS).
+Under the regulation, member states together are to achieve an overall emissions reduction of 10 percent by 2020 and 30 percent by 2030, compared to 2005 levels. Countries are, however, required to contribute more or less depending on their relative wealth. This means that Germany has a much higher responsibility than for example Poland.
+Germany's allocated emission reduction target is set at minus 14 percent by 2020 and minus 38 percent by 2030. The Effort Sharing Regulation also defines annual emission budgets (AEAs) for the years 2021-2030, following a linear reduction trajectory. Germany's climate targets and sectoral emission budgets are based on this trajectory.
+If a member state fails to comply with its annual emission reduction targets, it must come up with a “corrective action plan”. Failing to comply with its reduction targets could thus mean Germany having to buy emission allocations from other member states at a high cost.
+Greenhouse gas emissions – status
+Germany’s greenhouse gas emissions increased nearly 5 percent in 2021 compared to the previous year, in an expected rebound during the economic revival after the coronavirus pandemic. The country's Federal Environment Agency (UBA) warned that the “coronavirus windfall profits” in terms of emissions reduction were being lost too quickly. Preliminary data released by UBA showed that both the transport and the buildings (heating) sectors failed their annual emission reduction targets. Compared to 1990, emissions in Germany have fallen by 38.7 percent. In 2020, this drop was at just under 41 percent.
+Due to increased coal use in response to the energy crisis – exacerbated by Russia’s war against Ukraine – and Germany’s exit from nuclear power, emissions might increase again in 2022, according to energy data service AGEB.
+The Federal Environment Agency (UBA) provides the latest and detailed data on Germany's greenhouse gas emissions.
+Germany's greenhouse gas emissions by sector
+Between 1990 and 2021, all sectors achieved emission reductions, but in widely differing volumes. Each sector has been attributed an annual emissions budget in Germany's climate action law.
+Germany's energy industries are responsible for the largest share (32% in 2021) of the country's greenhouse gas emissions. Here, emissions had fallen the second-most by 2021 – about 47 percent compared to 1990 levels. This decrease was to a large extent caused by the decommissioning of emission-intensive, lignite-fired power plants in the 1990s which were substituted by more efficient power plants. In recent years - until this year’s energy crisis - coal-fired power generation was increasingly substituted by renewable energies and natural gas.
+With 24 percent, industry is responsible for the second-largest share of Germany's emissions. Here, emissions have fallen by 36 percent since 1990. Raising production processes' efficiency has reduced the bulk of emissions. The rising price on carbon allowances since 2019 also helped increase energy efficiency efforts and bring down CO2 output. Emissions have, however, for the last decade largely stagnated and while many energy-intensive companies already have detailed plans for drastic emission cuts, they lack viable business models to implement them.
+The buildings sector has achieved Germany's third-largest emission reduction since 1990 (45%). It was responsible for 15 percent of total emissions in 2021. Building emissions have, however, largely stagnated since 2011 and Germany is a long way from reaching its target of a 'nearly' climate-neutral building stock by 2050.
+Although transport was responsible for 19 percent of total emissions in 2021, the sector has struggled to reduce emissions, with nearly unchanged levels from 1990 until the pandemic hit in 2020. Despite vehicles being less emission-intensive today, there has been an increase in road traffic with ever larger and heavier vehicles. Together with buildings, transport is an area where Germany must significantly speed up measures in order to reach its overall goal of greenhouse gas neutrality by 2045.
+Agriculture emissions (excluding LULUCF) have fallen by around 25 percent since 1990, while they made up about eight percent of total emissions in 2021. A large part of this decrease took place in the years after German reunification when livestock numbers were reduced.
+The sector waste and other is responsible for only one percent of total emissions, but these have fallen by 78 percent since 1990. The sector has succeeded in avoiding harmful emissions through reorganisation and by sorting waste.
+Energy transition targets
+The most important tools for Germany to reach its targets on emission reduction are the roll-out of renewable energies, bringing down energy consumption, and ending the use of fossil fuels in all sectors of the economy. In order to do this, the country has also set a range of energy transition targets which primarily relate to the expansion of renewable energies and reducing energy demand.
+The latest Energiewende progress report from March 2021 illustrates the structure of the country’s targets in a chart:
+The energy transition is subject to an annual monitoring process led by the economy ministry, while an independent commission of energy experts provides comments. However, the pandemic and the energy crisis have disturbed the monitoring schedule and the most recent report is from 2021. The next report is expected in summer 2023 in a “modernised and adapted format”, and a shorter commentary already by January.
+In March 2021, the commission said Germany must rapidly step up its national climate and energy targets to bring efforts in line with new EU-wide goals. The experts gave mixed marks on the status of the Energiewende.
+Renewables targets
+Germany has made significant progress on the expansion of renewable energies. Since the launch of support payments in the country’s Renewable Energy Act (EEG) in 2000, renewables have risen from a niche technology to become the dominant player in the power mix. Almost 47 percent of the country's power consumption was covered by renewables in 2022.
+However, renewables development has not been ambitious enough to reach climate targets. The government coalition in 2022 decided to rapidly speed up renewables expansion, which had lagged behind in previous years.
+The country now aims to bring the renewables share in power consumption to 80 percent by 2030. Plans to enshrine a target to have an almost entirely greenhouse gas-free power supply by 2035 into the EEG were scrapped. Instead, the law now states: “After the completion of the coal phase-out, the aim is to achieve greenhouse gas neutrality in the electricity supply in Germany.” The government said it wants to “ideally” pull forward the coal exit from 2038 to 2030.
+That means a massive expansion of wind and solar power. Germany aims to roughly double its onshore wind capacity to 115 gigawatts (GW) by 2030 (160 GW 2040). Offshore wind power capacity is increased to reach a minimum of 30 GW by 2030, 40 GW by 2035 and 70 GW by 2045 (up from almost 8 GW in 2022), and the country wants to achieve a total solar power capacity of 215 GW by 2030 (400 GW 2040), up from about 60 GW in 2021.
+Renewables’ share in the country's gross final energy consumption was 18.8 percent in 2021 – (2020 target: 18%). This puts Germany ahead of many other industrialised nations (note that the share of hydropower in the German energy mix is comparatively low, with most renewable power coming from wind, solar and biomass).
+Energy efficiency targets
+Germany has made notably less progress on its targets to reduce energy demand than on its renewables targets. Increasing energy efficiency is generally seen as a main pillar of the Energiewende and essential to reaching climate neutrality by 2045. But saving energy on a large scale – by insulating buildings, changing behaviour, and introducing many new and often expensive technologies in different sectors – requires everyone’s participation, and has so far proven a hard sell. In 2021, Germany yet again failed to reach its greenhouse gas reduction target in the building sector.
+The country aimed to reduce primary energy consumption by 20 percent by 2020 compared to 2008 levels. However, even with the slump caused by the coronavirus pandemic, consumption was only reduced by 18 percent. Gross electricity consumption, however, decreased by about 11 percent, so that Germany reached its 2020 target (-10%). As Germany is going to need more renewable power for technologies like e-cars and heat pumps, overall electricity consumption is expected to increase significantly by 2030.
+Emissions in a historical context
+A look back on Germany’s historical emissions track record since 1850 reveals that the country’s greenhouse gas emissions have been very much dependent on economic fluctuations and alternations between war and peace.
+World War One, followed by the economic and political crises of the 1920s and early 1930s, had a very visible influence on emissions, as did the build-up to, and aftermath of, World War Two. Apart from these anomalous periods, Germany's greenhouse gas emissions were on a constant climb until they peaked in 1979 at 1,390 million tonnes CO2 equivalents.
+Emissions have been gradually declining since then – also since the international reference year of 1990. Germany was given a head start in 1990 when, following the fall of the Berlin Wall and reunification, the decline of the East German industrial and power sectors meant automatic CO2 reductions (so-called “wall fall profits”). In 2009, emissions dropped by 6.9 percent compared to the previous year due to the economic crisis, which saw many companies scale down production. However, in the years that followed, the hope that this trend would continue remained unfulfilled. Impacts of the COVID-19 pandemic could lead to a similar scenario in 2020 and the years that follow, first emission estimates show.
+A comparison between Germany's emissions in the past and its current emissions targets sheds light on the annual amount of emissions the country still needs to cut.
+By 2020, Germany would have to reach the emission levels last seen in 1953 or 1941
+By 2030, the country must reduce its emissions to levels similar to those in 1948 or 1907
+Although Germany has largely managed to decouple economic growth (measured in GDP) from a rise in greenhouse gas emissions, the record of the past three decades shows that the country will need to implement significant changes if it wants to reduce emissions to meet its targets.
+In the 31 years between 2019 and 2050, Germany will have to cut emissions equivalent to the 100-year increase between 1854 and 1954/1955.
+The year 1855 falls within the beginning of the industrial revolution in Germany. For the first time, Germany's fragmented states formed a customs union, which also included parts of today's Poland and the Czech Republic (the data set used for this article generally reflects the emissions from a country’s territory within the boundaries of the time).
+The customs union covered an area with a total population of around 32 million, not even half of Germany's current population of around 82 million. Coal mining regions, such as the Rhine-Ruhr area and Saxony, became the first industrial hubs, and the population was growing because of new achievements in medical services and hygiene.
+A large share of emissions (21.6%) still came from the agricultural sector. 62.5 percent came from energy use and just 1.4 percent from industrial processes. Despite a boom in rail travel (in the 19th century 50,000 kilometres of rail tracks were built in the German territory) the most common form of freight transport for short distances was horse-drawn carts while people generally used carriages or simply walked.
+In-depth explanations on the data can be accessed here.
+All texts created by the Clean Energy Wire are available under a
+“Creative Commons Attribution 4.0 International Licence (CC BY 4.0)”
+.
+They can be copied, shared and made publicly accessible by users so long as they give appropriate credit, provide a
+link to the license, and indicate if changes were made.
+Dossiers
+This Factsheet is part of the following Dossiers:
+Green pioneer Germany struggles to make climate protection a reality
+Energy transition shapes foreign policy in Germany and beyond
+COP21 - The view from Germany
+Germany's energy transition revamp stirs controversy over speed, participation
+Germany's Energiewende: The Easy Guide
+The Energiewende's booming flagship braces for stormy times
+The wicked task of feeding 83 million in a climate-friendly way
+Political uncertainty weighs heavily on energy policy crunch time year for Germany
+Climate cabinet to put Germany back on track for 2030 targets
+Vote21 - German elections set the scene for key decade of energy transition
+Cooperation vs competition: How EU-China relations shape fight against climate change
+Clean resources and recycling crucial to make energy transition truly sustainable
+Building the new government that must put Germany on track for 2045 climate neutrality
+Preview 2022 – New German govt enters decisive energy transition year with high climate ambitions
+Europe's gas crisis - boon or bane for climate policy ambitions?
+Related News
+11 Jan 2023, 12:16
+EU must restore 500,000 hectares of moorland per year for 1.5°C target – report
+10 Jan 2023, 13:53
+Expression ‘climate terrorists’ that criminalises activists voted Germany’s ‘non-word’ 2022
+16 Jan 2023, 11:30
+Q&A: Why are police and climate activists clashing in German village near coal mine?
+09 Jan 2023, 14:10
+Germany to support climate adaptation in Pakistan with additional €84 million
+23 Dec 2022, 10:24
+Preview 2023: Climate action delay in transport sector must end – govt advisor
+Further ReadingFactsheetsDossiers
+Energy crunch - How does it affect Germany’s climate policy & what can be done?
+Climate & CO2, Fossil fuels, Security
+Next German government's key climate and energy plans in 2021 coalition agreement
+Climate & CO2, Elections & Politics
+Climate litigation advances to key tool for enforcing emission cuts
+Climate & CO2, Society, International
+Covering the EU’s “Fit for 55” package of climate and energy laws
+Climate & CO2, EU
+German top court finds key climate legislation insufficient in landmark ruling
+Climate & CO2, Policy
+All Factsheets ›
+Preview 2023: What to watch in energy & climate in Germany, Europe and beyond
+Climate & CO2, Government
+Preview 2022 – New German govt enters decisive energy transition year with high climate ambitions
+Climate & CO2, Electricity, Mobility, Business, Politics, International
+Germany's new govt promises to put Europe's biggest economy on 1.5°C path
+Climate & CO2, Elections & Politics
+Youth climate movement drives public debate about policy
+Climate & CO2
+Preview 2021: 'Climate election' set to dominate Germany's energy transition agenda
+Coal, Climate & CO2, Grid, Renewables, Mobility, Business
+All Dossiers ›
+Ask CLEW
+We are available to support journalists in their work. CLEW can assist with research, provide background information and help find the right interviewees to speak with on a wide variety of topics.Clean Energy Wire CLEWDresdener Str. 1510999 Berlin, Germanyinfo@cleanenergywire.org+49 30 62858 497
+Ask CLEW
+Researching a story? Drop CLEW a line or give us a call for background material and contacts.
+info@cleanenergywire.org
++49 30 62858 497
+Journalism for the energy transition
+Clean Energy Wire CLEWDresdener Str. 1510999 Berlin
+T: +49 30 62858 497
+info@cleanenergywire.org
+About CLEW
+Motivation
+Team
+Funders
+Partners
+Our Users
+Contact
+News
+Latest News
+News Archive
+Newsletter
+Analysis
+Dossiers
+Factsheets
+Network
+About the Network
+Mapping the Network
+CLEW Blog
+Events & Opportunities
+Research Tours
+Research Map
+All Events
+Services
+Easy Guide
+Experts
+Glossary
+Research Map
+Calendar
+© 2018 Clean Energy Wire. All rights reserved.
+Imprint
+Privacy Policy
+Up
+Get our Newsletter
+Join our Network
+Find an interviewee

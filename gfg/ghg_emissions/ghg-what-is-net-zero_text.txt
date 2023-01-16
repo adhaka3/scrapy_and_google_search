@@ -1,0 +1,183 @@
+What is Net Zero? - Net Zero Climate
+Home – Net Zero Climate
+What is Net Zero?
+Principles for Net Zero
+Practical Tools
+Progress Tracking
+Oxford Net Zero at COP27
+About us – Oxford Net Zero
+Research
+Greenhouse Gas Removal
+Nature-Based Solutions
+Equity & Inclusion
+Resilience & Recovery
+News and Events
+Contact us & Subscribe
+Privacy & User Policy
+What is Net Zero?
+It is international scientific consensus that, in order to prevent the worst climate damages, global net human-caused emissions of carbon dioxide (CO2) need to fall by about 45 percent from 2010 levels by 2030, reaching net zero around 2050. Global warming is proportional to cumulative CO2 emissions, which means that the planet will keep heating for as long as global emissions remain more than zero. This implies that climate damages, caused by global heating, will continue escalating for as long as emissions continue.
+What is net zero?
+Net zero refers to a state in which the greenhouse gases going into the atmosphere are balanced by removal out of the atmosphere.
+The term net zero is important because – for CO2 at least – this is the state at which global warming stops. The Paris Agreement underlines the need for net zero. It requires states to ‘achieve a balance between anthropogenic emissions by sources and removals by sinks of greenhouse gases in the second half of this century’.
+To ‘go net zero’ is to reduce greenhouse gas emissions and/or to ensure that any ongoing emissions are balanced by removals.
+The ‘net’ in net zero is important because it will be very difficult to reduce all emissions to zero on the timescale needed. As well as deep and widespread cuts in emissions, we will likely need to scale up removals. In order for net zero to be effective, it must be permanent. Permanence means that removed greenhouse gas does not return into the atmosphere over time, for example through the destruction of forests or improper carbon storage.
+Permanent or hard ‘net zero’ refers to a balance between all greenhouse gas sinks and sources that is sustained over matching time scales.
+Net Zero as the Goal
+Different terms (Carbon Neutral, Net Zero, Climate Neutral) point to different ways in which emissions sources and sinks are accounted for in context. They help to indicate what is and is not included in the calculation or a target. Net zero is the internationally agreed upon goal for mitigating global warming in the second half of the century. The IPCC concluded the need for net zero CO2 by 2050 to remain consistent with 1.5C. So, the purpose of this site is to inform effective climate action that is net zero aligned in order to advance progress towards this goal.
+Many actors will be able to achieve absolute zero or zero emissions, hence the choice of terms in the global ‘Race to Zero’ campaign focused on raising ambition. Others will need to scale up removals either themselves directly or by supporting other projects.
+Related Terms
+We explain terms related to net zero here so as to avoid confusion.
+Absolute Zero / Zero Emissions
+No GHG emissions are attributable to an actor’s activities across all scopes. Under this definition, no offsets or balancing of residual emissions with removals are used.
+A valid end-state target.
+Climate Neutral
+An actor’s activities result in no net effect on the climate system. Any GHG emissions or other activities with warming effects are fully compensated by GHG reductions or removals, or other activities with cooling effects — irrespective of the time period or the relative magnitude of emissions and removals involved. A near synonym for GHG neutral, but climate neutral also includes non-GHG radiative forcing effects, such as land use changes with albedo effects.
+Not a valid end-state target, as it does not require “like for like” balancing, but a possible intermediate step.
+GHG Neutral
+An actor’s net contribution to global GHG emissions is zero. Any GHG emissions attributable to an actor’s activities are fully compensated by GHG reductions or removals exclusively claimed by the actor — irrespective of the time period or the relative magnitude of emissions and removals involved.
+Not a valid end-state target, as it does not require “like for like” balancing, but a possible intermediate step.
+Carbon Neutral
+An actor’s net contribution to global CO2 emissions is zero. Any CO2 emissions attributable to an actor’s activities are fully compensated by CO2 reductions or removals exclusively claimed by the actor — irrespective of the time period or the relative magnitude of emissions and removals involved.
+Not a valid end-state target, as it only refers to carbon, but a possible intermediate step.
+Climate Positive / Net Negative
+An actor’s GHG removals, internal and external, exceed its emissions and any removals are “like for like”. Must be specified over a declared time period, and whether removals and emissions are cumulative or represent only the time period specified.
+A valid end-state target.
+Carbon Negative
+An actor’s carbon removals, internal and external, exceed its emissions and any removals are “like for like”. Must be specified over a declared time period, and whether removals and emissions are cumulative or represent only the time period specified.
+Not a valid end-state target, as it only refers to carbon, but a possible intermediate step.
+1.5°C Aligned
+Target is aligned with scenarios that yield a long-term warming outcome of below 1.5°C with some probability (e.g. 50%, 66%) and some amount of overshoot (e.g. no, low), both of which should be explicitly specified.
+Science-Based / Paris-Aligned
+Target is aligned with what the latest climate science deems necessary to meet the goals of the Paris Agreement — limiting global warming to well-below 2°C above preindustrial levels and pursuing efforts to limit warming to 1.5°C, with no or low overshoot.
+Offsetting
+Reducing GHG emissions (including through avoided emissions), or increasing GHG removals through activities external to an actor, in order to compensate for GHG emissions, such that an actor’s net contribution to global emissions is reduced. Offsetting is typically arranged through a marketplace for carbon credits or other exchange mechanism.
+Offsetting claims are only valid under a rigorous set of conditions, including that the reductions/removals involved are additional, not over-estimated, and exclusively claimed. Further, offsetting can only be used to claim net zero status to the extent it is “like for like” with any residual emissions.
+Insetting
+Reducing GHG emissions (including through avoided emissions), or increasing GHG removals through an actor’s scope 1, 2, or 3 emissions, in order to compensate for GHG emissions, such that an actor’s net contribution to global emissions is reduced.
+Insetting claims are only valid under a rigorous set of conditions, including that the reductions/removals involved are additional, not overestimated, and exclusively claimed. Further, insetting can only be used to claim net zero status to the extent it is “like for like” with any residual emissions.
+Neutralization
+GHG removals outside an actor’s emissions inventory, that balance residual GHG emissions such that an actor’s net contribution to global emissions is reduced or eliminated. May include offsetting, but also all other activities an actor makes outside its value chain that are contributions to mitigation. Near synonym of compensation, but limited to removals, and requires “like for like” balancing of residual emissions. Required if residual emissions remain after net zero status is achieved.
+Neutralization claims are only valid under a rigorous set of conditions, including that the reductions/removals involved are additional, not over-estimated, exclusively claimed, and “like for like”.
+Neutralization
+Compensation
+Reducing GHG emissions (including through avoided emissions), or increasing GHG removals through activities outside of an actor’s emissions inventory, in order to compensate for GHG emissions such that an actor’s net contribution to global emissions is reduced. Includes offsetting, but also all other activities an actor makes outside its value chain that are contributions to mitigation. Near synonym of neutralization, but not limited to removals, and does not necessarily imply “like for like” balancing of residual emissions. Potentially helpful during the transition to net zero.
+Compensation claims are only valid under a rigorous set of conditions, including that the reductions/removals involved are additional, not over-estimated, and exclusively claimed.
+Like for Like
+When a source of emissions and an emissions sink correspond in terms of their warming impact, and in terms of the timescale and durability of carbon storage.
+For example, fossil carbon is stable in the lithosphere over millennia if it is not extracted and burned, therefore mitigating measures (e.g. offsets) that aim to neutralise the effect of these emissions must persist for a comparable, geological-timescale. Although all CO2 once emitted, whether originally sourced from the lithosphere or biosphere, persists in the active carbon cycle for centuries to millennia, it may be appropriate to balance shorter-duration carbon released from biogenic carbon stocks (e.g. forests and soils) with comparably temporary storage in like stocks. The variable risks of reversal of different carbon stocks must also be considered, for example forests may suffer from unforeseen anthropogenic (e.g. illegal logging), non-anthropogenic (e.g. disease and disaster), or climate change-induced (e.g. warming) reversal risks.
+GHG Reductions
+Actions that reduce the quantity of GHGs attributable to an actor vis-a-vis a baseline.
+Examples include: Replacing fossil-burning power with renewable energy, reducing consumption of emissions-intensive products or inputs, avoiding damage to ecological carbon sinks, carbon capture and storage (CCS), avoided emissions from deployment of renewable energy, etc.
+GHG Removals
+Actions that remove GHGs from the atmosphere relative to baseline.
+Examples include: Afforestation and reforestation, soil carbon enhancement, bioenergy with carbon capture and storage (BECCS), direct air capture, mineralization, or enhanced weathering.
+In addition to the above definitions, sometimes the aim is not to account for all emissions, just carbon dioxide (CO2). Therefore, there are iterations on the above definitions such as net zero carbon, zero carbon and carbon negative.
+What does it mean to set a net zero aligned target?
+Scope
+The scope of net zero refers not only to which greenhouse gases are included, but also which activities are covered.
+Generally, net zero refers to all greenhouse gases, that is, all gases covered under the Kyoto Protocol, unless the definition refers to a specific gas (e.g. net zero carbon).
+In terms of activity coverage, most national and sub-national actors have a standardised approach to scoping net zero. This follows the IPCC’s guidelines for calculating national greenhouse gas inventories, bounded geographically (emissions that occur within a given territory).
+Within the private sector there are differences, but generally emissions are bounded following the Greenhouse Gas Protocol’s ‘scoped’ approach, and net zero aligned actors should attempt to cover all three scopes. The three scopes cover:
+● Scope 1 – direct company owned or controlled emissions occurring at source
+● Scope 2 – emissions associated with the production of energy consumed by a company
+● Scope 3 – indirect emissions associated with company activities from sources not owned or controlled by a company.
+Timing
+There are differing views about ambition in terms of timing for achieving net zero. However, there is strong international agreement across the climate community and convenors of the Race to Zero campaign that net zero targets should:
+● Reach net zero by 2050
+● Set interim targets
+● Act immediately
+Offsetting
+A carbon offset broadly refers to a reduction in GHG emissions – or an increase in carbon storage (e.g., through land restoration or the planting of trees) – that is used to compensate for emissions that occur elsewhere.
+While there is disagreement about the widespread use of offsetting there is strong international agreement across the climate community that any offsetting to achieve net requires:
+● Robust standards (e.g. additionality, permanence, verifiability, etc.)
+● Specification of offsetting approach, avoided emissions, reductions, or removals.
+The Oxford Principles for Net Zero Aligned offsetting also require offsetting strategies to:
+● Shift from carbon reduction to carbon removal.
+● Shift from carbon removal with high-risk (shorter-term) storage, to carbon removal with low-risk (longer-term) storage.
+● Support the development of net zero-aligned offsetting.
+Equity
+Many equity considerations are involved in setting a target to align with the global goal of achieving net zero. There is variation in agreement on how to operationalise differentiation around equity considerations, but there tends to be wide agreement in the international climate community that:
+● All should move to net zero, but scope and timing may differ due to capacity, responsibility, and other factors.
+Governance
+There are key governance considerations for setting net zero strategies. While actor-specific best practices may vary, it is of wide agreement in the climate community that strong governance towards net zero targets will include:
+● Formal, top-level commitment
+● Interim targets
+● Transparency through regular reporting and tracking
+● Clear action plans with specific operational implications
+Why do we need net zero?
+We need to reach net zero emissions in order to achieve the ambition of the Paris Agreement. It states we must hold global average temperature increase to “well below 2°C above pre industrial levels and pursuing efforts to limit the temperature increase to 1.5°C”.  The IPCC’s Special Report Global Warming of 1.5°C makes it clear that it is necessary to achieve a global balance between emissions and removals by 2050 in order to cap the rise in global temperatures below 1.5°C.
+While the Paris Agreement sets a global objective, action to achieve that objective is driven at the national level. Each country is responsible for setting their own policies to achieve the common goal. The delivery of these policies will take place at the local level. All countries, cities and businesses need to develop plans as to how they intend to achieve net zero.
+While there may be different approaches to achieving net zero, it is important that such plans follow a common set of principles.
+An image of a wind farm.
+HOW TO COMMIT TO NET ZERO:
+HOW TO GET NET ZERO RIGHT – THE 7 ATTRIBUTES
+The concept of net-zero carbon emissions has emerged from physical climate science. However, it is operationalized through social, political and economic systems. We identify seven attributes of net zero, which are important to make it a successful framework for climate action, using our recent paper in Nature Climate Change.
+The seven attributes highlight the urgency of emission reductions, which need to be front-loaded, and of coverage of all emission sources, including currently difficult ones. The attributes emphasize the need for social and environmental integrity. This means carbon dioxide removals should be used cautiously and the use of carbon offsets should be regulated effectively. Net zero must be aligned with broader sustainable development objectives, which implies an equitable net-zero transition, socio-ecological sustainability and the pursuit of broad economic opportunities.
+Looking for tools to help you follow these steps?
+Practical Tools for getting to net zero
+The 7 attributes
+Front-loaded emission reductions
+A comprehensive approach to emission reductions
+Cautious use of carbon dioxide removal and storage
+Effective regulation of carbon offsets
+An equitable transition to net zero
+Alignment with broader socio-ecological objectives
+Pursuit of new economic opportunities
+FIND OUT MORE ABOUT THE 7 ATTRIBUTES
+Public Servants and Climate Change: Reaching Net Zero online course
+Oxford Net Zero and the Smith School of Enterprise and the Environment’s brand new course provides a comprehensive overview of net zero, including its challenges, while exploring how public servants can promote the transition to net zero.
+DURATION
+10 hours total
+Dates
+Take the course at your own pace with bite-sized interactive lessons delivered to your inbox
+WHO is this course for?
+Junior and mid-level public servants seeking to develop confidence in researching, discussing, and connecting their work to the net zero efforts.
+By the end of this course you will:
+Evaluate and critique a climate change memo to more clearly and comprehensively explain the science of climate change.
+Investigate and analyse a climate action plan.
+Evaluate the role of public servants in driving net zero.
+Find out more
+Buy the course
+News and Events
+Climate goals can be achieved at affordable cost, if fossil fuel producers pay for carbon clear up – Oxford-led studyClimate change could be constrained by implementation of policies to ensure fossil fuel producers pay for carbon clear-up, or capture, according to new Oxford-led research, published today in Environmental Research Letters. Read more Oxford Net Zero is Hiring – Join Our Engagement and Impact TeamThe Engagement Team at Oxford Net Zero is looking for three new research assistants to start in February 2023 to support our growing work programme on net zero policy, civil society engagement, and communications. We are looking for energetic, ... Read more New ONZ report on Net Zero Commitments by Businesses in AfricaONZ fellow Dr Jessica Omukuti has undertaken a stocktake study on net zero commitments by Africa’s largest publicly listed companies. For the report, the team gathered data on the emission targets of Africa’s 250 largest publicly listed ... Read more ONZ contributes to new global guidelines for clarity on net zero action at COP27The ISO publishes the Net Zero Guidelines to support all actors and organisations to reach their net zero goals, with expert contribution from Oxford Net Zero. Read more New HLEG report provides clear guidance on Net Zero for cities, regions and corporationsNew UN HLEG report provides clear guidance on Net Zero for cities, regions and corporations. Read more Oxford Net Zero at COP27Lovely to meet you at COP27! We are here representing Oxford Net Zero, an interdisciplinary research group at the University of Oxford. Our group is made up of anthropologists, geophysicists, biologists, lawyers, political scientists and more. ... Read more
+See more news and events
+Retweet on TwitterOxford Net Zero RetweetedThe Smith School@TheSmithSchool·01.16.23THIS WEEK | Report launch: The State of #CarbonDioxideRemoval | 19 January | Hear from the authors and discover how close we are to achieving #NetZero
+Register & attend: https://www.eventbrite.co.uk/e/the-state-of-carbon-dioxide-removal-report-launch-registration-450547779537
+@OxfordNetZero @CO2REhub -@oxfordgeography @BankofAmerica @UWLaFollette @stv_smthReply on Twitter 1614910586663346179Retweet on Twitter 16149105866633461793Like on Twitter 16149105866633461792Twitter 1614910586663346179Retweet on TwitterOxford Net Zero RetweetedOxford Net Zero@OxfordNetZero·01.13.23Friday reading 📚👀
+@CSkidmoreUK's review into the prospects of the UK reaching net zero has been published 👇 https://twitter.com/CSkidmoreUK/status/1613796579202179073Chris Skidmore@CSkidmoreUK'Mission Zero'- The Net Zero Review has been published.
+Thanks to everyone who took part in the largest engagement exercise on net zero.
+The 340 page report makes 129 recommendations to deliver net zero at scale and lower cost. Read the report here:
+https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1128689/mission-zero-independent-review.pdfReply on Twitter 1613818181403004932Retweet on Twitter 16138181814030049322Like on Twitter 16138181814030049323Twitter 1613818181403004932Oxford Net Zero@OxfordNetZero·01.13.23The State of Carbon Dioxide Removal - Report launch
+Our executive director @stv_smth will present findings from this new report
+Thursday 19 January 2023 | 16:00-17:30 GMT | Online
+https://www.eventbrite.co.uk/e/the-state-of-carbon-dioxide-removal-report-launch-registration-450547779537Reply on Twitter 1613823180006739969Retweet on Twitter 1613823180006739969Like on Twitter 1613823180006739969Twitter 1613823180006739969Load More...
+Quick links
+Home Page
+About Us
+What is net zero
+Contact Us
+Tools library
+Subscribe
+
+
+
+Home – Net Zero Climate
+What is Net Zero?
+Principles for Net Zero
+Practical Tools
+Progress Tracking
+Oxford Net Zero at COP27
+About us – Oxford Net Zero
+Research
+Greenhouse Gas Removal
+Nature-Based Solutions
+Equity & Inclusion
+Resilience & Recovery
+News and Events
+Contact us & Subscribe
+Privacy & User Policy
+© Net Zero Climate
+Cookies
+Cookies Policy
+Our Website uses cookies to improve your experience.
+Please visit our Cookies page for more information about cookies and how we use them. Close

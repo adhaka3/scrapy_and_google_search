@@ -1,0 +1,98 @@
+Net greenhouse gas emissions (source: EEA) (sdg_13_10)
+Net greenhouse gas emissions (source: EEA) (sdg_13_10) ESMS Indicator Profile (ESMS-IP)
+Compiling agency: Eurostat, the statistical office of the European Union
+Eurostat metadata
+Reference metadata
+1. Contact
+2. Metadata update
+3. Relevance
+4. Statistical Indicator
+5. Frequency and Timeliness of dissemination
+6. Coverage and comparability
+7. Accessibility and clarity
+8. Comment
+Related Metadata
+Annexes (including footnotes)
+Eurostat Quality Profile
+4.5. Source data
+EEA (UNFCCC reporting)
+5.1. Frequency of dissemination
+Every year
+5.2. Timeliness
+T+2 years
+6.1. Reference area
+All EU MS
+6.2. Comparability - geographical
+All EU MS
+6.3. Coverage - Time
+> 10 years
+6.4. Comparability - over time
+> 4 data points
+Description of Eurostat quality grading system under the following link.
+For any question on data and metadata, please contact: EUROPEAN STATISTICAL DATA SUPPORT
+Download
+1. Contact
+Top
+1.1. Contact organisation
+Eurostat, the statistical office of the European Union
+1.2. Contact organisation unit
+E2: Environmental statistics and accounts; sustainable development
+1.5. Contact mail address
+e-mail contact : ESTAT-SDG-MONITORING@ec.europa.eu
+2. Metadata update
+Top
+2.1. Metadata last certified
+04/06/2018
+2.2. Metadata last posted
+10/05/2022
+2.3. Metadata last update
+06/05/2022
+3. Relevance
+Top
+The indicator is part of the EU Sustainable Development Goals (SDG) indicator set. It is used to monitor progress towards  Goal 13 on climate action; which is embedded in the European Commission’s Priorities under the European Green Deal. SDG 13 aims to implement the commitment to the United Nations Framework Convention on Climate Change and operationalise the Green Climate Fund. The EU reached agreement on the European Climate Law in April 2021. It sets out a framework for climate action to enhance certainty for society. The law also increases the EU’s ambition for 2030, with a new goal to reduce net GHG emissions by 55 % by that year. The law limits the contribution that carbon removals can make towards compliance with the net emission reductions target to ensure there is sufficient mitigation effort. It also establishes a European Scientific Advisory Board on Climate Change to provide scientific advice and reporting on EU measures, climate targets and indicative greenhouse gas budgets and their coherence with the European Climate Law and the EU's international commitments under the Paris Agreement. Furthermore, the NextGenerationEU recovery plan is the Union’s economic response to the COVID-19 crisis. It includes the Recovery and Resilience Facility worth EUR 672.5 billion, of which at least 37 % must go to climate action. Each national recovery and resilience plan will have to meet this target of a minimum of 37% of expenditure related to climate, and all reforms and investments by Member States as a part of the recovery fund must comply with the ’do-no-significant-harm’principle and therefore avoid significant negative impact on the EU’s climate and environmental objectives. The new EU cohesion policy (2021 to 2027) includes a ‘greener, carbon-free Europe’ as one of its five main objections receiving 65 % to 85 % of available funding together with an objective for a ‘smarter Europe’.
+4. Statistical Indicator
+Top
+4.1. Data description
+The indicator measures total national emissions (from both ESD and ETS sectors) including international aviation of the so called ‘Kyoto basket’ of greenhouse gases, including carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), and the so-called F-gases (hydrofluorocarbons, perfluorocarbons, nitrogen triflouride (NF3) and sulphur hexafluoride (SF6)) from all sectors of the GHG emission inventories (including international aviation and indirect CO2). The indicator is presented in two forms: as net emissions including land use, land use change and forestry (LULUCF) as well as excluding LULUCF. Using each gas’ individual global warming potential (GWP), they are being integrated into a single indicator expressed in units of CO2 equivalents. The GHG emission inventories are submitted annually by the EU Member States to the United Nations Framework Convention on Climate Change (UNFCCC).
+4.2. Unit of measure
+Index 1990 = 100 and tonnes of CO2 equivalent per capita
+4.3. Reference Period
+Calendar year.
+4.4. Accuracy - overall
+Indicator from non-ESS source. For assessment of accuracy please refer to the original source (see link to external data source and metadata in section “Annexes”).
+4.5. Source data
+EEA (UNFCCC reporting) Data source: EEA, Reporting under United Nations Framework Convention on Climate Change (UNFCCC reporting) Data provider: European Environment Agency (EEA), based on data from covered countries.
+5. Frequency and Timeliness of dissemination
+Top
+5.1. Frequency of dissemination
+Every yearIndicator is updated annually.
+5.2. Timeliness
+T+2 yearsNew data points are disseminated within two years after the reference year.
+6. Coverage and comparability
+Top
+6.1. Reference area
+All EU MSData are presented for all EU Member States plus Iceland, Norway, Switzerland, the United Kingdom and Turkey.
+6.2. Comparability - geographical
+All EU MSData are comparable between all EU Member States respectively other presented countries.
+6.3. Coverage - Time
+> 10 yearsPresented time series (including EU aggregates) starts in year 1990.
+6.4. Comparability - over time
+> 4 data pointsLength of comparable time series without methodological break is longer than 4 data points.
+7. Accessibility and clarity
+Top
+7.1. Dissemination format - Publications
+Analysis of the indicator is presented in Eurostat's annual monitoring report on Sustainable development in the EU (progress towards SDGs in the EU context).
+7.2. Dissemination format - online database
+See table sdg_13_10
+7.3. Dissemination format - other
+Eurostat dedicated section on SDGs: http://ec.europa.eu/eurostat/web/sdi/overview
+8. Comment
+Top
+Copyrights: Eurostat Copyright/Licence Policy is applicable.
+Related metadata
+Top
+env_air_gge_esms - Greenhouse gas emissions by source sector (source: EEA)
+Annexes
+Top
+National emissions reported to the UNFCCC and to the EU Greenhouse Gas Monitoring Mechanism
+EEA greenhouse gas - data viewer

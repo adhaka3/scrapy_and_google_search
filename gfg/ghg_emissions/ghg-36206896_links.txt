@@ -1,0 +1,1 @@
+['/?term=Hemingway+C&cauthor_id=36206896', '#affiliation-1', '/?term=Vigne+M&cauthor_id=36206896', '#affiliation-2', '/?term=Aubron+C&cauthor_id=36206896', '#affiliation-3', 'http://pubmed.ncbi.nlm.nih.gov/36206896/', 'https://doi.org/10.1016/j.scitotenv.2022.159145']
