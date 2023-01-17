@@ -1,0 +1,95 @@
+What is ESG Investing? | ADEC ESG
+What We Do
+Corporate Strategy
+ESG Metrics Management
+Disclosure and Reporting
+Software and Technology Solutions
+Who We Are
+Meet the Team
+Vision and Values
+Corporate Profile
+Resources
+Blog
+White Papers
+Webinar
+Newsletters
+FAQ
+Our Work
+Client Testimonials
+Client Case Studies
+Contact Us
+Shop Our Services
+Our Global Offices
+Careers
+Social Media
+Join Our Team
+Your Sustainability Journey
+FAQS
+What is decarbonization?
+What is Sustainatech?
+What is a water risk assessment?
+What are carbon offsets?
+What is an internal price of carbon?
+What is ESG Investing?
+What is ESG?
+What are GHGs?
+What is Impact Investing?
+What is social sustainability?
+FAQs About the FCS Name Change
+What is the difference between social sustainability and social responsibility?
+What is ESG Investing?
+ESG Investing (also known as “socially responsible investing,” “impact investing,” and “sustainable investing”) refers to investing which prioritizes optimal environmental, social, and governance (ESG) factors or outcomes. ESG investing is widely seen as a way of investing “sustainably”—where investments are made with consideration of the environment and human wellbeing, as well as the economy.1 It is based upon the growing assumption that the financial performance of organizations is increasingly affected by environmental and social factors.2 The principles of ESG investing are nothing new. Hundreds of years ago, religious and ethical beliefs influenced investment decisions. Muslims established investments that complied with Sharia law, which included prohibitions on weapons. The first ethical unit trusts in the US and UK were developed by Quakers and Methodists.3 Today, the growing prominence of corporate social responsibility (CSR) and social sustainability has led to increased investor awareness about ethical participation in the market. ESG investing may have officially entered mainstream investing discourse following the release of the Principles for Responsible Investments (PRI)4 in 2006 – a set of United Nations guidelines for the incorporation of ESG factors into business policy and strategy.5 The PRI have over 2,000 signatories and are widely considered the official point of reference for all things ESG investing. The ESG Investing Boom Recent years have seen a significant expansion of ESG investing around the globe as organizations and individuals increasingly recognize the interdependencies between social, environmental, and economic issues.6 The COVID-19 pandemic encouraged this trend notably.7 Market disruption and uncertainty caused by the pandemic in 2020 led many investors to turn to ESG funds for increased resiliency. In fact, the first three months of 2020 saw $45.6 billion USD flow into these funds globally.8 $30.7 trillion currently sits in sustainable investment funds worldwide, and it is predicted this could rise to around $50 trillion in the next two decades.9 More investors are looking to fund organizations and products that support and promote sustainability, and comply with emerging regulations such as climate change regulations. This demand has been met with increased action on ESG issues in the business world, as well as progressively higher returns on investment for ESG funds due to their resilience against conventional market disruptions.10 Portfolios incorporating ESG and sustainability also frequently perform better in the long-term than those that don’t.11 For example, US financial services firm Morningstar found that over a period of 10 years, 80% of blend equity funds investing sustainably outperform traditional funds.12 They also found that 77% of ESG funds that existed 10 years ago have survived, compared with 46% of traditional funds. This boom in ESG investing can be attributed to a range of factors. As supply chains become more complex, there is a wider awareness of social, labor, and human rights issues and risks for the business world.13 Growing concern for environmental issues such as climate change also influence investor decisions.  The heightened engagement of groups previously less involved in traditional investing—particularly young people and women—is also thought to have contributed to the ESG investing boom.14 To reflect these evolving societal values and norms, it is important that organizations adopt forward-looking ESG practices if they want to remain competitors in their industry and contribute to the common good. Industries that are slow to uptake these changes receive increasing criticism and pressure from stakeholders, investors, and concerned citizens alike. Legal obligations are also expected to progressively tighten for these industries. In May 2021, a Dutch court ruled that Royal Dutch Shell cut greenhouse gas emissions by 45% by 2030.15 In the same week, ExxonMobil and Chevron faced pressure from their shareholders to reduce the companies’ contributions to climate change. It is likely these events will spark further transformations within these industries. What topics fall under ESG and how are they rated? ESG issues cover a variety of topics that are applicable to all industries and organizations in one way or another. While the avoidance of “sin stocks” was traditionally considered central to investing ethically, ESG investing entails a broader scope of issues, including:
+Environmental
+Social
+Governance
+Environmental
+Climate change Greenhouse gas (GHG) emissions Resource depletion Waste and pollution Water and energy efficiency Deforestation Biodiversity
+Social
+Working conditions Equal opportunities Human rights Employee diversity Health and safety Child labor and slavery Community engagement Philanthropy
+Governance
+Business ethics Executive pay Board diversity and structure Bribery and corruption Political lobbying and donations Tax strategy Compliance
+There are few (if any) areas of business operations where ESG is not relevant. However, not all ESG issues are given equal weight when it comes to investing. Just as every investor in the market has different values and motivations, it is unlikely that an organization will (or should) prioritize all ESG issues in their business strategy. Those that are prioritized by investors and organizations are determined by the environmental, social, and economic circumstances of the time, and what is deemed more important and material to a company, given their industry, geography, and specific circumstances. Some prominent ESG issues influencing investors include:
+Organizations’ efforts to mitigate climate change and other environmental disasters such as biodiversity loss. For example, have they achieved or are they on the way to achieving net-zero emissions? Human rights issues within an organization’s supply chain. For example, have they published a Modern Slavery Statement or disclosed supply chain details within annual reports? Workplace diversity and equal opportunities. For example, what proportion of the organization's employees identify as underrepresented groups? How diverse is management? Is there equal representation at the executive and C-suite levels?
+An organization’s performance against ESG issues helps stakeholders make key decisions, and there are many tools available to measure or report on ESG performance. Some of the most popular include CDP, the Global Reporting Initiative (GRI), the Task Force on Climate-related Financial Disclosures (TCFD), and EcoVadis. These groups help companies measure and report on performance in a range of areas including governance, climate-related risks and opportunities, emissions, resource management, procurement, engagement strategy, and many others. Some other platforms commonly used by investors to determine company ESG ratings include the Dow Jones Sustainability Index (DJSI), Morgan Stanley Capital International (MSCI), FTSE4Good, and ISS ESG solutions. These indices tend to be more investor-oriented, providing succinct metrics about a company’s financial performance. However, there are an abundance of ESG indices, frameworks, and standards organizations can choose to report or align to, and each should perform its own assessment of which best suit their goals and investor preferences to optimize their ESG reporting.
+Our conviction is that companies perform better when they are deliberate about their role in society and act in the interests of their employees, customers, communities and their shareholders. BlackRock, 2021 How can my organization attract investors through ESG? It is vital for organizations to recognize and embrace the shift occurring in the investing world. No longer does the term “investor” solely refer to a select group of people. Rather, investing is increasingly understood as a tool to vote with one’s dollars, attracting a diverse range of people around the globe. The range of factors investors consider when making decisions has become much broader, reflecting this gradual diffusion of more progressive and holistic ESG values into the investing arena. As issues such as climate change and COVID-19 have demonstrated the fragility of business-as-usual approaches, they have also highlighted the importance of organizational resiliency. Shareholders and stakeholders expect a transition towards more environmentally, socially, and economically sustainable business activity to support future generations. Organizations must build their adaptive capacities by considering an increasingly wider range of metrics in their business operations and long-term strategies. By identifying ESG benchmarks which are material to them and setting robust targets against these, organizations can set themselves up for success. For more information on creating business resiliency, download our ESG Roadmap to Resilience white paper. 1 Daugaard D 2020, ‘Emerging new themes in environmental, social and governance investing: a systematic literature review’, Accounting & Finance 60, 1501-1530, doi 10.1111/acfi.12479.2 Boffo R & Patalano R, 2020, ESG Investing: Practices, Progress and Challenges, OECD Paris, www.oecd.org/finance/ESG-Investing-Practices-Progress-and-Challenges.pdf3 Sherwood M & Pollard J 2018, ‘A historical survey of ESG investing’ in Responsible Investing, Routledge, London, 4-28; "The History Of Sustainable Investing", Morningstar, 2020, https://www.morningstar.in/posts/57694/history-sustainable-investing.aspx.4 Principles for Responsible Investment, What are the Principles for Responsible Investment?, viewed 23 February 2020, https://www.unpri.org/pri/what-are-the-principles-for-responsible-investment5 Gifford J 2010, ‘Financial markets and the United Nations Global Compact: the Principles for Responsible Investment’ in The United Nations Global Compact: Achievements, Trends and Challenges, Cambridge University Press, 195-214.6 Daugaard 2020.7 Stevens P, Sustainable investing is set to surge in the wake of the coronavirus pandemic, June 7 2020, https://www.cnbc.com/2020/06/07/sustainable-investing-is-set-to-surge-in-the-wake-of-the-coronavirus-pandemic.html8 Folger-Laronde Z, Pashang S, Feor L & ElAlfy A, 2020, ‘ESG ratings and financial performance of exchange-traded funds during the COVID-19 pandemic’, Methodology and Policy, https://doi.org/10.1080/20430795.2020.17828149 Global Sustainable Investment Alliance, 2018 Global Sustainable Investment Review, https://apo.org.au/node/228331; Stevens, P 2019, Your complete guide to investing with a conscience, a $30 trillion market just getting started, https://www.cnbc.com/2019/12/14/your-complete-guide-to-socially-responsible-investing.html10 Umar Z, Kenourgios D & Papathanasiou S, 2020, ‘The static and dynamic connectedness of environmental, social and governance investments: International evidence’, Economic Modelling, 93, 112-124; doi: https://doi.org/10.1016/j.econmod.2020.08.00711 Lieberman D, 2020, ‘Impact Investing 2.0—Not Just for Do-Gooders Anymore’The Journal of Investing, 29 (2) 58-69; https://doi.org/10.3905/joi.2019.1.11212 Riding S, 2020, Majority of ESG funds outperform wider market over 10 years, The Financial Times, June 13, https://www.ft.com/content/733ee6ff-446e-4f8b-86b2-19ef42da382413 Bril H, Kell G & Rasche A, 2020, Sustainable investing: A path to a new horizon, Routledge, New York.14 Daugaard 2020; Nath L, Holder-Webb L & Cohen J, 2012, ‘Will Women Lead the Way? Differences in Demand for Corporate Social Responsibility Information for Investment Decisions’, Journal of Business Ethics, 118, 85-102.15 Leber, R, 2021, Why big oil should be worried after a day of reckoning, Vox, May 27, https://www.vox.com/22455347/exxon-board-shell-oil-news-chevron-engine-no-one
+You may also be interested to learn...
+What are GHGs?
+What is ESG?
+What is a water risk assessment?
+Be a sustainability leader.
+Our team supports you no matter where you are on your Sustainability Journey.
+Talk to us today to learn more.
+Contact Us
+Contact 250 Commerce, Suite 210
+Irvine, CA 92602
+USA
+T: +1 888 826 5814
++1 714 508 4100
+F: +1 714 508 4110 E: esginfo@adec-innovations.com
+ESG Spotlight
+Your Sustainability Journey
+Corporate Strategy
+ESG Metrics Management
+Disclosure and Reporting
+Software and Technology Solutions
+Company
+Meet the Team
+Corporate Profile
+Careers
+Blog
+News
+Subscribe Sign up for our monthly GreenWatch newsletter for updates, resources from our team, and the latest industry news.
+Subscribe
+Other ADEC Innovations
+FirstCarbon Solutions (FCS)
+Cameron-Cole
+CleanChain
+MetricsTrac
+FoodChain
+Follow Us
+Privacy Policy
+Terms & Conditions
+Accessibility
+©2023 ADEC INNOVATIONS. All rights reserved.
+ADEC Innovations would like the information in this website to be accessible to all our users. Anyone needing assistance or having difficulty accessing this website should call us toll-free at +1 888 826 5814 or email us at esginfo@adec-innovations.com.
+Top

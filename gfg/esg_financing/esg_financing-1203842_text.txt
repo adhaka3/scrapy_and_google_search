@@ -1,0 +1,933 @@
+ESG In Finance: Through The Looking Glass - Fin Tech - India
+Home
+India
+Technology
+CONTRIBUTOR
+ARTICLE
+Share
+Forward this article
+Save & File (Pocket)
+LinkedIn
+Twitter
+Facebook
+Follow
+Question
+Print
+Translate
+Translation
+India:
+ESG In Finance: Through The Looking Glass
+21 June 2022
+by
+Bagmisikha
+Puhan (New Delhi)
+and
+Rajeev Parashar (New Delhi)
+TMT Law Practice
+Your LinkedIn Connections with the authors
+To print this article, all you need is to be registered or login on Mondaq.com.
+Introduction
+Environmental, social, governance (ESG) is the
+focal point of all regulatory and policymaking agendas across the
+world. The financial service sector is no recluse, and there are
+pivots for changing this landscape for the better too.
+Environmental criteria refers to the energy consumption of
+the company, the resources it consumes, the waste it discharges and
+the impact it has on the lives of living beings. The social
+criteria addresses the relationships that the company has
+(builds and aims to build) with the communities where it does
+business in; labor relations, social diversity and inclusion, all
+form part of this. Governance as a criterion focuses on
+the internal systems, practices, processes, and compliance with the
+law1.
+In this article, we will discuss the prominent sectors and
+regulators who have considerable inputs with respect to ESG in the
+finance ecosystem. As a matter of fact, the cryptocurrency industry
+which is infamous for its opacity and lack of acceptance, is also
+fraught with ESG concerns, which we will explore right off the
+bat.
+Blockchain, Cryptocurrencies and more than Crypto
+There are apparent challenges in the form of sustainability of
+cryptocurrencies, for there is a phenomenal rise in demand for
+energy. Unilateral rhetoric of crypto-mining leading to undoing of
+all environment sustainability efforts, or that of it being the
+sustainable and green-er industry, has led to vested interests
+coming to the fore. Depending on the message the regulator wants to
+send out, we have seen governments swaying from being passive about
+it, to either banning it, or regularizing it.
+An industry which is not averse to creating shockwaves, across
+the business world, ESG concerns, and sustainability have been on
+the forefront of many discussions. The differing opinions in this
+domain come from proof of work (PoW) and proof of
+stake (PoS) mechanisms, with PoW being treated as
+the sub-par technology with higher energy consumption. To the
+dismay of most, as per the Bitcoin Mining Network Report published
+by CoinShares in 2019, almost 73% of the energy utilized towards
+mining activities stem from renewable energy sources1.
+Without disregard to any mechanism of cryptocurrency, the ecosystem
+will examine the better efficient assets, which would suit for
+large-scale adoption.
+In fact, there have been studies across cases and geographies,
+of strengthened ESG helping reduce companies' risk of any
+adverse government actions. One might even go on to say that it
+engenders government support2. This could be one of the
+key areas of focus for the cryptocurrency segment, which yearns for
+legitimacy and faster adoption. Goes without saying that for
+countries to meet their SDGs3, regulatory actions may
+impose higher costs for carbon-intense industries; this might be an
+opportune moment for this sector to revamp their operations and
+embrace energy-efficient operations.
+It is important for us to consider that ESG is beyond just
+"E", and this is where this sector has felt the most
+criticism; there is very little impetus put on the social inclusion
+and digital aspects of this industry. However, with digital
+transformation, decentralized finance, individuals now have easier
+access to financing, almost no banking fees, better rates on
+savings, and financial inclusion is being better afforded in this
+manner. Distributed ledger technology, including blockchain, has
+the potential and has been utilized to deliver, realize SDGs, on an
+unparalleled scale. Governance will continue to be adaptive with
+more awareness, better representation, and willingness to assume
+risks and strategies for ESG. Fortunately, for this nascent
+industry, which has so many use cases, the teams which are at the
+forefront, all appear to be skilled strategy makers, and are highly
+adaptive with respect to the requirements that may be sought at a
+regulatory level, social level or at the level of consumer
+awareness.
+Asset and Fund Managers
+Moving away from the much recent world of cryptocurrencies, the
+sturdy and conventional set-up of asset and fund managers, and
+asset owners are also being required by regulators and investors,
+alike, to embed sustainable
+investment4 across their business
+activities and to adapt to all facets of ESG.
+European Union
+One of the interesting approaches undertaken was by the European
+Union. The focus is four-pronged: (1) Taxonomy – focusing on
+a unified classification on what can be considered
+environmentally sustainable economic activities; (2)
+Disclosure – focusing on obligations on the institutional
+investors and asset managers to disclose how they integrate ESG
+factors in their risk processes; (3) Benchmarks – creation of
+categories of benchmarks, comprising low-carbon and positive carbon
+impact benchmarks; and, (4) Sustainability Preferences –
+requirement to include ESG considerations into the advice that
+investment firms and insurance distributors offer to their
+clients5.
+The European Commission's delegated acts6,
+allowed for the taxonomy regulation7 (EU
+Taxonomy) to apply from January 01, 2022. These
+regulations and the delegated acts are designed to help the
+investors in making informed decisions on economic activities which
+are economically sustainable; but do not disallow investments in
+activities which are ineligible under this EU Taxonomy. This is the
+first jurisdiction which has such taxonomical prescriptions in
+place. The Members of the European Parliament have sought a
+legislative proposal to include in the EU Taxonomy for sustainable
+activities any crypto-asset mining activities that contribute
+substantially to climate change, by 1 January 20258.
+United States of America
+President Biden's Executive Order9 on the
+responsible development of digital assets also requests reports
+from various US federal agencies which should address the effect of
+consensus mechanisms on energy usage. This order requested the
+various federal agencies exploring the short, medium, and long-term
+effects of new digital asset technologies, such as proof-of-stake
+cryptocurrency mining, on climate change and the energy sector.
+With investors becoming more aware, they have expressed a need
+for more consistent, comparable and reliable information about how
+a registrant has addressed climate-related risks when conducting
+its operations and developing its business strategy and financial
+plan. Per the Securities Exchange Commission's
+(SEC) proposed rules10, outside the
+audited financial statements, (1) narrative disclosures about
+climate-related risks, their impact and how the company manages
+them; and (2) quantitative disclosures about greenhouse gas (GHG)
+emissions will now have to be made. Additionally, within the
+audited financial statements, there are disclosure requirements
+towards aggregate amount of climate-related costs both expensed and
+capitalized.
+India
+India, with its exceptional technological advancement in the
+finance space, and with being the cradle of several institutional
+investors and funds, now also has its regulator suggesting
+regulations for ESG ratings. As companies are being forced to
+integrate ESG with their business practices, the Securities
+Exchange Board of India (SEBI) is also aligning
+itself with the global practices. The SEBI released a consultation
+paper11 on January 24, 2022, focusing on evaluation and
+rating of ESG related parameters by ESG rating providers. The paper
+goes on to say, "since the activities of ESG ratings
+providers (ERPs) are typically not subject to regulatory oversight
+at present, increasing reliance on such unregulated ESG rating
+providers in securities markets raises concerns about the potential
+risks it poses to investor protection, the transparency and
+efficiency of markets, risk pricing, and capital allocation, among
+others."
+This seems a step in the right direction and will bring a
+certain level of transparency and uniformity to the ecosystem. It
+has been reported that a total of 11 mutual fund schemes, with INR
+13,000 crore rupees ($1.72 billion) under their management in
+India, have ESG as their theme12, which stresses on the
+need to regulate ESG rating process. The proposal is to have SEBI
+accredit these ERPs and has also suggested that every ERP should
+have at least one specialist in data analytics, sustainability,
+finance, information technology, and law. Factoring concerns
+related to interested parties, the proposed paper also seeks ERPs
+to formulate clear policies and make disclosures on their websites,
+to avoid conflict of interest. An ERP should not provide ESG
+ratings to its related entities or securities issued by them or the
+ERP.
+Subsequently, SEBI has constituted an advisory
+committee13 on Environmental, Social and Governance
+(ESG) matters, whose terms of reference include enhancements in
+Business Responsibility and Sustainability Report14, ESG
+ratings and ESG investing.
+Conclusion
+We have witnessed that when it comes to ESG concerns,
+environment does find a lot of prominence, mostly following all the
+international commitments, signing of climate-change accords, and
+net-zero emission targets. However, with companies realizing that
+to bring in a competitive advantage they need sustainability, ESG
+issues are up higher, if not right on top, of board agendas. The
+need for social investing has never been greater, in the face of
+Covid-19 pandemic, the disparity in gender roles when it comes to
+workplaces became a lot apparent. The institutional investors have
+the scale, the wherewithal that is required for making a change in
+social inclusion, a reality.
+It is not incorrect to say that the investors demands actually
+motivate the behavior of the institutions. While there is
+skepticism in regulatory push, the demands of the investors are
+being felt on the capital markets, which in turns drives the need
+for ESG to be integrated into business practice. The time to blend
+ESG into practice is now, and the world of finance is capable of
+driving the change.
+Footnotes
+1. Witold Henisz, Tim Koller, Robin Nuttall. Five ways
+that ESG creates value, Getting your environmental, social, and
+governance proposition right links to higher value creation.
+Here's why. McKinsey Quarterly, November 2019. Accessible at:
+https://www.mckinsey.com/~/media/McKinsey/Business%20Functions/Strategy%20and%20Corporate%20Finance/Our%20Insights
+/Five%20ways%20that%20ESG%20creates%20value/Five-ways-that-ESG-creates-value.ashx,
+last accessed on May 26, 2022, at 1214 hrs.
+2. Christopher Bendiksen & Samuel Gibbons. The
+Bitcoin Mining Network – Trends, Composition, Average
+Creation Cost, Electricity Consumption & Sources.
+CoinShares Research. December 03, 2019. Accessible at: https://coinshares.com/research/bitcoin-mining-network-december-2019,
+last accessed on May 26, 2022, at 1515 hrs.
+3. Supra note 1, at p. 5.
+4. https://sdgs.un.org/#goal_section,
+last accessed on May 24, 2022, at 1825 hrs.
+5. Michelle Adcock. ESG and Sustainable Finance:
+Regulatory insights on environmental, social and governance topics
+on the horizon. Accessible at: https://home.kpmg/xx/en/home/insights/2020/10/esg-and-sustainble-finance.html,
+last accessed on May 26, at 1844 hrs.
+6. A communication was first made in 2018, towards this.
+Communication From the Commission To The European Parliament, The
+European Council, The Council, The European Central Bank, The
+European Economic And Social Committee And The Committee Of The
+Regions Action Plan: Financing Sustainable Growth, European
+Commission. Accessible at: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018DC0097&from=EN;
+last accessed on May 26, 2022, at 1859 hrs.
+7. COMMISSION DELEGATED REGULATION (EU) 2021/2178 of 6
+July 2021 supplementing Regulation (EU) 2020/852 of the European
+Parliament and of the Council by specifying the content and
+presentation of information to be disclosed by undertakings subject
+to Articles 19a or 29a of Directive 2013/34/EU concerning
+environmentally sustainable economic activities, and specifying the
+methodology to comply with that disclosure obligation; Accessible
+at: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R2178&from=EN;
+last accessed on May 26, 2022, at 1834 hrs; and, COMMISSION
+DELEGATED REGULATION (EU) 2021/2139 of 4 June 2021 supplementing
+Regulation (EU) 2020/852 of the European Parliament and of the
+Council by establishing the technical screening criteria for
+determining the conditions under which an economic activity
+qualifies as contributing substantially to climate change
+mitigation or climate change adaptation and for determining whether
+that economic activity causes no significant harm to any of the
+other environmental objectives; Accessible at: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R2139&from=EN;
+last accessed on May 26, 2022, at 1836 hrs.
+8. REGULATION (EU) 2020/852 OF THE EUROPEAN PARLIAMENT
+AND OF THE COUNCIL of 18 June 2020 on the establishment of a
+framework to facilitate sustainable investment, and amending
+Regulation (EU) 2019/2088; Accessible at: https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R0852&from=EN;
+last accessed on May 26, 2022, at 2033 hrs.
+9. https://www.europarl.europa.eu/news/en/press-room/20220309IPR25162/cryptocurrencies-in-the-eu-new-rules-to-boost-benefits-and-curb-threats;
+last accessed on May 26, 2022, at 2055 hrs.
+10. https://www.whitehouse.gov/briefing-room/presidential-actions/2022/03/09/executive-order-on-ensuring-responsible-development-of-digital-assets/;
+last accessed on May 26, 2022, at 2058 hrs.
+11. Enhanced Disclosures by Certain Investment Advisers
+and Investment Companies about Environmental, Social, and
+Governance Investment Practices (Proposed Rules), SEC; accessible
+at: https://www.sec.gov/rules/proposed/2022/ia-6034.pdf;
+last accessed on May 26, 2022, at 2125 hrs. The Proposed Rules were
+open for comments till May 20, 2022, and then and amended version
+was released on May 25, 2022, open for public comments for 60 days
+from date of publication in Federal Register.
+12. https://www.sebi.gov.in/reports-and-statistics/reports/jan-2022/consultation-paper-on-environmental-social-and-governance-esg-rating-providers-for-securities-markets_55516.html;
+last accessed on May 26, 2022, at 2138 hrs.
+13. https://www.thehindubusinessline.com/markets/stock-markets/sebi-examining-esg-aspects-of-ratings-releases-by-credit-rating-agencies/article37836662.ece;
+last accessed on May 26, 2022, at 2146 hrs.
+14. https://www.sebi.gov.in/media/press-releases/may-2022/sebi-constitutes-advisory-committee-on-environmental-social-and-governance-esg-matters_58794.html;
+last accessed on May 26, 2022, at 2154 hrs.
+15. SEBI has mandated that the BRSR will be applicable to
+the top 1,000 listed entities (by market capitalization) for
+reporting on a voluntary basis for FY2021–22 and on a
+mandatory basis from FY2022–23.
+The content of this article is intended to provide a general
+guide to the subject matter. Specialist advice should be sought
+about your specific circumstances.
+AUTHOR(S)
+Bagmisikha
+Puhan
+TMT Law Practice
+Rajeev
+Parashar
+TMT Law Practice
+ARTICLE TAGS
+India
+Environment
+Environmental Law
+Finance and Banking
+Financial Services
+Technology
+Fin Tech
+POPULAR ARTICLES ON: Technology from India
+Credit Card Payments On UPI: Wherefores And Whys
+Ikigai Law
+RBI has proposed linking credit cards (CC) to UPI. It'll, to start with, allow Rupay credit card payments through UPI rails. And in the due course, allow other CC issuers to come on board.
+Guidelines On Digital Lending In India - Digital Lending Trends
+King, Stubb & Kasiva
+Digital lending is a process which provides financial institutions an opportunity to make borrowings and raise productivity in order to facilitate lending services.
+Does India Need A CBDC?
+Ikigai Law
+The United States wants to 'get it right than to be first'. That's what Jerome Powell, US Federal Reserve's chairman said about the digital Dollar two years ago.
+The Hassleocracy Of Crypto-taxes
+Ikigai Law
+Ouch. That's the RBI Governor, not mincing his words. Like everyone else, we've pored over the Budget announcements on crypto-assets.
+FinTales 2022 Round-Up
+Ikigai Law
+Like everyone else, we've pored over the Budget announcements on crypto-assets. The euphoria in the crypto-verse was short-lived. Crypto-assets haven't been outlawed; but that's about it.
+A Letter To UPI
+Ikigai Law
+That's PM Modi lauding UPI crossing 6 billion transactions in July. Like any icon, UPI has gained its share of admiration and envy. Last month, we intercepted a letter from a Rs.
+RELATED   CONTENT
+FREE News Alerts
+Sign Up for our free News Alerts - All the latest articles on your chosen topics condensed into a free bi-weekly email.
+Register For News Alerts
+Article Tags
+India
+Environment
+Environmental Law
+Finance and Banking
+Financial Services
+Technology
+Fin Tech
+More Tags
+Similar Articles
+Powered by mondaq AI
+MATCH
+48%
+Importance Of New Business Responsibility & Sustainable Reporting Framework
+Dhir & Dhir Associates
+Related Articles
+The FTX Collapse: Key Takeaways
+Economic Laws Practice
+Guidelines On Digital Lending In India - Digital Lending Trends
+King, Stubb & Kasiva
+Does India Need A CBDC?
+Ikigai Law
+The Diary Of A Fintech Entrepreneur
+Ikigai Law
+FTX's House Of Cards
+Ikigai Law
+Mondaq Webinars
+JAN18
+Navigating the AI Legal Landscape
+INQ Law
+JAN24
+2023 Canadian In-House Counsel Report: Unparalleled Insights into Canada's In-house Profession from CCCA | Mondaq
+The Canadian Corporate Counsel Association
+More Webinars
+Comparative Guides
+Alternative Investment Funds
+Artificial Intelligence
+Aviation Finance
+Aviation Regulation
+Blockchain
+More Guides
+Mondaq Advice Centres
+India
+Trademarks
+India
+Arbitration, Litigation and Conciliation
+India
+Insolvency
+Global
+Trademarks in SAARC Countries
+More MACs
+Upcoming Events
+Region / Country
+Africa
+Asia Pacific
+Australasia
+Caribbean
+Europe
+European Union
+Latin America
+Middle East
+Worldwide
+European Union
+Canada
+Cayman Islands
+Germany
+Greece
+Ireland
+Moldova
+Puerto Rico
+South Africa
+Sweden
+Switzerland
+UK
+United Arab Emirates
+United States
+Topic
+Accounting and Audit
+-
+Audit
+Antitrust/Competition Law
+-
+Antitrust, EU Competition
+-
+Cartels, Monopolies
+Consumer Protection
+-
+Dodd-Frank, Consumer Protection Act
+-
+Education
+Corporate/Commercial Law
+-
+Charities & Non-Profits
+-
+Compliance
+-
+Corporate and Company Law
+-
+Corporate Governance
+-
+Directors and Officers
+-
+Diversity, Equity & Inclusion
+-
+M&A/Private Equity
+-
+Securities
+-
+Shareholders
+-
+Trusts
+-
+Venture Capital
+Criminal Law
+-
+Crime
+-
+White Collar Crime, Anti-Corruption & Fraud
+Employment and HR
+-
+Contract of Employment
+-
+Discrimination, Disability & Sexual Harassment
+-
+Employee Benefits & Compensation
+-
+Employee Rights/ Labour Relations
+-
+Health & Safety
+-
+Redundancy/Layoff
+-
+Retirement, Superannuation & Pensions
+-
+Unfair/ Wrongful Dismissal
+Energy and Natural Resources
+-
+Energy Law
+-
+Mining
+-
+Oil, Gas & Electricity
+-
+Renewables
+Environment
+-
+Climate Change
+-
+Environmental Law
+Family and Matrimonial
+-
+Wills/ Intestacy/ Estate Planning
+Finance and Banking
+-
+Commodities/Derivatives/Stock Exchanges
+-
+Debt Capital Markets
+-
+Financial Services
+-
+Fund Management/ REITs
+-
+Securitization &amp; Structured Finance
+Food, Drugs, Healthcare, Life Sciences
+-
+Food and Drugs Law
+-
+Healthcare
+-
+Life Sciences, Biotechnology & Nanotechnology
+Government, Public Sector
+-
+Constitutional & Administrative Law
+-
+Fiscal & Monetary Policy
+-
+Government Contracts, Procurement & PPP
+-
+Terrorism, Homeland Security & Defence
+Immigration
+-
+General Immigration
+Insolvency/Bankruptcy/Re-structuring
+-
+Financial Restructuring
+-
+Insolvency/Bankruptcy
+Insurance
+-
+Insurance Laws and Products
+Intellectual Property
+-
+Copyright
+-
+Patent
+-
+Trade Secrets
+-
+Trademark
+International Law
+-
+International Trade &amp; Investment
+Law Department Performance
+-
+Management
+-
+Performance
+-
+Workflow and Workload Management
+Law Practice Management
+-
+Human Resource Management
+-
+Strategic Planning
+Litigation, Mediation & Arbitration
+-
+Arbitration & Dispute Resolution
+-
+Civil Law
+-
+Class Actions
+-
+Court Procedure
+-
+Personal Injury
+-
+Trials &amp; Appeals &amp; Compensation
+Media, Telecoms, IT, Entertainment
+-
+Advertising, Marketing & Branding
+-
+Broadcasting: Film, TV & Radio
+-
+Social Media
+-
+Telecoms, Mobile & Cable Communications
+Privacy
+-
+Data Protection
+-
+Privacy Protection
+Real Estate and Construction
+-
+Construction & Planning
+-
+Landlord & Tenant - Leases
+-
+Real Estate
+Strategy
+-
+Economic Analysis
+-
+Industry Updates & Analysis
+-
+Investment Strategy
+-
+Knowledge Management
+-
+Management
+Tax
+-
+Income Tax
+-
+Tax Authorities
+-
+Transfer Pricing
+Technology
+-
+Fin Tech
+-
+New Technology
+-
+Security
+Transport
+-
+Aviation
+-
+Marine/ Shipping
+-
+Rail, Road & Cycling
+Wealth Management
+-
+Wealth & Asset Management
+Timeframe
+This Week
+Next Two Weeks
+Next Month
+Next Quarter
+Event Type
+Briefing
+Business Breakfast
+Conference
+Exhibition
+Forum
+Networking
+Other
+Panel
+Podcast
+Reception
+Roundtable
+Seminar
+Speaking Engagement
+Summit
+Symposium
+Video/ Audio
+Webinar
+Workshop
+Location
+Australia
+-
+Sydney
+Canada
+-
+Calgary
+-
+Edmonton
+-
+Montreal
+-
+Ontario
+-
+Toronto
+-
+Vancouver
+-
+Winnipeg
+Cayman Islands
+-
+Grand Cayman
+Germany
+-
+Dusseldorf
+Greece
+-
+Athens
+Ireland
+-
+Dublin
+Moldova
+-
+Chisinau
+Puerto Rico
+-
+San Juan
+South Africa
+-
+Cape Town
+Sweden
+-
+Stockholm
+Switzerland
+-
+Zurich
+UK
+-
+Birmingham
+-
+London
+United Arab Emirates
+-
+Abu Dhabi
+United States
+-
+Atlanta
+-
+Austin
+-
+Boston
+-
+California
+-
+Cambridge
+-
+Charleston
+-
+Chicago
+-
+Dallas
+-
+Florida
+-
+Hartford
+-
+Hilton Head Island
+-
+Hollywood
+-
+Honolulu
+-
+Houston
+-
+Illinois
+-
+La Jolla
+-
+Los Angeles
+-
+McLean
+-
+Miami
+-
+Mountain View
+-
+New Orleans
+-
+New York
+-
+Orlando
+-
+Philadelphia
+-
+Phoenix
+-
+Pittsburgh
+-
+Portland
+-
+San Antonio
+-
+San Diego
+-
+San Francisco
+-
+San Jose
+-
+Santa Fe
+-
+Seattle
+-
+Tampa
+-
+Utah
+-
+Washington
+-
+Washington, DC
+More filters
+Mondaq Social Media
+About
+|
+Blog
+|
+Contact Us
+|
+Contributors
+|
+Feedback
+|
+Free News Alerts
+|
+T&Cs
+|
+Your Privacy
+© Mondaq® Ltd 1994 - 2023. All Rights Reserved.
+Please Login to Mondaq or
+Register for unlimited free access and a complimentary news alert
+About
+|
+Blog
+|
+News Alert
+|
+Login
+|
+Register
+Login to Mondaq.com
+Email
+Password
+Passwords are Case Sensitive
+Forgot your password?
+Not registered? Register here
+Why Register with Mondaq
+Free, unlimited access to more than half a million articles (one-article limit removed) from the diverse perspectives of 5,000 leading law, accountancy and advisory firms
+Articles tailored to your interests and optional alerts about important changes
+Receive priority invitations to relevant webinars and events
+You’ll only need to do it once, and readership information is just for authors and is never sold to third parties.
+Your Organisation
+We need this to enable us to match you with other users from the same organisation. It is also part of the information that we share to our content providers ("Contributors") who contribute Content for free for your use.
+0 results
+Already registered? Login here
+About You
+Topics
+Accounting and Audit
+Antitrust/Competition Law
+Cannabis & Hemp
+Compliance
+Consumer Protection
+Coronavirus (COVID-19)
+Corporate/Commercial Law
+Criminal Law
+Employment and HR
+Energy and Natural Resources
+Environment
+Family and Matrimonial
+Finance and Banking
+Food, Drugs, Healthcare, Life Sciences
+Government, Public Sector
+Immigration
+Insolvency/Bankruptcy/Re-structuring
+Insurance
+Intellectual Property
+International Law
+Law Department Performance
+Law Practice Management
+Litigation, Mediation & Arbitration
+Media, Telecoms, IT, Entertainment
+Privacy
+Real Estate and Construction
+Strategy
+Tax
+Technology
+Transport
+Wealth Management
+Regions
+All Regions
+USA
+Canada
+UK
+Europe
+Offshore
+Asia Pacific
+Australia
+Latin America
+Middle East & Africa
+India
+Other Countries
+Angola
+Argentina
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Barbados
+Belarus
+Belgium
+Bermuda
+Brazil
+British Virgin Islands
+Bulgaria
+Cayman Islands
+Chile
+China
+Colombia
+Cyprus
+Czech Republic
+Denmark
+Ecuador
+Egypt
+Finland
+France
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Guernsey
+Hong Kong
+Hungary
+India
+Indonesia
+Ireland
+Isle of Man
+Israel
+Italy
+Japan
+Jersey
+Kazakhstan
+Kenya
+Kyrgyzstan
+Liechtenstein
+Luxembourg
+Malaysia
+Malta
+Mauritius
+Mexico
+Monaco
+Mongolia
+Myanmar
+Netherlands
+New Zealand
+Nigeria
+Norway
+Panama
+Philippines
+Poland
+Portugal
+Puerto Rico
+Qatar
+Romania
+Russian Federation
+Saudi Arabia
+Serbia
+Singapore
+Slovakia
+South Africa
+South Korea
+Spain
+Sweden
+Switzerland
+Taiwan
+Tanzania
+Thailand
+Turkey
+Uganda
+Ukraine
+United Arab Emirates
+Uruguay
+Uzbekistan
+Vietnam
+Zimbabwe
+Comparative Guides
+Advice Centres
+Webinars
+Mondaq uses cookies on this website. By using our website you agree to our use of cookies as set out in our Privacy Policy.
+Learn More
+Accept

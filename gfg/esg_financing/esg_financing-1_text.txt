@@ -1,0 +1,105 @@
+Dentons - ESG Financing – Back to Basics
+{{lL.name }}
+{{lL.languageCode | uppercase}}
+Skip to main navigation
+Skip to content
+Skip to footer
+Global solutions Featured insights Client experience Our people
+{{ getActiveCase(headerData.languageLinks,'active',true).languageCode | uppercase}}
+{{ getActiveCase(headerData.languageLinks,'active',true).name}}
+{{lL.name }}
+{{lL.languageCode | uppercase}}
+{{suggestionHead.categoryName}}
+{{suggestion.name}}
+{{suggestionHead.categoryName}}
+{{suggestion.name}}
+{{BCKData.LocationHeading}}
+{{BCKData.GoButton}}
+{{ !!location.countrycode?location.countryName :location.officeName }}
+{{headerData.hamburgerPrimaryFeatureHeading}}
+{{tile.title}}
+{{headerData.hamburgerSecondaryFeatureHeading}}
+{{tile.title}}
+Contact us
+ESG Financing – Back to BasicsAuthored by Abi Uthayachandran, Managing Associate, Banking and Finance
+HomeKnowledge
+ESG Financing – Back to Basics
+ESG Financing – Back to BasicsAuthored by Abi Uthayachandran, Managing Associate, Banking and Finance
+{F62CC590-F40D-45E2-A399-A7BB5ED5CE58}
+Regional Capabilities
+May 3, 2022
+Introduction
+Now more than ever, companies are taking a holistic approach to ESG (shorthand for environmental, social and governance) issues (see Dentons’ ESG: Global Solutions Hub for more information) to meet stakeholder demand.
+This includes how companies finance their growth and operations which also has the added benefit of giving them access to (somewhat) cheaper capital.
+Such thinking is certainly not new and the market for ESG related debt products and instruments (green loans, green bonds etc) have boomed in recent years.
+While traditionally utilised on project financing or by investment grade borrowers, we are now seeing an uptick in interest in such products and instruments in the middle market. There will certainly be some challenges in bringing these products to the middle market but we do think there are also very real opportunities, especially in real estate financing. We will discuss these challenges and opportunities in next month’s article. This article will serve as an introduction to the various concepts and jargon that are being used.
+What types of products are out there?
+We will focus on traditional loan products and leave bonds and similar debt instruments for another day.
+The umbrella terms most commonly used to describe such loan products are “ESG financing”, “ESG loans” and “sustainable financing” which are all used interchangeably. Under these umbrella terms, there are a number of sub products which we will look at below.
+The terminology is evolving but the Loan Market Association (LMA), the Asia Pacific Loan Market Association (APLMA), and the Loan Syndications and Trading Association (LSTA) are playing leading roles in providing guidelines for the principles and terminology that underpin these products.
+Green loans
+The first products to enter the market were green loans.
+The ‘Green Loan Principles’ (GLP) originally published by the LMA, the APLMA and the LSTA in December 2018 define a green loan as:
+any type of loan instrument made available exclusively to finance or re-finance, in whole or in part, new and/or existing [projects that are intended to deliver a positive environmental impact].
+The core components of a green loan as set out in the GLP are:
+Use of proceeds – The utilisation of the loan proceeds must be to fund a project which provides clear environmental benefits. A tranche of a loan can be considered green (as opposed to the whole of the loan / facility).
+Process for project evaluation and selection – The borrower must clearly communicate how it is organised to assess and select projects that will receive the green loan proceeds.
+Management of proceeds – The proceeds of the green loan must be tracked to maintain transparency, for example, to a dedicated account.
+Reporting – The Borrower should keep up to date information on the use of the proceeds as well as the environmental impact. This may include the use of qualitative and quantitative performance measures.
+Though somewhat immature compared to Europe and Asia, green loans have been around in Australia since 2019 and the market will only continue to grow.
+Sustainability linked loans
+Sustainability loans came next. The ‘Sustainability Linked Loan Principles’ (SLLP) originally published by the LMA, APLMA and LSTA in March 2021 define sustainability a linked loan as:
+any types of loan instruments and/or contingent facilities (such as bonding lines, guarantee lines or letters of credit) which incentivise the borrower’s achievement of ambitious, predetermined sustainability performance objectives.
+The SLLP further goes on to clarify that the use of proceeds is not the determinant in its categorisation. Rather, sustainability linked loans look to improve a borrower’s sustainability profile by aligning loan terms to that borrower’s performance against relevant predetermined sustainability performance targets (SPTs). The use of proceeds can be more diverse and loan monies do not need to be exclusively allocated to green or social projects. The core components of a sustainably linked loan as set out in the SLLP are:
+Relationship to borrower’s overall corporate social responsibility strategy – A borrower’s CSR strategy should align with the proposed SPTs.
+Target setting – The SPTs should be ambitious and meaningful and should be tied to a sustainability improvement and where possible, tied to a benchmark or external reference.
+Reporting – With transparency in mind, the borrower should keep readily available up to date information relating to the SPTs.
+Review – The need for external review / audit is to be negotiated by the borrower and the lenders.
+The most common incentive / disincentive for a borrower achieving / not achieving its SPTs is a margin re-determination.
+There have been a number of sustainability linked loans in Australia to date with some notable examples being:
+A land registry’s sustainability linked loan which linked the development of a Reconciliation Action Plan as a sustainability performance target.
+An A-REIT’s sustainability linked loan which set targets for improving the sustainability performance of the fund’s retail properties across a number of areas (greenhouse gas emissions intensity, water consumption, waste reduction and labour certification).
+A major Australian retailer’s sustainability linked loan which included SPTs around reduction of greenhouse gas emissions, increase of total waste diverted from landfill and percentage of women in leadership roles.
+Social loans
+Social loans are the newest products in the market. The ‘Social Loan Principles’ (SLP) originally published by the LMA, APLMA and LSTA in April 2021 define a social loan as:
+any type of loan instrument made available exclusively to finance or re-finance, in whole or in part, new and/or existing [projects that are intended to deliver a positive social impact].
+As with green loans, the SLP goes on to provide that the core components of social loans are the use of proceeds, process for project evaluation and selection, management of proceeds and reporting. The only high level difference here is that the proceeds / project must have a clear social benefit as opposed to an environmental benefit.
+Social loans are relatively new products in the Australian market with the only example to date being the refinancing of the Royal Adelaide Hospital project which aligned with both the GLP and the SLP (though marketed as a “ESG Loan”) (linked to the energy use and greenhouse gas emissions as well social inclusion and sustainability).
+In the next article we will look at the criticisms and challenges faced by ESG financing and the opportunities that it also presents for both borrowers and lenders in the middle market.
+Key contact
+Abi Uthayachandran
+Abi Uthayachandran
+Managing Associate, SydneySydneyD +61 2 9035 7223
+Email me
+abi.uthayachandran@dentons.com
+Related practices, sectors and business issues
+Banking and Finance
+Keep in touch
+Contact us
+Share
+LinkedinTwitter
+Email
+Print
+How can the world's largest law firm help you today ?
+Contact us
+or
+find an office in your location.
+Legal noticesClient extranetsCookiesPrivacyTerms of use
+Modern Slavery StatementSRA RegulationFraud AlertWeb Accessibility
+Cookie Consent Manager
+© 2023 Dentons. All rights reserved. Attorney Advertising. Dentons is a global legal practice providing client services worldwide through its member firms and affiliates. This website and its publications are not designed to provide legal or other advice and you should not take, or refrain from taking, action based on its content.
+Disclaimer
+Unsolicited emails and other information sent to Dentons will not be considered confidential, may be disclosed to others, may not receive a response, and do not create a lawyer-client relationship.
+If you are not already a client of Dentons, please do not send us any confidential information.
+Cancel
+Accept
+Redirection
+You are switching to another language. Please click Confirm below to continue.
+CancelAccept
+Leaving Site
+You will now be taken from the global Dentons website to the $redirectingsite website. To proceed, please click Accept.
+Cancel
+Accept
+Important Notice
+Agree
+Disagree

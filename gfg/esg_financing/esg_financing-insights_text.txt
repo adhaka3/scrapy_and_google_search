@@ -1,0 +1,260 @@
+A&M Perspective: Implications of ESG on Corporate Financing and Restructuring | Alvarez & Marsal | Management Consulting | Professional Services
+Skip to main content
+Main navigation
+About A&M
+Alumni
+Contact A&M
+Community Engagement
+Culture & Values
+Diversity & Inclusion
+Employee Resource Groups
+ESG & Sustainability
+Life at A&M
+Expertise
+Digital
+Environmental, Social & Governance
+Corporate Performance Improvement
+Corporate Transformation
+Technology Services
+CFO Services
+Supply Chain Services
+Merger, Acquisition & Divestiture Services
+Private Equity Services
+Global Transaction Advisory
+Integrated Due Diligence
+Portfolio Company Performance Improvement
+Divestiture Services
+Services for India
+Restructuring & Turnaround
+Restructuring Advisory
+Interim & Crisis Management
+Corporate Finance
+Creditor Advisory
+Claims Management Services
+Fiduciary Services
+Insolvency
+Tax
+Federal Tax
+State & Local Tax
+International Tax
+Global Transaction Tax Advisory
+Income Tax Accounting
+Sales and Use
+Transfer Pricing
+Compensation & Benefits
+Real Estate Tax
+Private Client Services
+U.K. Tax
+Bankruptcy Tax Services
+Research Credits & Incentives
+Merger Integration
+Taxand Global
+Disputes and Investigations
+Disputes
+Investigations
+Forensic Technology
+Fiduciary Services
+Global Cyber Risk Services
+Financial Crimes & Investigations
+Valuation
+Portfolio Valuation & Advisory Services
+Complex Financial Instruments
+Financial & Tax Reporting
+Litigation & Dispute Valuation
+Structured Finance & Capital Equipment Valuation
+Transaction Opinions
+Divorce Services
+Regulatory & Risk Advisory
+Banking
+Corporate Risk Management
+Diversified Financials
+Insurance Regulatory
+Global Cyber Risk Services
+Industries
+Aerospace, Defense, Aviation & Space
+Automotive & Industrials
+Business Services
+Consumer Products
+Education
+Energy
+Environmental Disputes
+Financial Services
+Healthcare
+Infrastructure & Capital Projects
+Pharmaceuticals
+Public Sector Services
+Real Estate
+Retail
+Software, Technology & Services
+Telecommunications, Media & Technology
+Transportation & Logistics
+Travel, Hospitality and Leisure
+Insights
+A&M Bulletins
+A&M News & Releases
+Business & Industry Insights
+Podcasts
+Success Stories
+#AMon Social
+Our People
+Global Locations
+Australia
+Benelux
+Brazil
+Canada
+Cayman Islands
+China
+Colombia
+Czech Republic
+Finland
+France
+Germany
+Greece
+India
+Indonesia
+Ireland
+Italy
+Korea
+Malaysia
+Mexico
+Norway
+Poland
+Saudi Arabia
+Singapore
+Spain
+Sweden
+Switzerland
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uzbekistan
+Vietnam
+Careers
+Search and Apply
+Work Well. Live Well
+Stay Competitive
+Global Mobility
+Life at A&M
+A&M on COVID-19
+Restructuring & Turnaround
+A&M Perspective: Implications of ESG on Corporate Financing and Restructuring
+December 19, 2022
+Printable version
+Send by email
+PDF version
+1. Introduction
+In recent years, Environmental, Social and Governance (ESG) considerations have become critical to the success of many companies’ operating and financial models, given the growing investor interest and stakeholder scrutiny around ESG issues. Over the last decade, a raft of academic studies has drawn a strong link between the adoption of various ESG standards & targets and equity value creation. Whether a company is performing, underperforming or in a distressed situation, the prevailing sentiment in European markets is that a commitment to ESG standards can materially affect a business’s value and its ability to obtain competitive funding. However, this is far from a universal view: the war in Ukraine, for example, has compelled those same markets to reassess their stance notably on energy security and defence spending.
+One of the main challenges in incorporating ESG policy into financing decisions and corporate transformations/restructurings is the absence of a clear and unified regulatory framework. While legislation has evolved in the past few years, often stakeholders have conflicting objectives or follow different guidelines when adopting an ESG agenda. This fluidity in defining ESG principles and KPIs has inevitably given rise to accusations of green washing and virtue signalling via expensive press relation exercises. Some of this criticism is merited.
+Notwithstanding these apparent contradictions and reversals, we believe these are the necessary growing pains of a (still immature) socio-economic framework that is seeking to redefine some of the core tenets of capitalism. Advisors with a clear understanding of how to leverage the available ESG tools and frameworks can establish common ground for all stakeholders – board members, management teams, employees, adjacent communities, suppliers, regulators, creditors and sponsors – reaching consensus within a transformation, restructuring or financing process, ultimately helping to enhance/preserve value and to ensure the business prospers.
+2. EU Taxonomy and Other Regulatory Developments
+In 2020, the European Union (EU) taxonomy created a classification system with a list of economic activities that are considered environmentally sustainable. Implemented as part of the European Green Deal initiative, the regulation aims to provide clarity for market participants and scale up sustainable investments as a result.
+The six environmental objectives of the EU taxonomy include:
+Climate change mitigation
+Climate change adaptation
+The sustainable use and protection of water and marine resources
+The transition to a circular economy
+Pollution prevention and control
+The protection and restoration of biodiversity and ecosystems.
+[1] Green washing is marketing that portrays an organisation’s products, activities or policies as producing positive environmental outcomes when this is not the case
+Other relevant regulatory developments for debt market participants include the Loan Market Association (LMA)’s Green & Sustainable Finance principles, template loan documentation, and the International Capital Market Association (ICMA)’s Sustainable Finance principles, guidelines, and handbooks for the issuance of green, social and sustainability-linked bonds. The latter, for example, includes an illustrative registry of relevant key performance indicators for these instruments. An obvious, early conclusion is that the loan and capital markets have quickly gravitated towards the “E” in ESG with priority given to sustainability/green goals and performance measures.
+3. ESG Finance Instruments – An Overview
+The European ESG market has grown strongly over the past few years, both in terms of volume and number of deals, with issuance set to hit $1,000bn of corporate transactions in 2021 and $650bn YTD in FY2022, according to data from Refinitiv Loan Connector and Bloomberg.
+The growing diversification of ESG instruments has also made the market more attractive for borrowers and lenders. Instruments issued under the umbrella of ESG include:
+ESG-linked financing instruments
+Lenders can integrate ESG into their credit risk assessment through the provision of so-called sustainability linked loans. On top of traditional financial covenants, these instruments include clauses whereby margin ratchets go up or down depending on the specifics of the borrower’s ESG goals. The ESG performance is typically linked to Sustainability Performance Targets (SPT) and Key Performance Indicators (KPIs). Alternatively, an ESG rating could also be implemented. Such targets/measures are typically included in corporate loans used for general corporate purposes.
+In 2021, ESG-linked loan issuance in Europe reached $300 billion, an increase of more than 50% compared to the previous year, according to Refinitiv Loan Connector data. Recent transactions in the market have shown margin step-ups/step-downs between 2 to 15 basis points, according to A&M’s analysis of recent deals. In certain cases, the margin step-up/step-down can be higher.
+While European banks already have a strong footprint in the ESG market, the number of private debt funds offering ESG-linked facilities, including unitranche loans, is also growing. Furthermore, ESG momentum in the mid-market space has gathered pace with the launch of several dedicated funds targeting qualifying ESG investments.
+Sustainability-linked bonds are the latest addition to the universe of ESG debt instruments. Like sustainability-linked loans, their financial terms are also linked to the achievement of predetermined ESG targets by the issuer. They can be used to finance any corporate activity and proceeds do not need to be allocated to specific projects.
+Investment/project-related ESG financing instruments
+Instruments such as green bonds, social bonds and sustainability bonds or loans have flourished in the European capital and debt markets for a few years. These bonds/loans work like conventional instruments but proceeds are specifically earmarked to finance projects with an environmental or social impact. This is achieved within a specific ESG framework and standard such as the ICMA’s
+[2] Regional loan associations have been cooperating for some years to agree on some common standards. In March 2019 (and updated in 2021 / 2022), the Sustainability Linked Loan Principles were published by the LMA, Asia Pacific Loan Market Association (APLMA) and the Loan Syndications and Trading Association (LSTA).
+Green Bond Principles. Further, promotional banks have developed individual frameworks to support sustainable projects in their regions.
+4. Private Equity and ESG-Linked LBO Financings
+Private equity funds are also starting to use an ESG lens to identify risks and opportunities despite no clear or unified guidelines. For these stakeholders, ESG considerations are increasingly being incorporated not only as a risk management tool but also as a driver of value creation.
+Benefits of ESG financing for borrowers
+Stakeholder engagement: combination of ESG governance and financing strategy enhances a company’s reputation and credibility
+Monetary benefits: loan documentation allows for better financial terms
+Larger investor base: Access to a broader and diversified investor base
+Liquidity: appetite for ESG debt remains high despite economic uncertainty
+In a significant development in 2021, more than 100 leading GPs and LPs, representing US$8.7 trillion in assets under management, developed the industry’s first-ever collaboration to standardise ESG metrics. The ESG Data Convergence Initiative (EDCI) agreed on six core ESG metrics – from greenhouse gas emissions to the use of renewable energy and diversity –in order to monitor and control their investments.
+Private equity sponsors have also started to introduce ESG elements into the financing arrangements of their portfolio companies. In 2020, Spanish telecom MasMovil became one of the first European issuers to include an ESG pricing feature in an acquisition loan package backed by a private equity consortium. The agreed margin step-up/step-down was 15bps. Other recent transactions in 2022 include a term loan issued by Armor-IlMAK, which was used for its acquisition by Astorg. The loan includes an ESG margin ratchet of 10bps.
+[3] Recent ESG-linked LBO Financings in Europe
+5. ESG Considerations in Corporate Refinancings
+ESG finance instruments have been increasingly used by companies to refinance existing debt or raise new funds. One of the biggest transactions in Europe in 2022 was completed by Enel, the Italian energy group in May. Margins on the company’s €13.5 billion RCF facility are linked to a key KPI based on direct greenhouse emissions and can step down or up by 25bps, based on the achievement of the target.
+Symrise Group, a producer of flavours and fragrances has successfully issued a €750 million ESG-linked Schuldschein in May 2022. The interest rate is linked to Symrise Group’s KPIs including eco-efficiency of the Symrise Group’s greenhouse gas emissions. The transaction was heavily oversubscribed, demonstrating resilient demand for ESG finance debt even as market conditions deteriorate.
+[4] Source: Refinitiv Loan Connector
+[5] Other recent corporate refinancing transactions include
+6. Supporting Financial Stakeholders in ESG Financing Transactions
+Companies and equity sponsors should seek advice from debt experts with relevant ESG experience that can support them through a refinancing or restructuring process. An advisor should be able to promptly assess the borrower’s ability to deliver on its overall ESG strategy, including but not limited to:
+Take ESG risks into account when assessing the overall condition, prospects and stability of a business
+Restructuring and financing professionals must take into consideration ESG factors and orient the going concern towards reaching these targets. Business plans and financial and operating models must be redesigned to reflect this new reality.
+Furthermore, companies need to establish clear roadmaps with appropriate level resources to attain ESG targets and embed these plans within the broader corporate strategy. Relevant sustainable KPIs and SPTs need to be clearly defined and targets must be fully actionable.
+In the absence of clear regulatory frameworks, restructuring and financing professionals must develop the necessary instruments within their own toolboxes to support companies through corporate transaction processes.
+By incorporating ESG factors into corporate debt transactions, stakeholders will be able to access a larger pool of capital, given the focus on ESG investment among equity and debt providers.
+Strengthen governance models to respond to evolving ESG regulation
+Companies will need to strengthen and rethink their governance models, establishing risk management mechanisms to measure, monitor and control their ESG targets and achievements.
+In so doing, companies will need to ensure the right resources and capabilities are in place to deliver on their ESG agenda. Communication with all stakeholders (including equity providers, lenders, employees, suppliers and customers) also needs to be elevated, especially in light of evolving regulation, to highlight the importance of the ESG agenda and how it may be embedded within the company culture and values.
+[6] Source:  Refinitiv Loan Connector
+Lenders need to work closely with borrowers to ensure ESG risk requirements are met
+Lenders will have to work closely with companies to ensure that their internal ESG risk requirements are met and that the company understands what is expected from them, and vice-versa. For new financing arrangements this might be easier to implement but for existing financing, adapting these will prove more challenging.
+Effective communication on how companies are working towards their ESG goals is critical for lenders given the emergence of stricter ESG-related disclosure requirements.
+Covenant protection for lenders against ESG issues and impacts on credit quality
+Today, regulation appears to be one step behind in terms of providing lenders with s a clear regulatory framework to run their credit risk management. Lenders should nonetheless ensure they are incorporating ESG-related risk parameters within a thein risk analysis.
+If a borrower fails to meet the pre-defined ESG targets within an ESG-linked loan or bond documentation, the margin will increase. However, a breach of an ESG KPI does not result in an event of default.
+Alvarez & Marsal. Leadership. Action. Results.
+A&M Debt Advisory helps companies plan, select, source, negotiate and amend debt finance across various debt markets, structures and geographies. Debt markets are more sophisticated and more complex than ever before. The A&M Debt Advisory team supports borrowers in navigating those markets
+Authors
+Ed Manning
+Managing Director
+Atif Malik
+Senior Director
+Svenja Krause
+Associate Director
+Related Insights
+Business & Industry Insights
+A&M Perspective: Implications of ESG on Corporate Financing and Restructuring
+December 19, 2022
+Business & Industry Insights
+Ryan Omohundro Selected for ABI's "40 Under 40" Achievement
+December 12, 2022
+Tiffany Wong wins Woman of the Year in Restructuring (Asia) Award from the International Women's Insolvency and Restructuring Confederation (IWIRC)
+November 23, 2022
+Business & Industry Insights
+Walking a Tightrope: Retailers Grapple With Inflation, Debt and Dwindling Demand
+November 17, 2022
+STAY CONNECTED
+Join A&M on LinkedIn
+Follow A&M on Twitter
+Like A&M on Facebook
+Follow A&M on YouTube
+Sign up for A&M Newsletters
+A&M Bulletin Signup *
+Global Locations
+Expertise
+Industries
+Insights
+Our People
+Careers
+#AMon Social
+A&M on COVID-19
+About A&M
+Contact
+Alumni
+A&M Capital
+A&M Capital Real Estate
+Employee Portal
+Privacy Notice
+Privacy Shield Notice
+California Privacy Notice
+Cookie Notice
+Terms of Use
+LinkedIn
+Facebook
+Twitter
+YouTube
+AM Copyright
+© Copyright [year], Alvarez & Marsal Holdings, LLC. All Rights Reserved.
+ALVAREZ & MARSAL®, ®,  ®, ® and A&M® are trademarks of Alvarez & Marsal Holdings, LLC.
+Note: Alvarez & Marsal employs CPAs, but is not a licensed CPA firm.
+Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.

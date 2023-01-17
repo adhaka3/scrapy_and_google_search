@@ -1,0 +1,419 @@
+Environmental, social, and corporate governance - Wikipedia
+Environmental, social, and corporate governance
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+Sustainability investment criteria
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these template messages)
+This article's tone or style may not reflect the encyclopedic tone used on Wikipedia. See Wikipedia's guide to writing better articles for suggestions. (April 2011) (Learn how and when to remove this template message)
+The neutrality of this article is disputed. Relevant discussion may be found on the talk page. Please do not remove this message until conditions to do so are met. (October 2021) (Learn how and when to remove this template message)
+(Learn how and when to remove this template message)
+Part of a series onGovernance
+Models
+Algorithmic
+Bad
+Collaborative
+Electronic
+Good
+Multistakeholder
+Open-source
+Private
+By level
+Local
+Global
+By field
+Climate
+Clinical
+Corporate
+Cultural
+Data
+Earth system
+Ecclesiastical
+Environmental
+Higher education
+Information
+Network
+Ocean
+Political party
+Project
+Security sector
+Self
+Simulation
+Service-oriented architecture
+Soil
+Technology
+Transnational
+Website
+Measures
+World Governance Index
+Sustainable Governance Indicators
+Bertelsmann Transformation Index
+Related topics
+Chief governance officer
+Governance, risk managementand compliance
+Environmental, social, andcorporate governance
+Market governance mechanism
+vte
+ESG (environmental, social, and corporate governance) is a framework designed to be embedded into an organization’s strategy that considers the needs and ways in which to generate value for all of organizational stakeholders (such as employees, customers and suppliers and financiers).
+ESG corporate reporting can be used by stakeholders to assess the material sustainability-related risks and opportunities relevant to an organization. Investors may also use ESG data beyond assessing material risks to the organization in their evaluation of enterprise value, specifically by designing models based on assumptions that the identification, assessment and management of sustainability-related risks and opportunities in respect to all organizational stakeholders leads to higher long-term risk-adjusted return.[1] Organizational stakeholders include
+but not limited to customers, suppliers, employees, leadership, and the environment.[2]
+Since 2020, there has been accelerating interest in overlaying ESG data with the Sustainable Development Goals (SDGs), developed based on work by United Nations beginning in the 1980s.[3]
+The term ESG was popularly used first in a 2004 report titled “Who Cares Wins", which was a joint initiative of financial institutions at the invitation of UN.[4]
+In less than 20 years, the ESG movement has grown from a corporate social responsibility initiative launched by the United Nations into a global phenomenon representing more than US$30 trillion in assets under management.[5] In the year 2019 alone, capital totaling US$17.67 billion flowed into ESG-linked products, an almost 525 percent increase from 2015, according to Morningstar, Inc.[6] Critics claim ESG linked-products have not had and are unlikely to have the intended impact of raising the cost of capital for polluting firms,[7] and have accused the movement of greenwashing.[8]
+Contents
+1 Dimensions
+2 History
+3 Environmental concerns
+3.1 Climate crisis
+3.2 Environmental sustainability
+4 Social concerns
+4.1 Diversity
+4.2 Human rights
+4.3 Consumer protection
+4.4 Animal welfare
+4.5 Conservatives
+5 Corporate governance concerns
+5.1 Management structure
+5.2 Employee relations
+5.3 Executive compensation
+5.4 Employee compensation
+6 Responsible investment
+6.1 Investment strategies
+6.2 Institutional investors
+6.3 Principles for Responsible Investment
+6.4 Equator Principles
+7 ESG ratings agencies
+8 Disclosure and regulation
+9 Litigation
+10 Reporting
+11 Research findings
+12 See also
+13 References
+14 External links
+Dimensions[edit]
+Environmental aspect: Data is reported on climate change, greenhouse gas emissions, biodiversity loss, deforestation, pollution, energy efficiency and water management.
+Social aspect: Data is reported on employee safety and health, working conditions, diversity, equity, and inclusion, and conflicts and humanitarian crises,[9] and is relevant in risk and return assessments directly through results in enhancing (or destroying) customer satisfaction and employee engagement.
+Governance aspect: Data is reported on corporate governance such as preventing bribery, corruption, Diversity of Board of Directors, executive compensation, cybersecurity and privacy practices, and management structure.
+History[edit]
+Historical decisions of where financial assets would be placed were based on various criteria with financial return being predominant.[10] However, there have always been many other criteria for deciding where to place money—from political considerations to heavenly reward. It was in the 1950s and 60s that the vast pension funds managed by the trades unions recognised the opportunity to affect the wider social environment using their capital assets[11]—in the United States the International Brotherhood of Electrical Workers (IBEW) invested their considerable capital in developing affordable housing projects, whilst the United Mine Workers invested in health facilities.[12]
+In the 1970s, the worldwide abhorrence of the apartheid regime in South Africa led to one of the most renowned examples of selective disinvestment along ethical lines. As a response to a growing call for sanctions against the regime, the Reverend Leon Sullivan, a board member of General Motors in the United States, drew up a Code of Conduct in 1977 for practising business with South Africa.[13] What became known as the Sullivan Principles
+(Sullivan Code) attracted a great deal of attention and several reports were commissioned by the government to examine how many US companies were investing in South African companies that were contravening the Sullivan Code. The conclusions of the reports led to a mass disinvestment by the US from many South African companies. The resulting pressure applied to the South African regime by its business community added great weight to the growing impetus for the system of apartheid to be abandoned.[14]
+In the 1960s and 1970s, Milton Friedman, in direct response to the prevailing mood of philanthropy argued that social responsibility adversely affects a firm's financial performance and that regulation and interference from "big government" will always damage the macro economy.[15] His contention that the valuation of a company or asset should be predicated almost exclusively on the pure bottom line (with the costs incurred by social responsibility being deemed non-essential), underwrote the belief prevalent for most of the 20th century (see Friedman doctrine). Towards the end of the century, however, a contrary theory began to gain ground. In 1988 James S. Coleman wrote an article in the American Journal of Sociology titled "Social Capital in the Creation of Human Capital", the article challenged the dominance of the concept of 'self-interest' in economics and introduced the concept of social capital into the measurement of value.[10]
+There was a new form of pressure applied, acting in a coalition with environmental groups: it used the leveraging power of its collective investors to encourage companies and capital markets to incorporate environmental and social challenges into their day-to-day decision-making.
+Although the concept of selective investment was not a new one, with the demand side of the investment market having a long history of those wishing to control the effects of their investments, what began to develop at the turn of the 21st century was a response from the supply-side of the equation. The investment market began to pick up on the growing need for products geared towards what was becoming known as the Responsible Investor. In 1998 John Elkington, co-founder of the business consultancy SustainAbility, published Cannibals with Forks: the Triple Bottom Line of 21st Century Business[ISBN missing] in which he identified the newly emerging cluster of non financial considerations which should be included in the factors determining a company or equity's value. He coined the phrase the "triple bottom line", referring to the financial, environmental and social factors included in the new calculation. At the same time, the strict division between the environmental sector and the financial sector began to break down. In the City of London in 2002, Chris Yates-Smith, a member of the international panel chosen to oversee the technical construction, accreditation and distribution of the Organic Production Standard and founder of one of the City of London's leading branding consultancies, established one of the first environmental finance research groups. The informal group of financial leaders, city lawyers and environmental stewardship NGOs became known as The Virtuous Circle, and its brief was to examine the nature of the correlation between environmental and social standards and financial performance. Several of the world's big banks and investment houses began to respond to the growing interest in the ESG investment market with the provision of sell-side services; among the first were the Brazilian bank Unibanco, and Mike Tyrell's Jupiter Fund in London, which used ESG based research to provide both HSBC and Citicorp with selective investment services in 2001.
+In the early years of the new millennium, the major part of the investment market still accepted the historical assumption that ethically directed investments were by their nature likely to reduce financial return. Philanthropy was not known to be a highly profitable business, and Friedman had provided a widely accepted academic basis for the argument that the costs of behaving in an ethically responsible manner would outweigh the benefits. However, the assumptions were beginning to be fundamentally challenged.
+In 1998 two journalists Robert Levering and Milton Moskowitz had brought out the "Fortune 100 Best Companies to Work For", initially a listing in the magazine Fortune, then a book compiling a list of the best-practicing companies in the United States with regard to corporate social responsibility and how their financial performance fared as a result.
+Of the three areas of concern that ESG represented, the environmental and social had received most of the public and media attention, not least because of the growing fears concerning climate change. Moskowitz brought the spotlight onto the corporate governance aspect of responsible investment. His analysis concerned how the companies were managed, what the stockholder relationships were and how the employees were treated. He argued that improving corporate governance procedures did not damage financial performance; on the contrary it maximized productivity, ensured corporate efficiency and led to the sourcing and utilizing of superior management talents. In the early 2000s, the success of Moskowitz's list and its impact on companies' ease of recruitment and brand reputation began to challenge the historical assumptions regarding the financial effect of ESG factors.[16] In 2011, Alex Edmans, a finance professor at Wharton, published a paper in the Journal of Financial Economics showing that the "100 Best Companies to Work For" outperformed their peers in terms of stock returns by 2–3% a year over 1984–2009, and delivered earnings that systematically exceeded analyst expectations.[17]
+In 2005, the United Nations Environment Programme Finance Initiative commissioned a report from the international law firm Freshfields Bruckhaus Deringer on the interpretation of the law with respect to investors and ESG issues. The Freshfields report concluded that not only was it permissible for investment companies to integrate ESG issues into investment analysis, but it was also arguably part of their fiduciary duty to do so.[18][19] In 2014, the Law Commission (England and Wales) confirmed that there was no bar on pension trustees and others from taking account of ESG factors when making investment decisions.[20]
+Where Friedman had provided the academic support for the argument that the integration of ESG type factors into financial practice would reduce financial performance, numerous reports began to appear in the early years of the century which provided research that supported arguments to the contrary.[21] In 2006 Oxford University's Michael Barnett and New York University's Robert Salomon published an influential study which concluded that the two sides of the argument might even be complementary—they propounded a curvilinear relationship between social responsibility and financial performance. Both selective investment practices and non-selective could maximise the financial performance of an investment portfolio, and the only route likely to damage performance was a middle way of selective investment.[22] Besides the large investment companies and banks taking an interest in matters ESG, an array of investment companies specifically dealing with responsible investment and ESG based portfolios began to spring up throughout the financial world.
+Many in the investment industry believe the development of ESG factors as considerations in investment analysis to be inevitable.[23] The evidence toward a relationship between consideration for ESG issues and financial performance is becoming greater and the combination of fiduciary duty and a wide recognition of the necessity of the sustainability of investments in the long term has meant that environmental social and corporate governance concerns are now becoming increasingly important in the investment market.[24][25] ESG has become less a question of philanthropy than practicality.
+There has been uncertainty and debate as to what to call the inclusion of intangible factors relating to the sustainability and ethical impact of investments. Names have ranged from the early use of buzz words such as "green" and "eco", to the wide array of possible descriptions for the types of investment analysis—"responsible investment", "socially responsible investment" (SRI), "ethical", "extra-financial", "long horizon investment" (LHI), "enhanced business", "corporate health", "non-traditional", and others. But the predominance of the term ESG has now become fairly widely accepted. A survey of 350 global investment professionals conducted by Axa Investment Managers and AQ Research in 2008 concluded the vast majority of professionals preferred the term ESG to describe such data.
+In January 2016, the PRI, UNEP FI and The Generation Foundation launched a three-year project to end the debate on whether fiduciary duty is a legitimate barrier to the integration of environmental, social, and governance issues in investment practice and decision-making.
+This follows the publication in September 2015 of Fiduciary Duty in the 21st Century by the PRI, UNEP FI, UNEP Inquiry and UN Global Compact.[citation needed] The report concluded that "Failing to consider all long-term investment value drivers, including ESG issues, is a failure of fiduciary duty". It also acknowledged that despite significant progress, many investors have yet to fully integrate ESG issues into their investment decision-making processes. In 2021, several organizations were working to make ESG compliance a better understood process in order to establish standards between rating agencies, amongst industries, and across jurisdictions. This included companies like Workiva working from a technology tool standpoint; agencies like the Task Force on Climate-related Financial Disclosures (TCFD) developing common themes in certain industries; and governmental regulations like the EU's Sustainable Finance Disclosure Regulation (SFDR).[26][27][28][29]
+Environmental concerns[edit]
+Main article: Environmental governance
+Threat of climate change has grown, so investors may choose to factor sustainability issues into their investment choices. The issues often represent externalities, such as influences on the functioning and revenues of the company that are not exclusively affected by market mechanisms.[30] As with all areas of ESG, the breadth of possible concerns is vast (e.g. greenhouse gas emissions, biodiversity, waste management, water management) but some of the chief areas are listed below:
+Climate crisis[edit]
+The body of research providing evidence of global trends in climate change has led investors—pension funds, holders of insurance reserves—to begin to screen investments in terms of their impact on the perceived factors of climate change. Fossil fuel-reliant industries are less attractive.[31] In the UK, investment policies were particularly affected by the conclusions of the Stern Review in 2006, a report commissioned by the British government to provide an economic analysis of the issues associated with climate change. Its conclusions pointed towards the necessity of including considerations of climate change and environmental issues in all financial calculations and that the benefits of early action on climate change would outweigh its costs.[32]
+Environmental sustainability[edit]
+Further information: environmental sustainability
+In every area of the debate from the depletion of resources to the future of industries dependent upon diminishing raw materials the question of the obsolescence of a company's product or service is becoming central to the value ascribed to that company. The long-term view is becoming prevalent amongst investors.[23]
+Social concerns[edit]
+Diversity[edit]
+There is a growing belief that the broader the pool of talent open to an employer the greater the chance of finding the optimum person for the job.[33] Innovation and agility are seen as the great benefits of diversity, and there is an increasing awareness of what has come to be known as the power of difference.[34]
+Human rights[edit]
+In 2006, the US Courts of Appeals[clarification needed][which?] ruled that there was a case to answer bringing the area of a company's social responsibilities squarely into the financial arena.[35] This area of concern is widening to include such considerations as the impact on local communities, the health and welfare of employees and a more thorough examination of a company's supply chain.
+Consumer protection[edit]
+Until fairly recently, caveat emptor ("buyer beware") was the governing principle of commerce and trading.
+In recent times however there has been an increased assumption that the consumer has a right to a degree of protection and the vast growth in damages litigation has meant that consumer protection is a central consideration for those seeking to limit a company's risk and those examining a company's credentials with an eye to investing. The collapse of the US subprime mortgage market initiated a growing movement against predatory lending has also become an important area of concern.[36]
+Animal welfare[edit]
+Animal welfare concerns involve testing products or ingredients on animals, breeding for testing, exhibiting animals, or factory farms.[37]
+Conservatives[edit]
+Out of the 435 ESG shareholder proposals that were recorded by the non-profit organization As You Sow in 2021, 22 were classified as conservative by the organization.[38] The National Center for Public Policy Research has asked 7 companies to prepare a report on the BRT Statement of the Purpose of a Corporation. Other conservative proposals include reports on charitable contributions and board nominee ideological diversity.[39]
+Corporate governance concerns[edit]
+See also: Corporate governance and Social ownership
+Corporate governance is the structures and processes that direct and control companies. It makes companies more accountable and transparent to investors and gives them the tools to respond to stakeholder concerns.[40]
+ESG Corporate Governance from the Board of Director's view, Governance Lens watching over Corporate Behavior of the CEO, C-Suite, and employees at large includes measuring the Business ethics, anti-competitive practices, corruption, tax and providing accounting transparency for stakeholders.
+MSCI puts in the Governance side of the bucket corporate behavior practices and governance of board diversity, executive pay, ownership, and control, and accounting that the board of directors have to oversee on behalf of stakeholders.[41] Other concerns include reporting and transparency, business ethics, board oversight, CEO / board chair split, shareholder right to nominate board candidates, stock buybacks, and dark money given to influence elections.[42]
+Management structure[edit]
+The system of internal procedures and controls that makes up the management structure of a company is in the valuation of that company's equity.[24] Attention has been focused in recent years on the balance of power between the CEO and the board of directors and specifically the differences between the European model and the US model—in the US studies have found that 80% of companies have a CEO who is also the chairman of the board, in the UK and the European model it was found that 90% of the largest companies split the roles of CEO and chairman.[43]
+Employee relations[edit]
+In the United States Moskowitz's list of the Fortune 100 Best Companies to Work For has become not only an important tool for employees but companies are beginning to compete keenly for a place on the list, as not only does it help to recruit the best workforce, it appears to have a noticeable impact on company values.[16] Employee relations relate also to the representation of co-workers in the decision-making of companies, and the ability to participate in a union.
+Executive compensation[edit]
+Companies are now being asked to list the percentage levels of bonus payments and the levels of remuneration of the highest paid executives are coming under close scrutiny from stock holders and equity investors alike.
+Employee compensation[edit]
+Besides executive compensation, equitable pay of other employees is a consideration in the governance of an organization. This includes pay equity for employees of all genders. Pay equity audits and the results of those audits may be required by various regulations and, in some cases, made available to the public for review. Hermann J. Stern differentiates four methods to include ESG performance in employee compensation:[44]
+ESG Targets (Objectives for activities, projects and ESG results set by the company as a goal)
+ESG Relative Performance Measurement (compared to peers, on the basis of key figures the company considers relevant)
+ESG Ratings Agencies (Refinitiv, S&P Trucost and RobecoSam, Sustainalytics, ISS ESG, MSCI ESG, Vigeo Eiris, EcoVadis, Minerva Analytics, etc.)[45]
+ESG Performance Evaluations (internal or independent performance assessment by means of expert opinions, based on internally and externally available objective and subjective facts)
+Responsible investment[edit]
+See also: Socially responsible investing
+The three domains of social, environmental and corporate governance are intimately linked to the concept of responsible investment (RI). RI began as a niche investment area, serving the needs of those who wished to invest but wanted to do so within ethically defined parameters. In recent years it has become a much larger proportion of the investment market. By June 2020, flows into U.S. sustainable funds reached $20.9 billion, nearly matching 2019's flows of $21.4 billion.[46] By the end of 2020, flows into U.S. sustainable funds surpassed $51 billion.[47] Globally, sustainable funds held $1.65 trillion in assets at the end of 2020.[48]
+Investment strategies[edit]
+RI seeks to control the placing of its investments via several methods:
+Positive selection; where the investor actively selects the companies in which to invest; this can be done either by following a defined set of ESG criteria or by the best-in-class method where a subset of high performing ESG compliant companies is chosen for inclusion in an investment portfolio.
+Activism; strategic voting by shareholders in support of a particular issue, or to bring about change in the governance of the company.
+Engagement; investment funds monitoring the ESG performance of all portfolio companies and leading constructive shareholder engagement dialogues with each company to ensure progress.[49]
+Consulting role; the larger institutional investors and shareholders tend to be able to engage in what is known as 'quiet diplomacy', with regular meetings with top management in order to exchange information and act as early warning systems for risk and strategic or governance issues.[50]
+Exclusion; the removal of certain sectors or companies from consideration for investment, based on ESG-specific criteria.
+Integration; the inclusion of ESG risks and opportunities into traditional financial analysis of equity value.
+Institutional investors[edit]
+See also: Institutional investors
+One of the defining marks of the modern investment market is the divergence in the relationship between the firm and its equity investors. Institutional investors have become the key owners of stock—rising from 35% in 1981 to 58% in 2002 in the US[51] and from 42% in 1963 to 84.7% in 2004 in the UK[52] and institutions tend to work on a long-term investment strategy. Insurance companies, Mutual Funds and Pension Funds with long-term payout obligations are much more interested in the long term sustainability of their investments than the individual investor looking for short-term gain.[23] Where a Pension Fund is subject to ERISA, there are legal limitations on the extent to which investment decisions can be based on factors other than maximizing plan participants' economic returns.[53]
+Based on the belief that addressing ESG issues will protect and enhance portfolio returns, responsible investment is rapidly becoming a mainstream concern within the institutional industry. By late 2016, over a third of institutional investors (commonly referred to as LPs) based in Europe and Asia-Pacific said that ESG considerations played a major or primary role in refusing to commit to a private equity fund, while the same is true for a fifth of North American LPs.[54] In reaction to investor interest in ESG, private equity and other industry trade associations have developed a number of ESG best practices, including a due diligence questionnaire for private fund managers and other asset managers to use before investing in a portfolio company.[55]
+There was a clear acceleration of the institutional shift towards ESG-informed investments in the second semester of 2019. The notion of "SDG Driven Investment" gained further ground amongst pension funds, SWFs and asset managers in the second semester of 2019, notably at the World Pensions Council G7 Pensions Roundtable held in Biarritz, 26 August 2019,[56] and the Business Roundtable held in Washington, DC, on 19 August 2019.[57]
+Networks of institutional investors committed to curbing climate change have emerged, where in institutional investors are agreeing to hold themselves accountable to climate action targets. One such example is the Institutional Investors Group on Climate Change, looking to deliver significant progress to net zero by 2030.[58] Moreover, the networks have collaborated with investment frameworks to "evaluate" corporate progress to net zero, with one such framework being the Climate Action 100+, a series of criterion used to evaluate the companies emitting the largest quantity of GHG.[59]
+Principles for Responsible Investment[edit]
+The Principles for Responsible Investment Initiative (PRI) was established in 2005 by the United Nations Environment Programme Finance Initiative and the UN Global Compact as a framework for improving the analysis of ESG issues in the investment process and to aid companies in the exercise of responsible ownership practices. As of April 2019 there are over 2,350 PRI Signatories.[60]
+Equator Principles[edit]
+Main article: Equator Principles
+The Equator Principles is a risk management framework, adopted by financial institutions, for determining, assessing and managing environmental and social risk in project finance. It is primarily intended to provide a minimum standard for due diligence to support responsible risk decision-making.[61] As of October 2019, 97 adopting financial institutions in 37 countries had officially adopted the Equator Principles,[62] the majority of international Project Finance debt in emerging and developed markets.[63] Equator Principles Financial Institutions (EPFIs) commit to not provide loans to projects where the borrower will not or is unable to comply with their respective social and environmental policies and procedures.
+The Equator Principles, formally launched in Washington DC on 4 June 2003, were based on existing environmental and social policy frameworks established by the International Finance Corporation. These standards have subsequently been periodically updated into what is commonly known as the International Finance Corporation Performance Standards on social and environmental sustainability and on the World Bank Group Environmental, Health, and Safety Guidelines.[64]
+ESG ratings agencies[edit]
+Asset managers and other financial institutions increasingly rely on ESG ratings agencies to assess, measure and compare companies' ESG performance.[65] More recently, publications like Newsweek have used ESG data provided by market research companies like Statista to rate the most responsible organizations in a country.[66][67]
+Data providers such as ESG Analytics have applied artificial intelligence[68] to rate companies and their commitment to ESG. Each rating agency uses its own set of metrics to measure the level of ESG compliance and there is, at present, no industry-wide set of common standards.
+In Latin America, it is the Latin American Quality Institute with headquarters in Panama and operations in 19 countries that leads the movement with more than 10,000 certifications issued.[69][70][71]
+Disclosure and regulation[edit]
+The first ten years of the 21st century has seen growth in the ESG defined investment market. Not only do most of the world's big banks have departments and divisions exclusively addressing Responsible Investment but boutique firms specialising in advising and consulting on environmental, social, and governance related investments are proliferating. One of the major aspects of the ESG side of the insurance market which leads to this tendency to proliferation is the essentially subjective nature of the information on which investment selection can be made. By definition ESG data is qualitative; it is non-financial and not readily quantifiable in monetary terms. The investment market has long dealt with these intangibles—such variables as goodwill have been widely accepted as contributing to a company's value. But the ESG intangibles are not only highly subjective they are also particularly difficult to quantify and more importantly verify. A lack of clear standards and transparent monitoring has led to fears that ESG avowals mainly serve purposes of greenwashing and other company public relations objectives, while distracting from more substantive initiatives to improve environment and society.[72][73]
+One of the major issues in the ESG area is disclosure. Environmental risks created by business activities have actual or potential negative impact on air, land, water, ecosystems, and human health. The information on which an investor makes their decisions on a financial level is fairly simply gathered. The company's accounts can be examined, and although the accounting practices of corporate business are coming increasingly into disrepute after a spate of recent financial scandals, the figures are for the most part externally verifiable. With ESG considerations, the practice has been for the company under examination to provide its own figures and disclosures.[74] These have seldom been externally verified and the lack of universal standards and regulation in the areas of environmental and social practice mean that the measurement of such statistics is subjective to say the least.
+One of the solutions put forward to the inherent subjectivity of ESG data is the provision of universally accepted standards for the measurement of ESG factors. Such organizations as the ISO (International Organization for Standardization) provide highly researched and widely accepted standards for many of the areas covered.[75] Some investment consultancies, such as Probus-Sigma have created methodologies for calculating the ratings for an ESG based Ratings Index that is both based on ISO standards and externally verified,[76] but the formalization of the acceptance of such standards as the basis for calculating and verifying ESG disclosures is by no means universal.
+The corporate governance side of the matter has received rather more in the way of regulation and standardization as there is a longer history of regulation in this area. In 1992 the London Stock Exchange and the Financial Reporting Commission set up the Cadbury Commission to investigate the series of governance failures that had plagued the City of London such as the bankruptcies of BCCI, Polly Peck, and Robert Maxwell's Mirror Group. The conclusions that the commission reached were compiled in 2003 into the Combined Code on Corporate Governance which has been widely accepted (if patchily applied) by the financial world as a benchmark for good governance practices.[77]
+In the interview for Yahoo! Finance Francis Menassa (JAR Capital) says, that "the EU's 2014 Non-Financial Reporting Directive will apply to every country on a national level to implement and requires large companies to disclose non-financial and diversity information. This also includes providing information on how they operate and manage social and environmental challenges. The aim is to help investors, consumers, policy makers, and other stakeholders to evaluate the non-financial performance of large companies. Ultimately, the Directive encourages European companies to develop a responsible approach to business".[78]
+One of the key areas of concern in the discussion as to the reliability of ESG disclosures is the establishment of credible ratings for companies as to ESG performance. The world's financial markets have all leapt to provide ESG relevant ratings indexes, the Dow Jones Sustainability Index, the FTSE4Good Index (which is co-owned by the London Stock Exchange and Financial Times[79]), Bloomberg ESG data,[80] the MSCI ESG Indices[81] and the GRESB benchmarks[82]
+European regulators have introduced concrete rules to deal with the problem of greenwashing.[83] These include a package of legislative measures arising from the European Commission’s Action Plan on Sustainable Finance.[84]
+Litigation[edit]
+The Kentucky Bankers Association of 150 banks doing business in Kentucky is suing Kentucky Attorney General Daniel Cameron over his investigating banks’ ESG practices, such as commitments to combat climate change.[85][86] In November 2022, the Kentucky Bankers Association sued Cameron in Franklin Circuit Court; Cameron had the case removed to the US District Court for the Eastern District of Kentucky before Judge Gregory Van Tatenhove, for whom Cameron was previously a law clerk.[87][88][89][90] The association said Cameron has displayed "amazing and disturbing broad overreach" by overstepping his legal authority, and did not have authority to demand detailed information from banks as part of an investigation into their environmental lending practices, which it said was a big government intrusion on private businesses that could create "an ongoing state surveillance system."[88][89][90]
+Reporting[edit]
+Under ESG reporting, organizations are required to present data from financial and non-financial sources that shows they are meeting the standards of agencies such as the Sustainability Accounting Standards Board, the Global Reporting Initiative, and the Task Force on Climate-related Financial Disclosures. Data must also be made available to rating agencies and shareholders.[91]
+Research findings[edit]
+According to a 2021 study done by the NYU Stern Center for Sustainable Business, which looked at over 1,000 studies, "studies use different scores for different companies by different data providers."[92]
+Research shows that such intangible assets comprise an increasing percentage of future enterprise value.[93][25] While there are many ways to think of intangible asset metrics, these three central factors together, ESG, comprise a label that has been adopted throughout the United States financial industry. They are used for a myriad of specific purposes with the ultimate objective of measuring elements related to sustainability and societal impact of a company or business.[94] MSCI, a global ESG rating agency uses the term from investment perspective and defines ESG Investing as the consideration of environmental, social, and governance factors alongside financial factors in the investment decision-making process.[95] Likewise, S&P highlights that through ESG investing, market participants consider in their decision-making the ways in which environmental, social, and governance risks and opportunities can have material impacts on companies' performance. Investors who use ESG in their decision-making are able to invest sustainably while maintaining the same level of financial returns as they would with a standard investment approach.[96]
+A study published by the European Securities and Markets Authority has also found that "ESG generally improves returns and cuts client costs over time".[97] Analysis over a five-year period showed stock funds weighted towards ESG scores generally performed higher: an increase in annual average return of 1.59% in European markets, 1.02% in Asia-Pacific markets, and 0.13-0.17% in North American and global markets.[98]
+See also[edit]
+Environmental impact assessment
+Environmental full-cost accounting
+Form 10-K
+International Organization for Standardization
+UK company law
+US corporate law
+UN Sustainable Development Goals
+Equator Principles
+References[edit]
+^ "Standards Overview". Sustainability Accounting Standards Board (SASB). Retrieved 25 October 2022.
+^ "Environmental, Social, and Governance (ESG) Principles and Criteria". Investopedia. Retrieved 15 September 2022.
+^ "17 Goals for People, for Planet". United Nations. Retrieved 21 May 2022.
+^ "Who Cares Wins –The Global Compact Connecting Financial Markets to a Changing World" (PDF). UN Environment Programme – Finance Initiative. Retrieved 21 May 2022.
+^ "Global sustainable investing assets surged to $30 trillion in 2018". Greenbiz. Retrieved 9 August 2021.
+^ Juliet Chung and Dave Michaels, "ESG Funds Draw SEC Scrutiny", Wall Street Journal. December 16, 2019.
+^ Berk, Jonathan; van Binsbergen, Jules H. (21 August 2021). "The Impact of Impact Investing". Rochester, NY. doi:10.2139/ssrn.3909166. S2CID 239707705. SSRN 3909166. {{cite journal}}: Cite journal requires |journal= (help)
+^ Armstrong, Robert (24 August 2021). "The ESG investing industry is dangerous". Financial Times. Retrieved 15 January 2022.
+^ "ESG (Environmental, Social and Governance)". Corporate Finance Institute. Retrieved 22 January 2022.
+^ a b Coleman, James S, "Social Capital in the Creation of Human Capital", American Journal of Sociology, Vol. 94, 1988.[page needed]
+^ Roberts, B.C., Trade Union Government and Administration in Great Britain (Harvard University Press, 1958)[ISBN missing][page needed]
+^ Gray, Hillel, New Directions in the Investment and Control of Pension Funds, Investor Responsibility Research Center, 1983.[ISBN missing][page needed]
+^ "ESG Investing Comes of Age". Morningstar. Retrieved 19 January 2022.
+^ "The Leon H. Sullivan Foundation". Archived from the original on 19 June 2017. Retrieved 11 November 2018.
+^ Freidman, Milton and Rose, Free to Choose: A Personal Statement. Harcourt, 1980.[ISBN missing][page needed]
+^ a b Ballou, B., Godwin, Norman H., Toppe Shortridge, Rebecca, "Firm Value and Employee Attitudes on Workplace Quality", (Accounting Horizons, Vol. 17, 2003)
+^ Edmans, Alex, "the Stock Market Fully Value Intangibles? Employee Satisfaction and Equity Prices", Journal of Financial Economics Vol. 101, 2011.
+^ "United Nations Environment – Finance Initiative – Partnership between United Nations Environment and the global financial sector to promote sustainable finance".
+^ Freshfields Bruckhaus Deringer, A Legal Framework for the Integration of Environmental, Social and Governance Issues into Institutional Investment: A Report Produced for the Asset management Working Group of the UNEP FI, 2005 (PDF)
+^ "Law Commission". Justice. UK. Archived from the original on 24 September 2014.
+^ Cogan Douglas, G, "Corporate Governance and Climate Change: Making the Connexion, Ceres, March 2003.
+^ Barnett, Michael and Salomon, Robert, "Beyond Dichotomy: The Curvilinear Relationship between Social Responsibility and Financial Performance", Strategic Management Journal, Vol. 27, 2006.[page needed]
+^ a b c "IPE European Institutional Asset Management Survey", 2009
+^ a b Aguilera, Ruth et al, "Corporate Governance and Social Responsibility; a comparative analysis of the UK and the US". (Corporate Governance, Blackwell, Vol. 14, 2006)[page needed]
+^ a b Robert Eccles, Ioannis Ioannou and George Serafeim, "Is sustainability now the key to corporate success? Companies that adopted environmental, social, and governance policies in the 1990s have outperformed those that didn't", The Guardian, 6 January 2012 (page visited on 28 January 2018).
+^ "Sustainable Finance". European Securities and Markets Authority. Retrieved 18 May 2022.
+^ "Sustainable Finance Disclosure Regulation (SFDR)". Autoriteit Financiële Markten. Retrieved 18 May 2022.
+^ "Sustainability-related disclosure in the financial services sector". European Commission. Retrieved 18 May 2022.
+^ "Joint ESAS Final Report on RTS Under SFDR". European Securities and Markets Authority. Retrieved 18 May 2022.
+^ IPE European Institutional Asset Management Survey, 2009.[ISBN missing][page needed]
+^ Supachai Panitchpakdi, "UNCTAD Secretary General's Statement", 2009[page needed]
+^ "Stern Review on the Economics of Climate Change". HM Treasury.
+^ Jayne, Michele E. A. and Dipboye, Robert L., "Leveraging Diversity to Improve Business Performance",
+Human Resource Management, Wiley, Vol. 43, 2004.[page needed]
+^ Merck, Promoting Diversity and Inclusion, 2006[ISBN missing][page needed]
+^ "Business & Human Rights Resource Centre". Business & Human Rights Resource Centre.
+^ Morgan, Donald P., Defining and Predicting Predatory Lending, Federal Reserve Bank of New York, Staff Report 273, 2007.
+^ "Animal welfare". ESG pro. Fidelity. Retrieved 19 January 2022.
+^ "Right-wing activists pose challenge to ESG crusade". Reuters. 25 March 2021. Retrieved 22 January 2022.
+^ "Conservatives". Proxy Preview 2021. Retrieved 22 January 2022.
+^ "Overview". IFC. Retrieved 19 January 2022.
+^ "ESG 101: What is Environmental, Social and Governance?". MSCI.
+^ Behar, Andrew (2016). The Shareholder Action Guide: How Your Investments and 401(k) Can Change the World. p. 27.
+^ Higgs, D, Review of the Role and Effectiveness of Non-Executive Directors (Higgs Report, 2005)[ISBN missing]
+^ Stern, H.J., Better Bonus Plans for ESG, submitted Working Paper, SSRN, 2020.
+^ Nason, Deborah (31 December 2020). "How to navigate the world of sustainable investing ratings". CNBC. Retrieved 28 January 2021.
+^ Hale, Jon (30 July 2020). "Sustainable Funds Continue to Rake in Assets During the Second Quarter". Morning star. Retrieved 18 August 2020.
+^ Hale, Jon (28 January 2021). "A Broken Record: Flows for U.S. Sustainable Funds Again Reach New Heights". Morning star. Retrieved 29 January 2021.{{cite web}}:
+CS1 maint: url-status (link)
+^ Howcroft, Simon; Jessop, Elizabeth (28 January 2021). "Sustainable fund assets hit record $1.7 trln in 2020". Morningstar. Reuters. Retrieved 28 January 2021.
+^ French research centre Novethic issues a SRI engagement label, which was extended to Fondation Guilé e.g.
+^ Holland, J., Influence and Intervention by Financial Institutions in their Investee Companies, Corporate Governance, Issue 6, 1998.
+^ Binay, M., Performance Attribution of UA Institutional Investors
+(Financial Management, Summer, 2005)
+^ Office for National Statistics, Share Ownership, 2005
+^ Lemke and Lins, ERISA for Money Managers §§2:125–2:127 (Thomson West, 2014–2015 ed.).
+^ "Global PE Barometer – Winter 2016–17". Coller capital. Retrieved 30 October 2017.
+^ "Finding Your ESG Mindset with Invest Europe". Navatar. Retrieved 30 October 2017.
+^ Firzli, Nicolas (10 February 2020). "G7 Pensions Roundtable : Les ODD ('SDGs') Désormais Incontournables". Cahiers du Centre des Professions Financières. CPF. SSRN 3545217. Retrieved 17 March 2020.
+^ McGregor, Jena (20 August 2019). "Group of top CEOs says maximizing shareholder profits no longer can be the primary goal of corporations". Washington Post. Retrieved 17 March 2020.
+^ "About Us". IIGCC.
+^ "Climate Action 100+ Framework". Parq HQ.
+^ "Signatories". Principles for Responsible Investment. UN. 5 February 2015. Archived from the original on 21 September 2013. Retrieved 5 February 2015.
+^ "The Equator Principles – Environmental and social risk management for projects". Retrieved 27 April 2019.
+^ "EP Association Members & Reporting". Equator principles. Retrieved 7 October 2019.
+^ Wright, Christopher, and Alexis Rwabizambuga. "Institutional pressures, corporate reputation, and voluntary codes of conduct: An examination of the equator principles." Business and Society Review 111.1 (2006): 89–117.
+^ "Equator Principles History and Context FAQ" (PDF). Equator principles. Archived from the original (PDF) on 23 November 2015. Retrieved 30 November 2015.
+^ Huber, Betty (27 July 2017). "ESG Reports and Ratings: What they are, why they matter". Harvard Law School. Retrieved 13 September 2018.
+^ Cooper, Nancy (9 December 2021). "America's Most Responsible Companies 2022". Newsweek. Retrieved 7 February 2022.
+^ Hersil, Angela (9 December 2021). "Zurn Water Solutions Named to Newsweek's 2022 List of America's Most Responsible Companies". Zurn Water Solutions. Retrieved 7 February 2022.
+^ "Home". esganalytics.io.
+^ "Pequenas e médias empresas podem se beneficiar do ESG, entrevista Daniel Maximilian Da Costa". Agência O Globo. Brazil.
+^ "Empresas da América Latina se comprometem a atingir objetivos globais através de modelo de excelência". Terra. Brazil.
+^ da Costa, Daniel Maximilian. "ESG". Estadão. Brazil.
+^ O'Leary, Michael; Valdmanis, Warren (4 March 2021). "An ESG reckoning is coming". Harvard Business Review.{{cite journal}}:
+CS1 maint: url-status (link)
+^ Fancy, Tariq (16 March 2021). "Financial world greenwashing the public with deadly distraction in sustainable investing practices". USA Today. Retrieved 15 April 2021.{{cite web}}:
+CS1 maint: url-status (link)
+^ Association of British Insurers, Disclosure Guidelines on Socially Responsible Investment, 2001
+^ "ISO – International Organization for Standardization". Retrieved 27 April 2016.
+^ Burocratik. "Probus Sigma". EU. Retrieved 15 November 2011.
+^ Cadbury Committee on the Financial Aspects of Corporate Governance, Report with Code of Best Practice, (London, Gee Publishing, 1992)
+^ Francis Menassa (20 June 2019). "Why ESG is a New Trend". FX Empire. Retrieved 20 June 2019.
+^ Baker & McKenzie LLP (2013). "ESG Reporting on the London Stock Exchange" (PDF). Advocates for International Development. Archived from the original (PDF) on 12 December 2013. Retrieved 15 August 2013.
+^ "Why Bloomberg ESG Data Matters". Emisoft.[permanent dead link]
+^ "MSCI ESG Indexes". MSCI. Retrieved 10 October 2018.
+^ "Assessments". GRESB. Retrieved 10 October 2018.
+^ Katanga, Jerber (7 July 2021). "U.S. SEC to consider new 'sustainable' fund criteria, data disclosure rules". Nasdaq. Retrieved 29 July 2021.
+^ "Sustainable finance | European Commission". European Commission. Retrieved 30 May 2022.
+^ Wolman, Jordan; Prang, Allison. "'Til next time, COP". POLITICO.
+^ Otts, Chris. "Banking group sues Kentucky AG Daniel Cameron over 'ESG' investigation". WDRB.
+^ "Hope of Kentucky, LLC et al v. Cameron". Justia Dockets & Filings. US District Court for the Eastern District of Kentucky.
+^ a b Joe Sonka (15 November 2022). "Kentucky bankers: Daniel Cameron trying to create 'state surveillance system'". Yahoo.
+^ a b "Kentucky banking group sues state's GOP attorney general over ESG probe". American Banker. 16 November 2022.
+^ a b Otts, Chris (15 November 2022). "Banking group sues Kentucky AG Daniel Cameron over 'ESG' investigation". WDRB.
+^ "Workiva Cloud Platform Simplifies and Accelerates ESG Reporting for Companies Across the Globe". AiThority. 30 April 2021. Retrieved 1 September 2021.
+^ Whelan, Tensie (10 February 2021). "ESG and Financial Performance" (PDF). NYU Stern. Retrieved 10 March 2022.
+^ "Intangible Asset Market Value Study", Ocean Tomo.
+^ Georg Kell (United Nations Global Compact), "Five trends that show corporate responsibility is here to stay", The Guardian, 13 August 2014 (page visited on 28 January 2018).
+^ "ESG 101: What is Environmental, Social and Governance?". MSCI. Retrieved 21 January 2022.
+^ "What is the difference between ESG investing and socially responsible investing?". SP global. Retrieved 21 January 2022.
+^ Schwartzkopff, Frances (25 August 2022). "GOP Fury Over ESG Triggers Backlash With US Pensions at Risk". Bloomberg News. Retrieved 25 August 2022.
+^ Horton, Cole; Jessop, Simon (28 July 2022). "Positive ESG performance improves returns globally, research shows". Reuters. Retrieved 25 August 2022.
+External links[edit]
+All About ESG Risks by esgriskguard.com
+Elements of an ESG Report by reportyak.com
+ESG reporting frameworks and the differences between them by reportyak.com
+Portals: Environment Business and economics Politics Philosophy
+vteSocial and environmental accountabilityEthics andprinciples
+Aarhus Convention
+Corporate accountability / behaviour / social responsibility
+Ethical banking
+Ethical code
+Extended producer responsibility
+Organizational ethics
+Organizational justice
+Principles for Responsible Investment
+Social responsibility
+Stakeholder theory
+Sullivan principles
+Transparency (behavioral
+social)
+UN Global Compact
+Socialaccounting
+Double bottom line
+Ethical positioning index
+Higg Index
+Impact assessment (environmental
+equality
+social)
+ISO 26000
+ISO 45001
+Genuine progress indicator
+Performance indicator
+SA8000
+Social return on investment
+Whole-life cost
+Environmentalaccounting
+Carbon accounting
+Eco-Management and Audit Scheme
+Emission inventory
+Environmental full-cost accounting / impact assessment / management system / profit-and-loss account
+ISO 14000
+ISO 14031
+Life-cycle assessment
+Pollutant release and transfer register
+Sustainability accounting / measurement / metrics and indices / standards and certification / supply chain
+Toxics Release Inventory
+Triple bottom line
+Reporting
+Global Reporting Initiative
+GxP guidelines
+Sustainability reporting
+Auditing
+Community-based monitoring
+Environmental (certification)
+Fair trade (certification)
+ISO 19011
+Related
+Bangladesh Accord
+Benefit corporation
+Child labour
+Community interest company
+Conflict of interest
+Disasters
+Disinvestment
+Eco-labeling
+Environmental pricing reform
+Environmental, social, and corporate governance
+Ethical consumerism
+Euthenics
+Health impact assessment
+Market governance mechanism
+Product certification
+Public participation
+Social enterprise
+Socially responsible investing
+Stakeholder (engagement)
+Supply chain management
+Environment portal
+Category
+Commons
+Organizations
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Environmental,_social,_and_corporate_governance&oldid=1131137684"
+Categories: EnvironmentalismEthical bankingEthical investmentCorporate governanceHidden categories: CS1 errors: missing periodicalWikipedia articles needing page number citations from July 2022Pages with missing ISBNsCS1 maint: url-statusAll articles with dead external linksArticles with dead external links from January 2022Articles with permanently dead external linksArticles with short descriptionShort description matches WikidataWikipedia articles with style issues from April 2011All articles with style issuesWikipedia neutral point of view disputes from October 2021All Wikipedia neutral point of view disputesArticles with multiple maintenance issuesUse dmy dates from January 2018Use British English from January 2018All articles with unsourced statementsArticles with unsourced statements from July 2022Wikipedia articles needing clarification from September 2022All articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from September 2022Pages using div col with small parameter
+Navigation menu
+Personal tools
+Not logged inTalkContributionsCreate accountLog in
+Namespaces
+ArticleTalk
+English
+Views
+ReadEditView history
+More
+Navigation
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+Contribute
+HelpLearn to editCommunity portalRecent changesUpload file
+Tools
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+Print/export
+Download as PDFPrintable version
+Languages
+العربيةEspañolفارسیFrançais한국어LietuviųMagyarNederlandsPolskiPortuguêsРусскийSuomiTürkçe中文
+Edit links
+This page was last edited on 2 January 2023, at 19:03 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement

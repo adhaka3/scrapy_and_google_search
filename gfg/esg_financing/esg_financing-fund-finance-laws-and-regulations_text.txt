@@ -1,0 +1,144 @@
+Fund Finance
+Laws and Regulations |
+The rise of ESG and green fund finance | GLI
+Free Newsletter
+About Us | Contact Us | Partners | Statement on Russia
+Toggle navigation
+Our Websites
+GLG
+ICLG
+CDR
+ALB
+Sign up for free newsletter
+Menu
+Home
+Practice Areas
+Jurisdictions
+ALL
+Africa
+Asia-Pacific
+Central America & the Caribbean
+Europe
+Latin America
+Middle East
+North America
+Offshore
+Russia & CIS
+Conferences
+Testimonials
+Videos
+Contributors
+View Basket
+Home
+Practice areas
+Fund Finance
+Laws and Regulations 2022
+21 The rise of ESG and green fund finance
+Fund Finance
+Laws and Regulations 2022 |
+The rise of ESG and green fund finance
+Chapter content - Free access
+1
+Introduction
+2
+Elements of an ESG or green financing
+3
+ESG financing
+4
+Where next?
+1
+Introduction
+Back to top
+In the year of COP26 (the 26th UN Climate Change Conference of the Parties), there will be an ever-increasing focus on how financial instruments and every participant in financial markets, from banks to fund managers to investors, can positively impact climate change.  The COP26 goal is to have every financial decision take climate into account:
+This includes all private investment decisions, but also all spending decisions that countries and international financial institutions are making as they roll out stimulus packages to rebuild economies from the pandemic.
+Companies need to be transparent about the risks and opportunities that climate change, and the shift to a net zero economy, pose to their business.
+Central banks and regulators need to make sure that our financial systems can withstand the impacts of climate change and support the transition to net zero.
+Banks, insurers, investors and other financial firms need to commit to ensuring that their investments and lending are aligned with net zero.1
+With this ever-increasing focus on the correlation between finance and climate change, as well as other changes considered beneficial to society as a whole, green, environmental, social and governance (“ESG”), and sustainability-linked lending (“SLL”) in the fund finance market will become core parts of many fund finance facilities.  Over the course of the past year, we have seen ESG and SLL provisions incorporated in several large, high-profile, multi-bank facilities and this is now extending to smaller and bilateral facilities, too, across a wide range of asset classes.  This general market movement towards cleaner and greener investing through either a use of proceeds-based approach or an overall ESG metrics approach has limited partners (“LPs”) increasingly interested in ESG factors.  For funds and fund managers, this has resulted in an increasing inclusion of ESG provisions/obligations in side letters entered into with LPs.  With more rigorous ESG obligations entering into force, particularly as a result of key ESG regulatory developments, this is evolving to become a core element of limited partnership agreements.  While we saw a slight pause in some markets with regard to the growth of SLL and ESG financing due to the impacts of COVID-19, there is renewed vigour that we expect to increase as markets return to a form of normality post-COVID and as momentum builds following COP26.
+Along with mounting public pressure to evidence ESG credentials, one of the key aspects driving this change is new regulation that has been introduced in Europe and which sets ambitious objectives in reorienting capital towards more sustainable investments.  The regulatory drivers will have a significant impact on funds and fund managers, how ESG factors and risks are incorporated into investment decisions and subsequently the financings entered into.  As the pressure for funds to focus and report on ESG metrics increases, the question for funds will no doubt arise as to how this may flow through into their financing documentation.
+Likewise, lenders are increasingly keen to be at the forefront of driving green and ESG change through financing products, and increasing the amount of lending linked to green objectives (also known as use of proceeds lending) or ESG objectives (also known as SLL) is becoming a board-level imperative for financial institutions as market participants realise that financial stability is intrinsically tied to sustainability and ESG risks.  For a lender thinking about its own ESG strategy, there is awareness that funds with sustainability on their agenda are arguably those that are more likely to be better prepared for future risks and opportunities and, therefore, perhaps, a better credit risk.
+2
+Elements of an ESG or green financing
+Back to top
+Green or use of proceeds financing
+While much of the focus on ESG lending in the fund finance market focuses on “ESG” lending, we should not discount green lending as also having a role to play in the fund finance market.  Green loans are loans made for a specific green purpose that do not necessarily have pricing mechanics attached to them but rather a specific (usually green) commitment to make investments meeting this green purpose.
+While being lent for a specific purpose has the potential to make green loans less flexible than their sister, the ESG loan, this does not prevent their use in the impact or green fund space – where the loans can be utilised to invest in “green” investments that meet the criteria set out in the loan agreement.  For example, funds with a particular green or sustainable strategy (e.g. investment in renewable energy) may be well suited to a green loan.  Similarly, 2021 saw the introduction of the social loan principles by the LMA, which, like a green loan, are extended on the basis of a particular “purpose”.  While we have not yet seen these arising in the fund finance market, perhaps 2022 will be the year.
+3
+ESG financing
+Back to top
+ESG SLL is the provision of (usually) a revolving credit facility that includes certain ESG-related key performance indicators (“KPIs”), achievement of which links to a pricing toggle.  In a nutshell, ESG SLL is like any other loan to a fund, except with an additional layer of reporting (whether by a third-party verifier, auditor or the fund itself) on specific ESG/sustainability KPIs developed in respect of that fund or its investments.  This expands the universe of borrowers and industries that can access the sustainable finance market by enabling funds that do not have an eligible project to still incorporate ESG considerations into their financing.
+To date, much of the green or ESG financing we have seen in the fund finance space has been linked to ESG financing, as it provides funds and fund managers with the ability to retain a revolving credit facility at the fund level, similar to that that they may have otherwise had in place, and rewards or (sometimes) penalises them for general ESG performance across the board or specific KPIs (rather than linking it to a specific investment/limiting the fund to making specific, approved investments).
+As ESG finance becomes increasingly popular, we have no doubt that market norms will emerge; however, at this stage, no substantive market norms as regards documentation and practices have been established, although some trends are beginning to come to light.
+Margin adjustment
+A margin discount goes hand in hand with ESG or sustainability-linked finance (unlike green loans/finance, which does not necessarily offer a pricing adjustment), but consideration will need to be given as to what the appropriate level is to which this discount should be applied.
+Generally, the market appears to have started from a position where a simple discount is applied when the relevant fund hits the requisite KPI and the discount is then disapplied when the relevant KPI is not met.  However, as the market becomes more sophisticated, the spread for the margin incentive linked to KPIs becomes wider.  In particular, an upwards and downwards margin ratchet linked to KPIs is now trending in certain markets and we have already seen it appear in a number of ESG financings in the fund finance market.  This means that if the KPI is met, then there is a downwards movement and if the KPI is not met, then the margin goes up.
+Thought should also be given to what the fund will be encouraged to do (if anything) with any discount achieved.  We have increasingly seen examples in some markets of borrowers agreeing to donate any discounts achieved to environmental charities or to demonstrate that such savings are applied to ESG purposes, and we expect this to also become a feature of fund finance ESG or sustainability-linked financings.  However, donations can present know-your-customer and reputational challenges for lenders.  A more recent development has been the discussion of whether penalties or benefits from SLL or ESG financing should be used to buy voluntary carbon credits to offset emissions.  This of course negates the ability of the fund/borrower using any discount to drive further efficiencies within their own organisations, and for this reason is being approached with caution by most lenders.  There is also the argument that voluntary carbon credits encourage offsetting, which many sustainability advocates are actively trying to discourage as it is not seen as driving actual change in behaviours.
+Key performance indicators
+KPIs are at the heart of an ESG financing and are unique for each financing in the fund finance market, and therefore will need to be discussed and considered in context accordingly.  In the fund finance space, the underlying investment strategy of the fund and what it would like to change within its business will also be an important factor in this discussion.  While discussions regarding ESG finance often focus on the environmental gains to be made, consideration should also be given to the social and governance aspects – are there, for example, gender, diversity or governance improvements that could also be measured?
+Similarly, while there is a tendency to focus on KPIs at the investment level, consideration should also be given to whether fund-level KPIs may be appropriate (i.e. governance or social) or potentially even higher up the structure.
+Regardless of what they relate to, we expect the KPIs to take into account considerations such as:
+The term of the loan – the longer the term of the loan, the more consideration should be given to the suitability of the KPIs towards the end of the loan.  Should the KPIs be incremental, increasing year on year?  Or is a mechanism required to revisit the KPIs periodically to reassess their suitability?
+Number and nature of KPIs – where there are numerous or complex KPIs, thought should be given to whether these are likely to be better monitored by third parties with appropriate knowledge of the complexities of said KPIs.  Consideration should also be given to the administrative burden (for both the borrower and lender) resulting from including numerous KPIs and whether quality should be preferred over quantity.
+What is being measured – is it just the investment portfolio that should be tracked against KPIs?  Or are there other fund-level metrics that should be considered, whether environmental, social or governance-related (e.g. a recycling target, reduction in energy use, moving away from single-use plastics or diversity KPIs)?
+How should it be measured – should there be a weighting given to the ESG score of the fund depending on the percentage of investment of the fund in a company against the fund’s total portfolio?  Should consideration also be given to the timing of when the investment is made when calculating the relevant ESG score?
+What are the consequences of non-compliance with that KPI – while the obvious answer here is some upwards adjustment to the margin, we must query whether that should be the only consequence.  Should some KPIs be hurdles/ones that have to be achieved before any other discount flowing from KPI achievement can be unlocked?  Could KPIs be included that are not linked to margin adjustments but rather aimed at reputational motivation?  This will likely require public disclosure of the relevant KPIs but, to the extent that funds are simultaneously making public commitments to ESG goals, funds are being increasingly held to account by stakeholders.
+The unique challenge of setting KPIs for the fund finance market
+One of the unique challenges the fund finance market faces with ESG financing is how to set appropriate, challenging KPIs for those financings put in place early in the life of a fund when few or potentially no investments have been made.  While previous fund performance on similar ESG metrics may help to inform this process, thought should be given to whether there is a requirement for an ability to review KPIs on a regular basis (e.g. every 12 months to consider whether they remain appropriate and sufficiently challenging).  Other ways in which to approach this may include an ability for either the borrower or finance parties to bring the parties to the table to discuss certain KPIs should they feel they are no longer appropriate (with a right to disapply a KPI if agreement cannot be reached on any necessary amendments).
+Will there be regulatory drivers for KPIs going forward?
+There are already a number of existing international standards and guidelines that fund managers may voluntarily disclose against with respect to ESG factors.  Most recently, the EU – followed by the UK – has sought to codify these reporting obligations and harmonise what can and cannot be deemed “sustainable”.
+The new EU regulation that seeks to achieve this is the EU Taxonomy Regulation, which creates a framework for what can and cannot be considered an environmentally sustainable financial product.  The regulation introduces an EU-wide classification system (or taxonomy) of environmentally sustainable activities, which aims to provide more clarity for investors concerning financial products that purport to invest in sustainable activities or to promote environmental objectives.  The EU Taxonomy Regulation sets out the criteria for determining whether an economic activity constitutes an environmentally sustainable activity, which includes the requirement that the activity “do no significant harm”.  This is intended to facilitate (or reduce the burden of) investors’ own due diligence with regard to a product’s environmental sustainability and eliminate the practice of greenwashing (where financial products are inaccurately marketed as “green” or “sustainable”).
+The second piece of the jigsaw puzzle is the EU Disclosure Regulation, which seeks to harmonise existing provisions on disclosures in relation to sustainability-related disclosures by imposing requirements on so-called financial market participants (e.g. EU AIFMs and EU UCITS management companies and EU investment firms or EU credit institutions carrying out portfolio management) in relation to financial products.
+The EU Disclosure Regulation requires certain information to be made available either at entity level or at product level, irrespective of whether sustainability risks are integrated into financial market participants’ investment decision-making processes.  Further measures seek to increase transparency as regards financial products that target sustainable investments, including reduction in carbon emissions.
+The final key regulatory development is the Low Carbon Benchmark Regulation.  The Low Carbon Benchmark Regulation creates disclosure requirements on benchmark administrators as to ESG considerations for various different benchmarks.  It also creates two new categories of benchmarks: the Paris-aligned benchmark; and the climate transition benchmark, which will help fund managers measure performance against the Paris Agreement climate targets, if that is the objective of the fund.
+The UK has lagged behind the EU in terms of the introduction of sustainability-related disclosures, mandating Task Force on Climate-Related Financial Disclosures (“TCFD”) reports for the largest UK asset managers.  More recently it has been announced that the UK will, like the EU, introduce its own UK Taxonomy by the end of 2022 as well as Sustainability Disclosure Requirements, which will create an integrated framework for “decision-useful disclosures on sustainability”.  The Sustainability Disclosure Requirements will apply to asset managers and asset owners.
+Taken together, these EU and UK regulations are likely to shift behaviour in the fund market and in the fund finance market.  With more focus on fund managers’ own ESG approach, there is a likely impact on the fund finance market with respect to the characteristics set out above.  KPIs and reporting in particular are likely to be highly impacted with the data flow requirements that fund managers will be subject to as a result of the EU Disclosure Regulation.
+Sustainability performance targets
+Once you have set your KPIs, one of the unique challenges of the post-COVID world is how to set sustainability performance targets (“SPTs”).  With few exceptions, carbon emissions, travel, use of plastics, waste, etc. across all industries were significantly reduced due to arrangements put in place to deal with COVID-19 and with few expecting to return to pre-COVID levels, how do you set SPTs?  Are 2019 numbers the best to use?  The LMA Sustainability Linked Loan Principles recommend three years of historic data to measure track record.  Allowing for the interference of COVID-19, those three years of data are starting to look a bit out of date.  Similarly, most industries are looking to return to a “new normal”, but what that looks like, and the amount/volume of travel, emissions, etc. that will involve, remains unclear.
+In recent months, we have seen increased use of side letters or “ESG-Ready” facilities as a workaround to this problem, where facilities are put in place with the mechanics for an SLL or ESG financing but the KPIs and SPTs that will apply are agreed at a future date in a side letter.  Sometimes, these are utilised to work around tight timing requirements for getting facilities in place.  This approach, while giving more time (although we must query how long/whether it solves our out-of-date data issue), also brings with it its own challenges – in particular, reputational issues.  For example, do we need to introduce publicity restrictions to ensure that one party does not unilaterally publicise the facility as being an SLL or ESG facility before that side letter is agreed?  If we introduce such a restriction, should breach of it lead to an event of default?  As alluded to above, SLL/ESG mechanics have traditionally remained outside the event of default regime but, without bringing this into the event of default regime, what teeth will such a restriction have?
+Reporting obligations
+There will also be a discussion to be had as to the reporting obligations of the fund and whether reports produced internally by the fund, and which are provided to investors, will be sufficient for the finance parties.  It must also be discussed whether there should be an audit of internal ESG reporting or whether a third party should be engaged to provide an ESG report.  Ultimately, there are a number of factors that will feed into this discussion, including:
+Existing practices of the fund – does the fund have a track record of disclosing ESG information to investors?  Is the information disclosed sufficiently detailed to provide the requisite comfort to the lenders and measurement of the proposed KPIs?
+Underlying investments – depending on the fund, it may be that there are already reports being obtained from third-party providers; in which case, can these reports be made available to the lenders?  Do these existing reports cover all the KPIs in sufficient detail?
+Cost-benefit analysis – if third-party reports are to be obtained, are the costs associated with obtaining such reports reasonable in the context of the transactions, or, more importantly, will the cost of procuring such a report exceed any gain in margin reduction?  This will be a particular focus for the fund finance market where, unlike a corporate group, reporting might need to be done on an investment-by-investment basis.  Particularly for funds with a large number of investments, this may put the possibility of third-party reporting out of reach.
+Timing of reports – at present, reporting obligations are usually on a semi-annual or annual basis.  There may be consideration of increasing the frequency but this will have a corresponding effect on cost, as identified above.
+KPIs – what is being measured and can that information reliably be reported on by a third party?
+Thought should also be given to whether the failure to provide an ESG report should trigger an event of default.  Many will argue that the failure to provide a report should trigger an event of default in the same way a failure to comply with any other reporting obligation would under the facility.  Alternatively, there is an argument to be made that failure to provide a report should have no more severe a consequence than delivering a report that shows a failure to meet the relevant KPIs (i.e. a margin premium/removal of discount applied).
+4
+Where next?
+Back to top
+As the market for SLL and ESG loans is still developing and is certainly influenced by the events of the last 18 months, we expect renewed focus on the social and governance elements of ESG as well as green loans, and continued interest in this product as a tool to drive a proper independent review of the ESG credentials of funds and their investments, if not change itself.
+Endnote
+(Hyperlink).
+Contributing firm(s)
+Chapter authors
+Briony Holcombe
+Ashurst LLP
+Robert Andrews
+Ashurst LLP
+Lorraine Johnston
+Ashurst LLP
+Alternative formats
+Buy Chapter PDF - £ 125.00
+Order the 21 The rise of ESG and green fund finance chapter of Fund Finance 2022 in PDF format or read free online
+FREE ONLINE
+In stock
+back to top
+Regions
+North America
+Europe
+Russia and CIS
+Latin America
+Central America & the Caribbean
+Africa
+Asia-Pacific
+Middle East
+Offshore
+© 2002 - 2023 Global Legal Group
+About Us
+Contact Us
+Contributors
+Sign Up For Free Newsletter
+Terms of Use
+Fair Use
+Privacy
+Cookies

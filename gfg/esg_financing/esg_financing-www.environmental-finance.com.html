@@ -1,0 +1,1504 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Home - Environmental Finance</title>
+    <base href="https://www.environmental-finance.com/" />
+
+    <meta name="generator"
+        content="Query time: 0.1489 s (272 Queries) // Parse time: 2.5013 s // Total time: 2.6502 s // Source: database">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Environmental-finance.com is an online news and analysis service reporting on sustainable investment, green finance and the people and companies active in environmental markets" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://www.environmental-finance.com/" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@Enviro_Finance">
+    <meta name="twitter:title" content="Home">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="https://www.environmental-finance.com/">
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/v/dt/dt-1.10.20/fh-3.1.6/rg-1.1.1/sl-1.3.1/datatables.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/templates/framework/flex-layout.css?v=2">
+    <link rel="stylesheet" type="text/css" href="assets/templates/themes/flex-ef.css?v=2">
+    <link rel="stylesheet" type="text/css" href="assets/templates/framework/forms.css?v=2">
+    <link rel="stylesheet" type="text/css" href="assets/templates/framework/esg-styles.css?v=2">
+    <link rel="stylesheet" href="src/css/reset.css?v=2">
+    <link rel="stylesheet" href="src/css/base.css?v=2">
+    <link rel="stylesheet" href="src/css/style.css?v=2">
+    <link rel="stylesheet" href="assets/libraries/tables/responsive-tables.css?v=2" />
+    <link rel="stylesheet" href="src/css/event-overview.css?v=2">
+    <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="src/css/ie-only.css" />
+    <![endif]-->
+    <!--[if lte IE 9]>
+    	<link rel="stylesheet" type="text/css" href="assets/templates/flexindex/ie.css" />
+    <![endif]-->
+    
+<link rel="stylesheet" type="text/css" href="assets/templates/framework/layout.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/templates/framework/media-queries.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/templates/themes/carbon/carbon.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="assets/templates/framework/print.css" media="print" />
+
+    <script>document.cookie = 'resolution=' + Math.max(screen.width, screen.height) + '; path=/';</script>
+    <!--[if lt IE 9]>
+    	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+    	<script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-animate.min.js"></script>
+    <script src="assets/libraries/vendor/angular-ui-bootstrap/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.datatables.net/v/dt/dt-1.10.20/fh-3.1.6/rg-1.1.1/sl-1.3.1/datatables.min.js"></script>
+    <script type="text/javascript" href="assets/libraries/tables/responsive-tables.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/sqy0jvm.js"></script>
+    <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+    <script src="assets/libraries/components.js?v=2"></script>
+    <link rel="stylesheet" href="/assets/libraries/flexslider/flexslider.css" type="text/css">
+    <script type="text/javascript" src="/assets/libraries/flexslider/jquery.flexslider.js"></script>
+    <!-- Place in the <head>, after the three links -->
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                controlNav: false,
+                directionNav: true
+            });
+        });
+    </script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7etniRrzjqEc-1kH8-FaGK08o3l7qrG0">
+    </script>
+<script>
+function initialize() {
+  var mapOptions = {
+    zoom: 12,
+    center: new google.maps.LatLng(51.508515, -0.125487)
+  }
+  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  setMarkers(map, places);
+}
+
+
+var places = [
+	
+];
+
+infowindow = new google.maps.InfoWindow({
+	content: "loading..."
+});
+
+function setMarkers(map, locations) {
+	// Add markers to the map
+	for (var i = 0; i < locations.length; i++) {
+		var place = locations[i];
+		var html = '<div class="mapmarker"><strong>' + place[0] + '</strong><br />'; html += place[3] + "</div>";
+		var myLatLng = new google.maps.LatLng(place[1], place[2]);
+		var marker = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			html: html,
+			title: place[0],
+			icon: place[4]
+		});
+
+		google.maps.event.addListener(marker, "click", function () {
+			infowindow.setContent(this.html);
+			infowindow.open(map, this);
+			map.panTo(this.getPosition());
+		});
+	}
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+    
+
+    <script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function () {
+            var gads = document.createElement('script');
+            gads.async = true;
+            gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+
+    <script type='text/javascript'>
+        googletag.cmd.push(function () {
+            googletag.defineSlot('/20145196/EF-home-mobile-leader', [320, 50], 'div-gpt-ad-1370191008681-4').addService(googletag.pubads());
+            googletag.defineSlot('/20145196/EF-home-mpu1', [300, 250], 'div-gpt-ad-1370191008681-5').addService(googletag.pubads()).setCollapseEmptyDiv(true);
+            googletag.defineSlot('/20145196/EF-home-mpu2', [300, 250], 'div-gpt-ad-1370191008681-6').addService(googletag.pubads()).setCollapseEmptyDiv(true);
+            googletag.defineSlot('/20145196/EF-home-standard-leader', [728, 90], 'div-gpt-ad-1370191008681-7').addService(googletag.pubads().setTargeting("company", ""));
+            googletag.defineSlot('/20145196/EF-guide-leader', [728, 90], 'div-gpt-ad-1563277536462-0').addService(googletag.pubads().setTargeting("company", ""));
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-4742502-5', 'environmental-finance.com');
+    ga('require', 'linkid', 'linkid.js');
+    
+    ga('send', 'pageview');
+</script>
+
+    
+</head>
+
+    <body ng-app="flexApp" class="bg-green-globe">
+        
+<section id="site-header" class="page-section page-header">
+    <section class="page-section page-top-header">
+        <div class="inner-section">
+            <!----- Header component  ---->
+            <div id="banner" class="header-advert">
+            </div>
+
+            <!------ Logo component ------>
+            <div class="header-logo">
+                <a href="/"><img class="page-logo" src="assets/templates/framework/images/ef-logo.png"></a>
+            </div>
+
+            <!------ Menu toggles for MAIN MENU, SEARCH MENU and ACCOUNT MENU ---->
+            <div class="header-menu-toggle">
+                <div>
+                    <label for="show-menu" class="show-menu">
+                        <span class="fa fa-bars" aria-hidden="true"></span>
+                    </label>
+                    <input type="checkbox" id="show-menu" role="button">
+                </div>
+                <div>
+                    <label for="show-search" class="show-search">
+                        <span class="fa fa-search" aria-hidden="true"></span>
+                    </label>
+                    <input type="checkbox" id="show-search" role="button">
+                </div>
+                <div>
+                    <label for="show-user" class="show-user">
+                        <span class="fa fa-user" aria-hidden="true"></span>
+                    </label>
+                    <input type="checkbox" id="show-user" role="button">
+                </div>
+            </div>
+
+            <!------- Main Menu component ---------->
+            <div class="header-main-menu">
+                <ul>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="submenu-channels">
+                        <span>Channels <i class="fa fa-bars"></i></span>
+                    </li>
+                    <li><a href="content/events/">Events</a></li>
+                    <!-- <li><a href="content/market-insight/">Market Insight</a></li> -->
+                    <li><a href="channels/cop.html">COP</a></li>
+                    <li><a href="content/awards/">Awards</a></li>
+                    <li><a href="channels/green-bonds.html" title="Green Bonds">Green Bonds</a></li>
+                    <li><a href="channels/esg-data.html">ESG Data</a></li>
+                    <li><a href="channels/natural-capital.html">Natural Capital</a></li>
+                </ul>
+            </div>
+
+            <!-------- Search and User component ------>
+            <div class="header-search-user-menu">
+                <ul>
+                    <li class="search-bar">
+                        <span>Search</span>
+                    </li>
+                    <li class="account-menu">
+                        <span>Account <i class="fa fa-bars"></i></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="page-section page-bottom-header">
+        <div class="inner-section">
+            <!------- Main Menu component ---------->
+            <div class="header-main-menu">
+                <ul>
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="submenu-channels">
+                        <span>Channels <i class="fa fa-bars"></i></span>
+                        <div class="header-megamenu header-main-submenu">
+                            <ul>
+                                <li><a href="channels/asia-pacific.html" title="Asia Pacific">Asia Pacific</a></li>
+                                <li><a href="channels/carbon.html" title="Carbon">Carbon</a></li>
+                                <li><a href="channels/cop.html">COP</a></li>
+                                <li><a href="channels/debt.html" title="Debt">Debt</a></li>
+                                <li><a href="channels/esg.html" title="ESG">ESG</a></li>
+                                <li><a href="channels/esg-data.html" title="ESG Data">ESG Data</a></li>
+                                <li><a href="channels/equity.html" title="Equity">Equity</a></li>
+                                <li><a href="channels/green-bonds.html" title="Green Bonds">Green Bonds</a></li>
+                                <li><a href="channels/impact.html" title="IMPACT">IMPACT</a></li>
+                                <li><a href="channels/insurance.html" title="Insurance">Insurance</a></li>
+                                <li><a href="channels/investment.html" title="Investment">Investment</a></li>
+                                <li><a href="channels/natural-capital.html" title="Natural Capital">Natural Capital</a>
+                                </li>
+                                <li><a href="channels/people.html" title="People">People</a></li>
+                                <li><a href="channels/policy.html" title="Policy">Policy</a></li>
+                                <li><a href="channels/renewables.html" title="Renewables">Renewables</a></li>
+                                <li><a href="channels/stranded-assets.html" title="Stranded Assets">Stranded Assets</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="content/events/">Events</a></li>
+                    <!-- <li><a href="content/market-insight/">Market Insight</a></li> -->
+                    <li><a href="channels/cop.html">COP</a></li>
+                    <li><a href="content/awards/">Awards</a></li>
+                    <li><a href="channels/green-bonds.html" title="Green Bonds">Green Bonds</a></li>
+                    <li><a href="channels/impact.html">IMPACT</a></li>
+                    <li><a href="channels/natural-capital.html">Natural Capital</a></li>
+                </ul>
+            </div>
+            <div class="header-megamenu header-main-submenu">
+                <ul>
+                    <li><a href="channels/asia-pacific.html" title="Asia Pacific">Asia Pacific</a></li>
+                    <li><a href="channels/carbon.html" title="Carbon">Carbon</a></li>
+                    <li><a href="channels/cop.html">COP</a></li>
+                    <li><a href="channels/debt.html" title="Debt">Debt</a></li>
+                </ul>
+                <ul>
+                    <li><a href="channels/esg.html" title="ESG">ESG</a></li>
+                    <li><a href="channels/esg-data.html" title="ESG Data">ESG Data</a></li>
+                    <li><a href="channels/equity.html" title="Equity">Equity</a></li>
+                    <li><a href="channels/green-bonds.html" title="Green Bonds">Green Bonds</a></li>
+                </ul>
+                <ul>
+                    <li><a href="channels/impact.html" title="IMPACT">IMPACT</a></li>
+                    <li><a href="channels/insurance.html" title="Insurance">Insurance</a></li>
+                    <li><a href="channels/investment.html" title="Investment">Investment</a></li>
+                    <li><a href="channels/natural-capital.html" title="Natural Capital">Natural Capital</a></li>
+                </ul>
+                <ul>
+                    <li><a href="channels/people.html" title="People">People</a></li>
+                    <li><a href="channels/policy.html" title="Policy">Policy</a></li>
+                    <li><a href="channels/renewables.html" title="Renewables">Renewables</a></li>
+                    <li><a href="channels/stranded-assets.html" title="Stranded Assets">Stranded Assets</a></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="header-megamenu header-search-bar">
+    <form class="search-form" action="search.html" method="GET">
+    <fieldset class="fb-combo">
+        <input type="text" name="query" value="">
+        <button type="submit" name="sf-submit" value="Search" class="form-btn">Search</button>
+    </fieldset>
+</form>
+
+    
+</div>
+
+            <div class="header-megamenu header-account-submenu">
+    <ul>
+        <li><a title="Sign in to your account" href="account/sign-in-to-your-account.html">Sign in</a></li><li><a title="Trial" href="account/free-one-month-trial.html">Register for a trial</a></li><li>&nbsp;</li><li>&nbsp;</li>
+    </ul>
+</div>
+
+            <div class="header-subtitle">
+                <div></div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+        <!-- EF home page -->
+<section id="latest" class="page-section">
+    <section class="inner-section">
+        <div class="flexwrap">
+            <!-- content column -->
+            <div class="flex2 flexcolumn">
+                <header class="section-header">
+                    <h2>Latest content</h2>
+                    <a class="btn-more" href="content/analysis/">More Analysis &#187;</a>
+                    <a class="btn-more" href="content/news/">More News &#187;</a>
+                </header>
+                <!-- Row for single columns -->
+                <div class="flexwrap">
+                    <div class="flex1 flexcolumn">
+                        <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/icma-eu-regulators-greenwashing-definition-unhelpful.html">ICMA: EU regulators' greenwashing definition 'unhelpful'</a></h1>
+		
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/sbtn-prepares-to-launch-first-corporate-targets-for-nature.html">SBTN prepares to launch first corporate targets for nature</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/sustainable-bond-focused-funds-jump-to-86-on-social-spike.html">Sustainable bond-focused funds jump to 86 on social spike</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/video-abrdns-nicole-lim-on-esg-data-for-investment-decision-making.html">Video: Abrdn's Nicole Lim on ESG data for investment decision making</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/video-joanne-khew-(eastspring-investments)-on-bondholder-engagement.html">Video: Joanne Khew (Eastspring Investments) on bondholder engagement</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/global-market-for-biodiversity-unlikely-investor-says.html">Global market for biodiversity 'unlikely', investor says</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/uks-net-zero-review-will-help-unlock-investment-says-aviva.html">UK's net zero review will help 'unlock investment', says Aviva</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/people-moves-13th-january-pri-standard-chartered-bridges-fund-management-and-more.html">People Moves 13th January: PRI, Standard Chartered, Bridges Fund Management and more...</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/air-france-klm-sustainability-linked-bond-step-up-falls-short.html">Air France-KLM sustainability-linked bond step-up 'falls short'</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/amundi-to-launch-etf-tracking-paris-aligned-version-of-cac40.html">Amundi to launch ETF tracking Paris-aligned version of CAC40</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/hong-kong-airport-expansion-green-bond-is-greenwashing.html">Hong Kong airport expansion green bond is 'greenwashing'</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/investors-could-be-forced-to-sell-impact-funds-in-2023-creating-buyers-market.html">Investors 'could be forced to sell impact funds in 2023, creating buyer's market'</a></h1>
+		<p></p>
+	</section>
+</article>
+</div>
+                    </div>
+                    <div class="flex1 flexcolumn">
+                        <div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/analysis/dispelling-some-myths-around-fixed-income-and-responsible-investment.html"><img alt="Dispelling some myths around fixed income and responsible investment" src="assets/images/mains/83747-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/analysis/dispelling-some-myths-around-fixed-income-and-responsible-investment.html">Dispelling some myths around fixed income and responsible investment</a></h1>
+		<p>Apart from discussions around green bonds, there is little understanding of the role of fixed income in enabling climate action or sustainable development, write <strong>Joshua Kendall</strong> and <strong>Rory Sullivan</strong></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/analysis/esg-complex-in-a-vague-sort-of-way.html"><img alt="ESG: complex in a vague sort of way" src="assets/images/mains/83759-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/analysis/esg-complex-in-a-vague-sort-of-way.html">ESG: complex in a vague sort of way</a></h1>
+		<p>Amid widespread confusion about ESG and impact, <strong>Mike Sebastian</strong> offers his thoughts on what asset owners can realistically achieve with their investments</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/analysis/transition-to-be-a-key-theme-for-2023-says-anz.html"><img alt="Transition to be a key theme for 2023, says ANZ" src="assets/images/mains/83735-mains.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/analysis/transition-to-be-a-key-theme-for-2023-says-anz.html">Transition to be a key theme for 2023, says ANZ</a></h1>
+		<p>High-emitting sectors will increasingly come under scrutiny amid the net-zero transition, ANZ's Stella Saris Chow tells <strong>Genevieve Redgrave</strong></p>
+	</section>
+</article>
+</div>
+                    </div>
+                </div>
+            </div>
+            <!-- ad column -->
+            <div class="flex1 flexcolumn">
+                <div class="advert flexwrap">
+	<div class="flex1" id='div-gpt-ad-1370191008681-5'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370191008681-5'); });
+		</script>
+	</div>
+</div>
+
+                <div class="flexwrap">
+                    <div class="flex1">
+                        <header class="section-header">
+                            <h2>Market Insight</h2>
+                        </header>
+                        <div class="flex1 flexcolumn">
+                            <div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/market-insight/esg-and-climate-trends-to-watch-for-2023.html"><img alt="MSCI ESG and Climate Trends to Watch for 2023" src="assets/images/mains/83619-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/market-insight/esg-and-climate-trends-to-watch-for-2023.html">MSCI ESG and Climate Trends to Watch for 2023</a></h1>
+		<p>MSCI ESG Research's latest report looks at how some of the major global developments may shape the investment environment and impact the challenges and opportunities facing companies in the year ahead.</p>
+	</section>
+</article>
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexwrap">
+                    <div class="flex1">
+                        <header class="section-header">
+                            <h2>Green Bond Awards</h2>
+                        </header>
+                        <div class="flex1 flexcolumn">
+                            <div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/awards/environmental-finances-bond-awards-2023/"><img alt="Environmental Finance's Bond Awards 2023" src="assets/images/logos/ef23-bond-awards-logo.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/awards/environmental-finances-bond-awards-2023/">Environmental Finance's Bond Awards 2023</a></h1>
+		<p>Deadline for entries is 6th February 2023!</p>
+	</section>
+</article>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="page-section">
+    <section class="inner-section">
+        <header class="section-header">
+            <h2>News In Brief</h2>
+        </header>
+        <div class="new-flexgrid new-flexgrid-col-4">
+            <div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/wwf-launches-biodiversity-risk-measurement-tool.html>WWF launches biodiversity risk measurement tool</a></h1>
+            <p class="new-published-on">16 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+<div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/us-backed-carbon-markets-initiative-appoints-advisors.html>US-backed carbon markets initiative appoints advisors</a></h1>
+            <p class="new-published-on">16 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+<div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/esg-ratings-downgrades-correlate-with-negative-returns-says-study.html>ESG ratings downgrades correlate with negative returns, says study</a></h1>
+            <p class="new-published-on">16 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+<div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/investors-should-bundle-forestry-assets-to-limit-risk-exposure-say-academics.html>Investors should 'bundle' forestry assets to limit risk exposure, say academics</a></h1>
+            <p class="new-published-on">16 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+<div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/temasek-backed-genzero-invests-in-climate-software-choose.html>Temasek-backed GenZero invests in climate software CHOOSE</a></h1>
+            <p class="new-published-on">16 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+<div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/thomaslloyd-buys-delhi-based-solararise.html>ThomasLloyd buys Delhi-based SolarArise</a></h1>
+            <p class="new-published-on">16 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+<div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/thai-regulator-launches-climate-risk-guidance.html>Thai regulator launches climate-risk guidance</a></h1>
+            <p class="new-published-on">13 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+<div class="new-flexcard">
+    <article class="article  hero">
+        
+        <section class="article-text">
+            <h1><a  href=content/in-brief/amundi-and-reichmuth-support-1.7bn-solar-fund.html>Amundi and Reichmuth support €1.7bn solar fund</a></h1>
+            <p class="new-published-on">13 January 2023</p>
+            
+        </section>
+    </article>
+</div>
+
+            <div class="new-flexcard">
+            </div>
+            <div class="new-flexcard">
+            </div>
+            <div class="new-flexcard">
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="page-section">
+    <section class="inner-section">
+        <header class="section-header">
+            <h2>Natural Capital Hub 2023</h2>
+            <a class="btn-more" href="channels/natural-capital.html">More &#187;</a>
+        </header>
+        <div class="flexwrap">
+            <div class="flex1 flexwrap">
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/analysis/biodiversity-cop-and-finance.html"><img alt="Biodiversity COP and finance" src="assets/images/mains/82419-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/analysis/biodiversity-cop-and-finance.html">Biodiversity COP and finance</a></h1>
+		<p>Ahead of the COP15 biodiversity conference in December, <strong>Thomas Cox</strong> asks financial experts their hopes for the event</p>
+	</section>
+</article>
+</div>
+                </div>
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/political-and-energy-shocks-driving-unintended-risk-for-esg-investors-says-northern-trust.html">Political and energy shocks driving 'unintended risk' for ESG investors, says Northern Trust</a></h1>
+		
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/uk-financial-institutions-much-more-engaged-with-tnfd-than-corporates.html">UK financial institutions 'much more' engaged with TNFD than corporates</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/climate-change-tops-wefs-long-term-global-risks.html">Climate change tops WEF's long-term global risks</a></h1>
+		<p></p>
+	</section>
+</article>
+</div>
+                </div>
+            </div>
+            <div class="flex1 flexwrap">
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/asian-banks-need-to-better-manage-nature-related-risk-says-wwf.html">Asian banks need to better manage nature-related risk, says WWF</a></h1>
+		
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/rbc-carbon-markets-can-drive-nature-investment.html">RBC: Carbon markets can drive nature investment</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/societe-generale-buys-biodiversity-themed-equities-indices.html">Biodiversity-themed equities indices launched</a></h1>
+		<p></p>
+	</section>
+</article>
+</div>
+                </div>
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero">
+	<figure>
+		<a href="content/events/natural-capital-investment-2023/"><img alt="Natural Capital Investment 2023" src="assets/images/mains/83192-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/events/natural-capital-investment-2023/">Natural Capital Investment 2023</a></h1>
+		<p class="new-flex-card-event-date">23 March 2023, 9:00 AM GMT</p>
+		<p>Exploring the integral role that Natural Capital investment can play in building climate resilience</p>
+	</section>
+</article></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section id="esg-series" class="page-section">
+    <!-- <style>
+
+        #esg-register {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #0e2c36;
+            background-image: linear-gradient(to bottom right, #0e2c36, #89bfb4);
+        }
+
+        #esg-register #countdown {
+            color: #fff;
+            font-size: 2.4rem;
+            z-index: 99;
+            position: absolute;
+        }
+
+        #esg-register img {
+            z-index: -1;
+            opacity: 0;
+        }
+
+        #register {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #0e2c36;
+            background-image: linear-gradient(to bottom right, #0e2c36, #89bfb4);
+        }
+
+        #register img {
+            z-index: -1;
+            opacity: 0;
+        }
+
+        #register #countdown {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 2.4rem;
+            z-index: 99;
+            position: absolute;
+        }
+
+        .live-icon {
+            position: relative;
+            height: 1.8rem;
+            width: 1.8rem;
+            margin-right: 1.2rem;
+        }
+
+        .live-icon::before {
+            content: '';
+            position: absolute;
+            height: 1.8rem;
+            width: 1.8rem;
+            left: 0;
+            border-radius: 50%;
+            background: rgb(255, 255, 255);
+            box-shadow: 0 0 0 rgba(255, 255, 255, 0.75);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.75);
+                -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.75);
+                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.75);
+            }
+
+            50% {
+                -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+                -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+                box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+            }
+
+            100% {
+                -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+                box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+            }
+        }
+    </style> -->
+    <section class="inner-section">
+        <header class="section-header">
+            <h2>Focus on Asia Pacific</h2>
+            <a class="btn-more" href="channels/asia-pacific.html">More &#187;</a>
+        </header>
+        <div class="flexwrap">
+            <div class="flex1 flexwrap">
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/analysis/sustainable-debt-issuer-profile-cdl.html"><img alt="Sustainable debt issuer profile: CDL" src="assets/images/mains/83720-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/analysis/sustainable-debt-issuer-profile-cdl.html">Sustainable debt issuer profile: CDL</a></h1>
+		<p>CDL's Esther An tells <strong>Genevieve Redgrave</strong> how sustainable debt has played a key role in its decarbonisation plans</p>
+	</section>
+</article>
+</div>
+                </div>
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/video-tze-khai-poh-(mas)-on-singapores-first-sovereign-green-bond-issuance.html">Video: Tze Khai Poh (MAS) on Singapore's first sovereign green bond issuance</a></h1>
+		
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/hong-kong-raises-$5.75bn-from-largest-asian-sustainable-bond-issue.html">Hong Kong raises $5.75bn from 'largest' Asian sustainable bond issue</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/china-needs-a-transition-taxonomy-says-fitch.html">China needs a transition taxonomy, says Fitch</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/video-robecos-thu-ha-chow-on-sustainable-bonds-in-asia.html">Video: Robeco's Thu Ha Chow on sustainable bonds in Asia</a></h1>
+		<p></p>
+	</section>
+</article>
+</div>
+                </div>
+            </div>
+            <div class="flex1 flexwrap">
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/glencore-shareholders-call-for-more-transparency-on-coal-plan.html">Glencore shareholders demand more transparency on coal plan</a></h1>
+		
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/cbi-outlines-asean-transition-plan-recommendations.html">CBI outlines ASEAN transition plan recommendations</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/nepal-focused-impact-fund-reaches-$72m-final-close.html">Nepal-focused impact fund reaches $72m final close</a></h1>
+		<p></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/gfanz-targets-$8bn-in-private-finance-support-for-vietnam-energy-transition.html">GFANZ targets $8bn in private finance support for Vietnam energy transition</a></h1>
+		<p></p>
+	</section>
+</article>
+</div>
+                </div>
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero">
+	<figure>
+		<a href="content/events/esg-in-fixed-income-asia-2023/"><img alt="ESG in Fixed Income Asia 2023" src="assets/images/mains/83610-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/events/esg-in-fixed-income-asia-2023/">ESG in Fixed Income Asia 2023</a></h1>
+		<p class="new-flex-card-event-date">1 November 2023, 9:00 AM GMT</p>
+		<p>The original hub for GSSS bond issuers and investors</p>
+	</section>
+</article></div>
+                </div>
+                <!-- <div class="flex1 flexcolumn">
+                    <div class="flexwrap">
+                        <article class="article  hero ">
+                            <div id="register">
+                                <div id="countdown"></div>
+                                <figure>
+                                    <img alt="Register"
+                                        src="https://www.environmental-finance.com/assets/images/events/ESGFIGS21.jpg">
+                                </figure>
+                            </div>
+                            <section class="article-text">
+                                <h1><a class="public-doc" href=content/events/environmental-finance-asia-2022/>Environmental Finance Asia 2022 - Virtual Conference</a></h1>
+                                <p><strong>21-23 June 2022, 7am BST</strong></p>
+                                <p>Have you registered for the conference? Day 3 starts on 23 June 2022 at 2:00pm HK/SG / 7:00am BST</p>
+                            </section>
+                            <script>
+                                // Set the date we're counting down to.
+                                // year, month(0 for Jan), day, hours, minutes, seconds, msec
+                                var countDownDate = new Date(2022, 5, 23, 07, 00, 00, 00);
+
+                                // Set current London time zone so everyone will end the countdown together.
+                                console.log(countDownDate.toLocaleString('en-GB', { timeZone: 'Europe/London' }));
+
+                                // Update the countdown every 1 second
+                                var x = setInterval(function () {
+
+                                    // Get today's date and time
+                                    var now = new Date().getTime();
+
+                                    // Find the distance between now and the countdown date
+                                    var distance = countDownDate - now;
+
+                                    // Time calculations for days, hours, minutes and seconds
+                                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                                    // Output the result in a HTML element using id
+                                    document.getElementById('countdown').innerHTML = days + 'd ' + hours + 'h '
+                                        + minutes + 'm ' + seconds + 's ';
+
+                                    // If the countdown is over, write some text 
+                                    if (distance < 0) {
+                                        clearInterval(x);
+                                        document.getElementById('countdown').innerHTML = '<div class="live-icon" aria-hidden="true"></div> Live now!';
+                                    }
+                                }, 1000);
+                            </script> 
+                        </article>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="page-section">
+    <section class="inner-section">
+        <div class="flexwrap">
+            <div class="flex1 flexcolumn">
+                <header class="section-header">
+                    <h2>Jobs</h2>
+                </header>
+                <div class="flexwrap">
+                    <div class="flex1 flexcolumn">
+                        <div class="flexwrap"><article class="article  hero ">
+	<figure>
+		<a href="content/jobs/senior-carbon-analyst.html"><img alt="Senior Carbon Analyst" src="assets/images/logos/clearblue-markets-logo-620px.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/jobs/senior-carbon-analyst.html">Senior Carbon Analyst</a></h1>
+		<p>ClearBlue Markets is looking for a person who has outstanding technical capabilities in the areas of data handling, research and analytics.</p>
+	</section>
+</article>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex1 flexcolumn">
+                <header class="section-header">
+                    <h2>Special Report</h2>
+                </header>
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero">
+	<figure>
+		<a href="content/downloads/environmental-finance-special-report-asia-pacific-carbon-markets.html"><img alt="Environmental Finance special report: Asia-Pacific Carbon Markets" src="assets/images/mains/83305-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/downloads/environmental-finance-special-report-asia-pacific-carbon-markets.html">Environmental Finance special report: Asia-Pacific Carbon Markets</a></h1>
+		
+		<p>This special report, published in partnership with AirCarbon Exchange, provides a review on how the Asia-Pacific carbon markets are developing, as well as looking at innovation on a global scale.</p>
+	</section>
+</article></div>
+                 </div>
+            </div>
+            <div class="flex1 flexcolumn">
+                <header class="section-header">
+                    <h2>Webinars</h2>
+                    <a class="btn-more" href="content/webinars/">More &#187;</a>
+                </header>
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap"><article class="article  hero">
+	<figure>
+		<a href="content/webinars/scaling-alternatives-to-wood-based-fibres-for-fashion-and-packaging.html"><img alt="Scaling alternatives to wood-based fibres for fashion and packaging" src="assets/images/mains/83351-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/webinars/scaling-alternatives-to-wood-based-fibres-for-fashion-and-packaging.html">Scaling alternatives to wood-based fibres for fashion and packaging</a></h1>
+		<p class="new-flex-card-event-date">25 January 2023, 4:00 PM GMT</p>
+		<p>To meet 2030 and 2050 climate and biodiversity targets, the best available science says that 30 - 50% of the world's forests need to be protected and restored.</p>
+	</section>
+</article></div>
+                </div>
+            </div>
+            <!-- <div class="flex1 flexcolumn">
+                <header class="section-header">
+                    <h2>Insight</h2>
+                </header>
+                <div class="flex1 flexcolumn">
+                    <div class="flexwrap">
+                        <article class="article hero ">
+                            <section class="article-text">
+                                <figure>
+                                    <a href="content/insight/"><img src="https://www.environmental-finance.com/assets/images/insight-page-promo-620x300.jpg"></a>
+                                </figure>
+                                <h1><a href="content/insight/">Let us help you</a></h1>
+                                <p>Communicating with customers is important. See projects from Environmental Finance’s
+                                    Insight team and let us know if we
+                                    can help you.</p>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </div>  -->
+        </div>
+    </section>
+</section>
+
+<section class="page-section">
+    <section class="inner-section">
+        <div class="flexwrap">
+            <div class="flex2 flexcolumn">
+                <header class="section-header">
+                    <h2>Environmental Finance Data</h2>
+                    <a class="btn-more" href="https://www.efdata.org/">More »</a>
+                </header>
+               <div class="flexwrap">
+                    <article class="article large">
+                        <section class="article-text">
+                           <h1>Sustainable bond issuance in 2021 and 2022 - value ($bn)</h1>
+                        </section>
+                        <br />
+                        <figure>
+                            <img style="width:80%; margin: auto;"src="assets/images/charts/efdata-chart-14-12-2022.jpg">
+                        </figure>
+                        <p>The graph breaks down monthly issuance for the years 2021 and 2022. December month was left out 
+                           intentionally as issuances are still ongoing at the time of reporting. Total issuance for 2021 stood at $1 
+                           trillion while the same figure for 2022 is $807 billion.</p>
+                        <p>2022 started off with a strong start with issuance nearly reaching $100 billion in January. However, from 
+                           February issuance dropped significantly up until May 2022. Most likely, due to the war in Ukraine. 
+                           Issuance picked up in May and nearly equalled 2021’s $95 billion. Volatility and exceptionally high 
+                           inflation which triggered aggressive interest rate rises all around the globe appear to have had a 
+                           significant impact on 2022 sustainable bond issuance.</p>
+                        <p><a href="https://efdata.org/" class="btn">Visit Environmental Finance Data</a></p>
+                        <p>For comprehensive data on all green, social, sustainability and sustainability-linked bonds and loans, 
+                           please visit
+                            <a target="_blank" https://www.efdata.org/">Environmental Finance
+                                Data</a><a target="_blank" https://www.efdata.org/"> (efdata.org)</a> For more information, a demo 
+                                or a free trial please contact
+                            <a href="mailto:scott.davis@fieldgibsonmedia.com">scott.davis@fieldgibsonmedia.com</a>
+                        </p>
+                    </article>
+                </div>
+            </div>
+            <div class="flex1 flexcolumn">
+                <div class="advert flexwrap">
+	<div class="flex1" id='div-gpt-ad-1370191008681-6'>
+		<script type='text/javascript'>
+		googletag.cmd.push(function() { googletag.display('div-gpt-ad-1370191008681-6'); });
+		</script>
+	</div>
+</div>
+
+                <div class="flexwrap">
+                    <div class="flex1">
+                        <header class="section-header">
+                            <h2>Magazine download</h2>
+                        </header>
+                        <div class="flex1 flexcolumn">
+                            <div class="flexwrap"><article class="article  hero">
+	<figure>
+		<a href="content/downloads/environmental-finance-winter-2022-issue-digital-download.html"><img alt="Environmental Finance Winter 2022 issue: digital download" src="assets/images/mains/83634-main.jpg"></a>
+	</figure>
+	<section class="article-text">
+		<h1><a  href="content/downloads/environmental-finance-winter-2022-issue-digital-download.html">Environmental Finance Winter 2022 issue: digital download</a></h1>
+		
+		<p>Free to download</p>
+	</section>
+</article></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="flex1">
+                    <header class="section-header">
+                        <h2>Most Read</h2>
+                    </header>
+                    <div class="flex1 flexwrap">
+                        <div class="ordered-list ie2">
+                            <ol type="1">
+                                
+                            </ol>
+                        </div>
+                    </div>
+                </div> -->
+            </div> 
+        </div>
+    </section>
+</section>
+
+<section class="page-section">
+    <section class="inner-section">
+        <div class="flexwrap ie-col4">
+            <div class="flex1 flexwrap">
+                <div class="flex1 flexcolumn">
+                    <header class="section-header">
+                        <h2>Natural Capital</h2>
+                        <a class="btn-more" href="channels/natural-capital.html">More &#187;</a>
+                    </header>
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/some-meaningful-success-on-cop15-financing-says-ubp.html">'Some meaningful success' on COP15 financing, says UBP</a></h1>
+		
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/top-most-read-articles-2022.html">The top 20 most read articles in 2022 - and the three big themes they reveal</a></h1>
+		<p>A list of the top 20 most read news stories and features on Environmental&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/financial-institutions-biodiversity-guide-boosted-by-cop15-says-investor.html">Financial institutions biodiversity guide boosted by COP15, says investor</a></h1>
+		<p>A guide on biodiversity integration by financial institutions&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/analysis/lombard-odiers-natural-capital-strategy-two-years-on.html">Lombard Odier's natural capital strategy, two years on</a></h1>
+		<p>After stellar 2021, the strategy felt the pain in 2022, writes <strong>Madeleine Jenkins</strong></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/analysis/four-action-areas-to-help-close-the-gap-in-nature-finance.html">Four action areas to help close the gap in nature finance</a></h1>
+		<p>Financing for the nature crisis will be as critical as the climate crisis and needs urgent attention, argue <strong>Soumya Balasubramanya</strong>, <strong>Elisson Wright</strong> and <strong>Raffaello Cervigni</strong></p>
+	</section>
+</article>
+</div>
+                </div>
+                <div class="flex1 flexcolumn">
+                    <header class="section-header">
+                        <h2>Renewables</h2>
+                        <a class="btn-more" href="channels/renewables.html">More &#187;</a>
+                    </header>
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/environmental-finance-reveals-annual-market-rankings-winners.html">Environmental Finance reveals annual Market Rankings winners</a></h1>
+		<p>Environmental Finance is proud to announce the winners of its 2022 Annual Market Rankings.</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/edf-signs-first-green-loan-for-nuclear-energy.html">EDF signs first green loan for nuclear energy</a></h1>
+		<p>French power giant Électricité de France (EDF) has signed a €1&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/investment-warning-over-uks-plans-to-cap-renewables-revenues.html">Investment warning over UK's plans to cap renewables revenues</a></h1>
+		<p>The CEO of a clean energy and energy efficiency-focused investment&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/taking-the-brakes-off-onshore-wind.html">Taking the brakes off onshore wind</a></h1>
+		<p>Lifting the effective ban on onshore wind farms in the UK will&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/brazilian-election-unlikely-to-stop-renewables-market-growth-says-victory-hill.html">Brazilian election unlikely to stop renewables market growth, says Victory Hill</a></h1>
+		<p>The outcome of the Brazilian presidential election is unlikely&#8230;</p>
+	</section>
+</article>
+</div>
+                </div>
+            </div>
+            <div class="flex1 flexwrap">
+                <div class="flex1 flexcolumn">
+                    <header class="section-header">
+                        <h2>Debt</h2>
+                        <a class="btn-more" href="channels/debt.html">More &#187;</a>
+                    </header>
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/loan-round-up-host-hotels-borusan-otomotiv-turkish-sustainable-loan-spotlight-nipro-...-and-more.html">Loan round-up: Host Hotels, Borusan Otomotiv, Turkish sustainable loan spotlight, Nipro ... and more</a></h1>
+		
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/israel-raises-$2bn-from-oversubscribed-debut-sovereign-green-bond.html">Israel raises $2bn from oversubscribed debut sovereign green bond</a></h1>
+		<p>Israel has raised $2 billion from its debut sovereign green bond,&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/air-france-klm-raises-1bn-from-landmark-sustainability-linked-bond.html">Air France-KLM raises €1bn from landmark sustainability-linked bond</a></h1>
+		<p>Air France-KLM has raised €1 billion ($1.1 billion) from its&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/moodys-esg-driven-credit-risk-will-accelerate-in-2023.html">Moody's: ESG-driven credit risk will accelerate in 2023</a></h1>
+		<p>Moody's Investors Service said credit risk related to environmental,&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/india-outlines-inr160bn-sovereign-green-bond-debut.html">India outlines INR160bn sovereign green bond debut</a></h1>
+		<p>India is planning to raise INR160 billion ($1.9 billion) from&#8230;</p>
+	</section>
+</article>
+</div>
+                </div>
+                <div class="flex1 flexcolumn">
+                    <header class="section-header">
+                        <h2>Carbon</h2>
+                        <a class="btn-more" href="channels/carbon.html">More &#187;</a>
+                    </header>
+                    <div class="flexwrap"><article class="article  hero ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/cbam-must-include-manufactured-products-to-avoid-carbon-leakage.html">CBAM must include manufactured products to avoid 'carbon leakage'</a></h1>
+		<p>The ground-breaking carbon border adjustment mechanism (CBAM) proposed by the EU could have the unintended consequence of creating more 'carbon leakage' due to its emphasis on basic materials rather than manufactured products, according to Scope.
+
+</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/analysis/carbon-markets-can-help-provide-nature-based-solutions.html">Carbon markets can help provide nature-based solutions</a></h1>
+		<p>The US Nature Based Solutions roadmap suggests finance through private measures but misses an opportunity to fully utilise the voluntary carbon market, argues <strong>Torrey Sanseverino</strong></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/pcaf-sovereign-debt-methodology-plugs-gap-in-emissions-accounting-says-allianz.html">PCAF sovereign debt methodology plugs gap in emissions accounting, says Allianz</a></h1>
+		<p>The Partnership for Carbon Accounting Financials (PCAF) has published&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/news/eu-agrees-game-changing-carbon-market-expansion.html">EU agrees 'game-changing' carbon market expansion</a></h1>
+		<p>The EU has agreed a ground-breaking carbon border adjustment&#8230;</p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/analysis/how-tech-can-help-transform-the-voluntary-carbon-market.html">How tech can help transform the voluntary carbon market</a></h1>
+		<p>New technology can spread out the benefits of carbon markets to all, says <strong>Dirk Forrister</strong></p>
+	</section>
+</article>
+</div><div class="flexwrap"><article class="article  ">
+	
+	<section class="article-text">
+		<h1><a  href="content/analysis/cop15-can-we-finally-get-agreement-on-financing.html">COP15: Can we finally get agreement on financing?</a></h1>
+		<p>Regulated voluntary carbon markets should be a key tool to protect and restore nature, argues <strong>Naomi Swickard</strong></p>
+	</section>
+</article>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+        <section class="page-section page-footer">
+    <div class="inner-section">
+        <section class="col-2-1">
+            <div class="col-2">
+                <div class="col-2">
+                    <div class="section-component block-list">
+                        <header>
+                            <h1>Sections</h1>
+                        </header>
+                        <nav>
+                            <ul>
+                                <li><a href="content/awards/" title="Awards">Awards</a></li>
+                                <li><a href="content/events/" title="Events">Events</a></li>
+                                <li><a href="content/webinars/" title="Webinars">Webinars</a></li>
+                                <li><a href="content/galleries/">Galleries</a></li>
+                                <li><a href="content/insight/">Insight</a></li>
+                                <li><a href="content/jobs/" title="Jobs">Jobs</a></li>
+                                <li><a href="content/market-insight/" title="Market insight">Market insight</a></li>
+                                <li><a href="content/roundtables/" title="Roundtables">Roundtables</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="section-component block-list">
+                        <header>
+                            <h1>Company</h1>
+                        </header>
+                        <nav>
+                            <ul>
+                                <li><a href="company/about-us.html" title="About us">About us</a></li>
+                                <li><a href="company/contact-us.html" title="Contact us">Contact us</a></li>
+                                <li><a href="company/advertise.html" title="Advertise">Advertise</a></li>
+                                <li><a href="company/subscriptions.html" title="Subscriptions">Subscriptions</a></li>
+                                <li><a href="policy/website-terms-and-conditions.html" title="Website Terms &amp; Conditions">Website Terms &amp; Conditions</a></li>
+                                <li><a href="policy/subscription-and-event-terms-and-conditions.html" title="Subscription and Event Terms & Conditions">Subscription and Event Terms & Conditions</a></li>
+                                <li><a href="policy/privacy-policy.html" title="Privacy policy">Privacy policy</a></li>
+                                <li><a href="policy/cookie-policy.html" title="Cookie policy">Cookie policy</a></li>
+                                <li><a href="policy/acceptable-use-policy.html" title="Acceptable use policy">Acceptable
+                                        use policy</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-1 section-component block-list">
+                    <header>
+                        <h1>Channels</h1>
+                    </header>
+                    <div class="col-2">
+                        <nav>
+                            <ul>
+                                <li><a href="channels/asia-pacific.html" title="Asia Pacific">Asia Pacific</a></li>
+                                <li><a href="channels/carbon.html" title="Carbon">Carbon</a></li>
+                                <li><a href="channels/debt.html" title="Debt">Debt</a></li>
+                                <li><a href="channels/esg.html" title="ESG">ESG</a></li>
+                                <li><a href="channels/esg-data.html" title="ESG Data">ESG Data</a></li>
+                                <li><a href="channels/equity.html" title="Equity">Equity</a></li>
+                                <li><a href="channels/green-bonds.html" title="Green Bonds">Green Bonds</a></li>
+                                <li><a href="channels/impact.html" title="IMPACT">IMPACT</a></li>
+                            </ul>
+                        </nav>
+                        <nav>
+                            <ul>
+                                <li><a href="channels/insurance.html" title="Insurance">Insurance</a></li>
+                                <li><a href="channels/investment.html" title="Investment">Investment</a></li>
+                                <li><a href="channels/natural-capital.html" title="Natural Capital">Natural Capital</a></li>
+                                <li><a href="channels/people.html" title="People">People</a></li>
+                                <li><a href="channels/policy.html" title="Policy">Policy</a></li>
+                                <li><a href="channels/renewables.html" title="Renewables">Renewables</a></li>
+                                <li><a href="channels/stranded-assets.html" title="Stranded Assets">Stranded Assets</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="block-subscription">
+                <header>
+                    <h1>Subscriptions</h1>
+                    <p>Subscribe to Environmental Finance to benefit from:</p>
+                </header>
+                <nav>
+                    <ul>
+                        <li>In-depth special reports and analysis</li>
+                        <li>Commentary and insight from leading industry specialists</li>
+                        <li>Discounts for Environmental Finance events</li>
+                    </ul>
+                </nav>
+                <p>&copy; Field Gibson Media Ltd 2023 &nbsp;&nbsp; </p>
+                <a href="account/free-one-month-trial.html" class="btn">Subscribe now</a>
+                <p><a href="content/environmental-finance-rss-feed.xml"
+                            title="Environmental Finance RSS feed">Environmental Finance RSS feed</a></p>
+            </div>
+        </section>
+    </div>
+
+    
+    <script src="assets/libraries/includes.js?v=1"></script>
+    <script src="assets/libraries/flex-includes.js?v=1"></script>
+    <script src="src/js/script.js?v=1"></script>
+    <script>
+var current_width = $(window).width();
+var company = "";
+
+var data = {};
+data['width'] = current_width;
+data['company'] = company;
+
+$.ajax({
+   type: "POST",
+   url: "admin/ajax-resources/ajaxleaderboardswitch.html",
+   data: data,
+   success: function(html) {
+     $('#banner').append(html);
+   }
+});
+</script>
+<script>
+var current_width = $(window).width();
+var templateid = 1;
+
+var data = {};
+data['width'] = current_width;
+
+$.ajax({
+	type: "POST",
+	url: "admin/ajax-resources/ajaxmpu1switch.html",
+	data: data,
+	success: function(html) {
+		if (templateid == 5) {
+			$('#side-mpu1').append(html);
+		} else {
+			if ($("#prime-mpu1").length <= 0) {
+				$('#side-mpu1').append(html);
+			} else {
+				if (current_width >= 960) {
+					$('#side-mpu1').append(html);
+				}
+				if (current_width <= 960) {
+					$('#prime-mpu1').append(html);
+				}
+			}
+		}
+	}
+});
+</script>
+<script>
+var current_width = $(window).width();
+var templateid = 1;
+
+var data = {};
+data['width'] = current_width;
+
+$.ajax({
+	type: "POST",
+	url: "admin/ajax-resources/ajaxmpu2switch.html",
+	data: data,
+	success: function(html) {
+		if (templateid == 5) {
+			$('#side-mpu2').append(html);
+		} else {
+			if ($("#prime-mpu2").length <= 0) {
+				$('#side-mpu2').append(html);
+			} else {
+				if (current_width >= 960) {
+					$('#side-mpu2').append(html);
+				}
+				if (current_width <= 960) {
+					$('#prime-mpu2').append(html);
+				}
+			}
+		}
+	}
+});
+</script>
+<script>
+var current_width = $(window).width();
+
+var data = {};
+data['width'] = current_width;
+
+$.ajax({
+	type: "POST",
+	url: "admin/ajax-resources/most-read-view.html",
+	data: data,
+	success: function(html) {
+		$('#most-read ol').append(html);
+	}
+});
+</script>
+    <!-- <script>
+        var current_width = $(window).width();
+        var data = {};
+        data['width'] = current_width;
+        $.ajax({
+            type: "POST",
+            url: "admin/ajax-resources/ajaxleaderboardswitch.html",
+            data: data,
+            success: function(html) {
+                $('#banner').append(html);
+            }
+        });
+    </script> -->
+</section>
+<a class="back-to-top" href="/#site-header" style="display: none;">&#8593;</a>
+
+    
+        <div ng-controller="CookieAlert"></div>
+    
+</body>
+</html>

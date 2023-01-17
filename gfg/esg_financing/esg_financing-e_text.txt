@@ -1,0 +1,305 @@
+What Is Environmental, Social, and Governance (ESG) Investing?
+Education
+General
+Dictionary
+Economics
+Corporate Finance
+Roth IRA
+Stocks
+Mutual Funds
+ETFs
+401(k)
+Investing/Trading
+Investing Essentials
+Fundamental Analysis
+Portfolio Management
+Trading Essentials
+Technical Analysis
+Risk Management
+News
+Company News
+Markets News
+Cryptocurrency News
+Personal Finance News
+Economic News
+Government News
+Simulator
+Your Money
+Personal Finance
+Wealth Management
+Budgeting/Saving
+Banking
+Credit Cards
+Home Ownership
+Retirement Planning
+Taxes
+Insurance
+Reviews & Ratings
+Best Online Brokers
+Best Savings Accounts
+Best Home Warranties
+Best Credit Cards
+Best Personal Loans
+Best Student Loans
+Best Life Insurance
+Best Auto Insurance
+Advisors
+Your Practice
+Practice Management
+Financial Advisor Careers
+Investopedia 100
+Wealth Management
+Portfolio Construction
+Financial Planning
+Academy
+Popular Courses
+Investing for Beginners
+Become a Day Trader
+Trading for Beginners
+Technical Analysis
+Courses by Topic
+All Courses
+Trading Courses
+Investing Courses
+Financial Professional Courses
+Submit
+Table of Contents
+Expand
+Table of Contents
+ESG Investing
+How ESG Investing Works
+Environmental, Social, & Governance
+ESG Criteria
+Pros of ESG Investing
+Cons of ESG Investing
+ESG Investing FAQs
+The Bottom Line
+Sustainable Investing
+Socially Responsible Investing
+What Is Environmental, Social, and Governance (ESG) Investing?
+What impact is your investment making?
+By
+The Investopedia Team
+Full Bio
+LinkedIn
+Twitter
+Investopedia contributors come from a range of backgrounds, and over 20+ years there have been thousands of expert writers and editors who have contributed.
+Learn about our
+editorial policies
+Updated September 27, 2022
+Reviewed by
+Thomas Brock
+Reviewed by
+Thomas Brock
+Full Bio
+Thomas J. Brock is a CFA and CPA with more than 20 years of experience in various areas including investing, insurance portfolio management, finance and accounting, personal investment and financial planning advice, and development of educational materials about life insurance and annuities.
+Learn about our
+Financial Review Board
+Fact checked by
+Ariel Courage
+Fact checked by
+Ariel Courage
+Full Bio
+Ariel Courage is an experienced editor, researcher, and fact-checker. She has performed editing and fact-checking work for several leading finance publications, including The Motley Fool and Passport to Wall Street.
+Learn about our
+editorial policies
+Investopedia / Julie Bang
+What Is Environmental, Social, and Governance (ESG) Investing?
+Environmental, social, and governance (ESG) investing refers to a set of standards for a company’s behavior used by socially conscious investors to screen potential investments.
+Environmental criteria consider how a company safeguards the environment, including corporate policies addressing climate change, for example. Social criteria examine how it manages relationships with employees, suppliers, customers, and the communities where it operates. Governance deals with a company’s leadership, executive pay, audits, internal controls, and shareholder rights.
+Key Takeaways
+Environmental, social, and governance (ESG) investing is used to screen investments based on corporate policies and to encourage companies to act responsibly.Many mutual funds, brokerage firms, and roboadvisors now offer investment products that employ ESG principles.ESG investing can also help portfolios avoid holding companies engaged in risky or unethical practices are held accountable.The rapid growth of ESG investment funds in recent years has led to claims that companies have been insincere or misleading in touting their ESG accomplishments.
+1:21
+Click Play to Learn What ESG Criteria Are
+How Environmental, Social, and Governance (ESG) Investing Works
+Investors have, in recent years, shown interest in putting their money where their values are.
+As a result, brokerage firms and mutual fund companies have started offering exchange-traded funds (ETFs) and other financial products that follow ESG investing strategies. Roboadvisors including Betterment and Wealthfront have promoted these ESG-themed offerings to younger investors.
+ESG investors are also increasingly informing the investment choices of large institutional investors such as public pension funds. According to an industry report from US SIF Foundation, investors held $17.1 trillion in assets chosen according to ESG principles in 2020, up from $12 trillion just two years earlier. ESG-specific mutual funds and ETFs also reached a record $400 billion in AUM in 2021, up 33% from the year before - and are expected to continue to grow rapidly in the coming years.
+ESG investing is sometimes referred to as sustainable investing, responsible investing, impact investing, or socially responsible investing (SRI). To assess a company based on ESG criteria, investors look at a broad range of behaviors and policies.
+58%
+The share of respondents to a survey by Investopedia and Treehugger who indicated increased interest in ESG investments in 2020. 19% reported using ESG considerations in selecting investments.
+Environmental, Social, and Governance
+ESG investors seek to ensure the companies they fund are responsible stewards of the environment, good corporate citizens, and are led by accountable managers.
+Environmental
+Environmental issues may include corporate climate policies, energy use, waste, pollution, natural resource conservation, and treatment of animals. ESG considerations can also help evaluate any environmental risks a company might face and how the company is managing those risks.
+Considerations may include direct and indirect greenhouse gas emissions, management of toxic waste, and compliance with environmental regulations.
+Human influence is unequivocally to blame for the warming of the planet and some forms of climate disruption are now locked in for centuries, according to a report from the U.N. Intergovernmental Panel on Climate Change. "This report must sound a death knell for coal and fossil fuels before they destroy our planet," said United Nations Secretary-General António Guterres.
+Social
+Social aspects look at the company’s relationships with internal and external stakeholders.
+Does it hold suppliers to its own ESG standards? Does the company donate a percentage of its profits to the local community or encourage employees to perform volunteer work there? Do workplace conditions reflect a high regard for employees’ health and safety? Or does the company take unethical advantage of its customers?
+Socially responsible investing (SRI) is an investment strategy that highlights this one facet of ESG. SRI investors seek companies that promote ethical and socially conscious themes including diversity, inclusion, community-focus, social justice, and corporate ethics, in addition to fighting against racial, gender, and sexual discrimination.
+Governance
+ESG governance standards ensure a company uses accurate and transparent accounting methods, pursues integrity and diversity in selecting its leadership, and is accountable to shareholders.
+ESG investors may require assurances that companies avoid conflicts of interest in their choice of board members and senior executives, don't use political contributions to obtain preferential treatment, or engage in illegal conduct.
+ESG Criteria
+Investment firms following ESG investing often set their own priorities. For example, Boston-based Trillium Asset Management, with $5.6 billion under management as of December 2021, uses a variety of ESG factors to help identify companies positioned for strong long-term performance.
+The criteria are set by analysts who identify the relevant issues facing specific sectors, industries, and companies. Trillium's ESG criteria preclude investments in the following:
+Companies that operate in higher-risk areas or have exposure to coal or hard rock mining, nuclear or coal power, private prisons, agricultural biotechnology, tobacco, tar sands, or weapons and firearms.Companies involved in major or recent controversies over human rights, animal welfare, environmental concerns, governance issues, or product safety.
+In contrast, Trillium looks for investments meeting the following ESG criteria:
+Environment
+Publishes a carbon or sustainability reportLimits harmful pollutants and chemicalsSeeks to lower greenhouse gas emissions and CO2 footprintUses renewable energy sourcesReduces waste
+Social
+Operates an ethical supply chainsAvoids overseas labor that may have questionable workplace safety or employ child laborSupports LGBTQ+ rights and encourages all forms of diversityHas policies to protect against sexual misconductPays fair (living) wages
+Governance
+Embraces diversity on board of directorsEmbraces corporate transparencySomeone other than the CEO is chair of the boardStaggers board elections
+Pros of ESG Investing
+Some have argued that, in addition to their social value, ESG criteria can help investors avoid the blowups that occur when companies operating in a risky or unethical manner are ultimately held accountable for its consequences. Examples include BP's (BP) 2010 Gulf of Mexico oil spill and Volkswagen's emissions scandal, which rocked the companies' stock prices and cost them billions of dollars.
+As ESG-minded business practices gain more traction, investment firms are increasingly tracking their performance. Financial services companies such as JPMorgan Chase (JPM), Wells Fargo (WFC), and Goldman Sachs (GS) have published annual reports that extensively review their ESG approaches and the bottom-line results.
+The ultimate value of ESG investing will depend on whether they encourage companies to drive real change for the common good, or merely check boxes and publish reports. That, in turn, will depend on whether the investment flows follow ESG tenets that are realistic, measurable, and actionable.
+Cons of ESG Investing
+The downside of ESG investing is that you will not be able to hold the full universe of stocks available in the market. After all, tobacco and defense, two industries avoided by many ESG investors, have historically produced well-above-average market returns and can buck recessionary trends. In other words, U.S. investors may be sacrificing a small amount of returns in exchange for making investments that fit their values.
+Many ESG investors are willing to make that tradeoff, though; according to a recent survey of Investopedia and Treehugger readers, nearly half of ESG investors said they’d be willing to take a 10% loss over a five-year period to invest in a company that “aligns exceptionally against ESG standards.” But 74% of respondents said that valuation/price was “very or extremely important to them.” This indicates that the average ESG-friendly investment trades at a premium, making it a relatively more expensive investment style.
+How Is ESG Investing Different From Sustainable Investing?
+ESG and sustainability are closely related. ESG investing screens companies based on criteria related to being pro-social, environmentally-friendly, and with good corporate governance. Together, these features can lead to sustainability. ESG, therefore, looks at how a company's management and stakeholders make decisions; sustainability considers the impact of those decisions on the world.
+What Does ESG Mean for a Business?
+Adopting ESG principles means that corporate strategy focuses on the three pillars of the environment, social, and governance. This means taking measures to lower pollution, CO2 output, and reduce waste. It also means having a diverse and inclusive workforce, at the entry-level and all the way up to the board of directors. ESG may be costly and time-consuming to undertake, but can also be rewarding into the future for those that carry it through.
+How Do I Know Which Investments Are ESG?
+Several financial firms have come out with ESG ratings and scoring systems in recent years. For instance, MSCI has come out with a ratings scheme covering more than 8,500 companies around the world, giving them scores and letter grades based on their compliance with ESG standards and initiatives. Several other companies like Morningstar have also released ESG scores for publicly-traded companies.
+The Bottom Line
+ESG investing focuses on companies that follow positive environmental, social, and governance principles. Today, investors are increasingly eager to align their portfolios with ESG-related companies and fund providers, making it an exciting area of growth that also has positive effects on society and the environment. Whether or not ESG investing is right for you depends on whether you want to combine your values with your investments. From there, you can look to one or more of several ESG ratings systems that have appeared in the past few years to build the right portfolio - or consider at ESG-tailored ETF or mutual fund.
+Article Sources
+Investopedia requires writers to use primary sources to support their work. These include white papers, government data, original reporting, and interviews with industry experts. We also reference original research from other reputable publishers where appropriate. You can learn more about the standards we follow in producing accurate, unbiased content in our
+editorial policy.
+US SIF. "The US SIF Foundation’s Biennial 'Trends Report' Finds That Sustainable Investing Assets Reach $17.1 Trillion."
+Barron's. "ESG Fund Assets Soared in 2021. They Still Have Room to Run."
+S&P Global. "Understanding the 'E' in ESG."
+IPCC. "AR6 Climate Change 2021: The Physical Science Basis."
+Harvard Law School Forum on Corporate Governance. "Time to Rethink the S in ESG."
+S&P Global. "What is the 'G' in ESG?"
+Trillium Asset Management. "ESG Criteria."
+Goldman Sachs. "Sustainability Reporting."
+Wells Fargo. "Goals and Reporting."
+JP Morgan Chase. "Environmental, Social and Governance."
+ESG Analytics. "Green, Blue, Pink and Social Corporate Washing."
+Compare Accounts
+Advertiser Disclosure
+×
+The offers that appear in this table are from partnerships from which Investopedia receives compensation. This compensation may impact how and where listings appear. Investopedia does not include all offers available in the marketplace.
+Provider
+Name
+Description
+Compare Accounts
+Advertiser Disclosure
+×
+The offers that appear in this table are from partnerships from which Investopedia receives compensation. This compensation may impact how and where listings appear. Investopedia does not include all offers available in the marketplace.
+Part Of
+Guide to Socially Responsible Investing
+Guide to Socially Responsible Investments (SRI)
+1 of 22
+Why Social Responsibility Matters to Businesses
+2 of 22
+Investing in Unethical Stocks: Pros and Cons for Traders
+3 of 22
+Socially Responsible Investing Vs. Sin Stocks
+4 of 22
+Racial Justice Investing
+5 of 22
+The Top 5 Impact Investing Firms
+6 of 22
+Socially Responsible Mutual Funds
+7 of 22
+The Rise of the Socially Responsible ETFs
+8 of 22
+Demand for ESG Investments Soars Emerging From COVID-19 Pandemic
+9 of 22
+A Guide to Faith-Based Investing
+10 of 22
+Socially Responsible Investment for Gender Empowerment
+11 of 22
+A History of Impact Investing
+12 of 22
+Impact Investing vs. Venture Philanthropy
+13 of 22
+How Do ESG, SRI, and Impact Funds Differ?
+14 of 22
+Ethical Investing: Overview and How To Do It
+15 of 22
+Social Responsibility in Business: Meaning, Types, Examples, and Criticism
+16 of 22
+Corporate Social Responsibility (CSR) Explained With Examples
+17 of 22
+What Is Environmental, Social, and Governance (ESG) Investing?
+18 of 22
+Conscious Capitalism: Definition, 4 Principles, Company Examples
+19 of 22
+Social Impact Statement
+20 of 22
+Social Impact Bond (SIB): Definition, How It Works, and Example
+21 of 22
+Impact Investing Explained: Definition, Types, and Examples
+22 of 22
+Related Terms
+Guide to Socially Responsible Investments (SRI)
+Socially responsible investing looks for investments that are considered socially conscious because of the nature of the business the company does.
+more
+Guide to Green Investing
+Green investing consists of investment activities that focus on companies or projects committed to the conservation of natural resources.
+more
+MSCI ESG Ratings Definition, Methodology, Example
+MSCI ESG ratings are a comprehensive measure of a company’s long-term commitment to socially responsible and environmental, social, and governance investment standards.
+more
+FTSE4Good Index Series
+FTSE4Good Index Series is a series of equity indexes that include companies that meet globally-recognized social responsibility standards such as ESG.
+more
+Green Fund
+Green funds invest only in sustainable or socially conscious companies while avoiding those deemed detrimental to society or the environment.
+more
+Green Bond: Types, How to Buy, and FAQs
+Green bonds are a type of bond that helps companies and governments finance environmentally friendly projects.
+more
+Partner Links
+Related Articles
+Socially Responsible Investing
+3 Trends to Watch in ESG Investing
+Podcast Episodes
+The Most Important Themes Facing Green Investors in 2023
+Government News
+Florida Pulls $2 Billion From BlackRock Over Objections to Sustainable Investing
+Portfolio Construction
+ESG, SRI, and Impact Investing: What's the Difference?
+Socially Responsible Investing
+The 3 Pillars of Corporate Sustainability
+Socially Responsible Investing
+How Do ESG, SRI, and Impact Funds Differ?
+Facebook
+Instagram
+LinkedIn
+Newsletter
+Twitter
+About Us
+Terms of Use
+Dictionary
+Editorial Policy
+Advertise
+News
+Privacy Policy
+Contact Us
+Careers
+#
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z
+Investopedia is part of the Dotdash Meredith publishing family.

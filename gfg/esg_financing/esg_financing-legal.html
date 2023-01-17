@@ -1,0 +1,30 @@
+
+<html>
+<head>
+<script language="javascript">
+function sendAuth()
+{
+    var forwardTo = "https://www.lexisnexis.com/uk/lexispsl/bankingandfinance/document/391289/5T5W-N3H1-F185-X1BP-00000-00/Types-of-green-financing_overview";
+    
+    if(forwardTo.indexOf("lexis.com") != -1 || forwardTo.indexOf("nexis.com") != -1 || forwardTo.indexOf("csint") != -1)
+    {
+        document.authForm.action = forwardTo;
+        document.authForm.submit();
+    }
+    else
+    {
+        alert("You are not authorized to use this page.");
+    }
+}
+</script>
+</head>
+<body onload="sendAuth();">
+<form name="authForm" method="post" action="">
+    <input type="hidden" name="rememberMe" value=""/>
+    <input type="hidden" name="tokenRememberMe" value=""/>
+    <input type="hidden" name="authReaderId" value="0" />
+    <input type="hidden" name="rememberMeReturn" value="1" />
+</form>
+</body>
+</html>
+	

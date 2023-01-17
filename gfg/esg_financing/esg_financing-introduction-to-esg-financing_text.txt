@@ -1,0 +1,269 @@
+Introduction to ESG Financing - Winckworth Sherwood LLP
+PEOPLE
+SPECIALISMS
+ABOUT
+THINKING
+EVENTS
+JOIN US
+CONTACT
+FOLLOW US
+Banking & Finance
+Charities & Social Enterprises
+Church Law
+Commercial
+Commercial Disputes
+Construction
+Corporate
+Corporate & Real Estate Tax
+Data Protection & Regulatory Law
+Education
+Employment
+ESG
+Family
+Family Offices
+Immigration
+Independent Investigations
+Infrastructure
+Local & Central Government
+Parliamentary
+Partnership / Professional Practices
+Ports and Waterways
+Private Wealth, Trusts & Tax
+Public Law
+Real Estate
+Real Estate
+Commercial Real Estate
+Construction
+Conveyancing, Lease Extension & Enfranchisement
+Corporate & Real Estate Tax
+Development & Regeneration
+Ground Rent
+Investment
+Litigation
+Planning and Development Risk
+Build to Rent
+Residential Development Sales
+Retail, Leisure & Licensing
+Social Housing
+Telecoms, Utilities and EV Charging
+About WS
+Quick Facts
+Awards and Accreditations
+CSR
+Why join us
+Jobs board
+Trainee hub
+The Firm
+Working For Us
+Trainee Diaries
+Our Values
+Training Contracts
+Life As A Trainee
+The Process
+Assessment Day
+Find an office
+Contact us
+Back topreviouspage
+Blog
+Introduction to ESG Financing
+Date published:12 January 2021
+Contact the Authors Contact Patricia UmunnaContact Contact Lucy GrimwoodContact Contact Contact Contact Simon LovellMore from these Teams Banking and FinanceESGSocial Housing Finance
+What is ESG
+ESG is an umbrella term used in the finance sector for a range of environmental, social and governance factors against which investors can assess the behavior of organisations they are considering investing in.  Environmental factors will include an organisation’s impact on the natural environment and its stewardship of that environment.  Social factors will include how an organisation treats its employees, customers, suppliers and the community in which it operates, and governance factors focus on how an organisation operates in terms of its leadership, executive pay, audits, board diversity, internal controls and shareholders’ rights.
+Types of ESG debt financing
+There are two main types of ESG debt finance, Green Loans or Green Bonds, and Sustainability Linked Loans or Sustainability Linked Bonds.  There are also Social Impact Bonds, Sustainable Bond and Transition Bonds.  The proceeds of Green Loans or Bonds are used for green projects with clear environmental benefits which can be assessed, quantified and measured.  In 2018 the LMA produced its Green Loan Principles in order to help investors and to define the parameters of green loans and set out what a borrower must demonstrate for its project to be an eligible green project.
+The focus of Sustainability Linked Loans or Bonds is to incentivise and improve the ESG and sustainability performance of the borrower by aligning the loan terms to the borrower’s performance against sustainable performance targets.  The proceeds of the loan are not tied to a specific sustainable project as green loans are.  Instead there will be a term or covenant in the loan agreement requiring the borrower to reach a sustainable performance target.  If it does not achieve the target the cost of the loan will increase.  The LMA have also produced a set of Sustainability Loan Principles.
+Growth of voluntary ESG disclosure frameworks
+The growth of ESG has been driven by investors who are concerned about climate change, the environment and social equity and want to invest ethically in investments that will have a positive and social impact as well as a financial return.  But investors need to be certain that the investment they are making is ethical and will have a positive and social impact and is not being sold to them as “green” (i.e.greenwashed) when it is anything but that.
+In order to assess the ESG performance of organisations, investors require access to non-financial information via corporate disclosures.  There are a number of voluntary reporting frameworks which have been developed but there is no generally accepted global reporting or disclosure framework.  This has resulted in an alphabet soup of standards and frameworks, all based on self reporting on a voluntary basis.  It has led to a complex web of policies, strategies, corporate governance codes, voluntary initiatives and principles at a global, EU and national level all using slightly different data and matrixes.
+In order to establish a globally accepted set of consistent ESG reporting standards enabling organisations to provide stakeholders with standardized reporting which can be subject to external audit, there must be convergence between these different frameworks.
+Regulatory focus on ESG financing
+A number of regulatory regimes are increasingly focusing on ESG financing, including the EU and the UK government.
+The EU
+The EU is pressing ahead with a number of reforms and directives, namely the EU Taxonomy Regulation, the Disclosure Regulation and the Non-Financial Reporting Directive.  Their aims are to promote sustainable investment by establishing an EU-wide classification system, or taxonomy, intended to provide investors and businesses with a common language to identify whether a financial product or business is genuinely environmentally sustainable (rather than “greenwashing”).
+The EU Taxonomy Regulation was published in June 2020 and its application will commence in January 2022.  It is recognized that until the market coalesces around one authoritative set of definitions it will be impossible to compare like with like when looking at ESG financial products.  It is hoped that the EU Taxonomy Regulation will provide that.
+It is unclear how far the UK will align to the EU approach.  However, disclosure requirements will apply to any financial market participants who offer financial products in the EU and will therefore apply to all banks and investors who operate in the EU.  This could also include RPs who have an EMTN programme.
+The UK
+Regulation in the UK is also increasingly focused on ESG disclosure.  Rishi Sunak announced on 9 November that TCFD-aligned disclosures (going beyond the “comply and explain” approach) will be fully mandatory across the entire UK business and financial community by 2025 with many coming into force by 2023.  TCFD is the Taskforce on Climate-related Financial Disclosures and is one of the many private sector reporting frameworks that has been developed and is being used by the UK government and the FCA.
+Government also intends to implement a green taxonomy to provide a common framework for determining which activities can be defined as “environmentally sustainable”.  However, it is not clear whether or not there will be any divergence between UK and EU taxonomy requirements, although the UK Government has said it will use the EU taxonomy as a basis to work from.
+The FCA is also becoming concerned by the lack of ESG data and information.  There are several funds using words such as “green”, “ESG”, “impact”, “climate” in a fund’s name or objective which create expectations in investors but which are not met.  A new listing rule will be introduced in January 2021 which will require premium listed companies to include a statement in their annual financial report disclosures on how climate change affects their business, in line with the TCFD recommendations.
+It is clear that ESG financing will eventually become the subject of a comprehensive regulatory regime both nationally and globally, but at the moment it is very much “a work in progress”.  Currently much of this regulation does focus on environmental factors in priority to social and governance factors.  This is as a result of an intensification of climate concerns and the stiff targets set by governments to become carbon neutral.
+Sustainability Reporting Standard for Social Housing (SRS)
+In 2019 a working group of RPs and funders was assembled by Centrus to address concerns that the absence of a common ESG reporting standard for RPs was increasingly inhibiting investment opportunities.  A “white paper” co-launched by Centrus and the Peabody Group was published in May 2020.  Following a consultation process with a number of interested RPs and funders the SRS for Social Housing was published on 10 November 2020.
+The SRS is a voluntary disclosure framework for RPs to report on their ESG performance, aiming to establish a consistent and efficient system of reporting.  To date there are 61 “early adopters”, of which 34 are RPs and 27 are funders.  Early adopter RPs commit to issuing an annual ESG report using the SRS.  Lenders commit to the SRS forming part of their investment and credit policies and may require evidence of ESG as a lending requirement for certain products.
+The SRS list 12 core themes, each consisting of a number of criteria (48 in total) for the RP to report on.  The core themes include affordability and security, building safety and quality, resident voice and resident support, placemaking, climate change, ecology, resource management, structure and governance, board and trustees, staff well-being and supply chain management.  The criteria are varied, wide-ranging and specific.  For example, the 2nd criteria in the “Affordability and security” core theme asks the RP to report on the make-up of its property portfolio.
+The SRS will be overseen by a new Social and Affordable Housing SRS Board which will be established in early 2021.  A Governance Steering Committee (chaired by Susan Hickey, former CFO of Peabody) will oversee the establishment of the new board.  It is hoped that the standard will provide a consistent and transparent approach to ESG reporting for RPs and demonstrate to investors how investment into the sector can meet ESG requirements.
+Conclusion
+ESG financing is a “work in progress” and very much a “moving feast”.  There is a clear and urgent need for an accepted global standardised disclosure framework.  Now that governments and regulatory bodies are becoming involved it is likely this will happen in the not too distant future, although as noted ESG is becoming the subject of legislation and regulation and there is a strong emphasis on “E” in priority to “S” and “G”.
+ESG is a natural fit on the activities of RPs and it should be an easy win for RPs who can tick all the right ESG boxes. RPs should make the most of the opportunities offered through ESG reporting and attract further private finance into the sector.  They should not be shy to “blow their own trumpet” and highlight their ESG credentials.
+David Smith, a consultant in the finance practice of Winckworth Sherwood, comments “ESG is a growth area in the loan and bond markets and reflects the current global focus on climate change, social equity and governance.  ESG is a natural source of finance for those Housing Associations whose investors are looking for ethical investments.“
+Key contacts
+Patricia Umunna
+Partner
+View Profile | Contact Patricia |
+View all of Patricia's posts
+View Profile | Contact
+|
+View all of 's posts
+Lucy Grimwood
+Partner
+View Profile | Contact Lucy |
+View all of Lucy's posts
+View Profile | Contact
+|
+View all of 's posts
+View Profile | Contact
+|
+View all of 's posts
+View Profile | Contact
+|
+View all of 's posts
+Simon Lovell
+Consultant
+View Profile | Contact Simon |
+View all of Simon's posts
+Get the latest from Winckworth Sherwood
+Back to Thinking
+View RICS consultation on EWS1 now open
+Find us
+London
+Oxford
+Manchester
+Find a person
+People
+Specialisms
+Banking & Finance
+Charities & Social Enterprises
+Church Law
+Commercial
+Commercial Disputes
+Construction
+Corporate
+Corporate & Real Estate Tax
+Data Protection & Regulatory Law
+Education
+Employment
+ESG
+Family
+Family Offices
+Immigration
+Independent Investigations
+Infrastructure
+Local & Central Government
+Parliamentary
+Partnership / Professional Practices
+Ports and Waterways
+Private Wealth, Trusts & Tax
+Public Law
+Real Estate
+Real Estate
+Commercial Real Estate
+Construction
+Conveyancing, Lease Extension & Enfranchisement
+Corporate & Real Estate Tax
+Development & Regeneration
+Ground Rent
+Investment
+Litigation
+Planning and Development Risk
+Build to Rent
+Residential Development Sales
+Retail, Leisure & Licensing
+Social Housing
+Telecoms, Utilities and EV Charging
+Client Portals and Extranets
+Residential Sales Document rooms
+All other online document rooms
+© Winckworth Sherwood LLP   Terms of use   Privacy and Cookies Notices   Modern Slavery Policy   Anti-Bribery Policy  Client Feedback Survey  Complaints Process  Scam alerts
+Winckworth Sherwood LLP is a limited liability partnership registered in England and Wales with the registered number OC334359 and is authorised and regulated by the Solicitors Regulation Authority. Our VAT registration number is 183 8680 66. A list of members is open to inspection at the registered office, Minerva House, 5 Montague Close, London SE1 9BB. The term 'partner' is used to refer to a member. Our SRA ID number is 570274.
+Find Us
+Find a person
+Specialisms
+Banking & Finance
+Charities & Social Enterprises
+Church Law
+Commercial
+Commercial Disputes
+Construction
+Corporate
+Corporate & Real Estate Tax
+Data Protection & Regulatory Law
+Education
+Employment
+ESG
+Family
+Family Offices
+Immigration
+Independent Investigations
+Infrastructure
+Local & Central Government
+Parliamentary
+Partnership / Professional Practices
+Ports and Waterways
+Private Wealth, Trusts & Tax
+Public Law
+Real Estate
+Real Estate
+Commercial Real Estate
+Construction
+Conveyancing, Lease Extension & Enfranchisement
+Corporate & Real Estate Tax
+Development & Regeneration
+Ground Rent
+Investment
+Litigation
+Planning and Development Risk
+Build to Rent
+Residential Development Sales
+Retail, Leisure & Licensing
+Social Housing
+Telecoms, Utilities and EV Charging
+Client Portals and Extranets
+Residential Sales Document rooms
+All other online document rooms
+Terms of use
+Privacy and Cookies Notices
+Modern Slavery Policy
+Client Feedback Survey
+Complaints Process
+Scam alerts
+© Winckworth Sherwood LLPWinckworth Sherwood LLP is a limited liability partnership registered in England and Wales with the registered number OC334359 and is authorised and regulated by the Solicitors Regulation Authority. Our VAT registration number is 183 8680 66. A list of members is open to inspection at the registered office, Minerva House, 5 Montague Close, London SE1 9BB. The term 'partner' is used to refer to a member. Our SRA ID number is 570274.
+Find a person
+How can we help you
+Banking & Finance
+Charities & Social Enterprises
+Church Law
+Commercial
+Commercial Disputes
+Construction
+Corporate
+Corporate & Real Estate Tax
+Data Protection & Regulatory Law
+Education
+Employment
+Family
+Family Offices
+Immigration
+Independent Investigations
+Infrastructure
+Local & Central Government
+Parliamentary
+Partnership / Professional Practices
+Private Wealth, Trusts & Tax
+Public Law
+Real Estate
+Retail, Leisure & Licensing
+Social Housing
+Telecoms, Utilities and EV Charging
+Thinking
+Events
+Join Us
+Trainee Hub
+The Firm
+Trainee Diaries
+Our Values
+Life As A Trainee
+Application Process
+Assessment Day
+About
+Contact

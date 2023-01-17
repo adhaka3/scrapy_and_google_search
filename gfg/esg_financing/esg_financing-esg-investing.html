@@ -1,0 +1,1061 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"78a820378b",applicationID:"318676028"};/*! For license information please see nr-loader-rum-1221.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={507:function(__unused_webpack_module,__webpack_exports__,__webpack_require__){"use strict";function detectPolyfillFeatures(){var featureStatus={};return checkAndAddFeature("Promise","PROMISE"),checkAndAddFeature("Array.prototype.includes","ARRAY_INCLUDES"),checkAndAddFeature("Object.assign","OBJECT_ASSIGN"),checkAndAddFeature("Object.entries","OBJECT_ENTRIES"),featureStatus;function checkAndAddFeature(funcString,featName){try{var func=eval("self."+funcString);-1!==func.toString().indexOf("[native code]")?featureStatus[featName]=Status.NATIVE:featureStatus[featName]=Status.CHANGED}catch(e){featureStatus[featName]=Status.UNAVAIL}}}__webpack_require__.d(__webpack_exports__,{n:function(){return detectPolyfillFeatures}});var Status={UNAVAIL:"NotSupported",NATIVE:"Detected",CHANGED:"Modified"}},2687:function(e,t,r){"use strict";var n=r(2141);t.Z=(0,n.ky)(16)},1719:function(e,t,r){"use strict";r.d(t,{I:function(){return n}});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},3524:function(e,t,r){"use strict";var n,i;if(r.d(t,{H:function(){return i}}),r(8283).B){var o=document.createElement("div");o.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=o.getElementsByTagName("div").length}i=4===n?6:3===n?7:2===n?8:1===n?9:0},5970:function(e,t,r){"use strict";r.d(t,{Mt:function(){return p},C5:function(){return u},OP:function(){return C},Yu:function(){return b},Dg:function(){return d},CX:function(){return s},GE:function(){return h},sU:function(){return R}});var n={};r.r(n),r.d(n,{agent:function(){return w},match:function(){return x},version:function(){return m}});var i=r(4580),o=function(e,t){var r=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],n=e[1];r[t]=n}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")},a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},c={};function u(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!c[e])throw new Error("Info for "+e+" was never set");return c[e]}function s(e,t){if(!e)throw new Error("All info objects require an agent identifier!");c[e]=new o(t,a),(0,i.Qy)(e,c[e],"info")}var f={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},l={};function d(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=new o(t,f),(0,i.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=function(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for "+e+" was never set");return l[e]}(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}var v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};function h(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");_[e]=new o(t,v),(0,i.Qy)(e,_[e],"loader_config")}var b=(0,i.mF)().o,g=r(3524),y=r(9206),w=null,m=null;if(navigator.userAgent){var k=navigator.userAgent,O=k.match(/Version\/(\S+)\s+Safari/);O&&-1===k.indexOf("Chrome")&&-1===k.indexOf("Chromium")&&(w="Safari",m=O[1])}function x(e,t){if(!w)return!1;if(e!==w)return!1;if(!t)return!0;if(!m)return!1;for(var r=m.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var E=r(2141),P=r(8283).B?window.sessionStorage:void 0,S="NRBA_SESSION_ID";var j=self.XMLHttpRequest,A=j&&j.prototype,q={};function C(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!q[e])throw new Error("Runtime for "+e+" was never set");return q[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r,a;q[e]=new o(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===g.H?2e3:3e4,offset:(0,y.yf)(),onerror:void 0,origin:""+self.location,ptid:void 0,releaseIds:{},sessionId:1==p(r,"privacy.cookies_enabled")&&P?(null===(a=P.getItem(S))&&(a=(0,E.ky)(16),P.setItem(S,a)),a):null,xhrWrappable:j&&A&&A.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,q[e],"runtime")}},8873:function(e,t,r){"use strict";r.d(t,{q:function(){return n}});var n=["1221","PROD"].filter((function(e){return e})).join(".")},1925:function(e,t,r){"use strict";r.d(t,{w:function(){return i}});var n={agentIdentifier:""},i=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,n),Object.entries(e).forEach((function(e){var r=e[0],i=e[1];Object.keys(n).includes(r)&&(t.sharedContext[r]=i)}))}},2071:function(e,t,r){"use strict";r.d(t,{ee:function(){return n}});var n,i=r(4580),o=r(9010),a=r(9599),c="nr@context",u=(0,i.fP)();function s(){}function f(){return new s}function l(){(n.backlog.api||n.backlog.feature)&&(n.aborted=!0,n.backlog={})}u.ee?n=u.ee:(n=function e(t,r){var i={},u={},d={},p={on:h,addEventListener:h,removeEventListener:b,emit:_,get:y,listeners:g,context:v,buffer:w,abort:l,aborted:!1,isBuffering:m,debugId:r,backlog:t&&t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof s?e:e?(0,o.X)(e,c,f):f()}function _(e,r,i,o,a){if(!1!==a&&(a=!0),!n.aborted||o){t&&a&&t.emit(e,r,i);for(var c=v(i),s=g(e),f=s.length,l=0;l<f;l++)s[l].apply(c,r);var d=k()[u[e]];return d&&d.push([p,e,r,c]),c}}function h(e,t){i[e]=g(e).concat(t)}function b(e,t){var r=i[e];if(r)for(var n=0;n<r.length;n++)r[n]===t&&r.splice(n,1)}function g(e){return i[e]||[]}function y(t){return d[t]=d[t]||e(p,t)}function w(e,t){var r=k();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",u[n]=t,t in r||(r[t]=[])}))}function m(e){return!!k()[u[e]]}function k(){return p.backlog}}(void 0,"globalEE"),u.ee=n)},3195:function(e,t,r){"use strict";r.d(t,{E:function(){return n},p:function(){return i}});var n=r(2071).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4539:function(e,t,r){"use strict";r.d(t,{X:function(){return o}});var n=r(3195);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3585:function(e,t,r){"use strict";r.d(t,{m:function(){return o}});var n=!1;try{var i=Object.defineProperty({},"passive",{get:function(){n=!0}});self.addEventListener("testPassive",null,i),self.removeEventListener("testPassive",null,i)}catch(e){}function o(e){return n?{passive:!0,capture:!!e}:!!e}},2141:function(e,t,r){"use strict";function n(){var e=null,t=0,r=self.crypto||self.msCrypto;function n(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)a+="x"===(i=o[c])?n().toString(16):"y"===i?(i=3&n()|8).toString(16):i;return a}function i(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}r.d(t,{Rl:function(){return n},ky:function(){return i}})},9206:function(e,t,r){"use strict";r.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var n=r(1209),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function c(){return i}function u(e){o=e}function s(){return o}},1209:function(e,t,r){"use strict";var n,i;r.d(t,{G:function(){return o}});var o=void 0!==(null==(n=self.performance)||null==(i=n.timing)?void 0:i.navigationStart)},745:function(e,t,r){"use strict";r.d(t,{s:function(){return c},v:function(){return u}});var n=r(7036),i=r(1719),o=r(9206),a=r(1209),c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,self.performance.timing.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},7036:function(e,t,r){"use strict";r.d(t,{B:function(){return o},L:function(){return a}});var n=r(9206),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){var o,a,c=e.sharedContext.agentIdentifier,u=null==(o=i[c])?void 0:o[r],s=null==(a=i[c])?void 0:a[n];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},8547:function(e,t,r){"use strict";r.d(t,{T:function(){return i}});var n=r(8283),i={isFileProtocol:function(){var e,t=(0,n.ek)(),r=Boolean("file:"===(null==(e=t.location)?void 0:e.protocol));r&&(i.supportabilityMetricSent=!0);return r},supportabilityMetricSent:!1}},9011:function(e,t,r){"use strict";r.d(t,{K:function(){return o}});var n=r(5970),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function o(e){var t={};return i.forEach((function(r){t[r]=function(e,t){return!0!==(0,n.OP)(t).disabled&&!1!==(0,n.Mt)(t,e+".enabled")}(r,e)})),t}},8025:function(e,t,r){"use strict";r.d(t,{W:function(){return i}});var n=r(2071),i=function(e,t,r){void 0===r&&(r=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.externalFeatures=r}},9010:function(e,t,r){"use strict";r.d(t,{X:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9599:function(e,t,r){"use strict";r.d(t,{D:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},248:function(e,t,r){"use strict";r.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var n=r(5970),i=r(1925),o=r(8547);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,r;function n(t){return e.call(this,t)||this}r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,a(t,r);var i=n.prototype;return i.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},i.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r},n}(i.w);function s(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},4580:function(e,t,r){"use strict";r.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return i},fP:function(){return o},gG:function(){return s},mF:function(){return a}});var n=r(9206),i={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return self.NREUM||(self.NREUM={}),void 0===self.newrelic&&(self.newrelic=self.NREUM),self.NREUM}function a(){var e=o();if(!e.o){var t=self,r=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:r,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,r){var i,a,c=o(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((i={})[r]=t,i)),a)),c}function u(e,t){o()[e]=t}function s(){var e,t;return e=o(),t=e.info||{},e.info=Object.assign({beacon:i.beacon,errorBeacon:i.errorBeacon},t),function(){var e=o(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=o(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),o()}},8283:function(e,t,r){"use strict";r.d(t,{B:function(){return a},ek:function(){return o},n2:function(){return c}});var n=self,i=n;function o(){return i}var a=Boolean("object"==typeof window&&self.document),c=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator)},8539:function(e){e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},__webpack_module_cache__={},inProgress,dataWebpackPrefix;function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.m=__webpack_modules__,__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,{a:t}),t},__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.f={},__webpack_require__.e=function(e){return Promise.all(Object.keys(__webpack_require__.f).reduce((function(t,r){return __webpack_require__.f[r](e,t),t}),[]))},__webpack_require__.u=function(e){return e+"."+__webpack_require__.h().slice(0,8)+"-1221.js"},__webpack_require__.h=function(){return"25fcbbf1b6e5e9bcbd37"},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},inProgress={},dataWebpackPrefix="NRBA:",__webpack_require__.l=function(e,t,r,n){if(inProgress[e])inProgress[e].push(t);else{var i,o;if(void 0!==r)for(var a=document.getElementsByTagName("script"),c=0;c<a.length;c++){var u=a[c];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==dataWebpackPrefix+r){i=u;break}}i||(o=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,__webpack_require__.nc&&i.setAttribute("nonce",__webpack_require__.nc),i.setAttribute("data-webpack",dataWebpackPrefix+r),i.src=e),inProgress[e]=[t];var s=function(t,r){i.onerror=i.onload=null,clearTimeout(f);var n=inProgress[e];if(delete inProgress[e],i.parentNode&&i.parentNode.removeChild(i),n&&n.forEach((function(e){return e(r)})),t)return t(r)},f=setTimeout(s.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=s.bind(null,i.onerror),i.onload=s.bind(null,i.onload),o&&document.head.appendChild(i)}},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.p="https://js-agent.newrelic.com/",function(){var e={195:0,10:0};__webpack_require__.f.j=function(t,r){var n=__webpack_require__.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var i=new Promise((function(r,i){n=e[t]=[r,i]}));r.push(n[2]=i);var o=__webpack_require__.p+__webpack_require__.u(t),a=new Error;__webpack_require__.l(o,(function(r){if(__webpack_require__.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var i=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed.\n("+i+": "+o+")",a.name="ChunkLoadError",a.type=i,a.request=o,n[1](a)}}),"chunk-"+t,t)}};var t=function(t,r){var n,i,o=r[0],a=r[1],c=r[2],u=0;if(o.some((function(t){return 0!==e[t]}))){for(n in a)__webpack_require__.o(a,n)&&(__webpack_require__.m[n]=a[n]);if(c)c(__webpack_require__)}for(t&&t(r);u<o.length;u++)i=o[u],__webpack_require__.o(e,i)&&e[i]&&e[i][0](),e[i]=0},r=self.webpackChunkNRBA=self.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))}();var __webpack_exports__={};!function(){"use strict";__webpack_require__.r(__webpack_exports__);var e=__webpack_require__(507),t=__webpack_require__(2687),r=__webpack_require__(3585),n=__webpack_require__(8283),i=n.B&&window,o=i&&i.document;function a(e){if(!o||"complete"===o.readyState)return e()||!0}function c(e){a(e)||i.addEventListener("load",e,(0,r.m)(!1))}function u(e){a(e)||o.addEventListener("DOMContentLoaded",e,(0,r.m)(!1))}var s=__webpack_require__(2071);function f(){f=function(){return e};var e={},t=Object.prototype,r=t.hasOwnProperty,n=Object.defineProperty||function(e,t,r){e[t]=r.value},i="function"==typeof Symbol?Symbol:{},o=i.iterator||"@@iterator",a=i.asyncIterator||"@@asyncIterator",c=i.toStringTag||"@@toStringTag";function u(e,t,r){return Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{u({},"")}catch(e){u=function(e,t,r){return e[t]=r}}function s(e,t,r,i){var o=t&&t.prototype instanceof p?t:p,a=Object.create(o.prototype),c=new P(i||[]);return n(a,"_invoke",{value:k(e,r,c)}),a}function l(e,t,r){try{return{type:"normal",arg:e.call(t,r)}}catch(e){return{type:"throw",arg:e}}}e.wrap=s;var d={};function p(){}function v(){}function _(){}var h={};u(h,o,(function(){return this}));var b=Object.getPrototypeOf,g=b&&b(b(S([])));g&&g!==t&&r.call(g,o)&&(h=g);var y=_.prototype=p.prototype=Object.create(h);function w(e){["next","throw","return"].forEach((function(t){u(e,t,(function(e){return this._invoke(t,e)}))}))}function m(e,t){function i(n,o,a,c){var u=l(e[n],e,o);if("throw"!==u.type){var s=u.arg,f=s.value;return f&&"object"==typeof f&&r.call(f,"__await")?t.resolve(f.__await).then((function(e){i("next",e,a,c)}),(function(e){i("throw",e,a,c)})):t.resolve(f).then((function(e){s.value=e,a(s)}),(function(e){return i("throw",e,a,c)}))}c(u.arg)}var o;n(this,"_invoke",{value:function(e,r){function n(){return new t((function(t,n){i(e,r,t,n)}))}return o=o?o.then(n,n):n()}})}function k(e,t,r){var n="suspendedStart";return function(i,o){if("executing"===n)throw new Error("Generator is already running");if("completed"===n){if("throw"===i)throw o;return j()}for(r.method=i,r.arg=o;;){var a=r.delegate;if(a){var c=O(a,r);if(c){if(c===d)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===n)throw n="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n="executing";var u=l(e,t,r);if("normal"===u.type){if(n=r.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:r.done}}"throw"===u.type&&(n="completed",r.method="throw",r.arg=u.arg)}}}function O(e,t){var r=e.iterator[t.method];if(void 0===r){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,O(e,t),"throw"===t.method))return d;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var n=l(r,e.iterator,t.arg);if("throw"===n.type)return t.method="throw",t.arg=n.arg,t.delegate=null,d;var i=n.arg;return i?i.done?(t[e.resultName]=i.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,d):i:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,d)}function x(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function E(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function P(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(x,this),this.reset(!0)}function S(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var n=-1,i=function t(){for(;++n<e.length;)if(r.call(e,n))return t.value=e[n],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:j}}function j(){return{value:void 0,done:!0}}return v.prototype=_,n(y,"constructor",{value:_,configurable:!0}),n(_,"constructor",{value:v,configurable:!0}),v.displayName=u(_,c,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===v||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,_):(e.__proto__=_,u(e,c,"GeneratorFunction")),e.prototype=Object.create(y),e},e.awrap=function(e){return{__await:e}},w(m.prototype),u(m.prototype,a,(function(){return this})),e.AsyncIterator=m,e.async=function(t,r,n,i,o){void 0===o&&(o=Promise);var a=new m(s(t,r,n,i),o);return e.isGeneratorFunction(r)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},w(y),u(y,c,"Generator"),u(y,o,(function(){return this})),u(y,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=Object(e),r=[];for(var n in t)r.push(n);return r.reverse(),function e(){for(;r.length;){var n=r.pop();if(n in t)return e.value=n,e.done=!1,e}return e.done=!0,e}},e.values=S,P.prototype={constructor:P,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!e)for(var t in this)"t"===t.charAt(0)&&r.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function n(r,n){return a.type="throw",a.arg=e,t.next=r,n&&(t.method="next",t.arg=void 0),!!n}for(var i=this.tryEntries.length-1;i>=0;--i){var o=this.tryEntries[i],a=o.completion;if("root"===o.tryLoc)return n("end");if(o.tryLoc<=this.prev){var c=r.call(o,"catchLoc"),u=r.call(o,"finallyLoc");if(c&&u){if(this.prev<o.catchLoc)return n(o.catchLoc,!0);if(this.prev<o.finallyLoc)return n(o.finallyLoc)}else if(c){if(this.prev<o.catchLoc)return n(o.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<o.finallyLoc)return n(o.finallyLoc)}}}},abrupt:function(e,t){for(var n=this.tryEntries.length-1;n>=0;--n){var i=this.tryEntries[n];if(i.tryLoc<=this.prev&&r.call(i,"finallyLoc")&&this.prev<i.finallyLoc){var o=i;break}}o&&("break"===e||"continue"===e)&&o.tryLoc<=t&&t<=o.finallyLoc&&(o=null);var a=o?o.completion:{};return a.type=e,a.arg=t,o?(this.method="next",this.next=o.finallyLoc,d):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),d},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.finallyLoc===e)return this.complete(r.completion,r.afterLoc),E(r),d}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.tryLoc===e){var n=r.completion;if("throw"===n.type){var i=n.arg;E(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,r){return this.delegate={iterator:S(e),resultName:t,nextLoc:r},"next"===this.method&&(this.arg=void 0),d}},e}function l(e,t,r,n,i,o,a){try{var c=e[o](a),u=c.value}catch(e){return void r(e)}c.done?t(u):Promise.resolve(u).then(n,i)}var d=0;function p(e){var t;(t=f().mark((function t(){var r,n;return f().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!d++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,__webpack_require__.e(859).then(__webpack_require__.bind(__webpack_require__,7859));case 5:return r=t.sent,n=r.aggregator,t.next=9,n(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),s.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,r=arguments;return new Promise((function(n,i){var o=t.apply(e,r);function a(e){l(o,n,i,a,c,"next",e)}function c(e){l(o,n,i,a,c,"throw",e)}a(void 0)}))})()}var v=__webpack_require__(8539),_=__webpack_require__.n(v),h=__webpack_require__(4580),b=__webpack_require__(5970),g=__webpack_require__(3195),y=__webpack_require__(9599),w=__webpack_require__(9206);var m=!1;var k=__webpack_require__(7036),O=__webpack_require__(745),x=__webpack_require__(8025);function E(e,t){return E=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},E(e,t)}var P,S,j,A=function(e){var t,r;function i(t){var r;return r=e.call(this,t)||this,n.B?((0,O.v)(t),(0,k.B)(t,"firstbyte",(0,w.yf)()),c((function(){return r.measureWindowLoaded()})),u((function(){return r.measureDomContentLoaded()})),r):function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r)}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,E(t,r);var o=i.prototype;return o.measureWindowLoaded=function(){var e=(0,w.zO)();(0,k.B)(this.agentIdentifier,"onload",e+(0,w.os)()),(0,g.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,k.B)(this.agentIdentifier,"domContent",(0,w.zO)()+(0,w.os)())},i}(x.W);function q(e,t){return q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},q(e,t)}n.B&&(void 0!==document.hidden?(P="hidden",S="visibilitychange",j="visibilityState"):void 0!==document.msHidden?(P="msHidden",S="msvisibilitychange"):void 0!==document.webkitHidden&&(P="webkitHidden",S="webkitvisibilitychange",j="webkitVisibilityState"));var C=function(e){var t,i;function o(t){var i,o;if(!(i=e.call(this,t)||this).isEnabled()||!n.B)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(i);if(i.pageHiddenTime="hidden"===document.visibilityState?-1:1/0,i.performanceObserver,i.lcpPerformanceObserver,i.clsPerformanceObserver,i.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i.performanceObserver=new PerformanceObserver((function(){var e;return(e=i).perfObserver.apply(e,arguments)}));try{i.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}i.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).lcpObserver.apply(e,arguments)}));try{i.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}i.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).clsObserver.apply(e,arguments)}));try{i.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){i.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(e){document.addEventListener(e,(function(){var e;return(e=i).captureInteraction.apply(e,arguments)}),(0,r.m)(!1))}))}return o=function(){var e;return(e=i).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&S&&document.addEventListener(S,(function(){j&&document[j]?o(document[j]):document[P]?o("hidden"):o("visible")}),(0,r.m)(!1)),i}i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,q(t,i);var a=o.prototype;return a.isEnabled=function(){return!1!==(0,b.Mt)(this.agentIdentifier,"page_view_timing.enabled")},a.perfObserver=function(e,t){var r=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,g.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,r.ee):"first-contentful-paint"===e.name&&(0,g.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,r.ee)}))},a.lcpObserver=function(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,g.p)("lcp",i,void 0,void 0,this.ee)}},a.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,g.p)("cls",[e],void 0,void 0,t.ee)}))},a.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},a.captureInteraction=function(e){if(e instanceof b.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,w.zO)()?r.fid=(0,w.zO)()-t:t>(0,w.os)()&&t<=Date.now()?(t-=(0,w.os)(),r.fid=(0,w.zO)()-t):t=(0,w.zO)(),this.fiRecorded=!0,(0,g.p)("timing",["fi",t,r],void 0,void 0,this.ee)}},a.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,w.zO)(),(0,g.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(x.W),R=__webpack_require__(4539),L="React",T="Angular",N="AngularJS",I="Backbone",B="Ember",M="Vue",D="Meteor",F="Zepto",G="Jquery";function W(){if(!n.B)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(L),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(N),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(T),window.Backbone&&e.push(I),window.Ember&&e.push(B),window.Vue&&e.push(M),window.Meteor&&e.push(D),window.Zepto&&e.push(F),window.jQuery&&e.push(G)}catch(e){}return e}var H,z=__webpack_require__(8547),V=__webpack_require__(248),U=__webpack_require__(8873);function Z(e,t,r){return Z=X()?Reflect.construct.bind():function(e,t,r){var n=[null];n.push.apply(n,t);var i=new(Function.bind.apply(e,n));return r&&Q(i,r.prototype),i},Z.apply(null,arguments)}function X(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}function Q(e,t){return Q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Q(e,t)}var J,Y,K,$=Boolean(self.Worker),ee=Boolean(self.SharedWorker),te=Boolean(null==(H=self.navigator)?void 0:H.serviceWorker);function re(e,t){return re=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},re(e,t)}var ne,ie,oe,ae=function(e){var t,r;function i(t,r){var n;return void 0===r&&(r={}),(n=e.call(this,t)||this).PfFeatStatusEnum=r,n.singleChecks(),(0,R.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,R.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,re(t,r);var o=i.prototype;return o.recordSupportability=function(e,t){var r=["sm",e,{name:e},t];return(0,g.p)("storeMetric",r,null,void 0,this.ee),r},o.recordCustom=function(e,t){var r=["cm",e,{name:e},t];return(0,g.p)("storeEventMetrics",r,null,void 0,this.ee),r},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+U.q+"/Detected"),n.B&&u((function(){W().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),z.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),z.T.supportabilityMetricSent=!0);var t=(0,V.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,V.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),n.B&&this.reportPolyfillsNeeded(),function(e){if(!J){if($){J=Worker;try{self.Worker=r(J,"Dedicated")}catch(e){a(e,"Dedicated")}if(ee){Y=SharedWorker;try{self.SharedWorker=r(Y,"Shared")}catch(e){a(e,"Shared")}}else i("Shared");if(te){K=navigator.serviceWorker.register;try{self.navigator.serviceWorker.register=(t=K,function(){for(var e,r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return o("Service",null==(e=n[1])?void 0:e.type),t.apply(navigator.serviceWorker,n)})}catch(e){a(e,"Service")}}else i("Service");var t;return}i("All")}function r(e,t){return new Proxy(e,{construct:function(e,r){var n;return o(t,null==(n=r[1])?void 0:n.type),Z(e,r)}})}function i(t){n.n2||e("Workers/"+t+"/Unavailable")}function o(t,r){e("module"===r?"Workers/"+t+"/Module":"Workers/"+t+"/Classic")}function a(t,r){e("Workers/"+r+"/SM/Unsupported"),console.warn("NR Agent: Unable to capture "+r+" workers.",t)}}(this.recordSupportability.bind(this))},o.reportPolyfillsNeeded=function(){this.recordSupportability("Generic/Polyfill/Promise/"+this.PfFeatStatusEnum.PROMISE),this.recordSupportability("Generic/Polyfill/ArrayIncludes/"+this.PfFeatStatusEnum.ARRAY_INCLUDES),this.recordSupportability("Generic/Polyfill/ObjectAssign/"+this.PfFeatStatusEnum.OBJECT_ASSIGN),this.recordSupportability("Generic/Polyfill/ObjectEntries/"+this.PfFeatStatusEnum.OBJECT_ENTRIES)},i}(x.W),ce=__webpack_require__(9011),ue=(0,e.n)();try{!function(){if(!m){var e=(0,h.gG)();n.n2&&(e.info.jsAttributes=Object.assign({},e.info.jsAttributes,{isWorker:!0}));try{(0,b.CX)(t.Z,e.info),(0,b.Dg)(t.Z,e.init),(0,b.GE)(t.Z,e.loader_config),(0,b.sU)(t.Z,{}),function(e){var t=(0,h.fP)(),r=s.ee.get(e),n=r.get("tracer"),i="api-",o="api-ixn-";function a(){}(0,y.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=u(i,r,!0,"api")})),t.addPageAction=u(i,"addPageAction",!0),t.setCurrentRouteName=u(i,"routeName",!0),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,b.OP)(e).customTransaction=(r||"http://custom.transaction")+t,u(i,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){var n,o=(0,b.C5)(e);return(0,b.CX)(e,Object.assign({},o,{jsAttributes:Object.assign({},o.jsAttributes,(n={},n[t]=r,n))})),u(i,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var i={},o=this,a="function"==typeof t;return(0,g.p)("api-ixn-tracer",[(0,w.zO)(),e,i],o,void 0,r),function(){if(n.emit((a?"":"no-")+"fn-start",[(0,w.zO)(),o,a],i),a)try{return t.apply(this,arguments)}catch(e){throw n.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],i),e}finally{n.emit("fn-end",[(0,w.zO)()],i)}}}};function u(e,t,n,i){return function(){return(0,g.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,r),(0,g.p)(e+t,[(0,w.zO)()].concat(_()(arguments)),n?null:this,i,r),n?void 0:this}}(0,y.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=u(o,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,g.p)("record-supportability",["API/noticeError/called"],void 0,void 0,r),(0,g.p)("err",[e,(0,w.zO)(),!1,t],void 0,void 0,r)}}(t.Z),m=!0}catch(e){}}}();var se=(0,ce.K)(t.Z);se.page_view_event&&new A(t.Z),se.page_view_timing&&new C(t.Z),se.metrics&&new ae(t.Z,ue),ne="lite",void 0===oe&&(oe=1e3),ie?setTimeout((function(){return p(ne)}),oe):n.B?c((function(){return p(ne)})):p(ne)}catch(e){var fe,le,de;null!=(fe=self)&&null!=(le=fe.newrelic)&&null!=(de=le.ee)&&de.abort&&self.newrelic.ee.abort()}}(),self.NRBA=__webpack_exports__})();
+//# sourceMappingURL=https://js-agent.newrelic.com/nr-loader-rum-1221.min.25fcbbf1.map</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<title>ESG Institute - Structured Finance Association</title>
+<meta name="description" content="$11.6 trillion – or $1 of every $4 invested in the United States – was invested under ESG investment strategies." />
+<link rel="canonical" href="https://structuredfinance.org/issues/esg-investing/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="ESG Institute - Structured Finance Association" />
+<meta property="og:description" content="$11.6 trillion – or $1 of every $4 invested in the United States – was invested under ESG investment strategies." />
+<meta property="og:url" content="https://structuredfinance.org/issues/esg-investing/" />
+<meta property="og:site_name" content="Structured Finance Association" />
+<meta property="article:modified_time" content="2023-01-09T14:46:30+00:00" />
+<meta property="og:image" content="https://structuredfinance.org/wp-content/uploads/2019/05/structured-finance-association_social.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://structuredfinance.org/issues/esg-investing/","url":"https://structuredfinance.org/issues/esg-investing/","name":"ESG Institute - Structured Finance Association","isPartOf":{"@id":"https://structuredfinance.org/#website"},"datePublished":"2019-06-03T14:52:37+00:00","dateModified":"2023-01-09T14:46:30+00:00","description":"$11.6 trillion – or $1 of every $4 invested in the United States – was invested under ESG investment strategies.","breadcrumb":{"@id":"https://structuredfinance.org/issues/esg-investing/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://structuredfinance.org/issues/esg-investing/"]}]},{"@type":"BreadcrumbList","@id":"https://structuredfinance.org/issues/esg-investing/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://structuredfinance.org/"},{"@type":"ListItem","position":2,"name":"ESG Institute"}]},{"@type":"WebSite","@id":"https://structuredfinance.org/#website","url":"https://structuredfinance.org/","name":"Structured Finance Association","description":"","publisher":{"@id":"https://structuredfinance.org/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://structuredfinance.org/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://structuredfinance.org/#organization","name":"Structured Finance Association","url":"https://structuredfinance.org/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://structuredfinance.org/#/schema/logo/image/","url":"https://structuredfinance.org/wp-content/uploads/2019/05/structured-finance-association_social.jpg","contentUrl":"https://structuredfinance.org/wp-content/uploads/2019/05/structured-finance-association_social.jpg","width":1200,"height":630,"caption":"Structured Finance Association"},"image":{"@id":"https://structuredfinance.org/#/schema/logo/image/"}}]}</script>
+
+<link rel='dns-prefetch' href='//static.addtoany.com' />
+<link rel='dns-prefetch' href='//structuredfinance.org' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//use.typekit.net' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel="alternate" type="application/rss+xml" title="Structured Finance Association &raquo; Feed" href="https://structuredfinance.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Structured Finance Association &raquo; Comments Feed" href="https://structuredfinance.org/comments/feed/" />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/structuredfinance.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://structuredfinance.org/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://structuredfinance.org/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='cookie-law-info-css' href='https://structuredfinance.org/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-public.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='cookie-law-info-gdpr-css' href='https://structuredfinance.org/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-gdpr.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-video-popup-css' href='https://structuredfinance.org/wp-content/plugins/wp-video-popup-pro/inc/css/wp-video-popup.css?ver=2.9' type='text/css' media='all' />
+<link rel='stylesheet' id='sfig-style-css' href='https://structuredfinance.org/wp-content/themes/sfig/style.css?ver=1673771106' type='text/css' media='' />
+<link rel='stylesheet' id='typekit-css' href='//use.typekit.net/amj6lhk.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css' href='https://structuredfinance.org/wp-content/themes/sfig/css/slick.css' type='text/css' media='all' />
+<link rel='stylesheet' id='modal-video-css' href='https://structuredfinance.org/wp-content/themes/sfig/css/modal-video.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='styles-new-css' href='https://structuredfinance.org/wp-content/themes/sfig/css/styles-new.css?ver=2.0.12' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css' href='https://structuredfinance.org/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.16' type='text/css' media='all' />
+<script type='text/javascript' id='addtoany-core-js-before'>
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+a2a_config.icon_color="#698796,#ffffff";
+</script>
+<script type='text/javascript' async src='https://static.addtoany.com/menu/page.js' id='addtoany-core-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' async src='https://structuredfinance.org/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1' id='addtoany-jquery-js'></script>
+<script type='text/javascript' id='cookie-law-info-js-extra'>
+/* <![CDATA[ */
+var Cli_Data = {"nn_cookie_ids":[],"cookielist":[],"non_necessary_cookies":[],"ccpaEnabled":"","ccpaRegionBased":"","ccpaBarEnabled":"","strictlyEnabled":["necessary","obligatoire"],"ccpaType":"gdpr","js_blocking":"1","custom_integration":"","triggerDomRefresh":"","secure_cookies":""};
+var cli_cookiebar_settings = {"animate_speed_hide":"500","animate_speed_show":"500","background":"#FFF","border":"#b1a6a6c2","border_on":"","button_1_button_colour":"#e06655","button_1_button_hover":"#b35244","button_1_link_colour":"#fff","button_1_as_button":"1","button_1_new_win":"","button_2_button_colour":"#333","button_2_button_hover":"#292929","button_2_link_colour":"#444","button_2_as_button":"","button_2_hidebar":"","button_3_button_colour":"#dedfe0","button_3_button_hover":"#b2b2b3","button_3_link_colour":"#333333","button_3_as_button":"1","button_3_new_win":"","button_4_button_colour":"#dedfe0","button_4_button_hover":"#b2b2b3","button_4_link_colour":"#333333","button_4_as_button":"1","button_7_button_colour":"#e06655","button_7_button_hover":"#b35244","button_7_link_colour":"#fff","button_7_as_button":"1","button_7_new_win":"","font_family":"inherit","header_fix":"","notify_animate_hide":"1","notify_animate_show":"","notify_div_id":"#cookie-law-info-bar","notify_position_horizontal":"right","notify_position_vertical":"bottom","scroll_close":"","scroll_close_reload":"","accept_close_reload":"","reject_close_reload":"","showagain_tab":"","showagain_background":"#fff","showagain_border":"#000","showagain_div_id":"#cookie-law-info-again","showagain_x_position":"100px","text":"#333333","show_once_yn":"","show_once":"10000","logging_on":"","as_popup":"","popup_overlay":"1","bar_heading_text":"","cookie_bar_as":"banner","popup_showagain_position":"bottom-right","widget_position":"left"};
+var log_object = {"ajax_url":"https:\/\/structuredfinance.org\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/plugins/cookie-law-info/legacy/public/js/cookie-law-info-public.js?ver=3.0.6' id='cookie-law-info-js'></script>
+<link rel="https://api.w.org/" href="https://structuredfinance.org/wp-json/" /><link rel="alternate" type="application/json" href="https://structuredfinance.org/wp-json/wp/v2/issues/849" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://structuredfinance.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://structuredfinance.org/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://structuredfinance.org/?p=849' />
+<link rel="alternate" type="application/json+oembed" href="https://structuredfinance.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstructuredfinance.org%2Fissues%2Fesg-investing%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://structuredfinance.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fstructuredfinance.org%2Fissues%2Fesg-investing%2F&#038;format=xml" />
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://structuredfinance.org/wp-content/uploads/2019/05/SFA_Favicon.png" sizes="32x32" />
+<link rel="icon" href="https://structuredfinance.org/wp-content/uploads/2019/05/SFA_Favicon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://structuredfinance.org/wp-content/uploads/2019/05/SFA_Favicon.png" />
+<meta name="msapplication-TileImage" content="https://structuredfinance.org/wp-content/uploads/2019/05/SFA_Favicon.png" />
+<style type="text/css" id="wp-custom-css">
+			div#member-hosted-events {
+	display: block !important;
+	margin-bottom: -3rem;
+}
+
+#wt-cli-privacy-save-btn {
+	background: #e06655 !important;
+}
+
+
+/*Make GForms textarea shorter*/
+.wis-donation .gform_wrapper.gravity-theme .gfield textarea.large {
+	height: 150px;
+}
+
+/*Home slider fader disable*/
+.slider-fade-item::before {
+	display: none;
+}
+
+/* DEI THEME PAGE */
+body.page-template-page-dei-toolkit .page-margins,
+body.page-template-page-dei-theme .page-margins {
+	margin-bottom: 0;
+}
+
+
+
+/*Committees & Task Forces*/
+section.ctf-contacts {
+	display: none;
+}
+
+@media screen and (min-width:900px) {
+	div.advisory-member-block {
+		flex: 0 1 25%;
+	}
+}
+
+
+
+body.home .page-margins {
+	display:none;
+}
+
+
+/* div.site-header-column ul > li:nth-child(9) {
+	display: none !important;
+}
+ */
+div.site-header-column ul.sub-menu > li:nth-child(9) {
+	display: list-item !important;
+}
+
+/*Formstack Styling*/
+div.invoice-payment-form {
+	width: 100%;
+	max-width: 650px;
+	margin: 0 auto;
+}
+div.invoice-payment-form .fsBody, div.invoice-payment-form .fsBody .fsForm {
+	background: transparent !important;
+	padding-bottom: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+div.invoice-payment-form label {
+	font-family: 'fieldwork', sans-serif !important;
+	color: #100D31 !important;
+	margin-bottom: 5px !important;
+	font-weight: 500 !important;
+	font-size: 1.1rem !important;
+}
+
+div.invoice-payment-form input, div.invoice-payment-form textarea {
+	font-family: sans-serif !important;
+	color: #100D31 !important;
+	font-size: 1rem !important;
+	margin-bottom: -5px;
+}
+
+div.invoice-payment-form input[type="text"], div.invoice-payment-form input[type="email"], div.invoice-payment-form input[type="tel"], div.invoice-payment-form input[type="number"] {
+	min-height: 52px;
+	border: 1px solid #C6C1B7;
+	padding-left: 15px !important;
+}
+
+div.invoice-payment-form textarea {
+	padding-left: 15px;
+	padding-top: 12px;
+}
+
+
+div.invoice-payment-form div.fsSubmit {
+	margin-top: -5px;
+}
+
+div.invoice-payment-form input.fsSubmitButton {
+	background: #F06051 !important;
+	width: 100%;
+	height: 52px;
+	font-weight: 600;
+	color: #fff !important;
+	font-size: 1.2rem !important;
+	font-family: 'fieldwork', sans-serif !important;
+}
+
+div.invoice-payment-form span.fsCurrency.fsCurrencyPrefix {
+	background: #E0DBD1;
+	font-family: 'fieldwork', sans-serif !important;
+	font-size: 1.4rem !important;
+	color: #100D31;
+	font-weight: 500;
+	height: 52px !important;
+	width: 50px !important;
+	display: inline-block !important;
+	margin-right: 0 !important;
+	border: 1px solid #C6C1B7;
+	text-align: center;
+	padding-top: 7px
+}
+div.invoice-payment-form .fsCurrency~input.fsField {
+	width: calc(100% - 50px) !important;
+	display: inline-block !important;
+}
+div.invoice-payment-form div.fsSupporting {
+	font-family: 'fieldwork', sans-serif !important;
+	padding-top: 8px !important;
+	color: #4A465C !important;
+	font-size: 0.95rem
+}
+
+div.invoice-payment-form div.fsFieldRow iframe {
+	min-height: 26px !important;
+	border: 1px solid #C6C1B7;
+	padding-left: 15px !important;
+	font-family: 'fieldwork', sans-serif !important;
+	color: #100D31 !important;
+	font-size: 1.1rem !important;
+}
+
+div.invoice-payment-form div.StripeElement {
+	padding-top: 15px !important;;
+}
+
+div.invoice-payment-form .ElementsApp input {
+	font-family: 'fieldwork', sans-serif !important;
+}
+
+
+
+/*hide SFA I&D Advisory Commitee block*/
+div.join-advisory-block.join-di-card {
+	display: none;
+}
+div.join-membership-block.join-di-card {
+	max-width: 900px;
+	margin: auto;
+}
+
+
+/*footer links - hide About Securitization in right column*/
+div.site-footer-menu-right #menu-item-159 {
+	display: none;
+}
+
+/*Fix Resource Detail WYSIWYG Text*/ 
+img.resource-detail-thumb {
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 5px;
+}
+
+/*Hide I&D page sections - TEMP*/
+div#job-board, div.id-sponsor-section section.logo-sections, div#diversity-spotlight-video, div#member-hosted-events, div.id-sponsor-section a.button {
+	display: none;
+}
+div.id-sponsor-section div.wis-sponsor-header-content {
+	padding-bottom: 0 !important;
+	border-bottom: 0 !important;
+}
+
+/*Hide Kevin Val Video - TEMP*/
+div#kevin-val-intro div.site-callout-image {
+	display: none;
+}
+div.kevin-box {
+	display: inline-block;
+	margin-right: 3rem;
+}
+div.val-box {
+	display: inline-block;
+}
+div#kevin-val-intro section.site-callout-text {
+	background: #fff;
+	padding: 2.5rem;
+	outline: 2px solid #e06654;
+  outline-offset: -12px;
+}
+@media only screen and (max-width: 450px) {
+	div.kevin-box {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 1.5rem;
+	}
+	div.val-box {
+		display: block;
+	}
+}
+
+/*hide duplicate header on WiS - Contact section*/
+body.page-id-4881 #wis-contact .container > h2.section-header {
+	display: none;
+}
+
+/*WiS and I&D Event Feeds*/
+div.initiative-events-section .events-feed {
+	padding: 3rem 0;
+}
+div.initiative-events-section div.filterevent-copy-cont {
+	background: #F7F6F5;
+}
+div.initiative-events-section a.filter-event-btn {
+	background: #100D32;
+}
+div.initiative-events-section div.filterevent-image-cont {
+	flex: 0 1 19%;
+	min-height: 227px;
+}
+
+@media screen and (max-width:1230px) {
+	div.initiative-events-section div.filterevent-image-cont {
+	flex: 0 1 21%;
+	min-height: 200px;
+}
+}
+		</style>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-TCNNTG7');</script>
+
+
+<script>
+	    (function(h,o,t,j,a,r){
+	        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+	        h._hjSettings={hjid:1368703,hjsv:6};
+	        a=o.getElementsByTagName('head')[0];
+	        r=o.createElement('script');r.async=1;
+	        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+	        a.appendChild(r);
+	    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+<script type='text/javascript'>
+(function (d, t) {
+  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  bh.type = 'text/javascript';
+  bh.src = 'https://www.bugherd.com/sidebarv2.js?apikey=enzfkrkm67xfkpggxnv1la';
+  s.parentNode.insertBefore(bh, s);
+  })(document, 'script');
+</script>
+</head>
+<body class="issues-template-default single single-issues postid-849">
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TCNNTG7"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div id="page" class="site">
+
+<div class="site-background">
+<svg width="100%" height="100%">
+<defs>
+<pattern id="lines" x="0" y="0" width="1440" height="1440" patternUnits="userSpaceOnUse">
+<polygon fill="#e0dbd1" class="st0" points="119.475,720 0,720 527.25,1295.1 592.125,1235.625 " />
+<polygon fill="#e0dbd1" class="st0" points="1320.525,0 1440,0 912.75,575.1 847.875,515.625 " />
+<polygon fill="#e0dbd1" class="st0" points="119.475,720 0,720 527.25,144.9 592.125,204.375 " />
+<polygon fill="#e0dbd1" class="st0" points="1320.525,1440 1440,1440 912.75,864.9 847.875,924.375 " />
+<polygon fill="#e0dbd1" class="st0" points="1320.525,0 1440,0 912.75,575.1 847.875,515.625 " />
+</pattern>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="url(#lines)" />
+</svg>
+</div>
+<header id="masthead" class="site-header">
+<div class="container alt">
+<div class="site-header-inner">
+<div class="site-header-logo">
+<h1 class="site-title">
+<a href="https://structuredfinance.org/" rel="home">
+<img src="https://structuredfinance.org/wp-content/uploads/2019/07/Structured_Finance_Association_logo_RGB.png" alt="Structured Finance Association Logo">
+</a>
+</h1>
+</div>
+<div class="line-x-animation site-header-menu-toggle"><span>Menu</span></div>
+</div>
+<section class="site-header-menu">
+<div class="site-header-container">
+<div class="site-header-menu-inner full-menu">
+<div class="site-header-columns">
+<div class="site-header-column">
+
+<nav>
+<ul>
+<li class="menu-item-has-children"><a href="https://structuredfinance.org/issues/" target="">SFA on the Issues</a><ul class="sub-menu"><li class="header-mobile-show back"><a href="#">Back</a></li><li class="header-mobile-show"><a href="https://structuredfinance.org/issues/" target="">Overview</a></li><li><a href="https://structuredfinance.org/committees-and-taskforces/" target="">Committees and Task Forces</a></li><li><a href="https://structuredfinance.org/issues/covid-19/" target="">COVID-19: Supporting Consumers &#038; Businesses</a></li><li><a href="https://structuredfinance.org/issues/capital-and-other-bank-regulations/" target="">Capital &#038; Other Bank Regulations</a></li><li><a href="https://structuredfinance.org/issues/disclosure-reporting/" target="">Disclosure &#038; Reporting</a></li><li><a href="https://structuredfinance.org/issues/esg-investing/" target="">ESG Institute</a></li><li><a href="https://structuredfinance.org/issues/global-initiatives/" target="">Global Initiatives</a></li><li><a href="https://structuredfinance.org/issues/housing-finance/" target="">Housing Finance</a></li><li><a href="https://structuredfinance.org/issues/libor-transition/" target="">LIBOR Transition</a></li><li><a href="https://structuredfinance.org/issues/market-structure-and-dynamics/" target="">Market Structure &#038; Dynamics</a></li><li><a href="https://structuredfinance.org/issues/research-corner/" target="">Research Corner</a></li><li><a href="https://structuredfinance.org/issues/structured-finance-in-the-courts/" target="">Structured Finance in the Courts</a></li></ul></li><li><a href="https://structuredfinance.org/about-securitization/" target="">About Securitization</a></li><li class="menu-item-has-children"><a href="https://structuredfinance.org/news/" target="">News</a><ul class="sub-menu"><li class="header-mobile-show back"><a href="#">Back</a></li><li class="header-mobile-show"><a href="https://structuredfinance.org/news/" target="">Overview</a></li><li><a href="/news/?fwp_news_type=press-releases" target="">Press Releases</a></li><li><a href="/news/?fwp_news_type=industry-news" target="">Industry News</a></li><li><a href="/news/?fwp_news_type=sfa-news" target="">SFA News</a></li><li><a href="https://visitor.r20.constantcontact.com/manage/optin?v=001WnNKExqgXCiy_vF2T4G7AHnkvo3x5vmsGA6f0-tGkJyuxvH9ZJZsJBts89OqjsHiS9tBXr5QwNmd3_JZMhx2DeF0LY_rDKmrxFaKBYnIWP4FQDtoLB0kI1Uf_V7OzRuElTdYoPFn6s0PSqxdtoRULlgo-M1wlnG9" target="_blank">Newsletter Sign Up</a></li></ul></li><li><a href="https://structuredfinance.org/events/" target="">Events</a></li><li><a href="https://structuredfinance.org/inclusion-and-diversity/" target="">Diversity, Equity, and Inclusion Hub</a></li><li><a href="https://structuredfinance.org/women-in-securitization/" target="">Women in Securitization</a></li><li><a href="https://www.structuredfinancecoalition.org/" target="_blank">Structured Finance Coalition</a></li><li><a href="https://structuredfinancefoundation.org/" target="_blank">Structured Finance Foundation</a></li><li class="menu-item-has-children"><a href="https://structuredfinance.org/about-us/" target="">About Us</a><ul class="sub-menu"><li class="header-mobile-show back"><a href="#">Back</a></li><li class="header-mobile-show"><a href="https://structuredfinance.org/about-us/" target="">Overview</a></li><li><a href="https://structuredfinance.org/board-of-directors/" target="">Board of Directors</a></li><li><a href="https://structuredfinance.org/sfa-team/" target="">Our Team</a></li><li><a href="https://structuredfinance.org/members/" target="">Our Members</a></li><li><a href="https://structuredfinance.org/committees-and-taskforces/" target="">Committees and Task Forces</a></li>
+</ul>
+</nav>
+
+<nav class="sub-menu">
+<div class="menu-header-sub-menu-container"><ul id="menu-header-sub-menu" class="menu"><li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-171"><a href="https://structuredfinance.org/membership/">Join Membership</a>
+<ul class="sub-menu">
+<li id="menu-item-8668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8668"><a href="https://structuredfinance.org/membership/">About Membership</a></li>
+<li id="menu-item-1357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1357"><a href="https://structuredfinance.org/join/">Join</a></li>
+</ul>
+</li>
+<li id="menu-item-8667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8667"><a href="https://structuredfinance.org/blog/">Blog</a></li>
+<li id="menu-item-8669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8669"><a href="https://structuredfinance.org/multimedia-library/">Multimedia Library</a></li>
+<li id="menu-item-7225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7225"><a href="https://structuredfinance.org/payments/">Make a Payment</a></li>
+<li id="menu-item-7120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7120"><a href="https://structuredfinance.org/opportunities-in-the-industry/">Careers</a></li>
+</ul></div> </nav>
+<section class="site-search-social">
+
+<div class="site-search">
+<form role="search" method="get" class="search-form" action="https://structuredfinance.org/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+</label>
+<input type="submit" class="search-submit" value="Search" />
+</form> </div>
+
+
+<div class="site-social">
+<a href="https://twitter.com/sfassociation" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+<a href="https://www.linkedin.com/company/structured-finance-association" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+</div>
+
+</section>
+</div>
+<div class="site-header-column content">
+<div>
+
+
+</div>
+<nav>
+<ul></ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</header>
+<div id="content" class="site-content">
+
+<section class="main-hero">
+<img class="hero-cst-img" src="https://structuredfinance.org/wp-content/uploads/2019/06/ESG-Green-Image-1.jpg" alt="ESG Green Image 1">
+<div class="hero-grad-overlay"></div>
+<div class="container">
+<div class="inner-wrap">
+<div class="inner-wrap-left">
+<h1>
+ESG Institute </h1>
+<div class="top-divider large white">
+<p>$11.6 trillion &#8211; or <strong>$1 of every $4 invested in the United States</strong> &#8211; was invested under ESG investment strategies.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div id="primary" class="content-area">
+<main id="main" class="site-main">
+<div class="page-margins">
+
+<nav class="interior-menu">
+<div class="container">
+<ul class="module-link">
+<li><a href="#overview">Overview</a></li>
+<li><a href="#resources">Publications</a></li>
+<li><a href="#learnmore">Learn More</a></li>
+<li><a href="#news">News</a></li>
+
+<li class="extra-link"><a href="https://structuredfinance.org/join-a-committee-or-task-force/" target="_self">Get Involved</a></li>
+</ul>
+</div>
+</nav>
+<div class="container"> 
+<div class="featured-boxesimages box-col-3">
+<div class="featured-boxesimages-box box-col-3">
+<div>
+<a href="https://structuredfinance.org/resource-details/sfa-provides-recommendations-to-sec-on-proposed-climate-related-disclosures/" target="_blank" class="featured-boxesimages-box-image" style="background-image: url('https://structuredfinance.org/wp-content/uploads/2022/06/The-First-Sunlight-of-Planet-Earth-stock-photo-1200x800.jpg')"></a>
+<div class="featured-boxesimages-box-text">
+<h2>
+<a href="https://structuredfinance.org/resource-details/sfa-provides-recommendations-to-sec-on-proposed-climate-related-disclosures/" target="_blank" ">
+SFA Provides Recommendations to SEC on Proposed Climate-Related Disclosures </a>
+</h2>
+<div class="top-divider small">
+<p>SFA Provides Recommendations to SEC on Proposed Corporate Climate-Related Disclosures, Calls for Tailored ABS Disclosure</p>
+</div>
+</div>
+</div>
+<a class="button coral featured-boxesimages-box-button" href="https://structuredfinance.org/resource-details/sfa-provides-recommendations-to-sec-on-proposed-climate-related-disclosures/" target="_blank">
+Learn More </a>
+</div>
+<div class="featured-boxesimages-box box-col-3">
+<div>
+<a href="https://structuredfinance.org/resource-details/sfa-sends-letter-to-gses-on-social-index/" target="_blank" class="featured-boxesimages-box-image" style="background-image: url('https://structuredfinance.org/wp-content/uploads/2023/01/Solar-panels-on-the-tiled-roof-of-the-building-in-the-sun.-Top-view-through-grape-leaves.-Selective-focus.-stock-photo-1200x800.jpg')"></a>
+<div class="featured-boxesimages-box-text">
+<h2>
+<a href="https://structuredfinance.org/resource-details/sfa-sends-letter-to-gses-on-social-index/" target="_blank" ">
+SFA Sends Letter to GSEs on Social Index </a>
+</h2>
+<div class="top-divider small">
+<p>SFA sends letter to Fannie Mae and Freddie Mac on their joint Social Index for single-family MBS commending them for their work while noting the areas where investors seek additional granularity and transparency.</p>
+</div>
+</div>
+</div>
+<a class="button coral featured-boxesimages-box-button" href="https://structuredfinance.org/resource-details/sfa-sends-letter-to-gses-on-social-index/" target="_blank">
+View Here </a>
+</div>
+<div class="featured-boxesimages-box box-col-3">
+<div>
+<a href="https://sfindustries.sharepoint.com/:v:/s/SFAArchive/EWmEmOB622FHn6s3NPdJqeQBlthJGiuc7U6RvWvXh5WbkA?e=gLac6U" target="_blank" class="featured-boxesimages-box-image" style="background-image: url('https://structuredfinance.org/wp-content/uploads/2019/06/ESG-Green-Image-1.jpg')"></a>
+<div class="featured-boxesimages-box-text">
+<h2>
+<a href="https://sfindustries.sharepoint.com/:v:/s/SFAArchive/EWmEmOB622FHn6s3NPdJqeQBlthJGiuc7U6RvWvXh5WbkA?e=gLac6U" target="_blank" ">
+SFA ESG Institute Webinar: Existing ESG Frameworks and Potential Application to SF Market </a>
+</h2>
+<div class="top-divider small">
+<p>SFA hosted a webinar introducing and reviewing the 12 ESG frameworks most widely accepted at the corporate level in a broad range of industries.</p>
+</div>
+</div>
+</div>
+<a class="button coral featured-boxesimages-box-button" href="https://sfindustries.sharepoint.com/:v:/s/SFAArchive/EWmEmOB622FHn6s3NPdJqeQBlthJGiuc7U6RvWvXh5WbkA?e=gLac6U" target="_blank">
+Watch Here </a>
+</div>
+</div>
+</div>
+
+
+<section id="overview" class="overview">
+<div class="container two-col media-on-left">
+<div class="overview-text">
+<p><p><strong>SFA and its Members are Developing an ESG Framework and Reporting Standards specific to Structured Finance</strong></p>
+<p>__</p>
+<p>This year SFA welcomed members to the ESG Disclosures Taskforce. The members represent every role in securitization—issuers, investors, servicers, data services—to consider the environmental, social and governance impacts that are material and relevant to structured finance.</p>
+<p>To participate in this important and timely work, please use the ‘Join Today’ button on the right of the screen.</p>
+</p>
+</div>
+<div class="overview-media overview-image" style="background-image: url('https://structuredfinance.org/wp-content/uploads/2020/02/iStock-1032683612-min.jpg')"></div>
+
+</div>
+</section>
+<section id="resources" class="issue-resources top-margin">
+<div class="container align-center">
+<h2 class="section-header">Publications</h2>
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<p class="large-serif half-marg no-link-decoration">
+<a class="js-modal-btn-youtube" data-video-id="a8EkuPmJoeI" style="text-decoration:none;cursor:pointer;">
+ <strong>Climate Risk Under Federal Reserve Mandate</strong>
+</a>
+</p>
+<p class="uppercase demi">
+October 5, 2021 </p>
+<div class="top-divider small">
+<p>During SFVegas 2021, SFA’s CEO Michael Bright and Federal Reserve Vice Chair Randy Quarles discuss how to think about climate risk considering the Federal Reserve’s overall mandate.</p>
+</div>
+</div>
+<a class="teaser-card-backimage js-modal-btn-youtube" data-video-id="a8EkuPmJoeI" style="cursor:pointer;background-image: url(https://structuredfinance.org/wp-content/uploads/2019/06/Climate-Risk-Under-Federal-Reserve-Mandate-1-1200x800.jpg)"></a>
+</div>
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<p class="large-serif half-marg no-link-decoration">
+<a class="js-modal-btn-youtube" data-video-id="tKzVmcSsZBg" style="text-decoration:none;cursor:pointer;">
+<strong>Where is the Administration and Regulators Heading With ESG</strong>
+</a>
+</p>
+<p class="uppercase demi">
+October 4, 2021 </p>
+<div class="top-divider small">
+<p>Watch Darlene Rosenkoetter, Vice President, Global Head of Government Affairs and Public Policy, from S&amp;P Global Ratings provide an update at SFVegas 2021 on where the administration and regulators are heading with ESG.</p>
+</div>
+</div>
+<a class="teaser-card-backimage js-modal-btn-youtube" data-video-id="tKzVmcSsZBg" style="cursor:pointer;background-image: url(https://structuredfinance.org/wp-content/uploads/2019/06/Where-is-the-Administration-and-regulators-Heading-with-ESG-1200x800.jpg)"></a>
+</div>
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<p class="large-serif half-marg no-link-decoration">
+<a class="js-modal-btn-youtube" data-video-id="6l8zqDtVqj0" style="text-decoration:none;cursor:pointer;">
+<strong>Climate Risk in Securitization</strong>
+</a>
+</p>
+<p class="uppercase demi">
+October 4, 2021 </p>
+<div class="top-divider small">
+<p>Neil Hohmann, Managing Director and Head of Structured Products from BBH Investment Management, discusses assessing the different types of climate risk in securitization. John D’Elisa, Director, Societe Generale touches on defining what ESG means for issuers and investors.</p>
+</div>
+</div>
+<a class="teaser-card-backimage js-modal-btn-youtube" data-video-id="6l8zqDtVqj0" style="cursor:pointer;background-image: url(https://structuredfinance.org/wp-content/uploads/2022/03/Climate-Risk-in-Securitization-1200x800.jpg)"></a>
+</div>
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<p class="large-serif half-marg no-link-decoration">
+<a href="https://structuredfinance.org/resource-details/bright-ideas-esg-investing-in-structured-finance-how-do-we-do-it-and-what-data-do-we-need/">
+<strong>Bright Ideas: ESG Investing in Structured Finance &#8211; How Do We Do It And What Data Do We Need?</strong>
+</a>
+</p>
+<p class="uppercase demi">
+March 23, 2021 </p>
+<div class="top-divider small">
+<p>Michael Bright is joined by SFA President Kristi Leo and dv01’s Perry Rahbar and Charlie Oshman. They discuss what Environmental, Social, and Governance Investing (ESG) is, why it’s taking the finance market by storm, and what data is needed for ESG.</p>
+</div>
+</div>
+<a href="https://structuredfinance.org/resource-details/bright-ideas-esg-investing-in-structured-finance-how-do-we-do-it-and-what-data-do-we-need/" class="teaser-card-backimage" style="background-image: url(https://structuredfinance.org/wp-content/uploads/2022/02/Bright-Ideas-Podcast-IMage-Homepage-Update-2.18.22-v2-1200x800.jpg)"></a>
+</div>
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<p class="large-serif half-marg no-link-decoration">
+<a href="https://structuredfinance.org/resource-details/sfa-publishes-esg-survey-results/">
+<strong>SFA Publishes ESG Survey Results</strong>
+</a>
+</p>
+<p class="uppercase demi">
+November 20, 2020 </p>
+<div class="top-divider small">
+<p>Growing ESG in securitization: 81% of issuers incorporate ESG in their overall business operations, 73% within asset origination/underwriting practices, and 56% sponsoring or developing ESG-focused ABS/MBS programs. “Client Demand” is #1 factor motivating ESG for Institutional Investors in securitization. View the results and takeaways of SFA ESG Engagement survey.</p>
+</div>
+</div>
+<a href="https://structuredfinance.org/resource-details/sfa-publishes-esg-survey-results/" class="teaser-card-backimage" style="background-image: url(https://structuredfinance.org/wp-content/uploads/2021/02/Taking-notes-stock-photo-1200x800.jpg)"></a>
+</div>
+<a href="/resources/?fwp_blog_filter=esg-investing" class="button alt section-btn"><span>View All</span></a>
+</div>
+</section>
+<section id="learnmore" class="issue-learnmore">
+<div class="container">
+<h2 class="blue section-header">Learn More</h2>
+<section class="tabs-wrapper">
+<nav class="tabs-nav">
+<ul>
+<li data-tab="0">
+Background </li>
+<li data-tab="1">
+SFA ESG Symposium Key Takeaways </li>
+<li data-tab="2">
+Did you know? </li>
+</ul>
+</nav>
+<div class="tabs-content start">
+<div data-number="0" class="tabs-content-inner">
+<p>Environmental, Social and Corporate Governance, or ESG, investing has now hit the mainstream as a consideration – and increasingly a key driver – of investment approaches and analysis for individuals and institutions alike. ESG investing has its roots in what began as ‘socially responsible’ investing in the 1960s, when investors began to screen their investment opportunities based on industry involvement such as tobacco production and sales or a company’s dealings in South Africa with respect to the apartheid regime. Today, there is broad acceptance and interest in ESG investing with the existence of targeted mutual funds, indices, and there is also a growing focus on data availability and analysis by ratings agencies and analytics firms.</p>
+<p>&nbsp;</p>
+<h2><strong>ESG FACTORS</strong></h2>
+<p><strong><span style="text-decoration: underline;">Environmental</span></strong></p>
+<ul>
+<li>Climate change</li>
+<li>Natural resources</li>
+<li>Sustainability</li>
+</ul>
+<p><strong><span style="text-decoration: underline;">Social</span></strong></p>
+<ul>
+<li>Diversity</li>
+<li>Human rights</li>
+<li>Consumer protections</li>
+</ul>
+<p><strong><span style="text-decoration: underline;">Governance</span></strong></p>
+<ul>
+<li>Corporate governance</li>
+<li>Corporate behavior</li>
+<li>Compensation structure</li>
+</ul>
+<p>&nbsp;</p>
+<p>The above categories are high level and only scratch the surface of the ESG-relevant activities that investors – and issuers – may choose to focus on.</p>
+<p>For our part, the Structured Finance Association has very recently launched an effort to assess how ESG investing and reporting can be applied and accessed in the securitization market. As a jumping off point the Association has begun work on identifying a framework for reporting on ESG factors within the assets of ABCP vehicles at the conduit level.</p>
+</div>
+<div data-number="1" class="tabs-content-inner">
+<p>On December 5, 2019, SFA held an ESG Symposium that brought together nearly 200 engaged participants for a day-long conversation to promote ESG principles within the structured finance market.</p>
+<p>SFA has published Key Takeaways from the Symposium which can be downloaded via the link below. Additionally, some of the slides that were presented by our guest speakers are available below.</p>
+<p>&nbsp;</p>
+<h2><span style="text-decoration: underline;"><a href="https://structuredfinance.org/wp-content/uploads/2019/12/SFA-ESG-Symposium-Key-Takeaways-FINAL.pdf"><strong>SFA ESG Symposium: Key Takeaways</strong></a></span></h2>
+<p>&nbsp;</p>
+<p>Below please find slides from some of the presenters:</p>
+<ul>
+<li><a href="https://structuredfinance.org/wp-content/uploads/2019/12/SFA-ESG-Slides-Reid-Steadman.pdf">ESG Investing through Indices (Reid Steadman, Managing Director, Global Head of ESG – S&amp;P Dow Jones Indices)</a></li>
+<li><a href="https://structuredfinance.org/wp-content/uploads/2019/12/SFA-ESG-Slides-Libby-Bernick.pdf">ESG and Sustainable Finance: Are we there yet? (Libby Bernick, Head of Sustainability – DBRS Morningstar)</a></li>
+<li><a href="https://structuredfinance.org/wp-content/uploads/2019/12/SFA-ESG-Slides-Swami-Venkataraman.pdf">Moody’s ESG Framework (Swami Venkataraman, Senior Vice-President – Moody’s)</a></li>
+<li><a href="https://structuredfinance.org/wp-content/uploads/2019/12/SFA-ESG-Slides-Marjan-van-der-Weijden.pdf">Environmental, Social and Governance (ESG) Risk Scoring for Structured Finance (Marjan van der Weijden, Global Head of Structured Finance – Fitch Ratings)</a></li>
+<li><a href="https://structuredfinance.org/wp-content/uploads/2019/12/SFA-ESG-Slides-Matt-Mitchell.pdf">ESG Credit Factors in Structured Finance (Matt Mitchell, Director, Structured Finance – S&amp;P Global Ratings)</a>, these slides are derived from this report <a href="https://structuredfinance.org/wp-content/uploads/2019/12/SFA-ESG-Additional-Commentary-Matt-Mitchell.pdf">“Environmental, Social, and Governance: ESG Credit Factors in Structured Finance”</a></li>
+</ul>
+<p>The symposium encouraged important dialogue among a broad range of market participants and SFA looks forward to hosting additional ESG events in the future.</p>
+<p>If you’re interested in joining SFA’s ESG Task Force, please email Jeff Gudiel at <a href="/cdn-cgi/l/email-protection#c6aca3a0a0e8a1b3a2afa3aa86b5b2b4b3a5b2b3b4a3a2a0afa8a7a8a5a3e8a9b4a1" target="_blank" rel="noopener"><span class="__cf_email__" data-cfemail="f9939c9f9fd79e8c9d909c95b98a8d8b8c9a8d8c8b9c9d9f909798979a9cd7968b9e">[email&#160;protected]</span></a><a href="http://jeff.gudiel@structuredfinance.org" target="_blank" rel="noopener"> </a></p>
+</div>
+<div data-number="2" class="tabs-content-inner">
+<ul>
+<li>According to Harvard Business Review, over <strong>$11.6 trillion</strong> of all professionally managed assets – <strong>$1 of every $4 invested in the United States – were under ESG investment strategies</strong>, a sharp 390% increase from 2010 when the amount was close to $3 trillion overall.</li>
+</ul>
+<ul>
+<li>ESG is such an important consideration that <strong>major stock exchanges such as the New York Stock Exchange have introduced their own sustainability guidelines</strong>, such as the Principles for Responsible Investment.</li>
+</ul>
+</div>
+</div>
+</section>
+</div>
+</section>
+<section class="quote-alt">
+<div class="container corner-lines">
+
+
+<div class="quote-text">
+<p>“ESG issues that have financial implications are increasingly part of business decisions, and investors who embrace these changes will be the industry leaders of the future. SFA is helping to define these issues and create the right frameworks that will make ESG data more transparent for investors.”</p>
+</div>
+
+<p class="attribution">
+<span class="coral-text">- Libby Bernick</span>
+ Head of Sustainability, DBRS Morningstar </p>
+
+</div>
+</section>
+<section id="news" class="issue-news top-margin">
+<div class="container align-center">
+<h2 class="blue section-header">News</h2>
+
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<div class="teaser-category">
+<img class="teaser-icon" src="https://structuredfinance.org/wp-content/themes/sfig/assets/images/news-industry-news-icon.png" alt="news icon">
+<div class="teaser-icon-label">Industry News </div>
+</div>
+<p class="large-serif half-marg no-link-decoration"><a href="https://structuredfinance.org/news/chair-powell-addresses-feds-stance-on-climate-policy/"><strong>Chair Powell Addresses Fed’s Stance on Climate Policy</strong></a></p>
+<p class="uppercase demi">January 13, 2023</p>
+<div class="top-divider small">
+<p>At the Symposium on Central Bank Independence, Federal Reserve Chair Jerome Powell emphasized his stance that climate change is not in the direct purview of the Fed’s responsibilities and will tread lightly when developing bank guidelines related to climate.</p>
+</div>
+</div>
+</div>
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<div class="teaser-category">
+<img class="teaser-icon" src="https://structuredfinance.org/wp-content/themes/sfig/assets/images/news-sfa-news-icon.png" alt="news icon">
+<div class="teaser-icon-label">SFA News </div>
+</div>
+<p class="large-serif half-marg no-link-decoration"><a href="https://structuredfinance.org/news/sfa-submits-letter-to-gses-in-response-to-their-proposed-single-family-social-index/"><strong>SFA Submits Letter to GSEs in Response to Their Proposed Single-Family Social Index</strong></a></p>
+<p class="uppercase demi">January 13, 2023</p>
+<div class="top-divider small">
+<p>On January 5, 2023, on behalf of our investor members SFA submitted a letter to Fannie Mae and Freddie Mac (the GSEs) in response to their proposed single-family Social Index.</p>
+</div>
+</div>
+</div>
+<div class="teaser-card alt-teaser">
+<div class="teaser-card-description">
+<div class="teaser-category">
+<img class="teaser-icon" src="https://structuredfinance.org/wp-content/themes/sfig/assets/images/news-industry-news-icon.png" alt="news icon">
+<div class="teaser-icon-label">Industry News </div>
+</div>
+<p class="large-serif half-marg no-link-decoration"><a href="https://structuredfinance.org/news/federal-reserve-proposes-plan-to-address-climate-risks-for-banks/"><strong>Federal Reserve Proposes Plan to Address Climate Risks for Banks</strong></a></p>
+<p class="uppercase demi">December 9, 2022</p>
+<div class="top-divider small">
+<p>On December 2, the Federal Reserve Board (Fed) proposed new principles for how banking institutions should manage climate-related financial risks. The proposed principles would apply to banking organizations with more than $100 billion in total assets and are aimed at tackling both the physical risks and transition risks associated with climate change.</p>
+</div>
+</div>
+</div>
+<a href="/news/?fwp_blog_filter=esg-investing" class="button section-btn"><span>View All</span></a>
+</div>
+</section>
+</div>
+</main>
+</div>
+<div class="white-bg">
+<div class="container">
+
+<div class="issue-contacts">
+<h2 class="blue section-header">Contact</h2>
+<div class="grid-halves">
+<div class="item bottom-divider">
+<a href="https://structuredfinance.org/staff/kristi-leo/">
+<img width="300" height="300" src="https://structuredfinance.org/wp-content/uploads/2019/05/SFA_KristiLeo_Crop_V2_071719-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="SFA KristiLeo Crop V2 071719" decoding="async" loading="lazy" srcset="https://structuredfinance.org/wp-content/uploads/2019/05/SFA_KristiLeo_Crop_V2_071719-300x300.jpg 300w, https://structuredfinance.org/wp-content/uploads/2019/05/SFA_KristiLeo_Crop_V2_071719-150x150.jpg 150w, https://structuredfinance.org/wp-content/uploads/2019/05/SFA_KristiLeo_Crop_V2_071719.jpg 672w" sizes="(max-width: 300px) 100vw, 300px" /> </a>
+<p class="serif no-marg light name">Kristi Leo</p>
+<p class="serif no-marg light">President</p>
+<p class="serif light email"><a href="/cdn-cgi/l/email-protection#357e13160404010e5c13160404000e13160404030e5c1b131602030e13160405040e13160404040e131603010e13160404000e13160404030e13160404010e4013160c0c0e4113160404020e13160404010e13160405040e5113160405070e13160405000e13160404050e5413160404050e13160c0c0e501b13160404040e13160404010e52">
+Krist&#105;.&#76;e&#111;&#64;&#115;truc&#116;u&#114;&#101;dfi&#110;an&#99;&#101;&#46;o&#114;g </a></p>
+</div>
+<div class="item bottom-divider">
+<a href="https://structuredfinance.org/staff/alyssa-acevedo/">
+<img width="290" height="300" src="https://structuredfinance.org/wp-content/uploads/2020/06/Alyssa-Headshot-v6-290x300.png" class="attachment-medium size-medium wp-post-image" alt="Alyssa Headshot v6" decoding="async" loading="lazy" srcset="https://structuredfinance.org/wp-content/uploads/2020/06/Alyssa-Headshot-v6-290x300.png 290w, https://structuredfinance.org/wp-content/uploads/2020/06/Alyssa-Headshot-v6.png 527w" sizes="(max-width: 290px) 100vw, 290px" /> </a>
+<p class="serif no-marg light name">Alyssa Acevedo</p>
+<p class="serif no-marg light">Vice President, Policy Development</p>
+<p class="serif light email"><a href="/cdn-cgi/l/email-protection#a28481949799cedbd1d184819b95998481969499e384819b9b99848193929399848193939a99c7c6cd8481949699848193939799848193939499d0848193939599c1848193939499848193939599848193939699c7848193929299c4848193929799848193939299c384819393929984819b9b99c78481969499848193939399848193939699c5">
+&#65;&#108;&#121;ss&#97;&#46;&#65;cev&#101;d&#111;&#64;&#115;tr&#117;&#99;tu&#114;e&#100;&#102;inanc&#101;.o&#114;g </a></p>
+</div>
+<div class="item bottom-divider">
+<a href="https://structuredfinance.org/staff/elen-callahan/">
+<img width="300" height="300" src="https://structuredfinance.org/wp-content/uploads/2019/12/Elen-Callahan-300x300.jpg" class="attachment-medium size-medium wp-post-image" alt="Elen Callahan" decoding="async" loading="lazy" srcset="https://structuredfinance.org/wp-content/uploads/2019/12/Elen-Callahan-300x300.jpg 300w, https://structuredfinance.org/wp-content/uploads/2019/12/Elen-Callahan-150x150.jpg 150w, https://structuredfinance.org/wp-content/uploads/2019/12/Elen-Callahan-768x768.jpg 768w, https://structuredfinance.org/wp-content/uploads/2019/12/Elen-Callahan-672x672.jpg 672w, https://structuredfinance.org/wp-content/uploads/2019/12/Elen-Callahan.jpg 844w" sizes="(max-width: 300px) 100vw, 300px" /> </a>
+<p class="serif no-marg light name">Elen Callahan</p>
+<p class="serif no-marg light">Managing Director, Head of Research</p>
+<p class="serif light email"><a href="/cdn-cgi/l/email-protection#4d08216b6e7c7d7c76236b6e797b766b6e7b7a766b6e747a766b6e7c7d7576212c6b6e7c7d79766b6e747a76236b6e7b79766b6e7c7c7876393f382e6b6e7c7c7b76383f286b6e7c7d7d766b6e7c7d7f76246b6e7c7c7d766b6e747a76232e6b6e7c7d7c76636b6e7c7c7c763f6b6e7c7d7e76">
+Elen.C&#97;&#108;lah&#97;&#110;&#64;s&#116;r&#117;c&#116;uredf&#105;na&#110;c&#101;.&#111;r&#103; </a></p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<div id="sticky-cta-box" class="sticky-cta-box-cont">
+<div id="sticky-cta-close" class="sticky-cta-close-x">
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path d="M4.9,4.033l8.952,8.952,8.953-8.952a.614.614,0,0,1,.868.868l-8.953,8.952,8.953,8.953a.614.614,0,0,1-.868.868l-8.953-8.953L4.9,23.674a.614.614,0,1,1-.868-.868l8.952-8.953L4.033,4.9A.614.614,0,0,1,4.9,4.033Z" transform="translate(-3.854 -3.854)" fill="#fff" fill-rule="evenodd" /></svg>
+</div>
+<div class="sticky-cta-box-inner">
+<h3>Add Your Voice</h3>
+<p>Join an SFA Committee or Task Force</p>
+<a href="https://structuredfinance.org/join-a-committee-or-task-force/" class="button coral">Join Today</a>
+</div>
+</div>
+</div>
+<footer class="site-footer">
+<div class="container alt">
+<div class="site-footer-inner">
+<div class="site-footer-logo">
+<a href="https://structuredfinance.org/" rel="home">
+<img src="https://structuredfinance.org/wp-content/uploads/2019/07/Structured_Finance_Association_logow_RGB.png" alt="Securitization Alliance logo">
+</a>
+</div>
+<div class="site-footer-menu">
+<div class="site-footer-menu-left">
+<div class="menu-footer-sub-menu-container"><ul id="menu-footer-sub-menu" class="menu"><li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="https://structuredfinance.org/resources/">Resources</a></li>
+<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="https://structuredfinance.org/membership/">Membership</a></li>
+<li id="menu-item-7224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7224"><a href="https://structuredfinance.org/payments/">Make a Payment</a></li>
+<li id="menu-item-1358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1358"><a href="https://structuredfinance.org/join/">Join</a></li>
+<li id="menu-item-176" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-176"><a href="https://visitor.r20.constantcontact.com/manage/optin?v=001WnNKExqgXCiy_vF2T4G7AHnkvo3x5vmsGA6f0-tGkJyuxvH9ZJZsJBts89OqjsHiS9tBXr5QwNmd3_JZMhx2DeF0LY_rDKmrxFaKBYnIWP4FQDtoLB0kI1Uf_V7OzRuElTdYoPFn6s0PSqxdtoRULlgo-M1wlnG9">Newsletter Sign Up</a></li>
+<li id="menu-item-5940" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5940"><a href="https://structuredfinance.org/about-securitization/">About Securitization</a></li>
+<li id="menu-item-7121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7121"><a href="https://structuredfinance.org/opportunities-in-the-industry/">Careers</a></li>
+<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="https://structuredfinance.org/contact-us/">Contact Us</a></li>
+</ul></div> </div>
+<div class="site-footer-menu-right">
+<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-169"><a href="https://structuredfinance.org/issues/">SFA on the Issues</a></li>
+<li id="menu-item-159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-159"><a href="https://structuredfinance.org/about-securitization/">About Securitization</a></li>
+<li id="menu-item-165" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-165"><a href="https://structuredfinance.org/news/">News</a></li>
+<li id="menu-item-5266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5266"><a href="https://structuredfinance.org/events/">Events</a></li>
+<li id="menu-item-5265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5265"><a href="https://structuredfinance.org/inclusion-and-diversity/">Diversity, Equity, and Inclusion Hub</a></li>
+<li id="menu-item-5267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5267"><a href="https://structuredfinance.org/women-in-securitization/">Women in Securitization</a></li>
+<li id="menu-item-8665" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8665"><a target="_blank" rel="noopener" href="https://www.structuredfinancecoalition.org/">Structured Finance Coalition</a></li>
+<li id="menu-item-8664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8664"><a target="_blank" rel="noopener" href="https://structuredfinancefoundation.org/">Structured Finance Foundation</a></li>
+<li id="menu-item-160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-160"><a href="https://structuredfinance.org/about-us/">About Us</a></li>
+</ul></div> </div>
+</div>
+<div class="site-footer-rightssc">
+<section class="site-search-social">
+
+<div class="site-search">
+<form role="search" method="get" class="search-form" action="https://structuredfinance.org/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+</label>
+<input type="submit" class="search-submit" value="Search" />
+</form> </div>
+
+
+<div class="site-social">
+<a href="https://twitter.com/sfassociation" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+<a href="https://www.linkedin.com/company/structured-finance-association" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+</div>
+
+</section>
+<div class="site-footer-contact">
+<p><strong>Structured Finance Association</strong></p>
+<p>1776 I Street NW Suite 501</p>
+<p>Washington, DC 20006</p>
+</div>
+</div>
+</div> 
+<div class="socket-inner">
+<a href="https://structuredfinance.org/wp-content/uploads/2022/08/SFA-Privacy-Policy-2022.pdf" target="_blank">Privacy Policy</a>
+<a href="https://structuredfinance.org/wp-content/uploads/2022/08/SFA-Terms-of-Use.pdf" target="_blank">Terms of Use</a>
+</div>
+</div>
+</footer>
+</div>
+<!--googleoff: all--><div id="cookie-law-info-bar" data-nosnippet="true"><span><div class="cli-bar-container cli-style-v2"><div class="cli-bar-message">We use cookies on our website to give you the most relevant experience by remembering your preferences and repeat visits. By clicking “Accept All”, you consent to the use of ALL the cookies. However, you may visit "Cookie Settings" to provide a controlled consent.</div><div class="cli-bar-btn_container"><a role='button' class="medium cli-plugin-button cli-plugin-main-button cli_settings_button" style="margin:0px 5px 0px 0px">Cookie Settings</a><a id="wt-cli-accept-all-btn" role='button' data-cli_action="accept_all" class="wt-cli-element medium cli-plugin-button wt-cli-accept-all-btn cookie_action_close_header cli_action_button">Accept All</a></div></div></span></div><div id="cookie-law-info-again" data-nosnippet="true"><span id="cookie_hdr_showagain">Manage consent</span></div><div class="cli-modal" data-nosnippet="true" id="cliSettingsPopup" tabindex="-1" role="dialog" aria-labelledby="cliSettingsPopup" aria-hidden="true">
+<div class="cli-modal-dialog" role="document">
+<div class="cli-modal-content cli-bar-popup">
+<button type="button" class="cli-modal-close" id="cliModalClose">
+<svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"></path><path d="M0 0h24v24h-24z" fill="none"></path></svg>
+<span class="wt-cli-sr-only">Close</span>
+</button>
+<div class="cli-modal-body">
+<div class="cli-container-fluid cli-tab-container">
+<div class="cli-row">
+<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+<div class="cli-privacy-overview">
+<h4>Privacy Overview</h4> <div class="cli-privacy-content">
+<div class="cli-privacy-content-text">This website uses cookies to improve your experience while you navigate through the website. Out of these, the cookies that are categorized as necessary are stored on your browser as they are essential for the working of basic functionalities of the website. We also use third-party cookies that help us analyze and understand how you use this website. These cookies will be stored in your browser only with your consent. You also have the option to opt-out of these cookies. But opting out of some of these cookies may affect your browsing experience.</div>
+</div>
+<a class="cli-privacy-readmore" aria-label="Show more" role="button" data-readmore-text="Show more" data-readless-text="Show less"></a> </div>
+</div>
+<div class="cli-col-12 cli-align-items-stretch cli-px-0 cli-tab-section-container">
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="necessary" data-toggle="cli-toggle-tab">
+Necessary </a>
+<div class="wt-cli-necessary-checkbox">
+<input type="checkbox" class="cli-user-preference-checkbox" id="wt-cli-checkbox-necessary" data-id="checkbox-necessary" checked="checked" />
+<label class="form-check-label" for="wt-cli-checkbox-necessary">Necessary</label>
+</div>
+<span class="cli-necessary-caption">Always Enabled</span>
+</div>
+<div class="cli-tab-content">
+<div class="cli-tab-pane cli-fade" data-id="necessary">
+<div class="wt-cli-cookie-description">
+Necessary cookies are absolutely essential for the website to function properly. These cookies ensure basic functionalities and security features of the website, anonymously.
+<table class="cookielawinfo-row-cat-table cookielawinfo-winter"><thead><tr><th class="cookielawinfo-column-1">Cookie</th><th class="cookielawinfo-column-3">Duration</th><th class="cookielawinfo-column-4">Description</th></tr></thead><tbody><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-analytics</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Analytics".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-functional</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by GDPR cookie consent to record the user consent for the cookies in the category "Functional".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-necessary</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookies is used to store the user consent for the cookies in the category "Necessary".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-others</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Other.</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">cookielawinfo-checkbox-performance</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">This cookie is set by GDPR Cookie Consent plugin. The cookie is used to store the user consent for the cookies in the category "Performance".</td></tr><tr class="cookielawinfo-row"><td class="cookielawinfo-column-1">viewed_cookie_policy</td><td class="cookielawinfo-column-3">11 months</td><td class="cookielawinfo-column-4">The cookie is set by the GDPR Cookie Consent plugin and is used to store whether or not user has consented to the use of cookies. It does not store any personal data.</td></tr></tbody></table> </div>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="functional" data-toggle="cli-toggle-tab">
+Functional </a>
+<div class="cli-switch">
+<input type="checkbox" id="wt-cli-checkbox-functional" class="cli-user-preference-checkbox" data-id="checkbox-functional" />
+<label for="wt-cli-checkbox-functional" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Functional</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div class="cli-tab-pane cli-fade" data-id="functional">
+<div class="wt-cli-cookie-description">
+Functional cookies help to perform certain functionalities like sharing the content of the website on social media platforms, collect feedbacks, and other third-party features.
+</div>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="performance" data-toggle="cli-toggle-tab">
+Performance </a>
+<div class="cli-switch">
+<input type="checkbox" id="wt-cli-checkbox-performance" class="cli-user-preference-checkbox" data-id="checkbox-performance" />
+<label for="wt-cli-checkbox-performance" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Performance</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div class="cli-tab-pane cli-fade" data-id="performance">
+<div class="wt-cli-cookie-description">
+Performance cookies are used to understand and analyze the key performance indexes of the website which helps in delivering a better user experience for the visitors.
+</div>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="analytics" data-toggle="cli-toggle-tab">
+Analytics </a>
+<div class="cli-switch">
+<input type="checkbox" id="wt-cli-checkbox-analytics" class="cli-user-preference-checkbox" data-id="checkbox-analytics" />
+<label for="wt-cli-checkbox-analytics" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Analytics</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div class="cli-tab-pane cli-fade" data-id="analytics">
+<div class="wt-cli-cookie-description">
+Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics the number of visitors, bounce rate, traffic source, etc.
+</div>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="advertisement" data-toggle="cli-toggle-tab">
+Advertisement </a>
+<div class="cli-switch">
+<input type="checkbox" id="wt-cli-checkbox-advertisement" class="cli-user-preference-checkbox" data-id="checkbox-advertisement" />
+<label for="wt-cli-checkbox-advertisement" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Advertisement</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div class="cli-tab-pane cli-fade" data-id="advertisement">
+<div class="wt-cli-cookie-description">
+Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns. These cookies track visitors across websites and collect information to provide customized ads.
+</div>
+</div>
+</div>
+</div>
+<div class="cli-tab-section">
+<div class="cli-tab-header">
+<a role="button" tabindex="0" class="cli-nav-link cli-settings-mobile" data-target="others" data-toggle="cli-toggle-tab">
+Others </a>
+<div class="cli-switch">
+<input type="checkbox" id="wt-cli-checkbox-others" class="cli-user-preference-checkbox" data-id="checkbox-others" />
+<label for="wt-cli-checkbox-others" class="cli-slider" data-cli-enable="Enabled" data-cli-disable="Disabled"><span class="wt-cli-sr-only">Others</span></label>
+</div>
+</div>
+<div class="cli-tab-content">
+<div class="cli-tab-pane cli-fade" data-id="others">
+<div class="wt-cli-cookie-description">
+Other uncategorized cookies are those that are being analyzed and have not been classified into a category as yet.
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cli-modal-footer">
+<div class="wt-cli-element cli-container-fluid cli-tab-container">
+<div class="cli-row">
+<div class="cli-col-12 cli-align-items-stretch cli-px-0">
+<div class="cli-tab-footer wt-cli-privacy-overview-actions">
+<a id="wt-cli-privacy-save-btn" role="button" tabindex="0" data-cli-action="accept" class="wt-cli-privacy-btn cli_setting_save_button wt-cli-privacy-accept-btn cli-btn">SAVE &amp; ACCEPT</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="cli-modal-backdrop cli-fade cli-settings-overlay"></div>
+<div class="cli-modal-backdrop cli-fade cli-popupbar-overlay"></div>
+<!--googleon: all--><link rel='stylesheet' id='cookie-law-info-table-css' href='https://structuredfinance.org/wp-content/plugins/cookie-law-info/legacy/public/css/cookie-law-info-table.css?ver=3.0.6' type='text/css' media='all' />
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type='text/javascript' id='wp-video-popup-js-extra'>
+/* <![CDATA[ */
+var wpVideoPopupOpts = {"pluginUrl":"https:\/\/structuredfinance.org\/wp-content\/plugins\/wp-video-popup-pro\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/plugins/wp-video-popup-pro/inc/js/wp-video-popup.js?ver=2.9' id='wp-video-popup-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/themes/sfig/assets/main.min.js?ver=1673771106' id='sfig-js-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/themes/sfig/js/navigation.js?ver=20151215' id='sfig-navigation-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/themes/sfig/js/skip-link-focus-fix.js?ver=20151215' id='sfig-skip-link-focus-fix-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/themes/sfig/js/slick.min.js?ver=1.0.0' id='slick-js-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/themes/sfig/js/jquery-modal-video.min.js?ver=1.0.0' id='modal-video-js-js'></script>
+<script type='text/javascript' src='https://structuredfinance.org/wp-content/themes/sfig/js/custom-scripts.js?ver=1.0.0' id='custom-scripts-js'></script>
+<script type='text/javascript' id='gforms_recaptcha_recaptcha-js-extra'>
+/* <![CDATA[ */
+var gforms_recaptcha_recaptcha_strings = {"site_key":"6LfoIWYjAAAAAFN0ZTNzlwo8Nz14JYmrrRULF9mL","ajaxurl":"https:\/\/structuredfinance.org\/wp-admin\/admin-ajax.php","nonce":"16a1decec8"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?render=6LfoIWYjAAAAAFN0ZTNzlwo8Nz14JYmrrRULF9mL&#038;ver=1.1.1' id='gforms_recaptcha_recaptcha-js'></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"78a820378b","applicationID":"318676028","transactionName":"ZVcEZ0dYCkYABUBbXFwdJ1BBUAtbThVdXFReV0taRkoRUBI=","queueTime":0,"applicationTime":850,"atts":"SRAHEQ9CGUg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<script>
+
+
+$(document).ready(function(){
+
+	/*CTA Box Close*/
+	$('.sticky-cta-close-x').click(function() {
+		$('.sticky-cta-box-cont').addClass('closed');
+	});
+});
+
+</script>

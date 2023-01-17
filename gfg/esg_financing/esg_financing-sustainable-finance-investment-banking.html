@@ -1,0 +1,2452 @@
+<!DOCTYPE HTML>
+<html>
+
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!--<meta name="description" content="" />-->
+	<meta name="abstract" content="" />
+	<!--<meta name="keywords" content="" />-->
+	<!-- Social Share Facebook -->
+	<meta property="og:url" content="https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/" />
+	<meta property="og:site_name" content="AcuityKP" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Sustainable Finance Solutions, ESG, Green Financing" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="https://www.acuitykp.com/wp-content/uploads/2020/04/Sustainable-Finance-solution-page.jpg" />
+
+	<meta property="og:image:type" content="image/jpg">
+	<meta name="p:domain_verify" content="31f492d6e826c2079a3faf40026e0b8b" />
+	<!-- Social Share Twitter -->
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:url" content="https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/" />
+	<meta name="twitter:title" content="Sustainable Finance Solutions, ESG, Green Financing" />
+	<meta name="twitter:description" content="" />
+	<meta name="twitter:image" content="https://www.acuitykp.com/wp-content/uploads/2020/04/Sustainable-Finance-solution-page.jpg" />
+	<!--<meta name="SearchEngines" content="Google, Bing, Overture, Yahoo, AOL, Infoseek, LookSmart, Excite, Hotbot, Lycos, CNET, DogPile, Ask Jeeves, Teoma, Snap, WebCrawler, AltaVista, GigaBlast, isoHunt, Kayak, MetaCrawler" />
+<meta name="Robots" content="INDEX, FOLLOW" />
+<meta name="Author" content="acuitykp.com/"/>
+<meta name="Robots" content="INDEX,ALL" />
+<meta name="YahooSeeker" content="INDEX, FOLLOW" />
+<meta name="msnbot" content="INDEX, FOLLOW" />
+<meta name="googlebot" content="INDEX, FOLLOW" />
+<meta name="owner" content="acuitykp.com/" />
+<meta name="language" content="English"/>
+<meta name="revisit-after" content="7 days" />-->
+
+			<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.14 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="Bespoke sustainable finance solutions and support for investment banks and advisory firms including green bonds, social bonds, blue bonds, along with comprehensive support on ESG." />
+	<link rel="canonical" href="https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Sustainable Finance Solutions, ESG, Green Financing" />
+	<meta property="og:description" content="Bespoke sustainable finance solutions and support for investment banks and advisory firms including green bonds, social bonds, blue bonds, along with comprehensive support on ESG." />
+	<meta property="og:url" content="https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/" />
+	<meta property="og:site_name" content="Acuity Knowledge Partners" />
+	<meta property="article:modified_time" content="2021-07-30T09:01:49+00:00" />
+	<meta property="og:image" content="https://www.acuitykp.com/wp-content/uploads/2020/04/Sustainable-Finance-solution-page.jpg" />
+	<meta property="og:image:width" content="1600" />
+	<meta property="og:image:height" content="432" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/","url":"https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/","name":"Sustainable Finance Solutions, ESG, Green Financing","isPartOf":{"@id":"https://www.acuitykp.com/#website"},"primaryImageOfPage":{"@id":"https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/#primaryimage"},"image":{"@id":"https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/#primaryimage"},"thumbnailUrl":"https://www.acuitykp.com/wp-content/uploads/2020/04/Sustainable-Finance-solution-page.jpg","datePublished":"2020-04-23T10:13:30+00:00","dateModified":"2021-07-30T09:01:49+00:00","description":"Bespoke sustainable finance solutions and support for investment banks and advisory firms including green bonds, social bonds, blue bonds, along with comprehensive support on ESG.","breadcrumb":{"@id":"https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/#primaryimage","url":"https://www.acuitykp.com/wp-content/uploads/2020/04/Sustainable-Finance-solution-page.jpg","contentUrl":"https://www.acuitykp.com/wp-content/uploads/2020/04/Sustainable-Finance-solution-page.jpg","width":1600,"height":432,"caption":"Sustainable Finance support and services"},{"@type":"BreadcrumbList","@id":"https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.acuitykp.com/"},{"@type":"ListItem","position":2,"name":"Sustainable Finance"}]},{"@type":"WebSite","@id":"https://www.acuitykp.com/#website","url":"https://www.acuitykp.com/","name":"Acuity Knowledge Partners","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.acuitykp.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='preload'  href='https://www.acuitykp.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  type='text/css' media='all' />
+<link rel='preload'  href='https://www.acuitykp.com/wp-includes/css/classic-themes.min.css?ver=1' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link data-minify="1" rel='preload'  href='https://www.acuitykp.com/wp-content/cache/min/1/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=1673526858' data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://www.acuitykp.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.acuitykp.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.acuitykp.com/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://www.acuitykp.com/?p=10207' />
+<link rel="alternate" type="application/json+oembed" href="https://www.acuitykp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.acuitykp.com%2Fsolutions%2Fsustainable-finance-investment-banking%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.acuitykp.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.acuitykp.com%2Fsolutions%2Fsustainable-finance-investment-banking%2F&#038;format=xml" />
+<link rel="icon" href="https://www.acuitykp.com/wp-content/uploads/2021/02/cropped-ma_ks_new-150x150-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.acuitykp.com/wp-content/uploads/2021/02/cropped-ma_ks_new-150x150-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.acuitykp.com/wp-content/uploads/2021/02/cropped-ma_ks_new-150x150-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.acuitykp.com/wp-content/uploads/2021/02/cropped-ma_ks_new-150x150-270x270.jpg" />
+<script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script>	<link rel="alternate" href="https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/" hreflang="x-default" />
+
+	<title> Sustainable Finance Solutions, ESG, Green Financing | Acuity Knowledge Partners</title><style id="rocket-critical-css">ul{box-sizing:border-box}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}html,body,div,span,h1,h2,h3,h6,p,img,strong,ul,li,fieldset,form,article,header,nav,section{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{font-family:'Montserrat-Light';font-size:100%;background-color:#f3f3f3}article,header,nav,section{display:block}nav ul{list-style:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none;outline:none;color:#06c}input{vertical-align:middle;border:0;outline:none}ul{list-style-type:none}@font-face{font-family:'Montserrat-Black';src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Black.eot);src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Black.eot?#iefix) format('embedded-opentype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Black.woff2) format('woff2'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Black.woff) format('woff'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Black.ttf) format('truetype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Black.svg#Montserrat-Black) format('svg');font-weight:900;font-style:normal;font-display:swap}@font-face{font-family:'Montserrat-Regular';src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Regular.eot);src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Regular.eot?#iefix) format('embedded-opentype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Regular.woff2) format('woff2'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Regular.woff) format('woff'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Regular.ttf) format('truetype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Regular.svg#Montserrat-Regular) format('svg');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Montserrat-Light';src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Light.eot);src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Light.eot?#iefix) format('embedded-opentype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Light.woff2) format('woff2'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Light.woff) format('woff'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Light.ttf) format('truetype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Light.svg#Montserrat-Light) format('svg');font-weight:300;font-style:normal;font-display:swap}@font-face{font-family:'Montserrat-Bold';src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Bold.eot);src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Bold.eot?#iefix) format('embedded-opentype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Bold.woff2) format('woff2'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Bold.woff) format('woff'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Bold.ttf) format('truetype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-Bold.svg#Montserrat-Bold) format('svg');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Montserrat-SemiBold';src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-SemiBold.eot);src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-SemiBold.eot?#iefix) format('embedded-opentype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-SemiBold.woff2) format('woff2'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-SemiBold.woff) format('woff'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-SemiBold.ttf) format('truetype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold) format('svg');font-weight:600;font-style:normal;font-display:swap}@font-face{font-family:'Roboto-Light';src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Roboto-Light.eot);src:url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Roboto-Light.eot?#iefix) format('embedded-opentype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Roboto-Light.woff2) format('woff2'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Roboto-Light.woff) format('woff'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Roboto-Light.ttf) format('truetype'),url(https://www.acuitykp.com/wp-content/themes/maks/fonts/Roboto-Light.svg#Roboto-Light) format('svg');font-weight:300;font-style:normal;font-display:swap}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{-webkit-font-smoothing:antialiased}.left{float:left}.right{float:right}.wrapper{width:980px;margin:0 auto}.overlay{position:fixed;top:0;left:0;z-index:111;width:100%;height:100%;display:none;background:rgba(0,0,0,0.7)}.bx-shdw{box-shadow:0px 15px 40px rgba(0,0,0,0.15)}h3{font:2em/1.1875em 'Montserrat-Light',Arial,Helvetica,sans-serif;color:#1a237e}h3 span{font-family:'Montserrat-Black',Arial,Helvetica,sans-serif;color:#1a237e}p{font:1em/1.75em 'Roboto-Light',Arial,Helvetica,sans-serif;color:#666666}.secondary-btn{display:block;border-radius:0;min-width:150px;background:#f4511e;text-transform:uppercase;border:0;outline:none;font:0.875em/50px 'Montserrat-Regular',Arial,Helvetica,sans-serif;text-align:center;color:#ffffff;padding:0 20px}.contact-us{position:fixed;top:250px;right:10px;display:block;width:83px;height:83px;text-align:center;background:#f4511e;font:12px/12px 'Montserrat-Regular',Arial,Helvetica,sans-serif;color:#ffffff;border-radius:50%;z-index:11}form,fieldset{display:block;width:100%}#header{position:fixed;top:0;left:0;width:100%;background:#ffffff;z-index:999999;box-shadow:0px 10px 46px rgba(0,0,0,0.46)}#header .wrapper{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;position:relative;align-items:center}#header .lg-mn a{display:block}#header .lg-mn img{display:block}#header .nav-holder{-webkit-flex:1;-moz-flex:1;-ms-flex:1;-o-flex:1;flex:1;display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;flex-direction:column-reverse;background:#ffffff}#header .nav-holder .nav-top>ul{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;justify-content:flex-end}#header .nav-holder .nav-top>ul>li{display:block;border-top:1px solid #e5eaf0}#header .nav-holder .nav-top>ul>li>a{display:block;border-bottom:4px solid transparent;font:0.6875em/1.3636em 'Montserrat-SemiBold',Arial,Helvetica,sans-serif;color:#1a237e;text-transform:uppercase;text-align:center;padding:21px 28px}#header .nav-holder .nav-bottom{position:relative}#header .nav-holder .nav-bottom>ul{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;justify-content:flex-end}#header .nav-holder .nav-bottom>ul>li>a{display:block;font:0.75em/1.25em 'Montserrat-Light',Arial,Helvetica,sans-serif;color:#1a237e;padding:17px 15px;text-align:center;border-bottom:4px solid transparent}#header .nav-holder .head-drop{display:none;position:absolute;left:0;top:100%;width:100%;background:#f3f3f3;border-top:1px solid #c0c0c0}#header .nav-holder .head-drop .first-drop{padding:0 40px}#header .nav-holder .head-drop .first-drop ul{width:32%;float:left;margin-right:15px}#header .nav-holder .head-drop .first-drop ul:last-child{margin-right:0}#header .nav-holder .head-drop>ul{position:relative}#header .nav-holder .head-drop>ul>li{border-bottom:1px solid #f57f5b;width:285px}#header .nav-holder .head-drop>ul>li:last-child{border-bottom:0}#header .nav-holder .head-drop>ul>li>a{display:block;padding:18px 20px;background:#f4511e;border-left:6px solid transparent}#header .nav-holder .head-drop>ul>li.active>a{border-color:#f4511e}#header .nav-holder .head-drop>ul>li>a span{width:calc(100% - 55px);display:inline-block;vertical-align:middle;text-transform:uppercase;font:0.875em/1.428em 'Montserrat-Regular',Arial,Helvetica,sans-serif;color:#ffffff}#header .nav-holder .head-drop>ul>li>a span.img-holder{width:27px;margin-right:20px}#header .nav-holder .head-drop>ul>li.active>a{background:#f3f3f3 url(https://www.acuitykp.com/wp-content/themes/maks/images/green-right-arrow.png) no-repeat 95% center}#header .nav-holder .head-drop>ul>li.active>a span{color:#f4511e}#header .nav-holder .head-drop>ul>li>a img{display:inline-block;vertical-align:middle}#header .nav-holder .head-drop>ul>li>a .img-holder img.active{display:none}#header .nav-holder .head-drop>ul>li.active>a .img-holder img{display:none}#header .nav-holder .head-drop>ul>li.active>a .img-holder img.active{display:inline-block}#header .nav-holder .head-drop>ul>li>div{position:absolute;top:0;left:285px;width:calc(100% - 285px);padding:5px 30px;height:100%;overflow:auto;display:none}#header .nav-holder .head-drop>ul>li.active>div{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex}#header .nav-holder .head-drop .sub-lst{width:250px;margin-right:70px}#header .nav-holder .head-drop .sub-lst li{border-bottom:1px solid #dddddd}#header .nav-holder .head-drop .sub-lst a{display:block;font:0.875em/1.428em 'Montserrat-Regular',Arial,Helvetica,sans-serif;color:#1a237e;padding:20px 0}#header .nav-holder .nav-bottom>ul>li>.srch-btn{display:block;padding:16px 15px;position:relative;z-index:111;font:0.75em/1.25em 'Montserrat-Light',Arial,Helvetica,sans-serif;color:#003367;text-align:center;border:0;background:#ffffff;border-bottom:4px solid transparent;outline:none}#header .srch-txt{background:#ffffff;position:absolute;top:8%;right:0;width:0;height:91%;color:#003367;border:1px solid #e5eaf0;padding:0 20px}.mob-menu,.mob-cnt,.mob-srch,.mob-srch-txt{display:none}#main-section{padding-top:80px}.love-blk{background:#ffffff;border:1px solid #f4511e;padding:50px 0 60px 0;display:none}.love-blk .love-blk-cnt{position:relative;width:575px;margin:0 auto}.impact-sec{background:url(https://www.acuitykp.com/wp-content/themes/maks/images/future-11.png) right top no-repeat,url(https://www.acuitykp.com/wp-content/themes/maks/images/future-12.png) left bottom no-repeat;background-color:#f3f3f3;padding:60px 0 70px 0}.contact-love .love-blk{display:block;margin-top:50px}.mb20{margin-bottom:20px}.mb20{margin-bottom:20px}.mb20{margin-bottom:20px}p{color:#212121}.main-heading{display:none}.mob-form-button{background:transparent;border:0;padding:0}#header .wrapper{min-height:80px}html{margin:0!important}.new-srch-blk{display:none;padding:17px 30px;position:absolute;top:auto;bottom:0;right:0;width:calc(100% - 240px);height:auto;background:#f0f0f2}.new-srch-blk .new-srch-blk-cnt{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;border-bottom:1px solid #a5a5a5}.new-srch-blk .new-srch-blk-cnt input[type="text"]{padding:0 5px;-webkit-flex:1;-moz-flex:1;-ms-flex:1;-o-flex:1;flex:1;background-color:transparent}.new-srch-blk .new-srch-blk-cnt .secondary-btn{width:100px;height:25px;line-height:25px;color:#ffffff;min-width:auto;text-transform:none}.new-srch-blk .srch-cls-btn{display:none;padding:2px 5px;position:absolute;right:0;top:0;font:12px/1em 'Montserrat-Bold',Arial,Helvetica,sans-serif;color:#000000}#header .nav-holder .head-drop.head-prs{left:auto;right:0;width:60%}#header .nav-holder .head-drop.head-prs .first-drop ul{width:48%}#header .nav-holder .nav-bottom>ul>li>.srch-btn .img-bg{display:block;width:17px;height:17px;background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/desktop-search.png) no-repeat}.mob-menu .img-bg{width:28px;height:18px;display:inline-block;vertical-align:middle;background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/mob-menu.png) no-repeat}.mob-srch .img-bg{width:28px;height:28px;display:inline-block;vertical-align:middle;background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/mob-search.png) no-repeat}.mob-cnt .mob-back .img-bg{width:9px;height:16px;display:inline-block;vertical-align:middle;background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/mob-nav-back.png) no-repeat}.contact-us .img-bg{display:block;margin:20px auto 8px auto;width:28px;height:18px;background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/white-male.png) no-repeat}.lang-drop-hldr{position:relative}#header .nav-holder .nav-bottom>ul>li.lang-drop-hldr>a.lang-drop-button,.lang-drop-hldr .lang-drop-button{display:flex}.lang-drop-hldr .lang-drop-button svg{display:block;margin-right:5px}.lang-drop-hldr .lang-drop-button span{display:block;font:14px/16px 'Montserrat-Light',Arial,Helvetica,sans-serif;color:#1a237e;text-transform:uppercase}.lang-drop-hldr .lang-dropdown{display:none;position:absolute;top:100%;left:0;box-shadow:0 3px 5px rgb(0 0 0 / 20%);width:100px;background:#ffffff}.lang-drop-hldr .lang-dropdown ul li a{display:block;padding:8px 20px;font:14px/16px 'Montserrat-Light',Arial,Helvetica,sans-serif;color:#1a237e;text-transform:uppercase}#header .nav-holder .head-drop>ul>li.active>a{background:#f3f3f3 url(https://www.acuitykp.com/wp-content/themes/maks/images/all-images.png) no-repeat 95% center;background-position:10px 10px}#header .nav-holder .nav-bottom>ul>li>.srch-btn .img-bg{width:17px;height:17px;background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/all-images.png) no-repeat;background-position:-47px -48px}.contact-us .img-bg{background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/all-images.png) no-repeat;background-position:-16px -47px}#header .nav-holder .head-drop>ul>li>a span{width:calc(100% - 70px)}#header .nav-holder .head-drop>ul>li.active>a{background:#f3f3f3}#header .nav-holder .head-drop>ul>li>a span.icon-hldr{display:none;width:9px;height:16px;background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/all-images.png) no-repeat;background-position:-68px -49px;margin-left:5px}#header .nav-holder .head-drop>ul>li.active>a span.icon-hldr{display:inline-block}.nav-bottom>ul>li{position:relative}.nav-bottom .sub-menu{display:none;position:absolute;top:100%;left:0;box-shadow:0 3px 5px rgb(0 0 0 / 20%);width:180px;background:#f3f3f3}.nav-bottom .sub-menu li a{display:block;padding:20px;font:12px/16px 'Montserrat-Regular',Arial,Helvetica,sans-serif;color:#1a237e}.nav-bottom .sub-menu li{border-bottom:1px solid #dddddd}.nav-bottom .sub-menu li:last-child{border-bottom:none}#header .nav-holder .head-drop .sub-nav-main{overflow:auto;height:100%}#header .nav-holder .head-drop .sub-nav-hldr{width:390px;margin-right:20px}#header .nav-holder .head-drop .sub-nav-hldr h6{margin:20px 0 0px 0;font:1em/1.1875em 'Montserrat-Regular',Arial,Helvetica,sans-serif;color:#212121;border-bottom:1px solid #f4511e;padding-bottom:10px}#header .nav-holder .head-drop .sub-nav-hldr .sub-lst{width:100%}#header .nav-holder .head-drop .sub-nav-hldr h6.support-across{height:50px}.float-icon{border:1px solid #F4511E;width:84px;height:84px;position:fixed;top:350px;right:10px;border-radius:50%;display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;-ms-align-items:center;align-items:center;justify-content:center;z-index:1111}.float-icon .float-cnt{background:#FFFFFF;width:72px;height:72px;border-radius:50%;display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:flex;-ms-align-items:center;align-items:center;justify-content:center;overflow:hidden}.float-icon .float-cnt img{display:block}.float-icon.float-great-place{top:290px}.float-icon.float-icon.float-waters{top:380px}.float-icon.float-great-place .float-cnt img{width:32px;-webkit-backface-visibility:hidden;-ms-transform:translateZ(0);-webkit-transform:translateZ(0);transform:translateZ(0)}.float-icon.float-waters .float-cnt img{width:65px}.contact-us{top:200px}.new-srch-blk .srch-cls-btn{padding:5px 10px}.expert-detail-banner{background:#e1e1e1;padding-top:50px;padding-bottom:50px}.expert_image_holder{width:230px;overflow:hidden;height:230px;border-radius:50%;float:right;background:#fff}.expert_name_desig_holder{float:left;width:calc(100% - 230px)}.expert-detail-banner .wrapper{clear:both;display:table;content:''}.expert_name_desig_holder h1{font:42px/51px 'Montserrat',Arial,Helvetica,sans-serif;color:#1A237E;font-weight:900;padding-top:50px}.expert_name_desig_holder p{font:24px/29px 'Montserrat',Arial,Helvetica,sans-serif;color:#212121;font-weight:500;padding-top:10px}.expert_name_desig_holder p a{background:transparent url(https://www.acuitykp.com/wp-content/themes/maks/images/all-images.png) no-repeat;color:#F4511E;display:block;width:36px;height:37px}.expert-desc{background:#fff;padding-top:50px;padding-bottom:50px}.expert-desc h2{font:36px/44px 'Montserrat',Arial,Helvetica,sans-serif;color:#1A237E;font-weight:700;padding-bottom:10px}.expert-desc p{font:16px/26px 'Montserrat',Arial,Helvetica,sans-serif;font-weight:400;color:#212121}.expert_load_more{border-radius:0;display:block;vertical-align:middle;border-bottom:1px dashed #003367;text-transform:uppercase;font:0.75em/2em 'Montserrat-Regular',Arial,Helvetica,sans-serif;color:#1a237e;width:75px;margin:0 auto}.expert_image_holder img{object-fit:cover;object-position:top;width:100%;height:100%}.expert_desc_content{padding-bottom:20px}.form_connect_button{background-image:linear-gradient(to right,#148FC5,#1A237E);padding-top:50px;padding-bottom:50px;margin-bottom:50px}.form_connect_button h3{font:32px/40px 'Montserrat',Arial,Helvetica,sans-serif;color:#fff;text-transform:uppercase;padding-bottom:20px}.form_connect_button h3 span{font-weight:500px;color:#fff}.form_connect_button button{font-weight:500px;color:#fff;font:22px/26px 'Montserrat',Arial,Helvetica,sans-serif;background-color:#F4511E;padding:10px;border:none;padding-left:20px;padding-right:20px}.form_connect_button_form{display:none}.footer-each-block{float:left}.footer-each-block p{color:#fff;font:17px/21px 'Montserrat-Light',Arial,Helvetica,sans-serif;margin-bottom:25px}.footer-each-block a{display:block;font:13px/16px 'Montserrat-Light',Arial,Helvetica,sans-serif;color:#fff;margin-bottom:10px}.footer-container-content>.footer-each-block:last-child{width:30%}.footer-container-content>.footer-each-block:last-child{display:none}html,body,div,span,h1,h2,h3,h6,p,img,strong,ul,li,fieldset,form,article,header,nav,section,article,header,nav,section,nav ul,a,input,ul{-webkit-focus-ring-color:transparent;-moz-focus-ring-color:transparent;-ms-focus-ring-color:transparent;-o-focus-ring-color:transparent;focus-ring-color:transparent}button{-webkit-appearance:button;-moz-appearance:button;appearance:button}input{-webkit-appearance:none;-moz-appearance:none;appearance:none}@media only screen and (min-width:980px) and (max-height:660px){#header .nav-holder .head-drop>ul{max-height:450px;overflow:auto}#header .nav-holder .head-drop>ul>li>div{height:auto}#header .nav-holder .head-drop>ul{max-height:450px;overflow:auto}#header .nav-holder .head-drop>ul>li>div{height:auto}#header .nav-holder .head-drop>ul>li>a{padding:13px 20px}#header .nav-holder .head-drop>ul>li>a span{font-size:0.775em}#header .nav-holder .head-drop .sub-lst a{font-size:0.775em}#header .nav-holder .head-drop .sub-lst{width:390px;margin-right:20px}#header .nav-holder .head-drop .sub-lst:last-child{margin-right:0}#header .nav-holder .head-drop>ul>li>div{padding:5px 20px}}@media screen and (max-width:980px){.expert_name_desig_holder h1{padding-left:0px}.logo-hldr{margin-top:5px;margin-left:30px}#header .wrapper{align-items:baseline}#header .nav-holder .head-drop>ul>li>a span.icon-hldr{background-position:-34px -49px}.new-srch-blk{position:fixed;top:10%;padding:25px 30px;height:60px;width:auto;right:5%;z-index:999;left:5%}}@media screen and (max-width:800px){.lang-drop-hldr .lang-dropdown{top:auto;width:100%;box-shadow:0 3px 5px rgb(0 0 0 / 20%)}#header .nav-holder .nav-bottom{padding-bottom:100px}.logo-hldr{margin-left:30px;margin-top:5px}#header .nav-holder .head-drop>ul>li>a{position:relative}#header .nav-holder .head-drop>ul.head-drop-lst>li.active>a{background:#f3f3f3}#header .nav-holder .head-drop>ul>li.active>a span.icon-hldr{transform:rotate(-90deg);position:absolute;right:20px;top:30px}}@media screen and (max-width:980px){.wrapper{width:100%;padding:0 45px}}@media screen and (max-width:1023px){.float-icon{display:none}.contact-us{display:none}}@media screen and (max-width:980px){.mob-overlay{position:fixed;top:0;left:0;z-index:111;width:100%;height:100%;display:none;background:rgba(0,0,0,0.7);z-index:99999}.mob-cnt{display:block;border-bottom:1px solid #ebebeb}.mob-cnt .logo{width:175px;display:block;padding:15px 0 23px 40px}.mob-cnt .logo img{width:100%}.mob-cnt .mob-back{display:block;padding:25px}#header .nav-holder{position:fixed;top:0;left:-100%;height:100%;width:90%;flex-direction:column;overflow:scroll}#header .nav-holder .nav-top>ul{justify-content:flex-start;flex-direction:column}#header .nav-holder .nav-top{border-bottom:1px solid #e5eaf0}#header .nav-holder .nav-top>ul>li{position:relative;border:0}#header .nav-holder .nav-top>ul>li>a{text-align:left;padding:21px 40px;border:0}#header .nav-holder .nav-top>ul>li.width-drop>a{background:#ffffff url(https://www.acuitykp.com/wp-content/themes/maks/images/mob-nav-down.png) no-repeat 95% center}#header .nav-holder .nav-top>ul>li .head-drop{position:relative;top:0;left:0;border:0;background:#f3f3f3}#header .nav-holder .head-drop>ul{padding-left:10px}#header .nav-holder .head-drop>ul>li{width:100%}#header .nav-holder .head-drop>ul>li>div{position:relative;left:0;width:100%;flex-direction:column}#header .nav-holder .head-drop .sub-lst{width:100%;margin:0}#header .nav-holder .head-drop .sub-lst li{border:0}#header .nav-holder .head-drop>ul>li>a{border:0}#header .nav-holder .head-drop>ul>li>a span.img-holder{margin-right:10px}#header .nav-holder .head-drop>ul>li.active>a{background:#f3f3f3 url(https://www.acuitykp.com/wp-content/themes/maks/images/mob-nav-up.png) no-repeat 95% center}#header .nav-holder .head-drop>ul>li>div{padding-left:60px}#header .nav-holder .head-drop .sub-lst a{padding:10px 0}#header .nav-holder .nav-bottom ul{justify-content:flex-start;flex-direction:column}#header .nav-holder .nav-bottom ul>li>a{text-align:left;padding:17px 40px}#header .nav-holder .head-drop .first-drop ul{width:100%;margin:0}.mob-menu{display:block;position:absolute;top:0;left:0;padding:16px 15px}h1{padding-left:50px}#header{height:60px}#main-section{padding-top:60px}.mob-srch{display:block;position:absolute;top:0;right:0;padding:13px 22px}.srch-holder{display:none}.mob-srch-txt{position:fixed;top:6px;width:calc(100% - 72px);left:0;background:#fff;z-index:9999;display:block;border:1px solid #e5eaf0;padding:8px 20px;transform:translateY(-500%);display:flex}.mob-srch-txt input{flex:1}}@media screen and (max-width:801px){#header .nav-holder .head-drop .sub-nav-hldr{width:100%;margin-right:0}}@media screen and (max-width:768px){footer .footer-container-content>.footer-each-block{width:100%!important;display:block!important}.footer-each-block a{display:none}.footer-each-block p{margin-bottom:0px}.footer-each-block{padding-top:10px;padding-bottom:10px;border-bottom:2px solid #fff;position:relative;margin-bottom:5px}.footer-each-block:before{content:'';background:url(https://www.acuitykp.com/wp-content/themes/maks/images/Vector_chevron.svg);background-position:center;background-size:10px;background-repeat:no-repeat;position:absolute;top:10px;width:20px;height:20px;right:0px;transform:rotate(-90deg)}.footer-each-block p{color:#f4511e}body{font-size:16px}h3{font:1.875em/1.2666em 'Montserrat-Light',Arial,Helvetica,sans-serif}.contact-us{display:none}.love-blk .love-blk-cnt{width:100%;padding:0 15px}.privy#main-section{padding-top:40px}.love-blk{padding:0px 0 60px 0}#header .wrapper{min-height:auto;background:#fff}.new-srch-blk .new-srch-blk-cnt .secondary-btn{width:60px;height:15px;line-height:15px;padding:0 5px;font-size:12px}.new-srch-blk{position:fixed;top:10%;padding:25px 30px;height:60px;width:auto;right:5%;z-index:999;left:5%}.new-srch-blk .srch-cls-btn{display:block}}@media screen and (max-width:640px){.expert-detail-banner .wrapper{display:flex;flex-direction:column-reverse;justify-content:center;align-items:center}.expert_name_desig_holder{width:100%;text-align:center}.expert_name_desig_holder p a{display:inline-block}#header .nav-holder .head-drop.head-prs{width:100%}#header .nav-holder .head-drop.head-prs .first-drop ul{width:100%}}</style>
+
+
+					<link data-minify="1" rel="stylesheet preload" as="style" type="text/css" href="https://www.acuitykp.com/wp-content/cache/min/1/wp-content/themes/maks/css/common.css?ver=1673526858" media="all" />
+		<link data-minify="1" href="https://www.acuitykp.com/wp-content/cache/min/1/wp-content/themes/maks/style.css?ver=1673526858" as="style" rel="stylesheet preload">
+		<link data-minify="1" rel="stylesheet preload" as="style" type="text/css" href="https://www.acuitykp.com/wp-content/cache/min/1/wp-content/themes/maks/css/media.css?ver=1673526859" media="all" />
+		<script data-minify="1" src="https://www.acuitykp.com/wp-content/cache/min/1/wp-content/themes/maks/js/common.js?ver=1673526859" defer></script>
+		<script data-minify="1" src="https://www.acuitykp.com/wp-content/cache/min/1/wp-content/themes/maks/js/script.js?ver=1673526859" defer></script>
+	
+	<script type="rocketlazyloadscript">
+		setTimeout(function() {
+			// Firt script tag
+			let scriptTopOne = document.createElement("script");
+			scriptTopOne.setAttribute("src", "//js.hs-scripts.com/6808207.js");
+			scriptTopOne.setAttribute("id", "hs-script-loader");
+			document.getElementsByTagName('head')[0].appendChild(scriptTopOne);
+		}, 3000);
+
+		setTimeout(function() {
+			// second script tag
+			let scriptTopTwo = document.createElement("script");
+			scriptTopTwo.setAttribute("src", "//wpcc.io/lib/1.0.2/cookieconsent.min.js");
+			document.getElementsByTagName('head')[0].appendChild(scriptTopTwo);
+			window.addEventListener("load", function() {
+				window.wpcc.init({
+					"border": "thin",
+					"corners": "small",
+					"colors": {
+						"popup": {
+							"background": "#222222",
+							"text": "#ffffff",
+							"border": "#fde296"
+						},
+						"button": {
+							"background": "#fde296",
+							"text": "#000000"
+						}
+					},
+					"position": "bottom",
+					"content": {
+						"href": "https://www.acuitykp.com/privacy-policy-new/",
+						"message": "We use cookies to enable multiple website functionalities and to provide you with a more personalized digital experience. For more information, please review our ",
+						"link": "Privacy Policy"
+					}
+				})
+			});
+
+		}, 5000);
+	</script>
+	<link data-minify="1" rel="stylesheet preload" as="style" type="text/css" href="https://www.acuitykp.com/wp-content/cache/min/1/lib/1.0.2/cookieconsent.min.css?ver=1673526859" />
+	<script type="rocketlazyloadscript" async src="https://www.googletagmanager.com/gtag/js?id=UA-37195701-3"></script>
+	<script type="rocketlazyloadscript">
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-37195701-3');
+	</script>
+
+	<link rel="preload" as="image" href="https://www.acuitykp.com/wp-content/uploads/2022/08/Homepage-Banner-1.webp">
+	<!--schema tag-->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Corporation",
+			"name": "Acuity Knowledge Partners",
+			"alternateName": "AcuityKP.com",
+			"url": "https://www.acuitykp.com/",
+			"logo": "https://www.acuitykp.com/wp-content/themes/maks/images/logo.png",
+			"contactPoint": [{
+				"@type": "ContactPoint",
+				"telephone": "020 7550 4499",
+				"contactType": "sales",
+				"contactOption": "HearingImpairedSupported",
+				"areaServed": "GB",
+				"availableLanguage": "en"
+			}, {
+				"@type": "ContactPoint",
+				"telephone": "+1.212.553.7778",
+				"contactType": "sales",
+				"contactOption": "HearingImpairedSupported",
+				"areaServed": "US",
+				"availableLanguage": "en"
+			}, {
+				"@type": "ContactPoint",
+				"telephone": "+86 186 1011 2709",
+				"contactType": "sales",
+				"contactOption": "HearingImpairedSupported",
+				"areaServed": "CN",
+				"availableLanguage": "en"
+			}, {
+				"@type": "ContactPoint",
+				"telephone": "+91 80 6113 3000",
+				"contactType": "sales",
+				"contactOption": "HearingImpairedSupported",
+				"areaServed": "IN",
+				"availableLanguage": "en"
+			}, {
+				"@type": "ContactPoint",
+				"telephone": "+852 (972) 836-39",
+				"contactType": "sales",
+				"contactOption": "HearingImpairedSupported",
+				"areaServed": "HK",
+				"availableLanguage": "en"
+			}, {
+				"@type": "ContactPoint",
+				"telephone": "+94 11 235 6000",
+				"contactType": "sales",
+				"contactOption": "HearingImpairedSupported",
+				"areaServed": "LK",
+				"availableLanguage": "en"
+			}],
+			"sameAs": [
+				"https://www.facebook.com/AcuityKnowledgePartners",
+				"https://twitter.com/AcuityKP",
+				"https://www.youtube.com/AcuityKnowledgepartners",
+				"https://www.linkedin.com/company/acuity-knowledge-partners"
+			]
+		}
+	</script>
+	<meta name="msvalidate.01" content="AD34B5DAFED28D6B80D7CE33E58E488A" />
+
+	<script type="rocketlazyloadscript">
+		var script = document.createElement('script');
+		script.async = true;
+		script.src = 'https://client.lunio.com/NsmTVsbhBaeY5S14VsWeveQtpA6Yr6C7_jJYoT4Q.js';
+		document.head.appendChild(script);
+	</script>
+
+	<script type="rocketlazyloadscript">
+		! function(e) {
+			"function" == typeof define && define.amd ? define(e) : e()
+		}(function() {
+			var e, t = ["scroll", "wheel", "touchstart", "touchmove", "touchenter", "touchend", "touchleave", "mouseout", "mouseleave", "mouseup", "mousedown", "mousemove", "mouseenter", "mousewheel", "mouseover"];
+			if (function() {
+					var e = !1;
+					try {
+						var t = Object.defineProperty({}, "passive", {
+							get: function() {
+								e = !0
+							}
+						});
+						window.addEventListener("test", null, t), window.removeEventListener("test", null, t)
+					} catch (e) {}
+					return e
+				}()) {
+				var n = EventTarget.prototype.addEventListener;
+				e = n, EventTarget.prototype.addEventListener = function(n, o, r) {
+					var i, s = "object" == typeof r && null !== r,
+						u = s ? r.capture : r;
+					(r = s ? function(e) {
+						var t = Object.getOwnPropertyDescriptor(e, "passive");
+						return t && !0 !== t.writable && void 0 === t.set ? Object.assign({}, e) : e
+					}(r) : {}).passive = void 0 !== (i = r.passive) ? i : -1 !== t.indexOf(n) && !0, r.capture = void 0 !== u && u, e.call(this, n, o, r)
+				}, EventTarget.prototype.addEventListener._original = e
+			}
+		});
+	</script>
+
+</head>
+
+<body>
+
+
+	
+	<div id="main">
+		<div class="overlay"></div>
+		<div class="mob-overlay"></div>
+		<!-- Header -->
+		<header id="header">
+			<div class="wrapper">
+				<!-- 28-08-2020 background image -->
+				<a href="javascript:void(0)" class="mob-menu">
+					<!-- <img src="/images/mob-menu.png" alt="mobile menu"> -->
+					<span class="img-bg"></span>
+				</a>
+				<!-- END 28-08-2020 background image -->
+				<div class="lg-mn logo-hldr">
+					<a href="https://www.acuitykp.com" title="Acuity Knowledge Partners"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/logo.svg" alt="Acuity Knowledge Partners"></a>
+					<span class="main-heading"> Acuity Knowledge Partners </span>
+				</div>
+				<!-- 28-08-2020 background image -->
+				<a href="javascript:void(0)" class="mob-srch srchBtn">
+					<!-- <img src="/images/mob-search.png" alt="mobile search"> -->
+					<span class="img-bg"></span>
+				</a>
+				<!-- END 28-08-2020 background image -->
+				<div class="nav-holder">
+					<div class="mob-cnt clearfix">
+						<a href="https://www.acuitykp.com" class="logo left"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/logo.png" alt="mobile logo"></a>
+						<a href="javascript:void(0)" class="mob-back mobBack right">
+							<!-- <img src="/images/mob-nav-back.png" alt="mobile back"> -->
+							<span class="img-bg"></span>
+						</a>
+					</div>
+					<nav class="nav-top">
+						<ul>
+							<!-- 12-07-2021 -->
+							<!---->
+							<li id="menu-item-476" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476 width-drop">
+								<a>Who we serve</a>
+								<div class="head-drop">
+									<div class="first-drop clearfix">
+										<ul class="sub-lst">
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/asset-and-private-wealth-managers/">Asset Managers </a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/private-wealth-management-services/">Private Wealth Managers</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/hedge-funds/">Hedge Funds</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/private-equity-and-venture-capital-firms/">Private Equity and Venture Capital Firms</a>
+											</li>
+										</ul>
+										<ul class="sub-lst">
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/corporate-and-investment-banks">Corporate and Investment Banks</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/commercial-banks/">Commercial and Regional Banks</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/specialist-advisory-firms/">Specialist Advisory Firms</a>
+											</li>
+										</ul>
+										<ul class="sub-lst">
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/consulting-and-corporate-firms/">Corporate and Consulting Firms</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/brokerages-and-trading-firms/">Brokerage and Trading Firms</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/who-we-serve/market-research-firms/">Market Research Firms</a>
+											</li>
+
+										</ul>
+
+									</div>
+								</div>
+							</li>
+							<li id="menu-item-475" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475 width-drop">
+								<a>Our Solutions</a>
+								<div class="head-drop">
+									<ul class="head-drop-lst">
+										<li class="active">
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Investment-Banking-white.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/1-Investment-Banking.png" alt="" class="active">
+												</span>
+												<span>Investment Banking and Advisory</span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li>
+															<a href="https://www.acuitykp.com/solutions/mergers-acquisitions/">Mergers &amp; Acquisitions</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/sector-coverage/">Sector Coverage</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/equity-capital-markets-ecm/">Equity Capital Markets (ECM)</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/debt-capital-markets-dcm/">Debt Capital Markets (DCM)</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/leveraged-finance/">Leveraged Finance</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/">Sustainable Finance</a>
+														</li>
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li>
+															<a href="https://www.acuitykp.com/solutions/restructuring-and-debt-advisory/">Restructuring and Debt Advisory</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/ratings-advisory/">Ratings Advisory</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/syndicated-loans/">Syndicated Loans</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/public-finance-and-project-finance-support/">Public Finance and Project Finance</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/corporate-strategy-and-development/">Corporate Strategy and Development</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/valuation-and-transaction-advisory/">Valuation and Transaction Advisory</a>
+														</li>
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li>
+															<a href="https://www.acuitykp.com/solutions/accounting-advisory/">Accounting Advisory</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/islamic-finance/">Islamic Finance</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/investment-banking-analytics/">Investment Banking Analytics</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/business-information-services/">Business Information Services (BIS)</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/presentations-and-graphics-dtp/">Presentations and Graphics (DTP)</a>
+														</li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Investment-Research-White.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/2-Investment-Research.png" alt="" class="active">
+												</span>
+												<span>Investment Research</span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li>
+															<a href="https://www.acuitykp.com/solutions/equity-research/">Equity Research</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/fixed-income-and-credit-research/">Fixed Income and Credit Research</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/environmental-social-and-governance-esg/">Environmental, Social and Governance (ESG)</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/quantitative-research/">Quantitative Research</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/forensic-analysis/">Forensic Analysis</a>
+														</li>
+														<li>
+															<a href="https://www.acuitykp.com/solutions/macroeconomic-and-fx-research/">Macroeconomic and FX Research</a>
+														</li>
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/research-publishing/">Research Publishing</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/supervisory-analyst-review/">Supervisory Analyst Review</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/crm-analytics/">CRM Analytics</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/financial-modelling/">Financial Modelling</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions/">Capital Market Technology Solutions</a></li>
+
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="">
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Lending-Support-White.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/3-Lending-Support.png" alt="" class="active">
+												</span>
+												<span>Lending Services </span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<h6 class="support-across">Support across Loan Books</h6>
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/commercial-lending/">Corporate and Commercial Lending </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/retail-lending/">Retail Lending</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/consumer-mortgage/">Consumer Mortgage</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/commercial-real-estate/">Commercial Real Estate</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/asset-based-lending/">Asset Based Lending</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/leveraged-lending/">Leveraged Lending </a></li>
+
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<h6>Services across the Lending Value Chain</h6>
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/commercial-lending/">Origination, Underwriting, Monitoring </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/financial-spreading-software-support/">Financial Spreading COE</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/lending-operations/">Lending Operations </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/treasury-operations-outsourcing/">Treasury Operations and Cash Management </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/trade-finance/">Trade Finance</a></li>
+														<li><a href="https://www.acuitykp.com/explore-solution/technology-solutions-for-corporate-commercial-banks/">Digital Lending Solutions</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/kyc-and-client-due-diligence/">KYC and Client Due Diligence </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/aml-analytics-and-surveillance/">AML Transaction Monitoring</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/data-science/">Data Science</a></li>
+
+														<li><a href="https://www.acuitykp.com/solutions/presales-and-marketing-support-for-commercial-banks/">RFP and Digital Marketing Support </a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="">
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/11/Private-White.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/11/Private.png" alt="" class="active">
+												</span>
+												<span>Private Equity and Venture Capital Firms</span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/private-equity-support/">Private Equity Support</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/venture-capital-support/">Venture Capital Support</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/private-equity-fund-of-funds/">Fund of Funds Support</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/private-equity-secondary-fund-support/">Private Equity Secondary Fund Support</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/private-credit/">Private Credit and Mezzanine Investment Support</a></li>
+														
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+													    <li><a href="https://www.acuitykp.com/solutions/real-estate-and-infrastructure/">Real Estate and Infrastructure Support for Private Equity</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/portfolio-management-private-equity/">Portfolio Management and Fund Operations</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/esg-support-private-equity-venture-capital/" style="font-weight: bold;">ESG support for Private Markets</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/investment-compliance/">Investment Compliance</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions/">Capital Market Technology Solutions</a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="">
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Consulting-and-Corporates-White.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/7-Consulting-Corporates.png" alt="" class="active">
+												</span>
+												<span>Consulting and Corporates</span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<h6>Functional coverage</h6>
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/strategy-research/">Strategy Research</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/corporate-finance/">Corporate Finance &amp; M&amp;A</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/corporate-restructuring/">Corporate Restructuring and Turnaround</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/market-and-competitive-intelligence/">Market and Competitive Intelligence</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/sales-and-marketing/">Sales and Marketing Strategy</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/procurement-and-supplier-management/">Procurement and Supplier Management</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/business-content-corporate-communications/">Business Content &amp; Corporate Communications</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/data-science/">Data Science</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/market-research-and-insights/">Market Research and Insights</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/research-publishing/">Research Publishing</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/business-information-services/">Library Services(BIS)/ Knowledge Management</a></li>
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<h6>Industry coverage</h6>
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/energy-and-utilities/">Energy and Utilities Research </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/technology-research-services/">Technology Research </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/life-sciences-research/">Life Sciences and Healthcare Research </a></li>
+														<li><a href="https://www.acuitykp.com/solutions/metals-and-mining/">Metals and Mining Research</a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="">
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2017/05/spec.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/5-Specialized-Solutions.png" alt="" class="active">
+												</span>
+												<span>Specialised Solutions</span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/portfolio-research-and-operations/">Portfolio Research and Operations</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/model-risk-management/">Model Risk Management</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/structured-finance-services/">Structured Finance Services</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/derivatives-modeling/">Derivatives Modeling</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/index-and-etf-solutions/">Index and ETF Solutions</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/macroeconomic-and-fx-research/">Macroeconomic and FX Research</a></li>
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/explore-solution/middle-office-operations-for-asset-managers/">Bespoke Middle Office Operations Services</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/data-science/">Data Science</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/data-management-and-analytics/">Data Management</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions/">Capital Market Technology Solutions</a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="">
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Fund-Marketing-Supports-white.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/6-Fund-Marketing-Supports.png" alt="" class="active">
+												</span>
+												<span>Fund Marketing Support</span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/consultant-database-updates/">Consultant Database Updates</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/rfp-services/">RFP Support</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/fund-factsheets-and-marketing-material/">Fund Factsheets and Marketing Material</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/digital-marketing-solutions/">Digital Marketing Solutions</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/client-reporting/">Client Reporting</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/investment-commentary/">Investment and Fund Commentary</a></li>
+													</ul>
+												</div>
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/seismic-support-solutions/">Seismic Support Solutions</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/marketing-and-digital-solutions-for-wealth-managers/">Marketing and Digital Solutions for Wealth Managers</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/presales-and-marketing-support-for-commercial-banks/">Presales and Marketing Support for Commercial Banks</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions/">Capital Market Technology Solutions</a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+										<li class="">
+											<a href="javascript:void(0)">
+												<span class="img-holder">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2018/05/Solution-icon-white.png" alt="">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/4-Compliance.png" alt="" class="active">
+												</span>
+												<span>Compliance Support</span>
+												<span class="icon-hldr"></span>
+											</a>
+											<div class="sub-nav-main">
+												<div class="sub-nav-hldr">
+													<ul class="sub-lst">
+														<li><a href="https://www.acuitykp.com/solutions/central-compliance/">Corporate Compliance</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/forensic-compliance/">Forensic Compliance</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/kyc-and-client-due-diligence/">KYC and Client Due Diligence</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/aml-analytics-and-surveillance/">AML Analytics and Surveillance</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/investment-compliance/">Investment Compliance</a></li>
+														<li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions/">Capital Market Technology Solutions</a></li>
+													</ul>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li id="menu-item-3718" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3718">
+								<a href="https://www.acuitykp.com/beat-platform/">TECH Platform</a>
+							</li>
+							<li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402">
+								<a href="https://www.acuitykp.com/our-impact/">Our Impact</a>
+							</li>
+							<li id="menu-item-4849" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4849 width-drop">
+								<a>Our Perspective</a>
+								<div class="head-drop head-prs">
+									<div class="first-drop clearfix">
+										<ul class="sub-lst">
+											<li>
+												<a href="https://www.acuitykp.com/blogs/">Blog</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/video-gallery/">Video Gallery</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/discover-insights/">Insights</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/discover-newsletters/">Newsletters</a>
+											</li>
+										</ul>
+										<ul class="sub-lst">
+											<li>
+												<a href="https://www.acuitykp.com/discover-playbooks/">Playbooks</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/discover-webinars/">Webinars</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/discover-whitepapers/">Whitepapers</a>
+											</li>
+											<li>
+												<a href="https://www.acuitykp.com/events/">Events</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<!-- END 12-07-2021 -->
+						</ul>
+
+					</nav>
+					<!-- Search Blk -->
+					<div class="new-srch-blk">
+						<a class="srch-cls-btn srchClsBtn">X</a>
+						<form class="c-search-form" action="https://www.acuitykp.com/" method="get">
+							<fieldset>
+								<div class="new-srch-blk-cnt">
+									<input type="text" class="srch-txt-new" name="s" placeholder="Type to search" value="">
+									<button type="submit" class="secondary-btn">Search</button>
+								</div>
+								<input type="hidden" id="_wpnonce" name="_wpnonce" value="314b2b869b" /><input type="hidden" name="_wp_http_referer" value="/solutions/sustainable-finance-investment-banking/" />							</fieldset>
+						</form>
+					</div>
+					<!-- END Search Blk -->
+					<nav class="nav-bottom">
+						<ul>
+							<!-- 12-07-2021 -->
+							<li id="menu-item-3717" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3717">
+								<a href="https://www.acuitykp.com/about-us/">About Us</a>
+							</li>
+							<li id="menu-item-15731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15731">
+								<a>News</a>
+								<ul class="sub-menu">
+									<li id="menu-item-15732" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15732">
+										<a href="https://www.acuitykp.com/news/media-coverage/">Media Coverage</a>
+									</li>
+									<li id="menu-item-15733" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15733">
+										<a href="https://www.acuitykp.com/news/press-release/">Press Release</a>
+									</li>
+									<li id="menu-item-15734" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15734">
+										<a href="https://www.acuitykp.com/market-insights/">Market Insights</a>
+									</li>
+								</ul>
+							</li>
+							<li id="menu-item-6112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6112">
+								<a href="https://www.acuitykp.com/video-gallery/">Videos</a>
+							</li>
+							<li id="menu-item-4818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4818">
+								<a href="https://www.acuitykp.com/blogs/">Blog</a>
+							</li>
+							<li id="menu-item-396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396">
+								<a href="https://www.acuitykp.com/center-of-learning/">Center of Learning</a>
+							</li>
+							<li id="menu-item-397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397">
+								<a href="https://www.acuitykp.com/careers/">Careers</a>
+							</li>
+							<li id="menu-item-399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-399">
+								<a href="https://www.acuitykp.com/contact-us/"><strong>Contact Us</strong></a>
+							</li>
+							<!---->
+							<!-- 12-07-2021 -->
+																																																																																																									<!-- our prospcitv-->
+														<!-- Change class of head-drop-pro to head-drop 22-06-2020 -->
+														<input type="hidden" value='<div class="head-drop head-prs"> 
+                                    <div class="first-drop clearfix">
+                                        <ul class="sub-lst"><li>
+													            <a href="https://www.acuitykp.com/blogs/">Blog</a></li><li>
+											<a href="https://www.acuitykp.com/video-gallery/">Video Gallery</a></li><li>
+											<a href="https://www.acuitykp.com/discover-insights/">Insights</a></li><li>
+											<a href="https://www.acuitykp.com/discover-newsletters/">Newsletters</a></li></ul><ul class="sub-lst"><li>
+											<a href="https://www.acuitykp.com/discover-playbooks/">Playbooks</a></li><li>
+											<a href="https://www.acuitykp.com/discover-webinars/">Webinars</a></li><li>
+											<a href="https://www.acuitykp.com/discover-whitepapers/">Whitepapers</a></li><li>
+													            <a href="https://www.acuitykp.com/events/">Events</a></li></ul>
+                                    </div>
+                                </div>' id="dropdown_list_prospective">
+							<input type="hidden" value='<div class="head-drop">
+                                    <div class="first-drop clearfix">
+                                        <ul class="sub-lst"><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/asset-managers">Asset Managers</a>
+												              </li><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/brokerages-and-trading-firms">Brokerages and Trading Firms</a>
+												              </li><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/commercial-banks">Commercial and Regional Banks</a>
+												              </li></ul><ul class="sub-lst"><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/consulting-and-corporate-firms">Consulting and Corporate Firms</a>
+												              </li><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/corporate-and-investment-banks">Corporate and Investment Banks</a>
+												              </li><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/hedge-funds">Hedge Funds</a>
+												              </li></ul><ul class="sub-lst"><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/market-research-firms">Market Research Firms</a>
+												              </li><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/private-equity-and-venture-capital-firms">Private Equity and Venture Capital Consulting Firms</a>
+												              </li><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/private-wealth-management-services">Private Wealth Management Services</a>
+												              </li></ul><ul class="sub-lst"><li>
+													            <a href="https://www.acuitykp.com/who-we-serve/specialist-advisory-firms">Specialist Advisory Firms</a>
+												              </li></ul>
+                                    </div>
+                                </div>' id="dropdown_list">
+							<input type="hidden" value='<div class="head-drop">
+                                    <ul class="head-drop-lst"><li class="active">
+                                            <a href="javascript:void(0)">
+                                                <span class="img-holder">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Investment-Banking-white.png" alt="">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/10/1-Investment-Banking.png" alt="" class="active">
+                                                </span>
+                                                <span>Investment Banking and Advisory</span>
+                                            </a>
+                                            <div class="sub-nav-main">
+                                            <div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/mergers-acquisitions">Mergers &#038; Acquisitions</a></li><li><a href="https://www.acuitykp.com/solutions/sector-coverage">Sector Coverage</a></li><li><a href="https://www.acuitykp.com/solutions/equity-capital-markets-ecm">Equity Capital Markets (ECM)</a></li><li><a href="https://www.acuitykp.com/solutions/debt-capital-markets-dcm">Debt Capital Markets (DCM)</a></li><li><a href="https://www.acuitykp.com/solutions/leveraged-finance">Leveraged Finance</a></li><li><a href="https://www.acuitykp.com/solutions/sustainable-finance-investment-banking">Sustainable Finance</a></li></ul></div><div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/restructuring-and-debt-advisory">Restructuring and Debt Advisory</a></li><li><a href="https://www.acuitykp.com/solutions/ratings-advisory">Ratings Advisory</a></li><li><a href="https://www.acuitykp.com/solutions/syndicated-loans">Syndicated Loans</a></li><li><a href="https://www.acuitykp.com/solutions/public-finance-and-project-finance-support">Public Finance and Project Finance</a></li><li><a href="https://www.acuitykp.com/solutions/corporate-strategy-and-development">Corporate Strategy and Development</a></li><li><a href="https://www.acuitykp.com/solutions/valuation-and-transaction-advisory">Valuation and Transaction Advisory</a></li></ul></div><div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/accounting-advisory">Accounting Advisory</a></li><li><a href="https://www.acuitykp.com/solutions/islamic-finance">Islamic Finance</a></li><li><a href="https://www.acuitykp.com/solutions/investment-banking-analytics">Investment Banking Analytics</a></li><li><a href="https://www.acuitykp.com/solutions/business-information-services">Business Information Services (BIS)</a></li><li><a href="https://www.acuitykp.com/solutions/presentations-and-graphics-dtp">Presentations and Graphics (DTP)</a></li></ul></div><li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="img-holder">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Investment-Research-White.png" alt="">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/10/2-Investment-Research.png" alt="" class="active">
+                                                </span>
+                                                <span>Investment Research</span>
+                                            </a>
+                                            <div class="sub-nav-main">
+                                            <div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/equity-research">Equity Research</a></li><li><a href="https://www.acuitykp.com/solutions/fixed-income-and-credit-research">Fixed Income and Credit Research</a></li><li><a href="https://www.acuitykp.com/solutions/environmental-social-and-governance-esg">Environmental, Social and Governance (ESG)</a></li><li><a href="https://www.acuitykp.com/solutions/quantitative-research">Quantitative Research</a></li><li><a href="https://www.acuitykp.com/solutions/forensic-analysis">Forensic Analysis</a></li><li><a href="https://www.acuitykp.com/solutions/macroeconomic-and-fx-research">Macroeconomic and FX Research</a></li></ul></div><div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/research-publishing">Research Publishing</a></li><li><a href="https://www.acuitykp.com/solutions/supervisory-analyst-review">Supervisory Analyst Review</a></li><li><a href="https://www.acuitykp.com/solutions/crm-analytics">CRM Analytics</a></li><li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions">Capital Market Technology Solutions</a></li></ul></div><li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="img-holder">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Lending-Support-White.png" alt="">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/10/3-Lending-Support.png" alt="" class="active">
+                                                </span>
+                                                <span>Lending Services</span>
+                                            </a>
+                                            <div class="sub-nav-main">
+                                            <div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/commercial-lending">Corporate and Commercial Lending</a></li><li><a href="https://www.acuitykp.com/solutions/retail-lending">Retail Lending</a></li><li><a href="https://www.acuitykp.com/solutions/consumer-mortgage">Consumer Mortgage</a></li><li><a href="https://www.acuitykp.com/solutions/commercial-real-estate">Commercial Real Estate</a></li><li><a href="https://www.acuitykp.com/solutions/asset-based-lending">Asset-based Lending</a></li><li><a href="https://www.acuitykp.com/solutions/leveraged-lending">Leveraged Lending</a></li></ul></div><div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/lending-operations">Lending Operations</a></li><li><a href="https://www.acuitykp.com/solutions/presales-and-marketing-support-for-commercial-banks">Presales and Marketing Support for Commercial Banks</a></li><li><a href="https://www.acuitykp.com/solutions/kyc-and-client-due-diligence">KYC and Customer Due Diligence</a></li><li><a href="https://www.acuitykp.com/solutions/aml-transaction-monitoring">AML Transaction Monitoring</a></li><li><a href="https://www.acuitykp.com/solutions/data-science">Data Science</a></li><li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions">Capital Market Technology Solutions</a></li></ul></div><li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="img-holder">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/11/Private-White.png" alt="">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/11/Private.png" alt="" class="active">
+                                                </span>
+                                                <span>Private Equity and Venture Capital Firms</span>
+                                            </a>
+                                            <div class="sub-nav-main">
+                                            <div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/private-equity-support">Private Equity Support</a></li><li><a href="https://www.acuitykp.com/solutions/venture-capital-support">Venture Capital Support</a></li><li><a href="https://www.acuitykp.com/solutions/private-equity-fund-of-funds">Private Equity and Venture Capital Fund of Funds Support</a></li><li><a href="https://www.acuitykp.com/solutions/private-equity-secondary-fund-support">Private Equity Secondary Fund Support</a></li><li><a href="https://www.acuitykp.com/solutions/private-credit">Private Credit and Mezzanine Investment Support</a></li><li><a href="https://www.acuitykp.com/solutions/real-estate-and-infrastructure">Real Estate and Infrastructure Support for Private Equity</a></li></ul></div><div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/esg-support-private-equity-venture-capital">Environmental, social and governance (ESG) support for private markets</a></li><li><a href="https://www.acuitykp.com/solutions/environmental-social-and-governance-esg">Environmental, Social and Governance (ESG)</a></li><li><a href="https://www.acuitykp.com/solutions/investment-compliance">Investment Compliance Services</a></li><li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions">Capital Market Technology Solutions</a></li></ul></div><li class="">
+							<a href="javascript:void(0)">
+								<span class="img-holder">
+									<img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Consulting-and-Corporates-White.png" alt="">
+									<img src="https://www.acuitykp.com/wp-content/uploads/2019/10/7-Consulting-Corporates.png" alt="" class="active">
+								</span>
+								<span>Consulting and Corporates</span>
+							</a>
+							<div class="sub-nav-main">
+							<div class="sub-nav-hldr"><h6>Functional coverage</h6><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/strategy-research/">Strategy Research</a></li><li><a href="https://www.acuitykp.com/solutions/corporate-finance/">Corporate Finance & M&A</a></li><li><a href="https://www.acuitykp.com/solutions/corporate-restructuring/">Corporate Restructuring and Turnaround</a></li><li><a href="https://www.acuitykp.com/solutions/market-and-competitive-intelligence/">Market and Competitive Intelligence</a></li><li><a href="https://www.acuitykp.com/solutions/sales-and-marketing/">Sales and marketing</a></li><li><a href="https://www.acuitykp.com/solutions/procurement-and-supplier-management/">Procurement and Supplier Management</a></li><li><a href="https://www.acuitykp.com/solutions/business-content-corporate-communications/">Business Content & Corporate Communications</a></li><li><a href="https://www.acuitykp.com/solutions/data-science/">Data Science</a></li><li><a href="https://www.acuitykp.com/solutions/market-research-and-insights/">Market Research and Insights</a></li><li><a href="https://www.acuitykp.com/solutions/research-publishing/">Research Publishing</a></li><li><a href="https://www.acuitykp.com/solutions/business-information-services/">Library Services(BIS)/ Knowledge Management</a></li></ul></div><div class="sub-nav-hldr"><h6>Industry coverage</h6><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/energy-and-utilities/">Energy & Utilities</a></li><li><a href="https://www.acuitykp.com/solutions/technology-research-services/">Technology </a></li><li><a href="https://www.acuitykp.com/solutions/life-sciences-research/">Life Sciences </a></li><li><a href="https://www.acuitykp.com/solutions/metals-and-mining/">Metals & Mining</a></li></ul></div></div></li><li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="img-holder">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2017/05/spec.png" alt="">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/10/5-Specialized-Solutions.png" alt="" class="active">
+                                                </span>
+                                                <span>Specialised Solutions</span>
+                                            </a>
+                                            <div class="sub-nav-main">
+                                            <div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/portfolio-research-and-operations">Portfolio Research and Operations</a></li><li><a href="https://www.acuitykp.com/solutions/model-risk-management">Model Risk Management</a></li><li><a href="https://www.acuitykp.com/solutions/structured-finance-services">Structured Finance Services</a></li><li><a href="https://www.acuitykp.com/solutions/derivatives-modeling">Derivatives Modeling</a></li><li><a href="https://www.acuitykp.com/solutions/index-and-etf-solutions">Index and ETF Solutions</a></li><li><a href="https://www.acuitykp.com/solutions/macroeconomic-and-fx-research">Macroeconomic and FX Research</a></li></ul></div><div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/data-science">Data Science</a></li><li><a href="https://www.acuitykp.com/solutions/data-management-and-analytics">Data Management Solutions</a></li><li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions">Capital Market Technology Solutions</a></li></ul></div><li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="img-holder">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2017/08/Fund-Marketing-Supports-white.png" alt="">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/10/6-Fund-Marketing-Supports.png" alt="" class="active">
+                                                </span>
+                                                <span>Fund Marketing Support</span>
+                                            </a>
+                                            <div class="sub-nav-main">
+                                            <div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/consultant-database-updates">CDB Services</a></li><li><a href="https://www.acuitykp.com/solutions/rfp-services">RFP Support</a></li><li><a href="https://www.acuitykp.com/solutions/fund-factsheets-and-marketing-material">Fund Factsheets and Marketing Material</a></li><li><a href="https://www.acuitykp.com/solutions/digital-marketing-solutions">Digital Marketing Solutions</a></li><li><a href="https://www.acuitykp.com/solutions/client-reporting">Client Reporting</a></li><li><a href="https://www.acuitykp.com/solutions/investment-commentary">Investment and Fund Commentary</a></li></ul></div><div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/marketing-and-digital-solutions-for-wealth-managers">Marketing and Digital Solutions for Wealth Managers</a></li><li><a href="https://www.acuitykp.com/solutions/presales-and-marketing-support-for-commercial-banks">Presales and Marketing Support for Commercial Banks</a></li><li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions">Capital Market Technology Solutions</a></li></ul></div><li class="">
+                                            <a href="javascript:void(0)">
+                                                <span class="img-holder">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2018/05/Solution-icon-white.png" alt="">
+                                                    <img src="https://www.acuitykp.com/wp-content/uploads/2019/10/4-Compliance.png" alt="" class="active">
+                                                </span>
+                                                <span>Compliance Support</span>
+                                            </a>
+                                            <div class="sub-nav-main">
+                                            <div class="sub-nav-hldr"><ul class="sub-lst"><li><a href="https://www.acuitykp.com/solutions/central-compliance">Corporate Compliance</a></li><li><a href="https://www.acuitykp.com/solutions/forensic-compliance">Forensic Compliance</a></li><li><a href="https://www.acuitykp.com/solutions/kyc-and-client-due-diligence">KYC and Customer Due Diligence</a></li><li><a href="https://www.acuitykp.com/solutions/aml-transaction-monitoring">AML Transaction Monitoring</a></li><li><a href="https://www.acuitykp.com/solutions/investment-compliance">Investment Compliance Services</a></li><li><a href="https://www.acuitykp.com/solutions/capital-market-technology-solutions">Capital Market Technology Solutions</a></li></ul></div></ul></div>' id="dropdown_solutions_list">
+							<li class="lang-drop-hldr">
+								<a href="javascript:void(0);" class="lang-drop-button">
+									<svg width="16" height="16" viewBox="0 0 24 24" fill="none">
+										<path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm8 11c0 .7-.1 1.4-.3 2-.6-1.5-1.6-3.1-3-4.7l1.8-1.8c1 1.3 1.5 2.8 1.5 4.5zM6.5 6.5c1.3 0 3.6.8 6 2.9l-3.2 3.2C7.1 9.8 6.5 7.5 6.5 6.5zm8.1 5c2.3 2.7 2.9 5 2.9 6-1.3 0-3.6-.8-6-2.9l3.1-3.1zm1.9-6.1l-1.9 1.9c-1.6-1.4-3.2-2.4-4.7-3 .7-.2 1.3-.3 2-.3 1.8 0 3.3.5 4.6 1.4zM4 12c0-.7.1-1.4.3-2 .6 1.5 1.6 3.1 3 4.7l-1.8 1.8C4.5 15.2 4 13.7 4 12zm3.5 6.6l1.9-1.9c1.6 1.4 3.2 2.4 4.7 3-.7.2-1.3.3-2 .3-1.8 0-3.3-.5-4.6-1.4z" fill="#f4511e"></path>
+									</svg>
+									<span>EN</span>
+								</a>
+								<div class="lang-dropdown">
+									<ul>
+										<li>
+											<a href="https://www.acuitykp.com/china/">CN</a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li class="srch-holder">
+								<button type="button" class="srch-btn srchBtn">
+									<!-- <img src="https://www.acuitykp.com/wp-content/themes/maks/images/desktop-search.png" alt="desktop search">-->
+									<span class="img-bg"></span>
+								</button>
+
+								<form class="c-search-form" action="https://www.acuitykp.com/" method="get">
+									<input type="text" class="srch-txt" name="s" placeholder="Type and hit enter" value="">
+
+								<input type="hidden" id="_wpnonce" name="_wpnonce" value="314b2b869b" /><input type="hidden" name="_wp_http_referer" value="/solutions/sustainable-finance-investment-banking/" />								</form>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<form class="c-search-form" action="https://www.acuitykp.com/" method="get">
+			<div class="mob-form mob-srch-txt">
+				<input type="text" name="s" class="" placeholder="Type and hit enter" value="">
+				<button class="mob-form-button" type="submit"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/new-right.png"></button>
+			</div>
+			<input type="hidden" id="_wpnonce" name="_wpnonce" value="314b2b869b" /><input type="hidden" name="_wp_http_referer" value="/solutions/sustainable-finance-investment-banking/" />		</form>
+		<input type="hidden" id="base_url" value="https://www.acuitykp.com/wp-content/themes/maks">
+		<input type="hidden" value="https://www.acuitykp.com" id="site_url">
+				<input type="hidden" id="browser_name" value="Chrome">
+		<!-- END Header -->
+		<!-- Main Section -->
+		<article class="privy" id="main-section">
+	
+
+	<section class="comm-bnk new-banner-img-hldr">
+	<img class="new-banner-img" src="https://www.acuitykp.com/wp-content/uploads/2020/04/Sustainable-Finance-solution-page.jpg" alt="Sustainable Finance support and services">
+		<div class="wrapper sol-banner">
+			<h1 class="banner-txt">Sustainable Finance</h1>
+			<p>ESG strategies and financing solutions for investment banks</p>
+			                
+		</div>
+	</section>
+		<section class="solutions about-us">
+		<div class="sub-nav wrapper">
+			
+			
+				<div class="clearfix">
+					<p class="mob-top-select jumpDrop">Jump to <a href="javascript:void(0)"><span>OVERVIEW</span> <img src="https://www.acuitykp.com/wp-content/themes/maks/images/green-down-arw.png" alt=""></a></p>
+					<ul class="top-1st topfirst" id="top-1st">
+						<li class="" ><a href="#eleven">Overview</a></li>
+						<li class=""><a href="#two">Who we serve</a></li>
+						<li class=""><a href="#ten">Support We Offer</a></li>
+						<li id="fiveholder"><a href="#five">Automation And Workflow</a></li>
+						<li id="sixholder"><a href="#single-solution-impact-story-section">Case Study</a></li>
+						<li id="sevenholder"><a href="#seven">In The News</a></li>
+						<li id="eightholder"><a href="#eight">Our Perspective</a></li>
+						<li id="nineholder"><a href="#nine">Our Experts</a></li>
+					</ul>
+				</div>
+			
+		</div>
+
+	</section>
+			<section id="eleven" class="white-block beat-overview fx-container ftr-blk section">
+			<div class="wrapper">
+				<p class="oview-heading">Sustainable Finance Solutions </p>
+			
+				
+					<div class="sol-new-blk clearfix full-blk">
+						<p id="tac-p">	<p><a href="https://acuitykp.com/sustainable-finance-the-new-frontier-for-investment-banking-growth/">Sustainable finance</a> has gained substantial impetus from the UN-sanctioned mandate on Sustainable Development Goals (SDGs) aimed at achieving global economic growth through environmentally and socially sustainable investments. Global businesses have identified a significant opportunity and are committing to sustainable projects and initiatives. Debt financing – particularly green, social and sustainability bonds – has emerged as the most popular means of funding. Sustainability; environmental, social and governance (ESG); and social impact investing would be at the heart of economic recovery from the pandemic.</p>  <p>Sustainable finance is set to become the next growth frontier for <a href="https://acuitykp.com/who-we-serve/corporate-and-investment-banks">investment banks</a>, backed by high bond issuance and ESG advisory.</p>   <p>Acuity Knowledge Partners enables investment banks and advisory firms to establish and grow their sustainable finance practices by providing a wide range of customised analysis and support. Our support areas cover the entire spectrum of financing products along the sustainable financial investment lifecycle. We play a vital role as a valued partner for investment banks, providing thought leadership, research and analytics as they embark to meet growing demand for sustainable financing.</p> </p>
+					</div>
+
+			</div>
+		</section>	
+	
+	<section id="two" class="white-block we-serve-02 solution-top fx-container">
+		<div class="wrapper">
+			<h2 class="second-heading tac">Who <span>we serve</span></h2>
+			<ul class="grid-05">
+			<li>
+					<a href="../../who-we-serve/corporate-and-investment-banks" class="main-lnk">
+						<span class="img-holder">
+							<img src="https://www.acuitykp.com/wp-content/uploads/2017/04/5-2-Corporate-and-investment-bank.png" alt="">
+							<img src="https://www.acuitykp.com/wp-content/uploads/2017/04/5-1-Corporate-and-investment-bank.png" alt="" class="active">
+						</span>
+						Corporate and Investment Banks
+					</a>
+				</li><li>
+					<a href="../../who-we-serve/specialist-advisory-firms" class="main-lnk">
+						<span class="img-holder">
+							<img src="https://www.acuitykp.com/wp-content/uploads/2017/04/8-2-Specialist.png" alt="">
+							<img src="https://www.acuitykp.com/wp-content/uploads/2017/04/8-1-Specialist.png" alt="" class="active">
+						</span>
+						Specialist Advisory Firms
+					</a>
+				</li>			</ul>
+		</div>
+	</section>
+		<section id="ten" class="support_we_offer fx-container notmobilesupportweoffer">
+			<div class="wrapper">
+
+										<h2 class="heading_support_we_offer">Sustainable Finance Solutions & Support we Offer </h2>
+	
+										<div class="clearfix_tab">
+							<div class="tab_heading_container">
+								
+								<ol>
+															 <li class="active"><div class="heady"><a class="firsta"><</a>
+<span>1</span><a href="javascript:void(0);" data-id="show_1" class="support_we_offer_tab_heading"><span class="left">Solutions</span><span class="img-holder right">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/grn-pluse.png" alt="">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/acc-close.png" alt="" class="active">
+									</span></a><a class="seconda">></a></div></li>
+												 <li class=""><div class="heady"><a class="firsta"><</a>
+<span>2</span><a href="javascript:void(0);" data-id="show_2" class="support_we_offer_tab_heading"><span class="left">Coverage</span><span class="img-holder right">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/grn-pluse.png" alt="">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/acc-close.png" alt="" class="active">
+									</span></a><a class="seconda">></a></div></li>
+						
+					   									
+								
+								</ol>
+							</div>
+							<div class="tab_content_container">
+								
+					   
+					   				<div class="show_1 active">
+									<ul>
+																			<li><a href="javascript:void(0);">Identifying sector-wise ESG taxonomy</a></li>
+
+																							<li><a href="javascript:void(0);">Climate change framework analysis</a></li>
+
+																							<li><a href="javascript:void(0);">SDG impact analysis</a></li>
+
+																							<li><a href="javascript:void(0);">Analysis on sustainable initiatives</a></li>
+
+																							<li><a href="javascript:void(0);">Green/sustainable bonds – opportunity analysis</a></li>
+
+																							<li><a href="javascript:void(0);">Green/sustainable bonds – market updates</a></li>
+
+																							<li><a href="javascript:void(0);">Benchmarking ESG standards and regulations</a></li>
+
+																							<li><a href="javascript:void(0);">ESG market updates and newsletters</a></li>
+
+																							<li><a href="javascript:void(0);">ESG scoring and rating</a></li>
+
+																							<li><a href="javascript:void(0);">Thematic study</a></li>
+
+																				</ul>
+								</div>
+
+								
+					   				<div class="show_2 ">
+									<ul>
+																			<li><a href="javascript:void(0);">ESG strategy</a></li>
+
+																							<li><a href="javascript:void(0);">ESG advisory </a></li>
+
+																							<li><a href="javascript:void(0);">ESG reports</a></li>
+
+																							<li><a href="javascript:void(0);">Green/social bonds</a></li>
+
+																							<li><a href="javascript:void(0);">Sustainable bonds</a></li>
+
+																							<li><a href="javascript:void(0);">Blended finance</a></li>
+
+																							<li><a href="javascript:void(0);">Green loans</a></li>
+
+																							<li><a href="javascript:void(0);">Impact finance</a></li>
+
+																				</ul>
+								</div>
+
+																					</div>
+						</div>
+
+
+			</div>
+	</section>
+	<section id="ten" class="support_we_offer fx-container mobilesupportweoffer">
+			<div class="wrapper">
+
+										<h2 class="heading_support_we_offer">Sustainable Finance Solutions & Support we Offer </h2>
+	
+										<div class="clearfix_tab">
+							<div class="tab_heading_container">
+								
+								<ol>
+															 <li class="active"><div class="heady"><a class="firsta"><</a>
+<span>1</span><a href="javascript:void(0);" data-id="show_1" class="support_we_offer_tab_heading"><span class="left">Solutions</span><span class="img-holder right">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/grn-pluse.png" alt="">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/acc-close.png" alt="" class="active">
+									</span></a><a class="seconda">></a><div class="extracontentdesc"></div></div></li>
+												 <li class=""><div class="heady"><a class="firsta"><</a>
+<span>2</span><a href="javascript:void(0);" data-id="show_2" class="support_we_offer_tab_heading"><span class="left">Coverage</span><span class="img-holder right">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/grn-pluse.png" alt="">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/acc-close.png" alt="" class="active">
+									</span></a><a class="seconda">></a><div class="extracontentdesc"></div></div></li>
+						
+					   									
+								
+								</ol>
+							</div>
+							<div class="tab_content_container">
+								
+					   
+					   				<div class="show_1 active">
+									<ul>
+																			<li><a href="javascript:void(0);">Identifying sector-wise ESG taxonomy</a></li>
+
+																							<li><a href="javascript:void(0);">Climate change framework analysis</a></li>
+
+																							<li><a href="javascript:void(0);">SDG impact analysis</a></li>
+
+																							<li><a href="javascript:void(0);">Analysis on sustainable initiatives</a></li>
+
+																							<li><a href="javascript:void(0);">Green/sustainable bonds – opportunity analysis</a></li>
+
+																							<li><a href="javascript:void(0);">Green/sustainable bonds – market updates</a></li>
+
+																							<li><a href="javascript:void(0);">Benchmarking ESG standards and regulations</a></li>
+
+																							<li><a href="javascript:void(0);">ESG market updates and newsletters</a></li>
+
+																							<li><a href="javascript:void(0);">ESG scoring and rating</a></li>
+
+																							<li><a href="javascript:void(0);">Thematic study</a></li>
+
+																				</ul>
+								</div>
+
+								
+					   				<div class="show_2 ">
+									<ul>
+																			<li><a href="javascript:void(0);">ESG strategy</a></li>
+
+																							<li><a href="javascript:void(0);">ESG advisory </a></li>
+
+																							<li><a href="javascript:void(0);">ESG reports</a></li>
+
+																							<li><a href="javascript:void(0);">Green/social bonds</a></li>
+
+																							<li><a href="javascript:void(0);">Sustainable bonds</a></li>
+
+																							<li><a href="javascript:void(0);">Blended finance</a></li>
+
+																							<li><a href="javascript:void(0);">Green loans</a></li>
+
+																							<li><a href="javascript:void(0);">Impact finance</a></li>
+
+																				</ul>
+								</div>
+
+																					</div>
+						</div>
+
+
+			</div>
+	</section>
+	<!-- Tools -->
+		<!-- END  04-08-2020 -->
+		<!-- Testimonials section -->
+	<!-- END Testimonials section -->
+
+	
+
+	<!-- 19-08-2020 BEAT -->
+	<section id="five" class="beat-tech-hldr fx-container">
+		<div class="wrapper">
+			<h3 class="tac"><span>Automation and workflow management platforms</span></h3>
+			
+			<div class="beat-tech-slider owl-carousel beatTechSlider">
+			
+					<div class="ech-beat-tech">
+						<div class="img-hldr">
+							<img src="https://www.acuitykp.com/wp-content/uploads/2020/09/BEAT-TombstoneHub.png" alt="https://www.acuitykp.com/wp-content/uploads/2020/09/BEAT-TombstoneHub.png">
+						</div>
+						<div class="cnt-hldr">
+							<p>Automate the creation of fully formatted credential slides in any template instantly</p>
+							<div class="btn-hldr">
+								<a href="https://www.acuitykp.com/beat/automated-tombstone-generator/" class="secondary-btn">Request a Demo</a>
+							</div>
+						</div>
+					</div>
+			
+					<div class="ech-beat-tech">
+						<div class="img-hldr">
+							<img src="https://www.acuitykp.com/wp-content/uploads/2020/09/BEAT-FilingsHub.png" alt="https://www.acuitykp.com/wp-content/uploads/2020/09/BEAT-FilingsHub.png">
+						</div>
+						<div class="cnt-hldr">
+							<p>Centralized downloads of real-time company filings on a single platform (US, UK, Canada, Japan and more)</p>
+							<div class="btn-hldr">
+								<a href="https://www.acuitykp.com/beat/filingshub/" class="secondary-btn">Request a Demo</a>
+							</div>
+						</div>
+					</div>
+			
+					<div class="ech-beat-tech">
+						<div class="img-hldr">
+							<img src="https://www.acuitykp.com/wp-content/uploads/2020/09/BEAT-Aura.png" alt="https://www.acuitykp.com/wp-content/uploads/2020/09/BEAT-Aura.png">
+						</div>
+						<div class="cnt-hldr">
+							<p>Powerful financial data extraction and standardisation tool backed by strong artificial intelligence (AI)-/machine learning (ML)-based training algori</p>
+							<div class="btn-hldr">
+								<a href="https://www.acuitykp.com/beat/financial-data-extractor/" class="secondary-btn">Request a Demo</a>
+							</div>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- END 19-08-2020 BEAT -->
+
+
+
+<section class="introSlider intro-sec covid-adv owl-carousel">
+</section>
+
+	
+
+		<section class="we-are-diff">
+		<div class="wrapper">
+			<h3 class="tac">How <span>we are different</span></h3>
+			<div class="new-grid">
+						     <div class="diff-blk bx-shdw">
+			     	<div class="img-hldr">
+			     		<img src="https://www.acuitykp.com/wp-content/uploads/2021/06/Strategic-and-consultative-approach.jpg" alt="STRATEGIC AND CONSULTATIVE APPROACH">
+			     	</div>
+			     	<div class="cnt-hldr">
+				     	<h6 class="heading">STRATEGIC AND CONSULTATIVE APPROACH</h6>
+						<p class="diff-txt">Consultative approach to understand your requirements and develop customised solutions across  sustainable finance support </p>
+					</div>
+				 </div>
+
+						     <div class="diff-blk bx-shdw">
+			     	<div class="img-hldr">
+			     		<img src="https://www.acuitykp.com/wp-content/uploads/2021/06/One-stop-shop-for-sustainable-finance-support.jpg" alt="ONE-STOP SHOP FOR SUSTAINABLE FINANCE SUPPORT">
+			     	</div>
+			     	<div class="cnt-hldr">
+				     	<h6 class="heading">ONE-STOP SHOP FOR SUSTAINABLE FINANCE SUPPORT</h6>
+						<p class="diff-txt">Comprehensive support across the entire spectrum of financing products along the sustainable financial investment lifecycle </p>
+					</div>
+				 </div>
+
+						     <div class="diff-blk bx-shdw">
+			     	<div class="img-hldr">
+			     		<img src="https://www.acuitykp.com/wp-content/uploads/2021/06/Bespoke-and-thematic-based-research.jpg" alt="BESPOKE AND THEMATIC-BASED RESEARCH">
+			     	</div>
+			     	<div class="cnt-hldr">
+				     	<h6 class="heading">BESPOKE AND THEMATIC-BASED RESEARCH</h6>
+						<p class="diff-txt">Support on developing market-based solutions to structure capital issuances and address environmental and social challenges </p>
+					</div>
+				 </div>
+
+						     <div class="diff-blk bx-shdw">
+			     	<div class="img-hldr">
+			     		<img src="https://www.acuitykp.com/wp-content/uploads/2021/06/Strong-integration-and-high-business-value-2.jpg" alt="STRONG INTEGRATION AND HIGH BUSINESS VALUE">
+			     	</div>
+			     	<div class="cnt-hldr">
+				     	<h6 class="heading">STRONG INTEGRATION AND HIGH BUSINESS VALUE</h6>
+						<p class="diff-txt">Strong analytical capabilities and industry expertise coupled with high integration with client teams enable us to bring high business value for our customers</p>
+					</div>
+				 </div>
+
+					  </div>
+		</div>
+	</section>
+
+	<section class="talk-to-expert">
+        <div class="wrapper">            
+            <div class="new-grid">            
+                 <div class="diff-blk">
+                     <div class="cnt-hldr">
+                         <h3 class="diff">Talk to <span> an expert</span></h3>
+                        <p class="txt">See how we can help you improve your processes and make you <br/> more efficient.</p>
+                        
+                     </div>
+                     <div class="expert-btn">
+                     <a href="javascript:void(0);" class="experts-btn">CONNECT WITH EXPERT</a>
+                    </div>
+                 </div>            
+          </div>
+        </div>
+    </section>
+
+	<section class="white-block we-done fx-container" id="single-solution-impact-story-section">
+		<div class="wrapper">
+			<h4 class="second-heading tac">What <span>we have done</span></h4>
+			<div class="done-slid-hldr">
+				<div class="swiper-container doneSlider">
+					<div class="swiper-wrapper" id="single-solution-impact-story-div">
+						  
+										<div class="swiper-slide">
+											<div class="ech-sld">
+												<span class="img-holder"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/proud-01.jpg" alt="Support for Consulting and Corporate Firms"></span>
+												<div class="cnt-holder">
+													<h5>ESG support for capital market division of a London based global investment bank</h5>
+													<div class="inr-cnt">
+														<h6>What we are proud of</h6>
+														<div class="cnt clearfix">
+																													<div class="">
+																<p class="val">20%</p>
+																<p class="txt">Saving  of time of senior bankers</p>
+															</div>
+																													<div class="">
+																<p class="val">18-20%</p>
+																<p class="txt"> more client-facing time </p>
+															</div>
+																												</div>
+													</div>
+													<div class="lnk">
+														<a href="https://www.acuitykp.com/our-impact-stories/esg-support-for-investment-banks/" class="green-lnk" target="_blank">Read more</a>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+								   
+										<div class="swiper-slide">
+											<div class="ech-sld">
+												<span class="img-holder"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/proud-01.jpg" alt="Support for Consulting and Corporate Firms"></span>
+												<div class="cnt-holder">
+													<h5>Sustainable finance support for a global investment bank</h5>
+													<div class="inr-cnt">
+														<h6>What we are proud of</h6>
+														<div class="cnt clearfix">
+																													<div class="">
+																<p class="val"></p>
+																<p class="txt">Bespoke solutions for sustainable investing and green finance</p>
+															</div>
+																													<div class="">
+																<p class="val"></p>
+																<p class="txt">Support to senior client MDs in London and Singapore on knowledge initiative projects and value-added insights</p>
+															</div>
+																												</div>
+													</div>
+													<div class="lnk">
+														<a href="https://www.acuitykp.com/our-impact-stories/sustainable-finance-support-for-a-global-investment-bank/" class="green-lnk" target="_blank">Read more</a>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+								  						
+					</div>
+				</div>
+				<div class="swiper-pagination done-pagination"></div>
+				<div class="done-swiper-button-next">
+					<img src="https://www.acuitykp.com/wp-content/themes/maks/images/right-slide-arw-02.png" alt="">
+				</div>
+        		<div class="done-swiper-button-prev">
+        			<img src="https://www.acuitykp.com/wp-content/themes/maks/images/left-slide-arw-02.png" alt="">
+        		</div>
+			</div>
+			<div class="tac">
+				<a class="green-lnk our_solutions_post_id_navigation_class"  id="our_solutions_post_id_navigation_class_a">See All Case Studies</a>
+				<!-- <a href="https://www.acuitykp.com/our-impact/?page_id=10207" class="green-lnk">See All Case Studies</a> -->
+			</div>
+		</div>
+	</section>
+
+<!-- 03-06-2021 -->
+	<section id="seven" class="impact-sec new-news-sec sol-news-sec newsy-section fx-container">
+		<div class="wrapper">
+			<h3 class="tac second-heading">In the <span>News</span></h3>
+			<div class="ccsp-lst">
+														<div class="ccsp-ech">
+											<div class="img-hldr active">
+												<img src="https://www.acuitykp.com/wp-content/uploads/2021/07/307x190px-Media-Release-Thumb.jpg" alt="">
+												<span class="yellow-ships">NerdWallet</span>
+											</div>
+											<div class="cnt-hldr">
+												<h5>“What’s a SPAC? Everything to Know About The Wall Street Trend”</h5>
+												<a href="https://www.acuitykp.com/news/media-coverage/whats-a-spac-everything-to-know-about-the-wall-street-trend/" class="secondary-btn" target="_blank">Read More</a>
+											</div>
+										</div>
+				 										<div class="ccsp-ech">
+											<div class="img-hldr active">
+												<img src="https://www.acuitykp.com/wp-content/uploads/2021/06/Bloomberg.jpg" alt="">
+												<span class="yellow-ships">Bloomberg</span>
+											</div>
+											<div class="cnt-hldr">
+												<h5>“More Evidence of How Frothy SPACs Can Be”</h5>
+												<a href="https://www.acuitykp.com/news/media-coverage/more-evidence-of-how-frothy-spacs-can-be/" class="secondary-btn" target="_blank">Read More</a>
+											</div>
+										</div>
+				 										<div class="ccsp-ech">
+											<div class="img-hldr active">
+												<img src="https://www.acuitykp.com/wp-content/uploads/2021/06/efinancialcareers-1.jpg" alt="">
+												<span class="yellow-ships">eFinancialCareers</span>
+											</div>
+											<div class="cnt-hldr">
+												<h5>“The company hiring 1,200 people to help junior bankers in 2021”</h5>
+												<a href="https://www.acuitykp.com/news/media-coverage/the-company-hiring-1200-people-to-help-junior-bankers-in-2021/" class="secondary-btn" target="_blank">Read More</a>
+											</div>
+										</div>
+				 				
+			</div>
+			<input type="hidden" name="total_pages" value="2" class="total_pages" id="total_pages_media_coverage">
+										 
+						<div class="tac">
+				<input type="hidden" name="pageid" value="1" id="media_coverage_page_id">
+				<!-- <input type="hidden" id="category_type" name="category_type" value="press-release"> -->
+				<a  id="load_more_media_coverage" class="blue-btn">Load More</a>
+			</div>
+						
+		</div>
+	</section>
+	<!-- END 03-06-2021 -->
+	
+<section id="eight" class="our_prespective_new_section fx-container">
+	<div class="wrapper">
+		<h4>Our Perspective <span>on Sustainable Finance</span></h4>
+		<div class="our_prespective_new_section_card">
+																<div class="our_prespective_new_section_child_card" >
+				<div class="our_prespective_new_banner">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2023/01/Landing-page-Bnr-2.jpg" alt="Carbon pricing – understanding the dynamics and latest trends" class="our_prespective_new_banner_images">
+													<div class="our_prespective_cate">Blog</div>
+					<div class="our_prespective_strip">
+															<a href="https://www.acuitykp.com/?s=Carbon markets&skip=yes">Carbon markets</a>
+														</div>
+				</div>
+				<a class="our_prespective_new_content" href="https://www.acuitykp.com/blog/carbon-pricing-trends/">
+					<p>Carbon pricing – understanding the dynamics and latest trends</p>
+					<button>Read More</button>
+				</a>
+			</div>
+			 													<div class="our_prespective_new_section_child_card" >
+				<div class="our_prespective_new_banner">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2022/12/Landing-page-Banner-1600x440-1.jpg" alt="The impact of Sustainable Finance Disclosure Regulation" class="our_prespective_new_banner_images">
+													<div class="our_prespective_cate">Insights</div>
+					<div class="our_prespective_strip">
+															<a href="https://www.acuitykp.com/?s=carbon emissions&skip=yes">carbon emissions</a>
+																			<a href="https://www.acuitykp.com/?s=ESG&skip=yes">ESG</a>
+														</div>
+				</div>
+				<a class="our_prespective_new_content" href="https://www.acuitykp.com/market-guide/the-sustainable-finance-disclosure-regulation/">
+					<p>The impact of Sustainable Finance Disclosure Regulation</p>
+					<button>Read More</button>
+				</a>
+			</div>
+			 													<div class="our_prespective_new_section_child_card" >
+				<div class="our_prespective_new_banner">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2022/08/Landing-Pg-Banner-1600x432px-12.jpg" alt="The Middle East – at the core of global ESG development?" class="our_prespective_new_banner_images">
+													<div class="our_prespective_cate">Blog</div>
+					<div class="our_prespective_strip">
+															<a href="https://www.acuitykp.com/?s=ESG&skip=yes">ESG</a>
+																			<a href="https://www.acuitykp.com/?s=green bonds&skip=yes">green bonds</a>
+														</div>
+				</div>
+				<a class="our_prespective_new_content" href="https://www.acuitykp.com/blog/esg-investment-in-the-middle-east/">
+					<p>The Middle East – at the core of global ESG development?</p>
+					<button>Read More</button>
+				</a>
+			</div>
+			 													<div class="our_prespective_new_section_child_card" >
+				<div class="our_prespective_new_banner">
+													<img src="https://www.acuitykp.com/wp-content/uploads/2022/01/Role-of-banking-Landing-page-Bnr-1.jpg" alt="The role of banking in transitioning to a sustainable economy" class="our_prespective_new_banner_images">
+													<div class="our_prespective_cate">Blog</div>
+					<div class="our_prespective_strip">
+															<a href="https://www.acuitykp.com/?s=blue bonds&skip=yes">blue bonds</a>
+														</div>
+				</div>
+				<a class="our_prespective_new_content" href="https://www.acuitykp.com/blog/the-role-of-banking-in-transitioning-to-a-sustainable-economy/">
+					<p>The role of banking in transitioning to a sustainable economy</p>
+					<button>Read More</button>
+				</a>
+			</div>
+			 			
+			
+		</div>
+		<input type="hidden" name="total_pages" value="4" id="total_prespective_pages">
+		<input type="hidden" name="pageid" value="1" id="page_prespective_id">
+			
+
+
+			
+		<a id="load_new_prespective" class="load_new_prespective">Load More</a>
+			
+	</div>
+</section>
+	
+
+	<section id="nine" class="exprt-blk white-block fx-container">
+		<div class="wrapper">
+			<h3 class="tac">Meet our <span>experts</span></h3>
+			<div class="lead-sld-hldr show-ex-arrow">
+				<div class="swiper-container leadSlider">
+					<div class="swiper-wrapper">
+						   
+						<div class="swiper-slide lead-ech">
+							<div class="lead-info">
+								<div class="head clearfix">
+									<a href="javascript:void(0)" class="right leadClose">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-close.png" alt="">
+									</a>
+									<h6>Anish Ailawadi</h6>
+									<p class="dec">Senior Director, Investment Banking</p>
+								</div>
+								<div class="cnt">
+									<p><p class="mb20">Anish has been with Acuity Knowledge Partners for over 13 years and presently heads the Investment Banking vertical. He is based out of our Gurgaon office and oversees delivery teams and client engagements for various bulge-bracket banks, mid-size banks, regional banks, advisory and boutique firms across M&A, Industry Coverage, Debt Capital Markets, Equity Capital Markets, Loan Syndications and Leveraged Finance. During his tenure, he also set up a shared services center for one of his clients in India. Anish is a Chartered Accountant from the Institute of Chartered Accountants of India and has done his Bachelors in Commerce from Delhi University.</p></p>
+								</div>
+								<div class="foot">
+									<a href="https://www.linkedin.com/in/anish-ailawadi-608339a/" target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-linkedin.png" alt=""></a>
+								</div>
+							</div>
+							<a href="https://www.acuitykp.com/experts/anish-ailawadi/" target="_blank">
+
+							<span class="lead-hld">
+								<img src="https://www.acuitykp.com/wp-content/uploads/2017/06/Anish-Ailawadi-1.png" alt="Anish Ailawadi">
+							</span>
+							</a>
+							<div class="lead-grn clearfix">
+								<div class="left">
+									<a href="https://www.acuitykp.com/experts/anish-ailawadi/" target="_blank">
+									<h6>Anish Ailawadi</h6>
+									<p>Senior Director, Investment Banking</p>
+									</a>
+								</div>
+								<div class="right">
+									<a href="https://www.acuitykp.com/experts/anish-ailawadi/" id="" class="" target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-pluse.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+							   
+						<div class="swiper-slide lead-ech">
+							<div class="lead-info">
+								<div class="head clearfix">
+									<a href="javascript:void(0)" class="right leadClose">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-close.png" alt="">
+									</a>
+									<h6>Adrian Wright</h6>
+									<p class="dec">Managing Director, Investment Banking, Private Equity and Consulting Business Development</p>
+								</div>
+								<div class="cnt">
+									<p><p class="mb20">Adrian leads Business Development across Investment Banking, Private Equity and Consulting clients in EMEA and APAC. He has 20 years’ experience working in the financial services industry, having spent 13 years working in Equity Capital Markets for Rothschild and RBS, before moving to Acuity Knowledge Partners in 2013. He has a deep knowledge of financial markets, having originated and executed over USD50bn of ECM transactions across a wide range of sectors, products and geographies. He has extensive experience working with and advising the majority of Investment Banking coverage and product groups, and leading global Private Equity firms. Adrian holds a MA (Hons Oxon) in Philosophy, Politics and Economics from the University of Oxford.</p></p>
+								</div>
+								<div class="foot">
+									<a href="https://www.linkedin.com/in/adrian-wright-9225ba15/" target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-linkedin.png" alt=""></a>
+								</div>
+							</div>
+							<a href="https://www.acuitykp.com/experts/adrian-wright/" target="_blank">
+
+							<span class="lead-hld">
+								<img src="https://www.acuitykp.com/wp-content/uploads/2017/09/Adrian.png" alt="Adrian Wright">
+							</span>
+							</a>
+							<div class="lead-grn clearfix">
+								<div class="left">
+									<a href="https://www.acuitykp.com/experts/adrian-wright/" target="_blank">
+									<h6>Adrian Wright</h6>
+									<p>Managing Director, Investment Banking, Private Equity and Consulting Business Development</p>
+									</a>
+								</div>
+								<div class="right">
+									<a href="https://www.acuitykp.com/experts/adrian-wright/" id="" class="" target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-pluse.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+							   
+						<div class="swiper-slide lead-ech">
+							<div class="lead-info">
+								<div class="head clearfix">
+									<a href="javascript:void(0)" class="right leadClose">
+										<img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-close.png" alt="">
+									</a>
+									<h6>Marie Filotti</h6>
+									<p class="dec">Director, APAC Business Development</p>
+								</div>
+								<div class="cnt">
+									<p><p class="mb20">Marie Filotti heads APAC Business Development at Acuity Knowledge Partners and is based in Hong Kong. She joined the firm in 2018 after 13 years in Investment Banking and Capital Markets, mainly at Nomura (previously Lehman Brothers), and also worked on the corporate side, having run Investor Relations at a China-based ASX-listed gas company. She uses her experience in the industry to advise our clients on best practices in implementation of engagements across all sectors. Marie holds a BA from Yale University and a Masters in Finance from Sciences-Po Paris.</p></p>
+								</div>
+								<div class="foot">
+									<a href="https://hk.linkedin.com/in/mariefilotti" target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-linkedin.png" alt=""></a>
+								</div>
+							</div>
+							<a href="https://www.acuitykp.com/experts/marie-filotti/" target="_blank">
+
+							<span class="lead-hld">
+								<img src="https://www.acuitykp.com/wp-content/uploads/2019/11/Pic-Marie-270x320px.png" alt="Marie Filotti">
+							</span>
+							</a>
+							<div class="lead-grn clearfix">
+								<div class="left">
+									<a href="https://www.acuitykp.com/experts/marie-filotti/" target="_blank">
+									<h6>Marie Filotti</h6>
+									<p>Director, APAC Business Development</p>
+									</a>
+								</div>
+								<div class="right">
+									<a href="https://www.acuitykp.com/experts/marie-filotti/" id="" class="" target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-pluse.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+											</div>
+				</div>
+					<div class="lead-swiper-button-next">
+						<img src="https://www.acuitykp.com/wp-content/themes/maks/images/left-slide-arw-02.png" alt="">
+					</div>
+					<div class="lead-swiper-button-prev">
+						<img src="https://www.acuitykp.com/wp-content/themes/maks/images/right-slide-arw-02.png" alt="">
+					</div>	
+					<div class="lead-mn-cnt">
+					<div class="">
+							<a href="javascript:void(0)" class="cls"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-close.png" alt=""></a>
+							<div class="innr-cnt">
+								<div class="img-hldr">
+									<span class="img-holder">
+										<img src="" alt="blank" id="limage">
+									</span>
+									<div class="foot">
+										<a href="javascript:void(0)" target="_blank" id="llinkd"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/white-linkedin.png" alt=""></a>
+									</div>
+								</div>
+								<div class="cnt-hldr">
+									<h6 id="lname"></h6>
+									<p class="dec" id="ldesig"></p>
+									<div class="cnt" id="ldesc">
+										<p ></p>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>		
+			</div>
+		</div>
+	</section>
+		
+	<section class="serve-last" id="serve-last">
+		<div class="wrapper">
+			<div class="love-blk bx-shdw">
+				<div class="love-blk-cnt">
+					<div class="love-blk-main">
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script type="rocketlazyloadscript" charset="utf-8" data-rocket-type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script type="rocketlazyloadscript">
+  hbspt.forms.create({
+	region: "na1",
+	portalId: "6808207",
+	formId: "bdce2cb7-84d8-45d0-8346-6b1afc768d4a",
+	onFormSubmitted: function($form) {
+                                window.location = "https://www.acuitykp.com/solutions/thankyou.php?p="+10207;
+                 },
+});
+</script>
+
+					</div>
+					<div class="love-blk-success">
+						<span class="img-holder"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/success-img.png" alt=""></span>
+						<h6>Thank you for sharing your details</h6>
+						<div class="bottom">
+							<p>Share this on</p>
+							
+							<a href="https://www.linkedin.com/cws/share?url=https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/" class="soc-lnks" target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/link-grn.png" alt=""></a>
+							<a href="http://www.facebook.com/sharer/sharer.php?u=https://www.acuitykp.com/solutions/sustainable-finance-investment-banking/" class="soc-lnk"  target="_blank"><img src="https://www.acuitykp.com/wp-content/themes/maks/images/face-grn.png" alt=""></a>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		<script>window.addEventListener('DOMContentLoaded', function() {
+		var temp_array= [];
+		var post_id_solution='10207'; 
+	  temp_array[0]=17534;
+
+  temp_array[1]=17305;
+
+  temp_array[2]=11815;
+
+  temp_array[3]=7911;
+
+  temp_array[4]=8943;
+
+  temp_array[5]=21795;
+
+  temp_array[6]=22336;
+
+  temp_array[7]=20598;
+
+  temp_array[8]=17481;
+
+  temp_array[9]=16942;
+
+  temp_array[10]=16035;
+
+  temp_array[11]=14786;
+
+  temp_array[12]=11894;
+
+  temp_array[13]=11536;
+
+  temp_array[14]=9748;
+
+  temp_array[15]=9584;
+
+	var imageurl='https://www.acuitykp.com/wp-content/themes/maks/images/acc-open.png';
+	var anchors = ["eleven", "two", "ten", "five", "single-solution-impact-story-section","seven","eight","nine"];
+	              
+                    function arrayRemove(arr, value) {
+   return arr.filter(function(geeks){
+       return geeks != value;
+   });
+
+}
+
+		$(window).load(function(){
+			if($.trim($("#single-solution-impact-story-div").html())==""){
+				$("#single-solution-impact-story-section").remove();
+			}
+
+		    $('.know_more_overview_button1').click(function(){
+				$('.know_more_overview_button1').toggleClass('active');
+				$('.know_more_overview_button2').toggleClass('active');
+				$('.know_more_overview').toggleClass('active');
+			});
+
+			$('.know_more_overview_button2').click(function(){
+				$('.know_more_overview_button1').toggleClass('active');
+				$('.know_more_overview_button2').toggleClass('active');
+				$('.know_more_overview').toggleClass('active');
+			});
+
+			$('.app_click').click(function(){
+				$('.new_design_overview').addClass("active");
+				
+               	
+			});
+
+
+			$('.fixyvideo').click(
+				function(){
+					$('.new_design_overview').removeClass("active");
+					$('.fixyvideo iframe').attr('src', $('.fixyvideo iframe').attr('src'));
+				}
+			);
+
+			$('.fixyvideo iframe').click(
+				function(e){
+					e.stopPropagation();
+				}
+			);
+
+
+			$('.fixycontainerback').click(function(){
+				$('.new_design_overview').removeClass("active");
+				$('.fixyvideo iframe').attr('src', $('.fixyvideo iframe').attr('src'));
+
+			});
+		    
+ if ($('li').hasClass('appendimg')){
+				$('.appendimg').find('a').append(' <img src="'+imageurl+'" alt="">');
+			}
+
+                if ($('#five').exists()){
+                }else{
+                                var result1 = arrayRemove(anchors, "five");
+                                anchors=[];
+                                anchors=result1;
+                                $('#fiveholder').hide();
+                }
+				if ($('#single-solution-impact-story-section').exists()){
+                }else{
+                                var result1 = arrayRemove(anchors, "single-solution-impact-story-section");
+                                anchors=[];
+                                anchors=result1;
+                                $('#sixholder').hide();
+                }
+
+                if ($('#seven').exists()){
+
+                }else{
+                                var result2 = arrayRemove(anchors, "seven");
+                                anchors=[];
+                                anchors=result2;
+                                $('#sevenholder').hide();
+                }
+                
+                if ($('#eight').exists()){
+
+                }else{
+                                var result3 = arrayRemove(anchors, "eight");
+                                anchors=[];
+                                anchors=result3;
+                                $('#eightholder').hide();
+                }
+                
+                if ($('#nine').exists()){
+
+                }else{
+                                var result4 = arrayRemove(anchors, "nine");
+                                anchors=[];
+                                anchors=result4;
+                                $('#nineholder').hide();
+                }
+		    
+			if ($('#menu-item-475').exists()){
+				$('#menu-item-475').addClass('active');
+			}
+			
+			if(!($(".exprt-blk .swiper-slide").exists()))
+			{
+				$(".exprt-blk").hide();
+			}
+
+			if(($(".exprt-blk .swiper-slide").exists()) && ($(".exprt-blk .swiper-slide").length<2))
+			{
+				$(".lead-swiper-button-next").hide();
+				$(".lead-swiper-button-prev").hide();
+			}
+			// if($(".ccsp-lst").html().trim()=='')
+			// {
+			// 	$(".newsy-section").hide();
+			// }
+		});
+		$(document).ready(function(){
+			$(".question-answer.active").find(".answer").slideDown();
+
+			$(document).on("click",".chevclick",function(){
+				if($(this).parents(".question-answer").hasClass("active")){
+					$(this).parents(".question-answer").find(".answer").slideUp();
+					$(this).parents(".question-answer").removeClass("active");
+				}else{
+					$(".question-answer").find(".answer").slideUp();
+					$(".question-answer").removeClass("active");
+					$(this).parents(".question-answer").find(".answer").slideDown();
+					$(this).parents(".question-answer").addClass("active");
+				}
+			});
+		    
+		     $('.experts-btn').click(function(){
+                         $("html, body")
+                        .stop().animate({
+                        scrollTop: $('#serve-last').offset().top 
+                                }, 1000); 
+                                });
+		    
+			$('#country_list_name').val('');
+			var ajxurl='https://www.acuitykp.com/wp-content/themes/maks';
+			// var ajxurl='';
+			// var ajxurl='';
+			var solutionid=10207;
+				$('#load_more_media_coverage').click(function(){
+				
+				var pagesid=$('#media_coverage_page_id').val();
+				var newpageid=parseInt(pagesid)+1;
+				var post_per_page=3;
+				var post_type='press_release';
+				var category_type='media-coverage';
+				var solution_key='our_solution_expert';
+				//var category_type='press-release';
+				var total_pages=$('#total_pages_media_coverage').val();
+				if(total_pages==newpageid){
+					$('#load_more_media_coverage').hide();
+				}
+				
+				$('#media_coverage_page_id').val(newpageid);
+					$.ajax({
+					 url: ajxurl+"/loadmore.php",
+					 type:"post",
+					 data:"page_id="+newpageid+"&post_per_page="+post_per_page+"&post_type="+post_type+"&category_type="+category_type+"&solutionid="+solutionid+"&solution_key="+solution_key,
+					 success: function(result){
+						//alert(result);
+						 //addthis.layers.refresh();  
+						 $(".ccsp-lst").append(result);
+					
+				}
+				});
+			});
+			$('#load_more_button').click(function(){
+				var post_id='10207'; 
+				var pagesid=$('#page_id').val();
+				var newpageid=parseInt(pagesid)+1;
+				var post_per_page=3;
+				var post_type = 'solutions';
+				var total_pages=$('#total_pages').val();
+				if(newpageid==total_pages){
+					$("#load_more_button").hide();
+				}
+				$('#page_id').val(newpageid);
+					$.ajax({
+					 url: ajxurl+"/loadmore.php",
+					 type:"post",
+					 data:"page_id="+newpageid+"&post_per_page="+post_per_page+"&post_type="+post_type+"&post_id="+post_id,
+					 success: function(result){					
+						 $("#post_list").append(result);
+					}
+				});
+					
+			});
+
+			$('#load_new_prespective').click(function(){
+				
+				var pagesid=$('#page_prespective_id').val();
+				var newpageid=parseInt(pagesid)+1;
+				var post_per_page=4;
+				var post_type = 'solutions_new';
+				var total_pages=$('#total_prespective_pages').val();
+				if(newpageid==total_pages){
+					$("#load_new_prespective").hide();
+				}
+				$('#page_id').val(newpageid);
+					$.ajax({
+					 url: ajxurl+"/loadmore.php",
+					 type:"post",
+					 data:{page_id:newpageid,post_per_page:post_per_page,post_type:post_type,post_id:post_id_solution,temp_arrays:temp_array},
+					 success: function(result){					
+						 $(".our_prespective_new_section_card").append(result);
+						 $('#page_prespective_id').val(parseInt($('#page_prespective_id').val())+1);
+					}
+				});
+					
+			});
+
+			$('#faq_loadmore').click(function(){
+				
+				var pagesid=$('#page_faq_id').val();
+				var newpageid=parseInt(pagesid)+1;
+				var post_per_page=4;
+				var post_type = 'faq_new';
+				var total_pages=$('#total_faq_pages').val();
+				if(newpageid==total_pages){
+					$("#faq_loadmore").hide();
+				}
+				$('#page_faq_id').val(newpageid);
+					$.ajax({
+					 url: ajxurl+"/loadmore.php",
+					 type:"post",
+					 data:{page_id:newpageid,post_per_page:post_per_page,post_type:post_type,post_id:post_id_solution},
+					 success: function(result){					
+						 $(".faq-container").append(result);
+						 $('#page_faq_id').val(parseInt($('#page_faq_id').val())+1);
+					}
+				});
+					
+			});
+			
+			$(".our_solutions_post_id_navigation_class").click (function(){
+				var post_id_navigations = "10207";
+				$.removeCookie('post_id_navigation', { path: '/' });
+				$.cookie('post_id_navigation', post_id_navigations, { expires: 7, path: '/' });
+				window.location.href='https://www.acuitykp.com/our-impact/';
+			});
+			
+				var handleactivemenu=1;
+			var hrefs="";
+			
+
+			$("#top-1st li a").click(function (e) {
+				e.preventDefault();
+			    $(this).parent().parent().find('li').removeClass("active");
+			    $(this).parent().addClass("active");
+			   	hrefs=$(this).attr("href");
+			   	let menuheading = $(this).text();
+			   	$(".jumpDrop a span").text(menuheading);
+			   // handleactivemenu=2;
+			     if($(window).width() < 769 ){
+			                        	$(".topfirst").css({display:"none"});
+			                        	$(".about-ovly").hide();
+			                        } 
+			    $("html, body")
+                        .stop().animate({
+			        scrollTop: $(hrefs).offset().top - 150
+			    }, 1000);
+			        //alert($(hrefs).offset().top);               
+			       // return false;               // alert($(window).width());
+			});
+
+			$(".jumpDrop a").click(function (e) {
+                e.stopPropagation();
+                var t = $(this).offset();
+                (e = $(window)), $("#top-1st").css({ top: t.top - e.scrollTop() + 17, left: t.left - e.scrollLeft() - 100, display: "block",width:"235px" }), $(".about-ovly").show();
+            });
+
+			var nav = $('ul.top-1st');
+			  //  var anchors = ["eleven", "two", "ten", "five", "single-solution-impact-story-section","seven","eight","nine"];
+			    $(window).scroll(function (e) {
+			    	//if(handleactivemenu==1){
+			        $.each(anchors, function (i, v) {
+			            var anchor_offset = $("#" + v).offset().top - 180;
+			            
+			            if ($(window).scrollTop() >= anchor_offset) {
+			            	//alert($(window).scrollTop()+" "+anchor_offset);
+			                $("#top-1st li").removeClass("active");
+			                $('a[href=#' + v + ']').parent().addClass("active");
+			            }
+			        	
+			        });
+			       // }else{
+			        		//$("#top-1st li").removeClass("active");
+			        		//$('a[href='+ hrefs + ']').parent().addClass("active");
+			        	//	hrefs="";
+			        	//	handleactivemenu=1;
+			        	//	return;
+			        	//}
+			                      if ($(this).scrollTop() > 205) {
+                                                               if($(window).width() < 980){
+                                                               $(".privy").addClass("stick");
+                                                               }else if($(this).scrollTop() > 525){
+                                                                               if($(window).width() > 980){
+                                                                               $(".privy").addClass("stick");       
+                                                                               }
+                                                               }else{
+                                                                               $(".privy").removeClass("stick");
+                                                               }
+                                                        } else {
+                                                            $(".privy").removeClass("stick");
+                                                        }
+
+			    });
+
+			    $(".jumpDrop a").click(function (e) {
+                e.stopPropagation();
+                var t = $(this).offset();
+                (e = $(window)), $(".top-lst").css({ top: t.top - e.scrollTop() + 17, left: t.left - e.scrollLeft(), display: "block" }), $(".about-ovly").show();
+            });
+
+			     $(".about-ovly").click(function () {
+                $(this).hide(); $("#top-1st").css({display:"none"});
+            });
+
+	$(window).resize(function(){
+				if($(window).width() > 768){
+					//$(".top-2st").addClass('top-1st').removeClass('top-2st');
+					$(".topfirst").show();
+					$(".topfirst").css({position:"static",width:"100%"});
+			
+		}else{
+			$(".topfirst").hide();
+			$(".topfirst").css({position:"fixed"});
+		}
+
+	});
+
+$('.notmobilesupportweoffer .support_we_offer_tab_heading').click(function(){
+			$('.notmobilesupportweoffer .tab_heading_container ol li').removeClass("active");
+			$('.notmobilesupportweoffer .tab_content_container div').removeClass("active");
+			if (typeof $('.notmobilesupportweoffer .tab_heading_container ol li').find(".footy") !== "undefined") { 
+				if($(this).parent().parent().hasClass('footy')){
+					//$('.tab_heading_container ol li').find(".footy").css({{"display":"flex"});
+					$('.notmobilesupportweoffer .tab_heading_container ol li div').removeClass("active");
+					$(this).parent().addClass("active");
+				}else{
+				$('.notmobilesupportweoffer .tab_heading_container ol li').find(".footy").hide();
+				$(this).parents('li').find('.footy').find(">div.active").removeClass("active");
+				$(this).parents('li').find('.footy').find(">div:first-child").addClass("active");
+				}
+			}else{
+
+			}
+			$(this).parents('li').addClass("active");
+			let findclass=$(this).attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+
+			$("html, body")
+                        .stop().animate({
+			        scrollTop: $('.notmobilesupportweoffer '+findclass).offset().top - 150
+			    }, 1000);
+
+		});
+
+   $('.notmobilesupportweoffer .support_we_offer_tab_heading_detail').click(function(){
+   			$('.notmobilesupportweoffer  .tab_heading_container ol li').find(".footy").hide();
+			$('.notmobilesupportweoffer .tab_heading_container ol li').removeClass("active");
+			$('.notmobilesupportweoffer .tab_content_container div').removeClass("active");
+			$('.notmobilesupportweoffer .support_we_offer_tab_heading_detail').parents('li').removeClass("active");
+			$('.notmobilesupportweoffer .support_we_offer_tab_heading_detail').parents('li').find('.footy').removeClass("active");
+			$(this).parents('li').addClass("active");
+			$(this).parents('li').find('.footy').css({"display":"flex"});
+			$(this).parents('li').find('.footy').find("div.active").removeClass("active");
+			$(this).parents('li').find('.footy').find(">div:first-child").addClass("active");
+			let findclass=$(this).parents('li').find('.footy').find(">div:first-child").find("a").attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+
+			 $("html, body")
+                        .stop().animate({
+			        scrollTop: $('.notmobilesupportweoffer '+findclass).offset().top - 150
+			    }, 1000);
+
+
+	});
+
+		$('.notmobilesupportweoffer .firsta').click(function(){
+			$(this).parent().parent().removeClass("active");
+			$('.tab_content_container div').removeClass("active");
+			if($(this).parent().parent().prev().length){
+			$(this).parent().parent().prev().addClass("active");
+			if($(this).parent().parent().prev().find("a").hasClass('support_we_offer_tab_heading_detail')){
+				$(this).parent().parent().prev().find(".footy").css({"display":"flex"});
+				$(this).parent().parent().prev().find(".footy").find("div.active").removeClass("active");
+				$(this).parent().parent().prev().find(".footy").find(">div:first-child").addClass("active");
+			let findclass=$(this).parent().parent().prev().find(".footy").find(">div:first-child").find("a").attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+			}else{
+			let findclass=$(this).parent().parent().prev().find('.support_we_offer_tab_heading').attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+			}
+
+			
+			}else{
+			if($(this).parent().parent().parent().find("li:last-child").find("a").hasClass('support_we_offer_tab_heading_detail')){
+				$(this).parent().parent().parent().find("li:last-child").addClass("active");
+				$(this).parent().parent().parent().find("li:last-child").find(".footy").css({"display":"flex"});
+				$(this).parent().parent().parent().find("li:last-child").find(".footy").find("div.active").removeClass("active");
+				$(this).parent().parent().parent().find("li:last-child").find(".footy").find(">div:first-child").addClass("active");
+			let findclass=$(this).parent().parent().parent().find("li:last-child").find(".footy").find(">div:first-child").find("a").attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+
+			}else{$(this).parent().parent().parent().find("li:last-child").addClass("active");
+			let findclass=$(this).parent().parent().parent().find("li:last-child").find('.support_we_offer_tab_heading').attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+			}
+			}
+
+
+			$("html, body")
+                        .stop().animate({
+			        scrollTop: $('.notmobilesupportweoffer .tab_heading_container').offset().top - 150
+			    }, 1000); 
+
+			
+		});
+
+		$('.notmobilesupportweoffer .seconda').click(function(){
+			$(this).parent().parent().removeClass("active");
+			$('.notmobilesupportweoffer .tab_content_container div').removeClass("active");
+			if($(this).parent().parent().next().length){
+			$(this).parent().parent().next().addClass("active");
+			if($(this).parent().parent().next().find("a").hasClass('support_we_offer_tab_heading_detail')){
+				$(this).parent().parent().next().find(".footy").css({"display":"flex"});
+				$(this).parent().parent().next().find(".footy").find("div.active").removeClass("active");
+				$(this).parent().parent().next().find(".footy").find(">div:first-child").addClass("active");
+			let findclass=$(this).parent().parent().next().find('.support_we_offer_tab_heading').attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+			}else{
+			let findclass=$(this).parent().parent().next().find('.support_we_offer_tab_heading').attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+			}
+			}else{
+			if($(this).parent().parent().parent().find("li:first-child").find("a").hasClass('support_we_offer_tab_heading_detail')){
+				$(this).parent().parent().parent().find("li:first-child").addClass("active");
+				$(this).parent().parent().parent().find("li:first-child").find(".footy").css({"display":"flex"});
+				$(this).parent().parent().parent().find("li:first-child").find(".footy").find("div.active").removeClass("active");
+				$(this).parent().parent().parent().find("li:first-child").find(".footy").find(">div:first-child").addClass("active");
+			let findclass=$(this).parent().parent().parent().find("li:first-child").find(".footy").find(">div:first-child").find("a").attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+
+			}else{$(this).parent().parent().parent().find("li:first-child").addClass("active");
+			let findclass=$(this).parent().parent().parent().find("li:first-child").find('.support_we_offer_tab_heading').attr('data-id');
+			findclass='.'+findclass;
+			$(findclass).addClass('active');
+			}
+			}
+
+			$("html, body")
+                        .stop().animate({
+			        scrollTop: $('.notmobilesupportweoffer .tab_heading_container').offset().top - 150
+			    }, 1000); 
+
+			
+		});
+
+			if($('.mobilesupportweoffer .tab_heading_container li.active').hasClass("detailheading")){
+				var dataid5=$(this).find('.support_we_offer_tab_heading').attr("data-id");
+				$('.mobilesupportweoffer .tab_heading_container li.active').find("div.active").find('.extracontentdesc').html("");
+				$('.mobilesupportweoffer .tab_heading_container li.active').find("div.active").find('.extracontentdesc').slideUp();
+				$('.mobilesupportweoffer .tab_heading_container li.active').find("div.active").find('.extracontentdesc').html($('.mobilesupportweoffer .'+dataid5).html());
+				$('.mobilesupportweoffer .tab_heading_container li.active').find("div.active").find('.extracontentdesc').slideDown();
+			}else if($('.tab_heading_container li.active').hasClass("active")){
+				var dataid4=$(this).find('.support_we_offer_tab_heading').attr("data-id");
+				$('.mobilesupportweoffer .tab_heading_container li.active').find(".heady").find('.extracontentdesc').html("");
+				$('.mobilesupportweoffer .tab_heading_container li.active').find(".heady").find('.extracontentdesc').slideUp();
+				$('.mobilesupportweoffer .tab_heading_container li.active').find(".heady").find('.extracontentdesc').html($('.mobilesupportweoffer .'+dataid4).html());
+				$('.mobilesupportweoffer .tab_heading_container li.active').find(".heady").find('.extracontentdesc').slideDown();
+			}
+
+			$('.mobilesupportweoffer .support_we_offer_tab_heading').click(function(){
+				
+				if(!$(this).parents('li').hasClass('onlylink')){
+				if($(this).parents('li').hasClass('active')){
+					if($(this).parents('div').hasClass('footy')){
+						if($(this).parent().hasClass('active')){
+							
+							$(this).parents('li').find('.extracontentdesc').slideUp();
+							var remove3=$(this).parent();
+							var remove4=$(this).parents('li');
+							setTimeout(function() {	remove3.removeClass('active');remove4.removeClass('active');}, 500);
+							// $(this).parent().removeClass('active');
+							// $(this).parents('li').removeClass('active');
+							
+						}else{
+							$(this).parents('.footy').find('div.active').find('.extracontentdesc').slideUp();
+							var remove2=$(this).parents('.footy').find('div.active');
+							var add2=$(this).parent();
+							var dataid3=$(this).attr("data-id");
+								$(this).parent().find('.extracontentdesc').html("");
+								$(this).parent().find('.extracontentdesc').slideUp();
+								$(this).parent().find('.extracontentdesc').html($('.mobilesupportweoffer .'+dataid3).html());
+								//$(this).parent().find('.extracontentdesc').slideDown();
+
+							var add8=$(this).parent().find('.extracontentdesc');
+							//$("html, body").stop().animate({ scrollTop: add8.offset().top - 400}, 1000);
+							setTimeout(function() {	remove2.removeClass('active');add2.addClass('active');add8.slideDown();}, 500);
+							// $(this).parents('.footy').find('div.active').removeClass('active');
+							
+								
+								
+						}
+					}else{
+						$(this).parents('li').find('.extracontentdesc').slideUp();
+						var remove1=$(this).parents('li');
+						setTimeout(function() {	remove1.removeClass('active');}, 500);
+						
+					}
+				}else{
+					
+					if($('.mobilesupportweoffer .support_we_offer_tab_heading').parents('li').hasClass('detailheading')){
+						$('.mobilesupportweoffer .support_we_offer_tab_heading').parents('li').find('.extracontentdesc').slideUp();
+						setTimeout(function() {$('.mobilesupportweoffer .support_we_offer_tab_heading').parents('li').removeClass('active');
+						$('.mobilesupportweoffer .support_we_offer_tab_heading').parents('div').removeClass('active');}, 500);
+						
+					}else{
+						$('.mobilesupportweoffer .support_we_offer_tab_heading').parents('li').find('.extracontentdesc').slideUp();
+						setTimeout(function() {$('.mobilesupportweoffer .support_we_offer_tab_heading').parents('li').removeClass('active');}, 500);
+					}
+
+					if($(this).parents('li').hasClass('detailheading')){
+						var add3=$(this).parents('div');
+						var add4=$(this).parents('li');
+						var dataid2=$(this).attr("data-id");
+						$(this).parent().find('.extracontentdesc').html("");
+						$(this).parent().find('.extracontentdesc').slideUp();
+						$(this).parent().find('.extracontentdesc').html($('.mobilesupportweoffer .'+dataid2).html());
+						var add7=$(this).parent().find('.extracontentdesc');
+						//$("html, body").stop().animate({ scrollTop: add7.offset().top - 400}, 1000);
+
+						//$(this).parent().find('.extracontentdesc').slideDown();
+						setTimeout(function() {add3.addClass('active');add4.addClass('active');add7.slideDown();}, 500);
+						
+						
+					}else{
+						var add5=$(this).parents('li');
+						var dataid1=$(this).attr("data-id");
+						$(this).parent().find('.extracontentdesc').html("");
+						$(this).parent().find('.extracontentdesc').slideUp();
+						$(this).parent().find('.extracontentdesc').html($('.mobilesupportweoffer .'+dataid1).html());
+						var add6=$(this).parent().find('.extracontentdesc');
+						//$("html, body").stop().animate({ scrollTop: add6.offset().top - 400}, 1000);
+						//$(this).parent().find('.extracontentdesc').slideDown();
+						setTimeout(function() {add5.addClass('active');add6.slideDown();}, 500);
+						//$(this).parents('li').addClass('active');
+						
+					}
+				}
+				}
+			});
+		});
+	});</script>
+        </article>
+        <!-- END Main Section -->
+        <!-- Footer -->		
+		
+       <footer id="footery">
+ 
+ <a href="https://www.acuitykp.com/contact-us" class="contact-us bx-shdw">
+            	<!-- 28-08-2020 background image -->
+                <!-- <img src="/images/white-male.png" alt="while male"> -->
+                <span class="img-bg"></span>
+                Contact <br> Us
+            	<!-- END 28-08-2020 background image -->
+            </a>
+           
+                            <!-- 21-05-2022 --> 
+           <a href="https://www.acuitykp.com/news/press-release/acuity-knowledge-partners-awarded-great-place-to-work-certification/"  target="_blank" class="float-icon float-great-place">
+                <div class="float-cnt">
+                 <img src=https://www.acuitykp.com/wp-content/themes/maks/images/great-place-to-work-logo.png alt="">
+                </div>
+            </a>
+          <a href="https://www.acuitykp.com/news/press-release/waters-rankings-2022-best-aml-compliance-solution-provider-acuity-knowledge-partners/" target="_blank" class="float-icon float-waters">
+                <div class="float-cnt">
+                <img src="https://www.acuitykp.com/wp-content/themes/maks/images/water-ranking-log-200px-black.png" alt="">
+                
+              
+
+                </div>
+            </a>
+             <a href="https://dashboard.ciansanalytics.com/login"  target="_blank" class="float-icon float-waters">
+                <div class="float-cnt">
+                 <img src=https://www.acuitykp.com/wp-content/themes/maks/images/login.png alt="">
+                </div>
+            </a>
+            <!-- END 21-05-2022 -->
+            <div class="wrapper">
+            
+            <div class="icon-center"> 
+            <h5>
+                <a href="https://www.linkedin.com/company/acuity-knowledge-partners" target="_blank" rel="nofollow">
+                                    <!-- <img src="/images/foot-link-icon.png" alt="footer link"> -->
+                                    <span class="img-bg linkedin"></span>
+                </a>
+                <a href="https://www.facebook.com/AcuityKnowledgePartners" target="_blank" rel="nofollow">
+                                    <!-- <img src="/images/foot-facebook-icon.png" alt="footer facebook"> -->
+                                    <span class="img-bg facebook"></span>
+                </a>
+                <a href="https://twitter.com/AcuityKP " target="_blank" rel="nofollow">
+                                    <!-- <img src="/images/foot-tweet-icon.png" alt="footer tweet"> -->
+                                    <span class="img-bg twitter"></span>
+                </a>
+                <a href="https://www.youtube.com/AcuityKnowledgepartners" target="_blank" rel="nofollow">
+                                    <!-- <img src="/images/Youtube-icon.png" alt="footer Youtube"> -->
+                                    <span class="img-bg youtube"></span>
+                </a>
+                <a href="https://medium.com/@AcuityKnowledgePartners" target="_blank" rel="nofollow">
+                                    <span class="img-bg medium"></span>
+                </a>
+                <a href="https://in.pinterest.com/AcuityKnowledgePartners/" target="_blank" rel="nofollow">
+                                    <span class="img-bg pinterest"></span>
+                </a>
+                <a href="https://www.instagram.com/acuityknowledgepartners/" target="_blank" rel="nofollow">
+                                    <span class="img-bg instragram"></span>
+                </a>
+
+            </h5>
+            </div>
+            <div class="footer-container-content">
+                <div class="footer-each-block">
+                    <p>Company</p>
+                    <a href="https://www.acuitykp.com/about-us/" target="_blank">About us</a>
+                    <a href="https://www.acuitykp.com/careers/" target="_blank">Careers</a>
+                    <a href="https://www.acuitykp.com//social-initiatives/" target="_blank">CSR</a>
+                    <a href="https://www.acuitykp.com/about-us#six" target="_blank">Leadership</a>
+                    <div class="footer-each-block">
+                    <p>News</p>
+                    <a href="https://www.acuitykp.com/news/media-coverage/" target="_blank">Media coverage </a>
+                    <a href="https://www.acuitykp.com/news/press-release/" target="_blank">Press releases</a>
+                    <a href="https://www.acuitykp.com/market-insights/" target="_blank">Market Insights</a>
+                </div>
+                </div>
+                <div class="footer-each-block">
+                    <p>Resources</p>
+                    <a href="https://www.acuitykp.com/discover-whitepapers/" target="_blank">Whitepapers</a>
+                    <a href="https://www.acuitykp.com/discover-insights/" target="_blank">Insights</a>
+                    <a href="https://www.acuitykp.com/blogs/" target="_blank">Blogs</a>
+                    <a href="https://www.acuitykp.com/discover-playbooks/" target="_blank">Playbooks</a>
+                    <a href="https://www.acuitykp.com/video-gallery/" target="_blank">Video Gallery</a>
+                    <a href="https://www.acuitykp.com/discover-webinars/" target="_blank">Webinars</a>
+                    <a href="https://www.acuitykp.com/discover-newsletters/" target="_blank">Newsletters</a>
+                    <a href="https://www.acuitykp.com/events/" target="_blank">Events</a>
+                </div>
+                <div class="footer-each-block">
+                    <p>Products</p>
+                    <a href="https://www.acuitykp.com/beat/private-equity-venture-capital-portfolio-monitoring-tool/" target="_blank">FolioSure – Portfolio Monitoring</a>
+                    <a href="https://www.acuitykp.com/beat/covenant-monitoring-solution/" target="_blank">CovenantPulse – Covenant Monitoring </a>
+                    <a href="https://www.acuitykp.com/beat/edge-consultant-database-updates/" target="_blank">Edge – Consultant Database Updates</a>
+                    <a href="https://www.acuitykp.com/beat/tombstonehub-automated-credentials-builder/" target="_blank">TombstoneHub – Automated IB Credentials</a>
+                       <a href="https://www.acuitykp.com/beat/filingshub/" target="_blank">FilingsHub – Access SEC Filings</a>
+                    <a href="https://www.acuitykp.com/beat/beat-adinspect-marketing-compliance-review-tool/" target="_blank">AdInspect – Marketing Compliance</a>
+                    <a href="https://www.acuitykp.com/beat/profilehub/" target="_blank">ProfileHub – Automate Company Profiles</a>
+                    <a href="https://www.acuitykp.com/beat/financial-data-extractor/" target="_blank">Aura – Financial Data Extractor</a>
+                    <a href="https://www.acuitykp.com/beat/automated-financial-model-builder/" target="_blank">Automated Financial Model Builder</a>
+                    <a href="https://www.acuitykp.com/beat/beat-flow-workflow-management-tool/" target="_blank">BEATFlow – Workflow Management</a>
+                 
+                </div>
+                <div class="footer-each-block">
+                    <p>Client Segments</p>
+                    <a href="https://www.acuitykp.com/who-we-serve/asset-managers/" target="_blank">Asset Managers</a>
+                    <a href="https://www.acuitykp.com/who-we-serve/hedge-funds/" target="_blank">Hedge Funds</a>
+                       <a href="https://www.acuitykp.com/who-we-serve/private-wealth-management-services/" target="_blank">Private Wealth Management Services</a>
+                              <a href="https://www.acuitykp.com/who-we-serve/brokerages-and-trading-firms/" target="_blank">Brokerages and Trading Firms</a>  
+                               <a href="https://www.acuitykp.com/who-we-serve/private-equity-and-venture-capital-firms/" target="_blank">Private Equity and Venture Capital Firms</a>
+                                    <a href="https://www.acuitykp.com/who-we-serve/corporate-and-investment-banks/" target="_blank">Corporate and Investment Banks</a>    
+                                     <a href="https://www.acuitykp.com/who-we-serve/specialist-advisory-firms/" target="_blank">Specialist Advisory Firms</a> <a href="https://www.acuitykp.com/who-we-serve/commercial-banks/" target="_blank">Commercial and Regional Banks</a>       
+                                      <a href="https://www.acuitykp.com/who-we-serve/consulting-and-corporate-firms/" target="_blank">Consulting and Corporate Firms</a>                                    
+                                                        <a href="https://www.acuitykp.com/who-we-serve/market-research-firms/" target="_blank">Market Research Firms</a>
+                                                       
+                                                       
+                                                        
+                                                                                           
+                                                     
+                </div>
+                <div class="footer-each-block">
+                    <p>News</p>
+                    <a href="https://www.acuitykp.com/news/media-coverage/" target="_blank">Media coverage </a>
+                    <a href="https://www.acuitykp.com/news/press-release/" target="_blank">Press releases</a>
+                    <a href="https://www.acuitykp.com/market-insights/" target="_blank">Market Insights</a>
+                </div>
+                 
+            </div>
+
+
+            </div>
+            <div class="footer_contact_us">
+                 <div class="wrapper clearfix">
+                    <p class="footer__contact">
+					<span class="img-bg-location">Acuity Knowledge Partners, 1 Poultry, London - EC2R8EJ  | </span>
+					 <span class="img-bg-contact"><a href="tel:+020 7550 4499" target="_blank">+020 7550 4499 | </a></span>
+                     <a href="mailto:contact@acuitykp.com" target="_blank"><span class="img-bg-email">contact@acuitykp.com</a>  </span></p>   
+                    
+                 </div>
+                </div>
+            <div class="footer_base">
+                <div class="wrapper clearfix">
+                    <p class="footer_copyright left">Copyright © 2023 Acuity Knowledge Partners. All Rights Reserved</p>
+                    <a href="https://www.acuitykp.com/terms-of-use/" target="_blank" class="right">Terms of Use</a>
+                    <a href="https://www.acuitykp.com/privacy-policy-new" target="_blank" class="right">Privacy Policy</a>
+                    <a href="https://www.acuitykp.com/sitemap" target="_blank" class="right">Sitemap</a>
+                </div>
+            </div>
+            
+        </footer>
+
+    </div>
+	<script type="rocketlazyloadscript">window.addEventListener('DOMContentLoaded', function() {
+				$(".footer-each-block").click(function(){
+		if($(this).hasClass("active")){
+			$(this).removeClass("active");
+		}else{
+			$(".footer-each-block").removeClass("active");
+			$(this).addClass("active");
+		}
+	});
+
+			});</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+_linkedin_partner_id = "992915";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=992915&fmt=gif" />
+</noscript>
+<script type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/blogs\/|\/beat-platform\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.acuitykp.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script>"use strict";function wprRemoveCPCSS(){var preload_stylesheets=document.querySelectorAll('link[data-rocket-async="style"][rel="preload"]');if(preload_stylesheets&&0<preload_stylesheets.length)for(var stylesheet_index=0;stylesheet_index<preload_stylesheets.length;stylesheet_index++){var media=preload_stylesheets[stylesheet_index].getAttribute("media")||"all";if(window.matchMedia(media).matches)return void setTimeout(wprRemoveCPCSS,200)}var elem=document.getElementById("rocket-critical-css");elem&&"remove"in elem&&elem.remove()}window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><noscript><link rel='stylesheet' id='wp-block-library-css' href='https://www.acuitykp.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' /><link rel='stylesheet' id='classic-theme-styles-css' href='https://www.acuitykp.com/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' /><link data-minify="1" rel='stylesheet' id='dlm-frontend-css' href='https://www.acuitykp.com/wp-content/cache/min/1/wp-content/plugins/download-monitor/assets/css/frontend.css?ver=1673526858' type='text/css' media='all' /></noscript></body>
+
+</html>
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1673940085 -->

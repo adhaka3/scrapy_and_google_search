@@ -1,0 +1,104 @@
+What is ESG Investing? Exploring the rapid growth of ESG Finance - Ramboll Group
+Go to ramboll.com
+Ingenuity
+Sharing unique insights and solutions
+What is Ingenuity?
+What is ESG Investing? Exploring the rapid growth of ESG Finance
+Green transition
+14 December 2022
+Laura Bowler
+“ESG investing” has gained a lot of popularity over the past few years as more investors look to incorporate sustainability goals into their work. Unfortunately, it can be difficult to go beyond the headlines and understand what is actually happening in the world of ESG finance. In this article, our expert Laura Bowler helps to clear up the confusion by providing a summary of the state of ESG finance.
+Expert columns
+6 min
+Laura Bowler
+CONTACT Laura Bowler
+More articles with the expert
+As ESG topics become more important to companies and countries around the world, investors and lenders are increasingly considering these factors when making investment decisions. But what does “ESG investing” look like in practice? How are lenders and borrowers using it to drive change?
+In this article, we will dive into:
+• What ESG investing is
+• How lenders are structuring their ESG investments to ensure sustainable outcomes
+• How borrowers are using the investments to drive sustainable change
+What is ESG Investing?
+ESG investing, sometimes called sustainable investing or green financing, is the practice of incorporating ESG criteria into investing decisions. Investors rely on both financial and non-financial considerations to gain deeper insights into how value will be created both in the short-term and long-term timeframe.
+The ESG investment market is heavily dominated by debt investments, which can be broken down into three main categories:
+1. Activity-based debt: Funds are used to finance or refinance specific green projects or activities
+2. Behavior-based debt: Funds are not tied to specific uses, but the financing is dependent on the company achieving certain ESG KPIs
+3. Transition debt: Funds are used to support activities that aren’t “green” but play a large role in the transition to a more sustainable future (example: a new transmission line that supports more electric generation from renewable sources)
+Activity-based debt is the most common at the moment, but all three types are key to driving sustainable change.
+ESG debt finance is growing rapidly
+Interest in ESG debt investments is relatively recent. In the last few years, the global market has exponentially grown, reaching over $1.6 trillion in 2021:
+This rapid growth in debt issuance is driven by the recent increased global business focus on sustainability. Companies are seeking ways to increase their ESG impact and credibly demonstrate their commitments to external stakeholders.
+For lenders, these debt investments can meet both goals: they can contribute to a more sustainable future and track their impact in a transparent and measurable way.
+The rules of green financing
+In this growing market, there’s quite a bit of variety in how lenders are structuring their financing offerings. However, many lenders use similar principles to ensure a lender’s sustainability objectives are met.
+The Loan Market Association, a UK based association that provides documents and standards for the loan market, recommends including criteria that address the following:
+1. Is the money going to the rights projects?
+2. Does the borrower have good processes for using the money?
+3. Is progress being made towards the sustainability objective?
+4. How can lessons learned on this finance offering be applied going forward?
+Let’s explore these a bit to better understand the best practices for structuring investments.
+1. Is money going to the right projects?
+Why this matters: The main evaluation criteria for ESG financing should be the impact the investment will have. Setting up clear goals / criteria helps lenders gain confidence that their investment will meet their ESG investment objectives.
+Best practices: Any project that receives financing should have a clear and measurable sustainability benefit. For example:
+• Borrower Example: The Brookfield Group wants to reduce emissions. It therefore requires buildings to meet a targeted carbon emissions intensity for the location over the term of any loans it accepts
+• Lender Example: Crédit Agricole has linked interest rates in its loan to an Australian datacenter to specific ESG KPIs, including diversity and inclusion, carbon neutrality and energy efficiency
+2. Does the borrower have good processes for using the money?
+Why this matters: Lenders need a borrower to have good processes so they can be confident that their money actually went towards sustainable projects. Having insight into these processes allows lenders to more easily hold the borrower accountable to the terms of the financing (and ensure their funding isn’t abused or misused).
+In addition, these processes can help defend any claims a lender might make about the impact of their financing.
+Best practices:
+• Borrowers should provide details on the process and criteria they use to ensure projects are sustainable
+• R&Rs – who is in charge of selecting projects? How is this person / group held accountable for their decisions?
+• Project sourcing – where do projects come from? How does the borrower ensure sustainable projects are in consideration?
+• Selection process – what criteria are used to evaluate projects? How is the sustainable impact of the project considered vs. other traditional metrics (such as cost)?
+• Borrowers should also have a clear system for tracking the invested funds to show they were actually applied on sustainable projects. (Borrowers also need to track the progress of the project to ensure the funds were effective – more on this in the next section).
+3. Is progress being made towards the sustainability objective?
+Why this matters: Lenders need to understand if the project actually makes progress towards ESG goals to quantify their impact. This can be used to keep borrowers accountable but can also help lenders understand what investments have the most impact.
+Best practices:
+• Borrowers should be tracking key metrics and reporting back to the lender
+• Metrics may be provided on a regular basis (such as annually) or at predefined milestones to ensure the project remains on track throughout its lifetime
+• Borrowers and lenders should have an ongoing dialogue, where they can discuss not only the key metrics, but the reasons why progress is happening / not happening
+4. How can lessons learned on this finance offering be applied going forward
+Beyond tracking the success or failure of a particular investment, understanding the results of the ESG investment can also help lenders modify or improve their green financing program. Limited or insufficient criteria, for instance, could result in outcomes that don’t meet the goals of the lender.
+In these cases, the lender could add additional criteria or modify their existing criteria to better align to their goals.
+For example:
+• Fannie Mae originally provided a green loan that accepted either energy or water reductions to meet it criteria
+• A Grist study found that out of the 3,800 properties that entered the program, only 1,600 saw improvement in their energy scores in the first two years
+• Since Fannie Mae had intended to drive energy efficiency with their program, they later strengthened their criteria by establishing a specific minimum energy reduction requirement
+"Savvy lenders who structure their deals with key green financing criteria can drive sustainable change and make good returns at the same time."
+Laura Bowler, ESG-Expert, Ramboll Management Consulting
+What are companies doing with green financing?
+On the other side of the table, what are borrowers doing with all this money? Let’s look at a few examples:
+645 G Street Renovation in Anchorage Alaska (2022)
+• Type of financing: Green loan
+• Lender: Northrim Bank and Nuveen Green Capital provided $680,000 in C-PACE financing (Commercial Property Assessed Clean Energy)
+• Borrower: RIM investments will use the funding on energy efficiency improvements
+• Project summary and outcome: Initiatives planned included installing LED lighting, smart thermostats, heating system upgrades, a new hot water heater, and a new combined heat and power system. RIM estimates that the initiatives will reduce energy costs by 42%.
+PepsiCo Green Bonds (2019 and 2022)
+• Type of financing: Green bond
+• Borrower: PepsiCo offered two green bond offerings - $1 billion in 2019 and $1.25 billion in 2022
+• Project summary and outcome:
+• To provide transparency on how these funds are used, PepsiCo created a “Green Bond Framework” that specifies how the funds will be used and how progress will be tracked
+• Eligible categories of projects include:
+- Circular economy and virgin plastic waste reduction
+- Decarbonization and climate resiliency in operations and value chain
+- Net positive water impact
+- Regenerative agriculture
+• PepsiCo will also provide annual reporting on both how funds were allocated and the impact of the projects funded (including specific KPIs to track)
+• These funds have already been applied to projects that help farmers save water through new irrigation techniques, increase the use of recycled plastic in packaging, and develop community recycling infrastructure
+Mad Agriculture Perennial Fund (2018 onward)
+• Type of financing: Green loan
+• Lender: Mad Agriculture developed a fund to provide loans to support farmers wishing to transition to organic or regenerative farming, who often face significant upfront costs and a delay before they achieve certification
+• Project summary and outcome: 10-year loans are structured farm-by-farm and payback is tailored to match the farmer’s personal cash flow. In addition, loans allow for flexibility when weather varies or crop yields are poor. As of 2022, the Perennial Fund has issued 12 loans to farmers covering 31,000 acres, and additional funds are planned going forward.
+In these examples, the goal and terms of the debt investment varies. However, all the lenders are ultimately focused on making sure their funds are being used to drive a positive ESG impact in addition to creating financial returns.
+Looking ahead
+As mentioned earlier, interest in ESG finance is only growing. Savvy lenders who structure their deals with key green financing criteria can drive sustainable change and make good returns at the same time.
+You can expect to see more lenders entering this space in the next few years as the number of projects that need funding grows and ESG project returns continue to improve. And that’s always good news – sufficient capital is one of the key components of a successful transformation to a sustainable world!
+Sources:
+Sustainable debt issuance: Bloomberg
+645 G Street Renovation
+PepsiCo Green Bonds
+Mad Agriculture
+Cookies & disclaimer
+Contact
+All rights reserved
+Back to Top

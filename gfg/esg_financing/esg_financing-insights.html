@@ -1,0 +1,1815 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"05da09d58d",applicationID:"1029230236"};/*! For license information please see nr-loader-rum-1221.min.js.LICENSE.txt */
+(function(){var __webpack_modules__={507:function(__unused_webpack_module,__webpack_exports__,__webpack_require__){"use strict";function detectPolyfillFeatures(){var featureStatus={};return checkAndAddFeature("Promise","PROMISE"),checkAndAddFeature("Array.prototype.includes","ARRAY_INCLUDES"),checkAndAddFeature("Object.assign","OBJECT_ASSIGN"),checkAndAddFeature("Object.entries","OBJECT_ENTRIES"),featureStatus;function checkAndAddFeature(funcString,featName){try{var func=eval("self."+funcString);-1!==func.toString().indexOf("[native code]")?featureStatus[featName]=Status.NATIVE:featureStatus[featName]=Status.CHANGED}catch(e){featureStatus[featName]=Status.UNAVAIL}}}__webpack_require__.d(__webpack_exports__,{n:function(){return detectPolyfillFeatures}});var Status={UNAVAIL:"NotSupported",NATIVE:"Detected",CHANGED:"Modified"}},2687:function(e,t,r){"use strict";var n=r(2141);t.Z=(0,n.ky)(16)},1719:function(e,t,r){"use strict";r.d(t,{I:function(){return n}});var n=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(n=+i[1])},3524:function(e,t,r){"use strict";var n,i;if(r.d(t,{H:function(){return i}}),r(8283).B){var o=document.createElement("div");o.innerHTML="\x3c!--[if lte IE 6]><div></div><![endif]--\x3e\x3c!--[if lte IE 7]><div></div><![endif]--\x3e\x3c!--[if lte IE 8]><div></div><![endif]--\x3e\x3c!--[if lte IE 9]><div></div><![endif]--\x3e",n=o.getElementsByTagName("div").length}i=4===n?6:3===n?7:2===n?8:1===n?9:0},5970:function(e,t,r){"use strict";r.d(t,{Mt:function(){return p},C5:function(){return u},OP:function(){return C},Yu:function(){return b},Dg:function(){return d},CX:function(){return s},GE:function(){return h},sU:function(){return R}});var n={};r.r(n),r.d(n,{agent:function(){return w},match:function(){return x},version:function(){return m}});var i=r(4580),o=function(e,t){var r=this;return e&&"object"==typeof e?t&&"object"==typeof t?(Object.assign(this,t),void Object.entries(e).forEach((function(e){var t=e[0],n=e[1];r[t]=n}))):console.error("setting a Configurable requires a model to set its initial properties"):console.error("setting a Configurable requires an object as input")},a={beacon:i.ce.beacon,errorBeacon:i.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},c={};function u(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!c[e])throw new Error("Info for "+e+" was never set");return c[e]}function s(e,t){if(!e)throw new Error("All info objects require an agent identifier!");c[e]=new o(t,a),(0,i.Qy)(e,c[e],"info")}var f={privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,enabled:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0},metrics:{enabled:!0},page_action:{enabled:!0},page_view_event:{enabled:!0},page_view_timing:{enabled:!0},session_trace:{enabled:!0},spa:{enabled:!0}},l={};function d(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");l[e]=new o(t,f),(0,i.Qy)(e,l[e],"config")}function p(e,t){if(!e)throw new Error("All configuration objects require an agent identifier!");var r=function(e){if(!e)throw new Error("All configuration objects require an agent identifier!");if(!l[e])throw new Error("Configuration for "+e+" was never set");return l[e]}(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}var v={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},_={};function h(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");_[e]=new o(t,v),(0,i.Qy)(e,_[e],"loader_config")}var b=(0,i.mF)().o,g=r(3524),y=r(9206),w=null,m=null;if(navigator.userAgent){var k=navigator.userAgent,O=k.match(/Version\/(\S+)\s+Safari/);O&&-1===k.indexOf("Chrome")&&-1===k.indexOf("Chromium")&&(w="Safari",m=O[1])}function x(e,t){if(!w)return!1;if(e!==w)return!1;if(!t)return!0;if(!m)return!1;for(var r=m.split("."),n=t.split("."),i=0;i<n.length;i++)if(n[i]!==r[i])return!1;return!0}var E=r(2141),P=r(8283).B?window.sessionStorage:void 0,S="NRBA_SESSION_ID";var j=self.XMLHttpRequest,A=j&&j.prototype,q={};function C(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!q[e])throw new Error("Runtime for "+e+" was never set");return q[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");var r,a;q[e]=new o(t,(r=e,{customTransaction:void 0,disabled:!1,features:{},maxBytes:6===g.H?2e3:3e4,offset:(0,y.yf)(),onerror:void 0,origin:""+self.location,ptid:void 0,releaseIds:{},sessionId:1==p(r,"privacy.cookies_enabled")&&P?(null===(a=P.getItem(S))&&(a=(0,E.ky)(16),P.setItem(S,a)),a):null,xhrWrappable:j&&A&&A.addEventListener&&!/CriOS/.test(navigator.userAgent),userAgent:n})),(0,i.Qy)(e,q[e],"runtime")}},8873:function(e,t,r){"use strict";r.d(t,{q:function(){return n}});var n=["1221","PROD"].filter((function(e){return e})).join(".")},1925:function(e,t,r){"use strict";r.d(t,{w:function(){return i}});var n={agentIdentifier:""},i=function(e){var t=this;if("object"!=typeof e)return console.error("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,n),Object.entries(e).forEach((function(e){var r=e[0],i=e[1];Object.keys(n).includes(r)&&(t.sharedContext[r]=i)}))}},2071:function(e,t,r){"use strict";r.d(t,{ee:function(){return n}});var n,i=r(4580),o=r(9010),a=r(9599),c="nr@context",u=(0,i.fP)();function s(){}function f(){return new s}function l(){(n.backlog.api||n.backlog.feature)&&(n.aborted=!0,n.backlog={})}u.ee?n=u.ee:(n=function e(t,r){var i={},u={},d={},p={on:h,addEventListener:h,removeEventListener:b,emit:_,get:y,listeners:g,context:v,buffer:w,abort:l,aborted:!1,isBuffering:m,debugId:r,backlog:t&&t.backlog?t.backlog:{}};return p;function v(e){return e&&e instanceof s?e:e?(0,o.X)(e,c,f):f()}function _(e,r,i,o,a){if(!1!==a&&(a=!0),!n.aborted||o){t&&a&&t.emit(e,r,i);for(var c=v(i),s=g(e),f=s.length,l=0;l<f;l++)s[l].apply(c,r);var d=k()[u[e]];return d&&d.push([p,e,r,c]),c}}function h(e,t){i[e]=g(e).concat(t)}function b(e,t){var r=i[e];if(r)for(var n=0;n<r.length;n++)r[n]===t&&r.splice(n,1)}function g(e){return i[e]||[]}function y(t){return d[t]=d[t]||e(p,t)}function w(e,t){var r=k();p.aborted||(0,a.D)(e,(function(e,n){t=t||"feature",u[n]=t,t in r||(r[t]=[])}))}function m(e){return!!k()[u[e]]}function k(){return p.backlog}}(void 0,"globalEE"),u.ee=n)},3195:function(e,t,r){"use strict";r.d(t,{E:function(){return n},p:function(){return i}});var n=r(2071).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4539:function(e,t,r){"use strict";r.d(t,{X:function(){return o}});var n=r(3195);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3585:function(e,t,r){"use strict";r.d(t,{m:function(){return o}});var n=!1;try{var i=Object.defineProperty({},"passive",{get:function(){n=!0}});self.addEventListener("testPassive",null,i),self.removeEventListener("testPassive",null,i)}catch(e){}function o(e){return n?{passive:!0,capture:!!e}:!!e}},2141:function(e,t,r){"use strict";function n(){var e=null,t=0,r=self.crypto||self.msCrypto;function n(){return e?15&e[t++]:16*Math.random()|0}r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)a+="x"===(i=o[c])?n().toString(16):"y"===i?(i=3&n()|8).toString(16):i;return a}function i(e){var t=null,r=0,n=self.crypto||self.msCrypto;n&&n.getRandomValues&&Uint8Array&&(t=n.getRandomValues(new Uint8Array(31)));for(var i=[],o=0;o<e;o++)i.push(a().toString(16));return i.join("");function a(){return t?15&t[r++]:16*Math.random()|0}}r.d(t,{Rl:function(){return n},ky:function(){return i}})},9206:function(e,t,r){"use strict";r.d(t,{nb:function(){return u},os:function(){return s},yf:function(){return c},zO:function(){return a}});var n=r(1209),i=(new Date).getTime(),o=i;function a(){return n.G&&performance.now?Math.round(performance.now()):(i=Math.max((new Date).getTime(),i))-o}function c(){return i}function u(e){o=e}function s(){return o}},1209:function(e,t,r){"use strict";var n,i;r.d(t,{G:function(){return o}});var o=void 0!==(null==(n=self.performance)||null==(i=n.timing)?void 0:i.navigationStart)},745:function(e,t,r){"use strict";r.d(t,{s:function(){return c},v:function(){return u}});var n=r(7036),i=r(1719),o=r(9206),a=r(1209),c=!0;function u(e){var t=function(){if(i.I&&i.I<9)return;if(a.G)return c=!1,self.performance.timing.navigationStart}();t&&((0,n.B)(e,"starttime",t),(0,o.nb)(t))}},7036:function(e,t,r){"use strict";r.d(t,{B:function(){return o},L:function(){return a}});var n=r(9206),i={};function o(e,t,r){void 0===r&&(r=(0,n.zO)()+(0,n.os)()),i[e]=i[e]||{},i[e][t]=r}function a(e,t,r,n){var o,a,c=e.sharedContext.agentIdentifier,u=null==(o=i[c])?void 0:o[r],s=null==(a=i[c])?void 0:a[n];void 0!==u&&void 0!==s&&e.store("measures",t,{value:s-u})}},8547:function(e,t,r){"use strict";r.d(t,{T:function(){return i}});var n=r(8283),i={isFileProtocol:function(){var e,t=(0,n.ek)(),r=Boolean("file:"===(null==(e=t.location)?void 0:e.protocol));r&&(i.supportabilityMetricSent=!0);return r},supportabilityMetricSent:!1}},9011:function(e,t,r){"use strict";r.d(t,{K:function(){return o}});var n=r(5970),i=["ajax","jserrors","metrics","page_action","page_view_event","page_view_timing","session_trace","spa"];function o(e){var t={};return i.forEach((function(r){t[r]=function(e,t){return!0!==(0,n.OP)(t).disabled&&!1!==(0,n.Mt)(t,e+".enabled")}(r,e)})),t}},8025:function(e,t,r){"use strict";r.d(t,{W:function(){return i}});var n=r(2071),i=function(e,t,r){void 0===r&&(r=[]),this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.externalFeatures=r}},9010:function(e,t,r){"use strict";r.d(t,{X:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},9599:function(e,t,r){"use strict";r.d(t,{D:function(){return i}});var n=Object.prototype.hasOwnProperty;function i(e,t){var r=[],i="",o=0;for(i in e)n.call(e,i)&&(r[o]=t(i,e[i]),o+=1);return r}},248:function(e,t,r){"use strict";r.d(t,{$c:function(){return s},Ng:function(){return f},RR:function(){return u}});var n=r(5970),i=r(1925),o=r(8547);function a(e,t){return a=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},a(e,t)}var c={regex:/^file:\/\/(.*)/,replacement:"file://OBFUSCATED"},u=function(e){var t,r;function n(t){return e.call(this,t)||this}r=e,(t=n).prototype=Object.create(r.prototype),t.prototype.constructor=t,a(t,r);var i=n.prototype;return i.shouldObfuscate=function(){return s(this.sharedContext.agentIdentifier).length>0},i.obfuscateString=function(e){if(!e||"string"!=typeof e)return e;for(var t=s(this.sharedContext.agentIdentifier),r=e,n=0;n<t.length;n++){var i=t[n].regex,o=t[n].replacement||"*";r=r.replace(i,o)}return r},n}(i.w);function s(e){var t=[],r=(0,n.Mt)(e,"obfuscate")||[];return t=t.concat(r),o.T.isFileProtocol()&&t.push(c),t}function f(e){for(var t=!1,r=!1,n=0;n<e.length;n++){"regex"in e[n]?"string"!=typeof e[n].regex&&e[n].regex.constructor!==RegExp&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "regex" value with an invalid type (must be a string or RegExp)'),r=!0):(console&&console.warn&&console.warn('An obfuscation replacement rule was detected missing a "regex" value.'),r=!0);var i=e[n].replacement;i&&"string"!=typeof i&&(console&&console.warn&&console.warn('An obfuscation replacement rule contains a "replacement" value with an invalid type (must be a string)'),t=!0)}return!t&&!r}},4580:function(e,t,r){"use strict";r.d(t,{EZ:function(){return u},Qy:function(){return c},ce:function(){return i},fP:function(){return o},gG:function(){return s},mF:function(){return a}});var n=r(9206),i={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return self.NREUM||(self.NREUM={}),void 0===self.newrelic&&(self.newrelic=self.NREUM),self.NREUM}function a(){var e=o();if(!e.o){var t=self,r=t.XMLHttpRequest;e.o={ST:setTimeout,SI:t.setImmediate,CT:clearTimeout,XHR:r,REQ:t.Request,EV:t.Event,PR:t.Promise,MO:t.MutationObserver,FETCH:t.fetch}}return e}function c(e,t,r){var i,a,c=o(),u=c.initializedAgents||{},s=u[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,n.zO)(),date:new Date}),c.initializedAgents=Object.assign({},u,((a={})[e]=Object.assign({},s,((i={})[r]=t,i)),a)),c}function u(e,t){o()[e]=t}function s(){var e,t;return e=o(),t=e.info||{},e.info=Object.assign({beacon:i.beacon,errorBeacon:i.errorBeacon},t),function(){var e=o(),t=e.init||{};e.init=Object.assign({},t)}(),a(),function(){var e=o(),t=e.loader_config||{};e.loader_config=Object.assign({},t)}(),o()}},8283:function(e,t,r){"use strict";r.d(t,{B:function(){return a},ek:function(){return o},n2:function(){return c}});var n=self,i=n;function o(){return i}var a=Boolean("object"==typeof window&&self.document),c=Boolean("undefined"!=typeof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator)},8539:function(e){e.exports=function(e,t,r){t||(t=0),void 0===r&&(r=e?e.length:0);for(var n=-1,i=r-t||0,o=Array(i<0?0:i);++n<i;)o[n]=e[t+n];return o}}},__webpack_module_cache__={},inProgress,dataWebpackPrefix;function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.m=__webpack_modules__,__webpack_require__.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return __webpack_require__.d(t,{a:t}),t},__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.f={},__webpack_require__.e=function(e){return Promise.all(Object.keys(__webpack_require__.f).reduce((function(t,r){return __webpack_require__.f[r](e,t),t}),[]))},__webpack_require__.u=function(e){return e+"."+__webpack_require__.h().slice(0,8)+"-1221.js"},__webpack_require__.h=function(){return"25fcbbf1b6e5e9bcbd37"},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},inProgress={},dataWebpackPrefix="NRBA:",__webpack_require__.l=function(e,t,r,n){if(inProgress[e])inProgress[e].push(t);else{var i,o;if(void 0!==r)for(var a=document.getElementsByTagName("script"),c=0;c<a.length;c++){var u=a[c];if(u.getAttribute("src")==e||u.getAttribute("data-webpack")==dataWebpackPrefix+r){i=u;break}}i||(o=!0,(i=document.createElement("script")).charset="utf-8",i.timeout=120,__webpack_require__.nc&&i.setAttribute("nonce",__webpack_require__.nc),i.setAttribute("data-webpack",dataWebpackPrefix+r),i.src=e),inProgress[e]=[t];var s=function(t,r){i.onerror=i.onload=null,clearTimeout(f);var n=inProgress[e];if(delete inProgress[e],i.parentNode&&i.parentNode.removeChild(i),n&&n.forEach((function(e){return e(r)})),t)return t(r)},f=setTimeout(s.bind(null,void 0,{type:"timeout",target:i}),12e4);i.onerror=s.bind(null,i.onerror),i.onload=s.bind(null,i.onload),o&&document.head.appendChild(i)}},__webpack_require__.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},__webpack_require__.p="https://js-agent.newrelic.com/",function(){var e={195:0,10:0};__webpack_require__.f.j=function(t,r){var n=__webpack_require__.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var i=new Promise((function(r,i){n=e[t]=[r,i]}));r.push(n[2]=i);var o=__webpack_require__.p+__webpack_require__.u(t),a=new Error;__webpack_require__.l(o,(function(r){if(__webpack_require__.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var i=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;a.message="Loading chunk "+t+" failed.\n("+i+": "+o+")",a.name="ChunkLoadError",a.type=i,a.request=o,n[1](a)}}),"chunk-"+t,t)}};var t=function(t,r){var n,i,o=r[0],a=r[1],c=r[2],u=0;if(o.some((function(t){return 0!==e[t]}))){for(n in a)__webpack_require__.o(a,n)&&(__webpack_require__.m[n]=a[n]);if(c)c(__webpack_require__)}for(t&&t(r);u<o.length;u++)i=o[u],__webpack_require__.o(e,i)&&e[i]&&e[i][0](),e[i]=0},r=self.webpackChunkNRBA=self.webpackChunkNRBA||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))}();var __webpack_exports__={};!function(){"use strict";__webpack_require__.r(__webpack_exports__);var e=__webpack_require__(507),t=__webpack_require__(2687),r=__webpack_require__(3585),n=__webpack_require__(8283),i=n.B&&window,o=i&&i.document;function a(e){if(!o||"complete"===o.readyState)return e()||!0}function c(e){a(e)||i.addEventListener("load",e,(0,r.m)(!1))}function u(e){a(e)||o.addEventListener("DOMContentLoaded",e,(0,r.m)(!1))}var s=__webpack_require__(2071);function f(){f=function(){return e};var e={},t=Object.prototype,r=t.hasOwnProperty,n=Object.defineProperty||function(e,t,r){e[t]=r.value},i="function"==typeof Symbol?Symbol:{},o=i.iterator||"@@iterator",a=i.asyncIterator||"@@asyncIterator",c=i.toStringTag||"@@toStringTag";function u(e,t,r){return Object.defineProperty(e,t,{value:r,enumerable:!0,configurable:!0,writable:!0}),e[t]}try{u({},"")}catch(e){u=function(e,t,r){return e[t]=r}}function s(e,t,r,i){var o=t&&t.prototype instanceof p?t:p,a=Object.create(o.prototype),c=new P(i||[]);return n(a,"_invoke",{value:k(e,r,c)}),a}function l(e,t,r){try{return{type:"normal",arg:e.call(t,r)}}catch(e){return{type:"throw",arg:e}}}e.wrap=s;var d={};function p(){}function v(){}function _(){}var h={};u(h,o,(function(){return this}));var b=Object.getPrototypeOf,g=b&&b(b(S([])));g&&g!==t&&r.call(g,o)&&(h=g);var y=_.prototype=p.prototype=Object.create(h);function w(e){["next","throw","return"].forEach((function(t){u(e,t,(function(e){return this._invoke(t,e)}))}))}function m(e,t){function i(n,o,a,c){var u=l(e[n],e,o);if("throw"!==u.type){var s=u.arg,f=s.value;return f&&"object"==typeof f&&r.call(f,"__await")?t.resolve(f.__await).then((function(e){i("next",e,a,c)}),(function(e){i("throw",e,a,c)})):t.resolve(f).then((function(e){s.value=e,a(s)}),(function(e){return i("throw",e,a,c)}))}c(u.arg)}var o;n(this,"_invoke",{value:function(e,r){function n(){return new t((function(t,n){i(e,r,t,n)}))}return o=o?o.then(n,n):n()}})}function k(e,t,r){var n="suspendedStart";return function(i,o){if("executing"===n)throw new Error("Generator is already running");if("completed"===n){if("throw"===i)throw o;return j()}for(r.method=i,r.arg=o;;){var a=r.delegate;if(a){var c=O(a,r);if(c){if(c===d)continue;return c}}if("next"===r.method)r.sent=r._sent=r.arg;else if("throw"===r.method){if("suspendedStart"===n)throw n="completed",r.arg;r.dispatchException(r.arg)}else"return"===r.method&&r.abrupt("return",r.arg);n="executing";var u=l(e,t,r);if("normal"===u.type){if(n=r.done?"completed":"suspendedYield",u.arg===d)continue;return{value:u.arg,done:r.done}}"throw"===u.type&&(n="completed",r.method="throw",r.arg=u.arg)}}}function O(e,t){var r=e.iterator[t.method];if(void 0===r){if(t.delegate=null,"throw"===t.method){if(e.iterator.return&&(t.method="return",t.arg=void 0,O(e,t),"throw"===t.method))return d;t.method="throw",t.arg=new TypeError("The iterator does not provide a 'throw' method")}return d}var n=l(r,e.iterator,t.arg);if("throw"===n.type)return t.method="throw",t.arg=n.arg,t.delegate=null,d;var i=n.arg;return i?i.done?(t[e.resultName]=i.value,t.next=e.nextLoc,"return"!==t.method&&(t.method="next",t.arg=void 0),t.delegate=null,d):i:(t.method="throw",t.arg=new TypeError("iterator result is not an object"),t.delegate=null,d)}function x(e){var t={tryLoc:e[0]};1 in e&&(t.catchLoc=e[1]),2 in e&&(t.finallyLoc=e[2],t.afterLoc=e[3]),this.tryEntries.push(t)}function E(e){var t=e.completion||{};t.type="normal",delete t.arg,e.completion=t}function P(e){this.tryEntries=[{tryLoc:"root"}],e.forEach(x,this),this.reset(!0)}function S(e){if(e){var t=e[o];if(t)return t.call(e);if("function"==typeof e.next)return e;if(!isNaN(e.length)){var n=-1,i=function t(){for(;++n<e.length;)if(r.call(e,n))return t.value=e[n],t.done=!1,t;return t.value=void 0,t.done=!0,t};return i.next=i}}return{next:j}}function j(){return{value:void 0,done:!0}}return v.prototype=_,n(y,"constructor",{value:_,configurable:!0}),n(_,"constructor",{value:v,configurable:!0}),v.displayName=u(_,c,"GeneratorFunction"),e.isGeneratorFunction=function(e){var t="function"==typeof e&&e.constructor;return!!t&&(t===v||"GeneratorFunction"===(t.displayName||t.name))},e.mark=function(e){return Object.setPrototypeOf?Object.setPrototypeOf(e,_):(e.__proto__=_,u(e,c,"GeneratorFunction")),e.prototype=Object.create(y),e},e.awrap=function(e){return{__await:e}},w(m.prototype),u(m.prototype,a,(function(){return this})),e.AsyncIterator=m,e.async=function(t,r,n,i,o){void 0===o&&(o=Promise);var a=new m(s(t,r,n,i),o);return e.isGeneratorFunction(r)?a:a.next().then((function(e){return e.done?e.value:a.next()}))},w(y),u(y,c,"Generator"),u(y,o,(function(){return this})),u(y,"toString",(function(){return"[object Generator]"})),e.keys=function(e){var t=Object(e),r=[];for(var n in t)r.push(n);return r.reverse(),function e(){for(;r.length;){var n=r.pop();if(n in t)return e.value=n,e.done=!1,e}return e.done=!0,e}},e.values=S,P.prototype={constructor:P,reset:function(e){if(this.prev=0,this.next=0,this.sent=this._sent=void 0,this.done=!1,this.delegate=null,this.method="next",this.arg=void 0,this.tryEntries.forEach(E),!e)for(var t in this)"t"===t.charAt(0)&&r.call(this,t)&&!isNaN(+t.slice(1))&&(this[t]=void 0)},stop:function(){this.done=!0;var e=this.tryEntries[0].completion;if("throw"===e.type)throw e.arg;return this.rval},dispatchException:function(e){if(this.done)throw e;var t=this;function n(r,n){return a.type="throw",a.arg=e,t.next=r,n&&(t.method="next",t.arg=void 0),!!n}for(var i=this.tryEntries.length-1;i>=0;--i){var o=this.tryEntries[i],a=o.completion;if("root"===o.tryLoc)return n("end");if(o.tryLoc<=this.prev){var c=r.call(o,"catchLoc"),u=r.call(o,"finallyLoc");if(c&&u){if(this.prev<o.catchLoc)return n(o.catchLoc,!0);if(this.prev<o.finallyLoc)return n(o.finallyLoc)}else if(c){if(this.prev<o.catchLoc)return n(o.catchLoc,!0)}else{if(!u)throw new Error("try statement without catch or finally");if(this.prev<o.finallyLoc)return n(o.finallyLoc)}}}},abrupt:function(e,t){for(var n=this.tryEntries.length-1;n>=0;--n){var i=this.tryEntries[n];if(i.tryLoc<=this.prev&&r.call(i,"finallyLoc")&&this.prev<i.finallyLoc){var o=i;break}}o&&("break"===e||"continue"===e)&&o.tryLoc<=t&&t<=o.finallyLoc&&(o=null);var a=o?o.completion:{};return a.type=e,a.arg=t,o?(this.method="next",this.next=o.finallyLoc,d):this.complete(a)},complete:function(e,t){if("throw"===e.type)throw e.arg;return"break"===e.type||"continue"===e.type?this.next=e.arg:"return"===e.type?(this.rval=this.arg=e.arg,this.method="return",this.next="end"):"normal"===e.type&&t&&(this.next=t),d},finish:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.finallyLoc===e)return this.complete(r.completion,r.afterLoc),E(r),d}},catch:function(e){for(var t=this.tryEntries.length-1;t>=0;--t){var r=this.tryEntries[t];if(r.tryLoc===e){var n=r.completion;if("throw"===n.type){var i=n.arg;E(r)}return i}}throw new Error("illegal catch attempt")},delegateYield:function(e,t,r){return this.delegate={iterator:S(e),resultName:t,nextLoc:r},"next"===this.method&&(this.arg=void 0),d}},e}function l(e,t,r,n,i,o,a){try{var c=e[o](a),u=c.value}catch(e){return void r(e)}c.done?t(u):Promise.resolve(u).then(n,i)}var d=0;function p(e){var t;(t=f().mark((function t(){var r,n;return f().wrap((function(t){for(;;)switch(t.prev=t.next){case 0:if(!d++){t.next=2;break}return t.abrupt("return");case 2:return t.prev=2,t.next=5,__webpack_require__.e(859).then(__webpack_require__.bind(__webpack_require__,7859));case 5:return r=t.sent,n=r.aggregator,t.next=9,n(e);case 9:t.next=15;break;case 11:t.prev=11,t.t0=t.catch(2),console.error("Failed to successfully load all aggregators. Aborting...\n",t.t0),s.ee.abort();case 15:case"end":return t.stop()}}),t,null,[[2,11]])})),function(){var e=this,r=arguments;return new Promise((function(n,i){var o=t.apply(e,r);function a(e){l(o,n,i,a,c,"next",e)}function c(e){l(o,n,i,a,c,"throw",e)}a(void 0)}))})()}var v=__webpack_require__(8539),_=__webpack_require__.n(v),h=__webpack_require__(4580),b=__webpack_require__(5970),g=__webpack_require__(3195),y=__webpack_require__(9599),w=__webpack_require__(9206);var m=!1;var k=__webpack_require__(7036),O=__webpack_require__(745),x=__webpack_require__(8025);function E(e,t){return E=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},E(e,t)}var P,S,j,A=function(e){var t,r;function i(t){var r;return r=e.call(this,t)||this,n.B?((0,O.v)(t),(0,k.B)(t,"firstbyte",(0,w.yf)()),c((function(){return r.measureWindowLoaded()})),u((function(){return r.measureDomContentLoaded()})),r):function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(r)}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,E(t,r);var o=i.prototype;return o.measureWindowLoaded=function(){var e=(0,w.zO)();(0,k.B)(this.agentIdentifier,"onload",e+(0,w.os)()),(0,g.p)("timing",["load",e],void 0,void 0,this.ee)},o.measureDomContentLoaded=function(){(0,k.B)(this.agentIdentifier,"domContent",(0,w.zO)()+(0,w.os)())},i}(x.W);function q(e,t){return q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},q(e,t)}n.B&&(void 0!==document.hidden?(P="hidden",S="visibilitychange",j="visibilityState"):void 0!==document.msHidden?(P="msHidden",S="msvisibilitychange"):void 0!==document.webkitHidden&&(P="webkitHidden",S="webkitvisibilitychange",j="webkitVisibilityState"));var C=function(e){var t,i;function o(t){var i,o;if(!(i=e.call(this,t)||this).isEnabled()||!n.B)return function(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}(i);if(i.pageHiddenTime="hidden"===document.visibilityState?-1:1/0,i.performanceObserver,i.lcpPerformanceObserver,i.clsPerformanceObserver,i.fiRecorded=!1,"PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i.performanceObserver=new PerformanceObserver((function(){var e;return(e=i).perfObserver.apply(e,arguments)}));try{i.performanceObserver.observe({entryTypes:["paint"]})}catch(e){}i.lcpPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).lcpObserver.apply(e,arguments)}));try{i.lcpPerformanceObserver.observe({entryTypes:["largest-contentful-paint"]})}catch(e){}i.clsPerformanceObserver=new PerformanceObserver((function(){var e;return(e=i).clsObserver.apply(e,arguments)}));try{i.clsPerformanceObserver.observe({type:"layout-shift",buffered:!0})}catch(e){}}if("addEventListener"in document){i.fiRecorded=!1;["click","keydown","mousedown","pointerdown","touchstart"].forEach((function(e){document.addEventListener(e,(function(){var e;return(e=i).captureInteraction.apply(e,arguments)}),(0,r.m)(!1))}))}return o=function(){var e;return(e=i).captureVisibilityChange.apply(e,arguments)},"addEventListener"in document&&S&&document.addEventListener(S,(function(){j&&document[j]?o(document[j]):document[P]?o("hidden"):o("visible")}),(0,r.m)(!1)),i}i=e,(t=o).prototype=Object.create(i.prototype),t.prototype.constructor=t,q(t,i);var a=o.prototype;return a.isEnabled=function(){return!1!==(0,b.Mt)(this.agentIdentifier,"page_view_timing.enabled")},a.perfObserver=function(e,t){var r=this;e.getEntries().forEach((function(e){"first-paint"===e.name?(0,g.p)("timing",["fp",Math.floor(e.startTime)],void 0,void 0,r.ee):"first-contentful-paint"===e.name&&(0,g.p)("timing",["fcp",Math.floor(e.startTime)],void 0,void 0,r.ee)}))},a.lcpObserver=function(e,t){var r=e.getEntries();if(r.length>0){var n=r[r.length-1];if(this.pageHiddenTime<n.startTime)return;var i=[n],o=this.addConnectionAttributes({});o&&i.push(o),(0,g.p)("lcp",i,void 0,void 0,this.ee)}},a.clsObserver=function(e){var t=this;e.getEntries().forEach((function(e){e.hadRecentInput||(0,g.p)("cls",[e],void 0,void 0,t.ee)}))},a.addConnectionAttributes=function(e){var t=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(t)return t.type&&(e["net-type"]=t.type),t.effectiveType&&(e["net-etype"]=t.effectiveType),t.rtt&&(e["net-rtt"]=t.rtt),t.downlink&&(e["net-dlink"]=t.downlink),e},a.captureInteraction=function(e){if(e instanceof b.Yu.EV&&!this.fiRecorded){var t=Math.round(e.timeStamp),r={type:e.type};this.addConnectionAttributes(r),t<=(0,w.zO)()?r.fid=(0,w.zO)()-t:t>(0,w.os)()&&t<=Date.now()?(t-=(0,w.os)(),r.fid=(0,w.zO)()-t):t=(0,w.zO)(),this.fiRecorded=!0,(0,g.p)("timing",["fi",t,r],void 0,void 0,this.ee)}},a.captureVisibilityChange=function(e){"hidden"===e&&(this.pageHiddenTime=(0,w.zO)(),(0,g.p)("pageHide",[this.pageHiddenTime],void 0,void 0,this.ee))},o}(x.W),R=__webpack_require__(4539),L="React",T="Angular",N="AngularJS",I="Backbone",B="Ember",M="Vue",D="Meteor",F="Zepto",G="Jquery";function W(){if(!n.B)return[];var e=[];try{(function(){try{if(window.React||window.ReactDOM||window.ReactRedux)return!0;if(document.querySelector("[data-reactroot], [data-reactid]"))return!0;for(var e=document.querySelectorAll("body > div"),t=0;t<e.length;t++)if(Object.keys(e[t]).indexOf("_reactRootContainer")>=0)return!0;return!1}catch(e){return!1}})()&&e.push(L),function(){try{return!!window.angular||(!!document.querySelector(".ng-binding, [ng-app], [data-ng-app], [ng-controller], [data-ng-controller], [ng-repeat], [data-ng-repeat]")||!!document.querySelector('script[src*="angular.js"], script[src*="angular.min.js"]'))}catch(e){return!1}}()&&e.push(N),function(){try{return!!(window.hasOwnProperty("ng")&&window.ng.hasOwnProperty("coreTokens")&&window.ng.coreTokens.hasOwnProperty("NgZone"))||!!document.querySelectorAll("[ng-version]").length}catch(e){return!1}}()&&e.push(T),window.Backbone&&e.push(I),window.Ember&&e.push(B),window.Vue&&e.push(M),window.Meteor&&e.push(D),window.Zepto&&e.push(F),window.jQuery&&e.push(G)}catch(e){}return e}var H,z=__webpack_require__(8547),V=__webpack_require__(248),U=__webpack_require__(8873);function Z(e,t,r){return Z=X()?Reflect.construct.bind():function(e,t,r){var n=[null];n.push.apply(n,t);var i=new(Function.bind.apply(e,n));return r&&Q(i,r.prototype),i},Z.apply(null,arguments)}function X(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Boolean.prototype.valueOf.call(Reflect.construct(Boolean,[],(function(){}))),!0}catch(e){return!1}}function Q(e,t){return Q=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},Q(e,t)}var J,Y,K,$=Boolean(self.Worker),ee=Boolean(self.SharedWorker),te=Boolean(null==(H=self.navigator)?void 0:H.serviceWorker);function re(e,t){return re=Object.setPrototypeOf?Object.setPrototypeOf.bind():function(e,t){return e.__proto__=t,e},re(e,t)}var ne,ie,oe,ae=function(e){var t,r;function i(t,r){var n;return void 0===r&&(r={}),(n=e.call(this,t)||this).PfFeatStatusEnum=r,n.singleChecks(),(0,R.X)("record-supportability",(function(){var e;return(e=n).recordSupportability.apply(e,arguments)}),void 0,n.ee),(0,R.X)("record-custom",(function(){var e;return(e=n).recordCustom.apply(e,arguments)}),void 0,n.ee),n}r=e,(t=i).prototype=Object.create(r.prototype),t.prototype.constructor=t,re(t,r);var o=i.prototype;return o.recordSupportability=function(e,t){var r=["sm",e,{name:e},t];return(0,g.p)("storeMetric",r,null,void 0,this.ee),r},o.recordCustom=function(e,t){var r=["cm",e,{name:e},t];return(0,g.p)("storeEventMetrics",r,null,void 0,this.ee),r},o.singleChecks=function(){var e=this;this.recordSupportability("Generic/Version/"+U.q+"/Detected"),n.B&&u((function(){W().forEach((function(t){e.recordSupportability("Framework/"+t+"/Detected")}))})),z.T.isFileProtocol()&&(this.recordSupportability("Generic/FileProtocol/Detected"),z.T.supportabilityMetricSent=!0);var t=(0,V.$c)(this.agentIdentifier);t.length>0&&this.recordSupportability("Generic/Obfuscate/Detected"),t.length>0&&!(0,V.Ng)(t)&&this.recordSupportability("Generic/Obfuscate/Invalid"),n.B&&this.reportPolyfillsNeeded(),function(e){if(!J){if($){J=Worker;try{self.Worker=r(J,"Dedicated")}catch(e){a(e,"Dedicated")}if(ee){Y=SharedWorker;try{self.SharedWorker=r(Y,"Shared")}catch(e){a(e,"Shared")}}else i("Shared");if(te){K=navigator.serviceWorker.register;try{self.navigator.serviceWorker.register=(t=K,function(){for(var e,r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return o("Service",null==(e=n[1])?void 0:e.type),t.apply(navigator.serviceWorker,n)})}catch(e){a(e,"Service")}}else i("Service");var t;return}i("All")}function r(e,t){return new Proxy(e,{construct:function(e,r){var n;return o(t,null==(n=r[1])?void 0:n.type),Z(e,r)}})}function i(t){n.n2||e("Workers/"+t+"/Unavailable")}function o(t,r){e("module"===r?"Workers/"+t+"/Module":"Workers/"+t+"/Classic")}function a(t,r){e("Workers/"+r+"/SM/Unsupported"),console.warn("NR Agent: Unable to capture "+r+" workers.",t)}}(this.recordSupportability.bind(this))},o.reportPolyfillsNeeded=function(){this.recordSupportability("Generic/Polyfill/Promise/"+this.PfFeatStatusEnum.PROMISE),this.recordSupportability("Generic/Polyfill/ArrayIncludes/"+this.PfFeatStatusEnum.ARRAY_INCLUDES),this.recordSupportability("Generic/Polyfill/ObjectAssign/"+this.PfFeatStatusEnum.OBJECT_ASSIGN),this.recordSupportability("Generic/Polyfill/ObjectEntries/"+this.PfFeatStatusEnum.OBJECT_ENTRIES)},i}(x.W),ce=__webpack_require__(9011),ue=(0,e.n)();try{!function(){if(!m){var e=(0,h.gG)();n.n2&&(e.info.jsAttributes=Object.assign({},e.info.jsAttributes,{isWorker:!0}));try{(0,b.CX)(t.Z,e.info),(0,b.Dg)(t.Z,e.init),(0,b.GE)(t.Z,e.loader_config),(0,b.sU)(t.Z,{}),function(e){var t=(0,h.fP)(),r=s.ee.get(e),n=r.get("tracer"),i="api-",o="api-ixn-";function a(){}(0,y.D)(["setErrorHandler","finished","addToTrace","inlineHit","addRelease"],(function(e,r){t[r]=u(i,r,!0,"api")})),t.addPageAction=u(i,"addPageAction",!0),t.setCurrentRouteName=u(i,"routeName",!0),t.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,b.OP)(e).customTransaction=(r||"http://custom.transaction")+t,u(i,"setPageViewName",!0,"api")()},t.setCustomAttribute=function(t,r){var n,o=(0,b.C5)(e);return(0,b.CX)(e,Object.assign({},o,{jsAttributes:Object.assign({},o.jsAttributes,(n={},n[t]=r,n))})),u(i,"setCustomAttribute",!0,"api")()},t.interaction=function(){return(new a).get()};var c=a.prototype={createTracer:function(e,t){var i={},o=this,a="function"==typeof t;return(0,g.p)("api-ixn-tracer",[(0,w.zO)(),e,i],o,void 0,r),function(){if(n.emit((a?"":"no-")+"fn-start",[(0,w.zO)(),o,a],i),a)try{return t.apply(this,arguments)}catch(e){throw n.emit("fn-err",[arguments,this,"string"==typeof e?new Error(e):e],i),e}finally{n.emit("fn-end",[(0,w.zO)()],i)}}}};function u(e,t,n,i){return function(){return(0,g.p)("record-supportability",["API/"+t+"/called"],void 0,void 0,r),(0,g.p)(e+t,[(0,w.zO)()].concat(_()(arguments)),n?null:this,i,r),n?void 0:this}}(0,y.D)("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),(function(e,t){c[t]=u(o,t)})),t.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,g.p)("record-supportability",["API/noticeError/called"],void 0,void 0,r),(0,g.p)("err",[e,(0,w.zO)(),!1,t],void 0,void 0,r)}}(t.Z),m=!0}catch(e){}}}();var se=(0,ce.K)(t.Z);se.page_view_event&&new A(t.Z),se.page_view_timing&&new C(t.Z),se.metrics&&new ae(t.Z,ue),ne="lite",void 0===oe&&(oe=1e3),ie?setTimeout((function(){return p(ne)}),oe):n.B?c((function(){return p(ne)})):p(ne)}catch(e){var fe,le,de;null!=(fe=self)&&null!=(le=fe.newrelic)&&null!=(de=le.ee)&&de.abort&&self.newrelic.ee.abort()}}(),self.NRBA=__webpack_exports__})();
+//# sourceMappingURL=https://js-agent.newrelic.com/nr-loader-rum-1221.min.25fcbbf1.map</script>
+<script>window.dataLayer = window.dataLayer || []; window.dataLayer.push({"drupalLanguage":"en","drupalCountry":"US","siteName":"Alvarez \u0026 Marsal | Management Consulting | Professional Services","entityCreated":"1671441650","entityLangcode":"en","entityStatus":"1","entityUid":"82971","entityUuid":"2d31e043-0035-4279-a398-bba0dc672807","entityVid":"458661","entityName":"rdigwa","entityType":"node","entityBundle":"article","entityId":"58296","entityTitle":"A\u0026M Perspective: Implications of ESG on Corporate Financing and Restructuring","entityTaxonomy":{"insights":{"1776":"Business \u0026 Industry Insights"},"expertise":{"686":"Restructuring \u0026 Turnaround"},"global_locations":{"546":"United Kingdom"}},"userUid":0,"lastUpdatedDate":"12\/19\/2022","division":"Restructuring \u0026 Turnaround","serviceLine":"Restructuring \u0026 Turnaround","region":"Europe","country":"United Kingdom"});</script>
+<link rel="canonical" href="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" />
+<link rel="shortlink" href="https://www.alvarezandmarsal.com/node/58296" />
+<meta name="generator" content="Drupal 8 (http://drupal.org)" />
+<meta name="description" content="1. Introduction
+
+In recent years, Environmental, Social and Governance (ESG) considerations have become critical to the success of many companies’ operating and financial models, given the growing investor interest and stakeholder scrutiny around ESG issues. Over the last decade, a raft of academic studies has drawn a strong link between the adoption of various ESG standards &amp; targets and equity value creation." />
+<meta property="og:site_name" content="Alvarez &amp; Marsal | Management Consulting | Professional Services" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" />
+<meta property="og:title" content="A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring" />
+<meta property="og:description" content="1. Introduction
+
+In recent years, Environmental, Social and Governance (ESG) considerations have become critical to the success of many companies’ operating and financial models, given the growing investor interest and stakeholder scrutiny around ESG issues. Over the last decade, a raft of academic studies has drawn a strong link between the adoption of various ESG standards &amp; targets and equity value creation." />
+<meta property="og:image" content="https://www.alvarezandmarsal.com/sites/default/files/amlogo_288px_blue.png" />
+<meta property="og:image:url" content="https://www.alvarezandmarsal.com/sites/default/files/amlogo_288px_blue.png" />
+<meta property="og:image:secure_url" content="https://www.alvarezandmarsal.com/sites/default/files/amlogo_288px_blue.png" />
+<meta property="og:updated_time" content="2022-12-19T04:20:50-05:00" />
+<meta property="article:published_time" content="2022-12-19T04:20:50-05:00" />
+<meta property="article:modified_time" content="2022-12-19T05:28:44-05:00" />
+<meta name="google-site-verification" content="qbFFXM85fG5Cn9AOP2G35EHvDNd6laZ1ZLeLzY8F6GQ" />
+<meta name="google-site-verification" content="U396iLqxjiCwUBTBnh8ovLGpm2oDapY_mG7NVF6o0kQ" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="1. Introduction
+
+In recent years, Environmental, Social and Governance (ESG) considerations have become critical to the success of many companies’ operating and financial models, given the growing investor interest and stakeholder scrutiny around ESG issues. Over the last decade, a raft of academic studies has drawn a strong link between the adoption of various ESG standards &amp; targets and equity value creation." />
+<meta name="twitter:title" content="A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring" />
+<meta name="twitter:url" content="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/50da073b-fd6f-4c60-b69d-04e8330fe69c/OtAutoBlock.js"></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="50da073b-fd6f-4c60-b69d-04e8330fe69c"></script>
+<script type="text/javascript"> function OptanonWrapper() { {window.dataLayer.push({event:"OneTrustGroupsUpdated"});} Optanon.InsertScript("/themes/custom/am/js/cookie-agreed.js", "head", null, null, "3", true); Optanon.InsertScript("/themes/custom/am/js/twitter-fetch.js", "head", null, null, "3", true);
+var bannerAcceptBtn = document.getElementById("onetrust-accept-btn-handler"); var pcAllowAllBtn = document.getElementById("accept-recommended-btn-handler"); var pcSaveBtn = document.getElementsByClassName("save-preference-btn-handler onetrust-close-btn-handler")[0];
+if (bannerAcceptBtn) { bannerAcceptBtn.addEventListener("click", function() { console.log("Allowed all via Banner"); window.localStorage.setItem("cookie-agreed-storage", 2); location.reload(true); }); } if (pcAllowAllBtn) { pcAllowAllBtn.addEventListener("click", function() { console.log("Allowed all via Preference Center"); location.reload(true); }); }
+if (pcSaveBtn) { pcSaveBtn.addEventListener("click", function() { console.log("Set custom settings via Preference Center"); location.reload(true); }); }
+} </script>
+<link rel="shortcut icon" href="/themes/custom/am/images/icons/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" />
+<link rel="revision" href="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" />
+<script src="/sites/default/files/google_tag/google_tag_manager_container/google_tag.script.js?romcxp" defer></script>
+
+    <title>A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring | Alvarez &amp; Marsal | Management Consulting | Professional Services</title>
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_QjWoZDYI3UrC4Z5lLk46x2MgkXbCjHwQjiyJD8PUQCY.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_1NbUiHZUbuplLxklRVRRBdT2jdcQTxIPP2hO7qpcYV0.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/asset_injector/css/drupal_entity_style-0d7e27848e9e3bc7aa217196567b2145.css?romcxp" />
+<link rel="stylesheet" media="all" href="/sites/default/files/asset_injector/css/taxonomy_grid_adjustment-427228a6b1bba66640c536f8650da56b.css?romcxp" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/58296","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"am\/responsive-table,am\/responsive-table-call,am\/scripts,am\/styles,am_passle_integration\/am_passle_integration-js,am_purephp_ga\/am_purephp_ga.track_pdf_body,am_webservices\/am_webservices.scripts,asset_injector\/css\/drupal_entity_style,asset_injector\/css\/taxonomy_grid_adjustment,core\/html5shiv,datalayer\/behaviors,paragraphs\/drupal.paragraphs.unpublished,shareclean\/shareclean.scripts,system\/base,tablesorter\/mottie.tablesorter,views\/views.module","theme":"am","theme_token":null},"ajaxTrustedUrl":{"\/search\/site":true},"am_webservices":{"baseUrl":"https:\/\/www.alvarezandmarsal.com","token":"vNpUQWHl8BNgfGQlqUMQ-cjjijD6rr40m0SpOtpI61I"},"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":-10},"ar":{"id":"ar","name":"Arabic","direction":"ltr","weight":-9},"zh-hans":{"id":"zh-hans","name":"Chinese, Simplified","direction":"ltr","weight":-8},"cs":{"id":"cs","name":"Czech","direction":"ltr","weight":-7},"nl":{"id":"nl","name":"Dutch","direction":"ltr","weight":-6},"fr":{"id":"fr","name":"French","direction":"ltr","weight":-5},"de":{"id":"de","name":"German","direction":"ltr","weight":-4},"el":{"id":"el","name":"Greek","direction":"ltr","weight":-3},"it":{"id":"it","name":"Italian","direction":"ltr","weight":-2},"ko":{"id":"ko","name":"Korean","direction":"ltr","weight":-1},"fi":{"id":"fi","name":"Finnish","direction":"ltr","weight":0},"hi":{"id":"hi","name":"Hindi","direction":"ltr","weight":1},"nb":{"id":"nb","name":"Norwegian Bokm\u00e5l","direction":"ltr","weight":2},"sv":{"id":"sv","name":"Swedish","direction":"ltr","weight":3},"uk":{"id":"uk","name":"Ukrainian","direction":"ltr","weight":4},"pl":{"id":"pl","name":"Polish","direction":"ltr","weight":5},"pt-br":{"id":"pt-br","name":"Portuguese","direction":"ltr","weight":6},"ru":{"id":"ru","name":"Russian","direction":"ltr","weight":7},"es":{"id":"es","name":"Spanish","direction":"ltr","weight":8},"vi":{"id":"vi","name":"Vietnamese","direction":"ltr","weight":9},"pt-pt":{"id":"pt-pt","name":"Portuguese, Portugal","direction":"ltr","weight":10}}},"tablesorter":{"zebra":null,"odd":null,"even":null},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"element":"div","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast","id":"","classes":"group-article-body field-group-div"}}},"am_passle_integration":{"passle_js_tag":"jQuery.fn.passle = function (options, callback) {\r\n\r\n  var cacheBustString = Math.floor(Date.now() \/ 100000); \/\/ Changes every 100 seconds\r\n  var $target = this;\r\n  var scrptEl = jQuery(\u0022[data-passleenv]\u0022)[0];\r\n  var root = scrptEl ? jQuery(scrptEl).attr(\u0027data-passleenv\u0027) : \u0022sdk.passle.net\u0022;\r\n  var URL = \u0022\/\/\u0022 + root + \u0022\/PluginBundles\/v1.2\/js\/passle-plugin-init?\u0022 + cacheBustString;\r\n\r\n  var getscriptOpts = {\r\n      dataType: \u0022script\u0022,\r\n      cache: true,\r\n      url: URL,\r\n      success: function () {\r\n          if (_passle \u0026\u0026 _passle.plugin) {\r\n              _passle.plugin($target, options, callback, cacheBustString);\r\n          } else {\r\n              console.log(\u0022Bootstrapping failed\u0022);\r\n              console.log(\u0022Check that correct script was fetched from \u0022 + URL);\r\n          }\r\n      },\r\n      error: function (jqXHR, settings, exception) {\r\n          console.log(\u0022AJAX bootstrap script load failed\u0022);\r\n          if (jqXHR) {\r\n              console.log(jqXHR)\r\n          } else if (exception) {\r\n              console.log(\u0022Exception: \u0022 + exception);\r\n          } else {\r\n              console.log(\u0022No error response returned\u0022);\r\n          }\r\n      }\r\n  };\r\n\r\n  jQuery.ajax(getscriptOpts);\r\n\r\n  return this;\r\n\r\n};\r\n","passle_js_user_id":"102fvqo","passle_js_number_of_posts":"4"},"mediaelement":{"attachSitewide":0},"user":{"uid":0,"permissionsHash":"dad1e7e59ea23ad67b71fa73a706c6d10a8b893446e661e8788f454cd6adbab2"}}</script>
+
+<!--[if lte IE 8]>
+<script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
+<![endif]-->
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.5.1"></script>
+<script src="/core/misc/polyfills/object.assign.js?v=8.9.20"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=8.9.20"></script>
+<script src="/core/misc/drupal.js?v=8.9.20"></script>
+<script src="/core/misc/drupal.init.js?v=8.9.20"></script>
+<script src="/core/assets/vendor/js-cookie/js.cookie.min.js?v=3.0.0-rc0"></script>
+<script src="/core/misc/jquery.cookie.shim.js?v=8.9.20"></script>
+<script src="/themes/custom/am/js/datatables/js/jquery.dataTables.min.js?romcxp"></script>
+<script src="/themes/custom/am/js/datatables/js/dataTables.responsive.min.js?romcxp"></script>
+
+  </head>
+  <body class="node-article page-node-58296 node-type-article section-insights not-logged-in path-node page-node-type-article context-insights-am-perspective-implications-esg-corporate-financing-and-restructuring">
+        <a href="#main-content" class="visually-hidden focusable">Skip to main content</a>
+    <div id="wrapper">
+      <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQRCPFZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="l-page">
+  <header role="banner" class="main-header">
+
+    <div class="branding-region">
+        <div class="views-exposed-form search-block-form" data-drupal-selector="views-exposed-form-indexed-contents-page-2" id="block-search-form-block">
+  
+    
+      <form action="/search/site" method="get" id="views-exposed-form-indexed-contents-page-2" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-textfield form-item-f js-form-item-f form-no-label">
+        <input data-drupal-selector="edit-f" type="text" id="edit-f" name="f" value="" size="30" maxlength="128" class="form-text" />
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-indexed-contents" type="submit" id="edit-submit-indexed-contents" value="Apply" class="button js-form-submit form-submit" />
+</div>
+
+
+</form>
+
+  </div>
+
+
+    </div>
+
+    <div class="menu-holder">
+      <div class="row row-branding">
+          <div class="block-am-branding" id="block-system-branding-block">
+  
+    
+        <div class='site-logo'>
+      <a href="/" rel="home">
+        <img src="/themes/custom/am/logo.svg" alt="Home" />
+      </a>
+    </div>
+    
+</div>
+<nav role="navigation" aria-labelledby="block-system-menu-block-main-menu" class="block-am-main-menu" id="block-system-menu-block-main">
+            
+  <h2 class="visually-hidden" id="block-system-menu-block-main-menu">Main navigation</h2>
+  
+
+        
+
+
+
+							<ul class="menu-level--0">
+		
+		
+							<li class="menu-item has-children" >
+					<a href="/about-am">
+													<div class="mobile-item-arrow"></div>
+												
+						About A&amp;M
+					</a>
+					
+																		<ul class=menu-level--1 id="menu_parent_About A&amp;M">
+		
+		
+							<li >
+					<a href="/alumni">
+												
+						Alumni
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/contact-am">
+												
+						Contact A&amp;M
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/community-engagement">
+												
+						Community Engagement
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/culture-values">
+												
+						Culture &amp; Values
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/diversity-inclusion">
+												
+						Diversity &amp; Inclusion
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/employee-resource-groups">
+												
+						Employee Resource Groups
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/esg-sustainability-am">
+												
+						ESG &amp; Sustainability
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/life-am">
+												
+						Life at A&amp;M
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li class="expertise-menu menu-item has-children" >
+					<a href="/expertise">
+													<div class="mobile-item-arrow"></div>
+												
+						Expertise
+					</a>
+					
+																		<ul class=menu-level--1 id="menu_parent_Expertise">
+		
+		
+							<li >
+					<a href="/am-digital">
+												
+						Digital
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/environmental-social-governance-esg-services">
+												
+						Environmental, Social &amp; Governance
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/corporate-performance-improvement">
+												
+						Corporate Performance Improvement
+					</a>
+					
+																		<ul class=menu-level--2 id="menu_parent_Corporate Performance Improvement">
+		
+		
+							<li >
+					<a href="/expertise/corporate-transformation">
+												
+						Corporate Transformation
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/taxonomy/term/96">
+												
+						Technology Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/cfo-services-new">
+												
+						CFO Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/supply-chain-services">
+												
+						Supply Chain Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/corporate-merger-acquisition-services">
+												
+						Merger, Acquisition &amp; Divestiture Services
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li >
+					<a href="/expertise/private-equity-services">
+												
+						Private Equity Services
+					</a>
+					
+																		<ul class=menu-level--2 id="menu_parent_Private Equity Services">
+		
+		
+							<li >
+					<a href="/expertise/global-transaction-advisory">
+												
+						Global Transaction Advisory
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/integrated-due-diligence">
+												
+						Integrated Due Diligence
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/private-equity-performance-improvement">
+												
+						Portfolio Company Performance Improvement
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/divestiture-services">
+												
+						Divestiture Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/services-india">
+												
+						Services for India
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li >
+					<a href="/expertise/restructuring-turnaround">
+												
+						Restructuring &amp; Turnaround
+					</a>
+					
+																		<ul class=menu-level--2 id="menu_parent_Restructuring &amp; Turnaround">
+		
+		
+							<li >
+					<a href="/expertise/restructuring-advisory">
+												
+						Restructuring Advisory
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/interim-crisis-management">
+												
+						Interim &amp; Crisis Management
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/corporate-finance">
+												
+						Corporate Finance
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/creditor-advisory">
+												
+						Creditor Advisory
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/claims-management-services">
+												
+						Claims Management Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/fiduciary-services">
+												
+						Fiduciary Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/insolvency">
+												
+						Insolvency
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li >
+					<a href="/expertise/tax">
+												
+						Tax
+					</a>
+					
+																		<ul class=menu-level--2 id="menu_parent_Tax">
+		
+		
+							<li >
+					<a href="/expertise/federal-tax">
+												
+						Federal Tax
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/state-local-tax">
+												
+						State &amp; Local Tax
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/international-tax">
+												
+						International Tax
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/global-transaction-tax-advisory">
+												
+						Global Transaction Tax Advisory
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/income-tax-accounting">
+												
+						Income Tax Accounting
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/sales-and-use">
+												
+						Sales and Use
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/transfer-pricing">
+												
+						Transfer Pricing
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/compensation-benefits">
+												
+						Compensation &amp; Benefits
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/real-estate-tax">
+												
+						Real Estate Tax
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/private-client-services">
+												
+						Private Client Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/emea-tax">
+												
+						U.K. Tax
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/bankruptcy-tax-services">
+												
+						Bankruptcy Tax Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/research-credits-incentives">
+												
+						Research Credits &amp; Incentives
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/merger-integration-0">
+												
+						Merger Integration
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/taxand-global">
+												
+						Taxand Global
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li >
+					<a href="/expertise/disputes-investigations">
+												
+						Disputes and Investigations
+					</a>
+					
+																		<ul class=menu-level--2 id="menu_parent_Disputes and Investigations">
+		
+		
+							<li >
+					<a href="/expertise/disputes">
+												
+						Disputes
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/investigations">
+												
+						Investigations
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/forensic-technology">
+												
+						Forensic Technology
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/fiduciary-services-0">
+												
+						Fiduciary Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/disputes-investigations/cyber-risk-services">
+												
+						Global Cyber Risk Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/financial-crimes-investigations">
+												
+						Financial Crimes &amp; Investigations
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li >
+					<a href="/expertise/valuation">
+												
+						Valuation
+					</a>
+					
+																		<ul class=menu-level--2 id="menu_parent_Valuation">
+		
+		
+							<li >
+					<a href="/expertise/portfolio-valuation-advisory-services">
+												
+						Portfolio Valuation &amp; Advisory Services
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/complex-financial-instruments">
+												
+						Complex Financial Instruments
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/financial-tax-reporting">
+												
+						Financial &amp; Tax Reporting
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/litigation-dispute-valuation">
+												
+						Litigation &amp; Dispute Valuation
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/structured-finance-capital-equipment-valuation">
+												
+						Structured Finance &amp; Capital Equipment Valuation
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/transaction-opinions">
+												
+						Transaction Opinions
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/divorce-services">
+												
+						Divorce Services
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li >
+					<a href="/expertise/regulatoryrisk-compliance">
+												
+						Regulatory &amp; Risk Advisory
+					</a>
+					
+																		<ul class=menu-level--2 id="menu_parent_Regulatory &amp; Risk Advisory">
+		
+		
+							<li >
+					<a href="/expertise/banking">
+												
+						Banking
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/corporate-risk-management">
+												
+						Corporate Risk Management
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/diversified-financials">
+												
+						Diversified Financials
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/insurance-regulatory">
+												
+						Insurance Regulatory
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/expertise/global-cyber-risk">
+												
+						Global Cyber Risk Services
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+									<div class="extra-menu-holder">
+						<div class="extra-menu-child-title">Industries</div>
+						<div class="views-element-container"><div class="block-taxonomy-industries js-view-dom-id-da020fdec1ebdf0ba6e63944ccc59a0719869533111b653c4a66aef973c53ef4">
+  
+  
+  
+
+  
+  
+  
+
+  <div class="item-list">
+  
+  <ul>
+
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/aerospace-defense-aviation-space" hreflang="en">Aerospace, Defense, Aviation &amp; Space</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/automotive-and-Industrials" hreflang="en">Automotive &amp; Industrials</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/business-services" hreflang="en">Business Services</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/consumer-products" hreflang="en">Consumer Products</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/education" hreflang="en">Education</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/energy" hreflang="en">Energy</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/environmental-disputes" hreflang="en">Environmental Disputes</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/financial-services" hreflang="en">Financial Services</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/healthcare" hreflang="en">Healthcare</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/infrastructure-capital-projects" hreflang="en">Infrastructure &amp; Capital Projects</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/pharmaceuticals" hreflang="en">Pharmaceuticals</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/public-sector" hreflang="en">Public Sector Services</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/real-estate" hreflang="en">Real Estate</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/retail" hreflang="en">Retail</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/software-technology-services" hreflang="en">Software, Technology &amp; Services</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/telecommunication-media-technology" hreflang="en">Telecommunications, Media &amp; Technology</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/transportation-logistics" hreflang="en">Transportation &amp; Logistics</a></span></div></li>
+          <li><div class="views-field views-field-name"><span class="field-content"><a href="/industries/travel-hospitality-and-leisure" hreflang="en">Travel, Hospitality and Leisure</a></span></div></li>
+    
+  </ul>
+
+</div>
+
+    
+
+  
+  
+
+  
+  
+</div>
+</div>
+
+					</div>
+				
+					</ul>
+	
+									</li>
+
+				
+							<li class="menu-item has-children" >
+					<a href="/insights">
+													<div class="mobile-item-arrow"></div>
+												
+						Insights
+					</a>
+					
+																		<ul class=menu-level--1 id="menu_parent_Insights">
+		
+		
+							<li >
+					<a href="https://www.alvarezandmarsal.com/subscribe-am-enewsletters">
+												
+						A&amp;M Bulletins
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/insights?t=am-news-releases">
+												
+						A&amp;M News &amp; Releases
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/insights/business-industry-insights">
+												
+						Business &amp; Industry Insights
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/podcasts">
+												
+						Podcasts
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/taxonomy/term/1771">
+												
+						Success Stories
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li class="menu-item" >
+					<a href="http://amonsocial.alvarezandmarsal.com">
+													<div class="mobile-item-arrow"></div>
+												
+						#AMon Social
+					</a>
+					
+									</li>
+
+				
+							<li class="menu-item" >
+					<a href="/our-people">
+													<div class="mobile-item-arrow"></div>
+												
+						Our People
+					</a>
+					
+									</li>
+
+				
+							<li class="menu-item has-children" >
+					<a href="/global-locations">
+													<div class="mobile-item-arrow"></div>
+												
+						Global Locations
+					</a>
+					
+																		<ul class=menu-level--1 id="menu_parent_Global Locations">
+		
+		
+							<li >
+					<a href="/global-locations/australia">
+												
+						Australia
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/benelux">
+												
+						Benelux
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/brazil">
+												
+						Brazil
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/canada">
+												
+						Canada
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/cayman-islands">
+												
+						Cayman Islands
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/china">
+												
+						China
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/colombia">
+												
+						Colombia
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/czech-republic">
+												
+						Czech Republic
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/finland">
+												
+						Finland
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/france">
+												
+						France
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/germany">
+												
+						Germany
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/greece">
+												
+						Greece
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/india">
+												
+						India
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/indonesia">
+												
+						Indonesia
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/ireland">
+												
+						Ireland
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/italy">
+												
+						Italy
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/korea">
+												
+						Korea
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/malaysia">
+												
+						Malaysia
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/mexico">
+												
+						Mexico
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/norway">
+												
+						Norway
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/poland">
+												
+						Poland
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/saudi-arabia">
+												
+						Saudi Arabia
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/singapore">
+												
+						Singapore
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/spain">
+												
+						Spain
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/sweden">
+												
+						Sweden
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/switzerland">
+												
+						Switzerland
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/ukraine">
+												
+						Ukraine
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/united-arab-emirates">
+												
+						United Arab Emirates
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/united-kingdom">
+												
+						United Kingdom
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/united-states">
+												
+						United States
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/uzbekistan">
+												
+						Uzbekistan
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/global-locations/vietnam">
+												
+						Vietnam
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li class="menu-item has-children" >
+					<a href="/careers">
+													<div class="mobile-item-arrow"></div>
+												
+						Careers
+					</a>
+					
+																		<ul class=menu-level--1 id="menu_parent_Careers">
+		
+		
+							<li >
+					<a href="https://alvarezandmarsal.wd1.myworkdayjobs.com/alvarezandmarsal">
+												
+						Search and Apply
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/careers/work-well-live-well">
+												
+						Work Well. Live Well
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/careers/stay-competitive">
+												
+						Stay Competitive
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/careers/see-world">
+												
+						Global Mobility
+					</a>
+					
+									</li>
+
+				
+							<li >
+					<a href="/careers/experience-am-life">
+												
+						Life at A&amp;M
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+									</li>
+
+				
+							<li class="menu-item" >
+					<a href="https://www.alvarezandmarsal.com/am-on-covid-19">
+													<div class="mobile-item-arrow"></div>
+												
+						A&amp;M on COVID-19
+					</a>
+					
+									</li>
+
+				
+					</ul>
+	
+
+
+  </nav>
+
+
+      </div>
+
+      <div class="head-submenu-btns">
+        <a class="header-search-btn"></a>
+        <a class="menu-toggle"></a>
+      </div>
+    </div>
+
+  </header>
+
+      <div class="subheader">
+          
+<div class="article-header-block" >
+  <div class="content">
+    <div class="category-structure">
+                      <span class="main">Restructuring &amp; Turnaround</span>
+          </div>
+    <div class="title">
+      <h1>
+        A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring
+      </h1>
+    </div>
+      
+  </div>
+</div>
+
+
+
+    </div>
+  
+  <div class="l-main insights-main">
+    <div class="l-content insights-content" role="main">
+      
+      
+      <a id="main-content"></a>
+      
+              
+      
+      
+      
+                    <article role="article" about="/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" typeof="schema:Article" class="node--article node--article--full">
+  <div class="node__content">
+    
+          <span property="schema:name" content="A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring" class="hidden"></span>
+
+
+              <div class="field--name-field-date">December 19, 2022</div>
+        
+<div  class="group-article-body field-group-div">
+      
+
+
+<div class="shareclean-buttons" style="z-index:99; position: absolute; top: 0px; bottom: auto;">
+  <div class="shareclean-wrapper">
+      <span st_url="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" st_title="A&M Perspective: Implications of ESG on Corporate Financing and Restructuring" class="st_facebook_custom" displaytext="facebook" onclick="window.open(&#039;https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.alvarezandmarsal.com%2Finsights%2Fam-perspective-implications-esg-corporate-financing-and-restructuring&amp;p[title]&#039;,&#039;sharer&#039;,&#039;toolbar=0,status=0,width=555,height=326&#039;);"></span>
+      <span st_url="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" st_title="A&M Perspective: Implications of ESG on Corporate Financing and Restructuring" class="st_linkedin_custom" displaytext="linkedin" onclick="window.open(&#039;https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.alvarezandmarsal.com%2Finsights%2Fam-perspective-implications-esg-corporate-financing-and-restructuring&amp;title=A%26M+Perspective%3A+Implications+of+ESG+on+Corporate+Financing+and+Restructuring&#039;,&#039;sharer&#039;,&#039;toolbar=0,status=0,width=555,height=326&#039;);"></span>
+      <span st_url="https://www.alvarezandmarsal.com/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" st_title="A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring" class="st_twitter_custom" displaytext="twitter" onclick="window.open(&#039;https://twitter.com/intent/tweet?text=A%26amp%3BM+Perspective%3A+Implications+of+ESG+on+Corporate+Financing+and+Restructuring&amp;url=https%3A%2F%2Fwww.alvarezandmarsal.com%2Finsights%2Fam-perspective-implications-esg-corporate-financing-and-restructuring&#039;,&#039;sharer&#039;,&#039;toolbar=0,status=0,width=555,height=326&#039;);"></span>
+    </div>
+</div>
+
+                    <div class="field_video field--name-field_video field--name-field-video"></div>
+            <span class="print-link">
+  <span class="print_html">
+    <a href="/print/58296" title="A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring" class="print-page" rel="nofollow,noindex">Printable version</a>
+  </span>
+  <span class="print_mail">
+    <a href="/printmail/58296" title="A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring" class="print-mail" rel="nofollow,noindex">Send by email</a>
+  </span>
+  <span class="print_pdf">
+    <a href="/printpdf/58296" title="A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring" class="print-pdf" onclick="window.open(this.href); return false" rel="nofollow,noindex">PDF version</a>
+  </span>
+</span>
+
+<div class="field--name-field-teaser-text"></div>
+<div  property="schema:text" class="body field--name-body">
+                  <h3>1. Introduction</h3>
+
+<p>In recent years, Environmental, Social and Governance (ESG) considerations have become critical to the success of many companies’ operating and financial models, given the growing investor interest and stakeholder scrutiny around ESG issues. Over the last decade, a raft of academic studies has drawn a strong link between the adoption of various ESG standards &amp; targets and equity value creation. Whether a company is performing, underperforming or in a distressed situation, the prevailing sentiment in European markets is that a commitment to ESG standards can materially affect a business’s value and its ability to obtain competitive funding. However, this is far from a universal view: the war in Ukraine, for example, has compelled those same markets to reassess their stance notably on energy security and defence spending.</p>
+
+<p>One of the main challenges in incorporating ESG policy into financing decisions and corporate transformations/restructurings is the absence of a clear and unified regulatory framework. While legislation has evolved in the past few years, often stakeholders have conflicting objectives or follow different guidelines when adopting an ESG agenda. This fluidity in defining ESG principles and KPIs has inevitably given rise to accusations of green washing and virtue signalling via expensive press relation exercises. Some of this criticism is merited.</p>
+
+<p>Notwithstanding these apparent contradictions and reversals, we believe these are the necessary growing pains of a (still immature) socio-economic framework that is seeking to redefine some of the core tenets of capitalism. Advisors with a clear understanding of how to leverage the available ESG tools and frameworks can establish common ground for all stakeholders – board members, management teams, employees, adjacent communities, suppliers, regulators, creditors and sponsors – reaching consensus within a transformation, restructuring or financing process, ultimately helping to enhance/preserve value and to ensure the business prospers.</p>
+
+<h3>2. EU Taxonomy and Other Regulatory Developments</h3>
+
+<p>In 2020, the European Union (EU) taxonomy created a classification system with a list of economic activities that are considered environmentally sustainable. Implemented as part of the European Green Deal initiative, the regulation aims to provide clarity for market participants and scale up sustainable investments as a result.</p>
+
+<p>The six environmental objectives of the EU taxonomy include:</p>
+
+<ol><li>Climate change mitigation</li>
+	<li>Climate change adaptation</li>
+	<li>The sustainable use and protection of water and marine resources</li>
+	<li>The transition to a circular economy</li>
+	<li>Pollution prevention and control</li>
+	<li>The protection and restoration of biodiversity and ecosystems.</li>
+</ol><p><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">[1]</span></span></span></span></span></span></span></span><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"> </span></span></span>Green washing is marketing that portrays an organisation’s products, activities or policies as producing positive environmental outcomes when this is not the case</p>
+
+<p>Other relevant regulatory developments for debt market participants include the Loan Market Association (LMA)’s Green &amp; Sustainable Finance principles, template loan documentation, and the International Capital Market Association (ICMA)’s Sustainable Finance principles, guidelines, and handbooks for the issuance of green, social and sustainability-linked bonds. The latter, for example, includes an illustrative registry of relevant key performance indicators for these instruments. An obvious, early conclusion is that the loan and capital markets have quickly gravitated towards the “E” in ESG with priority given to sustainability/green goals and performance measures.</p>
+
+<h3>3. ESG Finance Instruments – An Overview</h3>
+
+<p>The European ESG market has grown strongly over the past few years, both in terms of volume and number of deals, with issuance set to hit $1,000bn of corporate transactions in 2021 and $650bn YTD in FY2022, according to data from Refinitiv Loan Connector and Bloomberg.</p>
+
+<p>The growing diversification of ESG instruments has also made the market more attractive for borrowers and lenders. Instruments issued under the umbrella of ESG include:</p>
+
+<p><em>ESG-linked financing instruments</em></p>
+
+<p>Lenders can integrate ESG into their credit risk assessment through the provision of so-called sustainability linked loans. On top of traditional financial covenants, these instruments include clauses whereby margin ratchets go up or down depending on the specifics of the borrower’s ESG goals. The ESG performance is typically linked to Sustainability Performance Targets (SPT) and Key Performance Indicators (KPIs). Alternatively, an ESG rating could also be implemented. Such targets/measures are typically included in corporate loans used for general corporate purposes.</p>
+
+<p>In 2021, ESG-linked loan issuance in Europe reached $300 billion, an increase of more than 50% compared to the previous year, according to Refinitiv Loan Connector data. Recent transactions in the market have shown margin step-ups/step-downs between 2 to 15 basis points, according to A&amp;M’s analysis of recent deals. In certain cases, the margin step-up/step-down can be higher.</p>
+
+<p>While European banks already have a strong footprint in the ESG market, the number of private debt funds offering ESG-linked facilities, including unitranche loans, is also growing. Furthermore, ESG momentum in the mid-market space has gathered pace with the launch of several dedicated funds targeting qualifying ESG investments.</p>
+
+<p>Sustainability-linked bonds are the latest addition to the universe of ESG debt instruments. Like sustainability-linked loans, their financial terms are also linked to the achievement of predetermined ESG targets by the issuer. They can be used to finance any corporate activity and proceeds do not need to be allocated to specific projects.</p>
+
+<p><em>Investment/project-related ESG financing instruments</em></p>
+
+<p>Instruments such as green bonds, social bonds and sustainability bonds or loans have flourished in the European capital and debt markets for a few years. These bonds/loans work like conventional instruments but proceeds are specifically earmarked to finance projects with an environmental or social impact. This is achieved within a specific ESG framework and standard such as the ICMA’s</p>
+
+<p><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">[2]</span></span></span></span></span></span></span></span><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"> </span></span></span>Regional loan associations have been cooperating for some years to agree on some common standards. In March 2019 (and updated in 2021 / 2022), the Sustainability Linked Loan Principles were published by the LMA, Asia Pacific Loan Market Association (APLMA) and the Loan Syndications and Trading Association (LSTA).</p>
+
+<p>Green Bond Principles. Further, promotional banks have developed individual frameworks to support sustainable projects in their regions.</p>
+
+<h3>4. Private Equity and ESG-Linked LBO Financings</h3>
+
+<p>Private equity funds are also starting to use an ESG lens to identify risks and opportunities despite no clear or unified guidelines. For these stakeholders, ESG considerations are increasingly being incorporated not only as a risk management tool but also as a driver of value creation.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;"><tbody><tr><td>
+			<p style="margin-bottom:11px">Benefits of ESG financing for borrowers</p>
+
+			<ul><li>Stakeholder engagement: combination of ESG governance and financing strategy enhances a company’s reputation and credibility</li>
+				<li>Monetary benefits: loan documentation allows for better financial terms</li>
+				<li>Larger investor base: Access to a broader and diversified investor base</li>
+				<li>Liquidity: appetite for ESG debt remains high despite economic uncertainty</li>
+			</ul></td>
+		</tr></tbody></table><p>In a significant development in 2021, more than 100 leading GPs and LPs, representing US$8.7 trillion in assets under management, developed the industry’s first-ever collaboration to standardise ESG metrics. The ESG Data Convergence Initiative (EDCI) agreed on six core ESG metrics – from greenhouse gas emissions to the use of renewable energy and diversity –in order to monitor and control their investments.</p>
+
+<p>Private equity sponsors have also started to introduce ESG elements into the financing arrangements of their portfolio companies. In 2020, Spanish telecom MasMovil became one of the first European issuers to include an ESG pricing feature in an acquisition loan package backed by a private equity consortium. The agreed margin step-up/step-down was 15bps. Other recent transactions in 2022 include a term loan issued by Armor-IlMAK, which was used for its acquisition by Astorg. The loan includes an ESG margin ratchet of 10bps.</p>
+
+<p style="margin-bottom:11px"><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">[3]</span></span></span></span></span></span></span></span> Recent ESG-linked LBO Financings in Europe</p>
+
+<article data-embed-button="image_embed" data-entity-embed-display="entity_reference:media_thumbnail" data-entity-type="media" data-entity-uuid="13e776e9-ede4-473e-94a0-bcec4a02710c" data-langcode="en" class="embedded-entity"><img src="/sites/default/files/2022-12/Recent%20ESG-linked%20LBO%20Financings%20in%20Europe_0.png" width="1557" height="292" typeof="foaf:Image" /></article><h3>5. ESG Considerations in Corporate Refinancings</h3>
+
+<p>ESG finance instruments have been increasingly used by companies to refinance existing debt or raise new funds. One of the biggest transactions in Europe in 2022 was completed by Enel, the Italian energy group in May. Margins on the company’s €13.5 billion RCF facility are linked to a key KPI based on direct greenhouse emissions and can step down or up by 25bps, based on the achievement of the target.</p>
+
+<p>Symrise Group, a producer of flavours and fragrances has successfully issued a €750 million ESG-linked Schuldschein in May 2022. The interest rate is linked to Symrise Group’s KPIs including eco-efficiency of the Symrise Group’s greenhouse gas emissions. The transaction was heavily oversubscribed, demonstrating resilient demand for ESG finance debt even as market conditions deteriorate.</p>
+
+<p><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">[4]</span></span></span></span></span></span></span></span><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"> </span></span></span>Source: Refinitiv Loan Connector</p>
+
+<p><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">[5]</span></span></span></span></span></span></span></span> Other recent corporate refinancing transactions include</p>
+
+<article data-embed-button="image_embed" data-entity-embed-display="entity_reference:media_thumbnail" data-entity-type="media" data-entity-uuid="80f1b923-e2fd-4204-87b2-585c9e427d68" data-langcode="en" class="embedded-entity"><img src="/sites/default/files/2022-12/Other%20recent%20corporate%20refinancing%20transactions%20include_0.png" width="1556" height="342" typeof="foaf:Image" /></article><h3>6. Supporting Financial Stakeholders in ESG Financing Transactions</h3>
+
+<p>Companies and equity sponsors should seek advice from debt experts with relevant ESG experience that can support them through a refinancing or restructuring process. An advisor should be able to promptly assess the borrower’s ability to deliver on its overall ESG strategy, including but not limited to:</p>
+
+<p><em>Take ESG risks into account when assessing the overall condition, prospects and stability of a business</em></p>
+
+<ul><li>Restructuring and financing professionals must take into consideration ESG factors and orient the going concern towards reaching these targets. Business plans and financial and operating models must be redesigned to reflect this new reality.</li>
+	<li>Furthermore, companies need to establish clear roadmaps with appropriate level resources to attain ESG targets and embed these plans within the broader corporate strategy. Relevant sustainable KPIs and SPTs need to be clearly defined and targets must be fully actionable.</li>
+	<li>In the absence of clear regulatory frameworks, restructuring and financing professionals must develop the necessary instruments within their own toolboxes to support companies through corporate transaction processes.</li>
+	<li>By incorporating ESG factors into corporate debt transactions, stakeholders will be able to access a larger pool of capital, given the focus on ESG investment among equity and debt providers.</li>
+</ul><p><em>Strengthen governance models to respond to evolving ESG regulation</em></p>
+
+<ul><li>Companies will need to strengthen and rethink their governance models, establishing risk management mechanisms to measure, monitor and control their ESG targets and achievements.</li>
+	<li>In so doing, companies will need to ensure the right resources and capabilities are in place to deliver on their ESG agenda. Communication with all stakeholders (including equity providers, lenders, employees, suppliers and customers) also needs to be elevated, especially in light of evolving regulation, to highlight the importance of the ESG agenda and how it may be embedded within the company culture and values. </li>
+</ul><p><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"><span class="MsoFootnoteReference" style="vertical-align:super"><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif">[6]</span></span></span></span></span></span></span></span><span style="font-size:11.0pt"><span style="line-height:107%"><span style="font-family:&quot;Calibri&quot;,sans-serif"> </span></span></span>Source:  Refinitiv Loan Connector</p>
+
+<p><em>Lenders need to work closely with borrowers to ensure ESG risk requirements are met</em></p>
+
+<ul><li>Lenders will have to work closely with companies to ensure that their internal ESG risk requirements are met and that the company understands what is expected from them, and vice-versa. For new financing arrangements this might be easier to implement but for existing financing, adapting these will prove more challenging.</li>
+	<li>Effective communication on how companies are working towards their ESG goals is critical for lenders given the emergence of stricter ESG-related disclosure requirements.</li>
+</ul><p><em>Covenant protection for lenders against ESG issues and impacts on credit quality</em></p>
+
+<ul><li>Today, regulation appears to be one step behind in terms of providing lenders with s a clear regulatory framework to run their credit risk management. Lenders should nonetheless ensure they are incorporating ESG-related risk parameters within a thein risk analysis.</li>
+	<li>If a borrower fails to meet the pre-defined ESG targets within an ESG-linked loan or bond documentation, the margin will increase. However, a breach of an ESG KPI does not result in an event of default.</li>
+</ul><p><strong>Alvarez &amp; Marsal. Leadership. Action. Results.</strong></p>
+
+<p>A&amp;M Debt Advisory helps companies plan, select, source, negotiate and amend debt finance across various debt markets, structures and geographies. Debt markets are more sophisticated and more complex than ever before. The A&amp;M Debt Advisory team supports borrowers in navigating those markets</p>
+
+        </div>
+
+  </div>
+
+  </div>
+</article>
+
+
+      
+    </div>
+              <aside class="sidebar-second">  <div id="block-am-blocks-article-author">
+  <div class="block__content">
+    <div class="article-authors-block">
+        <div class="title">Authors</div>
+      <div class="authors-list">
+                                  <div class="author-wrapper">
+              <div class="author-name">
+                <a href="https://www.alvarezandmarsal.com/our-people/ed-manning">
+                  Ed Manning
+                </a>
+              </div>
+              <div class="author-job-title">Managing Director</div>
+            </div>
+                      
+                                    <div class="author-wrapper">
+                <div class="author-name">Atif Malik</div>
+                <div class="author-job-title">Senior Director</div>
+              </div>
+                          <div class="author-wrapper">
+                <div class="author-name">Svenja Krause</div>
+                <div class="author-job-title">Associate Director</div>
+              </div>
+                            </div>
+    </div>
+  </div>
+</div>
+<div class="insights-wrapper block-am-blocks-right-rail-insights" id="block-am-term-insights">
+  
+      <h2>Related Insights</h2>
+    
+      <div>
+  <div class="article-teaser">
+    
+          <div class="field field--name-field-category field--type-taxonomy-term-reference field--label-hidden">
+        <div class="field__items">
+          <div class="field__item even">
+            <a href="/insights/business-industry-insights">Business &amp; Industry Insights </a>
+          </div>
+        </div>
+      </div>
+    
+    <a href="/insights/am-perspective-implications-esg-corporate-financing-and-restructuring" class="teaser-title">A&amp;M Perspective: Implications of ESG on Corporate Financing and Restructuring </a>
+    <div class="field__item date_time_format insights-teaser-date">
+      December 19, 2022 
+    </div>
+  </div>
+  <div class="article-teaser">
+    
+          <div class="field field--name-field-category field--type-taxonomy-term-reference field--label-hidden">
+        <div class="field__items">
+          <div class="field__item even">
+            <a href="/insights/business-industry-insights">Business &amp; Industry Insights </a>
+          </div>
+        </div>
+      </div>
+    
+    <a href="/insights/ryan-omohundro-selected-abis-40-under-40-achievement" class="teaser-title">Ryan Omohundro Selected for ABI&#039;s &quot;40 Under 40&quot; Achievement </a>
+    <div class="field__item date_time_format insights-teaser-date">
+      December 12, 2022 
+    </div>
+  </div>
+  <div class="article-teaser">
+    
+    
+    <a href="/insights/tiffany-wong-wins-woman-year-restructuring-asia-award-international-womens-insolvency-and" class="teaser-title">Tiffany Wong wins Woman of the Year in Restructuring (Asia) Award from the International Women&#039;s Insolvency and Restructuring Confederation (IWIRC) </a>
+    <div class="field__item date_time_format insights-teaser-date">
+      November 23, 2022 
+    </div>
+  </div>
+  <div class="article-teaser">
+    
+          <div class="field field--name-field-category field--type-taxonomy-term-reference field--label-hidden">
+        <div class="field__items">
+          <div class="field__item even">
+            <a href="/insights/business-industry-insights">Business &amp; Industry Insights </a>
+          </div>
+        </div>
+      </div>
+    
+    <a href="/insights/walking-tightrope-retailers-grapple-inflation-debt-and-dwindling-demand" class="teaser-title">Walking a Tightrope: Retailers Grapple With Inflation, Debt and Dwindling Demand </a>
+    <div class="field__item date_time_format insights-teaser-date">
+      November 17, 2022 
+    </div>
+  </div>
+  <footer>
+      </footer>
+  </div>
+
+  </div>
+
+    <div class="block-stayconnected block-type--social_networks" id="block-block-content-7cc4a8f1-67bf-4713-b86f-90205fea815f">
+    
+            <h2>STAY CONNECTED</h2>
+        
+            
+      <div class="field_social_networks field--name-field_social_networks field--name-field-social-networks">
+              <div class="field-item">  <a  class="paragraph paragraph--type--social-network paragraph--view-mode--default" href=https://www.linkedin.com/company/162399>
+    
+            <div class="field_social_network_icon field--name-field_social_network_icon field--name-field-social-network-icon">  <img src="/sites/default/files/2021-08/in_0.png" width="40" height="40" alt="Join A&amp;M on LinkedIn" typeof="foaf:Image" />
+
+</div>
+      
+    <h4>Join A&amp;M on LinkedIn</h4>
+  </a>
+</div>
+              <div class="field-item">  <a  class="paragraph paragraph--type--social-network paragraph--view-mode--default" href=https://twitter.com/alvarezmarsal>
+    
+            <div class="field_social_network_icon field--name-field_social_network_icon field--name-field-social-network-icon">  <img src="/sites/default/files/2021-08/twit_0.png" width="44" height="35" alt="Follow A&amp;M on Twitter" typeof="foaf:Image" />
+
+</div>
+      
+    <h4>Follow A&amp;M on Twitter</h4>
+  </a>
+</div>
+              <div class="field-item">  <a  class="paragraph paragraph--type--social-network paragraph--view-mode--default" href=https://www.facebook.com/alvarezandmarsal>
+    
+            <div class="field_social_network_icon field--name-field_social_network_icon field--name-field-social-network-icon">  <img src="/sites/default/files/2021-08/fb_0.png" width="35" height="40" alt="Like A&amp;M on Facebook" typeof="foaf:Image" />
+
+</div>
+      
+    <h4>Like A&amp;M on Facebook</h4>
+  </a>
+</div>
+              <div class="field-item">  <a  class="paragraph paragraph--type--social-network paragraph--view-mode--default" href=https://www.youtube.com/user/AlvarezMarsal>
+    
+            <div class="field_social_network_icon field--name-field_social_network_icon field--name-field-social-network-icon">  <img src="/sites/default/files/2021-08/yt.png" width="54" height="39" alt="Follow A&amp;M on YouTube" typeof="foaf:Image" />
+
+</div>
+      
+    <h4>Follow A&amp;M on YouTube</h4>
+  </a>
+</div>
+              <div class="field-item">  <a  class="paragraph paragraph--type--social-network paragraph--view-mode--default" href=https://bulletins.alvarezandmarsal.com/>
+    
+            <div class="field_social_network_icon field--name-field_social_network_icon field--name-field-social-network-icon">  <img src="/sites/default/files/2021-08/newsletter_0.png" width="40" height="30" alt="Sign up for A&amp;M Newsletters" typeof="foaf:Image" />
+
+</div>
+      
+    <h4>Sign up for A&amp;M Newsletters</h4>
+  </a>
+</div>
+          </div>
+  
+        </div>
+
+
+
+             </div>
+      <footer role="contentinfo">
+
+      <div class="container-pre-footer">
+        
+      </div>
+
+      <div class="container-footer">
+        <section class="region-main-footer">
+  <div id="block-am-blocks-am-signup">
+    <form class="am-signup-form" action="https://bulletins.alvarezandmarsal.com/" method="GET" id="am-signup-form" accept-charset="UTF-8">
+      <div>
+        <div class="form-item form-type-textfield form-item-email">
+          <label for="edit-email">A&amp;M Bulletin Signup <span class="form-required" title="This field is required.">*</span></label>
+          <input placeholder="Email Address" type="email" id="edit-email" name="email" value="" size="60" maxlength="128" class="form-text required" required>
+        </div>
+        <input type="submit" id="edit-subscribe" name="op" value="Subscribe" class="form-submit">
+      </div>
+    </form>
+  </div>
+
+  <ul class="main-footer-menu">
+
+  </ul>
+
+      <div id="block-main-footer-menu">
+  
+    
+      
+      <div class="main-footer-menu-inner left-side">
+      <div class="ls-item">
+                            
+          <a href="/global-locations">Global Locations</a>
+                            
+          <a href="/expertise">Expertise</a>
+                            
+          <a href="/industries">Industries</a>
+                            
+          <a href="/insights">Insights</a>
+                            
+          <a href="/our-people">Our People</a>
+                              </div>
+            <div class="rs-item">
+                    
+          <a href="/careers" title="" id="" name="" rel="" style="" target="" accesskey="">Careers</a>
+                            
+          <a href="http://amonsocial.alvarezandmarsal.com">#AMon Social</a>
+                            
+          <a href="https://www.alvarezandmarsal.com/am-on-covid-19">A&amp;M on COVID-19</a>
+                            
+          <a href="/about-am" title="" id="" name="" rel="" style="" target="" accesskey="">About A&amp;M</a>
+              </div>
+    </div>
+  
+      <div class="main-footer-menu-inner">
+              <a href="/contact">Contact</a>
+              <a href="/alumni">Alumni</a>
+              <a href="https://a-mcapital.com/">A&amp;M Capital</a>
+              <a href="https://www.amcapitalre.com/">A&amp;M Capital Real Estate</a>
+              <a href="https://globalconnect.alvarezandmarsal.com/">Employee Portal</a>
+              <a href="/privacy-notice" title="" id="" name="" rel="" style="" target="" accesskey="">Privacy Notice</a>
+              <a href="/privacy-shield-notice-alvarez-marsal-disputes-and-investigations-llc" title="" id="" name="" rel="" style="" target="" accesskey="">Privacy Shield Notice</a>
+              <a href="/privacy-notice-california" title="" id="" name="" rel="" style="" target="" accesskey="">California Privacy Notice</a>
+              <a href="/cookie-policy" title="" id="" name="" rel="" style="" target="" accesskey="">Cookie Notice</a>
+              <a href="/terms-use" title="" id="" name="" rel="" style="" target="" accesskey="">Terms of Use</a>
+          </div>
+  
+
+  </div>
+
+<div id="block-am-social-am-social" class="block block--am-social block--am-social-am-social">
+
+    <ul id="am-social">
+
+                    <li id="am-social-linkedin" class="social-icons-am-linkedin"><a itemprop="sameAs" class="social-icons-am-linkedin" href="https://www.linkedin.com/company/162399" target="_blank">LinkedIn</a></li>
+        
+                    <li id="am-social-facebook" class="social-icons-am-facebook"><a itemprop="sameAs" class="social" href="https://www.facebook.com/alvarezandmarsal" target="_blank">Facebook</a></li>
+        
+                    <li id="am-social-twitter" class="social-icons-am-twitter"><a itemprop="sameAs" class="social " href="https://twitter.com/alvarezmarsal" target="_blank">Twitter</a></li>
+        
+                    <li id="am-social-youtube" class="social-icons-am-youtube"><a itemprop="sameAs" class="social " href="https://www.youtube.com/user/AlvarezMarsal" target="_blank">YouTube</a></li>
+        
+        
+        
+        
+    </ul>
+
+</div><div id="block-main-footer-twitter">
+  
+    
+      <div class="am-social-connect-twitter" id="am-social-connect-twitter"></div>
+  </div>
+<div class="block-amcopyright block-type--basic" id="block-block-content-51297319-d18e-4602-a79e-e593fe562540">
+  
+      <h2>AM Copyright</h2>
+    
+      
+            <div class="body field--name-body"><p>© Copyright [year], Alvarez &amp; Marsal Holdings, LLC. All Rights Reserved.</p>
+
+<p>ALVAREZ &amp; MARSAL®, <img alt="A&amp;M Logo" data-entity-type="file" data-entity-uuid="e8360120-9a63-4435-9866-040966aa9495" src="/sites/default/files/inline-images/am_corporate_all_white_0.png" />®,  <img alt="A&amp;M Logo" data-entity-type="file" data-entity-uuid="9db22211-b10f-4817-9ea5-00ddf9e22721" src="/sites/default/files/inline-images/am-old-logo_white.png" />®, <img alt="" height="35" src="data:image/png;base64,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" width="61" />® and A&amp;M® are trademarks of Alvarez &amp; Marsal Holdings, LLC.</p>
+
+<p>Note: Alvarez &amp; Marsal employs CPAs, but is not a licensed CPA firm.</p>
+</div>
+      
+  </div>
+
+  </section>
+
+      </div>
+
+    </footer>
+  </div>
+  </div>
+
+      
+    </div>
+
+    <div class="layerIE">
+      <h1>
+        <img src="/themes/custom/am/images/am-logo.svg" width="100px" height="100px">
+        <br>Your browser version isn’t supported. For optimal browsing experience, please use Chrome, Firefox, Safari, or Edge. Thank you.
+      </h1>
+    </div>
+  
+    <div>
+  
+    
+      
+  </div>
+
+
+    <script src="/core/misc/debounce.js?v=8.9.20"></script>
+<script src="/modules/custom/am_webservices/js/am_webservices.js?v=1.x"></script>
+<script src="/modules/contrib/datalayer/js/datalayer.js?v=1.x"></script>
+<script src="/core/misc/form.js?v=8.9.20"></script>
+<script src="/core/misc/progress.js?v=8.9.20"></script>
+<script src="/core/modules/responsive_image/js/responsive_image.ajax.js?v=8.9.20"></script>
+<script src="/core/misc/ajax.js?v=8.9.20"></script>
+<script src="/core/assets/vendor/jquery-form/jquery.form.min.js?v=4.22"></script>
+<script src="/themes/custom/am/node_modules/twitter-fetcher/js/twitterFetcher_min.js?romcxp"></script>
+<script src="/themes/custom/am/node_modules/formstone/dist/js/core.js?romcxp"></script>
+<script src="/themes/custom/am/node_modules/formstone/dist/js/touch.js?romcxp"></script>
+<script src="/themes/custom/am/node_modules/swiper/swiper-bundle.min.js?romcxp"></script>
+<script src="/themes/custom/am/node_modules/formstone/dist/js/equalize.js?romcxp"></script>
+<script src="/themes/custom/am/node_modules/formstone/dist/js/checkbox.js?romcxp"></script>
+<script src="/themes/custom/am/node_modules/formstone/dist/js/mediaquery.js?romcxp"></script>
+<script src="/themes/custom/am/node_modules/object-fit-images/dist/ofi.min.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/main-menu.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/swiper-slider.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/dropdown-toggle.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/our-people.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/service-wheel.js?romcxp"></script>
+<script src="/themes/custom/am/js/modernizr.js?romcxp"></script>
+<script src="/themes/custom/am/js/youtube/perfect-scrollbar.min.js?romcxp"></script>
+<script src="/themes/custom/am/js/youtube/youtube-video-player.jquery.js?romcxp"></script>
+<script src="/themes/custom/am/js/youtube/youtube.min.js?romcxp"></script>
+<script src="/themes/custom/am/js/yt-modal/js/jquery-modal-video.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/homepage-videos.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/main.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/homepage-banner-slider.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/industries-slider.js?romcxp"></script>
+<script src="/themes/custom/am/scripts/global-locations-our-people.js?romcxp"></script>
+<script src="/themes/custom/am/js/jquery.quovolver.min.js?romcxp"></script>
+<script src="/themes/custom/am/js/castos-player-cookie.js?romcxp"></script>
+<script src="/themes/custom/am/../../../modules/custom/am_customization/js/am_customization.js?romcxp"></script>
+<script src="/libraries/tablesorter/dist/js/jquery.tablesorter.min.js?v=1.x"></script>
+<script src="/libraries/tablesorter/dist/js/extras/jquery.metadata.min.js?v=1.x"></script>
+<script src="/libraries/tablesorter/dist/js/extras/jquery.tablesorter.pager.min.js?v=1.x"></script>
+<script src="/modules/contrib/tablesorter/js/tablesortervar.js?v=1.x"></script>
+<script src="/modules/custom/shareclean/js/stickshare.js?v=1.x"></script>
+<script src="/modules/custom/am_purephp_ga/js/track_pdf_body.js?v=1.x"></script>
+<script src="/themes/custom/am/scripts/responsive-table.js?romcxp"></script>
+<script src="/modules/custom/am_passle_integration/js/am_passle_integration.js?v=1.x"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"05da09d58d","applicationID":"1029230236","transactionName":"MwBTMRdYV0AAAkYNVwpKcAYRUFZdThFTA107BlAGDVw=","queueTime":0,"applicationTime":37,"atts":"H0dQR19CRE4=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

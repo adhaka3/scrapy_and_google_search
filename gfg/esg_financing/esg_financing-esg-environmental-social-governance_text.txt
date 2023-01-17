@@ -1,0 +1,284 @@
+ESG (Environmental, Social and Governance) - Overview and Framework
+Corporate Finance Institute
+Menu
+All Courses
+Certification Programs
+Compare Certifications
+FMVA®Financial Modeling & Valuation Analyst
+CBCA™Commercial Banking & Credit Analyst
+CMSA®Capital Markets & Securities Analyst
+BIDA™Business Intelligence & Data Analyst
+FPWM®Financial Planning & Wealth Management
+Specializations
+CREF SpecializationCommercial Real Estate Finance
+ESG SpecializationEnvironmental, Social & Governance (ESG)
+BE BundleBusiness Essentials
+Popular Topics
+Browse All Topics
+Cryptocurrency3 courses
+Excel37 courses
+Accounting 7 courses
+Commercial Real Estate11 courses
+ESG9 courses
+Wealth Management9 courses
+Foreign Exchange5 courses
+Management Skills17 courses
+Machine Learning courses
+Financial Modeling18 courses
+FP&A6 courses
+Business Intelligence15 courses
+Browse All Courses
+Corporate Training
+Overview
+Why CFI certifications
+Pricing
+For Individuals
+For Teams
+Resources
+State of corporate training for finance teams in 2022
+A detailed report on the elearning transformation from the finance experts.
+Download
+Browse All Resources
+Career285 resources
+Team Development14 resources
+eLearning18 resources
+FP&A
+Excel585 resources
+Accounting726 resources
+ESG62 resources
+Financial Modeling281 resources
+Cryptocurrency57 resources
+Wealth Management831 resources
+Data Science & Machine Learning179 resources
+Management316 resources
+My Account
+My Courses
+My Resources
+My Profile
+Account Settings
+Sign Out
+My Dashboard
+Log In
+Get Started
+My Dashboard
+Get Started
+Browse All Courses
+My Account
+My Courses
+My Resources
+My Profile
+Account Settings
+Sign Out
+Certification Programs
+Financial Modeling & Valuation (FMVA)®
+Certified Banking & Credit Analyst (CBCA)™
+Capital Markets & Securities Analyst (CMSA)®
+Business Intelligence & Data Analyst (BIDA)™
+Financial Planning & Wealth Management Professional (FPWM)®
+Specializations
+Commercial Real Estate Finance Specialization
+Environmental, Social & Governance Specialization
+Business Essentials Bundle
+Corporate Training
+Overview
+Pricing
+Pricing
+Resources
+Get Started
+My Dashboard
+Log In
+Home › Resources › Environment, Social, & Governance › ESG (Environmental, Social and Governance)
+Table of contents
+What is ESG (Environmental, Social, and Governance)?
+Overview of E, S, & G
+1. Environmental
+2. Social
+3. Governance
+The Evolution of ESG
+EHS (Environmental, Health, & Safety)
+Corporate Sustainability
+CSR (Corporate Social Responsibility)
+ESG
+ESG, Finance, & Investing
+What is an ESG Specialist?
+More Resources
+ESG (Environmental, Social and Governance)
+A management and analysis framework to understand and measure how sustainably an organization is operating
+Written by
+Kyle Peterdy
+Updated November 24, 2022
+Reviewed by
+Noah Miller
+What is ESG (Environmental, Social, and Governance)?
+ESG is a framework that helps stakeholders understand how an organization is managing risks and opportunities related to environmental, social, and governance criteria (sometimes called ESG factors).
+ESG is an acronym for Environmental, Social, and Governance. ESG takes the holistic view that sustainability extends beyond just environmental issues.
+While the term ESG is often used in the context of investing, stakeholders include not just the investment community but also customers, suppliers, and employees, all of whom are increasingly interested in how sustainable an organization’s operations are.
+Key Highlights
+ESG is a framework that helps stakeholders understand how an organization manages risks and opportunities around sustainability issues.
+ESG has evolved from other historical movements that focused on health and safety issues, pollution reduction, and corporate philanthropy.
+ESG has changed how capital allocation decisions are made by many of the largest financial services firms and asset managers in the world.
+An emerging class of ESG specialists is stepping into the industry and supporting both net zero and carbon neutrality goals.
+Overview of E, S, & G
+1. Environmental
+Environmental factors refer to an organization’s environmental impact(s) and risk management practices. These include direct and indirect greenhouse gas emissions, management’s stewardship over natural resources, and the firm’s overall resiliency against physical climate risks (like climate change, flooding, and fires).
+2. Social
+The social pillar refers to an organization’s relationships with stakeholders. Examples of factors that a firm may be measured against include Human Capital Management (HCM) metrics (like fair wages and employee engagement) but also an organization’s impact on the communities in which it operates.
+A hallmark of ESG is how social impact expectations have extended outside the walls of the company and to supply chain partners, particularly those in developing economies where environmental and labor standards may be less robust.
+3. Governance
+Corporate governance refers to how an organization is led and managed. ESG analysts will seek to understand better how leadership’s incentives are aligned with stakeholder expectations, how shareholder rights are viewed and honored, and what types of internal controls exist to promote transparency and accountability on the part of leadership.
+The Evolution of ESG
+The ESG lens helps assess how an organization manages the risks and opportunities created by changing conditions, such as shifts in environmental, economic, and social systems.
+Some of these conditions were identified in earlier versions of sustainability-focused strategic and/or regulatory frameworks, including:
+EHS (Environmental, Health, & Safety)
+As far back as the 1980s, organizations in the United States were considering how to use regulation to manage or reduce pollution (and other negative externalities) produced in the pursuit of economic growth. They sought to also improve employee labor and safety standards, although much progress remains to be made even today.
+Corporate Sustainability
+EHS evolved in the 1990s into what was then known as the Corporate Sustainability movement. This emerged as some management teams wanted to focus on reducing their firm’s environmental impacts beyond the reductions that had been legally mandated.
+It’s widely agreed that corporate sustainability was often employed by management teams as a marketing tool to overstate (or otherwise misrepresent) efforts and environmental impacts – a practice that would later become known as greenwashing.
+CSR (Corporate Social Responsibility)
+By the early 2000s, the Corporate Sustainability movement began to integrate ideas around how companies should respond to social issues – this would become known as Corporate Social Responsibility.
+Corporate philanthropy was a key component of CSR, although some critics argue that tax incentives made cash donations as attractive as their ultimate economic impact on recipients. Employee volunteerism was another hallmark of CSR.
+ESG
+Finally, by the late 2010s and into the 2020s, ESG emerged as a much more proactive (instead of reactive) movement.
+ESG has now evolved into a comprehensive framework that includes key elements around environmental and social impact, as well as how governance structures can be amended to maximize stakeholder well-being.
+ESG, Finance, & Investing
+ESG really went mainstream when the framework became an integral part of many institutional investors’ playbooks. There are a growing number of ESG rating agencies that assign ESG scores, as well as new and evolving reporting frameworks, all of which are improving the transparency and consistency of the ESG information that firms are reporting publicly (often called ESG Disclosure).
+The Capital Markets can be a powerful tool to create change. By restricting access to capital (or making the terms under which it’s available less favorable), bad actors may be incentivized to improve performance across E, S, or G measures. Conversely, rewarding companies and their management teams that are performing well against ESG factors encourages continued progress and improvements.
+Many ESG investment vehicles have emerged, including green bonds, mutual funds, ETFs, and index funds (among others). These publicly traded instruments make it easier for investors to align their investment decisions more closely with their own beliefs and values around E, S, or G factors.
+What is an ESG Specialist?
+If someone is an ESG specialist, it can mean a number of things. But in general, this is someone with very strong analytical skills and a comprehensive understanding of how ESG factors relate to risks and opportunities.
+ESG specialists may work in the analyst community, perhaps with institutional investors or investment banks. Alternatively, they may work in industry, at either private or public companies. In all instances, they are either directly or indirectly supporting organizations in their efforts to reach net zero emissions and/or carbon neutrality.
+In the public markets (in particular), there is growing pressure by regulators and other stakeholders that issuers produce clear, transparent, and comparable ESG disclosure alongside other quarterly filings and annual reporting.
+This article was prepared in collaboration with Rho Impact.
+More Resources
+Thank you for reading CFI’S guide to ESG ( Environmental, Social, and Governance). To keep advancing your career, the additional CFI resources below will be useful:
+An Analyst’s Approach to ESG (interview)
+Carbon Accounting
+Carbon Markets
+Asset Allocation
+See all ESG resources
+Introduction to ESG
+An overview of the Environmental, Social, and Governance (ESG) framework
+Get Started
+Share this article
+Get Specialized with our (ESG)
+Environmental Social Governance Bundle
+Join over one million professionals who work for global institutions such as Blackrock, Credit Suisse, McKinsey & Company.
+Learn More
+CFI logo
+We're hiring!
+Company
+About
+Meet Our Team
+Careers at CFI
+Learner Reviews
+For Teams
+Affiliates
+For Universities
+Certifications
+Financial Modeling & Valuation Analyst (FMVA)®
+Commercial Banking & Credit Analyst (CBCA)™
+Capital Markets & Securities Analyst (CMSA)®
+Business Intelligence & Data Analyst (BIDA)™
+Financial Planning & Wealth Management Professional (FPWM)®
+CPE Credits
+Courses
+Accounting
+Excel
+Finance
+Financial Modeling
+Environment, Social, Governance (ESG)
+Business Intelligence
+Data Science
+Machine Learning
+All Courses
+Support
+Financial Aid
+Help | FAQ
+Contact Us
+Scholarships
+Resources
+Career
+Team Development Resources
+eLearning
+Excel Resources
+Financial Modeling Resources
+Accounting Resources
+All Free Resources
+Logo
+Logo
+Logo
+Logo
+Logo
+Logo
+© 2015 to 2023 CFI Education Inc.
+Follow us on LinkedIn
+Follow us on Instagram
+Follow us on Facebook
+Follow us on YouTube
+Privacy Policy
+Terms of Use
+Terms of Service
+Legal
+Corporate Finance Institute
+Back to Website
+0 search results for ‘’
+People also search for:
+excel
+Free
+free courses
+accounting
+Balance sheet
+2
+wacc
+Explore Our Certifications
+Financial Modeling & Valuation Analyst (FMVA)®
+Learn more
+Commercial Banking & Credit Analyst (CBCA)™
+Learn more
+Capital Markets & Securities Analyst (CMSA)®
+Learn more
+Certified Business Intelligence & Data Analyst (BIDA)™
+Learn more
+Financial Planning & Wealth Management (FPWM)®
+Learn more
+Resources
+Excel Shortcuts PC Mac
+List of Excel Shortcuts
+Excel shortcuts[citation...
+Financial Modeling Guidelines
+CFI’s free Financial Modeling Guidelines is a thorough and complete resource covering model design, model building blocks, and common tips, tricks, and...
+SQL Data Types
+What are SQL Data Types?
+The Structured Query Language (SQL) comprises several different data types that allow it to store different types of information...
+Structured Query Language (SQL)
+What is Structured Query Language (SQL)?
+Structured Query Language (SQL) is a specialized programming language designed for interacting with a database....
+See All Resources
+See All
+Popular Courses
+Free!
+FMVA® Prep Course
+3.5h
+Excel Fundamentals - Formulas for Finance
+FMVA® Required
+5.5h
+Building a 3 Statement Financial Model
+FMVA® Required
+7.5h
+Business Valuation Modeling Part I
+FMVA® Required
+2.5h
+Scenario & Sensitivity Analysis in Excel
+BIDA™ Required
+6h
+Dashboards & Data Visualization
+FMVA® Electives
+15h
+Leveraged Buyout LBO Modeling
+See All Courses
+See All
+Recent Searches
+Suggestions
+Free Courses
+Excel Courses
+Financial Modeling & Valuation Analyst (FMVA)®

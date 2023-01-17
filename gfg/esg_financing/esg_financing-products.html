@@ -1,0 +1,2482 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie10 lt-ie9" lang="en"><![endif]-->
+<!--[if IE 9 ]><html class="ie9 lt-ie10 no-js" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html class="no-js" lang="en"><![endif]-->
+<html lang="en">
+  <head>
+<script type="application/vnd.locksmith+json" data-locksmith>{"version":"v6.29","locked":false,"initialized":true,"scope":"product","access_granted":true,"access_denied":false,"requires_customer":false,"manual_lock":false,"server_lock":false,"server_rendered":null,"hide_resource":false,"hide_links_to_resource":false,"transparent":true,"locks":{"all":[],"opened":[]},"keys":[],"keys_signature":"407452a7a903105943df4949fa9d2f54ee5f65613c9a1974414b2642db48c775","state":{"template":"product","theme":185838792,"product":"sustainable-finance-and-esg-investing","collection":"take-a-course","page":null,"blog":null,"article":null,"app":null},"now":1673941555,"path":"\/collections\/take-a-course\/products\/sustainable-finance-and-esg-investing","locale_root_url":"\/","canonical_url":"https:\/\/execed.stern.nyu.edu\/products\/sustainable-finance-and-esg-investing","customer_id":null,"customer_id_signature":"407452a7a903105943df4949fa9d2f54ee5f65613c9a1974414b2642db48c775","cart":null}</script><script data-locksmith>!function(){var require=void 0,reqwest=function(){function succeed(e){var t=protocolRe.exec(e.url);return t=t&&t[1]||context.location.protocol,httpsRe.test(t)?twoHundo.test(e.request.status):!!e.request.response}function handleReadyState(e,t,n){return function(){return e._aborted?n(e.request):e._timedOut?n(e.request,"Request is aborted: timeout"):void(e.request&&4==e.request[readyState]&&(e.request.onreadystatechange=noop,succeed(e)?t(e.request):n(e.request)))}}function setHeaders(e,t){var n,s=t.headers||{};s.Accept=s.Accept||defaultHeaders.accept[t.type]||defaultHeaders.accept["*"];var r="undefined"!=typeof FormData&&t.data instanceof FormData;!t.crossOrigin&&!s[requestedWith]&&(s[requestedWith]=defaultHeaders.requestedWith),!s[contentType]&&!r&&(s[contentType]=t.contentType||defaultHeaders.contentType);for(n in s)s.hasOwnProperty(n)&&"setRequestHeader"in e&&e.setRequestHeader(n,s[n])}function setCredentials(e,t){"undefined"!=typeof t.withCredentials&&"undefined"!=typeof e.withCredentials&&(e.withCredentials=!!t.withCredentials)}function generalCallback(e){lastValue=e}function urlappend(e,t){return e+(/[?]/.test(e)?"&":"?")+t}function handleJsonp(e,t,n,s){var r=uniqid++,a=e.jsonpCallback||"callback",o=e.jsonpCallbackName||reqwest.getcallbackPrefix(r),i=new RegExp("((^|[?]|&)"+a+")=([^&]+)"),l=s.match(i),c=doc.createElement("script"),u=0,d=-1!==navigator.userAgent.indexOf("MSIE 10.0");return l?"?"===l[3]?s=s.replace(i,"$1="+o):o=l[3]:s=urlappend(s,a+"="+o),context[o]=generalCallback,c.type="text/javascript",c.src=s,c.async=!0,"undefined"!=typeof c.onreadystatechange&&!d&&(c.htmlFor=c.id="_reqwest_"+r),c.onload=c.onreadystatechange=function(){return c[readyState]&&"complete"!==c[readyState]&&"loaded"!==c[readyState]||u?!1:(c.onload=c.onreadystatechange=null,c.onclick&&c.onclick(),t(lastValue),lastValue=void 0,head.removeChild(c),u=1,void 0)},head.appendChild(c),{abort:function(){c.onload=c.onreadystatechange=null,n({},"Request is aborted: timeout",{}),lastValue=void 0,head.removeChild(c),u=1}}}function getRequest(e,t){var n,s=this.o,r=(s.method||"GET").toUpperCase(),a="string"==typeof s?s:s.url,o=s.processData!==!1&&s.data&&"string"!=typeof s.data?reqwest.toQueryString(s.data):s.data||null,i=!1;return("jsonp"==s.type||"GET"==r)&&o&&(a=urlappend(a,o),o=null),"jsonp"==s.type?handleJsonp(s,e,t,a):(n=s.xhr&&s.xhr(s)||xhr(s),n.open(r,a,s.async===!1?!1:!0),setHeaders(n,s),setCredentials(n,s),context[xDomainRequest]&&n instanceof context[xDomainRequest]?(n.onload=e,n.onerror=t,n.onprogress=function(){},i=!0):n.onreadystatechange=handleReadyState(this,e,t),s.before&&s.before(n),i?setTimeout(function(){n.send(o)},200):n.send(o),n)}function Reqwest(e,t){this.o=e,this.fn=t,init.apply(this,arguments)}function setType(e){return null===e?void 0:e.match("json")?"json":e.match("javascript")?"js":e.match("text")?"html":e.match("xml")?"xml":void 0}function init(o,fn){function complete(e){for(o.timeout&&clearTimeout(self.timeout),self.timeout=null;self._completeHandlers.length>0;)self._completeHandlers.shift()(e)}function success(resp){var type=o.type||resp&&setType(resp.getResponseHeader("Content-Type"));resp="jsonp"!==type?self.request:resp;var filteredResponse=globalSetupOptions.dataFilter(resp.responseText,type),r=filteredResponse;try{resp.responseText=r}catch(e){}if(r)switch(type){case"json":try{resp=context.JSON?context.JSON.parse(r):eval("("+r+")")}catch(err){return error(resp,"Could not parse JSON in response",err)}break;case"js":resp=eval(r);break;case"html":resp=r;break;case"xml":resp=resp.responseXML&&resp.responseXML.parseError&&resp.responseXML.parseError.errorCode&&resp.responseXML.parseError.reason?null:resp.responseXML}for(self._responseArgs.resp=resp,self._fulfilled=!0,fn(resp),self._successHandler(resp);self._fulfillmentHandlers.length>0;)resp=self._fulfillmentHandlers.shift()(resp);complete(resp)}function timedOut(){self._timedOut=!0,self.request.abort()}function error(e,t,n){for(e=self.request,self._responseArgs.resp=e,self._responseArgs.msg=t,self._responseArgs.t=n,self._erred=!0;self._errorHandlers.length>0;)self._errorHandlers.shift()(e,t,n);complete(e)}this.url="string"==typeof o?o:o.url,this.timeout=null,this._fulfilled=!1,this._successHandler=function(){},this._fulfillmentHandlers=[],this._errorHandlers=[],this._completeHandlers=[],this._erred=!1,this._responseArgs={};var self=this;fn=fn||function(){},o.timeout&&(this.timeout=setTimeout(function(){timedOut()},o.timeout)),o.success&&(this._successHandler=function(){o.success.apply(o,arguments)}),o.error&&this._errorHandlers.push(function(){o.error.apply(o,arguments)}),o.complete&&this._completeHandlers.push(function(){o.complete.apply(o,arguments)}),this.request=getRequest.call(this,success,error)}function reqwest(e,t){return new Reqwest(e,t)}function normalize(e){return e?e.replace(/\r?\n/g,"\r\n"):""}function serial(e,t){var n,s,r,a,o=e.name,i=e.tagName.toLowerCase(),l=function(e){e&&!e.disabled&&t(o,normalize(e.attributes.value&&e.attributes.value.specified?e.value:e.text))};if(!e.disabled&&o)switch(i){case"input":/reset|button|image|file/i.test(e.type)||(n=/checkbox/i.test(e.type),s=/radio/i.test(e.type),r=e.value,(!n&&!s||e.checked)&&t(o,normalize(n&&""===r?"on":r)));break;case"textarea":t(o,normalize(e.value));break;case"select":if("select-one"===e.type.toLowerCase())l(e.selectedIndex>=0?e.options[e.selectedIndex]:null);else for(a=0;e.length&&a<e.length;a++)e.options[a].selected&&l(e.options[a])}}function eachFormElement(){var e,t,n=this,s=function(e,t){var s,r,a;for(s=0;s<t.length;s++)for(a=e[byTag](t[s]),r=0;r<a.length;r++)serial(a[r],n)};for(t=0;t<arguments.length;t++)e=arguments[t],/input|select|textarea/i.test(e.tagName)&&serial(e,n),s(e,["input","select","textarea"])}function serializeQueryString(){return reqwest.toQueryString(reqwest.serializeArray.apply(null,arguments))}function serializeHash(){var e={};return eachFormElement.apply(function(t,n){t in e?(e[t]&&!isArray(e[t])&&(e[t]=[e[t]]),e[t].push(n)):e[t]=n},arguments),e}function buildParams(e,t,n,s){var r,a,o,i=/\[\]$/;if(isArray(t))for(a=0;t&&a<t.length;a++)o=t[a],n||i.test(e)?s(e,o):buildParams(e+"["+("object"==typeof o?a:"")+"]",o,n,s);else if(t&&"[object Object]"===t.toString())for(r in t)buildParams(e+"["+r+"]",t[r],n,s);else s(e,t)}var context=this;if("window"in context)var doc=document,byTag="getElementsByTagName",head=doc[byTag]("head")[0];else{var XHR2;try{XHR2=require("xhr2")}catch(ex){throw new Error("Peer dependency `xhr2` required! Please npm install xhr2")}}var httpsRe=/^http/,protocolRe=/(^\w+):\/\//,twoHundo=/^(20\d|1223)$/,readyState="readyState",contentType="Content-Type",requestedWith="X-Requested-With",uniqid=0,callbackPrefix="reqwest_"+ +new Date,lastValue,xmlHttpRequest="XMLHttpRequest",xDomainRequest="XDomainRequest",noop=function(){},isArray="function"==typeof Array.isArray?Array.isArray:function(e){return e instanceof Array},defaultHeaders={contentType:"application/x-www-form-urlencoded",requestedWith:xmlHttpRequest,accept:{"*":"text/javascript, text/html, application/xml, text/xml, */*",xml:"application/xml, text/xml",html:"text/html",text:"text/plain",json:"application/json, text/javascript",js:"application/javascript, text/javascript"}},xhr=function(e){if(e.crossOrigin===!0){var t=context[xmlHttpRequest]?new XMLHttpRequest:null;if(t&&"withCredentials"in t)return t;if(context[xDomainRequest])return new XDomainRequest;throw new Error("Browser does not support cross-origin requests")}return context[xmlHttpRequest]?new XMLHttpRequest:XHR2?new XHR2:new ActiveXObject("Microsoft.XMLHTTP")},globalSetupOptions={dataFilter:function(e){return e}};return Reqwest.prototype={abort:function(){this._aborted=!0,this.request.abort()},retry:function(){init.call(this,this.o,this.fn)},then:function(e,t){return e=e||function(){},t=t||function(){},this._fulfilled?this._responseArgs.resp=e(this._responseArgs.resp):this._erred?t(this._responseArgs.resp,this._responseArgs.msg,this._responseArgs.t):(this._fulfillmentHandlers.push(e),this._errorHandlers.push(t)),this},always:function(e){return this._fulfilled||this._erred?e(this._responseArgs.resp):this._completeHandlers.push(e),this},fail:function(e){return this._erred?e(this._responseArgs.resp,this._responseArgs.msg,this._responseArgs.t):this._errorHandlers.push(e),this},"catch":function(e){return this.fail(e)}},reqwest.serializeArray=function(){var e=[];return eachFormElement.apply(function(t,n){e.push({name:t,value:n})},arguments),e},reqwest.serialize=function(){if(0===arguments.length)return"";var e,t,n=Array.prototype.slice.call(arguments,0);return e=n.pop(),e&&e.nodeType&&n.push(e)&&(e=null),e&&(e=e.type),t="map"==e?serializeHash:"array"==e?reqwest.serializeArray:serializeQueryString,t.apply(null,n)},reqwest.toQueryString=function(e,t){var n,s,r=t||!1,a=[],o=encodeURIComponent,i=function(e,t){t="function"==typeof t?t():null==t?"":t,a[a.length]=o(e)+"="+o(t)};if(isArray(e))for(s=0;e&&s<e.length;s++)i(e[s].name,e[s].value);else for(n in e)e.hasOwnProperty(n)&&buildParams(n,e[n],r,i);return a.join("&").replace(/%20/g,"+")},reqwest.getcallbackPrefix=function(){return callbackPrefix},reqwest.compat=function(e,t){return e&&(e.type&&(e.method=e.type)&&delete e.type,e.dataType&&(e.type=e.dataType),e.jsonpCallback&&(e.jsonpCallbackName=e.jsonpCallback)&&delete e.jsonpCallback,e.jsonp&&(e.jsonpCallback=e.jsonp)),new Reqwest(e,t)},reqwest.ajaxSetup=function(e){e=e||{};for(var t in e)globalSetupOptions[t]=e[t]},reqwest}();!function(){var e=window.Locksmith={},t=document.querySelector('script[type="application/vnd.locksmith+json"]'),n=t&&t.innerHTML;if(e.state={},e.util={},e.loading=!1,n)try{e.state=JSON.parse(n)}catch(s){}if(document.addEventListener&&document.querySelector){var r,a,o,i=[76,79,67,75,83,77,73,84,72,49,49],l=function(){a=i.slice(0)},c="style",u=function(e){e&&27!==e.keyCode&&"click"!==e.type||(document.removeEventListener("keydown",u),document.removeEventListener("click",u),r&&document.body.removeChild(r),r=null)};l(),document.addEventListener("keyup",function(e){if(e.keyCode===a[0]){if(clearTimeout(o),a.shift(),a.length>0)return void(o=setTimeout(l,1e3));l(),u(),r=document.createElement("div"),r[c].width="50%",r[c].maxWidth="1000px",r[c].height="85%",r[c].border="1px rgba(0, 0, 0, 0.2) solid",r[c].background="rgba(255, 255, 255, 0.99)",r[c].borderRadius="4px",r[c].position="fixed",r[c].top="50%",r[c].left="50%",r[c].transform="translateY(-50%) translateX(-50%)",r[c].boxShadow="0 2px 5px rgba(0, 0, 0, 0.3), 0 0 100vh 100vw rgba(0, 0, 0, 0.5)",r[c].zIndex="2147483645";var t=document.createElement("textarea");t.value=JSON.stringify(JSON.parse(n),null,2),t[c].border="none",t[c].display="block",t[c].boxSizing="border-box",t[c].width="100%",t[c].height="100%",t[c].background="transparent",t[c].padding="22px",t[c].fontFamily="monospace",t[c].fontSize="14px",t[c].color="#333",t[c].resize="none",t[c].outline="none",t.readOnly=!0,r.appendChild(t),document.body.appendChild(r),t.addEventListener("click",function(e){e.stopImmediatePropagation()}),t.select(),document.addEventListener("keydown",u),document.addEventListener("click",u)}})}e.isEmbedded=-1!==window.location.search.indexOf("_ab=0&_fd=0&_sc=1"),e.path=e.state.path||window.location.pathname,e.basePath=e.state.locale_root_url.concat("/apps/locksmith").replace(/^\/\//,"/"),e.reloading=!1,e.util.console=window.console||{log:function(){},error:function(){}},e.util.makeUrl=function(t,n){var s,r=e.basePath+t,a=[],o=e.cache();for(s in o)a.push(s+"="+encodeURIComponent(o[s]));for(s in n)a.push(s+"="+encodeURIComponent(n[s]));return e.state.customer_id&&(a.push("customer_id="+encodeURIComponent(e.state.customer_id)),a.push("customer_id_signature="+encodeURIComponent(e.state.customer_id_signature))),r+=(-1===r.indexOf("?")?"?":"&")+a.join("&")},e._initializeCallbacks=[],e.on=function(t,n){if("initialize"!==t)throw'Locksmith.on() currently only supports the "initialize" event';e._initializeCallbacks.push(n)},e.initializeSession=function(t){if(!e.isEmbedded){t=t||{};var n=!1,s=!0,r=!0;t.silent&&(n=!0,s=!1,r=!1),e.ping({silent:n,spinner:s,reload:r,callback:function(){e._initializeCallbacks.forEach(function(e){e()})}})}},e.cache=function(e){var t={};try{var n=function(e){return(document.cookie.match("(^|; )"+e+"=([^;]*)")||0)[2]};t=JSON.parse(decodeURIComponent(n("locksmith-params")||"{}"))}catch(s){}if(e){for(var r in e)t[r]=e[r];document.cookie="locksmith-params=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/",document.cookie="locksmith-params="+encodeURIComponent(JSON.stringify(t))+"; path=/"}return t},e.cache.cart=e.state.cart,e.cache.cartLastSaved=null,e.params=e.cache(),e.util.reload=function(){e.reloading=!0;try{window.location.href=window.location.href.replace(/#.*/,"")}catch(t){e.util.console.error("Preferred reload method failed",t),window.location.reload()}},e.cache.saveCart=function(t){if(!e.cache.cart||e.cache.cart===e.cache.cartLastSaved)return t?t():null;var n=e.cache.cartLastSaved;e.cache.cartLastSaved=e.cache.cart,reqwest({url:"/cart/update.json",method:"post",type:"json",data:{attributes:{locksmith:e.cache.cart}},complete:t,error:function(t){if(e.cache.cartLastSaved=n,!e.reloading)throw t}})},e.util.spinnerHTML='<style>body{background:#FFF}@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}#loading{display:flex;width:100%;height:50vh;color:#777;align-items:center;justify-content:center}#loading .spinner{display:block;animation:spin 600ms linear infinite;position:relative;width:50px;height:50px}#loading .spinner-ring{stroke:currentColor;stroke-dasharray:100%;stroke-width:2px;stroke-linecap:round;fill:none}</style><div id="loading"><div class="spinner"><svg width="100%" height="100%"><svg preserveAspectRatio="xMinYMin"><circle class="spinner-ring" cx="50%" cy="50%" r="45%"></circle></svg></svg></div></div>',e.util.clobberBody=function(e){document.body.innerHTML=e},e.util.clobberDocument=function(e){e.responseText&&(e=e.responseText),document.documentElement&&document.removeChild(document.documentElement);var t=document.open("text/html","replace");t.writeln(e),t.close(),setTimeout(function(){var e=t.querySelector("[autofocus]");e&&e.focus()},100)},e.util.serializeForm=function(e){if(e&&"FORM"===e.nodeName){var t,n,s={};for(t=e.elements.length-1;t>=0;t-=1)if(""!==e.elements[t].name)switch(e.elements[t].nodeName){case"INPUT":switch(e.elements[t].type){default:case"text":case"hidden":case"password":case"button":case"reset":case"submit":s[e.elements[t].name]=e.elements[t].value;break;case"checkbox":case"radio":e.elements[t].checked&&(s[e.elements[t].name]=e.elements[t].value);break;case"file":}break;case"TEXTAREA":s[e.elements[t].name]=e.elements[t].value;break;case"SELECT":switch(e.elements[t].type){case"select-one":s[e.elements[t].name]=e.elements[t].value;break;case"select-multiple":for(n=e.elements[t].options.length-1;n>=0;n-=1)e.elements[t].options[n].selected&&(s[e.elements[t].name]=e.elements[t].options[n].value)}break;case"BUTTON":switch(e.elements[t].type){case"reset":case"submit":case"button":s[e.elements[t].name]=e.elements[t].value}}return s}},e.util.on=function(e,t,n,s){s=s||document;var r="locksmith-"+e+t,a=function(e){var s=e.target,a=e.target.parentElement,o=s.className.baseVal||s.className||"",i=a.className.baseVal||a.className||"";("string"==typeof o&&-1!==o.split(/\s+/).indexOf(t)||"string"==typeof i&&-1!==i.split(/\s+/).indexOf(t))&&!e[r]&&(e[r]=!0,n(e))};s.attachEvent?s.attachEvent(e,a):s.addEventListener(e,a,!1)},e.util.enableActions=function(t){e.util.on("click","locksmith-action",function(t){t.preventDefault();var n=t.target;(!n.dataset.confirmWith||confirm(n.dataset.confirmWith))&&(n.disabled=!0,n.innerText=n.dataset.disableWith,e.post("/action",n.dataset.locksmithParams,{spinner:!1,type:"text",success:function(t){t=JSON.parse(t.responseText),t.message&&alert(t.message),e.util.reload()}}))},t)},e.util.inject=function(e,t){var n=["data","locksmith","append"];if(-1!==t.indexOf(n.join("-"))){var s=document.createElement("div");s.innerHTML=t,e.appendChild(s)}else e.innerHTML=t;var r,a,o=e.querySelectorAll("script");for(a=0;a<o.length;++a){r=o[a];var i=document.createElement("script");if(r.type&&(i.type=r.type),r.src)i.src=r.src;else{var l=document.createTextNode(r.innerHTML);i.appendChild(l)}e.appendChild(i)}var c=e.querySelector("[autofocus]");c&&c.focus()},e.post=function(t,n,s){s=s||{},s.spinner!==!1&&e.util.clobberBody(e.util.spinnerHTML);var r={};s.container===document?(r.layout=1,s.success=function(t){document.getElementById(s.container);e.util.clobberDocument(t)}):s.container&&(r.layout=0,s.success=function(t){var n=document.getElementById(s.container);e.util.inject(n,t),n.id===n.firstChild.id&&n.parentElement.replaceChild(n.firstChild,n)}),e.loading=!0;var a=e.util.makeUrl(t,r);reqwest({url:a,method:"post",type:s.type||"html",data:n,complete:function(){e.loading=!1},error:function(t){if(!e.reloading){if("dashboard.weglot.com"===window.location.host)return void console.error(t);if(s.silent)return void console.error(t);throw alert("Something went wrong! Please refresh and try again."),t}},success:s.success||e.util.clobberDocument})},e.postResource=function(t,n){t.path=e.path,t.search=window.location.search,t.state=e.state,t.passcode&&(t.passcode=t.passcode.trim()),t.email&&(t.email=t.email.trim()),t.state.cart=e.cache.cart,t.locksmith_json=e.jsonTag,t.locksmith_json_signature=e.jsonTagSignature,e.post("/resource",t,n)},e.ping=function(t){if(!e.isEmbedded){t=t||{};var n=function(){t.reload?e.util.reload():"function"==typeof t.callback&&t.callback()};e.post("/ping",{path:e.path,search:window.location.search,state:e.state},{spinner:!!t.spinner,silent:"undefined"==typeof t.silent?!0:t.silent,type:"text",success:function(t){t=JSON.parse(t.responseText),t.messages&&t.messages.length>0&&e.showMessages(t.messages),t.cart&&e.cache.cart!==t.cart?(e.cache.cart=t.cart,e.cache.saveCart(function(){n(),t.cart&&t.cart.match(/^.+:/)&&e.util.reload()})):n()}})}},e.showMessages=function(t){var n=document.createElement("div");n.style.position="fixed",n.style.left=0,n.style.right=0,n.style.bottom="-50px",n.style.opacity=0,n.style.background="#191919",n.style.color="#ddd",n.style.transition="bottom 0.2s, opacity 0.2s",n.style.zIndex=999999,n.innerHTML="        <style>          .locksmith-ab .locksmith-b { display: none; }          .locksmith-ab.toggled .locksmith-b { display: flex; }          .locksmith-ab.toggled .locksmith-a { display: none; }          .locksmith-flex { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 10px 20px; }          .locksmith-message + .locksmith-message { border-top: 1px #555 solid; }          .locksmith-message a { color: inherit; font-weight: bold; }          .locksmith-message a:hover { color: inherit; opacity: 0.8; }          a.locksmith-ab-toggle { font-weight: inherit; text-decoration: underline; }          .locksmith-text { flex-grow: 1; }          .locksmith-cta { flex-grow: 0; text-align: right; }          .locksmith-cta button { transform: scale(0.8); transform-origin: left; }          .locksmith-cta > * { display: block; }          .locksmith-cta > * + * { margin-top: 10px; }          .locksmith-message a.locksmith-close { flex-grow: 0; text-decoration: none; margin-left: 15px; font-size: 30px; font-family: monospace; display: block; padding: 2px 10px; }                    @media screen and (max-width: 600px) {            .locksmith-wide-only { display: none !important; }            .locksmith-flex { padding: 0 15px; }            .locksmith-flex > * { margin-top: 5px; margin-bottom: 5px; }            .locksmith-cta { text-align: left; }          }                    @media screen and (min-width: 601px) {            .locksmith-narrow-only { display: none !important; }          }        </style>      "+t.map(function(e){return'<div class="locksmith-message">'+e+"</div>"}).join(""),document.body.appendChild(n),document.body.style.position="relative",document.body.parentElement.style.paddingBottom=""+n.offsetHeight+"px",setTimeout(function(){n.style.bottom=0,n.style.opacity=1},50),e.util.on("click","locksmith-ab-toggle",function(e){e.preventDefault();for(var t=e.target.parentElement;-1===t.className.split(" ").indexOf("locksmith-ab");)t=t.parentElement;-1!==t.className.split(" ").indexOf("toggled")?t.className=t.className.replace("toggled",""):t.className=t.className+" toggled"}),e.util.enableActions(n)}}()}();</script>
+      <script data-locksmith>Locksmith.cache.cart=null</script>
+
+  <script data-locksmith>Locksmith.jsonTag="\u003cscript type=\"application\/vnd.locksmith+json\" data-locksmith\u003e{\"version\":\"v6.29\",\"locked\":false,\"initialized\":true,\"scope\":\"product\",\"access_granted\":true,\"access_denied\":false,\"requires_customer\":false,\"manual_lock\":false,\"server_lock\":false,\"server_rendered\":null,\"hide_resource\":false,\"hide_links_to_resource\":false,\"transparent\":true,\"locks\":{\"all\":[],\"opened\":[]},\"keys\":[],\"keys_signature\":\"407452a7a903105943df4949fa9d2f54ee5f65613c9a1974414b2642db48c775\",\"state\":{\"template\":\"product\",\"theme\":185838792,\"product\":\"sustainable-finance-and-esg-investing\",\"collection\":\"take-a-course\",\"page\":null,\"blog\":null,\"article\":null,\"app\":null},\"now\":1673941555,\"path\":\"\\\/collections\\\/take-a-course\\\/products\\\/sustainable-finance-and-esg-investing\",\"locale_root_url\":\"\\\/\",\"canonical_url\":\"https:\\\/\\\/execed.stern.nyu.edu\\\/products\\\/sustainable-finance-and-esg-investing\",\"customer_id\":null,\"customer_id_signature\":\"407452a7a903105943df4949fa9d2f54ee5f65613c9a1974414b2642db48c775\",\"cart\":null}\u003c\/script\u003e";Locksmith.jsonTagSignature="b46d1522eccf067ba3a6dfe597767947f1c183824be3a3f9247799d3bfed715d"</script>
+<meta name="google-site-verification" content="ZLJfGw8Q3UUrLGozkn4f6_Qw2tdjBdB_C0N9BLhcn3g" />
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T5NCNB');</script>
+<!-- End Google Tag Manager -->
+    <!-- Formstack Code -->
+      <script>
+    (function(t,e,n,r,a){var c,i=e[a]=e[a]||{init:function(t){function e(t){
+    i[t]=function(){i.q.push([t,[].slice.call(arguments,0)])}}var n,r;i.q=[],
+    n="addListener track".split(" ");for(r in n)e(n[r]);
+    i.q.push(["init",[t||{}]])}},s=t.createElement(r);s.async=1,s.src=n,
+    c=t.getElementsByTagName(r)[0],c.parentNode.insertBefore(s,c)
+    })(document,window,"https://analytics.formstack.com/js/fsa.js","script","FSATracker");
+
+    FSATracker.init({"account":"670498", "endpoint":"https://analytics.formstack.com"});
+  </script>
+   <!-- End Formstack Code -->
+    
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    
+
+    <title>Sustainable Finance, Investing and ESG | NYU Stern Executive Education</title>
+
+    
+<meta name="description" content="Participants will learn about financially material ESG indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance." />
+
+
+    <link rel="shortcut icon" href="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/favicon.ico?v=95527357471380012091504812314" type="image/x-icon" />
+    <link rel="canonical" href="https://execed.stern.nyu.edu/products/sustainable-finance-and-esg-investing" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link href="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/ndnapps-promotionbar.css?v=116253709673227492191574782171" rel="stylesheet" type="text/css" media="all" />
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/15254852/digital_wallets/dialog">
+<meta name="shopify-checkout-api-token" content="45229f5cd047122bfae0f1f9dfdb5e64">
+<link rel="alternate" type="application/json+oembed" href="https://execed.stern.nyu.edu/products/sustainable-finance-and-esg-investing.oembed">
+<script id="apple-pay-shop-capabilities" type="application/json">{"shopId":15254852,"countryCode":"US","currencyCode":"USD","merchantCapabilities":["supports3DS"],"merchantId":"gid:\/\/shopify\/Shop\/15254852","merchantName":"NYU Stern Executive Education","requiredBillingContactFields":["postalAddress","email"],"requiredShippingContactFields":["postalAddress","email"],"shippingType":"shipping","supportedNetworks":["visa","masterCard","amex","discover","elo","jcb","chinaUnionPay"],"total":{"type":"pending","label":"NYU Stern Executive Education","amount":"1.00"},"shopifyPaymentsEnabled":true,"supportsSubscriptions":true}</script>
+<script id="shopify-features" type="application/json">{"accessToken":"45229f5cd047122bfae0f1f9dfdb5e64","betas":["rich-media-storefront-analytics"],"domain":"execed.stern.nyu.edu","predictiveSearch":true,"shopId":15254852,"smart_payment_buttons_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js?v=2","dynamic_checkout_cart_url":"https:\/\/cdn.shopify.com\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js?v=2","locale":"en","optimusEnabled":false}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "nyu-stern-executive-education.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.country = "US";
+Shopify.theme = {"name":"Learning Solutions for Individuals \u0026 Organizations","id":185838792,"theme_store_id":793,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "cdn.shopify.com";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["https:\/\/d10lpsik1i8c69.cloudfront.net\/w.js?shop=nyu-stern-executive-education.myshopify.com","\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=nyu-stern-executive-education.myshopify.com","https:\/\/analytics.getshogun.com\/collector.js?shop=nyu-stern-executive-education.myshopify.com","https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/437be1694b2da3eb21bce67f1\/8f7e3187d93591425612b8b72.js?shop=nyu-stern-executive-education.myshopify.com","https:\/\/cdn.hextom.com\/js\/quickannouncementbar.js?shop=nyu-stern-executive-education.myshopify.com","\/\/searchserverapi.com\/widgets\/shopify\/init.js?a=0h0x8R0T8h\u0026shop=nyu-stern-executive-education.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":15254852,"offset":-18000,"reqid":"66a5fe64-b022-440e-a222-d78fd71b356b","pageurl":"execed.stern.nyu.edu\/products\/sustainable-finance-and-esg-investing","u":"49255a111565","p":"product","rtyp":"product","rid":1510723321900};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>!function(o){o.addEventListener("DOMContentLoaded",function(){window.Shopify=window.Shopify||{},window.Shopify.recaptchaV3=window.Shopify.recaptchaV3||{siteKey:"6LcCR2cUAAAAANS1Gpq_mDIJ2pQuJphsSQaUEuc9"};var t=['form[action*="/contact"] input[name="form_type"][value="contact"]','form[action*="/comments"] input[name="form_type"][value="new_comment"]','form[action*="/account"] input[name="form_type"][value="customer_login"]','form[action*="/account"] input[name="form_type"][value="recover_customer_password"]','form[action*="/account"] input[name="form_type"][value="create_customer"]','form[action*="/contact"] input[name="form_type"][value="customer"]'].join(",");function n(e){e=e.target;null==e||null!=(e=function e(t,n){if(null==t.parentElement)return null;if("FORM"!=t.parentElement.tagName)return e(t.parentElement,n);for(var o=t.parentElement.action,r=0;r<n.length;r++)if(-1!==o.indexOf(n[r]))return t.parentElement;return null}(e,["/contact","/comments","/account"]))&&null!=e.querySelector(t)&&((e=o.createElement("script")).setAttribute("src","https://cdn.shopify.com/shopifycloud/storefront-recaptcha-v3/v0.6/index.js"),o.body.appendChild(e),o.removeEventListener("focus",n,!0),o.removeEventListener("change",n,!0),o.removeEventListener("click",n,!0))}o.addEventListener("click",n,!0),o.addEventListener("change",n,!0),o.addEventListener("focus",n,!0)})}(document);</script>
+<script integrity="sha256-4VRZk5nmuLKdyxECzHbrGZ+jOgmvT6eNFej4VE7mT80=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/load_feature-e154599399e6b8b29dcb1102cc76eb199fa33a09af4fa78d15e8f8544ee64fcd.js" crossorigin="anonymous"></script>
+<script integrity="sha256-h+g5mYiIAULyxidxudjy/2wpCz/3Rd1CbrDf4NudHa4=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//cdn.shopify.com/shopifycloud/shopify/assets/storefront/features-87e8399988880142f2c62771b9d8f2ff6c290b3ff745dd426eb0dfe0db9d1dae.js" crossorigin="anonymous"></script>
+
+
+<style id="shopify-dynamic-checkout-cart">@media screen and (min-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #dynamic-checkout-cart {
+    min-height: 60px;
+  }
+}
+</style><script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+    
+    
+
+<meta property="og:site_name" content="NYU Stern Executive Education" />
+<meta property="og:url" content="https://execed.stern.nyu.edu/products/sustainable-finance-and-esg-investing" /><meta property="og:title" content="Sustainable Finance, Investing and ESG" />
+
+<meta property="og:description" content="Participants will learn about financially material ESG indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance." />
+
+
+<meta property="og:type" content="product">
+
+<meta property="og:image" content="http://cdn.shopify.com/s/files/1/1525/4852/products/SFliveonline_grande.png?v=1591217967" />
+<meta property="og:image:secure_url" content="https://cdn.shopify.com/s/files/1/1525/4852/products/SFliveonline_grande.png?v=1591217967" />
+
+<meta property="og:price:amount" content="4,680.00">
+<meta property="og:price:currency" content="USD">
+
+
+
+
+<meta name="twitter:card" content="summary">
+
+
+  <meta name="twitter:site" content="@NYUSternExecEd">
+
+
+
+  <meta property="twitter:description" content="Participants will learn about financially material ESG indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance." />
+
+
+<meta name="twitter:url" content="https://execed.stern.nyu.edu/products/sustainable-finance-and-esg-investing">
+
+
+<meta name="twitter:title" content="Sustainable Finance, Investing and ESG">
+<meta name="twitter:image" content="http://cdn.shopify.com/s/files/1/1525/4852/products/SFliveonline_grande.png?v=1591217967">
+
+
+    <!-- Theme CSS -->
+<link href="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/theme.scss.css?v=174220982703609603011636661557" rel="stylesheet" type="text/css" media="all" />
+<link href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- Theme Google Fonts -->
+
+
+
+
+          <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700' rel='stylesheet' type='text/css'>            <link href='//fonts.googleapis.com/css?family=Karla:400italic,700italic,400,700' rel='stylesheet' type='text/css'>          <link href='//fonts.googleapis.com/css?family=Roboto:300italic,400italic,700italic,300,400,700' rel='stylesheet' type='text/css'>                                              
+
+
+<!-- Store object -->
+
+
+
+
+  <script type="text/javascript">    Theme = {};    Theme.version = "1.4.1";    Theme.currency = 'USD';    shopCurrency = 'USD'; /* used by shipping calculator */    Theme.moneyFormat = "${{amount}}";    Theme.moneyFormatCurrency = "${{amount}} USD";    Theme.logo = true;    Theme.logoAlt = true;    Theme.disableCartAjax = false;    Theme.addToCartText = "Register for Course";    Theme.soldOutText = "Registration Closed";    Theme.unavailableText = "Unavailable";    Theme.processingText = "Processing...";    Theme.setQuantityText = "Please enter a value for quantity.";    Theme.notAvailableText = "Not available";    Theme.stockLevelText = "Sorry, we only have {{ stock_count }} in stock.";    Theme.okayText = "Okay";    Theme.shippingCalcErrorMessage = "Error: zip / postal code {{ error_message }}";    Theme.shippingCalcMultiRates = "There are {{ number_of_rates }} shipping rates available for {{ address }}, starting at {{ rate }}.";    Theme.shippingCalcOneRate = "There is one shipping rate available for {{ address }}.";    Theme.shippingCalcNoRates = "We do not ship to this destination.";    Theme.shippingCalcRateValues = "{{ rate_title }} at {{ rate }}";            Theme.headerSticky = true;                              </script>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<script src="https://use.fontawesome.com/d6cd09328e.js"></script>
+
+
+    <script src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/jquery-cookie.js?v=177500111459531585031496169448" type="text/javascript"></script> 
+     
+  
+  
+
+
+
+
+
+<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 15254852,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "product"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script>window['GoogleAnalyticsObject'] = 'ga';
+window['ga'] = window['ga'] || function() {
+  (window['ga'].q = window['ga'].q || []).push(arguments);
+};
+window['ga'].l = 1 * new Date();</script>
+<script>var _gaUTrackerOptions = {'allowLinker': true};ga('create', 'UA-942074-2', 'auto', _gaUTrackerOptions);ga('send', 'pageview');
+      (function(){
+        ga('require', 'linker');
+        function addListener(element, type, callback) {
+          if (element.addEventListener) {
+            element.addEventListener(type, callback);
+          }
+          else if (element.attachEvent) {
+            element.attachEvent('on' + type, callback);
+          }
+        }
+        function decorate(event) {
+          event = event || window.event;
+          var target = event.target || event.srcElement;
+          if (target && (target.action || target.href)) {
+            ga(function (tracker) {
+              var linkerParam = tracker.get('linkerParam');
+              document.cookie = '_shopify_ga=' + linkerParam + '; ' + 'path=/';
+            });
+          }
+        }
+        addListener(window, 'load', function(){
+          for (var i=0; i<document.forms.length; i++) {
+            if(document.forms[i].action && document.forms[i].action.indexOf('/cart') >= 0) {
+              addListener(document.forms[i], 'submit', decorate);
+            }
+          }
+          for (var i=0; i<document.links.length; i++) {
+            if(document.links[i].href && document.links[i].href.indexOf('/checkout') >= 0) {
+              addListener(document.links[i], 'click', decorate);
+            }
+          }
+        })
+      }());
+    </script>
+<script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'USD';
+var meta = {"product":{"id":1510723321900,"gid":"gid:\/\/shopify\/Product\/1510723321900","vendor":"NYU Stern Executive Education","type":"Short Courses","variants":[{"id":39735213719741,"price":468000,"name":"Sustainable Finance, Investing and ESG - Dates Not Available","public_title":"Dates Not Available","sku":"SF_20221114"}]},"page":{"pageType":"product","resourceType":"product","resourceId":1510723321900}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var hasLoggedConversion = function(token) {
+    if (token) {
+      return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+    }
+    return false;
+  }
+
+  var setCookieIfConversion = function(token) {
+    if (token) {
+      var twoMonthsFromNow = new Date(Date.now());
+      twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+      document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+    }
+  }
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config || {};
+    trekkie.config.initialDocumentCookie = document.cookie;
+    var first = document.getElementsByTagName('script')[0];
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      var scriptFallback = document.createElement('script');
+      scriptFallback.type = 'text/javascript';
+      scriptFallback.onerror = function(error) {
+              var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
+        };
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+    
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+    
+        } // XHR beacon   
+    
+        var xhr = new XMLHttpRequest();
+    
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+    
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 15254852,
+      theme_id: 185838792,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "https://cdn.shopify.com/s/trekkie.storefront.3be77a688ed64c8509ece6a17b1144c1990fc30d.min.js"});
+
+      };
+      scriptFallback.async = true;
+      scriptFallback.src = 'https://cdn.shopify.com/s/trekkie.storefront.3be77a688ed64c8509ece6a17b1144c1990fc30d.min.js';
+      first.parentNode.insertBefore(scriptFallback, first);
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/trekkie.storefront.3be77a688ed64c8509ece6a17b1144c1990fc30d.min.js';
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":15254852,"isMerchantRequest":null,"themeId":185838792,"themeCityHash":"5009697048347545838","contentLanguage":"en","currency":"USD"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain"},"Facebook Pixel":{"pixelIds":["150306205631125"],"agent":"plshopify1.2"},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer"}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+
+    window.ShopifyAnalytics.lib.page(null,{"pageType":"product","resourceType":"product","resourceId":1510723321900});
+
+    var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+    var token = match? match[1]: undefined;
+    if (!hasLoggedConversion(token)) {
+      setCookieIfConversion(token);
+      window.ShopifyAnalytics.lib.track("Viewed Product",{"currency":"USD","variantId":39735213719741,"productId":1510723321900,"productGid":"gid:\/\/shopify\/Product\/1510723321900","name":"Sustainable Finance, Investing and ESG - Dates Not Available","price":"4680.00","sku":"SF_20221114","brand":"NYU Stern Executive Education","variant":"Dates Not Available","category":"Short Courses","nonInteraction":true});
+      window.ShopifyAnalytics.lib.track("monorail:\/\/trekkie_storefront_viewed_product\/1.1",{"currency":"USD","variantId":39735213719741,"productId":1510723321900,"productGid":"gid:\/\/shopify\/Product\/1510723321900","name":"Sustainable Finance, Investing and ESG - Dates Not Available","price":"4680.00","sku":"SF_20221114","brand":"NYU Stern Executive Education","variant":"Dates Not Available","category":"Short Courses","nonInteraction":true,"referer":"https:\/\/execed.stern.nyu.edu\/products\/sustainable-finance-and-esg-investing"});
+    }
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/shopifycloud/shopify/assets/shop_events_listener-65cd0ba3fcd81a1df33f2510ec5bcf8c0e0958653b50e3965ec972dd638ee13f.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();</script>
+<script class="boomerang">
+(function () {
+  if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    return;
+  }
+  window.BOOMR = window.BOOMR || {};
+  window.BOOMR.snippetStart = new Date().getTime();
+  window.BOOMR.snippetExecuted = true;
+  window.BOOMR.snippetVersion = 12;
+  window.BOOMR.application = "storefront-renderer";
+  window.BOOMR.themeName = "";
+  window.BOOMR.themeVersion = "";
+  window.BOOMR.shopId = 15254852;
+  window.BOOMR.themeId = 185838792;
+  window.BOOMR.renderRegion = "gcp-us-central1";
+  window.BOOMR.url =
+    "https://cdn.shopify.com/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+  var where = document.currentScript || document.getElementsByTagName("script")[0];
+  var parentNode = where.parentNode;
+  var promoted = false;
+  var LOADER_TIMEOUT = 3000;
+  function promote() {
+    if (promoted) {
+      return;
+    }
+    var script = document.createElement("script");
+    script.id = "boomr-scr-as";
+    script.src = window.BOOMR.url;
+    script.async = true;
+    parentNode.appendChild(script);
+    promoted = true;
+  }
+  function iframeLoader(wasFallback) {
+    promoted = true;
+    var dom, bootstrap, iframe, iframeStyle;
+    var doc = document;
+    var win = window;
+    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+    bootstrap = function(parent, scriptId) {
+      var script = doc.createElement("script");
+      script.id = scriptId || "boomr-if-as";
+      script.src = window.BOOMR.url;
+      BOOMR_lstart = new Date().getTime();
+      parent = parent || doc.body;
+      parent.appendChild(script);
+    };
+    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+      window.BOOMR.snippetMethod = "s";
+      bootstrap(parentNode, "boomr-async");
+      return;
+    }
+    iframe = document.createElement("IFRAME");
+    iframe.src = "about:blank";
+    iframe.title = "";
+    iframe.role = "presentation";
+    iframe.loading = "eager";
+    iframeStyle = (iframe.frameElement || iframe).style;
+    iframeStyle.width = 0;
+    iframeStyle.height = 0;
+    iframeStyle.border = 0;
+    iframeStyle.display = "none";
+    parentNode.appendChild(iframe);
+    try {
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    } catch (e) {
+      dom = document.domain;
+      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    }
+    if (dom) {
+      doc._boomrl = function() {
+        this.domain = dom;
+        bootstrap();
+      };
+      doc.write("<body onload='document._boomrl();'>");
+    } else {
+      win._boomrl = function() {
+        bootstrap();
+      };
+      if (win.addEventListener) {
+        win.addEventListener("load", win._boomrl, false);
+      } else if (win.attachEvent) {
+        win.attachEvent("onload", win._boomrl);
+      }
+    }
+    doc.close();
+  }
+  var link = document.createElement("link");
+  if (link.relList &&
+    typeof link.relList.supports === "function" &&
+    link.relList.supports("preload") &&
+    ("as" in link)) {
+    window.BOOMR.snippetMethod = "p";
+    link.href = window.BOOMR.url;
+    link.rel = "preload";
+    link.as = "script";
+    link.addEventListener("load", promote);
+    link.addEventListener("error", function() {
+      iframeLoader(true);
+    });
+    setTimeout(function() {
+      if (!promoted) {
+        iframeLoader(true);
+      }
+    }, LOADER_TIMEOUT);
+    BOOMR_lstart = new Date().getTime();
+    parentNode.appendChild(link);
+  } else {
+    iframeLoader(false);
+  }
+  function boomerangSaveLoadTime(e) {
+    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+  }
+  if (window.addEventListener) {
+    window.addEventListener("load", boomerangSaveLoadTime, false);
+  } else if (window.attachEvent) {
+    window.attachEvent("onload", boomerangSaveLoadTime);
+  }
+  if (document.addEventListener) {
+    document.addEventListener("onBoomerangLoaded", function(e) {
+      e.detail.BOOMR.init({
+        ResourceTiming: {
+          enabled: true,
+          trackedResourceTypes: ["script", "img", "css"]
+        },
+      });
+      e.detail.BOOMR.t_end = new Date().getTime();
+    });
+  } else if (document.attachEvent) {
+    document.attachEvent("onpropertychange", function(e) {
+      if (!e) e=event;
+      if (e.propertyName === "onBoomerangLoaded") {
+        e.detail.BOOMR.init({
+          ResourceTiming: {
+            enabled: true,
+            trackedResourceTypes: ["script", "img", "css"]
+          },
+        });
+        e.detail.BOOMR.t_end = new Date().getTime();
+      }
+    });
+  }
+})();</script>
+<script async="async" src="https://www.google-analytics.com/analytics.js"></script>
+<script id="web-pixels-manager-setup">(function e(e,n,a,o,t){e&&(window.Shopify=window.Shopify||{},window.Shopify.analytics=window.Shopify.analytics||{},window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=function(e,n,a){window.Shopify.analytics.replayQueue.push([e,n,a])});var r,i,s,l,d,c,p,u,f=a+"/"+o+"."+function(){var e="legacy",n="unknown",a=null,o=navigator.userAgent.match(/(Firefox|Chrome)\/(\d+)/i),t=navigator.userAgent.match(/(Edg)\/(\d+)/i),r=navigator.userAgent.match(/(Version)\/(\d+)(.+)(Safari)\/(\d+)/i);r?(n="safari",a=parseInt(r[2],10)):t?(n="edge",a=parseInt(t[2],10)):o&&(n=o[1].toLocaleLowerCase(),a=parseInt(o[2],10));var i={chrome:60,firefox:55,safari:11,edge:80}[n];return void 0!==i&&null!==a&&i<=a&&(e="modern"),e}()+".js";r={src:f,async:!0,onload:function(){if(e){var a=window.webPixelsManager.init(e);n(a),window.Shopify.analytics.replayQueue.forEach((function(e){a.publishCustomEvent(e[0],e[1],e[2])})),window.Shopify.analytics.replayQueue=[],window.Shopify.analytics.publish=a.publishCustomEvent}},onerror:function(){var n=(e.storefrontBaseUrl?e.storefrontBaseUrl.replace(/\/$/,""):self.location.origin)+"/.well-known/shopify/monorail/unstable/produce_batch",a=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:t||"latest",page_url:self.location.href,status:"failed",error_msg:f+" has failed to load"},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(n,a))return!0}catch(e){}const o=new XMLHttpRequest;try{return o.open("POST",n,!0),o.setRequestHeader("Content-Type","text/plain"),o.send(a),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}},i=document.createElement("script"),s=r.src,l=r.async||!0,d=r.onload,c=r.onerror,p=document.head,u=document.body,i.async=l,i.src=s,d&&i.addEventListener("load",d),c&&i.addEventListener("error",c),p?p.appendChild(i):u?u.appendChild(i):console.error("Did not find a head or body element to append the script")})({shopId: 15254852,storefrontBaseUrl: "https://execed.stern.nyu.edu",cdnBaseUrl: "https://cdn.shopify.com",surface: "storefront-renderer",enabledBetaFlags: ["web_pixels_use_shop_domain_monorail_endpoint","web_pixels_shopify_pixel_validation"],webPixelExtensionBaseUrl: "https://cdn.shopify.com",webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"052","apiClientId":"shopify-pixel","type":"APP"},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"052","apiClientId":"shopify-pixel","type":"CUSTOM"}],initData: {"customer":null,"cart":null,"productVariants":[{"id":"39735213719741","image":{"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1525\/4852\/products\/SFliveonline.png?v=1591217967"},"price":{"amount":4680.0,"currencyCode":"USD"},"sku":"SF_20221114","title":"Dates Not Available","product":{"id":"1510723321900","title":"Sustainable Finance, Investing and ESG","vendor":"NYU Stern Executive Education"}}],"checkout":null},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");webPixelsManagerAPI.publish("product_viewed", {"productVariant":{"id":"39735213719741","image":{"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1525\/4852\/products\/SFliveonline.png?v=1591217967"},"price":{"amount":4680.0,"currencyCode":"USD"},"sku":"SF_20221114","title":"Dates Not Available","product":{"id":"1510723321900","title":"Sustainable Finance, Investing and ESG","vendor":"NYU Stern Executive Education"}}});},"https://cdn.shopify.com/shopifycloud/web-pixels-manager/0.0.186","browser","0.0.186");</script></head>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <body class="template-product has-sticky-header">
+    
+    <a id='skip-nav' href='#main-content'>
+      Skip Navigation
+    </a>
+
+    
+
+
+
+<div class="header  sticky-header show-border">
+  <div class="main-header-wrapper" data-main-header>
+    <div class="main-header" role="banner">
+      <div class="branding alternate-logo-in-drawer">
+        <a class="branding-logo-link" href="/">
+          
+            <img class="branding-logo-image logo-regular" alt="NYU Stern Executive Education" src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/logo.png?v=17496887098252130021496082170">
+            
+              <img class="branding-logo-image logo-alternate" alt="NYU Stern Executive Education" src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/alternate-logo.png?v=151740633337492652591496082167">
+            
+          
+        </a>
+      </div>
+      
+      <div class="header-tools">
+        
+          <nav class="navigation">
+  <ul class="header-navigation-list clearfix">
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/collections/take-a-course"
+          tabindex="0"
+          
+        >
+          Take a Course
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/enterprise-learning"
+          tabindex="0"
+          
+        >
+          Programs for Organizations
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/executive-degrees"
+          tabindex="0"
+          
+        >
+          Executive Degrees
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/about"
+          tabindex="0"
+          
+        >
+          About
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/talk-to-an-advisor"
+          tabindex="0"
+          
+        >
+          Talk to an Advisor
+        </a>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+        
+        
+
+        
+        <div class="header-actions">
+          <div class="header-actions-list">
+            <div class="header-actions-list-item header-currency-switcher currency-switcher coin-container"></div>
+            
+            
+            
+              <a class="header-actions-list-item icon-cart header-cart-link" href="/cart"  tabindex="0"><span class="screen-reader-text">Cart</span>
+                <span class="header-cart-count ">0</span>
+              </a>
+            
+            
+              
+                <a class="header-actions-list-item header-account-link icon-head" href="/account"><span class="screen-reader-text">Account</span></a>
+              
+            
+            <a class="header-actions-list-item drawer-toggle" data-drawer-toggle tabindex="0" href="#">
+              <span class="icon-menu"><br><span class="screen-reader-text">Menu</span></span>
+              <span class="icon-cross"><br><span class="screen-reader-text">Close Menu</span></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-drawer" tabindex="-1">
+    <nav class="navigation">
+  <ul class="header-navigation-list clearfix">
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/collections/take-a-course"
+          tabindex="0"
+          
+        >
+          Take a Course
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/enterprise-learning"
+          tabindex="0"
+          
+        >
+          Programs for Organizations
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/executive-degrees"
+          tabindex="0"
+          
+        >
+          Executive Degrees
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/about"
+          tabindex="0"
+          
+        >
+          About
+        </a>
+        
+      </li>
+    
+
+      
+      
+      <li class="header-navigation-list-item" tabindex="-1">
+        <a
+          class="header-navigation-link primary-link "
+          href="/pages/talk-to-an-advisor"
+          tabindex="0"
+          
+        >
+          Talk to an Advisor
+        </a>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    <div class="coin-container"></div>
+    
+    
+      <a href="/account" class="drawer-account-link button">My Account</a>
+    
+    
+  </div>
+  
+
+  
+</div>
+
+
+    <main class="main-content" id="main-content">
+     
+     <div id="qab_placeholder"></div> 
+      
+      
+        
+          <div class="module-wrapper">
+  <div class="module module-breadcrumbs">
+    <a class="module-breadcrumbs-link" href="/">Home</a> <span class="module-breadcrumbs-divider">/</span>
+    
+      
+        <a class="module-breadcrumbs-link"  href="/collections">Collections</a> <span class="module-breadcrumbs-divider">/</span> <a class="module-breadcrumbs-link"  href="/collections/take-a-course">Programs for Individuals</a>
+      
+        <span class="module-breadcrumbs-divider">/</span> <span>Sustainable Finance, Investing and ESG</span>
+    
+  </div>
+</div>
+
+        
+      
+      
+      
+
+
+
+
+
+  <script type="text/javascript">
+    window.__shgCurrentCurrencyCode = window.__shgCurrentCurrencyCode || {
+      currency: "USD",
+      currency_symbol: "$",
+      decimal_separator: ".",
+      thousands_separator: ",",
+      decimal_places: 2,
+      currency_symbol_location: "left"
+    };
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- FeedArmy 2020 Version 3.01 -->
+
+
+
+
+<script type="application/ld+json" data-creator_name="FeedArmy">
+{
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "Sustainable Finance, Investing and ESG",
+  "url": "https://execed.stern.nyu.edu/products/sustainable-finance-and-esg-investing",
+  "sku": "","productID": "1510723321900",
+  "brand": {
+    "@type": "Thing",
+    "name": "NYU Stern Executive Education"
+  },
+  "description": "\nPLEASE NOTE: This program is currently being offered as a live online course. See agenda below for schedule.\n\nSustainable investing is a topic of increasing interest to the financial community.  With global environmental and social challenges increasing, and with meaningful millennial participation in markets anticipated, trillions of dollars are beginning to shift. The battle for future market share may well be won by those who respond best to this new investment paradigm. Sustainable Finance and ESG Investing provides participants with the experience, tools and community of practice they will need to become an important part of this global paradigm.\nThrough a combination of lecture, discussion and group exercises, participants will learn about financially material Environmental Social Governance (ESG) indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance. They will also review best practices in ESG and impact investing, and develop their own sustainable investment strategies. Executives will leave this course with concrete ideas about how to incorporate sustainable investment practices within their organizations.\n\n\nCertificates and Credits\n\nUpon completion of this course, participants will receive a Certificate of Achievement. \nDownload Brochure\n**Agenda**\n[tab_Day 1]\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 1: Key Trends in Sustainable Business and Relevance for Finance\n\nWhat is ‘sustainable business’\nKey economic, environmental, social and governance issues\nSustainable business: profitability and social impact performance\nThe sustainable consumer and consumer demand for sustainability\nCurrent trends for embedding sustainability in corporate strategy\nImpact of COVID-19 coronavirus\n\nKick off with small group discussion: Reflections on the readings\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 2: Case Studies - Companies Setting the Standard\n\nThe specific case studies used in this session will be tailored to the audience, but could include:\n\nNike: Sustainability and Innovation through Flyknit Technology\nNespresso: Supply Chain and Stakeholder Engagement Case Study\nAvery Dennison: Innovative Marketing of Sustainability Attracts More Loyal Customers\nCitigroup, Inc.: Innovation in Energy Efficiency Financing\nDomtar: Embedding Operational Efficiency\nKKR: Sustainability as a Performance Enhancer\n\n\nSmall group working session: What are the commonalities across these corporate approaches to sustainability? As an investor, what should we be looking for?\n\n[tab_Day 2]\n\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 3: Emerging Strategies and Trends in Sustainable Finance\n\nThe current state of sustainable investing, multiple emerging strategies\nThe evidence on delivering alpha from sustainability\nKey challenges ahead for sustainable investing\nImpact of COVID-19 coronavirus\nPathways to overcome barriers\nSmall group discussion\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 4: Measuring Environmental, Social and Governance (ESG) Performance\n\nMateriality and frameworks, strengths and weaknesses (including SASB, GRI, TCFD)\nSpecific investor case studies\nCompare and contrast (including overnight exercise)\nOpportunities and challenges for delivering impact by addressing the Sustainable Development Goals (SDGs)\nSpecific strategies and the roles of asset owners and fund managers\n\nSmall group working session: work on a case to identify key ESG issues (including separate fund manager and asset owner discussions)\n\n[tab_Day 3]\n\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 5: Monetizing the Value of Sustainability\n\nNew measures for quantifying operational ESG performance\nTurning non-financial performance into financial value\nQuantifying the impact of ESG performance on the corporate bottom line\nMonetizing the benefits delivered outside the company\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 6: Monetizing the Value of Sustainability (cont.)\n\n\nSmall group working session: work on a case\n\n[tab_Day 4]\n\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 7: Investing Strategies\n\nReflections on the overnight exercises\nESG issue and shareholder engagement\nNew financing mechanisms for scaling up investment in sustainability\nImpact investing and Impact Measurement\nOther techniques for ESG integration\nGlobal considerations\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 8: Hands-on Investment Strategy Development\n\nBuild a portfolio objective and related fund materials\nTeams will produce a one-page sheet including a paragraph objective and target financial metrics of a single sustainable or impact investment fund that you intend to launch\nSmall group working sessions\n\n\n[tab_Day 5]\n\nPlease note: this agenda has been modified for live online instruction.\n\n9:00 - 10:30 am ET: Hands-on Project: Build Your Own Investment Strategy\n\nBuilding on the one-page fund sheet designed in the previous session, participants practice creating and deploying a specific investment process, resulting in a starting portfolio of companies or investments\n\n\n10:30 - 11:00 am ET: Break\n11:00 am - 12:30 pm ET: Project Presentations \u0026amp; Wrap-Up",
+  "image": "https://cdn.shopify.com/s/files/1/1525/4852/products/SFliveonline_grande.png?v=1591217967","offers":
+      {
+        "@type" : "Offer",
+        "priceCurrency": "USD",
+        "price": "4.68000",
+        "itemCondition" : "http://schema.org/NewCondition",
+        "availability" : "http://schema.org/OutOfStock",
+        "url" : "https://execed.stern.nyu.edu/products/sustainable-finance-and-esg-investing?variant=39735213719741","image": "https://cdn.shopify.com/s/files/1/1525/4852/products/SFliveonline_grande.png?v=1591217967","name" : "Sustainable Finance, Investing and ESG - Dates Not Available","sku": "","description" : "\nPLEASE NOTE: This program is currently being offered as a live online course. See agenda below for schedule.\n\nSustainable investing is a topic of increasing interest to the financial community.  With global environmental and social challenges increasing, and with meaningful millennial participation in markets anticipated, trillions of dollars are beginning to shift. The battle for future market share may well be won by those who respond best to this new investment paradigm. Sustainable Finance and ESG Investing provides participants with the experience, tools and community of practice they will need to become an important part of this global paradigm.\nThrough a combination of lecture, discussion and group exercises, participants will learn about financially material Environmental Social Governance (ESG) indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance. They will also review best practices in ESG and impact investing, and develop their own sustainable investment strategies. Executives will leave this course with concrete ideas about how to incorporate sustainable investment practices within their organizations.\n\n\nCertificates and Credits\n\nUpon completion of this course, participants will receive a Certificate of Achievement. \nDownload Brochure\n**Agenda**\n[tab_Day 1]\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 1: Key Trends in Sustainable Business and Relevance for Finance\n\nWhat is ‘sustainable business’\nKey economic, environmental, social and governance issues\nSustainable business: profitability and social impact performance\nThe sustainable consumer and consumer demand for sustainability\nCurrent trends for embedding sustainability in corporate strategy\nImpact of COVID-19 coronavirus\n\nKick off with small group discussion: Reflections on the readings\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 2: Case Studies - Companies Setting the Standard\n\nThe specific case studies used in this session will be tailored to the audience, but could include:\n\nNike: Sustainability and Innovation through Flyknit Technology\nNespresso: Supply Chain and Stakeholder Engagement Case Study\nAvery Dennison: Innovative Marketing of Sustainability Attracts More Loyal Customers\nCitigroup, Inc.: Innovation in Energy Efficiency Financing\nDomtar: Embedding Operational Efficiency\nKKR: Sustainability as a Performance Enhancer\n\n\nSmall group working session: What are the commonalities across these corporate approaches to sustainability? As an investor, what should we be looking for?\n\n[tab_Day 2]\n\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 3: Emerging Strategies and Trends in Sustainable Finance\n\nThe current state of sustainable investing, multiple emerging strategies\nThe evidence on delivering alpha from sustainability\nKey challenges ahead for sustainable investing\nImpact of COVID-19 coronavirus\nPathways to overcome barriers\nSmall group discussion\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 4: Measuring Environmental, Social and Governance (ESG) Performance\n\nMateriality and frameworks, strengths and weaknesses (including SASB, GRI, TCFD)\nSpecific investor case studies\nCompare and contrast (including overnight exercise)\nOpportunities and challenges for delivering impact by addressing the Sustainable Development Goals (SDGs)\nSpecific strategies and the roles of asset owners and fund managers\n\nSmall group working session: work on a case to identify key ESG issues (including separate fund manager and asset owner discussions)\n\n[tab_Day 3]\n\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 5: Monetizing the Value of Sustainability\n\nNew measures for quantifying operational ESG performance\nTurning non-financial performance into financial value\nQuantifying the impact of ESG performance on the corporate bottom line\nMonetizing the benefits delivered outside the company\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 6: Monetizing the Value of Sustainability (cont.)\n\n\nSmall group working session: work on a case\n\n[tab_Day 4]\n\nPlease note: this agenda has been modified for live online instruction.\n9:00 - 10:30 am ET: Session 7: Investing Strategies\n\nReflections on the overnight exercises\nESG issue and shareholder engagement\nNew financing mechanisms for scaling up investment in sustainability\nImpact investing and Impact Measurement\nOther techniques for ESG integration\nGlobal considerations\n\n10:30 - 11:00 am ET: Break\n11:00 - 12:30 pm ET: Session 8: Hands-on Investment Strategy Development\n\nBuild a portfolio objective and related fund materials\nTeams will produce a one-page sheet including a paragraph objective and target financial metrics of a single sustainable or impact investment fund that you intend to launch\nSmall group working sessions\n\n\n[tab_Day 5]\n\nPlease note: this agenda has been modified for live online instruction.\n\n9:00 - 10:30 am ET: Hands-on Project: Build Your Own Investment Strategy\n\nBuilding on the one-page fund sheet designed in the previous session, participants practice creating and deploying a specific investment process, resulting in a starting portfolio of companies or investments\n\n\n10:30 - 11:00 am ET: Break\n11:00 am - 12:30 pm ET: Project Presentations \u0026amp; Wrap-Up","priceValidUntil": "2024-01-17"
+      },"aggregateRating": {
+     "@type": "AggregateRating",
+     "ratingValue": 5.0,
+     "ratingCount": 4
+    }}
+</script>
+<!-- FeedArmy 2020 Version 3.01 -->
+
+<div class="module-wrapper ">
+  <div class="module module-product">
+    <div>
+      <div class="product-details mobile">
+        <div class="product-title">
+          <h1>Sustainable Finance, Investing and ESG</h1>
+        </div>
+        <div class="product-price">
+          <span class="price">
+            <span class="money">$4,680.00</span>
+            
+          </span>
+          <a href="/products/sustainable-finance-and-esg-investing#reviews" style="font-size: 15px;"><span class="shopify-product-reviews-badge" data-id="1510723321900"></span> </a>
+        </div>
+      </div>
+      
+      <div class="product-slideshow clearfix">
+        <div class="product-image-container clearfix">
+          <div class="product-big-image" data-no-image-svg="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/no-image.svg?v=118457862165745330321496082171" data-no-image-png="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/no-image.png?v=176150105860372026941496082171">
+            <span class="product-slideshow-loader"></span>
+            
+              <img src="//cdn.shopify.com/s/files/1/1525/4852/products/SFliveonline_grande.png?v=1591217967" alt="Sustainable Finance, Investing and ESG" data-high-res="//cdn.shopify.com/s/files/1/1525/4852/products/SFliveonline.png?v=1591217967" />
+            
+            
+          </div>
+          
+        </div>
+        
+        
+        
+        <div class="product-location">
+          <p style="text-align: center;"><a href="/pages/logistics-and-directions" target="_blank"><img src="https://cdn.shopify.com/s/files/1/1525/4852/files/NYU_Stern_Map.jpg?17375712953361326653" style="max-width: 100%; margin: 0 auto; margin-bottom: 15px;" alt="Map - NYU Stern School of Business"></a></p>
+          <p style="color:#333; text-transform:uppercase; letter-spacing: 2px; font-size: 13px; font-weight:700;">Location</p>
+          <span></span>
+          <p>NYU Stern School of Business<br/>44 West 4th Street<br/>New York, NY 10012</p>
+          <span></span>
+          <a href="/pages/logistics-and-directions" target="_blank">View Map</a>
+      	</div>
+        
+        
+      </div>
+      <div class="product-wrap">
+        <div class="product-details">
+          <div class="product-title">
+            <h1>Sustainable Finance, Investing and ESG</h1>
+          </div>
+          <div class="product-price">
+            <span class="price">
+              <span class="money">
+                <span content="USD">$</span><span content="4680.00">4,680.00</span>
+              </span>
+              
+            </span>
+          </div>
+          
+          <a href="/products/sustainable-finance-and-esg-investing#reviews"><span class="shopify-product-reviews-badge" data-id="1510723321900"></span> </a>
+        </div>
+        
+        <form class="product-form" action="/cart/add" method="post">
+          <div class="clearfix product-form-nav">
+            
+            
+              <div class="product-options">
+                <select name="id" id="product-select" class="product-select" aria-label="Select a variant">
+                  
+                  <option  selected="selected"  value="39735213719741">&nbsp;&nbsp;&nbsp;Dates Not Available</option>
+                  
+                </select>
+              </div>
+            
+            
+            
+            <div id="infiniteoptions-container"></div>
+            <div id="uploadery-container"></div>
+
+            <div class="number-input-wrapper product-quantity clearfix">
+              <div class="number-input-field">
+                <input type="number" name="quantity" id="quantity" value="1" aria-label="Quantity" />
+                <label class="number-input-label" for="quantity">Quantity</label>
+              </div>
+              <div class="number-input-nav">
+                <div class="number-input-nav-item icon icon-plus"></div>
+                <div class="number-input-nav-item icon icon-minus"></div>
+              </div>
+            </div>
+          </div>
+          <div class="add-to-cart">
+            
+              <input type="submit" class="button outline disabled sold_out_product" disabled="disabled" value="Registration Closed" />
+            
+          </div>
+          
+
+          
+        </form>
+        
+          <div class="product-more-info two-column-section">
+              <p class="product-info-link info">
+                <a href="#agenda">
+                  Jump to Agenda
+                </a>
+              </p>
+              <p class="product-info-link info">
+                <a href="#takeaways">
+                  Jump to Program Takeaways
+                </a>
+              </p>
+              <p class="product-info-link envelope">
+                <a href="/pages/course-notification-email-sign-up" target="_blank">
+                  Notify Me When More Dates Are Available
+                </a>
+              </p>
+              <p class="product-info-link pencil">
+                <a href="/pages/enterprise-learning" target="_blank">
+                  Customize This Course for My Organization
+                </a>
+              </p>
+              <p class="product-info-link question-mark">
+                <a href="/pages/tuition-assistance" target="_blank">
+                  Tuition Assistance
+                </a>
+              </p>
+            
+              <p class="product-info-link question-mark">
+                <a href="/pages/faq" target="_blank">
+                  Frequently Asked Questions
+                </a>
+              </p>
+            
+            
+              <p class="product-info-link info">
+                <a href="/pages/short-course-terms-and-conditions" target="_blank">
+                  Terms and Conditions
+                </a>
+              </p>
+            
+          </div>
+        
+        
+          <div class="product-tabs">
+            <div class="product-tabs-header">
+              <div class="product-tabs-header-item active" data-tab="product-tab-description">
+                Overview
+              </div>
+            </div>
+            <div class="product-tabs-body">
+              <div class="product-tabs-body-item rte active" id="product-tab-description">
+                
+                <div style="border: 1px solid #01808c; padding: 10px; text-align: center; background: rgba(1, 130, 142, 0.1);">
+<span>PLEASE NOTE: This program is currently being offered as a </span><a href="https://execed.stern.nyu.edu/blogs/news/live-online-courses" target="_blank"><strong>live online</strong></a><span> course. See agenda below for schedule.</span>
+</div>
+<p>Sustainable investing is a topic of increasing interest to the financial community.  With global environmental and social challenges increasing, and with meaningful millennial participation in markets anticipated, trillions of dollars are beginning to shift. The battle for future market share may well be won by those who respond best to this new investment paradigm. Sustainable Finance and ESG Investing provides participants with the experience, tools and community of practice they will need to become an important part of this global paradigm.<br></p>
+<p>Through a combination of lecture, discussion and group exercises, participants will learn about financially material Environmental Social Governance (ESG) indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance. They will also review best practices in ESG and impact investing, and develop their own sustainable investment strategies. Executives will leave this course with concrete ideas about how to incorporate sustainable investment practices within their organizations.<br><br></p>
+<br>
+<div class="product-tabs-header">
+<div data-tab="product-tab-description" class="product-tabs-header-item active">Certificates and Credits</div>
+</div>
+<p>Upon completion of this course, participants will receive a Certificate of Achievement.<br> </p>
+<div><a class="button large" title="Download Brochure: Sustainable Finance and ESG Investing" href="/pages/brochure-download-sustainable-finance-and-esg-investing" target="_blank">Download Brochure</a></div>
+<p>
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script>
+  // required for splitting variants
+  // see ProductView
+  window.productJSON = {"id":1510723321900,"title":"Sustainable Finance, Investing and ESG","handle":"sustainable-finance-and-esg-investing","description":"\u003cdiv style=\"border: 1px solid #01808c; padding: 10px; text-align: center; background: rgba(1, 130, 142, 0.1);\"\u003e\n\u003cspan\u003ePLEASE NOTE: This program is currently being offered as a \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003e\u003cstrong\u003elive online\u003c\/strong\u003e\u003c\/a\u003e\u003cspan\u003e course. See agenda below for schedule.\u003c\/span\u003e\n\u003c\/div\u003e\n\u003cp\u003eSustainable investing is a topic of increasing interest to the financial community.  With global environmental and social challenges increasing, and with meaningful millennial participation in markets anticipated, trillions of dollars are beginning to shift. The battle for future market share may well be won by those who respond best to this new investment paradigm. Sustainable Finance and ESG Investing provides participants with the experience, tools and community of practice they will need to become an important part of this global paradigm.\u003cbr\u003e\u003c\/p\u003e\n\u003cp\u003eThrough a combination of lecture, discussion and group exercises, participants will learn about financially material Environmental Social Governance (ESG) indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance. They will also review best practices in ESG and impact investing, and develop their own sustainable investment strategies. Executives will leave this course with concrete ideas about how to incorporate sustainable investment practices within their organizations.\u003cbr\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003cbr\u003e\n\u003cdiv class=\"product-tabs-header\"\u003e\n\u003cdiv data-tab=\"product-tab-description\" class=\"product-tabs-header-item active\"\u003eCertificates and Credits\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cp\u003eUpon completion of this course, participants will receive a Certificate of Achievement.\u003cbr\u003e \u003c\/p\u003e\n\u003cdiv\u003e\u003ca class=\"button large\" title=\"Download Brochure: Sustainable Finance and ESG Investing\" href=\"\/pages\/brochure-download-sustainable-finance-and-esg-investing\" target=\"_blank\"\u003eDownload Brochure\u003c\/a\u003e\u003c\/div\u003e\n\u003cp\u003e**Agenda**\u003c\/p\u003e\n\u003cp\u003e[tab_Day 1]\u003c\/p\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for \u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e instruction.\u003c\/i\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 1: Key Trends in Sustainable Business and Relevance for Finance\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eWhat is ‘sustainable business’\u003c\/li\u003e\n\u003cli\u003eKey economic, environmental, social and governance issues\u003c\/li\u003e\n\u003cli\u003eSustainable business: profitability and social impact performance\u003c\/li\u003e\n\u003cli\u003eThe sustainable consumer and consumer demand for sustainability\u003c\/li\u003e\n\u003cli\u003eCurrent trends for embedding sustainability in corporate strategy\u003c\/li\u003e\n\u003cli\u003eImpact of COVID-19 coronavirus\u003c\/li\u003e\n\u003cli\u003e\n\u003cstrong\u003eKick off with small group discussion:\u003c\/strong\u003e Reflections on the readings\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 2: Case Studies - Companies Setting the Standard\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eThe specific case studies used in this session will be tailored to the audience, but could include:\u003c\/li\u003e\n\u003cul\u003e\n\u003cli\u003eNike: Sustainability and Innovation through Flyknit Technology\u003c\/li\u003e\n\u003cli\u003eNespresso: Supply Chain and Stakeholder Engagement Case Study\u003c\/li\u003e\n\u003cli\u003eAvery Dennison: Innovative Marketing of Sustainability Attracts More Loyal Customers\u003c\/li\u003e\n\u003cli\u003eCitigroup, Inc.: Innovation in Energy Efficiency Financing\u003c\/li\u003e\n\u003cli\u003eDomtar: Embedding Operational Efficiency\u003c\/li\u003e\n\u003cli\u003eKKR: Sustainability as a Performance Enhancer\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cli\u003e\n\u003cstrong\u003eSmall group working session:\u003c\/strong\u003e What are the commonalities across these corporate approaches to sustainability? As an investor, what should we be looking for?\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e[tab_\u003cspan data-mce-fragment=\"1\"\u003eDay 2\u003c\/span\u003e]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 3: Emerging Strategies and Trends in Sustainable Finance\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eThe current state of sustainable investing, multiple emerging strategies\u003c\/li\u003e\n\u003cli\u003eThe evidence on delivering alpha from sustainability\u003c\/li\u003e\n\u003cli\u003eKey challenges ahead for sustainable investing\u003c\/li\u003e\n\u003cli\u003eImpact of COVID-19 coronavirus\u003c\/li\u003e\n\u003cli\u003ePathways to overcome barriers\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eSmall group discussion\u003c\/strong\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 4: Measuring Environmental, Social and Governance (ESG) Performance\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eMateriality and frameworks, strengths and weaknesses (including SASB, GRI, TCFD)\u003c\/li\u003e\n\u003cli\u003eSpecific investor case studies\u003c\/li\u003e\n\u003cli\u003eCompare and contrast (including overnight exercise)\u003c\/li\u003e\n\u003cli\u003eOpportunities and challenges for delivering impact by addressing the Sustainable Development Goals (SDGs)\u003c\/li\u003e\n\u003cli\u003eSpecific strategies and the roles of asset owners and fund managers\u003c\/li\u003e\n\u003cli\u003e\n\u003cstrong\u003eSmall group working session:\u003c\/strong\u003e work on a case to identify key ESG issues (including separate fund manager and asset owner discussions)\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e[tab_D\u003cspan data-mce-fragment=\"1\"\u003eay 3\u003c\/span\u003e]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 5: Monetizing the Value of Sustainability\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eNew measures for quantifying operational ESG performance\u003c\/li\u003e\n\u003cli\u003eTurning non-financial performance into financial value\u003c\/li\u003e\n\u003cli\u003eQuantifying the impact of ESG performance on the corporate bottom line\u003c\/li\u003e\n\u003cli\u003eMonetizing the benefits delivered outside the company\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 6: Monetizing the Value of Sustainability (cont.)\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cstrong\u003eSmall group working session:\u003c\/strong\u003e work on a case\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e[tab_D\u003cspan data-mce-fragment=\"1\" mce-data-marked=\"1\"\u003eay 4\u003c\/span\u003e]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 7: Investing Strategies\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eReflections on the overnight exercises\u003c\/li\u003e\n\u003cli\u003eESG issue and shareholder engagement\u003c\/li\u003e\n\u003cli\u003eNew financing mechanisms for scaling up investment in sustainability\u003c\/li\u003e\n\u003cli\u003eImpact investing and Impact Measurement\u003c\/li\u003e\n\u003cli\u003eOther techniques for ESG integration\u003c\/li\u003e\n\u003cli\u003eGlobal considerations\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 8: Hands-on Investment Strategy Development\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eBuild a portfolio objective and related fund materials\u003c\/li\u003e\n\u003cli\u003eTeams will produce a one-page sheet including a paragraph objective and target financial metrics of a single sustainable or impact investment fund that you intend to launch\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eSmall group working sessions\u003c\/strong\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e[tab_Day 5]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Hands-on Project: Build Your Own Investment Strategy\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eBuilding on the one-page fund sheet designed in the previous session, participants practice creating and deploying a specific investment process, resulting in a starting portfolio of companies or investments\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 am - 12:30 pm ET: Project Presentations \u0026amp; Wrap-Up\u003c\/h3\u003e","published_at":"2022-06-17T13:10:10-04:00","created_at":"2018-12-05T10:57:03-05:00","vendor":"NYU Stern Executive Education","type":"Short Courses","tags":["filter_dates_tbd","filter_Format_Live Online","filter_Length_5 days","filter_Topic_Finance \u0026 Risk Management","filter_Topic_Global Economy \u0026 Society","filter_Topic_Strategy \u0026 Innovation","instructor_cary-krosinsky","instructor_chisara-ehiemere","related_bundle-achieving-your-leadership-vision","related_bundle-mastering-corporate-finance","related_corporate-sustainability-pivoting-towards-an-esg-mindset"],"price":468000,"price_min":468000,"price_max":468000,"available":false,"price_varies":false,"compare_at_price":null,"compare_at_price_min":0,"compare_at_price_max":0,"compare_at_price_varies":false,"variants":[{"id":39735213719741,"title":"Dates Not Available","option1":"Dates Not Available","option2":null,"option3":null,"sku":"SF_20221114","requires_shipping":false,"taxable":false,"featured_image":null,"available":false,"name":"Sustainable Finance, Investing and ESG - Dates Not Available","public_title":"Dates Not Available","options":["Dates Not Available"],"price":468000,"weight":0,"compare_at_price":null,"inventory_quantity":-22,"inventory_management":"shopify","inventory_policy":"deny","barcode":"Dates Not Available","requires_selling_plan":false,"selling_plan_allocations":[]}],"images":["\/\/cdn.shopify.com\/s\/files\/1\/1525\/4852\/products\/SFliveonline.png?v=1591217967"],"featured_image":"\/\/cdn.shopify.com\/s\/files\/1\/1525\/4852\/products\/SFliveonline.png?v=1591217967","options":["Dates"],"media":[{"alt":null,"id":9433129255070,"position":1,"preview_image":{"aspect_ratio":1.0,"height":1667,"width":1667,"src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1525\/4852\/products\/SFliveonline.png?v=1591217967"},"aspect_ratio":1.0,"height":1667,"media_type":"image","src":"https:\/\/cdn.shopify.com\/s\/files\/1\/1525\/4852\/products\/SFliveonline.png?v=1591217967","width":1667}],"requires_selling_plan":false,"selling_plan_groups":[],"content":"\u003cdiv style=\"border: 1px solid #01808c; padding: 10px; text-align: center; background: rgba(1, 130, 142, 0.1);\"\u003e\n\u003cspan\u003ePLEASE NOTE: This program is currently being offered as a \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003e\u003cstrong\u003elive online\u003c\/strong\u003e\u003c\/a\u003e\u003cspan\u003e course. See agenda below for schedule.\u003c\/span\u003e\n\u003c\/div\u003e\n\u003cp\u003eSustainable investing is a topic of increasing interest to the financial community.  With global environmental and social challenges increasing, and with meaningful millennial participation in markets anticipated, trillions of dollars are beginning to shift. The battle for future market share may well be won by those who respond best to this new investment paradigm. Sustainable Finance and ESG Investing provides participants with the experience, tools and community of practice they will need to become an important part of this global paradigm.\u003cbr\u003e\u003c\/p\u003e\n\u003cp\u003eThrough a combination of lecture, discussion and group exercises, participants will learn about financially material Environmental Social Governance (ESG) indicators and data providers, and learn how to translate corporate performance on sustainability into financial performance. They will also review best practices in ESG and impact investing, and develop their own sustainable investment strategies. Executives will leave this course with concrete ideas about how to incorporate sustainable investment practices within their organizations.\u003cbr\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003cbr\u003e\n\u003cdiv class=\"product-tabs-header\"\u003e\n\u003cdiv data-tab=\"product-tab-description\" class=\"product-tabs-header-item active\"\u003eCertificates and Credits\u003c\/div\u003e\n\u003c\/div\u003e\n\u003cp\u003eUpon completion of this course, participants will receive a Certificate of Achievement.\u003cbr\u003e \u003c\/p\u003e\n\u003cdiv\u003e\u003ca class=\"button large\" title=\"Download Brochure: Sustainable Finance and ESG Investing\" href=\"\/pages\/brochure-download-sustainable-finance-and-esg-investing\" target=\"_blank\"\u003eDownload Brochure\u003c\/a\u003e\u003c\/div\u003e\n\u003cp\u003e**Agenda**\u003c\/p\u003e\n\u003cp\u003e[tab_Day 1]\u003c\/p\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for \u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e instruction.\u003c\/i\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 1: Key Trends in Sustainable Business and Relevance for Finance\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eWhat is ‘sustainable business’\u003c\/li\u003e\n\u003cli\u003eKey economic, environmental, social and governance issues\u003c\/li\u003e\n\u003cli\u003eSustainable business: profitability and social impact performance\u003c\/li\u003e\n\u003cli\u003eThe sustainable consumer and consumer demand for sustainability\u003c\/li\u003e\n\u003cli\u003eCurrent trends for embedding sustainability in corporate strategy\u003c\/li\u003e\n\u003cli\u003eImpact of COVID-19 coronavirus\u003c\/li\u003e\n\u003cli\u003e\n\u003cstrong\u003eKick off with small group discussion:\u003c\/strong\u003e Reflections on the readings\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 2: Case Studies - Companies Setting the Standard\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eThe specific case studies used in this session will be tailored to the audience, but could include:\u003c\/li\u003e\n\u003cul\u003e\n\u003cli\u003eNike: Sustainability and Innovation through Flyknit Technology\u003c\/li\u003e\n\u003cli\u003eNespresso: Supply Chain and Stakeholder Engagement Case Study\u003c\/li\u003e\n\u003cli\u003eAvery Dennison: Innovative Marketing of Sustainability Attracts More Loyal Customers\u003c\/li\u003e\n\u003cli\u003eCitigroup, Inc.: Innovation in Energy Efficiency Financing\u003c\/li\u003e\n\u003cli\u003eDomtar: Embedding Operational Efficiency\u003c\/li\u003e\n\u003cli\u003eKKR: Sustainability as a Performance Enhancer\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cli\u003e\n\u003cstrong\u003eSmall group working session:\u003c\/strong\u003e What are the commonalities across these corporate approaches to sustainability? As an investor, what should we be looking for?\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e[tab_\u003cspan data-mce-fragment=\"1\"\u003eDay 2\u003c\/span\u003e]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 3: Emerging Strategies and Trends in Sustainable Finance\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eThe current state of sustainable investing, multiple emerging strategies\u003c\/li\u003e\n\u003cli\u003eThe evidence on delivering alpha from sustainability\u003c\/li\u003e\n\u003cli\u003eKey challenges ahead for sustainable investing\u003c\/li\u003e\n\u003cli\u003eImpact of COVID-19 coronavirus\u003c\/li\u003e\n\u003cli\u003ePathways to overcome barriers\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eSmall group discussion\u003c\/strong\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 4: Measuring Environmental, Social and Governance (ESG) Performance\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eMateriality and frameworks, strengths and weaknesses (including SASB, GRI, TCFD)\u003c\/li\u003e\n\u003cli\u003eSpecific investor case studies\u003c\/li\u003e\n\u003cli\u003eCompare and contrast (including overnight exercise)\u003c\/li\u003e\n\u003cli\u003eOpportunities and challenges for delivering impact by addressing the Sustainable Development Goals (SDGs)\u003c\/li\u003e\n\u003cli\u003eSpecific strategies and the roles of asset owners and fund managers\u003c\/li\u003e\n\u003cli\u003e\n\u003cstrong\u003eSmall group working session:\u003c\/strong\u003e work on a case to identify key ESG issues (including separate fund manager and asset owner discussions)\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e[tab_D\u003cspan data-mce-fragment=\"1\"\u003eay 3\u003c\/span\u003e]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 5: Monetizing the Value of Sustainability\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eNew measures for quantifying operational ESG performance\u003c\/li\u003e\n\u003cli\u003eTurning non-financial performance into financial value\u003c\/li\u003e\n\u003cli\u003eQuantifying the impact of ESG performance on the corporate bottom line\u003c\/li\u003e\n\u003cli\u003eMonetizing the benefits delivered outside the company\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 6: Monetizing the Value of Sustainability (cont.)\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cstrong\u003eSmall group working session:\u003c\/strong\u003e work on a case\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003e[tab_D\u003cspan data-mce-fragment=\"1\" mce-data-marked=\"1\"\u003eay 4\u003c\/span\u003e]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Session 7: Investing Strategies\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eReflections on the overnight exercises\u003c\/li\u003e\n\u003cli\u003eESG issue and shareholder engagement\u003c\/li\u003e\n\u003cli\u003eNew financing mechanisms for scaling up investment in sustainability\u003c\/li\u003e\n\u003cli\u003eImpact investing and Impact Measurement\u003c\/li\u003e\n\u003cli\u003eOther techniques for ESG integration\u003c\/li\u003e\n\u003cli\u003eGlobal considerations\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 - 12:30 pm ET: Session 8: Hands-on Investment Strategy Development\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eBuild a portfolio objective and related fund materials\u003c\/li\u003e\n\u003cli\u003eTeams will produce a one-page sheet including a paragraph objective and target financial metrics of a single sustainable or impact investment fund that you intend to launch\u003c\/li\u003e\n\u003cli\u003e\u003cstrong\u003eSmall group working sessions\u003c\/strong\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e[tab_Day 5]\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003cp\u003e\u003ci\u003ePlease note: this agenda has been modified for\u003cspan\u003e \u003c\/span\u003e\u003ca href=\"https:\/\/execed.stern.nyu.edu\/blogs\/news\/live-online-courses\" target=\"_blank\"\u003elive online\u003c\/a\u003e\u003cspan\u003e \u003c\/span\u003einstruction.\u003c\/i\u003e\u003cbr\u003e\u003c\/p\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003ch3\u003e9:00 - 10:30 am ET: Hands-on Project: Build Your Own Investment Strategy\u003c\/h3\u003e\n\u003cul\u003e\n\u003cli\u003eBuilding on the one-page fund sheet designed in the previous session, participants practice creating and deploying a specific investment process, resulting in a starting portfolio of companies or investments\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cmeta charset=\"utf-8\"\u003e\n\u003ch3\u003e10:30 - 11:00 am ET: Break\u003c\/h3\u003e\n\u003ch3\u003e11:00 am - 12:30 pm ET: Project Presentations \u0026amp; Wrap-Up\u003c\/h3\u003e"};
+</script>
+
+
+
+
+  <div class="module-wrapper style-light border" id="takeaways">
+    <div class="module product-focus-wrapper ">
+
+      
+        <div class="module-header">
+          <h2 class="module-title product-focus-title"><span id="dem"></span>Program Takeaways</h2>
+       
+          <p class="module-subtitle">During this course, participants will:</p>
+        
+        </div>
+      
+
+      <div class="module-body clearfix">
+        
+
+        <div class="product-focus-list-container no-image">
+          <ul class="product-focus-list clearfix">
+            
+              
+
+              <!-- // #1 // -->
+            
+              
+                
+                <li class="product-focus-list-item">
+                  <i class="fa ion-checkmark" aria-hidden="true"></i>
+                  <h3 class="module-title product-focus-list-item-title">Leadership Skills</h3>
+                  <div class="module-content product-focus-list-item-text rte">Develop the skills required to invest in businesses in a rapidly evolving environmental, social and political ecosystem. Those skills include system and design thinking,  developing and executing ESG investment strategies, and managing radical transparency.</div>
+            	</li>
+              
+              
+            
+              <!-- // #2 // -->
+            
+              
+            	
+                <li class="product-focus-list-item">
+                  <i class="fa ion-checkmark" aria-hidden="true"></i>
+                  <h3 class="module-title product-focus-list-item-title">Stakeholder Engagement</h3>
+                  <div class="module-content product-focus-list-item-text rte">Broaden executive perspectives beyond Milton Friedman’s view that companies exist solely to deliver profits to shareholders to consider other stakeholders in the company (i.e., customers, employees, suppliers, etc.) and how they can be recruited as partners to help your organization succeed</div>
+            	</li>
+              
+            
+            
+              <!-- // #3 // -->
+            
+              
+            	
+                <li class="product-focus-list-item">
+                  <i class="fa ion-checkmark" aria-hidden="true"></i>
+                  <h3 class="module-title product-focus-list-item-title">Innovation & Efficiencies</h3>
+                  <div class="module-content product-focus-list-item-text rte">Develop the skills to identify and accelerate innovation in the organization by embedding the evaluation of sustainability impacts and outcomes in your products, services, and processes.</div>
+            	</li>
+              
+            
+            
+              <!-- // #4 // -->
+            
+              
+            
+            
+              <!-- // #5 // -->
+            
+              
+            
+            
+              <!-- // #6 // -->
+            
+              
+            
+            
+              <!-- // #7 // -->
+            
+              
+            
+            
+              <!-- // #8 // -->
+            
+              
+              
+              
+                <style>
+                  .product-focus-list-container.no-image .product-focus-list .product-focus-list-item { 
+                    width: 33.33%;
+                    padding: 30px 40px;
+                  }
+                  @media screen and (max-width: 767px) {
+                    .product-focus-list-container.no-image .product-focus-list .product-focus-list-item { 
+                      width: 100%;
+                    }
+                  }
+            	</style>
+              
+            
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="module-wrapper style-white border">
+    <div class="module product-focus-wrapper ">
+
+      
+        <div class="module-header">
+          <h2 class="module-title product-focus-title">Who Should Attend</h2>
+        
+          <p class="module-subtitle">Although there are no formal education or background requirements, this course is designed for executives who meet the criteria below. While we strongly encourage global participation, please note that all courses are taught in English. Proficiency in written and spoken English is required.</p>
+        
+        </div>
+      
+
+      <div class="module-body clearfix">
+        <div class=" product-demographics no-image">
+          <ul class="product-focus-list clearfix">
+            
+              
+
+              <!-- // #1 // -->
+            
+              
+                
+                <li class="product-focus-list-item">
+                  
+                    <i class="fa ion-calendar" aria-hidden="true"></i>
+                  
+                  <h3 class="module-title product-focus-list-item-title">Years of Experience</h3>
+                  <div class="module-content product-focus-list-item-text rte">Designed for professionals with 5+ years of work experience</div>
+            	</li>
+              
+              
+            
+              <!-- // #2 // -->
+            
+              
+            	
+                <li class="product-focus-list-item">
+                  
+                    <i class="fa ion-briefcase" aria-hidden="true"></i>
+                  
+                  <h3 class="module-title product-focus-list-item-title">Job Functions</h3>
+                  <div class="module-content product-focus-list-item-text rte">Ideal for executives in significant leadership roles who are interested in learning more about sustainable finance</div>
+            	</li>
+              
+            
+            
+              <!-- // #3 // -->
+            
+              
+            	
+                <li class="product-focus-list-item">
+                  
+                    <i class="fa ion-android-checkbox-outline" aria-hidden="true"></i>
+                  
+                  <h3 class="module-title product-focus-list-item-title">Prerequisites</h3>
+                  <div class="module-content product-focus-list-item-text rte">There are no formal prerequisites for this course. The course is Intended for individuals with limited exposure to sustainable investing, though students with a background in finance will benefit most from the course.</div>
+            	</li>
+              
+            
+            
+              <!-- // #4 // -->
+            
+              
+            
+            
+              <!-- // #5 // -->
+            
+              
+            
+            
+              <!-- // #6 // -->
+            
+              
+            
+            
+              <!-- // #7 // -->
+            
+              
+            
+            
+              <!-- // #8 // -->
+            
+              
+              
+              
+                <style>
+                  .product-demographics.no-image .product-focus-list .product-focus-list-item { 
+                    width: 33.33%;
+                    padding: 30px 40px;
+                  }
+                  @media screen and (max-width: 767px) {
+                    .product-demographics.no-image .product-focus-list .product-focus-list-item { 
+                      width: 100%;
+                    }
+                  }
+            	</style>
+              
+            
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+<div class="module-wrapper style-light border" id="agenda">
+  <div class="module product-specification">
+    
+      <div class="module-header product-specification-header">
+        
+          <h2 class="module-title product-specification-titles">Agenda</h2>
+        
+        
+          <p class="module-subtitle">The following agenda is a sample and subject to change.</p>
+        
+      </div>
+    
+            
+  
+  
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    <!--Horizontal Tab-->
+    <div id="horizontalTab">
+        <ul>
+          
+            
+            
+              
+            
+              
+                <li>
+                  <a href="#tab-2">
+                    <i class="fa fa-" aria-hidden="true"></i> Day 1
+                  </a>
+          		</li>
+                
+              
+            
+              
+                <li>
+                  <a href="#tab-3">
+                    <i class="fa fa-" aria-hidden="true"></i> Day 2
+                  </a>
+          		</li>
+                
+              
+            
+              
+                <li>
+                  <a href="#tab-4">
+                    <i class="fa fa-" aria-hidden="true"></i> Day 3
+                  </a>
+          		</li>
+                
+              
+            
+              
+                <li>
+                  <a href="#tab-5">
+                    <i class="fa fa-" aria-hidden="true"></i> Day 4
+                  </a>
+          		</li>
+                
+              
+            
+              
+                <li>
+                  <a href="#tab-6">
+                    <i class="fa fa-" aria-hidden="true"></i> Day 5
+                  </a>
+          		</li>
+                
+              
+            
+          
+        </ul>
+      
+        
+        
+          
+        
+          
+            <div id="tab-2">
+			  </p>
+<p><i>Please note: this agenda has been modified for <a href="https://execed.stern.nyu.edu/blogs/news/live-online-courses" target="_blank">live online</a> instruction.</i></p>
+<h3>9:00 - 10:30 am ET: Session 1: Key Trends in Sustainable Business and Relevance for Finance</h3>
+<ul>
+<li>What is ‘sustainable business’</li>
+<li>Key economic, environmental, social and governance issues</li>
+<li>Sustainable business: profitability and social impact performance</li>
+<li>The sustainable consumer and consumer demand for sustainability</li>
+<li>Current trends for embedding sustainability in corporate strategy</li>
+<li>Impact of COVID-19 coronavirus</li>
+<li>
+<strong>Kick off with small group discussion:</strong> Reflections on the readings</li>
+</ul>
+<h3>10:30 - 11:00 am ET: Break</h3>
+<h3>11:00 - 12:30 pm ET: Session 2: Case Studies - Companies Setting the Standard</h3>
+<ul>
+<li>The specific case studies used in this session will be tailored to the audience, but could include:</li>
+<ul>
+<li>Nike: Sustainability and Innovation through Flyknit Technology</li>
+<li>Nespresso: Supply Chain and Stakeholder Engagement Case Study</li>
+<li>Avery Dennison: Innovative Marketing of Sustainability Attracts More Loyal Customers</li>
+<li>Citigroup, Inc.: Innovation in Energy Efficiency Financing</li>
+<li>Domtar: Embedding Operational Efficiency</li>
+<li>KKR: Sustainability as a Performance Enhancer</li>
+</ul>
+<li>
+<strong>Small group working session:</strong> What are the commonalities across these corporate approaches to sustainability? As an investor, what should we be looking for?</li>
+</ul>
+<p>
+      		</div>
+            
+          
+        
+          
+            <div id="tab-3">
+			  </p>
+<meta charset="utf-8">
+<p><i>Please note: this agenda has been modified for<span> </span><a href="https://execed.stern.nyu.edu/blogs/news/live-online-courses" target="_blank">live online</a><span> </span>instruction.</i><br></p>
+<h3>9:00 - 10:30 am ET: Session 3: Emerging Strategies and Trends in Sustainable Finance</h3>
+<ul>
+<li>The current state of sustainable investing, multiple emerging strategies</li>
+<li>The evidence on delivering alpha from sustainability</li>
+<li>Key challenges ahead for sustainable investing</li>
+<li>Impact of COVID-19 coronavirus</li>
+<li>Pathways to overcome barriers</li>
+<li><strong>Small group discussion</strong></li>
+</ul>
+<h3>10:30 - 11:00 am ET: Break</h3>
+<h3>11:00 - 12:30 pm ET: Session 4: Measuring Environmental, Social and Governance (ESG) Performance</h3>
+<ul>
+<li>Materiality and frameworks, strengths and weaknesses (including SASB, GRI, TCFD)</li>
+<li>Specific investor case studies</li>
+<li>Compare and contrast (including overnight exercise)</li>
+<li>Opportunities and challenges for delivering impact by addressing the Sustainable Development Goals (SDGs)</li>
+<li>Specific strategies and the roles of asset owners and fund managers</li>
+<li>
+<strong>Small group working session:</strong> work on a case to identify key ESG issues (including separate fund manager and asset owner discussions)</li>
+</ul>
+<p>
+      		</div>
+            
+          
+        
+          
+            <div id="tab-4">
+			  </p>
+<meta charset="utf-8">
+<p><i>Please note: this agenda has been modified for<span> </span><a href="https://execed.stern.nyu.edu/blogs/news/live-online-courses" target="_blank">live online</a><span> </span>instruction.</i><br></p>
+<h3>9:00 - 10:30 am ET: Session 5: Monetizing the Value of Sustainability</h3>
+<ul>
+<li>New measures for quantifying operational ESG performance</li>
+<li>Turning non-financial performance into financial value</li>
+<li>Quantifying the impact of ESG performance on the corporate bottom line</li>
+<li>Monetizing the benefits delivered outside the company</li>
+</ul>
+<h3>10:30 - 11:00 am ET: Break</h3>
+<h3>11:00 - 12:30 pm ET: Session 6: Monetizing the Value of Sustainability (cont.)</h3>
+<ul>
+<li>
+<strong>Small group working session:</strong> work on a case</li>
+</ul>
+<p>
+      		</div>
+            
+          
+        
+          
+            <div id="tab-5">
+			  </p>
+<meta charset="utf-8">
+<p><i>Please note: this agenda has been modified for<span> </span><a href="https://execed.stern.nyu.edu/blogs/news/live-online-courses" target="_blank">live online</a><span> </span>instruction.</i><br></p>
+<h3>9:00 - 10:30 am ET: Session 7: Investing Strategies</h3>
+<ul>
+<li>Reflections on the overnight exercises</li>
+<li>ESG issue and shareholder engagement</li>
+<li>New financing mechanisms for scaling up investment in sustainability</li>
+<li>Impact investing and Impact Measurement</li>
+<li>Other techniques for ESG integration</li>
+<li>Global considerations</li>
+</ul>
+<h3>10:30 - 11:00 am ET: Break</h3>
+<h3>11:00 - 12:30 pm ET: Session 8: Hands-on Investment Strategy Development</h3>
+<ul>
+<li>Build a portfolio objective and related fund materials</li>
+<li>Teams will produce a one-page sheet including a paragraph objective and target financial metrics of a single sustainable or impact investment fund that you intend to launch</li>
+<li><strong>Small group working sessions</strong></li>
+</ul>
+<meta charset="utf-8">
+<p>
+      		</div>
+            
+          
+        
+          
+            <div id="tab-6">
+			  </p>
+<meta charset="utf-8">
+<p><i>Please note: this agenda has been modified for<span> </span><a href="https://execed.stern.nyu.edu/blogs/news/live-online-courses" target="_blank">live online</a><span> </span>instruction.</i><br></p>
+<meta charset="utf-8">
+<h3>9:00 - 10:30 am ET: Hands-on Project: Build Your Own Investment Strategy</h3>
+<ul>
+<li>Building on the one-page fund sheet designed in the previous session, participants practice creating and deploying a specific investment process, resulting in a starting portfolio of companies or investments</li>
+</ul>
+<meta charset="utf-8">
+<h3>10:30 - 11:00 am ET: Break</h3>
+<h3>11:00 am - 12:30 pm ET: Project Presentations &amp; Wrap-Up</h3>
+      		</div>
+            
+          
+        
+      
+      
+
+    </div>
+      
+  </div>
+</div>
+
+
+
+
+
+
+<div id="faculty" class="module-wrapper style-white faculty-instructors border">
+  <div class="module related-products">
+    <div class="module-header related-products-header">
+      <h2 class="module-title related-products-title">
+        Program Faculty
+      </h2>
+      <p class="module-subtitle">Our courses are taught by seasoned NYU Stern faculty and renowned subject matter experts. Please note that course faculty are subject to change depending upon availability.</p>
+    </div>
+    <div class="module-body related-products-body">
+
+      
+      <div class="list column-3 clearfix">
+      
+        
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+            
+                
+            <div class="list-item">
+              <div class="list-image-wrapper">
+                <a href="../pages/cary-krosinsky" target="_blank">
+                  
+                    
+                    <img class="list-image" src="//cdn.shopify.com/s/files/1/1525/4852/files/ckrosinsky.jpg" alt="Cary Krosinsky"/>
+                  
+                </a>
+              </div>
+
+              <div class="list-text-wrapper text-center">
+                <div class="list-text">
+                  <div class="product-focus-list-item-title">Cary Krosinsky</div>
+                  <div class="product-focus-list-item-text">Leading Teacher, Author and Advisor on Sustainable Finance<br/><br/>
+                    <a href="/pages/cary-krosinsky" target="_blank">> View full profile</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          
+        
+  		  
+  		  
+        
+            
+                
+            <div class="list-item">
+              <div class="list-image-wrapper">
+                <a href="../pages/chisara-ehiemere" target="_blank">
+                  
+                    
+                    <img class="list-image" src="https://cdn.shopify.com/s/files/1/1525/4852/files/CEhiemere.png?v=1645047847" alt="Chisara Ehiemere"/>
+                  
+                </a>
+              </div>
+
+              <div class="list-text-wrapper text-center">
+                <div class="list-text">
+                  <div class="product-focus-list-item-title">Chisara Ehiemere</div>
+                  <div class="product-focus-list-item-text">Senior Research Lead of Return on Sustainability Investment (ROSI), NYU Stern Center for Sustainable Business<br/><br/>
+                    <a href="/pages/chisara-ehiemere" target="_blank">> View full profile</a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+  		  
+  		  
+        
+        
+        <div class="list-clearfix clearfix"></div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<div class="module-wrapper style-light border" id="reviews">
+  <div class="module">
+    <div id="shopify-product-reviews" data-id="1510723321900"><style scoped>.spr-icon {
+      color: #ffcb0a;
+    }
+    a.spr-icon:hover {
+      color: #665104;
+    }.spr-container {
+    padding: 24px;
+    border-color: #ECECEC;}
+  .spr-review, .spr-form {
+    border-color: #ECECEC;
+  }
+</style>
+
+<div class="spr-container">
+  <div class="spr-header">
+    <h2 class="spr-header-title">Participant Reviews</h2><div class="spr-summary">
+
+        <span class="spr-starrating spr-summary-starrating">
+          <i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i><i class="spr-icon spr-icon-star"></i>
+        </span>
+        <span class="spr-summary-caption"><span class='spr-summary-actions-togglereviews'>Based on 4 reviews</span>
+        </span><span class="spr-summary-actions">
+        <a href='#' class='spr-summary-actions-newreview' onclick='SPR.toggleForm(1510723321900);return false'>Write a review</a>
+      </span>
+    </div>
+  </div>
+
+  <div class="spr-content">
+    <div class='spr-form' id='form_1510723321900' style='display: none'></div>
+    <div class='spr-reviews' id='reviews_1510723321900' ></div>
+  </div>
+
+</div>
+<script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "AggregateRating",
+        "reviewCount": "4",
+        "ratingValue": "5.0",
+        "itemReviewed": {
+          "@type" : "Product",
+          "name" : "Sustainable Finance and ESG Investing",
+          "offers": {
+            "@type": "AggregateOffer",
+            "lowPrice": "4680.0",
+            "highPrice": "4680.0",
+            "priceCurrency": "USD"
+          }
+        }
+      }
+</script></div>
+  </div>
+</div>
+
+
+
+
+
+    
+
+
+
+  <div class="module-wrapper style-light">
+    <div class="module related-products">
+      <div class="module-header related-products-header">
+        <h2 class="module-title related-products-title">
+          Related Programs
+        </h2>
+      </div>
+      <div class="module-body related-products-body">
+        <div class="list compact crop image-contain column-3">
+          
+          
+          
+          
+
+            
+
+
+
+
+
+
+
+<div class="list-item" id="product-list-item-10507733640">
+  <!-- <a class="list-container" href="/collections/take-a-course/products/bundle-achieving-your-leadership-vision"> -->
+  <a class="list-container" href="../products/bundle-achieving-your-leadership-vision">
+    <div class="list-image-wrapper">
+      <img class="list-image" src="//cdn.shopify.com/s/files/1/1525/4852/products/ALVIPicon_grey_grande.png?v=1665417765" alt="BUNDLE: Achieving Your Leadership Vision" />
+      
+      <div class="list-overlay"></div>
+      <div class="list-icon icon icon-cart"></div>
+      
+      <!-- 
+        <div class="sale-badge">
+          Bundle
+        </div>
+       -->
+    </div>
+    
+      <div class="list-title">
+        BUNDLE: Achieving Your Leadership Vision
+      </div>
+      <div class="list-meta">
+          
+            <span class="price">
+              <span class="money">$7,463.00</span>
+              
+                <span class="original money">
+                  
+                    $8,780.00
+                  
+                </span>
+                <span class="saving">
+                  
+                </span>
+              
+            </span>
+
+          
+       
+		  <a href="/products/bundle-achieving-your-leadership-vision#reviews"><span class="shopify-product-reviews-badge" data-id="10507733640"></span></a>
+        
+       
+        
+          <script>
+            var eventArray = [];
+          </script>
+       
+
+          <div class="course-dates-1 course-date-wrap">
+            
+           
+                
+                 <!-- orig. Array[1] -->
+                
+            
+                <p id="ALV_ALV_20230620" class="date" style="display: none;"><strong>Next Dates:</strong> June 20 - 23, 2023, 9:00am - 4:30pm ET</p>
+           
+                <script>
+                  var today = '20230117'; // Current Date
+                  var event = 'ALV'; // Event Date
+                  
+                  // Hides any dates that are in the past
+                  if(event >= today) {
+                    eventArray.push('ALV_ALV_20230620');
+                  } else {
+                    $('#ALV_20230620').remove();
+                  }
+                </script>
+            
+            
+          </div>
+        
+        <script>
+          eventArray.sort();
+          var closestDate = eventArray[0];
+          $('.course-dates-1').find('#'+closestDate).css('display','block');
+                                            
+          var count = $('.course-dates-1').children('.date').length;
+          if(count > 1) {
+              $('.course-dates-1').append('<p class="more">More Dates Available</p>');
+          }                        
+        </script>
+        
+        
+        
+        
+
+        
+      </div>
+    
+  </a>
+</div>
+
+            
+            
+            
+
+          
+
+            
+
+
+
+
+
+
+
+<div class="list-item" id="product-list-item-8976466632">
+  <!-- <a class="list-container" href="/collections/take-a-course/products/bundle-mastering-corporate-finance"> -->
+  <a class="list-container" href="../products/bundle-mastering-corporate-finance">
+    <div class="list-image-wrapper">
+      <img class="list-image" src="//cdn.shopify.com/s/files/1/1525/4852/products/CFB_22277522-45cf-4ba7-8585-79e8b207c7f5_grande.png?v=1603930810" alt="BUNDLE: Mastering Corporate Finance" />
+      
+      <div class="list-overlay"></div>
+      <div class="list-icon icon icon-cart"></div>
+      
+      <!-- 
+        <div class="sale-badge">
+          Bundle
+        </div>
+       -->
+    </div>
+    
+      <div class="list-title">
+        BUNDLE: Mastering Corporate Finance
+      </div>
+      <div class="list-meta">
+          
+            <span class="price">
+              <span class="money">$6,290.00</span>
+              
+                <span class="original money">
+                  
+                    $7,400.00
+                  
+                </span>
+                <span class="saving">
+                  
+                </span>
+              
+            </span>
+
+          
+       
+		  <a href="/products/bundle-mastering-corporate-finance#reviews"><span class="shopify-product-reviews-badge" data-id="8976466632"></span></a>
+        
+       
+        
+          <script>
+            var eventArray = [];
+          </script>
+       
+
+          <div class="course-dates-2 course-date-wrap">
+            
+           
+                
+                 <!-- orig. Array[1] -->
+                
+            
+                <p id="CFB_CFB_20230503" class="date" style="display: none;"><strong>Next Dates:</strong> May 3 - 5 and May 8 - 10, 2023, 10:00 am - 2:30 pm ET</p>
+           
+                <script>
+                  var today = '20230117'; // Current Date
+                  var event = 'CFB'; // Event Date
+                  
+                  // Hides any dates that are in the past
+                  if(event >= today) {
+                    eventArray.push('CFB_CFB_20230503');
+                  } else {
+                    $('#CFB_20230503').remove();
+                  }
+                </script>
+            
+            
+          </div>
+        
+        <script>
+          eventArray.sort();
+          var closestDate = eventArray[0];
+          $('.course-dates-2').find('#'+closestDate).css('display','block');
+                                            
+          var count = $('.course-dates-2').children('.date').length;
+          if(count > 1) {
+              $('.course-dates-2').append('<p class="more">More Dates Available</p>');
+          }                        
+        </script>
+        
+        
+        
+        
+
+        
+      </div>
+    
+  </a>
+</div>
+
+            
+            
+            
+
+          
+
+            
+
+
+
+
+
+
+
+<div class="list-item" id="product-list-item-412371451942">
+  <!-- <a class="list-container" href="/collections/take-a-course/products/corporate-sustainability-pivoting-towards-an-esg-mindset"> -->
+  <a class="list-container" href="../products/corporate-sustainability-pivoting-towards-an-esg-mindset">
+    <div class="list-image-wrapper">
+      <img class="list-image" src="//cdn.shopify.com/s/files/1/1525/4852/products/STBLliveonline_grande.png?v=1593645896" alt="Corporate Sustainability: Pivoting Towards an ESG Mindset" />
+      
+      <div class="list-overlay"></div>
+      <div class="list-icon icon icon-cart"></div>
+      
+      <!--  -->
+    </div>
+    
+      <div class="list-title">
+        Corporate Sustainability: Pivoting Towards an ESG Mindset
+      </div>
+      <div class="list-meta">
+          
+            <span class="price">
+              <span class="money">$3,800.00</span>
+              
+            </span>
+
+          
+       
+		  <a href="/products/corporate-sustainability-pivoting-towards-an-esg-mindset#reviews"><span class="shopify-product-reviews-badge" data-id="412371451942"></span></a>
+        
+       
+        
+          <script>
+            var eventArray = [];
+          </script>
+       
+
+          <div class="course-dates-3 course-date-wrap">
+            
+           
+                
+                 <!-- orig. Array[1] -->
+                
+            
+                <p id="STBL_STBL_20230123" class="date" style="display: none;"><strong>Next Dates:</strong> January 23 - 26, 2023, 9:00 am - 12:30 pm ET</p>
+           
+                <script>
+                  var today = '20230117'; // Current Date
+                  var event = 'STBL'; // Event Date
+                  
+                  // Hides any dates that are in the past
+                  if(event >= today) {
+                    eventArray.push('STBL_STBL_20230123');
+                  } else {
+                    $('#STBL_20230123').remove();
+                  }
+                </script>
+            
+            
+          </div>
+        
+        <script>
+          eventArray.sort();
+          var closestDate = eventArray[0];
+          $('.course-dates-3').find('#'+closestDate).css('display','block');
+                                            
+          var count = $('.course-dates-3').children('.date').length;
+          if(count > 1) {
+              $('.course-dates-3').append('<p class="more">More Dates Available</p>');
+          }                        
+        </script>
+        
+        
+        
+        
+
+        
+      </div>
+    
+  </a>
+</div>
+
+            
+            
+            
+
+          
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<script data-locksmith>
+    var load = function () {
+
+
+            Locksmith.initializeSession({silent: false});
+
+
+      Locksmith.util.on('submit', 'locksmith-resource-form', function (event) {
+        event.preventDefault();
+        var data = Locksmith.util.serializeForm(event.target);
+        Locksmith.postResource(data, { spinner: false, container: 'locksmith-content' });
+      });
+
+      Locksmith.util.on('click', 'locksmith-manual-trigger', function (event) {
+        event.preventDefault();
+        Locksmith.postResource({}, { spinner: true, container: document });
+      });
+
+      Locksmith.submitPasscode = function (passcode) {
+        Locksmith.postResource(
+          { passcode: passcode },
+          { spinner: false, container: 'locksmith-content' }
+        );
+      };
+    };
+
+    if (typeof Locksmith !== 'undefined') {
+      load();
+    } else {
+      window.addEventListener('load', load);
+    }
+  </script>
+      
+      
+  
+    
+
+
+
+
+
+
+
+<div class="module-wrapper style-color ">
+  <div class="module mailing-list-signup">
+    <div class="mailing-list-signup-container">
+      <div class="module-header">
+        <h2 class="module-title">Join Our Mailing List</h2>
+          <p class="module-subtitle">
+            Stay up to date on new courses, special events, free content and more. Enter your email address below to subscribe.
+          </p>
+      </div>
+
+      <div class="module-body">
+        <div class="mailing-list-signup-form-container">
+          
+            <form class="mailing-list-signup-form" action="//nyu.us11.list-manage.com/subscribe/post?u=437be1694b2da3eb21bce67f1&amp;id=1ec60b348d" method="post" name="mc-embedded-subscribe-form" target="_blank">
+              <div class="mailing-list-signup-form-field">
+                <input
+                  class="mailing-list-signup-form-email"
+                  
+                    name="EMAIL"
+                  
+                  
+                  type="email"
+                  placeholder="your@email.com"
+                  value=""
+                  aria-label="your@email.com" />
+                <div class="mailing-list-signup-form-field-icon icon icon-mail"></div>
+              </div>
+              <div class="mailing-list-signup-form-cta">
+                <input
+                  class="mailing-list-signup-form-submit"
+                  name="subscribe"
+                  type="submit"
+                  value="Subscribe"
+                  aria-label="Subscribe" />
+                <div class="mailing-list-signup-form-submit-icon icon icon-arrow-right"></div>
+              </div>
+            </form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+    </main>
+
+    <!-- 
+  
+    
+
+
+
+
+
+
+
+<div class="module-wrapper style-color ">
+  <div class="module mailing-list-signup">
+    <div class="mailing-list-signup-container">
+      <div class="module-header">
+        <h2 class="module-title">Join Our Mailing List</h2>
+          <p class="module-subtitle">
+            Stay up to date on new courses, special events, free content and more. Enter your email address below to subscribe.
+          </p>
+      </div>
+
+      <div class="module-body">
+        <div class="mailing-list-signup-form-container">
+          
+            <form class="mailing-list-signup-form" action="//nyu.us11.list-manage.com/subscribe/post?u=437be1694b2da3eb21bce67f1&amp;id=1ec60b348d" method="post" name="mc-embedded-subscribe-form" target="_blank">
+              <div class="mailing-list-signup-form-field">
+                <input
+                  class="mailing-list-signup-form-email"
+                  
+                    name="EMAIL"
+                  
+                  
+                  type="email"
+                  placeholder="your@email.com"
+                  value=""
+                  aria-label="your@email.com" />
+                <div class="mailing-list-signup-form-field-icon icon icon-mail"></div>
+              </div>
+              <div class="mailing-list-signup-form-cta">
+                <input
+                  class="mailing-list-signup-form-submit"
+                  name="subscribe"
+                  type="submit"
+                  value="Subscribe"
+                  aria-label="Subscribe" />
+                <div class="mailing-list-signup-form-submit-icon icon icon-arrow-right"></div>
+              </div>
+            </form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-wrapper style-dark ">
+  <footer class="main-footer">
+    <h2 class="screen-reader-text">Website Index Navigation</h2>
+
+    
+      <div class="footer-row clearfix">
+
+        
+
+        
+          <div class="footer-link-list-container container-of-2 main-footer-module ">
+            
+              
+              
+              
+                <div class="footer-link-list">
+                  <h3 class="footer-title footer-link-list-title">Take a Course</h3>
+                  <ul class="footer-link-list-links">
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/collections/take-a-course">Course Catalog</a>
+                      </li>
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/pages/short-courses">Executive Certificate Programs</a>
+                      </li>
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/pages/online-courses">Online Executive Certificate Programs</a>
+                      </li>
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/pages/topics">Areas of Expertise</a>
+                      </li>
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/pages/what-to-expect">What to Expect</a>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+            
+              
+              
+              
+                <div class="footer-link-list">
+                  <h3 class="footer-title footer-link-list-title">Programs for Organizations</h3>
+                  <ul class="footer-link-list-links">
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/pages/enterprise-learning">Enterprise Learning Solutions</a>
+                      </li>
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/pages/client-success-stories">Client Success Stories</a>
+                      </li>
+                    
+<li class="footer-link-list-links-item">
+                        <a class="footer-link-list-links-item-anchor" href="/pages/enterprise-learning-inquiry">Enterprise Inquiry Form</a>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+            
+
+            
+          </div>
+        
+
+        
+          <div class="footer-quote-container main-footer-module">
+            <div class="footer-quote">
+              
+                <h3 class="footer-title footer-quote-title">About Executive Education</h3>
+              
+              
+                <p class="footer-quote-content"><ul class="footer-link-list-links" style="margin-top: -30px;">
+
+<li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="/pages/about">About Us</a></li>
+
+<li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="/pages/faculty">Our Faculty</a></li>
+
+<li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="/pages/logistics-and-directions">Logistics & Directions</a></li>
+
+<li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="/pages/faq">Frequently Asked Questions</a></li>
+
+<li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="/pages/contact">Contact Us</a></li>
+
+<li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="/sitemap.xml" target="_blank">Sitemap</a></li>
+</ul></p>
+              
+            </div>
+          </div>
+        
+
+         <div class="footer-quote-container main-footer-module">
+            <div class="footer-quote">
+              <h3 class="footer-title footer-quote-title">About NYU</h3>
+              <ul class="footer-link-list-links">
+                <li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="http://www.nyu.edu/footer/copyright-and-fair-use/digital-privacy-statement.html" target="_blank">Privacy Policy</a></li>
+                <li class="footer-link-list-links-item"><a class="footer-link-list-links-item-anchor" href="http://www.nyu.edu/accessibility" target="_blank">Accessibility</a></li>
+              </ul>
+              <br>
+              <a href="http://www.nyu.edu" target="_blank"><img src="https://cdn.shopify.com/s/files/1/1525/4852/files/nyu_short_white.png?13075275926335275949" alt="NYU Logo" title="NYU website" style="max-width:100px;"></a>
+              <br><br>
+              <a href="http://www.stern.nyu.edu" target="_blank"><img src="https://cdn.shopify.com/s/files/1/1525/4852/files/logo.nyu-stern.450.png?994002541041370433" alt="NYU Stern logo" title="NYU Stern website" style="max-width:200px;"></a>
+            </div>
+          </div>
+        
+        
+      </div>
+    
+
+    <div class="footer-row clearfix">
+      <div class="footer-information">
+        <p class="footer-copyright">
+          
+          &copy; 2023. All rights reserved.  <a target="_blank" rel="nofollow" href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"> </a>.
+        </p>
+
+        
+          <ul class="payment-icons">
+            
+            
+              <li class="payment-icon-american-express"></li>
+            
+              <li class="payment-icon-apple-pay"></li>
+            
+              <li class="payment-icon-diners-club"></li>
+            
+              <li class="payment-icon-discover"></li>
+            
+              <li class="payment-icon-facebook-pay"></li>
+            
+              <li class="payment-icon-master"></li>
+            
+              <li class="payment-icon-visa"></li>
+            
+          </ul>
+        
+      </div>
+    </div>
+  </footer>
+</div>
+
+    <!-- Scripts -->
+<script src="//cdn.shopify.com/shopifycloud/shopify/assets/themes_support/api.jquery-e94e010e92e659b566dbc436fdfe5242764380e00398907a14955ba301a4749f.js" type="text/javascript"></script>
+
+<script src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/responsiveTabs.js?v=180870986937898876321496082172" type="text/javascript"></script>
+
+<script>
+  
+    $('#horizontalTab').responsiveTabs({
+      startCollapsed: 'accordion'
+    });
+  
+</script>
+
+
+
+
+
+
+
+
+
+<script src="//cdn.shopify.com/shopifycloud/shopify/assets/themes_support/option_selection-9f517843f664ad329c689020fb1e45d03cac979f64b9eb1651ea32858b0ff452.js" type="text/javascript"></script>
+
+<script src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/modernizr-2.7.1.min.js?v=97979361732255975071496082171" type="text/javascript"></script>
+<script src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/plugins.js?v=106824541143988013011496082171" type="text/javascript"></script>
+<script src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/site.js?v=170068926590734854861594764163" type="text/javascript"></script>
+
+
+    
+    <!-- The Modal -->
+<div id="bold-modal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div id="form-content">
+      <div class="SF_20221114 reg-form">
+
+</div>
+    </div>
+  </div>
+
+</div>
+    
+    
+      <script src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/registration-modal.js?v=22662365197038921561636661556" type="text/javascript"></script>
+    
+
+  <!-- This line added automatically by Sticky. -->
+<style>
+ #sticky-the-add-to-cart-bar{bottom:0;right:0;left:0;width:100%;position:fixed;z-index:16777270;background:none}
+
+ 
+</style>
+<script type="text/javascript">
+ var _stickyConfig = {};
+ var StickyApp=function(){var t=null,r=null,a=null,o=null,n=null,e=null,i=!1,c=function(){return t},d=function(o,c){return c&&(r=c,i=c.debugEnabled,c.addToCartFormSelector&&""!=c.addToCartFormSelector&&(a=c.addToCartFormSelector),c.addToCartButtonSelector&&""!=c.addToCartButtonSelector&&(n=c.addToCartButtonSelector),c.cartBehavior&&""!=c.cartBehavior&&(e=new Function("config",c.cartBehavior))),l("starting initialize"),t=o,s(),t(function(){v()}),this},s=function(){l("starting _loadDependencies"),!function(t){function r(r){return t(r).filter(function(){return t(this).is(":appeared")})}function a(){i=!1;for(var t=0,a=n.length;a>t;t++){var o=r(n[t]);if(o.trigger("appear",[o]),s[t]){var e=s[t].not(o);e.trigger("disappear",[e])}s[t]=o}}function o(t){n.push(t),s.push()}var n=[],e=!1,i=!1,c={interval:250,force_process:!1},d=t(window),s=[];t.expr[":"].appeared=function(r){var a=t(r);if(!a.is(":visible"))return!1;var o=d.scrollLeft(),n=d.scrollTop(),e=a.offset(),i=e.left,c=e.top;return c+a.height()>=n&&c-(a.data("appear-top-offset")||0)<=n+d.height()&&i+a.width()>=o&&i-(a.data("appear-left-offset")||0)<=o+d.width()},t.fn.extend({appear:function(r){var n=t.extend({},c,r||{}),d=this.selector||this;if(!e){var s=function(){i||(i=!0,setTimeout(a,n.interval))};t(window).scroll(s).resize(s),e=!0}return n.force_process&&setTimeout(a,n.interval),o(d),t(d)}}),t.extend({force_appear:function(){return e?(a(),!0):!1}})}(t)},u=function(){var r=0!=t(".single-option-selector:visible").length,a=0!=t('select[name="id"]:visible').length;return r||a},l=function(t){i&&console.log("Sticky: "+t.toString())},f=function(){l("scrolling to variants _scrollToVariants");var r=t(n),a=r.offset().top,o=window.innerHeight/2,e=a-o;t("html,body").animate({scrollTop:e},500)},p=function(){e?(l("using custom addToCart"),e(r)):(l("using default addToCart"),t(a).submit())},v=function(){l("starting _ready"),m();var r=o.clone().attr("id","sticky-the-add-to-cart-button-element").css("width","100%").css("max-width","100%").prop("disabled",!1).removeClass("disabled").appendTo("#sticky-the-add-to-cart-button");o.appear(),t(document.body).on("appear",o,function(){l("add-to-cart appear"),t("#sticky-the-add-to-cart-bar").hide()}),t(document.body).on("disappear",o,function(){l("add-to-cart disappear");var r=t(n),a=r.offset();h()<a.top?l("add-to-cart disappear -> above main button"):(t("#sticky-the-add-to-cart-bar").show(),l("add-to-cart disappear -> show"))}),t(document).on("click","#sticky-the-add-to-cart-button-element",function(){return l("click"),u()?f(r):p(),!1})},h=function(){return t(window).scrollTop()},m=function(){if(l("starting _findAddToCartButton"),a&&""!=a?l("using custom form selector"):a='form[action="/cart/add"]:first',""!=n){l("using custom cart selector");var t=b(n);if(t)return l("found add to cart as custom selector"),o=t,!0}var r=b('form[action="/cart/add"]:first button:visible:last');if(r)return l("found add to cart as button"),o=r,n='form[action="/cart/add"]:first button:visible:last',!0;var e=b('form[action="/cart/add"]:first input[type="submit"]:visible:last');return e?(l("found add to cart as submit input"),o=e,n='form[action="/cart/add"]:first input[type="submit"]:visible:last',!0):(l("add to cart not found"),!1)},b=function(r){var a=t(r);return a.length>0?a:!1};return{initialize:d,jquery:c,debugSticky:l,addToCart:p}}();
+ !function(){var e=function(e,t){var a=document.createElement("script");a.type="text/javascript",a.readyState?a.onreadystatechange=function(){"loaded"!=a.readyState&&"complete"!=a.readyState||(a.onreadystatechange=null,t())}:a.onload=function(){t()},a.src=e,document.getElementsByTagName("head")[0].appendChild(a)};"undefined"==typeof jQuery||1===parseInt(jQuery.fn.jquery)&&parseFloat(jQuery.fn.jquery.replace(/^1\./,""))<7.1?e("https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js",function(){jQuery191=jQuery.noConflict(!0),StickyApp.initialize(jQuery191,_stickyConfig)}):StickyApp.initialize(jQuery,_stickyConfig)}();
+</script>
+<section id="sticky-the-add-to-cart-bar" style="display:none;">
+  <section id="sticky-the-add-to-cart-button"></section>
+</section>
+
+
+
+
+    <!--hy-retain-script-->
+    <script src="//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/hy-retain.js?v=110355408407809297061513800968"></script>
+    <!--hy-retain-script-->
+    
+       <!--GCLID-Script-->
+    <script type="text/javascript">
+function setCookie(name, value, days){
+    var date = new Date();
+    date.setTime(date.getTime() + (days*24*60*60*1000)); 
+    var expires = "; expires=" + date.toGMTString();
+    document.cookie = name + "=" + value + expires;
+}
+function getParam(p){
+    var match = RegExp('[?&]' + p + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+var gclid = getParam('gclid');
+if(gclid){
+    var gclsrc = getParam('gclsrc');
+    if(!gclsrc || gclsrc.indexOf('aw') !== -1){
+        setCookie('gclid', gclid, 90);
+    }
+}
+</script>
+      <!--GCLID-Script-->
+    
+    
+<script src='//cdn.shopify.com/s/files/1/1525/4852/t/7/assets/ndnapps-promotionbar.js?v=10629151240030481451574783397' defer='defer'></script>
+    
+<script type="text/javascript">
+_linkedin_partner_id = "36316";
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=36316&fmt=gif" />
+</noscript>
+    
+	<script>
+      if (~window.location.pathname.indexOf('collections')) {
+        $(document).on('Searchanise.ResultsUpdated', function(e, content) {
+          $('.snize-product > a', content).each(function() {
+            $(this).attr('href', $(this).attr('href').replace(window.location.pathname, ''));
+          });
+        });
+      }
+    </script>
+    
+
+<!-- **BEGIN** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
+    <!-- **BEGIN** Hextom QAB Integration // Main - DO NOT MODIFY -->
+<script type="application/javascript">
+    window.hextom_qab_meta = {
+        p1: [
+            
+                
+                    "dbt_setad_retlif"
+                    ,
+                
+                    "enilnO eviL_tamroF_retlif"
+                    ,
+                
+                    "syad 5_htgneL_retlif"
+                    ,
+                
+                    "tnemeganaM ksiR ;pma& ecnaniF_cipoT_retlif"
+                    ,
+                
+                    "yteicoS ;pma& ymonocE labolG_cipoT_retlif"
+                    ,
+                
+                    "noitavonnI ;pma& ygetartS_cipoT_retlif"
+                    ,
+                
+                    "yksnisork-yrac_rotcurtsni"
+                    ,
+                
+                    "eremeihe-arasihc_rotcurtsni"
+                    ,
+                
+                    "noisiv-pihsredael-ruoy-gniveihca-eldnub_detaler"
+                    ,
+                
+                    "ecnanif-etaroproc-gniretsam-eldnub_detaler"
+                    ,
+                
+                    "tesdnim-gse-na-sdrawot-gnitovip-ytilibaniatsus-etaroproc_detaler"
+                    
+                
+            
+        ],
+        p2: {
+            
+        }
+    };
+</script>
+<!-- **END** Hextom QAB Integration // Main - DO NOT MODIFY -->
+    <!-- **END** Hextom QAB Integration // Main Include - DO NOT MODIFY -->
+</body>
+</html>

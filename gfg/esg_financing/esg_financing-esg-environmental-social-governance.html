@@ -1,0 +1,1188 @@
+
+<!doctype html>
+<html lang="en-US">
+<head><meta charset="utf-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="3kTcEeI8D6U9b3mmYeLagXichcZTPuoWrYbPGc86zBI" />
+<script type="rocketlazyloadscript">
+      dataLayer = [{
+        'userStatus': 'Guest',
+        'userID': '0',
+        'postAuthor': 'Celso Trinidad'
+      }];
+      sessionStorage.setItem("analyticsUserID", "0");
+    </script>
+
+<script type="rocketlazyloadscript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PS9DC56');</script>
+
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {"ccpaAcknowledgeOnDisplay":true,"consentOnContinuedBrowsing":false,"cookiePolicyInOtherWindow":true,"countryDetection":true,"enableCcpa":true,"lang":"en","siteId":1832391,"cookiePolicyId":17030084,"cookiePolicyUrl":"https://corporatefinanceinstitute.com/about-cfi/privacy-policy/","privacyPolicyUrl":"https://corporatefinanceinstitute.com/about-cfi/privacy-policy/", "banner":{ "acceptButtonCaptionColor":"white","acceptButtonColor":"#0073CE","acceptButtonDisplay":true,"backgroundColor":"white","customizeButtonCaptionColor":"#4D4D4D","customizeButtonColor":"#DADADA","customizeButtonDisplay":true,"fontSize":"14px","position":"float-bottom-center","textColor":"black","acceptButtonCaption":"Accept all cookies","content":"CFI and our partners use cookies to provide you with a better service and to support our business. You can consent by the clicking \"Accept all cookies\" button or by closing this notice.","customizeButtonCaption":"Learn more" }};
+    </script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="//cdn.iubenda.com/cs/ccpa/stub.js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
+
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" async>
+      function initializeRakuten(url) {
+        /*Tracking Bootstrap Set Up DataLayer objects/properties here*/
+        if (!window.DataLayer) {
+          window.DataLayer = {};
+        }
+        if (!DataLayer.events) {
+          DataLayer.events = {};
+        }
+        DataLayer.events.SPIVersion = DataLayer.events.SPIVersion || "3.4";
+        DataLayer.events.SiteSection = "1";
+        var loc, ct = document.createElement("script");
+        ct.type = "text/javascript";
+        ct.async = true;
+        ct.src = url;
+        loc = document.getElementsByTagName('script')[0];
+        loc.parentNode.insertBefore(ct, loc);
+      }
+
+      window._rakutenInitialized = false;
+      document.addEventListener('scroll', function () {
+        if (!window._rakutenInitialized) {
+          initializeRakuten(document.location.protocol + "//tag.rmp.rakuten.com/121786.ct.js");
+          window._rakutenInitialized = true;
+        }
+      });
+      document.addEventListener('click', function () {
+        if (!window._rakutenInitialized) {
+          initializeRakuten(document.location.protocol + "//tag.rmp.rakuten.com/121786.ct.js");
+          window._rakutenInitialized = true;
+        }
+      });
+    </script>
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<script data-cfasync="false" data-pagespeed-no-defer>
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+
+
+<title>ESG (Environmental, Social and Governance) - Overview and Framework</title>
+<meta name="description" content="ESG is an acronym for Environmental, Social, and Governance. ESG takes the holistic view that sustainability extends beyond just environmental issues." />
+<link rel="canonical" href="https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="ESG (Environmental, Social and Governance)" />
+<meta property="og:description" content="ESG is an acronym for Environmental, Social, and Governance. ESG takes the holistic view that sustainability extends beyond just environmental issues." />
+<meta property="og:url" content="https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/" />
+<meta property="og:site_name" content="Corporate Finance Institute" />
+<meta property="article:publisher" content="https://www.facebook.com/corporatefinanceinstitute.cfi/" />
+<meta property="article:modified_time" content="2022-11-25T03:32:47+00:00" />
+<meta property="og:image" content="https://cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-1024x739.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@CFI_education" />
+<meta name="twitter:label1" content="Est. reading time" />
+<meta name="twitter:data1" content="5 minutes" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/","url":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/","name":"ESG (Environmental, Social and Governance) - Overview and Framework","isPartOf":{"@id":"https://corporatefinanceinstitute.com/#website"},"primaryImageOfPage":{"@id":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/#primaryimage"},"image":{"@id":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/#primaryimage"},"thumbnailUrl":"https://cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-1024x739.jpg","datePublished":"2022-07-01T01:00:39+00:00","dateModified":"2022-11-25T03:32:47+00:00","description":"ESG is an acronym for Environmental, Social, and Governance. ESG takes the holistic view that sustainability extends beyond just environmental issues.","breadcrumb":{"@id":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/#primaryimage","url":"//cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance.jpg","contentUrl":"//cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance.jpg","width":1399,"height":1009},{"@type":"BreadcrumbList","@id":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://corporatefinanceinstitute.com/"},{"@type":"ListItem","position":2,"name":"Resources","item":"https://corporatefinanceinstitute.com/resources/"},{"@type":"ListItem","position":3,"name":"ESG (Environmental, Social and Governance)"}]},{"@type":"WebSite","@id":"https://corporatefinanceinstitute.com/#website","url":"https://corporatefinanceinstitute.com/","name":"Corporate Finance Institute","description":"","publisher":{"@id":"https://corporatefinanceinstitute.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://corporatefinanceinstitute.com/search/{search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://corporatefinanceinstitute.com/#organization","name":"Corporate Finance Institute","url":"https://corporatefinanceinstitute.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://corporatefinanceinstitute.com/#/schema/logo/image/","url":"//cdn.corporatefinanceinstitute.com/assets/cfi-logo.png","contentUrl":"//cdn.corporatefinanceinstitute.com/assets/cfi-logo.png","width":1000,"height":351,"caption":"Corporate Finance Institute"},"image":{"@id":"https://corporatefinanceinstitute.com/#/schema/logo/image/"},"sameAs":["https://www.instagram.com/corporatefinanceinstitute/","https://www.linkedin.com/school/corporate-finance-institute-cfi-/","https://www.youtube.com/c/Corporatefinanceinstitute-CFI","https://www.facebook.com/corporatefinanceinstitute.cfi/","https://twitter.com/CFI_education"]}]}</script>
+
+<link rel='dns-prefetch' href='//fonts.google.com' />
+<link rel="stylesheet" href="//cdn.corporatefinanceinstitute.com/wp-includes/css/classic-themes.min.css?ver=1">
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" href="//cdn.corporatefinanceinstitute.com/wp-content/plugins/roots-share-buttons/assets/styles/share-buttons.css?ver=6.1.1">
+<link rel="stylesheet" href="//cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/styles/single-resource-249947e88b.css?ver=d17af620718f2c3cf6372abf926cf8e3">
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='//cdn.corporatefinanceinstitute.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/"},"headline":"ESG (Environmental, Social and Governance)","datePublished":"2022-06-30T18:00:39","dateModified":"2022-11-24T19:32:47","author":{"@type":"Person","name":"Corporate Finance Institute","url":"https://corporatefinanceinstitute.com/author/celso-trinidad"},"publisher":{"@type":"Organization","name":"Corporate Finance Institute","logo":{"@type":"ImageObject","url":"https://cdn.corporatefinanceinstitute.com/assets/logotm.png"}},"image":"https://cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-1024x739.jpg"}</script>
+
+
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var dataLayer_content = {"pagePostType":"resource","pagePostType2":"single-resource","pagePostAuthor":"Celso Trinidad"};
+	dataLayer.push( dataLayer_content );
+</script>
+<script type="rocketlazyloadscript">
+	console.warn && console.warn("[GTM4WP] Google Tag Manager container code placement set to OFF !!!");
+	console.warn && console.warn("[GTM4WP] Data layer codes are active but GTM container must be loaded using custom coding !!!");
+</script>
+
+
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+</script>
+
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+  fbq('init', '257587335174579', {}, {
+    "agent": "wordpress-6.1.1-3.0.8"
+});
+  </script><script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+  fbq('track', 'PageView', []);
+  </script>
+
+<noscript>
+<img height="1" width="1" style="display:none" alt="fbpx"
+src="https://www.facebook.com/tr?id=257587335174579&ev=PageView&noscript=1" />
+</noscript>
+
+<style id="wpsp-style-frontend"></style>
+<link rel="icon" href="//cdn.corporatefinanceinstitute.com/assets/cropped-cfi-favicon-2-32x32.png" sizes="32x32" />
+<link rel="icon" href="//cdn.corporatefinanceinstitute.com/assets/cropped-cfi-favicon-2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="//cdn.corporatefinanceinstitute.com/assets/cropped-cfi-favicon-2-180x180.png" />
+<meta name="msapplication-TileImage" content="//cdn.corporatefinanceinstitute.com/assets/cropped-cfi-favicon-2-270x270.png" />
+</head>
+<body class="resource-template-default single single-resource postid-20378 wp-schema-pro-2.7.4 esg-environmental-social-governance sidebar-primary">
+<!--[if IE]>
+      <div class="alert alert-warning">
+        You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.      </div>
+    <![endif]-->
+<div id="header-menu-wrapper" class="header-menu-wrapper-new no-splash ">
+<header class="banner short_search_name ">
+<div class="navbar-header  ">
+<div class="container">
+<div class="row">
+<div class="left-side">
+<a class="brand" href="https://corporatefinanceinstitute.com/">
+Corporate Finance Institute </a>
+<div class="controls-group">
+<button type="button" class="navbar-toggle hamburger hamburger--squeeze">
+<span class="sr-only">Menu</span>
+<span class="hamburger-box">
+<span class="hamburger-inner"></span>
+</span>
+</button>
+</div>
+<div class="search-box">
+<div class="search-form">
+<input class="search-field" data-id="callTheSearchBox" placeholder="Search" name="s" required="" type="search">
+<div class="icon-search"></div>
+</div>
+</div>
+</div>
+<div class="right-side">
+<div class="action-button-wrapper">
+<nav class="top-menu nav-primary">
+<div class="menu-desktop">
+<ul id="menu-header-navigation" class="nav navbar-nav"><li class="courses-dropdown menu-item menu-item-has-children menu-all-courses"><a href="https://corporatefinanceinstitute.com/collections/">All Courses</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="unclickable desktop-only programs menu-item menu-item-has-children menu-certification-programs hovered"><a href="https://corporatefinanceinstitute.com/certifications/">Certification Programs</a>
+<ul class="sub-menu">
+<li class="button-inside menu-item menu-item-has-children menu-compare-certifications"><a href="https://corporatefinanceinstitute.com/certifications/compare-certifications/">Compare Certifications</a>
+<ul class="sub-menu">
+<li class="program-fmva menu-item menu-fmvafinancial-modeling-valuation-analyst"><a href="https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/"><span><b>FMVA®</b>Financial Modeling &#038; Valuation Analyst</span></a></li>
+<li class="program-cbca menu-item menu-cbcacommercial-banking-credit-analyst"><a href="https://corporatefinanceinstitute.com/certifications/commercial-banking-credit-analyst-certification-cbca/"><span><b>CBCA™</b>Commercial Banking &#038; Credit Analyst</span></a></li>
+<li class="program-cmsa menu-item menu-cmsacapital-markets-securities-analyst"><a href="https://corporatefinanceinstitute.com/certifications/capital-markets-securities-analyst-cmsa/"><span><b>CMSA®</b>Capital Markets &#038; Securities Analyst</span></a></li>
+<li class="program-bida menu-item menu-bidabusiness-intelligence-data-analyst"><a href="https://corporatefinanceinstitute.com/certifications/business-intelligence-data-analyst-bida/"><span><b>BIDA™</b>Business Intelligence &#038; Data Analyst</span></a></li>
+<li class="program-fpwm menu-item menu-fpwmfinancial-planning-wealth-management"><a href="https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/"><span><b>FPWM®</b>Financial Planning &#038; Wealth Management</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="unclickable desktop-only bundles menu-item menu-item-has-children menu-specializations"><a href="#">Specializations</a>
+<ul class="sub-menu">
+<li class="program-cre menu-item menu-cref-specializationcommercial-real-estate-finance"><a href="https://corporatefinanceinstitute.com/certifications/commercial-real-estate-finance-specialist/"><span><b>CREF Specialization</b>Commercial Real Estate Finance</span></a></li>
+<li class="program-esg menu-item menu-esg-specializationenvironmental-social-governance-esg"><a href="https://corporatefinanceinstitute.com/certifications/environmental-social-governance-specialist/"><span><b>ESG Specialization</b>Environmental, Social &#038; Governance (ESG)</span></a></li>
+<li class="program-beb menu-item menu-be-bundlebusiness-essentials"><a href="https://corporatefinanceinstitute.com/certifications/business-essentials-bundle/"><span><b>BE Bundle</b>Business Essentials</span></a></li>
+</ul>
+</li>
+<li class="unclickable desktop-only topics menu-item menu-item-has-children menu-popular-topics"><a href="#">Popular Topics</a>
+<ul class="sub-menu">
+<li class="button-inside menu-item menu-item-has-children menu-browse-all-topics"><a href="https://corporatefinanceinstitute.com/topics/">Browse All Topics</a>
+<ul class="sub-menu">
+<li class="menu-item menu-cryptocurrencytag_courses-namecryptocurrency-courses"><a href="https://corporatefinanceinstitute.com/topic/cryptocurrency/"><b>Cryptocurrency</b>3 courses</a></li>
+<li class="menu-item menu-exceltag_courses-nameexcel-courses"><a href="https://corporatefinanceinstitute.com/topic/excel/"><b>Excel</b>37 courses</a></li>
+<li class="menu-item menu-accounting-tag_courses-nameaccounting-courses"><a href="https://corporatefinanceinstitute.com/topic/accounting/"><b>Accounting</b> 7 courses</a></li>
+<li class="menu-item menu-commercial-real-estatetag_courses-namecommercial-real-estate-courses"><a href="https://corporatefinanceinstitute.com/topic/commercial-real-estate/"><b>Commercial Real Estate</b>11 courses</a></li>
+<li class="menu-item menu-esgtag_courses-nameenvironment-social-governance-esg-courses"><a href="https://corporatefinanceinstitute.com/topic/environment-social-governance-esg/"><b>ESG</b>9 courses</a></li>
+<li class="menu-item menu-wealth-managementtag_courses-namewealth-management-courses"><a href="https://corporatefinanceinstitute.com/topic/wealth-management/"><b>Wealth Management</b>9 courses</a></li>
+<li class="menu-item menu-foreign-exchangetag_courses-nameforeign-exchange-courses"><a href="https://corporatefinanceinstitute.com/topic/foreign-exchange/"><b>Foreign Exchange</b>5 courses</a></li>
+<li class="menu-item menu-management-skillstag_courses-namemanagement-skills-courses"><a href="https://corporatefinanceinstitute.com/topic/management-skills/"><b>Management Skills</b>17 courses</a></li>
+<li class="menu-item menu-machine-learningtag_courses-namedata-science-machine-learning-courses"><a href="https://corporatefinanceinstitute.com/topic/data-science-machine-learning/"><b>Machine Learning</b> courses</a></li>
+<li class="menu-item menu-financial-modelingtag_courses-namefinancial-modeling-courses"><a href="https://corporatefinanceinstitute.com/topic/financial-modeling/"><b>Financial Modeling</b>18 courses</a></li>
+<li class="menu-item menu-fpatag_courses-namefinancial-planning-analysis-fpa-courses"><a href="https://corporatefinanceinstitute.com/topic/financial-planning-analysis-fpa/"><b>FP&#038;A</b>6 courses</a></li>
+<li class="menu-item menu-business-intelligencetag_courses-namebusiness-intelligence-courses"><a href="https://corporatefinanceinstitute.com/topic/business-intelligence/"><b>Business Intelligence</b>15 courses</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="button-inside menu-item menu-browse-all-courses"><a href="https://corporatefinanceinstitute.com/collections/">Browse All Courses</a></li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+<li class="menu-item menu-item-has-children menu-corporate-training"><a href="https://corporatefinanceinstitute.com/cfi-for-teams/">Corporate Training</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="menu-item menu-overview"><a href="https://corporatefinanceinstitute.com/cfi-for-teams/">Overview</a></li>
+<li class="menu-item menu-why-cfi-certifications"><a href="https://corporatefinanceinstitute.com/certified-professionals/">Why CFI certifications</a></li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+<li class="unclickable menu-item menu-item-has-children menu-pricing"><a href="https://corporatefinanceinstitute.com/pricing/">Pricing</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="menu-item menu-for-individuals"><a href="https://corporatefinanceinstitute.com/pricing/">For Individuals</a></li>
+<li class="menu-item menu-for-teams"><a href="https://corporatefinanceinstitute.com/cfi-for-teams/pricing-plans/">For Teams</a></li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+<li class="courses-dropdown active menu-item menu-item-has-children menu-resources"><a href="https://corporatefinanceinstitute.com/resources/">Resources</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="desktop-only topics active menu-item menu-item-has-children menu-menu_card-id1"><a> <a href="https://corporatefinanceinstitute.com/resources/team-development/the-shift-to-online/" class="menu-card-wrapper">
+<img class="menu-card-image lazy" src="" data-src="//cdn.corporatefinanceinstitute.com/assets/nav-featured-corporate-training-for-finance-teams-2022.png" alt="">
+<div class="menu-card-title">State of corporate training for finance teams in 2022</div>
+<div class="menu-card-content">A detailed report on the elearning transformation from the finance experts.</div>
+<div class="menu-card-link link-with-arrow">
+<span>Download</span>
+<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.13518 13.3042C7.8429 13.5977 7.84389 14.0725 8.1374 14.3648C8.4309 14.6571 8.90578 14.6561 9.19806 14.3626L14.1786 9.36124C14.6657 8.87207 14.6641 8.08061 14.1749 7.59347L9.19584 2.63527C8.90233 2.34299 8.42746 2.34398 8.13518 2.63749C7.8429 2.931 7.8439 3.40587 8.1374 3.69815L12.2063 7.75004L1.99995 7.75004C1.58574 7.75004 1.24995 8.08583 1.24995 8.50004C1.24995 8.91425 1.58574 9.25004 1.99995 9.25004L12.1724 9.25004L8.13518 13.3042Z" fill="#3271D2"></path>
+</svg>
+</div>
+</a>
+</a>
+<ul class="sub-menu">
+<li class="button-inside button-inside-orangebutton-inside button-inside-orange active menu-item menu-item-has-children menu-browse-all-resources"><a href="https://corporatefinanceinstitute.com/resources/">Browse All Resources</a>
+<ul class="sub-menu">
+<li class="menu-item menu-careerresources_count-id122947"><a href="https://corporatefinanceinstitute.com/topic/career/"><b>Career</b>285 resources</a></li>
+<li class="menu-item menu-team-developmentresources_count-id122958"><a href="https://corporatefinanceinstitute.com/topic/team-development/"><b>Team Development</b>14 resources</a></li>
+<li class="menu-item menu-elearningresources_count-id122957"><a href="https://corporatefinanceinstitute.com/topic/elearning/"><b>eLearning</b>18 resources</a></li>
+<li class="menu-item menu-fparesources_count-id111070"><a href="https://corporatefinanceinstitute.com/topic/financial-planning-analysis-fpa/"><b>FP&#038;A</b></a></li>
+<li class="menu-item menu-excelresources_count-id111060"><a href="https://corporatefinanceinstitute.com/topic/excel/"><b>Excel</b>585 resources</a></li>
+<li class="menu-item menu-accountingresources_count-id110869"><a href="https://corporatefinanceinstitute.com/topic/accounting/"><b>Accounting</b>726 resources</a></li>
+<li class="menu-item menu-esgresources_count-id110497"><a href="https://corporatefinanceinstitute.com/topic/environment-social-governance-esg/"><b>ESG</b>62 resources</a></li>
+<li class="menu-item menu-financial-modelingresources_count-id111064"><a href="https://corporatefinanceinstitute.com/topic/financial-modeling/"><b>Financial Modeling</b>281 resources</a></li>
+<li class="menu-item menu-cryptocurrencyresources_count-id110912"><a href="https://corporatefinanceinstitute.com/topic/cryptocurrency/"><b>Cryptocurrency</b>57 resources</a></li>
+<li class="menu-item menu-wealth-managementresources_count-id111007"><a href="https://corporatefinanceinstitute.com/topic/wealth-management/"><b>Wealth Management</b>831 resources</a></li>
+<li class="menu-item menu-data-science-machine-learningresources_count-id110994"><a href="https://corporatefinanceinstitute.com/topic/data-science-machine-learning/"><b>Data Science &#038; Machine Learning</b>179 resources</a></li>
+<li class="menu-item menu-managementresources_count-id111010"><a href="https://corporatefinanceinstitute.com/topic/management-skills/"><b>Management</b>316 resources</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+</ul> </div>
+<div class="account-links">
+<div class="thinkific-logged-in-menu thinkific-logged-in">
+<ul id="menu-quick-user-navigation" class="nav navbar-nav"><li class="menu-item menu-item-has-children menu-my-account"><a href="#">My Account</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="menu-item menu-my-courses"><a href="https://dashboard.corporatefinanceinstitute.com/financial-modeling-valuation-analyst-fmva/">My Courses</a></li>
+<li class="menu-item menu-my-resources"><a href="https://dashboard.corporatefinanceinstitute.com/learning-resources/">My Resources</a></li>
+<li class="menu-item menu-my-profile"><a href="https://dashboard.corporatefinanceinstitute.com/my-profile/">My Profile</a></li>
+<li class="thinkific-logged-in mobile-only thin menu-item menu-account-settings"><a href="https://dashboard.corporatefinanceinstitute.com/my-profile/">Account Settings</a></li>
+<li class="menu-item menu-sign-out"><a href="http://courses.corporatefinanceinstitute.com/users/sign_out">Sign Out</a></li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+</ul> </div>
+<div class="thinkific-logged-in">
+<a href="https://courses.corporatefinanceinstitute.com/enrollments" rel="nofollow" class="account-link btn-main">My Dashboard</a>
+</div>
+<div class="thinkific-logged-out">
+<div class="thinkific-link sign-in">
+<a href="https://learn.corporatefinanceinstitute.com/auth/login" rel="nofollow">Log In</a>
+</div>
+<a href="https://learn.corporatefinanceinstitute.com/auth/registration" class="btn-main">Get Started</a>
+</div>
+</div>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<nav class="nav-primary navbar-collapse collapse " role="navigation">
+<div class="container">
+<div class="row">
+<div class="search-box">
+<div class="search-form">
+<div class="search-wrapper">
+<input class="search-field" data-id="callTheSearchBox" placeholder="What would you like to learn?" name="s" required="" type="search">
+<div class="icon-search"></div>
+</div>
+</div>
+</div>
+<nav class="top-menu">
+<div class="thinkific-logged-in btn-my-dashboard">
+<a href="https://courses.corporatefinanceinstitute.com/enrollments" rel="nofollow" class="account-link btn-main btn-default">My Dashboard</a>
+</div>
+<div class="thinkific-logged-out btn-register">
+<a href="https://learn.corporatefinanceinstitute.com/auth/registration" rel="nofollow" class="account-link btn-main btn-default">Get Started</a>
+</div>
+<div class="btn-collections">
+<a href="https://corporatefinanceinstitute.com/collections" rel="nofollow" class="account-link btn-main btn-secondary-blue">Browse All Courses</a>
+</div>
+<div class="thinkific-logged-in-menu thinkific-logged-in">
+<ul id="menu-quick-user-navigation-1" class="nav navbar-nav"><li class="menu-item menu-item-has-children menu-my-account"><a href="#">My Account</a>
+<ul class="sub-menu">
+<li class="menu-item menu-my-courses"><a href="https://dashboard.corporatefinanceinstitute.com/financial-modeling-valuation-analyst-fmva/">My Courses</a></li>
+<li class="menu-item menu-my-resources"><a href="https://dashboard.corporatefinanceinstitute.com/learning-resources/">My Resources</a></li>
+<li class="menu-item menu-my-profile"><a href="https://dashboard.corporatefinanceinstitute.com/my-profile/">My Profile</a></li>
+<li class="thinkific-logged-in mobile-only thin menu-item menu-account-settings"><a href="https://dashboard.corporatefinanceinstitute.com/my-profile/">Account Settings</a></li>
+<li class="menu-item menu-sign-out"><a href="http://courses.corporatefinanceinstitute.com/users/sign_out">Sign Out</a></li>
+</ul>
+</li>
+</ul> </div>
+<ul id="menu-header-navigation-mobile" class="nav navbar-nav"><li class="unclickable menu-item menu-item-has-children menu-certification-programs"><a href="https://corporatefinanceinstitute.com/certifications/">Certification Programs</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="menu-item menu-financial-modeling-valuation-fmva"><a href="https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/">Financial Modeling &#038; Valuation (FMVA)®</a></li>
+<li class="menu-item menu-certified-banking-credit-analyst-cbca"><a href="https://corporatefinanceinstitute.com/certifications/commercial-banking-credit-analyst-certification-cbca/">Certified Banking &#038; Credit Analyst (CBCA)™</a></li>
+<li class="menu-item menu-capital-markets-securities-analyst-cmsa"><a href="https://corporatefinanceinstitute.com/certifications/capital-markets-securities-analyst-cmsa/">Capital Markets &#038; Securities Analyst (CMSA)®</a></li>
+<li class="menu-item menu-business-intelligence-data-analyst-bida"><a href="https://corporatefinanceinstitute.com/certifications/business-intelligence-data-analyst-bida/">Business Intelligence &#038; Data Analyst (BIDA)™</a></li>
+<li class="menu-item menu-financial-planning-wealth-management-professional-fpwm"><a href="https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/">Financial Planning &#038; Wealth Management Professional (FPWM)®</a></li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+<li class="unclickable menu-item menu-item-has-children menu-specializations"><a href="#">Specializations</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="menu-item menu-commercial-real-estate-finance-specialization"><a href="https://corporatefinanceinstitute.com/certifications/commercial-real-estate-finance-specialist/">Commercial Real Estate Finance Specialization</a></li>
+<li class="menu-item menu-environmental-social-governance-specialization"><a href="https://corporatefinanceinstitute.com/certifications/environmental-social-governance-specialist/">Environmental, Social &#038; Governance Specialization</a></li>
+<li class="menu-item menu-business-essentials-bundle"><a href="https://corporatefinanceinstitute.com/certifications/business-essentials-bundle/">Business Essentials Bundle</a></li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+<li class="unclickable menu-item menu-item-has-children menu-corporate-training"><a href="https://corporatefinanceinstitute.com/cfi-for-teams/">Corporate Training</a>
+<ul class="sub-menu">
+<div class="dropdown-container"><div class="dropdown-row">
+<li class="menu-item menu-overview"><a href="https://corporatefinanceinstitute.com/cfi-for-teams/">Overview</a></li>
+<li class="menu-item menu-pricing"><a href="https://corporatefinanceinstitute.com/cfi-for-teams/pricing-plans/">Pricing</a></li>
+</div></div><div class="dropdown-arrow"></div><div class="dropdown-placeholder"></div></ul>
+</li>
+<li class="menu-item menu-pricing"><a href="https://corporatefinanceinstitute.com/pricing/">Pricing</a></li>
+<li class="active menu-item menu-resources"><a href="https://corporatefinanceinstitute.com/resources/">Resources</a></li>
+</ul>
+<a href="https://learn.corporatefinanceinstitute.com/auth/registration" class="btn-main btn-default thinkific-logged-out">Get Started</a>
+<div class="thinkific-logged-in btn-my-dashboard">
+<a href="https://courses.corporatefinanceinstitute.com/enrollments" rel="nofollow" class="account-link btn-main btn-default">My Dashboard</a>
+</div>
+<div class="thinkific-logged-out btn-login">
+<a href="https://learn.corporatefinanceinstitute.com/auth/login" rel="nofollow" class="account-link btn-main btn-secondary-blue">Log In</a>
+</div>
+</nav>
+</div>
+</div>
+</nav>
+
+</header>
+</div>
+<div class="resource-sections">
+<div class="section breadcrumbs ">
+<div class="container two-columns">
+<div class="breadcrumbs" typeof="BreadcrumbList" vocab="http://schema.org/">
+
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Corporate Finance Institute." href="https://corporatefinanceinstitute.com" class="home"><span property="name">Home</span></a><meta property="position" content="1"></span> &rsaquo; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to Resources." href="https://corporatefinanceinstitute.com/resources/" class="archive post-resource-archive"><span property="name">Resources</span></a><meta property="position" content="2"></span> &rsaquo; <span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to the Environment, Social, &amp; Governance Resource Type archives." href="https://corporatefinanceinstitute.com/topic/environment-social-governance-esg/" class="taxonomy resource_types"><span property="name">Environment, Social, &amp; Governance</span></a><meta property="position" content="3"></span> &rsaquo; <span property="itemListElement" typeof="ListItem"><span property="name">ESG (Environmental, Social and Governance)</span><meta property="position" content="4"></span> </div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="page-sidebar">
+<div class="stick-sidebar">
+<div class="sidebar-wrapper">
+<div class="toggle-button"></div>
+<div class="links-wrapper">
+<div class="resource-categories sidebar-block sidebar-links-block">
+<div class="h4">Table of contents</div>
+<ul class="page-listing list-unstyled">
+<li class="">
+<a href="#what-is-esg-environmental-social-and-governance">
+What is ESG (Environmental, Social, and Governance)? </a>
+</li>
+<li class="">
+<a href="#overview-of-e-s-g">
+Overview of E, S, & G </a>
+</li>
+<ul class="sub-items">
+<li class="">
+<a href="#1-environmental">
+1. Environmental </a>
+</li>
+<li class="">
+<a href="#2-social">
+2. Social </a>
+</li>
+<li class="">
+<a href="#3-governance">
+3. Governance </a>
+</li>
+</ul>
+<li class="">
+<a href="#the-evolution-of-esg">
+The Evolution of ESG </a>
+</li>
+<ul class="sub-items">
+<li class="">
+<a href="#ehs-environmental-health-safety">
+EHS (Environmental, Health, & Safety) </a>
+</li>
+<li class="">
+<a href="#corporate-sustainability">
+Corporate Sustainability </a>
+</li>
+<li class="">
+<a href="#csr-corporate-social-responsibility">
+CSR (Corporate Social Responsibility) </a>
+</li>
+<li class="">
+<a href="#esg">
+ESG </a>
+</li>
+</ul>
+<li class="">
+<a href="#esg-finance-investing">
+ESG, Finance, & Investing </a>
+</li>
+<li class="">
+<a href="#what-is-an-esg-specialist">
+What is an ESG Specialist? </a>
+</li>
+<li class="">
+<a href="#more-resources">
+More Resources </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="with-sidebar">
+<div class="with-sidebar-inner">
+<section class="section content default">
+<div class="single-resource-titles">
+<h1>ESG (Environmental, Social and Governance)</h1>
+<p class="lead">A management and analysis framework to understand and measure how sustainably an organization is operating</p>
+<div class="author-info">
+<div class="author-photo lazy-bg" style="background-image:url('//cdn.corporatefinanceinstitute.com/assets/kyle-peterdy-photo.jpg')">
+</div>
+<div class="article-info">
+<div class="article-info-line">
+<span class="article-info-label">Written by</span>
+<span class="article-info-value">
+<a href="https://corporatefinanceinstitute.com/author/kyle-peterdy/">Kyle Peterdy</a>
+</span>
+</div>
+<div class="article-info-line">
+<span class="article-info-label">Updated November 24, 2022</span>
+</div>
+<div class="article-info-line">
+<span class="article-info-label">Reviewed by</span>
+<span class="article-info-value">
+<a href="https://corporatefinanceinstitute.com/author/noah-miller/">Noah Miller</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<h2 id="what-is-esg-environmental-social-and-governance">What is ESG (Environmental, Social, and Governance)?</h2>
+<p><span style="font-weight: 400;">ESG is a </span><b>framework </b><span style="font-weight: 400;">that helps <a href="https://corporatefinanceinstitute.com/resources/accounting/stakeholder/">stakeholders</a> understand how an organization is </span><b>managing risks and opportunities</b><span style="font-weight: 400;"> related to environmental, social, and governance criteria (sometimes called </span><b>ESG factors</b><span style="font-weight: 400;">).</span></p>
+<p><span style="font-weight: 400;">ESG is an acronym for </span><b>E</b><span style="font-weight: 400;">nvironmental, </span><b>S</b><span style="font-weight: 400;">ocial, and </span><b>G</b><span style="font-weight: 400;">overnance. ESG takes the holistic view that </span><i><span style="font-weight: 400;">sustainability </span></i><span style="font-weight: 400;">extends beyond just environmental issues.</span></p>
+<div class="entry-content-asset"><iframe title="Environmental, Social and Governance (ESG) | Overview and Framework" width="500" height="281" src="https://www.youtube.com/embed/AkbGz3CYvqE?feature=oembed&amp;enablejsapi=1&amp;origin=https://corporatefinanceinstitute.com" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<h3 id=""></h3>
+<p><span style="font-weight: 400;">While the term ESG is often used in the context of </span><b>investing</b><span style="font-weight: 400;">, stakeholders include not just the investment community but also customers, suppliers, and employees, all of whom are increasingly interested in how sustainable an organization&rsquo;s operations are.</span></p><p>
+<div class="wrap-takeaways"><div class="takeaways"></p>
+<h3 id="key-highlights"><strong>Key Highlights</strong></h3>
+<ul>
+<li><span style="font-weight: 500;">ESG is a framework that helps stakeholders understand how an organization manages risks and opportunities around sustainability issues.</span></li>
+<li><span style="font-weight: 500;">ESG has evolved from other historical movements that focused on health and safety issues, pollution reduction, and corporate philanthropy.</span></li>
+<li><span style="font-weight: 500;">ESG has changed how capital allocation decisions are made by many of the largest financial services firms and asset managers in the world.</span></li>
+<li><span style="font-weight: 500;">An emerging class of ESG specialists is stepping into the industry and supporting both net zero and carbon neutrality goals. </span></li>
+</ul>
+<p></div></div>
+</p><h2 id="overview-of-e-s-g">Overview of E, S, &amp; G</h2>
+<h3 id="1-environmental">1. Environmental</h3>
+<p>Environmental factors refer to an organization&rsquo;s <strong>environmental impact(s)</strong> and <strong>risk management</strong> practices. These include direct and indirect greenhouse gas emissions, management&rsquo;s stewardship over natural resources, and the firm&rsquo;s overall resiliency against physical climate risks (like climate change, flooding, and fires).</p>
+<h3 id="2-social">2. Social</h3>
+<p>The social pillar refers to an organization&rsquo;s relationships with <strong>stakeholders</strong>. Examples of factors that a firm may be measured against include <a href="https://corporatefinanceinstitute.com/resources/esg/human-capital-management-hcm/">Human Capital Management (HCM)</a> metrics (like fair wages and employee engagement) but also an organization&rsquo;s impact on the communities in which it operates.</p>
+<p>A hallmark of ESG is how social impact expectations have extended outside the walls of the company and to <strong>supply chain</strong> partners, particularly those in developing economies where environmental and labor standards may be less robust.</p>
+<h3 id="3-governance">3. Governance</h3>
+<p><a href="https://corporatefinanceinstitute.com/course/corporate-governance/">Corporate governance</a> refers to how an organization is led and managed. ESG analysts will seek to understand better how leadership&rsquo;s incentives are aligned with stakeholder expectations, how <strong>shareholder rights</strong> are viewed and honored, and what types of internal controls exist to promote transparency and accountability on the part of leadership.</p>
+<p><img decoding="async" loading="lazy" class="aligncenter wp-image-124971 size-large lazy" src="" alt="ESG (Environmental, Social and Governance)" width="1024" height="739" srcset="" sizes="" data-src="https://cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-1024x739.jpg" data-srcset="//cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-1024x739.jpg 1024w, //cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-300x216.jpg 300w, //cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-768x554.jpg 768w, //cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance-416x300.jpg 416w, //cdn.corporatefinanceinstitute.com/assets/esg-environmental-social-governance.jpg 1399w" data-sizes="(max-width: 1024px) 100vw, 1024px"></p>
+<h2 id="the-evolution-of-esg"><b>The Evolution of ESG</b></h2>
+<p><span style="font-weight: 400;">The ESG lens helps assess how an organization manages the risks and opportunities created by changing conditions, such as shifts in environmental, economic, and social systems.&nbsp;</span></p>
+<p><span style="font-weight: 400;">Some of these conditions were identified in earlier versions of sustainability-focused strategic and/or </span><b>regulatory frameworks</b><span style="font-weight: 400;">, including:</span></p>
+<h3 id="ehs-environmental-health-safety"><b>EHS (Environmental, Health, &amp; Safety)</b></h3>
+<p><span style="font-weight: 400;">As far back as the 1980s, organizations in the United States were considering how to use regulation to manage or reduce pollution (and other </span><b>negative externalities</b><span style="font-weight: 400;">) produced in the pursuit of </span><b>economic growth</b><span style="font-weight: 400;">. They sought to also improve employee labor and safety standards, although much progress remains to be made even today.</span></p>
+<h3 id="corporate-sustainability"><b>Corporate Sustainability</b></h3>
+<p><span style="font-weight: 400;">EHS evolved in the 1990s into what was then known as the </span><i><span style="font-weight: 400;">Corporate Sustainability</span></i><span style="font-weight: 400;"> movement. This emerged as some management teams wanted to focus on reducing their firm&rsquo;s environmental impacts beyond the reductions that had been legally mandated.&nbsp;</span></p>
+<p><span style="font-weight: 400;">It&rsquo;s widely agreed that corporate sustainability was often employed by management teams as a marketing tool to overstate (or otherwise misrepresent) efforts and </span><b>environmental impacts</b><span style="font-weight: 400;"> &ndash; a practice that would later become known as <a href="https://corporatefinanceinstitute.com/resources/esg/greenwashing/">greenwashing</a>.</span></p>
+<h3 id="csr-corporate-social-responsibility"><b>CSR (Corporate Social Responsibility)</b></h3>
+<p><span style="font-weight: 400;">By the early 2000s, the </span><b>Corporate Sustainability</b><span style="font-weight: 400;"> movement began to integrate ideas around how companies should respond to social issues &ndash; this would become known as </span><i><span style="font-weight: 400;">Corporate Social Responsibility</span></i><span style="font-weight: 400;">.&nbsp;</span></p>
+<p><b>Corporate philanthropy</b><span style="font-weight: 400;"> was a key component of CSR, although some critics argue that tax incentives made cash donations as attractive as their ultimate economic impact on recipients. Employee volunteerism was another hallmark of CSR.</span></p>
+<h3 id="esg"><b>ESG</b></h3>
+<p><span style="font-weight: 400;">Finally, by the late 2010s and into the 2020s, ESG emerged as a much more proactive (instead of reactive) movement.&nbsp;</span></p>
+<p><span style="font-weight: 400;">ESG has now evolved into a comprehensive </span><b>framework </b><span style="font-weight: 400;">that includes key elements around environmental and social impact, as well as how governance structures can be amended to maximize stakeholder well-being.</span></p>
+<h2 id="esg-finance-investing"><b>ESG, Finance, &amp; Investing</b></h2>
+<p><span style="font-weight: 400;">ESG really went mainstream when the framework became an integral part of many </span><b>institutional investors&rsquo;</b><span style="font-weight: 400;">&nbsp;playbooks. There are a growing number of ESG rating agencies that assign <a href="https://corporatefinanceinstitute.com/resources/esg/esg-score/">ESG scores</a>, as well as new and evolving </span><b>reporting frameworks</b><span style="font-weight: 400;">, all of which are improving the transparency and consistency of the ESG information that firms are reporting publicly (often called <a href="https://corporatefinanceinstitute.com/resources/esg/esg-disclosure/">ESG Disclosure</a>).</span></p>
+<p><span style="font-weight: 400;">The <a href="https://corporatefinanceinstitute.com/certifications/capital-markets-securities-analyst-cmsa/">Capital Markets</a> can be a powerful tool to create change. By restricting access to capital (or making the terms under which it&rsquo;s available less favorable), bad actors may be incentivized to improve performance across E, S, or G measures. Conversely, rewarding companies and their management teams that are performing well against </span><b>ESG factors</b><span style="font-weight: 400;"> encourages continued progress and improvements.</span></p>
+<p><span style="font-weight: 400;">Many <a href="https://corporatefinanceinstitute.com/resources/esg/esg-fund/">ESG investment vehicles</a> have emerged, including <a href="https://corporatefinanceinstitute.com/resources/esg/green-bond/">green bonds</a>, mutual funds, ETFs, and index funds (among others). These publicly traded instruments make it easier for investors to align their </span><b>investment decisions</b><span style="font-weight: 400;"> more closely with their own beliefs and values around E, S, or G factors.</span></p>
+<h2 id="what-is-an-esg-specialist"><b>What is an ESG Specialist?</b></h2>
+<p><span style="font-weight: 400;">If someone is an ESG specialist, it can mean a number of things. But in general, this is someone with very strong analytical skills and a comprehensive understanding of how ESG factors relate to risks and opportunities.</span></p>
+<p><b>ESG specialists</b><span style="font-weight: 400;"> may work in the analyst community, perhaps with <a href="https://corporatefinanceinstitute.com/resources/wealth-management/institutional-investor/">institutional investors</a> or <a href="https://corporatefinanceinstitute.com/resources/career/investment-banking-overview/">investment banks</a>. Alternatively, they may work in industry, at either private or public companies. In all instances, they are either directly or indirectly supporting organizations in their efforts to reach </span><b>net zero</b><span style="font-weight: 400;"> emissions and/or </span><b>carbon neutrality</b><span style="font-weight: 400;">.</span></p>
+<p><span style="font-weight: 400;">In the </span><b>public markets</b><span style="font-weight: 400;"> (in particular), there is growing pressure by regulators and other stakeholders that issuers produce clear, transparent, and comparable ESG disclosure alongside other quarterly filings and annual reporting.</span></p>
+<p><span style="font-weight: 400;">This article was prepared in collaboration with </span><a href="https://rhoimpact.com/" target="_blank" rel="noopener"><span style="font-weight: 400;">Rho Impact</span></a><span style="font-weight: 400;">.</span></p>
+<h2 id="more-resources">More Resources</h2>
+<p>Thank you for reading CFI&rsquo;S guide to ESG ( Environmental, Social, and Governance). To keep advancing your career, the additional CFI resources below will be useful:</p>
+<ul>
+<li style="font-weight: 400;" aria-level="1"><a href="https://corporatefinanceinstitute.com/resources/esg/esg-analyst-approach/"><span style="font-weight: 400;">An Analyst&rsquo;s Approach to ESG (interview)</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://corporatefinanceinstitute.com/resources/esg/carbon-accounting/"><span style="font-weight: 400;">Carbon Accounting</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://corporatefinanceinstitute.com/resources/esg/carbon-markets/"><span style="font-weight: 400;">Carbon Markets</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="https://corporatefinanceinstitute.com/resources/wealth-management/asset-allocation/"><span style="font-weight: 400;">Asset Allocation</span></a></li>
+<li aria-level="1"><strong><a href="https://corporatefinanceinstitute.com/topic/environment-social-governance-esg/">See all ESG resources</a></strong></li>
+</ul>
+</section>
+<section class="section related-courses-section ">
+<div class="single-notice clearfix        banner banner_course " style="">
+<div class="notice-image-wrapper course">
+<div class="notice-image course" style="background-image:url('https://s3.eu-central-1.amazonaws.com/cfi-lms-prod-multimedia/course_image/0a9dceda-5173-4f3a-9b6e-7d241eb42713.')"></div>
+<div class="notice-badge course"></div>
+</div>
+<div class="notice-content">
+<h3>
+Introduction to ESG </h3>
+<p>An overview of the Environmental, Social, and Governance (ESG) framework</p><p>
+<a class="btn btn-default" target="_self" href="https://learn.corporatefinanceinstitute.com/course/environmental-social-governance/enroll">Get Started</a></p>
+</div>
+</div>
+</section>
+<div class="sharing sharing-section">
+<div class="container">
+<div class="row">
+<div class="social-share">
+<ul class="social-share-btns">
+<li class="social-share-title">
+<span>Share this article</span>
+</li>
+<li class="social-share-btn social-share-btn-linkedin ">
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fcorporatefinanceinstitute.com%2Fresources%2Fesg%2Fesg-environmental-social-governance%2F&amp;summary=ESG+%28Environmental%2C+Social+and+Governance%29" title="Share on LinkedIn" class="share-in-window">
+<img src="" class="lazy " data-src="https://cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/images/linkedin.svg" alt="Share on LinkedIn">
+</a>
+</li>
+<li class="social-share-btn social-share-btn-facebook ">
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fcorporatefinanceinstitute.com%2Fresources%2Fesg%2Fesg-environmental-social-governance%2F" title="Share on Facebook" class="share-in-window">
+<img src="" class="lazy " data-src="https://cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/images/facebook.svg" alt="Share on Facebook">
+</a>
+</li>
+<li class="social-share-btn social-share-btn-twitter ">
+<a href="https://twitter.com/intent/tweet?text=ESG+%28Environmental%2C+Social+and+Governance%29&amp;url=https%3A%2F%2Fcorporatefinanceinstitute.com%2Fresources%2Fesg%2Fesg-environmental-social-governance%2F" title="Share on Twitter" class="share-in-window">
+<img src="" class="lazy " data-src="https://cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/images/twitter.svg" alt="Share on Twitter">
+</a>
+</li>
+<li class="social-share-btn social-share-btn-whatsapp ">
+<a href="https://wa.me/?text=https%3A%2F%2Fcorporatefinanceinstitute.com%2Fresources%2Fesg%2Fesg-environmental-social-governance%2F&amp;summary=ESG+%28Environmental%2C+Social+and+Governance%29" title="Share on WhatsApp" class="share-in-window">
+<img src="" class="lazy " data-src="https://cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/images/whatsapp.svg" alt="Share on WhatsApp">
+</a>
+</li>
+<li class="social-share-btn social-share-btn-copylink copy-to-clipboard" data-value="https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/">
+<a href="https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/" title="Copy link">
+<img src="" class="lazy copy-to-clipboard" data-src="https://cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/images/copylink.svg" alt="Copy link" data-value="https://corporatefinanceinstitute.com/resources/esg/esg-environmental-social-governance/">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class="footer-banner type-program program-esg" style="">
+<div class="container">
+<div class="content">
+<div class="title">Get Specialized with our (ESG)  Environmental Social Governance Bundle</div>
+<div class="text">Join over one million professionals who work for global institutions such as Blackrock, Credit Suisse, McKinsey & Company.</div>
+<div class="button-container">
+<a href="https://corporatefinanceinstitute.com/certifications/environmental-social-governance-specialist/" class="btn-main btn-default">Learn More</a>
+</div>
+</div>
+<div class="image" style="background-image: url('//cdn.corporatefinanceinstitute.com/assets/esg-banner-image.png')"></div>
+</div>
+</section>
+<footer class="section">
+<div class="container">
+<div class="logo-container">
+<a class="logo-wrapper" href="https://corporatefinanceinstitute.com">
+<span class="sr-only">CFI logo</span>
+<div class="logo-footer lazybg" data-lazybg="https://cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/images/logotm.svg"></div>
+</a>
+<a href="https://corporatefinanceinstitute.com/about-cfi/careers-at-cfi/?internal-source=footer" class="footer_button">We're hiring!</a>
+</div>
+<div class="menu-wrapper footer-icons-floating-as-row">
+<ul id="menu-footer-navigation" class="footer-navigation "><li class="menu-item menu-item-has-children menu-company"><a href="https://corporatefinanceinstitute.com/about-cfi/">Company</a>
+<ul class="sub-menu">
+<li class="menu-item menu-about"><a href="https://corporatefinanceinstitute.com/about-cfi/">About</a></li>
+<li class="menu-item menu-meet-our-team"><a href="https://corporatefinanceinstitute.com/about-cfi/faculty-team/">Meet Our Team</a></li>
+<li class="menu-item menu-careers-at-cfi"><a href="https://corporatefinanceinstitute.com/about-cfi/careers-at-cfi/">Careers at CFI</a></li>
+<li class="menu-item menu-learner-reviews"><a href="https://corporatefinanceinstitute.com/learner-reviews/">Learner Reviews</a></li>
+<li class="menu-item menu-for-teams"><a href="https://corporatefinanceinstitute.com/cfi-for-teams/">For Teams</a></li>
+<li class="menu-item menu-affiliates"><a href="https://corporatefinanceinstitute.com/affiliates/">Affiliates</a></li>
+<li class="menu-item menu-for-universities"><a href="https://corporatefinanceinstitute.com/about-cfi/university-partnerships/">For Universities</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-has-children menu-certifications"><a href="https://corporatefinanceinstitute.com/certifications/">Certifications</a>
+<ul class="sub-menu">
+<li class="menu-item menu-financial-modeling-valuation-analyst-fmva"><a href="https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/">Financial Modeling &#038; Valuation Analyst (FMVA)®</a></li>
+<li class="menu-item menu-commercial-banking-credit-analyst-cbca"><a href="https://corporatefinanceinstitute.com/certifications/commercial-banking-credit-analyst-certification-cbca/">Commercial Banking &#038; Credit Analyst (CBCA)™</a></li>
+<li class="menu-item menu-capital-markets-securities-analyst-cmsa"><a href="https://corporatefinanceinstitute.com/certifications/capital-markets-securities-analyst-cmsa/">Capital Markets &#038; Securities Analyst (CMSA)®</a></li>
+<li class="menu-item menu-business-intelligence-data-analyst-bida"><a href="https://corporatefinanceinstitute.com/certifications/business-intelligence-data-analyst-bida/">Business Intelligence &#038; Data Analyst (BIDA)™</a></li>
+<li class="menu-item menu-financial-planning-wealth-management-professional-fpwm"><a href="https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/">Financial Planning &#038; Wealth Management Professional (FPWM)®</a></li>
+<li class="menu-item menu-cpe-credits"><a href="https://corporatefinanceinstitute.com/about-cfi/cpe-credits-online/">CPE Credits</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-has-children menu-courses"><a href="https://corporatefinanceinstitute.com/collections/">Courses</a>
+<ul class="sub-menu">
+<li class="menu-item menu-accounting"><a href="https://corporatefinanceinstitute.com/topic/accounting/">Accounting</a></li>
+<li class="menu-item menu-excel"><a href="https://corporatefinanceinstitute.com/topic/excel/">Excel</a></li>
+<li class="menu-item menu-finance"><a href="https://corporatefinanceinstitute.com/topic/financial-planning-analysis-fpa/">Finance</a></li>
+<li class="menu-item menu-financial-modeling"><a href="https://corporatefinanceinstitute.com/topic/financial-modeling/">Financial Modeling</a></li>
+<li class="menu-item menu-environment-social-governance-esg"><a href="https://corporatefinanceinstitute.com/topic/environment-social-governance-esg/">Environment, Social, Governance (ESG)</a></li>
+<li class="menu-item menu-business-intelligence"><a href="https://corporatefinanceinstitute.com/topic/business-intelligence/">Business Intelligence</a></li>
+<li class="menu-item menu-data-science"><a href="https://corporatefinanceinstitute.com/topic/data-science/">Data Science</a></li>
+<li class="menu-item menu-machine-learning"><a href="https://corporatefinanceinstitute.com/topic/data-science-machine-learning/">Machine Learning</a></li>
+<li class="menu-item menu-all-courses"><a href="https://corporatefinanceinstitute.com/collections/">All Courses</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-has-children menu-support"><a href="https://help.corporatefinanceinstitute.com/">Support</a>
+<ul class="sub-menu">
+<li class="menu-item menu-financial-aid"><a href="https://corporatefinanceinstitute.com/about-cfi/financial-aid/">Financial Aid</a></li>
+<li class="menu-item menu-help-faq"><a href="https://help.corporatefinanceinstitute.com/">Help | FAQ</a></li>
+<li class="menu-item menu-contact-us"><a href="https://corporatefinanceinstitute.com/about-cfi/contact-us/">Contact Us</a></li>
+<li class="menu-item menu-scholarships"><a href="https://corporatefinanceinstitute.com/resources/career/cfi-scholarship-winners/">Scholarships</a></li>
+</ul>
+</li>
+<li class="active menu-item menu-item-has-children menu-resources"><a href="https://corporatefinanceinstitute.com/resources/">Resources</a>
+<ul class="sub-menu">
+<li class="menu-item menu-career"><a href="https://corporatefinanceinstitute.com/topic/career/">Career</a></li>
+<li class="menu-item menu-team-development-resources"><a href="https://corporatefinanceinstitute.com/topic/team-development/">Team Development Resources</a></li>
+<li class="menu-item menu-elearning"><a href="https://corporatefinanceinstitute.com/topic/elearning/">eLearning</a></li>
+<li class="menu-item menu-excel-resources"><a href="https://corporatefinanceinstitute.com/topic/excel/">Excel Resources</a></li>
+<li class="menu-item menu-financial-modeling-resources"><a href="https://corporatefinanceinstitute.com/topic/financial-modeling/">Financial Modeling Resources</a></li>
+<li class="menu-item menu-accounting-resources"><a href="https://corporatefinanceinstitute.com/topic/accounting/">Accounting Resources</a></li>
+<li class="active menu-item menu-all-free-resources"><a href="https://corporatefinanceinstitute.com/resources/">All Free Resources</a></li>
+</ul>
+</li>
+</ul>
+<div class="footer-icons footer-icons-floating footer-icons-floating-as-row">
+<div class="row">
+<div class="footer-icon ">
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://seal-mbc.bbb.org/inc/legacy.js"></script><a href="https://www.bbb.org/ca/bc/vancouver/profile/online-education/corporate-finance-institute-cfi-0037-2405665/#sealclick" id="bbblink" class="ruhzbus" target="_blank" rel="nofollow"><img class="lazy" data-src="https://seal-mbc.bbb.org/logo/ruhzbul/bbb-2405665.png" style="border: 0;" alt="Corporate Finance Institute (CFI) BBB Business Review" /></a> </div>
+<div class="footer-icon ">
+<a href="https://www.inspiring-workplaces.com/" rel="nofollow noreferrer" target="_blank">
+<span class="sr-only">Logo</span>
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/north_america.png" class="attachment-full size-full lazy" alt="">
+</a>
+</div>
+<div class="footer-icon corporate-culture-winner">
+<a href="https://waterstonehc.com/canadas-most-admired/canadas-most-admired-corporate-cultures/corporate-culture-winners/" rel="nofollow noreferrer" target="_blank">
+<span class="sr-only">Logo</span>
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/CFI-Corporate-Culture-Winner.png" class="attachment-full size-full lazy" alt="">
+</a>
+</div>
+<div class="footer-icon soc2-logo">
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/soc2-logo.png" class="attachment-full size-full lazy" alt="">
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer-icons ">
+<div class="row">
+<div class="footer-icon ">
+<a href="https://corporatefinanceinstitute.com/cfi-for-teams/" rel="">
+<span class="sr-only">Logo</span>
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/cfi-for-teams-brand.svg" class="attachment-full size-full lazy" alt="">
+</a>
+</div>
+<div class="footer-icon ">
+<a href="https://corporatefinanceinstitute.com/about-cfi/about-macabacus/" rel="">
+<span class="sr-only">Logo</span>
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/macabacus-logo.svg" class="attachment-full size-full lazy" alt="">
+</a>
+</div>
+</div>
+</div>
+<div class="footer-icons footer-icons-floating">
+<div class="row">
+<div class="footer-icon ">
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://seal-mbc.bbb.org/inc/legacy.js"></script><a href="https://www.bbb.org/ca/bc/vancouver/profile/online-education/corporate-finance-institute-cfi-0037-2405665/#sealclick" id="bbblink" class="ruhzbus" target="_blank" rel="nofollow"><img class="lazy" data-src="https://seal-mbc.bbb.org/logo/ruhzbul/bbb-2405665.png" style="border: 0;" alt="Corporate Finance Institute (CFI) BBB Business Review" /></a> </div>
+<div class="footer-icon ">
+<a href="https://www.inspiring-workplaces.com/" rel="nofollow noreferrer" target="_blank">
+<span class="sr-only">Logo</span>
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/north_america.png" class="attachment-full size-full lazy" alt="">
+</a>
+</div>
+<div class="footer-icon corporate-culture-winner">
+<a href="https://waterstonehc.com/canadas-most-admired/canadas-most-admired-corporate-cultures/corporate-culture-winners/" rel="nofollow noreferrer" target="_blank">
+<span class="sr-only">Logo</span>
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/CFI-Corporate-Culture-Winner.png" class="attachment-full size-full lazy" alt="">
+</a>
+</div>
+<div class="footer-icon soc2-logo">
+<img src="" data-src="//cdn.corporatefinanceinstitute.com/assets/soc2-logo.png" class="attachment-full size-full lazy" alt="">
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="footer-links-subsection">
+<div class="bottom-menu">
+<div class="copyright-wrap">
+© 2015 to 2023 CFI Education Inc. </div>
+<div class="social-links-wrap">
+<a class="social-button" title="Follow us on LinkedIn" href="https://www.linkedin.com/school/corporate-finance-institute-cfi/" target="_blank" rel="nofollow noreferrer">
+<span class="sr-only">Follow us on LinkedIn</span>
+<i class="fab fa-linkedin"></i>
+</a>
+<a class="social-button" title="Follow us on Instagram" href="https://www.instagram.com/corporatefinanceinstitute/" target="_blank" rel="nofollow noreferrer">
+<span class="sr-only">Follow us on Instagram</span>
+<i class="fab fa-instagram"></i>
+</a>
+<a class="social-button" title="Follow us on Facebook" href="https://www.facebook.com/corporatefinanceinstitute.CFI/" target="_blank" rel="nofollow noreferrer">
+<span class="sr-only">Follow us on Facebook</span>
+<i class="fab fa-facebook"></i>
+ </a>
+<a class="social-button" title="Follow us on YouTube" href="https://www.youtube.com/c/Corporatefinanceinstitute-CFI" target="_blank" rel="nofollow noreferrer">
+<span class="sr-only">Follow us on YouTube</span>
+<i class="fab fa-youtube"></i>
+</a>
+</div>
+<div class="footer-links-wrap">
+<ul id="menu-footer-links" class="footer-links-menu"><li class="menu-item menu-privacy-policy"><a href="https://corporatefinanceinstitute.com/about-cfi/privacy-policy/">Privacy Policy</a></li>
+<li class="menu-item menu-terms-of-use"><a href="https://corporatefinanceinstitute.com/about-cfi/website-terms-of-use/">Terms of Use</a></li>
+<li class="menu-item menu-terms-of-service"><a href="https://corporatefinanceinstitute.com/about-cfi/cfi-terms-of-service/">Terms of Service</a></li>
+<li class="menu-item menu-legal"><a href="https://corporatefinanceinstitute.com/about-cfi/legal/">Legal</a></li>
+</ul> </div>
+</div>
+</div>
+</div>
+</footer>
+<script type="rocketlazyloadscript" async data-rocket-type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=TsKLPy"></script>
+<div class="footer-fixed">
+</div>
+<div class="search-fixed-box " id="searchFixedBox">
+<div class="mobile-close-btn closeSearchFixedBox">
+<i class="far fa-times"></i>
+</div>
+
+<div class="search-header">
+<div class="container">
+<div class="row">
+<a class="brand" href="https://corporatefinanceinstitute.com/">
+Corporate Finance Institute </a>
+<div class="search-box">
+<form role="search" method="get" class="search-form" action="https://corporatefinanceinstitute.com">
+<input class="search-field" autocomplete="off" placeholder="Search" name="s" data-id="callTheSearchBox" required="" type="search">
+<div class="icon-search"></div>
+<div class="cancel-button closeSearchFixedBox">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 25 25">
+<circle cx="12.5" cy="12.5" r="12.5" fill="#3271D2" />
+<g transform="translate(6.818 6.818)">
+<path d="M0,0,11.418,10.21" transform="matrix(0.998, 0.07, -0.07, 0.998, 0.712, 0.219)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" />
+<path d="M0,0,11.418,10.21" transform="translate(11.156) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3" />
+</g>
+</svg>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container search-fixed-box-body search-result ">
+<div class="row">
+<div class="col-12" id="searchResult">
+<div class="row">
+<div class="col-12">
+<div class="back-home-container">
+<a href="https://corporatefinanceinstitute.com" class="link-back" data-ignore-recent-search="true">Back to Website</a>
+</div>
+<div class="search-term-result">
+0 search results for &lsquo;<span class="term"></span>&rsquo;
+</div>
+<div class="row"><div class="col-md-6 col-sm-12"></div><div class="col-md-6 col-sm-12 search-section-courses"></div></div><div class="search-section">
+<div class="search-section-body">
+<div class="people-also-search">
+<div class="search-terms">
+<span class="title">
+People also search for:
+</span>
+<span class="search-term">
+excel </span>
+<span class="search-term">
+Free </span>
+<span class="search-term">
+free courses </span>
+<span class="search-term">
+accounting </span>
+<span class="search-term">
+Balance sheet </span>
+<span class="search-term">
+2 </span>
+<span class="search-term">
+wacc </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="container search-fixed-box-body search-preview ">
+<div class="row">
+<div class="col-12" id="previewContent">
+<div class="search-section">
+<div class="search-section-header">
+<div class="sub-title">
+Explore Our Certifications </div>
+</div>
+<div class="search-section-body">
+<div class="certificate-cards">
+<a class="certificate-card" href="https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/" style="background: linear-gradient(45deg, #692424 0%, #C96969 100%);">
+<div class="certificate-title">
+Financial Modeling & Valuation Analyst (FMVA)® </div>
+<div class="certificate-logo lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/fmva-certified-icon-1.svg"></div>
+<div class="certificate-image lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/FMVA_Certificate_CFI.jpg"></div>
+<div class="certificate-link-hover">Learn more</div>
+</a>
+<a class="certificate-card" href="https://corporatefinanceinstitute.com/certifications/commercial-banking-credit-analyst-certification-cbca/" style="background:  linear-gradient(257.61deg, #F1AB5B 0%, #A4461B 100%)">
+<div class="certificate-title">
+Commercial Banking & Credit Analyst (CBCA)™ </div>
+<div class="certificate-logo lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/cbca-certified-icon-1.svg"></div>
+<div class="certificate-image lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/cbca_certificate_image_cfi.jpg"></div>
+<div class="certificate-link-hover">Learn more</div>
+</a>
+<a class="certificate-card" href="https://corporatefinanceinstitute.com/certifications/capital-markets-securities-analyst-cmsa/" style="background: linear-gradient(225deg, #8562DA 0%, #132E57 100%);">
+<div class="certificate-title">
+Capital Markets & Securities Analyst (CMSA)® </div>
+<div class="certificate-logo lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/CMSA-Certification-badge-1.svg"></div>
+<div class="certificate-image lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/cmsa_certificate_image_cfi.jpg"></div>
+<div class="certificate-link-hover">Learn more</div>
+</a>
+<a class="certificate-card" href="https://corporatefinanceinstitute.com/certifications/business-intelligence-data-analyst-bida/" style="background: linear-gradient(45deg, #1C4582 0%, #5C8EDB 100%)">
+<div class="certificate-title">
+Certified Business Intelligence & Data Analyst (BIDA)™ </div>
+<div class="certificate-logo lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/bida-logo.svg"></div>
+<div class="certificate-image lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/Certificate-BIDA.png"></div>
+<div class="certificate-link-hover">Learn more</div>
+</a>
+<a class="certificate-card" href="https://corporatefinanceinstitute.com/certifications/financial-planning-and-wealth-management-fpwm-program/" style="background: linear-gradient(45deg, #25685C 0%, #32A087 100%);">
+<div class="certificate-title">
+Financial Planning & Wealth Management (FPWM)® </div>
+<div class="certificate-logo lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/fpwm-logo.svg"></div>
+<div class="certificate-image lazybg" data-lazybg="//cdn.corporatefinanceinstitute.com/assets/FPWM_Certificate_CFI.jpg"></div>
+<div class="certificate-link-hover">Learn more</div>
+</a>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-6 col-sm-12"><div class="search-section">
+<div class="search-section-header">
+<div class="sub-title">
+Resources </div>
+</div>
+<div class="search-section-body">
+<div id="_ddcf50c292" class="search-box-cards-wrapper">
+<div class="page-card ">
+<a href="https://corporatefinanceinstitute.com/resources/excel/excel-shortcuts-pc-mac/" data-title="Excel Shortcuts PC Mac">
+<span class="page-content">
+<span class="page-title">
+Excel Shortcuts PC Mac </span>
+<span class="page-description">
+List of Excel Shortcuts
+Excel shortcuts[citation... </span>
+</span>
+</a>
+</div>
+<div class="page-card ">
+<a href="https://corporatefinanceinstitute.com/resources/financial-modeling/free-financial-modeling-guide/" data-title="Financial Modeling Guidelines">
+<span class="page-content">
+<span class="page-title">
+Financial Modeling Guidelines </span>
+<span class="page-description">
+CFI’s free Financial Modeling Guidelines is a thorough and complete resource covering model design, model building blocks, and common tips, tricks, and... </span>
+</span>
+</a>
+</div>
+<div class="page-card ">
+<a href="https://corporatefinanceinstitute.com/resources/data-science/sql-data-types/" data-title="SQL Data Types">
+<span class="page-content">
+<span class="page-title">
+SQL Data Types </span>
+<span class="page-description">
+What are SQL Data Types?
+The Structured Query Language (SQL) comprises several different data types that allow it to store different types of information... </span>
+</span>
+</a>
+</div>
+<div class="page-card ">
+<a href="https://corporatefinanceinstitute.com/resources/data-science/structured-query-language-sql/" data-title="Structured Query Language (SQL)">
+<span class="page-content">
+<span class="page-title">
+Structured Query Language (SQL) </span>
+<span class="page-description">
+What is Structured Query Language (SQL)?
+Structured Query Language (SQL) is a specialized programming language designed for interacting with a database.... </span>
+</span>
+</a>
+</div>
+</div>
+</div>
+ <div class="search-section-footer">
+<a href="https://corporatefinanceinstitute.com/resources/" class="btn-link-arrow right" data-title="Resources">
+<span class="desktop">See All Resources</span>
+<span class="mobile">See All</span>
+</a>
+</div>
+</div>
+</div><div class="col-md-6 col-sm-12"><div class="search-section">
+<div class="search-section-header">
+<div class="sub-title">
+Popular Courses </div>
+</div>
+<div class="search-section-body">
+<div id="_7ef22b9769" class="search-box-cards-wrapper">
+<div class="course-card  ">
+<div class="course-content">
+<a href="https://corporatefinanceinstitute.com/course/excel-fundamentals-formulas-for-finance/" data-title="Excel Fundamentals - Formulas for Finance">
+<span class="course-content-header">
+<span class="course-image">
+<img class="lazy" src="" alt="" data-src="https://s3.eu-central-1.amazonaws.com/cfi-lms-prod-multimedia/course_image/fe7624c3-8c6f-4f5c-96d8-efd30a0a6ca7." />
+</span>
+<span class="course-title-wrap">
+<span class="course-before-title">
+<span class="course-before-title-category">
+<span class="course-free-badge">
+Free!
+</span>
+<span>FMVA® Prep Course</span>
+</span>
+<span>3.5h</span>
+</span>
+<span class="course-title">
+Excel Fundamentals - Formulas for Finance </span>
+</span>
+</span>
+</a>
+</div>
+</div>
+<div class="course-card  ">
+<div class="course-content">
+<a href="https://corporatefinanceinstitute.com/course/3-statement-modeling/" data-title="Building a 3 Statement Financial Model">
+<span class="course-content-header">
+<span class="course-image">
+<img class="lazy" src="" alt="" data-src="https://s3.eu-central-1.amazonaws.com/cfi-lms-prod-multimedia/course_image/d9b0ad26-1858-4f04-a019-314529de6e45." />
+</span>
+<span class="course-title-wrap">
+<span class="course-before-title">
+<span class="course-before-title-category">
+<span>FMVA® Required</span>
+</span>
+<span>5.5h</span>
+</span>
+<span class="course-title">
+Building a 3 Statement Financial Model </span>
+</span>
+</span>
+</a>
+</div>
+</div>
+<div class="course-card  ">
+<div class="course-content">
+<a href="https://corporatefinanceinstitute.com/?post_type=course&p=103229" data-title="Business Valuation Modeling Part I">
+<span class="course-content-header">
+<span class="course-image">
+<img class="lazy" src="" alt="" data-src="https://s3.eu-central-1.amazonaws.com/cfi-lms-prod-multimedia/course_image/95a97633-f94b-4f22-8f78-b555b81315c7." />
+</span>
+<span class="course-title-wrap">
+<span class="course-before-title">
+<span class="course-before-title-category">
+<span>FMVA® Required</span>
+</span>
+<span>7.5h</span>
+</span>
+<span class="course-title">
+Business Valuation Modeling Part I </span>
+</span>
+</span>
+</a>
+</div>
+</div>
+<div class="course-card  ">
+<div class="course-content">
+<a href="https://corporatefinanceinstitute.com/course/sensitivity-analysis-financial-modeling/" data-title="Scenario & Sensitivity Analysis in Excel">
+<span class="course-content-header">
+<span class="course-image">
+ <img class="lazy" src="" alt="" data-src="https://s3.eu-central-1.amazonaws.com/cfi-lms-prod-multimedia/course_image/0d220ea8-6ce4-4fde-9187-c6737b1b596b." />
+</span>
+<span class="course-title-wrap">
+<span class="course-before-title">
+<span class="course-before-title-category">
+<span>FMVA® Required</span>
+</span>
+<span>2.5h</span>
+</span>
+<span class="course-title">
+Scenario & Sensitivity Analysis in Excel </span>
+</span>
+</span>
+</a>
+</div>
+</div>
+<div class="course-card  ">
+<div class="course-content">
+<a href="https://corporatefinanceinstitute.com/course/excel-dashboard-and-data-visualization-course-online/" data-title="Dashboards & Data Visualization">
+<span class="course-content-header">
+<span class="course-image">
+<img class="lazy" src="" alt="" data-src="https://s3.eu-central-1.amazonaws.com/cfi-lms-prod-multimedia/course_image/5c9d5f1b-9458-4f5a-93fd-cda1e5c68297." />
+</span>
+<span class="course-title-wrap">
+<span class="course-before-title">
+<span class="course-before-title-category">
+<span>BIDA™ Required</span>
+</span>
+<span>6h</span>
+</span>
+<span class="course-title">
+Dashboards & Data Visualization </span>
+</span>
+</span>
+</a>
+</div>
+</div>
+<div class="course-card  ">
+<div class="course-content">
+<a href="https://corporatefinanceinstitute.com/course/leveraged-buyout-lbo-modeling/" data-title="Leveraged Buyout LBO Modeling">
+<span class="course-content-header">
+<span class="course-image">
+<img class="lazy" src="" alt="" data-src="https://s3.eu-central-1.amazonaws.com/cfi-lms-prod-multimedia/course_image/ef32312b-7bc1-4f1c-a66c-9c437410d9ae." />
+</span>
+<span class="course-title-wrap">
+<span class="course-before-title">
+<span class="course-before-title-category">
+<span>FMVA® Electives</span>
+</span>
+<span>15h</span>
+</span>
+<span class="course-title">
+Leveraged Buyout LBO Modeling </span>
+</span>
+</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="search-section-footer">
+<a href="https://corporatefinanceinstitute.com/collections/most-popular/" class="btn-link-arrow right" data-title="Popular Courses">
+<span class="desktop">See All Courses</span>
+<span class="mobile">See All</span>
+</a>
+</div>
+</div>
+</div></div>
+<div class="row" id="searchPortableBlock">
+<div class="col-md-6 col-sm-12" id="recentSearches">
+<div class="search-section">
+<div class="search-section-header">
+<div class="sub-title">
+Recent Searches </div>
+</div>
+<div class="search-section-body">
+<div class="links-list">
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 col-sm-12">
+<div class="search-section">
+<div class="search-section-header">
+<div class="sub-title">
+Suggestions </div>
+</div>
+<div class="search-section-body">
+<div class="links-list">
+<a href="https://corporatefinanceinstitute.com/collections/?cost=free">
+Free Courses </a>
+<a href="https://corporatefinanceinstitute.com/topic/excel/">
+Excel Courses </a>
+<a href="https://corporatefinanceinstitute.com/certifications/financial-modeling-valuation-analyst-fmva-program/">
+Financial Modeling & Valuation Analyst (FMVA)® </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+        document.addEventListener( 'wpcf7mailsent', function( event ) {
+        if( "fb_pxl_code" in event.detail.apiResponse){
+          eval(event.detail.apiResponse.fb_pxl_code);
+        }
+      }, false );
+    </script>
+
+<div id='fb-pxl-ajax-code'></div><script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='//cdn.corporatefinanceinstitute.com/wp-content/plugins/roots-share-buttons/assets/scripts/share-buttons.js?ver=1' id='roots-share-buttons-js'></script>
+<script type='text/javascript' id='afl-wc-utm-public-js-extra'>
+/* <![CDATA[ */
+var afl_wc_utm_public = {"ajax_url":"https:\/\/corporatefinanceinstitute.com\/wp-admin\/admin-ajax.php","action":"afl_wc_utm_view","nonce":"","cookie_prefix":"afl_wc_utm_","cookie_expiry":{"days":90},"cookie_renewal":"force","cookie_consent_category":"statistics","domain_info":{"domain":"corporatefinanceinstitute.com","path":"\/"},"last_touch_window":"1800","wp_consent_api_enabled":"","user_has_active_attribution":"0","attr_first_non_utm":"0"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='//cdn.corporatefinanceinstitute.com/wp-content/plugins/afl-wc-utm/public/js/afl-wc-utm-public.min.js?ver=2.7.3' id='afl-wc-utm-public-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='//cdn.corporatefinanceinstitute.com/wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.16.2' id='gtm4wp-form-move-tracker-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/corporatefinanceinstitute.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type='text/javascript' id='sage/js-js-extra'>
+/* <![CDATA[ */
+var ajax_global = {"ajax_url":"https:\/\/corporatefinanceinstitute.com\/wp-admin\/admin-ajax.php","site_url":"https:\/\/corporatefinanceinstitute.com","thinkific_url":"https:\/\/thinkific.corporatefinanceinstitute.com\/ajax\/","thinkific_url_api":"https:\/\/thinkific.corporatefinanceinstitute.com\/api"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='//cdn.corporatefinanceinstitute.com/wp-content/themes/cfi/dist/scripts/main-14f5197f84.js?ver=746e8ec3d6fec9320d480ab1e337d5b0' id='sage/js-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="wpsp-script-frontend"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+      if (typeof(jQuery) !== 'undefined') {
+        jQuery('body').on('user_interacted', function() {
+          
+jQuery(document).ready(function(){
+!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});
+});
+
+jQuery(document).ready(function(){
+window.Beacon('init', '502360b4-52f7-46dd-902b-7daddfb94664');
+});
+
+          jQuery('body').trigger('beacon_initialized');
+          window.beacon_initialized = true;
+        });
+      }
+    </script>
+<div id="brochure-confirm"></div> </body>
+</html>
